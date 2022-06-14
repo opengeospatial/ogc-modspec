@@ -1,0 +1,464 @@
+[[cls-7]]
+== Mapping this standard to types of models
+
+=== Semantics
+
+The previous section defined requirements for conformance to this standard, but
+testing for that conformance may depend on how the various forms and parts of a
+candidate conformant standard are viewed. This clause will define how those views
+are to be defined in most of the common cases. Standards that take an alternative
+mechanism to the ones listed here must be tested solely on the structure of their
+conformance test suite, until an extension to this standard is defined for that
+alternate mechanism.
+
+Standards are often structured about some form of modeling language, or
+implementation paradigm. This clause looks at some common types of models and
+defines a mechanism to map parts of the model (language, schema, etc.) to the
+conformance classes used as the specification model from <<cls-6-1>>.
+
+As suggested in Clause <<req-22>>, the structure of the normative clauses in a
+standard should parallel the structure of the conformance requirements classes in
+that standard. The structure of the normative clauses in a well written
+specification will follow the structure of its model; this means that all three are
+parallel.
+
+=== Data Models
+
+==== Common modeling issues
+
+#If a data model is to be used to define the parameters of operational interfaces,
+then that model should belong in the core since it can be considered as part of a
+common reference model and vocabulary.#
+
+If a data mode is to be used to create "data transfer" elements, the issue is more
+complex. In the use of parameter names and types in the operational model above, the
+definition of a common vocabulary in the core is justifiable. In the case where data
+transfer elements are being defined, it may be that some types and elements are a
+defining separator between conformance classes and have to exist independently of
+such data elements defined for non-dependent classes. *#For these reasons, care
+should be taken in creating separable data transfer schemas across requirements.#*
+Dependencies in the schemas will have to parallel the dependencies in the
+requirements classes. The mechanism for enforcing this is dependent on the schema
+language.
+
+[[cls-7-2-2]]
+==== Requirements class: UML model extends The Specification
+
+UML is an OMG™ and an ISO standard for expressing object models. If the organizing
+mechanism for the data model used in the specification is an object model, then the
+mapping from parts of the model to the requirements classes should follow the
+logical mechanism described here.
+
+*#The terminology used here is common to all versions of the UML standard, and may
+be applied to any such version.#*
+
+First, by the requirements above, the extension relationship of this conformance
+test class to the core will be made explicit.
+
+[[req-28]]
+[requirement,model=ogc,type="general"]
+====
+#An implementation passing the UML conformance test class shall first pass the core
+conformance test class.#
+====
+
+The things in a UML Structural Model are:
+
+. [[uml-sm-1]]Packages can be contained in one another. A subpackage of a package
+stem:[A] is either stem:[A] or a packages contained in a subpackage of stem:[A]. A
+leaf package is one that contains no subpackages other than itself, but does contain
+classifiers.
+. [[uml-sm-2]]Class or more properly "Classifier" (classes, interfaces, types, data
+types, enumerations, code lists{blank}footnote:[Code list is an ISO TC 211 extension
+to UML.]), are contained in a package or (rarely) another classifier. In all cases,
+they are eventually contained in a package.
+. [[uml-sm-3]]Attribute of a classifier, consisting of a name and a type for its
+value (possibly modified with a cardinality), contained in the classifier.
+. [[uml-sm-4]]Operation, consisting of parameters and a return type, contained in
+its classifier.
+. [[uml-sm-5]]Parameters of an operations consisting of a name and a type for its
+value (just like attributes).
+. [[uml-sm-6]]Return parameters containing the results of the operation, considered
+to be part of the operation (just like the other parameters).
+. [[uml-sm-7]]Associations between classes, consisting of a role name (if it is
+visible from its containing class) and a target type (possibly with cardinality); if
+navigable, the role is considered to be in its source class and dependent on its
+target class; if not navigable, it is neither (a non-navigable role while still part
+of an association, does not affect class implementations. All association must have
+at least one navigable role).
+. [[uml-sm-8]]Constraints, which may be scoped to any of the elements
+<<uml-sm-1>>-<<uml-sm-5>> above. Constraints may be expressed in text, or using a
+symbolic notation (usually but not necessarily OCL).
+
+Packages have dependencies upon one another based on usage. Any of the following conditions will produce a direct package dependency from package stem:[A] to package
+stem:[B]:
+
+. A classifier in stem:[A] uses in its definition a classifier in stem:[B] by using
+it in or as:
+
+.. an explicit dependency relation
+.. the type of an attribute
+.. the target of a navigable association role
+.. the link class of an association that has one of these navigable roles
+.. the key class for a navigable association role
+.. the type of a parameter used in an operation
+.. the return type of an operation
+.. a generalization or realization association
+
+. A subpackage of stem:[A] is dependent on a subpackage of stem:[B].
+
+All of these are statements about the validity of the dependency graph of a UML
+model. Not all UML editors enforce the validity of the dependency graphs of classes
+or packages, so this must be checked separately.
+
+Assuming all legitimate direct package dependencies are included in the UML model,
+the conformance/requirements class associated to a package stem:[A] will directly
+reference the conformance/requirements class associated to another package stem:[B],
+if and only if stem:[A] is dependent on stem:[B]. Indirect dependencies will be
+dealt with as the conformance classes cascade.
+
+This clause uses UML terminology, but other object modeling languages and, if
+needed, the object code itself can be mapped to a UML model. An ERA model can be
+considered as a partial Object Oriented Programming model, and can easily be recast
+as UML.
+
+[[req-29]]
+[requirement,model=ogc,type="general"]
+====
+#To be conformant to this UML conformance class, UML shall be used to express the
+object model, either as the core mechanism of the standard or as a normative adjunct
+to formally explain the standard in a model.#
+====
+
+[[req-30]]
+[requirement,model=ogc,type="general"]
+====
+#A UML model shall have an explicit dependency graph for the leaf packages and
+external packages used by the standard consistent with the way their classifiers use
+those of other packages.#
+====
+
+NOTE:: External packages having predated the current version of the standard will
+not normally have dependencies to packages within the standard.
+
+Other dependencies (indirect) will arise from the transitive closure of the above
+direct dependencies. That means if stem:[A] depends on stem:[B], and stem:[B]
+depends on stem:[C] then stem:[A] depends on stem:[C]. Since these indirect
+dependencies will show up in the cascade of included conformance tests based solely
+on the direct dependencies, we can ignore them for effects on structure.
+
+Since a package can consist solely of other packages, there is always the capability
+to define in UML a single package that will correspond to a particular requirements
+class and its associated conformance class.
+
+[[req-31]]
+[requirement,model=ogc,type="general"]
+====
+#A UML leaf package shall be associated directly to only one requirements class.#
+====
+
+[[req-32]]
+[requirement,model=ogc,type="general"]
+====
+#Each requirements class shall be associated to a unique package in the model and
+include either directly or by a dependency any requirement associated to any of its
+subpackages.#
+====
+
+The class definitions are the "requirements" of a UML expressed standard. So the
+logical consequence of the above is to organize requirements modules based on leaf
+packages.
+
+[[req-33]]
+[requirement,model=ogc,type="general"]
+====
+#A requirements class shall be associated to some number of complete leaf packages
+and all classes and constraints in those packages.#
+====
+
+If a requirement uses or refers to elements of more than one package, then one of
+the packages will be called the source of the requirement, and the other targets.
+The requirement with the same source package will always be associated to same
+requirements module and class.
+
+[[req-34]]
+[requirement,model=ogc,type="general"]
+====
+#Classes that are common to all requirements classes shall be in a package
+associated to the core conformance/requirements class.#
+====
+
+This is actually a derived requirement and is repeated here for emphasis.
+
+This dependency of requirements classes will be consistent with the usual mechanism
+for describing the source and target of dependencies between packages. By Clause
+<<req-22>>, only classes in the source requirements class will be affected by the
+requirement.
+
+In UML source and target of dependency relation are defined in such a way that the
+source of the relation is dependent on the target of the relation.
+
+[[req-35]]
+[requirement,model=ogc,type="general"]
+====
+#In the UML model, if a "source" package is dependent on a "target" package then
+their requirements class shall be equal or the source package's class shall be an
+extension of the target package's class.#
+====
+
+This means that the dependency graph of the UML packages parallels in some sense the
+extension diagram of the requirements/conformance classes. If we move all leaf
+packages of the model into "requirements class packages" containing their
+corresponding modeling packages we get a model which satisfies the following
+recommendation: *#Each requirements class in a conformant specification should be
+associated to one and only one UML package (which may contain sub-packages for a
+finer level of structure). If the core requirements class contains only
+recommendations, it may be an exception to this.#*
+
+[[req-36]]
+[requirement,model=ogc,type="general"]
+====
+#If one leaf package is dependent on another leaf package, then the requirements
+class of the first shall be the same or an extension of the requirements class of
+the second.#
+====
+
+[[req-37]]
+[requirement,model=ogc,type="general"]
+====
+#If two packages have a two-way dependency (a "co-dependency"), they shall be
+associated to the same requirements class.#
+====
+
+For example, if two classes have a two-way navigable association, then these two
+classes must be (transitively) in the same conformance requirements class package.
+
+The hierarchical structure of a UML model is based on UML classes, residing in UML
+packages. UML packages can then reside in larger UML packages. Although there is
+nothing to demand it, it is a common practice to move all classes down the hierarchy
+to leaf packages. Leaf packages are those that contain only classes (that is,
+contain no smaller subpackages). Classes can act as packages in the sense that a UML
+class can contain a locally defined class whose scope is the class itself. For our
+purposes, we will consider a class and its contained local classes to all be in the
+package of the original class.
+
+[[req-38]]
+[requirement,model=ogc,type="general"]
+====
+#The UML model shall segregate all classes into leaf packages.#
+====
+
+[[cls-7-2-3]]
+==== Requirements class: XML schema extends The Specification
+
+This requirements class covers any specifications which has as one of its purposes
+the introduction of a new XML schema. Such a specification would normally define the
+schema, all of its components and its intended uses.
+
+First, by the requirements above, the extension relationship of this conformance
+test class to the core must be made explicit.
+
+[[req-39]]
+[requirement,model=ogc,type="general"]
+====
+#An implementation passing the XML schema conformance test class shall first pass
+the core specification conformance test class.#
+====
+
+[[req-40]]
+[requirement,model=ogc,type="general"]
+====
+#An implementation passing the XML schema conformance test class shall first pass
+the W3C Recommendation for XML schema.#
+====
+
+XML Schema is defined by W3C, see <<w3c-sp1>> and <<w3c-sp2>>. Each XML schema file
+(usually *.xsd) carries a target namespace specification, recorded in the
+`targetNamespace` attribute of the `<schema>` element in the XML representation. In
+its implementation, this namespace is represented by a globally unique identifier, a
+URI. All schema components defined with that URI as its namespace designation are
+part of the same module in XML schema.
+
+The XML Schema specification lists those resolution strategies for namespace and
+schema that a schema-aware process may use. They work in a predictable fashion
+independent of the choice of strategy if and only if the schemas are in a one to one
+correspondence to their namespace. A schema may be dependent on another schema and
+may contain "import" directives that load all such schemas whenever it is loaded.
+
+The strategies used by schema-aware applications using XML schema make the same
+basic assumption, and is not required to reload the contents of a schema document if
+it has already loaded the namespace in any previous process (note the independence
+of this with the schema location also found in many XML schema files). For this
+reason, there must be a one to one correspondence between the schema and its
+namespace URI. When a process loads a schema as defined by its namespace URI
+identity, it must always get a linkage to all components in that namespace. If not,
+then at sometime in the future, the process will fail when it finds a reference to
+such a component that it missed. To prevent this sort of failure, when a
+schema-aware process first encounters a namespace URI it must always be associated
+to a schema location (a file) that contains or includes all schema components having
+the URI as their namespace. This is referred to as the "all-components schema
+document".
+
+So in defining a XML schema (either completely, or partially in a specification) the
+fundamental component or module of XML schema is always the namespace and its
+associated schema; which is designated by a URI.
+
+[[req-41]]
+[requirement,model=ogc,type="general"]
+====
+#If a specification conformant to the XML schema conformance class defines a set of
+data schemas, all components (e.g. elements, attributes, types ...) associated with
+a single conformance test class shall be scoped to a single XML namespace.#
+====
+
+[[req-42]]
+[requirement,model=ogc,type="general"]
+====
+#The all-components schema document for an XML Schema shall indicate the URI of the
+associated conformance test class in the schema/annotation/appinfo element.#
+====
+
+The mechanism for dependencies may either be by importation or by inclusion of
+schema components.
+
+[example]
+====
+In GML 3, the spatial schema (ISO 19107) and the general feature model (ISO 19109)
+are both satisfied by elements within the single GML namespace. A viable alternative
+would to have put the schema components for spatial schema and feature schema in
+separate namespaces.
+====
+
+This is a choice of design, and at the level of this standard, the trade-off factors
+cannot be prejudged because the details of such cost-benefit trade-offs are not
+constant. Either of the above approaches may be used.
+
+[[req-43]]
+[requirement,model=ogc,type="general"]
+====
+#If a specification conformant to the XML schema conformance class defines a direct
+dependency from one requirement class to another, then a standardization target of
+the corresponding conformance test class shall import a schema that has passed the
+associated conformance test class (dependency) or shall itself pass the associated
+conformance test class.#
+====
+
+NOTE:: This implies that the value of the schemaLocation on the `<import>` element
+will refer to the all-components schema document.
+
+*#An all-components schema document may be assembled by inclusion of documents that
+describe subsets of the components associated with the conformance test class.#*
+This allows schema designers to do some modularization within a namespace for
+convenience, notwithstanding the requirement for an all-components schema document.
+
+NOTE:: A namespace variable is used if the requirements class is not defining a
+schema, but defining requirements for a schema to be the target of its conformance
+class. For example, GML defines requirements for application schemas, but does not a
+priori know the namespace of any application schema. The namespace for the
+application schema becomes a variable in the conformance test cases.
+
+[[req-44]]
+[requirement,model=ogc,type="general"]
+====
+#No requirements class in a specification conformant to the XML schema conformance
+class shall modify elements, types or any other requirement from a namespace to
+which it is not associated.#
+====
+
+*#Requirements may add constraints.#* This allows extensions to restrict:
+
+. Usage of existing elements, but only if their use was originally optional. This is
+similar to the rules for inheritance (such as in UML or other object models), where
+a class can eliminate an attribute from a superclass only if the superclass
+attribute includes a "0" in its multiplicity range.
+. The type of existing elements, to sub-types of the original elements. This is
+similar to the rules for inheritance, where a class can re-define an attribute or
+association role from a superclass so that its type or class is a specialization of
+the original.
+
+In summary, effective modularization is enabled by following the pattern of one
+conformance class per XML namespace; i.e. the set of components in an XML namespace
+should be referred to as a whole. Subsetting of components in a single XML namespace
+for conformance purposes is not permitted.
+
+[[cls-7-2-4]]
+==== Requirements class: Schematron extends XML schema
+
+Schematron (<<iso19757-3>>) provides a notation with which many constraints on XML
+documents can be expressed. This requirements class covers any specification that
+uses Schematron to create patterns or constrains for an XML Schema. First the schema
+must be defined within the bounds of the XML schema requirements class.
+
+[[req-45]]
+[requirement,model=ogc,type="general"]
+====
+#A specification passing the Schematron conformance test class shall also define or
+reference an XML schema that shall pass the XML schema conformance class from this
+standard.#
+====
+
+Within a Schematron schema, the "pattern" and "schema" elements may be used in a way
+that corresponds with conformance tests and a conformance test class as follows:
+
+[[req-46]]
+[requirement,model=ogc,type="general"]
+====
+#Each sch:pattern element shall implement constraints described in no more than one
+requirement. Each requirement shall be implemented by no more than one sch:pattern.#
+====
+
+[[req-47]]
+[requirement,model=ogc,type="general"]
+====
+#Each sch:pattern element shall be contained within one sch:schema element.#
+====
+
+[[req-48]]
+[requirement,model=ogc,type="general"]
+====
+#The value of the sch:schema/@fpi attribute shall be a URI that identifies this
+implementation#
+====
+
+[[req-49]]
+[requirement,model=ogc,type="general"]
+====
+#The value of the sch:schema/@see attribute shall be the identifier for the
+requirements class that contains the requirement(s) implemented by the schema#
+====
+
+[[req-50]]
+[requirement,model=ogc,type="general"]
+====
+#The value of the sch:schema/@fpi attribute shall be used on only one Schematron
+schema.#
+====
+
+[[cls-7-2-5]]
+==== Requirements class: XML meta-schema extends The Specification
+
+This requirements class covers any specification which has as one of its purposes
+the introduction of a new type of XML schema. Such a specification would normally
+define the characteristics of such schema, how its components are created and its
+intended uses.
+
+First, by the requirements above, the extension relationship of this conformance
+test class to the core must be made explicit.
+
+[[req-51]]
+[requirement,model=ogc,type="general"]
+====
+#A specification passing the XML meta-schema conformance test class shall first pass
+the core specification conformance test class.#
+====
+
+Since the target specification will be defining requirements for XML schemas, it
+will require that this standard be used.
+
+[[req-52]]
+[requirement,model=ogc,type="general"]
+====
+#A specification passing the XML meta-schema conformance test class shall require
+that its specification targets (XML schema) pass the XML schema conformance class
+from this standard.#
+====

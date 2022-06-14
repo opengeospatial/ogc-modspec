@@ -1,0 +1,11 @@
+== Scope
+
+This standard specifies some desirable characteristics of a standards specification
+that will encourage implementations by minimizing difficulty determining
+requirements, mimicking implementation structure and maximizing usability and
+interoperability.
+
+<<cls-6-1>> contains the UML model of a specification upon which this standard is
+described. Annex C contains informal and non-normative definitions ordered for ease
+of understanding. These two sections can be read first to aid in the understanding of
+the rest of the document.

@@ -1,0 +1,461 @@
+[[cls-4]]
+== Terms and definitions
+
+[.boilerplate]
+=== {blank}
+
+For the purposes of this document, the following terms and definitions apply. Terms
+not defined here take on their meaning from computer science or from their Standard
+English (common US and UK) meanings. The form of the definitions is defined by ISO
+Directives.
+
+Many of these definitions depend upon the model given in <<cls-6-1>>.
+
+=== all-components schema document
+
+XML schema document which includes, either directly or through the inclusion of other
+schema documents, all schema components associated to its namespace
+
+=== certificate of conformance
+
+evidence of conformance to all or part of a standard, awarded for passing one or more
+of the {{conformance test class,conformance test classes,options="noref"}} specified
+in that standard
+
+[NOTE]
+====
+"Certificates" do not have to be instantiated documents; having proof of passing the
+conformance test class is sufficient. For example, the OGC currently keeps an online
+list of conformant applications at http://www.opengeospatial.org/resource/products.
+
+Each certificate of conformance is awarded to a
+{{standardization target,options="noref"}}.
+====
+
+=== conformance test case
+
+test for a particular requirement or a set of related requirements
+
+NOTE: When no ambiguity, the word "case" may be omitted. i.e.
+{{conformance test,options="noref"}} is the same as
+{{conformance test case,options="noref"}}.
+
+=== conformance test module
+
+set of related tests, all within a single {{conformance test class,options="noref"}}
+
+[NOTE]
+====
+When no ambiguity, the word "test" may be omitted. i.e.
+{{conformance test module,options="noref"}}
+is the same as *conformance module*. Conformance modules may
+be nested in a hierarchical way.
+
+This term and those associated to it are included here for consistency with ISO 19105.
+====
+
+[.source]
+<<iso19105>>
+
+=== conformance test class
+alt:[conformance test level]
+
+set of {{conformance test module,conformance test modules,options="noref"}} that must
+be applied to receive a single {{certificate of conformance,options="noref"}}
+
+[NOTE]
+====
+When no ambiguity is possible, the word "test" may be left out, so
+{{conformance test class,options="noref"}}
+maybe called a <<conformance-class,_conformance class_>>.
+
+In this standard, the set of {{requirement,requirements,options="noref"}} tested by
+the conformance tests within a <<conformance-class,_conformance class_>> is a
+{{requirements class,options="noref"}} and its dependencies. Each optional
+{{requirement,options="noref"}} will be in a separate
+{{requirements class,options="noref"}}
+with other {{requirement,requirements,options="noref"}} that
+are part of the same option. Each {{requirements class,options="noref"}} corresponds
+to a separate <<conformance-class,conformance class>>
+
+In other words, the only options in a specification conformant to this standard will
+be if a particular {{requirements class,options="noref"}} is tested. Each
+requirements class will be in a 1 to 1 correspondence to a similarly named
+<<conformance-class,_conformance class_>> that tests all of the
+{{requirements class,requirements class's,options="noref"}}
+{{requirement,requirements,options="noref"}}.
+
+All {{requirement,requirements,options="noref"}} in a
+<<conformance-class,_conformance class_>> will have the same
+{{standardization target,options="noref"}}.
+
+The term "level" is a synonym for "class" and is part of the ISO nomenclature. Here
+the two terms are treated as equivalent but ISO usually has differences in the way
+they are named and how they related to one another level or class.
+====
+
+=== conformance suite
+
+set of <<conformance-class,_conformance classes_>> that define tests for all
+{{requirement,requirements,options="noref"}} of a standard
+
+[NOTE]
+====
+The {{conformance suite,options="noref"}} is the union of all
+<<conformance-class,_conformance classes_>>. It is by definition the
+<<conformance-class,_conformance class_>> of the entire specification.
+
+In this standard, each {{requirement,options="noref"}} is mandatory within its
+<<conformance-class,conformance class>> and each {{requirement,options="noref"}} is
+tested in at least one {{conformance test,options="noref"}}.
+====
+
+=== conformance test
+
+test, abstract or real, of one or more {{requirement,requirements,options="noref"}}
+contained within a standard, or set of standards
+
+=== core requirements class
+
+unique {{requirements class,options="noref"}} that must be satisfied by any
+conformant {{standardization target,standardization targets,options="noref"}}
+associated to the specification
+
+[NOTE]
+====
+The core {{requirements class,options="noref"}} is unique because if it was possible
+to have more than one, then each *core* would have to be implemented to pass any
+{{conformance test class,options="noref"}}, and thus would have to be contained in
+any other *core*. The *core* may be empty, or all or part of another standard or
+related set of standards.
+
+The "*core*" can refer to this {{requirements class,options="noref"}}, its associated
+{{conformance test class,options="noref"}} or the software module that implements
+that requirements class.
+====
+
+=== direct dependency (of a requirements class)
+
+another {{requirements class,options="noref"}} (the dependency) whose
+{{requirement,requirements,options="noref"}} are defined to also be
+{{requirement,requirements,options="noref"}} of this
+{{requirements class,options="noref"}}
+
+[NOTE]
+====
+A {{direct dependency (of a requirements class), direct dependency,options="noref"}}
+of the current {{requirements class,options="noref"}} will have the same
+{{standardization target,options="noref"}} as the current
+{{requirements class,options="noref"}}. This is another ways of saying that the current
+{{requirements class,options="noref"}} extends, or uses all the aspects of the
+{{direct dependency (of a requirements class), direct dependency,options="noref"}}.
+Any tests associated to this
+{{direct dependency (of a requirements class),dependency,options="noref"}} can be applied to this
+{{requirements class,options="noref"}}.
+
+When testing a
+{{direct dependency (of a requirements class), direct dependency,options="noref"}}, the
+{{standardization target,options="noref"}} is
+directly subject to the test in the specified
+{{conformance test class,options="noref"}} of the
+{{direct dependency (of a requirements class), direct dependency,options="noref"}}.
+====
+
+=== indirect dependency (of a requirements class)
+
+{{requirements class,options="noref"}} with a different
+{{standardization target,options="noref"}} which is used, produced or associated to by the
+implementation of this {{requirements class,options="noref"}}
+
+[NOTE]
+====
+In this instance, as opposed to the
+{{direct dependency (of a requirements class),direct dependency,options="noref"}},
+the test against the consumable or product used
+or produced by the {{requirements class,options="noref"}} does not directly test the
+{{requirements class,options="noref"}}, but tests only its side effects. Hence, a
+particular type of feature service could be required to produce valid XML documents,
+but the test of validity for the XML document is not directly testing the service,
+but only indirectly testing the validity of its output.
+{{direct dependency (of a requirements class), Direct dependencies,options="noref"}}
+test the same {{standardization target,options="noref"}}, but
+{{indirect dependency (of a requirements class), indirect dependencies,options="noref"}}
+test related but
+different {{standardization target,standardization targets,options="noref"}}.
+
+The {{standardization target,options="noref"}} of the
+{{indirect dependency (of a requirements class), indirect dependency,options="noref"}}
+is different from the
+target of "this requirements class" but it may be of the same or related
+{{standardization target type,options="noref"}}. For example, if one service is
+related to another second service, then a service {{requirement,options="noref"}} may
+be placed against the second associated service to assure that the first service has
+access to its functionality. For example, if a DRM-enabled service is required to
+have an association to a licensing service, then the requirements of a licensing
+service are indirect requirements for the DRM-enabled service. Such a requirement may
+be stated as the associated licensing service has a
+{{certificate of conformance,options="noref"}} of a particular kind.
+====
+
+=== extension (of a requirements class)
+
+{{requirements class,options="noref"}} which has a
+{{direct dependency (of a requirements class), direct dependency,options="noref"}} on another
+{{requirements class,options="noref"}}
+
+NOTE:: Here {{extension (of a requirements class),extension,options="noref"}} is
+defined on {{requirements class,options="noref"}} so that their implementation may be
+software extensions in a manner analogous to the extension relation between the
+{{requirements class,requirements classes,options="noref"}}.
+
+=== general recommendation
+
+recommendation applying to all entities in a specification model
+
+=== home (of a requirement or recommendation)
+
+official statement of a {{requirement,options="noref"}} or
+{{recommendation,options="noref"}} that is the precedent for any other version
+repeated or rephrased elsewhere
+
+[NOTE]
+====
+Explanatory text associated to normative language often repeats or rephrases the
+requirement to aid in the discussion and understanding of the official version of the
+normative language. Since such restatements are often less formal than the original
+source and potentially subject to alternate interpretation, it is important to know
+the location of the *home* official version of the language.
+
+These alternative statements use non-normative language and are
+{{statement,statements,options="noref"}} using the definitions of the ISO Directives
+Part 2.
+====
+
+=== leaf package
+
+UML model package that does not contain any subpackages, but contains classifiers
+
+[.source]
+<<omg-infrastructure>>
+
+[.source]
+<<omg-superstructure>>
+
+=== model
+alt:[abstract model]
+alt:[conceptual model]
+
+theoretical construct that represents something, with a set of variables and a set of
+logical and quantitative relationships between them.
+
+[NOTE]
+====
+Derived from _Wikipedia_
+
+The "theoretical construct" is essentially a *conceptual metaphor* with the *target*
+of the *metaphor* as the thing being modeled, and the *source* of the *metaphor* as
+the {{model,options="noref"}}. The terms are almost interchangeable, with
+{{model,options="noref"}} being preferred when the *source* is a constructed entity,
+and *metaphor* being preferred when the *source* already exists, and the emphasis is
+the mapping between it and the *target*.
+
+The definition in <<iso19101, clause 4.4>> is
+
+[quote]
+____
+*conceptual model* - model that defines concepts of a universe of discourse.
+____
+
+While adequate in the context of a "universe of discourse" as the something addressed
+by a standard, a model need not have any "universality" property at all. Most often
+models are representative of only a relatively small portion of a larger universe,
+and part of the process of modeling is to factor out the properties and things to
+which no interest is directed within the present standard It also fails to define
+"model" which is in fact the central issue within this discussion.
+
+The *abstract* or *conceptual* is actually redundant and will often be dropped in the
+text. {{model,Models,options="noref"}} are by their vary nature not the same as what
+they are describing, and thus must contain a *conceptual metaphor* to describe their
+relationship to the *target* (the thing being described) of the model. This
+inherently makes them abstractions.
+====
+
+=== profile
+
+specification or standard consisting of a set of references to one or more base
+standards and/or other profiles, and the identification of any chosen
+{{conformance test class,conformance test classes,options="noref"}},
+conforming subsets, options and parameters of those base standards, or
+profiles necessary to accomplish a particular function.
+
+[NOTE]
+====
+This definition has been adopted from ISO 10000: Part 1. The wording has been changed
+to accommodate the shared vocabulary of OGC and ISO TC 211 and for editorial reasons.
+The original text is "A set of one or more base standards and/or ISPs, and, where
+applicable, the identification of chosen classes, conforming subsets, options and
+parameters of those base standards, or ISPs necessary to accomplish a particular
+function."
+
+In the usage of this standard, a profile will be a set of requirements classes or
+conformance classes (either preexisting or locally defined) of the base standards.
+
+This means that a {{standardization target,options="noref"}} being conformant to a
+profile implies that the same *target* is conformant to the standards referenced in
+the {{profile,options="noref"}}.
+====
+
+[.source]
+<<iso10000-1>>
+
+=== recommendation
+
+expression in the content of a document conveying that among several possibilities
+one is recommended as particularly suitable, without mentioning or excluding others,
+or that a certain course of action is preferred but not necessarily required, or that
+(in the negative form) a certain possibility or course of action is deprecated but
+not prohibited
+
+NOTE:: Although using normative language, a {{recommendation,options="noref"}} is not
+a {{requirement,options="noref"}}. The usual form replaces the "shall" (imperative or
+command) of a {{requirement,options="noref"}} with a "should" (suggestive or
+conditional).
+
+[.source]
+<<iso-dp2>>
+
+=== requirement
+
+expression in the content of a document conveying criteria to be fulfilled if
+compliance with the document is to be claimed and from which no deviation is permitted
+
+[NOTE]
+====
+Each {{requirement,options="noref"}} is a normative criterion for a single *type of
+standardization target*. In this standard, requirements will be associated to
+{{conformance test, conformance tests,options="noref"}} that can be used to prove
+compliance to the underlying criteria by the
+{{standardization target,options="noref"}}.
+
+The implementation of a {{requirement,options="noref"}} is dependent on the type of
+specification being written. A data specification requires data structures, but a
+procedural specification requires software implementations. The view of a standard in
+terms of a set of testable {{requirement,requirements,options="noref"}} allows us to
+use set descriptions of both the standard and its implementations.
+
+The specification of a {{requirement,options="noref"}} is usually expressed in terms
+of a model of the {{standardization target,options="noref"}}, such as a UML model, or
+an XML or SQL schema. Anything without a defined test is _a priori_ not testable and
+thus would be better expressed as a {{recommendation,options="noref"}}.
+
+{{requirement,Requirements,options="noref"}} use normative language and in particular
+are commands and use the imperative "shall" or similar imperative constructs.
+Statements in standards which are not requirements and need to be either conditional
+or future tense normally use "will" and should not be confused with requirements that
+use "shall" imperatively.
+====
+
+[.source]
+<<iso-dp2>>
+
+=== requirements class
+
+aggregate of all {{requirements module,requirement modules,options="noref"}} that
+must all be satisfied to satisfy a {{conformance test class,options="noref"}}
+
+NOTE:: There is some confusion possible here, since the testing of indirect
+dependencies seems to violate this definition. But the existence of an indirect
+dependency implies that the test is actually a test of the existence of the
+relationship from the original target to something that has a property (satisfies a
+condition or requirement from another requirements class).
+
+=== requirements module
+
+aggregate of {{requirement,requirements,options="noref"}} and
+{{recommendation,recommendations,options="noref"}} of a specification against a
+single {{standardization target type,options="noref"}}
+
+NOTE: This term is included to be consistent with the use of modules in ISO 19105.
+The third type of normative language, the "permission" which uses "may," is not
+considered here mainly because it is usually used to prevent a requirement from being
+"over interpreted" and as such is considered to be more of a "statement of fact" than
+a "normative" condition.
+
+=== specification
+
+document containing {{recommendation,recommendations,options="noref"}},
+{{requirement,requirements,options="noref"}} and
+{{conformance test, conformance tests,options="noref"}}
+for those {{requirement,requirements,options="noref"}}
+
+[NOTE]
+====
+This definition is included for completeness. See <<cls-5-3>>.
+
+This does not restrict what else a standard may contain, as long as it does contain
+the three types of element cited.
+====
+
+=== standard
+
+{{specification,options="noref"}} that has been approved by a legitimate Standards Body
+
+[NOTE]
+====
+This definition is included for completeness. {{standard,Standard,options="noref"}}
+and {{specification,options="noref"}} can apply to the same document. While
+{{specification,options="noref"}} is always valid, {{standard,options="noref"}} only
+applies after the adoption of the document by a legitimate standards organization.
+
+The legitimate Standards Bodies for OGC consist of OGC, ISO and any of the other
+standards bodies accepted and used as a source of normative references by OGC or ISO
+in their standards. In the normal meaning of the word "standard", there are other
+conditions that may be required, but this standard has chosen to ignore them in the
+process of abstraction.
+====
+
+=== standardization target
+
+entity to which some {{requirement,requirements,options="noref"}} of a
+{{standard,options="noref"}} apply
+
+NOTE: The {{standardization target,options="noref"}} is the entity which may receive
+a {{certificate of conformance,options="noref"}} for a
+{{requirements class,options="noref"}}.
+
+=== standardization target type
+
+type of entity or set of entities to which the
+{{requirement,requirements,options="noref"}} of a {{standard,options="noref"}} apply
+
+[NOTE]
+====
+The {{standardization target type,standardization target types,options="noref"}} give
+the {{standardization target,standardization targets,options="noref"}} a typing
+system similar to the UML classifiers. In general, the types inherit from one another
+in the same way that UML classes do. The same class/metaclass semantics apply, and
+two targets can be considered to have the "same type" (in a particular situation) if
+their instantiation types share the appropriate supertype, as is the case in UML.
+
+In OGC for example, all service types that must pass the OWS (Open Web Services)
+Common specification are some extension of the "Open Web Service"
+{{standardization target type,options="noref"}}. This makes OWS Common a default
+"global core" for all OGC Services.
+
+In some cases, the {{standardization target type,options="noref"}} may be another
+specification. A GML application schema is a
+{{standardization target,options="noref"}} for the GML standard, but is in turn a
+specification of instances of that application schema.
+====
+
+=== statement
+
+expression in a document conveying information
+
+NOTE:: Includes all statements in a document not part of the normative
+{{requirement,requirements,options="noref"}},
+{{recommendation,recommendations,options="noref"}} or
+{{conformance test, conformance tests,options="noref"}}. Included for completeness.
+
+[.source]
+<<iso-dp2>>
