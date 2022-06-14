@@ -1,0 +1,286 @@
+[[annex-C]]
+[appendix,obligation=informative]
+== Definitions
+
+=== Semantically ordered definitions
+
+<<cls-4>> formally defines the terms used in the conformance tests in alphabetical
+order. It may be easier to understand the more significant terms in the following
+less formal definitions arranged in a bottom-up order:
+
+. a {{standardization target type,options="noref"}} is a type of entity about which
+a standard is written. An instance of a {{standardization target type,options="noref"}}
+is a {{standardization target,options="noref"}}. A standard
+may address multiple targets in separate <<conformance-class,_conformance classes_>>.
+. a {{requirement,options="noref"}} is a statement of a condition to be satisfied by
+a single {{standardization target type,options="noref"}}, and it must be stated in
+"normative" language.
+. a {{conformance test,options="noref"}} checks if a set of
+{{requirement,requirements,options="noref"}} are met (*pass*) or not met (*fail*) by
+a {{standardization target,options="noref"}}. The relationship between
+{{conformance test, conformance tests,options="noref"}} and
+{{requirement,requirements,options="noref"}} is many-to-many.
+. all {{conformance test, conformance tests,options="noref"}} are graded as *pass*
+or *fail* against each instance of the {{standardization target,options="noref"}}.
+. a {{requirement,options="noref"}} is associated to at least one
+{{conformance test,options="noref"}}.
+. a {{recommendation,options="noref"}} is a suggestion and is not associated to any
+{{conformance test,options="noref"}}.
+. a {{requirements class,options="noref"}} is a set of one or more
+{{requirement,requirements,options="noref"}} all on the same
+{{standardization target type,options="noref"}}.
+. a {{conformance test class,conformance (test) class,options="noref"}} is a
+collection of {{conformance test,conformance tests,options="noref"}} that are
+associated to and only to the requirements in a corresponding
+{{requirements class,options="noref"}}.
+. a {{conformance test class,conformance (test) class,options="noref"}} is also
+collection of {{conformance test module,conformance test modules,options="noref"}}
+that group {{conformance test, conformance tests,options="noref"}} on a single
+{{standardization target type,options="noref"}}.
+. a *conformant implementation* is a {{standardization target type,options="noref"}}
+that has successfully passed all tests in a specified
+{{conformance test class,conformance (test) class,options="noref"}}
+and received a {{certificate of conformance,options="noref"}}
+. the {{core requirements class,options="noref"}} of a standard is the minimal set
+of {{requirement,requirements,options="noref"}} which must be supported by all
+*conformant implementations*. If a specification addresses multiple
+{{standardization target type,standardization target types,options="noref"}}, it may
+have a *core* for each *target type*.
+. an *extension* of a {{requirements class,options="noref"}} is a second
+{{requirements class,options="noref"}} (the extension) that adds additional
+{{requirement,requirements,options="noref"}} to the first
+{{requirements class,options="noref"}} (the *base requirements class* being
+extended). The extension is said to be dependent on the *base*. Any
+{{conformance test class,options="noref"}} must identify all of its dependencies
+during the execution of conformance tests against a candidate
+{{standardization target,options="noref"}}.
+
+[[annex-C-2]]
+=== UML Model
+
+[[fig-C-1]]
+.Specification structure
+image::img02.png[]
+
+<<fig-C-1>> represents a UML model consistent with the specification model described
+in <<cls-6-1>>. The following subclauses describe the classes shown in this UML
+class diagram.
+
+=== Specification
+
+A specification, to become a standard must be approved by an authority, such as ISO
+or OGC. This gives the specification a namespace corresponding to the standards
+authority. Thus the name of the specification is usually a local name in this
+namespace: for example "ISO 19107: Geographic Information -- Spatial schema" is an
+approved specification of ISO TC 211 (the authority as a TC under ISO). The parts of
+the name that give this are "ISO" and "Geographic Information". The local name
+within this namespace is "19107: Spatial schema". This syntax is not usual for
+namespaces where the namespace name is usually either a prefix or suffix of the
+local name. GenericName, LocalName, Namespace are all types described in "ISO 19103:
+Geographic information -- Conceptual schema language". The attributes of a
+Specification describe its local name, its authority, the date of publication and
+its current status (such as CD, DIS, IS in ISO, or Draft, Candidate Standard or
+Standard in OGC).
+
+[source%unnumbered]
+----
+Class Specification
+  {
+  name        : String              // name for the standards
+  authority   : Principal           // Standards Body & Namespace for name
+  date        : DateTime            // publication date
+  status      : String              // description of current status
+  reference   : Specification[0..*] // other standards used normatively
+  testSuite   : ConformanceSuite    // all tests associated to the standard
+  }
+----
+
+=== Conformance Suite
+
+The unique conformance suite of a specification lists the tests (grouped into
+conformance test classes consisting of some number of conformance test modules,
+containing some number of conformance tests) that allow testing of an implementation
+of the specification for conformance with the specification. Every specification
+needs one of these suites, or conformance cannot be claimed with proof. In ISO and
+OGC, the conformance suite included in the specification is usually an abstract
+description of the tests which will be implemented. Other standards may use a more
+concrete description. For the purposes of this OGC standard, the precise nature of
+the conformance suite is not particularly important as long as it is not ambiguously
+stated.
+
+Each conformance test within a conformance class should be against a single
+standardization target defined for that class. A conformance suite may contain
+several defined conformances classes for the same standardization target.
+
+[source%unnumbered]
+----
+Class ConformanceSuite
+  {
+  class   : ConformanceClass[1...*]
+  }
+----
+
+[[conformance-class]]
+=== Conformance Class
+
+The requirements in the requirements classes of a specification have to be tested
+and the conformance classes are the containers for these tests' definition. The
+requirements classes will have interdependencies, and this is reflected in the
+explicit dependencies between the conformance classes. If class "stem:[a]" is
+dependent on class "stem:[b]", then to pass the test for "stem:[a]" a
+standardization target must also pass the test for "stem:[b]." The class name is
+shared with its corresponding requirements class.
+
+[source%unnumbered]
+----
+Class ConformanceClass
+  {
+  name        : String                  // name of the conformance class
+  dependency  : ConformanceClass[0...*] // other classes that must be passed
+                                        // if this one is to be passed
+                                        // (consistent with Requirements class)
+  requirement : RequirementClass
+  }
+----
+
+=== Requirements class
+
+The specification requirements classes (usually realized as clauses in the
+specification document) segment the requirements in the specification in a manner
+consistent with the conformance classes. Since the requirements class and the
+conformance class will eventually be referred to in a certification of conformance,
+they should have names, probably in the namespace defined by the specification's
+name and authority.
+
+[source%unnumbered]
+----
+Class RequirementsClass
+  {
+  name      : String                    // name of the conformance class
+  dependency: RequirementsClass [0...*] // dependent requirements classes
+  module    : RequirementsModule[1...*] // subsets of this requirementClass
+  targetType: StandardizationTargetType
+  }
+----
+
+=== Requirements module
+
+The specification requirements modules (usually realized as subclauses of the
+requirements class in the specification document) segment the requirements in the
+specification in a manner consistent with the conformance test modules.
+
+[source%unnumbered]
+----
+Class RequirementsModule
+  {
+  name       : String
+  requirement: Requirement[1...*]
+  }
+----
+
+=== Normative Statement
+
+The normative statements, either requirements or recommendations of a standard, are
+organized into the requirements modules and classes, and may be tested by the
+conformance tests in their requirements class's corresponding conformance class. If
+tested, the statement is a "Requirement", and if not tested the statement is a
+"Recommendation."
+
+[source%unnumbered]
+----
+Class NormativeStatement
+  {
+  name      : String                  // name the requirement
+  test      : ConformanceTest[1...*]  // corresponding conformance test
+  }
+----
+
+=== Requirement
+
+Each normative statement which is tested by any conformance test is a requirement.
+
+[source%unnumbered]
+----
+Class Requirement inherits NormativeStatement
+  {
+  test  : ConformanceTest[1...*]  // corresponding conformance test
+  }
+----
+
+=== Recommendation
+
+A normative suggestion which will not be directly tested is a "Recommendation."
+Recommendations have a variety of uses, for example:
+
+. Legal restriction, such as "not for commercial use" or "for planning purposes."
+These allow the specification to restrict use of its implementation to
+standardization targets for which it was designed.
+. Statement of best practices. These are included as suggestions for logical designs
+that may implement the requirements in the same module.
+
+Regardless of their use, Recommendations are not tested since they are not required
+of all conformant implementations.
+
+[source%unnumbered]
+----
+Class Recommendation inherits NormativeStatement
+----
+
+=== Conformance test
+
+The requirements in a specification have to be tested and the conformance test
+specification contains the test's definition. In this standard, conditional tests,
+based on a requirement with some precondition, have as part of their execution the
+task of creating the precondition in which they will be tested. If the condition is
+not creatable, then the test is not required to be executed.
+
+[source%unnumbered]
+----
+Enumeration TestType
+  {
+  basic
+  capabilities
+  }
+
+Class ConformanceTest
+  {
+  testPupose   : String
+  testMethod   : String
+  Reference    : String
+  testType     : TestType
+  requirement  : Requirement[1...*]
+  }
+----
+
+=== StandardizationTarget
+
+Each conformance class (and hence requirements class) is targeted to a particular
+type of implementation. An implementation testable by a conformance class is a
+StandardizationTarget of that class, and (once the appropriate test have been
+passed) can carry a certificate indicating its conformance to a requirements class
+proved by the tests in the conformance class.
+
+[source%unnumbered]
+----
+Class StandardizationTarget
+  {
+  conformanceCertificates  : String[0...*]  // conformance classes passed
+                                            // by this target
+  type                     : StandardizationTargetType
+  }
+----
+
+=== StandardizationTargetType
+
+A Standardization Target Type is the type or collection of standardization targets
+testable by the conformance class corresponding to a requirements class. This is a
+&laquo;metaclass&raquo; in the sense that it defines a type of implementation with members of
+the type testable by a particular conformance class. This is a "multiple
+classification" scheme, since each target may be a member of multiple
+StandardizationTargetTypes.
+
+[source%unnumbered]
+----
+Abstract Metaclass StandardizationTargetType
+    // description of the standardization targets in this type
+----

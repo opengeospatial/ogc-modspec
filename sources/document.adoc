@@ -1,0 +1,47 @@
+= The Specification Model -- A Standard for Modular specifications
+:doctype: reference-model
+:status: published
+:committee: technical
+:docnumber: 08-131r3
+:edition: 1.0.0
+:received-date: 2009-10-19
+:issued-date: 2009-10-19
+:published-date: 2009-10-19
+:copyright-year: 2009
+:fullname: Policy SWG
+:role: editor
+:language: en
+:submitting-organizations: CSIRO; ESRI; SeiCorp, Inc.; Oracle USA; University of the Bundeswehr - ITS; US National Geospatial-Intelligence Agency (NGA); interactive instruments GmbH; US Department of Homeland Security (DHS); Bentley Systems, Inc.; BAE Systems - C3I Systems
+:imagesdir: images
+:mn-document-class: ogc
+:mn-output-extensions: xml,html,doc,pdf,rxl
+:local-cache-only:
+:data-uri-image:
+
+include::sections/00-preface.adoc[]
+
+include::sections/00-foreword.adoc[]
+
+include::sections/00-introduction.adoc[]
+
+include::sections/01-scope.adoc[]
+
+include::sections/02-conformance.adoc[]
+
+include::sections/03-norm-refs.adoc[]
+
+include::sections/04-terms-and-defs.adoc[]
+
+include::sections/05-conventions.adoc[]
+
+include::sections/06-req-class.adoc[]
+
+include::sections/07-mapping.adoc[]
+
+include::sections/aa-abstract-conformance.adoc[]
+
+include::sections/ab-changes-required.adoc[]
+
+include::sections/ac-definitions.adoc[]
+
+include::sections/ad-bibliography.adoc[]

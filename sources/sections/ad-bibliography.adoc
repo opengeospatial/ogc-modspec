@@ -1,0 +1,60 @@
+[[annex-D]]
+== Bibliography
+
+[bibliography]
+=== {blank}
+
+To preserve a unique numeric identifier for all documents listed as references in
+this standard, the numbering of references in this annex is continued from the list
+of normative reference in <<cls-3>>.
+
+* [[[omg2007-superstructure,Object Management Group (OMG)]]], Object Management Group (OMG), February 2007, Unified Modeling Language: Superstructure, version 2.1.1 , formal/07-02-05, available from OMG.org at http://www.omg.org/cgi-bin/doc?formal/07-02-05
+
+* [[[omg2007-infrastructure,Object Management Group (OMG)]]], Object Management Group (OMG), February 2007, Unified Modeling Language: Infrastructure , version 2.1.1 , formal/07-02-06, available from OMG.org at http://www.omg.org/cgi-bin/doc?formal/07-02-06
+
+* [[[iso9075,ISO/IEC 9075:2003]]], ISO/IEC JTC 1, ISO/IEC 9075:2003 -- Information Technology -- Database Languages - SQL.
+
+* [[[iso13249-3,ISO/IEC 13249-3:2006]]]
+
+* [[[w3c-xml-part1,W3C]]], XML Schema 1.1 Part 1: Structures, 31 August 2006, available from W3C at http://www.w3.org/TR/xmlschema11-1/
+
+* [[[w3c-xml-part2,W3C]]], XML Schema 1.1 Part 2: Datatypes, 17 February 2006, available from W3C at http://www.w3.org/TR/xmlschema11-2/
+
+* [[[iso10000,ISO/IEC TR 10000]]], ISO/IEC TR 10000: Information Technology -- Framework and taxonomy of International Standardized Profiles
+
+[bibliography]
+=== Bibliography for examples
+
+The following documents are either standards or draft standards that in general
+follow the general rules of ISO for conformance test suites. The first two (GeoREL
+and the OWS5 discussion of WFS) meet most of the requirements of this standard.
+
+* [[[ogc08-079,OGC 08-079]]]
+
+* [[[iso19101,ISO 19101]]]
+
+* [[[iso19107,ISO 19107]]]
+
+* [[[iso19111,ISO 19111]]]
+
+* [[[iso19119,ISO 19119]]]
+
+* [[[iso19125,ISO 19125]]], Geographic information -- Simple features
+
+* [[[iso19133,ISO 19133]]]
+
+* [[[iso19136,ISO 19136]]]
+
+* [[[iso19141,ISO 19141]]]
+
+* [[[iso19142,ISO 19142]]]
+
+* [[[iso19143,ISO 19143]]]
+
+* [[[iso19148,ISO 19148]]]
+
+* [[[iso19149,ISO 19149]]]
+
+* [[[iso19153,ISO 19153]]]
+
+* [[[iso19156,ISO 19156]]]

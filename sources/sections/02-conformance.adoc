@@ -1,0 +1,48 @@
+== Conformance
+
+Since this standard adds requirements to the procedure for the adoption of OGC
+standard, for proper use it should be adopted by the OGC Technical Committee in a
+motion worded something like the following:
+
+#This standard shall be considered as a normative annex to the "current" OGC Policy
+and Procedures{blank}footnote:[The reference to the OGC TC PnP is floating, and does
+not apply to a particular document, but to the policy and procedures of the Open
+Geospatial Consortium whether defined by an OGC document, by _Robert's Rules of
+Order_, or by common consent and practice of the membership. The status of this
+standard in the OGC Policy and Procedures must be found in that "virtual document".
+This requirement is for that document and is not a requirement of this one.].#
+
+The effect on these procedures and a transition plan of existing and "soon to be
+adopted" standards is detailed in <<annex-B>>. These procedures should also be
+adopted by the OGC TC.
+
+Conformance to this standard by technical implementation standards and specifications
+can be tested by inspection. The test suite is in <<annex-A>>.
+
+There are 5 conformance classes for this standard:
+
+. Specification documents in general (the core) -- see <<cls-6>> and <<annex-A-1>>
+. Specifications using UML to state requirements, extending the core -- see
+<<cls-7-2-2>> and <<annex-A-2>>
+. Specifications using XML schema to state requirements, extending the core -- see
+<<cls-7-2-3>> and <<annex-A-3>>
+. Specifications using Schematron to state requirements, extending XML schema -- see
+<<cls-7-2-4>> and <<annex-A-4>>
+. Specifications defining requirement for a new category of XML schemas, extending
+the core, whose target XML schemas must be conformant with the XML schema conformance
+class above -- see <<cls-7-2-5>> and <<annex-A-5>>.
+
+This standard contains normative language and thus places requirements on
+conformance, or mechanism for adoption, of candidate standards to which this standard
+applies. In particular:
+
+* <<cls-6>> specifies the core requirements which shall be met by all conformant
+standards.
+* <<cls-7>> gives information on how this standard is to be applied to requirements,
+conformance clauses, UML models, or XML Schemas.
+* <<annex-B>> gives a transition plan to deal with "work in progress."
+
+The various subclauses of <<cls-7>> list requirements partially derived from the
+core, but more specific to the conditions where a data model expressed in one of the
+specified languages (UML or XML) is involved. These requirements classes are
+extensions of the core presented in <<cls-6>>.
