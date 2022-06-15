@@ -1,0 +1,9 @@
+---
+metanorma:
+  source:
+    files:
+      - sources/document.adoc
+
+  collection:
+    name: OGC ModSpec
+    organization: OGC
