@@ -203,7 +203,7 @@ be stated as the associated licensing service has a
 {{direct dependency (of a requirements class), direct dependency,options="noref"}} on another
 {{requirements class,options="noref"}}
 
-NOTE:: Here {{extension (of a requirements class),extension,options="noref"}} is
+NOTE: Here {{extension (of a requirements class),extension,options="noref"}} is
 defined on {{requirements class,options="noref"}} so that their implementation may be
 software extensions in a manner analogous to the extension relation between the
 {{requirements class,requirements classes,options="noref"}}.
@@ -316,7 +316,7 @@ or that a certain course of action is preferred but not necessarily required, or
 (in the negative form) a certain possibility or course of action is deprecated but
 not prohibited
 
-NOTE:: Although using normative language, a {{recommendation,options="noref"}} is not
+NOTE: Although using normative language, a {{recommendation,options="noref"}} is not
 a {{requirement,options="noref"}}. The usual form replaces the "shall" (imperative or
 command) of a {{requirement,options="noref"}} with a "should" (suggestive or
 conditional).
@@ -363,7 +363,7 @@ use "shall" imperatively.
 aggregate of all {{requirements module,requirement modules,options="noref"}} that
 must all be satisfied to satisfy a {{conformance test class,options="noref"}}
 
-NOTE:: There is some confusion possible here, since the testing of indirect
+NOTE: There is some confusion possible here, since the testing of indirect
 dependencies seems to violate this definition. But the existence of an indirect
 dependency implies that the test is actually a test of the existence of the
 relationship from the original target to something that has a property (satisfies a
@@ -452,7 +452,7 @@ specification of instances of that application schema.
 
 expression in a document conveying information
 
-NOTE:: Includes all statements in a document not part of the normative
+NOTE: Includes all statements in a document not part of the normative
 {{requirement,requirements,options="noref"}},
 {{recommendation,recommendations,options="noref"}} or
 {{conformance test, conformance tests,options="noref"}}. Included for completeness.

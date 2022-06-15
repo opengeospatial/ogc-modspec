@@ -386,7 +386,7 @@ type of suite) description of a test to be performed on each candidate conforman
 implementation, to determine if it meets a well-defined set of requirements as
 stated in the normative clauses of the standards document.
 
-NOTE:: The Test Suite is normative in the sense that it describes the tests to be
+NOTE: The Test Suite is normative in the sense that it describes the tests to be
 performed to pass conformance, but it specifies no requirements in any other sense.
 The requirements should be specified in the body of the standard. The test suite
 only describes in detail how those requirements should be tested.
@@ -642,7 +642,7 @@ union of a list of conformance classes that are to be satisfied by that profile'
 standardization targets.#
 ====
 
-NOTE:: This means that a standard conformant to this standard predefines all of its
+NOTE: This means that a standard conformant to this standard predefines all of its
 possible profiles through the dependencies between the conformance classes. In
 essence, a profile of a conformant standard is precisely a transitive closure of a
 subset of requirements classes under the dependency relations. If a standard has "n"
@@ -686,7 +686,7 @@ recommendations are thus universal to all requirements classes. *#Since the basi
 concept of some standards is mechanism not implementation, the core may contain only
 recommendations, and include no requirements.#*
 
-NOTE:: In most cases, if someone feels the need to define a "simple" version of the
+NOTE: In most cases, if someone feels the need to define a "simple" version of the
 standard, it is probably a good approximation of the best core. For example, the
 core of a refactored GML might be the equivalent of the "GML for Simple Features"
 profile. The core for any SQL version of feature geometry is probably "Simple
@@ -748,7 +748,7 @@ the fundamental intent of the specification.
 standard shall be expressible as a list of conformance classes to be passed.#
 ====
 
-NOTE:: Standards and implementations are restricted by this, but not instances of
+NOTE: Standards and implementations are restricted by this, but not instances of
 schemas. For example, a XML schema standard can specify an optional element, which
 data instances may use or not., However schema-aware processors claiming conformance
 to the standard should be able to handle all elements defined in the schema, whether
@@ -773,5 +773,5 @@ complete "home" requirements class. This means that requirements for dependencie
 will often result in conformance test cases which require the execution of the
 dependency conformance class. See for example <<annex-A-2-1>>.
 
-NOTE:: All general recommendations are in the core requirements class. The core
+NOTE: All general recommendations are in the core requirements class. The core
 conformance test class contains tests that all other conformance classes must pass.
