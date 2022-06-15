@@ -1,5 +1,6 @@
 = The Specification Model -- A Standard for Modular specifications
-:doctype: reference-model
+:doctype: standard
+:docsubtype: conceptual-model
 :status: published
 :committee: technical
 :docnumber: 08-131r3
