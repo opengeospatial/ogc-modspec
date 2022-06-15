@@ -138,7 +138,7 @@ external packages used by the standard consistent with the way their classifiers
 those of other packages.#
 ====
 
-NOTE:: External packages having predated the current version of the standard will
+NOTE: External packages having predated the current version of the standard will
 not normally have dependencies to packages within the standard.
 
 Other dependencies (indirect) will arise from the transitive closure of the above
@@ -343,7 +343,7 @@ associated conformance test class (dependency) or shall itself pass the associat
 conformance test class.#
 ====
 
-NOTE:: This implies that the value of the schemaLocation on the `<import>` element
+NOTE: This implies that the value of the schemaLocation on the `<import>` element
 will refer to the all-components schema document.
 
 *#An all-components schema document may be assembled by inclusion of documents that
@@ -351,7 +351,7 @@ describe subsets of the components associated with the conformance test class.#*
 This allows schema designers to do some modularization within a namespace for
 convenience, notwithstanding the requirement for an all-components schema document.
 
-NOTE:: A namespace variable is used if the requirements class is not defining a
+NOTE: A namespace variable is used if the requirements class is not defining a
 schema, but defining requirements for a schema to be the target of its conformance
 class. For example, GML defines requirements for application schemas, but does not a
 priori know the namespace of any application schema. The namespace for the
