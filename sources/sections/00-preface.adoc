@@ -53,18 +53,9 @@ The following OGC Members contributed and particpated in developing the original
 [.preface]
 == Revision history
 
-This is the first normative version of this document.
-
-[.preface]
-== Changes to the OGC Abstract Specification
-
-The OpenGIS® Abstract Specification and Standard will require changes to accommodate
-the contents of this document. At their next revision, any volume of the abstract
-specification or implementation standards will have to be made to conform to the
-requirements here.
+This is the second normative version of this document.
 
 [.preface]
 == Future work
 
-Any needed improvements in this document will be made as experience with using it
-increases.
+Improvements to this document will be made based on implementation and changing technical requirements.
