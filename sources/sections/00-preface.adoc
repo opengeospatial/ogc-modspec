@@ -3,8 +3,8 @@
 
 This OGC Policy specifies requirements and recommendations for writing and structuring OGC Standards.
 
-The goal is to ensure that all OGC standards specify requirements in a common and consistent manner and that these requirements are testable.
-Any new OGC standard, abstract specification, or major revision of an existing standard shall comply with this Policy standard in the structure of its internal models and its conformance tests. 
+The goal is to ensure that all OGC Standards specify requirements in a common and consistent manner and that these requirements are testable.
+Any new OGC Standard, abstract specification, or major revision of an existing standard shall comply with this Policy in the structure of its internal models and its conformance tests. 
 
 Suggested additions, changes, and comments on this OGC Policy are welcome and
 encouraged. Such suggestions may be submitted through the OGC Change Request System
