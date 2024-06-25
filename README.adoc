@@ -1,0 +1,71 @@
+= OGC: ModSpec
+
+image:https://github.com/metanorma/ogc-modspec/workflows/generate/badge.svg["Build Status", link="https://github.com/metanorma/ogc-modspec/actions?query=workflow%3Agenerate"]
+
+* https://metanorma.github.io/ogc-modspec/[OGC ModSpec (HTML)]
+
+== General
+
+This repository contains the ModSpec standards, including:
+
+* 08-131r3
+
+== Structure
+
+`sources/`::
+source of documents and models
+
+`_site/`::
+(automatically generated, in the `gh-pages` branch) published document.
+
+
+== Usage
+
+This repository uses `metanorma` to run these processes.
+
+
+== Installing build tools
+
+See https://www.metanorma.org/install/
+
+
+== Building the document
+
+If you have installed the build tools locally, and wish to run the
+locally-installed compilation tools, there is nothing further to set.
+
+If you use a locally installed Metanorma, run:
+
+[source,sh]
+----
+metanorma site generate
+----
+
+If you don't want to deal with local dependencies, use the docker
+version by:
+
+[source,sh]
+----
+docker run -v "$(pwd)":/metanorma -w /metanorma -it metanorma/mn metanorma site generate
+----
+
+
+== UML model definitions
+
+This repository uses the LutaML-UML syntax in specifying the ModSpec model.
+
+The models are located here:
+
+* `sources/models/ogc-modspec.lutaml`
+
+Documentation of the language is found here:
+
+* https://github.com/lutaml/lutaml/blob/main/LUTAML.adoc
+
+
+== License
+
+These documents are published by OGC; the copyright of such
+documents (as well as their converted text) remain unchanged.
+
+All other code and information, copyright Ribose.
