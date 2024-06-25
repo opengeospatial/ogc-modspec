@@ -1,30 +1,9 @@
 [.preface]
 == Foreword
 
-This standard began as discussions in the OGC Architecture Board (OAB) about general
-principals of application development taken from the OAB members' collective
-experience.
-
-Since this standard is a summary of collective experience, no one should claim
-intellectual property rights to its contents. This standard may be used by anyone as
-long as its source is specified.
-
-This standard, while it specifies the structures of other standards, does not supply
-them with specific content, since its level of abstraction is one level higher than
-any standard that would normally claim conformance. Where possible, this standard is
-conformant with itself (with respect to the core conformance test class, <<cls-6>>
-and <<annex-A-1>>).
-
-Since this standard specifies requirements for standards to be acceptable by the OGC
-TC, it is logically an annex of the TC Policy and Procedures (TC-PnP). It is however
-a radically different document, since the TC-PnP is a procedural set of rules, and
-this document is a set of testable constraints against a finished document. The
-mechanism for enforcement of this standard is the purview of the TC, its subgroups,
-and in particular the OAB.
-
-Recent OAB discussions have identified the need for a "check list" for each candidate
-standard to assure its conformance to OGC policy and rules. Conformance to this
-document should be added to that list.
+This OGC Policy document (aka this Policy), while specifying the structure of OGC standards, does not supply
+specific content. Where possible, this Policy is conformant with itself (with respect to the core conformance test class, <<cls-6>>
+and the Conformance Test Suite <<annex-A-1>>).
 
 _Attention is drawn to the possibility that some of the elements of this document may
 be the subject of patent rights. The Open Geospatial Consortium Inc. shall not be
