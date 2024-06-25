@@ -15,18 +15,18 @@ supplied definitions used here
 
 * [[[iso10000-1,ISO/IEC 10000-1]]]
 
-* [[[iso-dp2,ISO/IEC Directives, Part 2]]], available at https://isotc.iso.org/livelink/livelink?func=ll&objId=4230456&objAction=browse&sort=subtype[ISO/IEC Directives, Part 2: Rules for the structure and drafting of International Standards]
+* [[[iso-dp2,ISO/IEC DIR 2]]], available at https://isotc.iso.org/livelink/livelink?func=ll&objId=4230456&objAction=browse&sort=subtype[ISO/IEC Directives, Part 2: Rules for the structure and drafting of International Standards]
 
 * [[[iso19105,ISO 19105]]]
 
 * [[[iso19501,ISO/IEC 19501]]]
 
-* [[[omg-infrastructure,OMG Unified Modeling Language (OMG UML)]]], OMG Unified Modeling Language (OMG UML), Infrastructure, V2.1.2, OMG Document Number: formal/2007-11-04, Standard document URL: http://www.omg.org/spec/UML/2.1.2/Infrastructure/PDF
+* [[[omg-infrastructure,OMG UML/2.1.2/Infrastructure]]], OMG Unified Modeling Language (OMG UML), Infrastructure, V2.1.2, OMG Document Number: formal/2007-11-04, Standard document URL: http://www.omg.org/spec/UML/2.1.2/Infrastructure/PDF
 
-* [[[omg-superstructure,OMG Unified Modeling Language (OMG UML)]]], OMG Unified Modeling Language (OMG UML), Superstructure, V2.1.2, OMG Document Number: formal/2007-11-02; Standard document URL: http://www.omg.org/spec/UML/2.1.2/Superstructure/PDF
+* [[[omg-superstructure,OMG UML/2.1.2/Superstructure]]], OMG Unified Modeling Language (OMG UML), Superstructure, V2.1.2, OMG Document Number: formal/2007-11-02; Standard document URL: http://www.omg.org/spec/UML/2.1.2/Superstructure/PDF
 
 * [[[iso19757-3,ISO/IEC 19757-3:2006]]]
 
-* [[[w3c-sp1,W3C XML Schema Part 1]]], W3C XML Schema Part 1: Structures Second Edition. W3C Recommendation (28 October 2004)
+* [[[w3c-sp1,W3C xmlschema-1]]], W3C XML Schema Part 1: Structures Second Edition. W3C Recommendation (28 October 2004)
 
-* [[[w3c-sp2,W3C XML Schema Part 2]]], W3C XML Schema Part 2: Datatypes Second Edition. W3C Recommendation (28 October 2004)
+* [[[w3c-sp2,W3C xmlschema-2]]], W3C XML Schema Part 2: Datatypes Second Edition. W3C Recommendation (28 October 2004)

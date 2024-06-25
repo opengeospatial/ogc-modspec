@@ -67,35 +67,35 @@ in <<cls-6-1>>. The following subclauses describe the classes shown in this UML
 class diagram.
 
 === Specification
-[lutaml_uml_attributes_table,models/metanorma-requirements-models/views/ogc-modspec.lutaml, Specification, skip]
+[lutaml_uml_attributes_table,models/ogc-modspec.lutaml, Specification, skip]
 
 === Conformance Suite
-[lutaml_uml_attributes_table,models/metanorma-requirements-models/views/ogc-modspec.lutaml, ConformanceSuite, skip]
+[lutaml_uml_attributes_table,models/ogc-modspec.lutaml, ConformanceSuite, skip]
 
 [[conformance-class]]
 === Conformance Class
-[lutaml_uml_attributes_table,models/metanorma-requirements-models/views/ogc-modspec.lutaml, ConformanceClass, skip]
+[lutaml_uml_attributes_table,models/ogc-modspec.lutaml, ConformanceClass, skip]
 
 === Requirements class
-[lutaml_uml_attributes_table,models/metanorma-requirements-models/views/ogc-modspec.lutaml, RequirementsClass, skip]
+[lutaml_uml_attributes_table,models/ogc-modspec.lutaml, RequirementsClass, skip]
 
 === Requirements module
-[lutaml_uml_attributes_table,models/metanorma-requirements-models/views/ogc-modspec.lutaml, RequirementsModule, skip]
+[lutaml_uml_attributes_table,models/ogc-modspec.lutaml, RequirementsModule, skip]
 
 === Normative Statement
-[lutaml_uml_attributes_table,models/metanorma-requirements-models/views/ogc-modspec.lutaml, NormativeStatement, skip]
+[lutaml_uml_attributes_table,models/ogc-modspec.lutaml, NormativeStatement, skip]
 
 === Requirement
-[lutaml_uml_attributes_table,models/metanorma-requirements-models/views/ogc-modspec.lutaml, Requirement, skip]
+[lutaml_uml_attributes_table,models/ogc-modspec.lutaml, Requirement, skip]
 
 === Recommendation
-[lutaml_uml_attributes_table,models/metanorma-requirements-models/views/ogc-modspec.lutaml, Recommendation, skip]
+[lutaml_uml_attributes_table,models/ogc-modspec.lutaml, Recommendation, skip]
 
 === Conformance test
-[lutaml_uml_attributes_table,models/metanorma-requirements-models/views/ogc-modspec.lutaml, ConformanceTest, skip]
+[lutaml_uml_attributes_table,models/ogc-modspec.lutaml, ConformanceTest, skip]
 
 === StandardizationTarget
-[lutaml_uml_attributes_table,models/metanorma-requirements-models/views/ogc-modspec.lutaml, StandardizationTarget, skip]
+[lutaml_uml_attributes_table,models/ogc-modspec.lutaml, StandardizationTarget, skip]
 
 === StandardizationTargetType
-[lutaml_uml_attributes_table,models/metanorma-requirements-models/views/ogc-modspec.lutaml, StandardizationTargetType, skip]
+[lutaml_uml_attributes_table,models/ogc-modspec.lutaml, StandardizationTargetType, skip]
