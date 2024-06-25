@@ -1,3 +1,0 @@
-[submodule "metanorma-requirements-models"]
-	path = sources/models/metanorma-requirements-models
-	url = git@github.com:metanorma/metanorma-requirements-models.git
