@@ -1,41 +1,10 @@
 [.preface]
 == Introduction
 
-[quote, "Thomas the Tank Engine, by Rev. W. V. Awdry, 1946"]
-____
-A really Useful Engine
-____
+This OGC Policy specifies rules for the internal structure and organization of an OGC Standard. This OGC Policy is designed to enable the clear and concise specification of requirements (the _shalls_ or _musts_ in a standard) that fully supports the ability to define implementable conformance tests. The goal is to enable implementations of a standard to be tested and deemed _conformant_ . . . or not.
 
-Our friend Thomas, in a Zen-like moment unusual for a child's story and definitely
-unusual for a steam locomotive, decides that his purpose in life is to be a "Really
-Useful Engine{blank}footnote:[The capitalization is the Rev. Audrey's. See
-http://en.wikipedia.org/wiki/Thomas_the_Tank_Engine]." A standard's usefulness and
-hence worth can be measured by:
+An OGC standard presents requirements , which must be satisfied by passing the tests of the conformance suite. These tests are organized into conformance classes, each of which represents a
+mechanism for partial satisfaction of the standard. This results in the OGC standard having a modular structure, where each requirements class has a corresponding conformance (test) class. In a well written standard, the normative clauses and any model or schema are organized in a manner that parallels the requirements and conformance clauses.
 
-* The ease with which it can be implemented.
-* The number of times it has been implemented.
-* The number of times those implementations are used.
-* The ease with which those implementations interact.
-* The number of times it has been extended through inclusion in other useful standards.
-
-Some of these are affected by the choice of topic, but all are affected by the
-internal logical structure of the standard. This standard specifies generic rules for
-this internal structure conducive to being a really useful engine.
-
-A standard is a partial solution to a design problem which limits "conformant"
-solutions to enhance interoperability and harmony between disparate implementations.
-Design issues and requirements are transformed into statements about the solution
-design, and are then presented in the standard as requirements of the solution,
-usually as requirement statements targeting the solution.
-
-Thus, a standard presents requirements targeting implementations of solutions of the
-original problem, which must be satisfied by passing the tests of the conformance
-suite. These tests are organized into conformance classes, each of which represents a
-mechanism for partial satisfaction of the standard. These give the standard a modular
-structure, each requirements class represented by a conformance class. In a well
-written standard, the normative clauses and any model or schema are organized in a
-manner that parallels the conformance clause.
-
-NOTE: This standard has been referred to as the "core and extension model" due to its
-insistence on a modular structure throughout all parts of a specification and its
-implementation.
+NOTE: The approach modelled in this Policy has been referred to as the "core and extension model" due to its
+insistence on a modular structure throughout all parts of a standard and its implementation.
