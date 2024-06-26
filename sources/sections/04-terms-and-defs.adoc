@@ -4,8 +4,8 @@
 [.boilerplate]
 === {blank}
 
-For the purposes of this document, the following terms and definitions apply.
-Terms not defined here take on their meaning from computer science or from their
+For the purposes of this document, the following terms and definitions shall apply.
+Terms not defined here take their meaning from computer science or from their
 Standard English (common US and UK) meanings. The form of the definitions is
 defined by ISO Directives.
 
@@ -24,14 +24,17 @@ that standard
 
 [NOTE]
 ====
-"Certificates" do not have to be instantiated documents; having proof of passing
+"Certificates" do not have to be instantiated documents. Having proof of passing
 the conformance test class is sufficient. For example, the OGC currently keeps
-an online list of conformant applications at
-http://www.opengeospatial.org/resource/products.
+an online list of conformant applications at https://www.ogc.org/resources/certified-products/.
 
-Each certificate of conformance is awarded to a
-{{standardization target}}.
+Each certificate of conformance is awarded to a {{standardization target}}.
 ====
+
+=== conformance test
+
+test, abstract or real, of a single {{requirement,requirements}} contained
+within a standard, or set of standards
 
 === conformance test case
 
@@ -106,11 +109,6 @@ In this standard, each {{requirement}} is mandatory within its
 <<conformance-class,conformance class>> and each {{requirement}} is
 tested in at least one {{conformance test}}.
 ====
-
-=== conformance test
-
-test, abstract or real, of one or more {{requirement,requirements}} contained
-within a standard, or set of standards
 
 === core requirements class
 
