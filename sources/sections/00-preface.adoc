@@ -1,12 +1,15 @@
 [.preface]
 == Preface
 
-This OGC Policy specifies requirements and recommendations for writing and structuring OGC Standards.
+This OGC member developed and approved document defines a model and related requirements and recommendations for writing and structuring modular standards documents. Further, this model is designed to enable the consistent and verifiable testing of implementations of a standard that claim conformance.
 
-The goal is to ensure that all OGC Standards specify requirements in a common and consistent manner and that these requirements are testable.
-Any new OGC Standard, abstract specification, or major revision of an existing standard shall comply with this Policy in the structure of its internal models and its conformance tests. 
+The goal is to ensure that a standard specifies requirements in a common and consistent manner and that these requirements are testable.
 
-Suggested additions, changes, and comments on this OGC Policy are welcome and
+NOTE: For OGC only: Any new OGC Standard, abstract specification, or major revision of an existing OGC Standard shall comply with the requirements stated in this document.
+
+NOTE: Historically, this document has been known and abbreviated as the "ModSpec". For continuity and ease of understanding this document may also be refered to as the "OGC ModSpec".
+
+Suggested additions, changes, and comments on this this document are welcome and
 encouraged. Such suggestions may be submitted through the OGC Change Request System
 (http://www.opengeospatial.org/standards/cr) or by creating an issue in the GitHub repository for this Policy (https://github.com/opengeospatial/ogc-modspec).
 
