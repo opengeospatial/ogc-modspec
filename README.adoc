@@ -8,7 +8,9 @@ image:https://github.com/opengeospatial/ogc-modspec/workflows/generate/badge.svg
 
 This repository contains the ModSpec standards, including:
 
-* 08-131r3
+* The original 08-131r3 as approved in 2013
+* A Reed edit branch containing the <many> proposed changes for a Version 2 revision
+* Issues for discussion and resolution related to the proposed changes
 
 == Structure
 
