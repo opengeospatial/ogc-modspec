@@ -1,8 +1,8 @@
 = OGC: ModSpec
 
-image:https://github.com/metanorma/ogc-modspec/workflows/generate/badge.svg["Build Status", link="https://github.com/metanorma/ogc-modspec/actions?query=workflow%3Agenerate"]
+image:https://github.com/opengeospatial/ogc-modspec/workflows/generate/badge.svg["Build Status", link="https://github.com/opengeospatial/ogc-modspec/actions/workflows/generate.yml"]
 
-* https://metanorma.github.io/ogc-modspec/[OGC ModSpec (HTML)]
+* https://opengeospatial.github.io/ogc-modspec/[OGC ModSpec (HTML)]
 
 == General
 
