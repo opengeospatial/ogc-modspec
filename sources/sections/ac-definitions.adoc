@@ -24,20 +24,20 @@ conformance tests}} and {{requirement,requirements}} is many-to-many.
 . all {{conformance test, conformance tests}} are graded as *pass* or *fail*
 against each instance of the {{standardization target}}.
 
-. a {{requirement}} is associated to at least one {{conformance test}}.
+. a {{requirement}} is associated to one {{conformance test}}.
 
 . a {{recommendation}} is a suggestion and is not associated to any
 {{conformance test}}.
 
 . a {{requirements class}} is a set of one or more {{requirement,requirements}}
-all on the same {{standardization target type}}.
+all with the same {{standardization target type}}.
 
 . a {{conformance test class,conformance (test) class}} is a collection of
 {{conformance test,conformance tests}} that are associated to and only to the
 requirements in a corresponding {{requirements class}}.
 
-. a {{conformance test class,conformance (test) class}} is also collection of
-{{conformance test module,conformance test modules}} that group
+. a {{conformance test module,conformance (test) module}} is also collection of
+{{conformance test classes,conformance test classes}} that group
 {{conformance test, conformance tests}} on a single
 {{standardization target type}}.
 
@@ -47,15 +47,15 @@ class,conformance (test) class}} and received a {{certificate of conformance}}
 
 . the {{core requirements class}} of a standard is the minimal set of
 {{requirement,requirements}} which must be supported by all *conformant
-implementations*. If a specification addresses multiple {{standardization target
+implementations*. If a standard addresses multiple {{standardization target
 type,standardization target types}}, it may have a *core* for each *target
 type*.
 
-. an *extension* of a {{requirements class}} is a second {{requirements class}}
+. an *extension* of a {{requirements class}} is an additional {{requirements class}}
 (the extension) that adds additional {{requirement,requirements}} to the first
 {{requirements class}} (the *base requirements class* being extended). The
 extension is said to be dependent on the *base*. Any {{conformance test class}}
-must identify all of its dependencies during the execution of conformance tests
+must identify all its dependencies during the execution of conformance tests
 against a candidate {{standardization target}}.
 
 [[annex-C-2]]
@@ -70,10 +70,36 @@ in <<cls-6-1>>. The following subclauses describe the classes shown in this UML
 class diagram.
 
 === Specification
+=== Specification
 [lutaml_uml_attributes_table,models/ogc-modspec.lutaml, Specification, skip]
 
+For a draft standard (aka specification) to become an international standard, the document must be approved by an authority, such as ISO or the OGC. The attributes of a standard describe its local name, its authority, the date of publication and its current status (such as CD, DIS, IS in ISO, or Draft, Candidate Standard, or Standard in OGC). 
+
+Class Specification
+```
+{		
+name 	: String 	// name for the standards
+authority	: Principal	// Standards Body & Namespace for name
+date	: DateTime	// publication date
+status	: String	// description of current status
+reference	: Specification[0..*]	// other standards used normatively 
+testSuite	: ConformanceSuite	// all tests associated to the standard
+}
+```
+
 === Conformance Suite
-[lutaml_uml_attributes_table,models/ogc-modspec.lutaml, ConformanceSuite, skip]
+
+The unique conformance suite of a tandard lists the tests (grouped into conformance test modules consisting of some number of conformance test classes, containing some number of conformance tests) that allow testing of an implementation of the standard for conformance with the standard. Every standard needs one of these suites, or conformance cannot be claimed with proof. In ISO and the OGC, the conformance suite included in the specification standard is usually an abstract description of the tests which will be implemented. Other standards may use a more concrete description. For the purposes of this document, the precise nature of the conformance suite is not particularly important as long as it is not ambiguously stated. 
+
+Each conformance test within a conformance class should be against a single standardization target defined for that class. A conformance suite may contain several defined conformances classes for the same standardization target. 
+
+Class ConformanceSuite 
+```
+{		
+class	: ConformanceClass[1…*]	
+}	
+```
+
 
 [[conformance-class]]
 === Conformance Class
