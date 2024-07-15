@@ -70,36 +70,10 @@ in <<cls-6-1>>. The following subclauses describe the classes shown in this UML
 class diagram.
 
 === Specification
-=== Specification
+
 [lutaml_uml_attributes_table,models/ogc-modspec.lutaml, Specification, skip]
 
-For a draft standard (aka specification) to become an international standard, the document must be approved by an authority, such as ISO or the OGC. The attributes of a standard describe its local name, its authority, the date of publication and its current status (such as CD, DIS, IS in ISO, or Draft, Candidate Standard, or Standard in OGC). 
-
-Class Specification
-```
-{		
-name 	: String 	// name for the standards
-authority	: Principal	// Standards Body & Namespace for name
-date	: DateTime	// publication date
-status	: String	// description of current status
-reference	: Specification[0..*]	// other standards used normatively 
-testSuite	: ConformanceSuite	// all tests associated to the standard
-}
-```
-
 === Conformance Suite
-
-The unique conformance suite of a tandard lists the tests (grouped into conformance test modules consisting of some number of conformance test classes, containing some number of conformance tests) that allow testing of an implementation of the standard for conformance with the standard. Every standard needs one of these suites, or conformance cannot be claimed with proof. In ISO and the OGC, the conformance suite included in the specification standard is usually an abstract description of the tests which will be implemented. Other standards may use a more concrete description. For the purposes of this document, the precise nature of the conformance suite is not particularly important as long as it is not ambiguously stated. 
-
-Each conformance test within a conformance class should be against a single standardization target defined for that class. A conformance suite may contain several defined conformances classes for the same standardization target. 
-
-Class ConformanceSuite 
-```
-{		
-class	: ConformanceClass[1…*]	
-}	
-```
-
 
 [[conformance-class]]
 === Conformance Class
