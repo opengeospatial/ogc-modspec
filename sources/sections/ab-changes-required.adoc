@@ -2,7 +2,7 @@
 [appendix,obligation=normative]
 == Changes required in the OGC Standards
 
-NOTE: For OGC Standards only: No chnages are required to existing OGC Standards
+NOTE: For OGC Standards only: No changes are required to existing OGC Standards
 
 === New standards and revisions to exissting standards
 
