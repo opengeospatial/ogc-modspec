@@ -11,7 +11,7 @@ NOTE: Historically, this document has been known and abbreviated as the "ModSpec
 
 Suggested additions, changes, and comments on this this document are welcome and
 encouraged. Such suggestions may be submitted through the OGC Change Request System
-(http://www.opengeospatial.org/standards/cr) or by creating an issue in the GitHub repository for this Policy (https://github.com/opengeospatial/ogc-modspec).
+(http://www.opengeospatial.org/standards/cr) or by creating an issue in the GitHub repository for this document (https://github.com/opengeospatial/ogc-modspec).
 
 [.preface]
 == Document terms and definitions
