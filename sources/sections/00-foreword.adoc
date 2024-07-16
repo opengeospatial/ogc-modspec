@@ -1,7 +1,7 @@
 [.preface]
 == Foreword
 
-This OGC document (aka the ModSpec), while specifying a formal structure for standards documents, does not supply
+This OGC document (aka the ModSpec) specifies a formal structure for standards documents but does not supply
 specific content. Where possible, this document is conformant with itself (with respect to the core conformance test class, <<cls-6>>
 and the Conformance Test Suite <<annex-A-1>>).
 
