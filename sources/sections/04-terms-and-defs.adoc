@@ -46,79 +46,71 @@ NOTE: When no ambiguity, the word "case" may be omitted. i.e.
 
 === conformance test module
 
-set of related tests, all within a single {{conformance test class}}
-
-[NOTE]
-====
-When no ambiguity, the word "test" may be omitted. i.e.
-{{conformance test module}}
-is the same as *conformance module*. Conformance modules may
-be nested in a hierarchical way.
-
-This term and those associated to it are included here for consistency with ISO 19105.
-====
-
-[.source]
-<<iso19105>>
-
-=== conformance test class
-alt:[conformance test level]
-
-set of {{conformance test module,conformance test modules}} that must
+set of related conformance test classes, all with the same standardization target, that must
 be applied to receive a single {{certificate of conformance}}
 
 [NOTE]
 ====
-When no ambiguity is possible, the word "test" may be left out, so
+When there is no ambiguity, the word "test" may be omitted. i.e.
+{{conformance test module}} is the same as *conformance module*. Conformance modules may
+be nested in a hierarchical way.
+====
+
+=== conformance test class
+alt:[conformance test level]
+
+set of related conformance tests grouped based on the one to one relationship to requirements in a requirements class
+
+[NOTE]
+====
+When there is no ambiguity, the word "test" may be left out, so
 {{conformance test class}}
 maybe called a <<conformance-class,_conformance class_>>.
 
-In this standard, the set of {{requirement,requirements}} tested by the
+In the ModSpec, the set of {{requirement,requirements}} tested by the
 conformance tests within a <<conformance-class,_conformance class_>> is a
 {{requirements class}} and its dependencies. Each optional {{requirement}} will
 be in a separate {{requirements class}} with other {{requirement,requirements}}
 that are part of the same option. Each {{requirements class}} corresponds to a
 separate <<conformance-class,conformance class>>
 
-In other words, the only options in a specification conformant to this standard
+In other words, the only options in a standard conformant to the ModSpec
 will be if a particular {{requirements class}} is tested. Each requirements
 class will be in a 1 to 1 correspondence to a similarly named
 <<conformance-class,_conformance class_>> that tests all of the
 {{requirements class,requirements class's}} {{requirement,requirements}}.
 
-All {{requirement,requirements}} in a <<conformance-class,_conformance class_>>
+All {{requirement,requirements}} in a <<conformance-class,_conformance class_>> and/or <<conformance-module,_conformance module_>>
 will have the same {{standardization target}}.
 
-The term "level" is a synonym for "class" and is part of the ISO nomenclature.
-Here the two terms are treated as equivalent but ISO usually has differences in
-the way they are named and how they related to one another level or class.
 ====
 
 === conformance suite
+alt:[conformance test suite]
 
-set of <<conformance-class,_conformance classes_>> that define tests for all
+set of <<conformance-class,_conformance classes_>> and/or conformance modules that define tests for all
 {{requirement,requirements}} of a standard
 
 [NOTE]
 ====
 The {{conformance suite}} is the union of all
 <<conformance-class,_conformance classes_>>. It is by definition the
-<<conformance-class,_conformance class_>> of the entire specification.
+<<conformance-class,_conformance class_>> of the entire standard.
 
-In this standard, each {{requirement}} is mandatory within its
+In the ModSpec, each {{requirement}} is mandatory within its
 <<conformance-class,conformance class>> and each {{requirement}} is
-tested in at least one {{conformance test}}.
+tested in at least one {{conformance test}}. In the OGC, this is also known as the Abstract Test Suite (ATS) in OGC documents
 ====
 
 === core requirements class
 
 unique {{requirements class}} that must be satisfied by any conformant
 {{standardization target,standardization targets}} associated to the
-specification
+standard
 
 [NOTE]
 ====
-The core {{requirements class}} is unique because if it was possible to have
+The core {{requirements class}} is unique because if it were possible to have
 more than one, then each *core* would have to be implemented to pass any
 {{conformance test class}}, and thus would have to be contained in any other
 *core*. The *core* may be empty, or all or part of another standard or related
@@ -144,7 +136,7 @@ of the current {{requirements class}} will have the same
 {{requirements class}}. This is another ways of saying that the current
 {{requirements class}} extends, or uses all the aspects of the
 {{direct dependency (of a requirements class), direct dependency}}.
-Any tests associated to this
+Any tests associated with this
 {{direct dependency (of a requirements class),dependency}} can be applied to this
 {{requirements class}}.
 
@@ -203,12 +195,12 @@ software extensions in a manner analogous to the extension relation between the
 
 === general recommendation
 
-recommendation applying to all entities in a specification model
+recommendation applying to all entities in a standard
 
 === home (of a requirement or recommendation)
 
 official statement of a {{requirement}} or {{recommendation}} that is the
-precedent for any other version repeated or rephrased elsewhere
+precedent for any other version repeated or rephrased elsewhere in a standard
 
 [NOTE]
 ====
@@ -218,21 +210,7 @@ of the normative language. Since such restatements are often less formal than
 the original source and potentially subject to alternate interpretation, it is
 important to know the location of the *home* official version of the language.
 
-These alternative statements use non-normative language and are
-{{statement,statements}} using the definitions of the ISO Directives
-Part 2.
 ====
-
-=== leaf package
-
-UML model package that does not contain any subpackages, but contains
-classifiers
-
-[.source]
-<<omg-infrastructure>>
-
-[.source]
-<<omg-superstructure>>
 
 === model
 alt:[abstract model]
@@ -241,38 +219,12 @@ alt:[conceptual model]
 theoretical construct that represents something, with a set of variables and a
 set of logical and quantitative relationships between them.
 
-[NOTE]
-====
-Derived from _Wikipedia_
+=== module
 
-The "theoretical construct" is essentially a *conceptual metaphor* with the
-*target* of the *metaphor* as the thing being modeled, and the *source* of the
-*metaphor* as the {{model}}. The terms are almost interchangeable, with
-{{model}} being preferred when the *source* is a constructed entity, and
-*metaphor* being preferred when the *source* already exists, and the emphasis is
-the mapping between it and the *target*.
+any of a number of distinct but interrelated units from which a program may be built up or into which a complex activity may be analyzed.
 
-The definition in <<iso19101, clause 4.4>> is
-
-[quote]
-____
-*conceptual model* - model that defines concepts of a universe of discourse.
-____
-
-While adequate in the context of a "universe of discourse" as the something
-addressed by a standard, a model need not have any "universality" property at
-all. Most often models are representative of only a relatively small portion of
-a larger universe, and part of the process of modeling is to factor out the
-properties and things to which no interest is directed within the present
-standard. It also fails to define "model" which is in fact the central issue
-within this discussion.
-
-The *abstract* or *conceptual* is actually redundant and will often be dropped
-in the text. {{model,Models}} are by their vary nature not the same as what they
-are describing, and thus must contain a *conceptual metaphor* to describe their
-relationship to the *target* (the thing being described) of the model. This
-inherently makes them abstractions.
-====
+===	Optional requirements class
+An optional requirements class may or may not be implemented or specified in a profile or extension. However, if a profile, extension, or implementation specifies the use of an optional requirements class, then every requirement in that requirements class shall be implemented.
 
 === profile
 
@@ -284,12 +236,6 @@ profiles necessary to accomplish a particular function.
 
 [NOTE]
 ====
-This definition has been adopted from <<iso10000-1>>. The wording has been
-changed to accommodate the shared vocabulary of OGC and ISO TC 211 and for
-editorial reasons. The original text is "A set of one or more base standards
-and/or ISPs, and, where applicable, the identification of chosen classes,
-conforming subsets, options and parameters of those base standards, or ISPs
-necessary to accomplish a particular function."
 
 In the usage of this standard, a profile will be a set of requirements classes
 or conformance classes (either preexisting or locally defined) of the base
@@ -322,25 +268,20 @@ conditional).
 === requirement
 
 expression in the content of a document conveying criteria to be fulfilled if
-compliance with the document is to be claimed and from which no deviation is permitted
+compliance with the document is to be claimed and for which no deviation is permitted
 
 [NOTE]
 ====
 Each {{requirement}} is a normative criterion for a single
-*type of standardization target*. In this standard, requirements will be
+*type of standardization target*. In the ModSpec, requirements will be
 associated to {{conformance test, conformance tests}} that can be used to prove
 compliance to the underlying criteria by the {{standardization target}}.
 
 The implementation of a {{requirement}} is dependent on the type of
-specification being written. A data specification requires data structures, but
-a procedural specification requires software implementations. The view of a
+standard being written. A data standard requires data structures, but
+a procedural standard requires software implementations. The view of a
 standard in terms of a set of testable {{requirement,requirements}} allows us to
 use set descriptions of both the standard and its implementations.
-
-The specification of a {{requirement}} is usually expressed in terms of a model
-of the {{standardization target}}, such as a UML model, or an XML or SQL schema.
-Anything without a defined test is _a priori_ not testable and thus would be
-better expressed as a {{recommendation}}.
 
 {{requirement,Requirements}} use normative language and in particular are
 commands and use the imperative "shall" or similar imperative constructs.
@@ -354,7 +295,7 @@ requirements that use "shall" imperatively.
 
 === requirements class
 
-aggregate of all {{requirements module,requirement modules}} that
+aggregate of all requirements with single standardization target that
 must all be satisfied to satisfy a {{conformance test class}}
 
 NOTE: There is some confusion possible here, since the testing of indirect
@@ -365,12 +306,11 @@ relationship from the original target to something that has a property
 
 === requirements module
 
-aggregate of {{requirement,requirements}} and
-{{recommendation,recommendations}} of a specification against a
+aggregate of {{requirement,requirements}} ,
+{{recommendation,recommendations}} and permissions of a standard against a
 single {{standardization target type}}
 
-NOTE: This term is included to be consistent with the use of modules in ISO
-19105. The third type of normative language, the "permission" which uses "may,"
+NOTE: The third type of normative language, the "permission" which uses "may,"
 is not considered here mainly because it is usually used to prevent a
 requirement from being "over interpreted" and as such is considered to be more
 of a "statement of fact" than a "normative" condition.
@@ -381,38 +321,23 @@ document containing {{recommendation,recommendations}},
 {{requirement,requirements}} and {{conformance test, conformance tests}} for
 those {{requirement,requirements}}
 
-[NOTE]
-====
-This definition is included for completeness. See <<cls-5-3>>.
-
-This does not restrict what else a standard may contain, as long as it does
-contain the three types of element cited.
-====
-
 === standard
 
-{{specification}} that has been approved by a legitimate Standards Body
+document that has been approved by a legitimate Standards Body
 
 [NOTE]
 ====
 This definition is included for completeness. {{standard,Standard}} and
-{{specification}} can apply to the same document. While {{specification}} is
+{{specification}} can apply to the same document. While {{specification}} can be used and is
 always valid, {{standard}} only applies after the adoption of the document by a
 legitimate standards organization.
-
-The legitimate Standards Bodies for OGC consist of OGC, ISO and any of the other
-standards bodies accepted and used as a source of normative references by OGC or
-ISO in their standards. In the normal meaning of the word "standard", there are
-other conditions that may be required, but this standard has chosen to ignore
-them in the process of abstraction.
 ====
 
 === standardization target
 
 entity to which some {{requirement,requirements}} of a {{standard}} apply
 
-NOTE: The {{standardization target}} is the entity which may receive a
-{{certificate of conformance}} for a {{requirements class}}.
+NOTE: For example, the standardization target for the OGC API - Features - Part 2: Coordinate Reference Systems by Reference Standard is to extend the core capabilities specified in Part 1: Core so that implementations have the ability to use coordinate reference system identifiers other than the defaults defined in the core. The standardization target of the CDB version 2.0 CRS Requirements Classes is . . .
 
 === standardization target type
 
@@ -421,21 +346,10 @@ type of entity or set of entities to which the {{requirement,requirements}} of a
 
 [NOTE]
 ====
-The {{standardization target type,standardization target types}} give
-the {{standardization target,standardization targets}} a typing
-system similar to the UML classifiers. In general, the types inherit from one
-another in the same way that UML classes do. The same class/metaclass semantics
-apply, and two targets can be considered to have the "same type" (in a
-particular situation) if their instantiation types share the appropriate
-supertype, as is the case in UML.
-
-In OGC for example, all service types that must pass the OWS (Open Web Services)
-Common specification are some extension of the "Open Web Service"
-{{standardization target type}}. This makes OWS Common a default
-"global core" for all OGC Services.
+For example, the standardization target type for The OGC API – Features Standard are Web APIs. The standardization target type for the CDB Standard is a datastore compliant with the requirements as stated in the CDB Standard. 
 
 In some cases, the {{standardization target type}} may be another
-specification. A GML application schema is a
+standard. A GML application schema is a
 {{standardization target}} for the GML standard, but is in turn a
 specification of instances of that application schema.
 ====
