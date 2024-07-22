@@ -70,7 +70,7 @@ these component elements in a normative manner, including but not limited to oth
 standards, implementations of the conformance test suite, or certificates of
 conformance for implementations conformant to the standard in question.#* The precise
 enforcement of this requirement and its associated recommendation is the purview of
-the OGC Naming Authority or its equivalence.
+the OGC Naming Authority or its equivalents.
 
 While a requirement may be referenced in more than one place in a standard, the normative definition of a requirement shall be its "*#home#*" (see <<cls-5-3>>) and
 will be the only place where full normative language is used.
@@ -88,7 +88,7 @@ Conformance tests are aggregated into conformance classes that specify how certa
 the requirements. The issue that blocks this approach is that some requirements are
 optional while others are mandatory. To achieve a cleaner separation of requirements,
 this Policy separates them into sets (called "requirements classes"), each of which
-has no optional components. Since the normative statement of each requirement is only declared once and is uniquely identified as such , each requirement will be in a clause associated to its requirements class.
+has no optional components. Since the normative statement of each requirement is only declared once and is uniquely identified as such, each requirement will be in a clause associated to its requirements class.
 
 Therefore, this Policy defines a "requirements class" as a set of requirements that must
 all be passed to achieve a particular conformance class (see
@@ -98,14 +98,14 @@ parallel the conformance test modules. A standard written to this Policy may
 use this "module" structure in any manner consistent with the rest of this Policy.
 
 An OGC Standard or Abstract Specification may have mandatory and optional requirements classes.  This allows the options
-in the testing procedure to be grouped into non-varying mandatory and optional conformance classes
+in the testing procedure to be grouped into non-varying mandatory and optional conformance classes.
 Each requirement within an optional requirements class is mandatory when that requirements class is
 implemented. When needed, a particular requirements class may contain only a single
 requirement.
 
 However, care must be taken, since the requirements classes may not always in a one-to-one
 correspondence to conformance classes in other standards which may be the source of
-requirements for a standard conformant to this Policyd. If other standards are
+requirements for a standard conformant to this Policy. If other standards are
 used, their options shall be specified to be useable within a standard conformant to
 this policy, see <<cls-6-5-1>>.
 
@@ -115,7 +115,7 @@ passed to qualify to pass this conformance class. In terms of requirements, that
 that the dependent conformance class contains tests (by reference) for all
 requirements of the "included" conformance class.
 
-From this POlicy's view of requirements classes, one requirements
+From this Policy's view of requirements classes, one requirements
 class is dependent on another if the other is included through such a reference. In
 this manner, requirements classes can be treated as sets of requirements (each in a
 single requirements class but included in others by reference to its "home"
@@ -168,9 +168,9 @@ class in which the request-response pair is defined and set against requirements
 === Using the model
 
 The primary difficulty in speaking of standards (or candidate
-standards){blank}footnote:[This is purposely written as "as yet not adopted"
+standards){blank}footnote:[This is purposely written as "as not yet adopted"
 standards, since it is during the authoring process that this Policy must be
-considered, not _ex post facto_.] as a group is their diverse
+considered, not _post facto_.] as a group is their diverse
 nature. Some standards use UML to define behavior, others use XML to define data
 structures, and others use no specific modeling language at all. However, they all
 must model the standardization target to which they apply since they need to use
@@ -683,7 +683,7 @@ future, logically-valid extensions of its standardization targets.#
 
 *#The above requirement should not be interpreted as a restriction on quality
 control.#* Any efforts by a specification to enforce a level of quality on its
-standardization targets, when well and properly formed; do not interfere with the
+standardization targets, when well and properly formed, do not interfere with the
 proper extension of those targets. So, the specification may require its
 standardization targets to behave in a certain manner when presented with a logical
 inconsistency, but that inconsistency must be fundamental to the internal logic of
@@ -705,7 +705,7 @@ standard shall be expressible as a list of conformance classes to be passed.#
 
 NOTE: Standards and implementations are restricted by this, but not instances of
 schemas. For example, a XML schema standard can specify an optional element, which
-data instances may use or not., However schema-aware processors claiming conformance
+data instances may use or not. However schema-aware processors claiming conformance
 to the standard should be able to handle all elements defined in the schema, whether
 they are required by the schema or not.
 
