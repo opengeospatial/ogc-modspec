@@ -224,7 +224,7 @@ An optional requirements class may or may not be implemented or specified in a p
 === permission 
 
 uses "may" and is used to prevent a requirement from being "over interpreted" and as such is considered to be more
-of a "statement of fact" than a "normative" condition.
+of a "statement of fact" than a "normative" condition. A permission cannot override a requirement.
 
 === profile
 
@@ -346,14 +346,14 @@ entity to which some {{requirement,requirements}} of a {{standard}} apply
 NOTE: The {{standardization target}} is the entity which may receive a
 {{certificate of conformance}} for a {{requirements class}}.
 
-NOTE: Need to add examples! To wit: For example, the standardization target for the OGC API - Features - Part 2: Coordinate Reference Systems by Reference Standard is to extend the core capabilities specified in Part 1: Core so that implementations have the ability to use coordinate reference system identifiers other than the defaults defined in the core. The standardization target of the CDB version 2.0 CRS Requirements Classes is to clearly define (with metadata) a CRS for a CDB compliant datastore. 
+NOTE: For Example, the standardization target of the CDB version 2.0 CRS Requirements Classes is to clearly define (with metadata) a CRS for an implementation instance of a CDB compliant datastore. 
 
 === standardization target type
 
 type of entity or set of entities to which the {{requirement,requirements}} of a
 {{standard}} apply
 
-NOTE: Need examples. To wit: For example, the standardization target type for The OGC API – Features Standard are Web APIs. The standardization target type for the CDB Standard is a datastore compliant with the requirements as stated in the CDB Standard. 
+NOTE: Example: The standardization target type for The OGC API – Features Standard are Web APIs. The standardization target type for the CDB Standard are datastores compliant with the requirements as stated in the CDB Standard. 
 
 === statement
 
