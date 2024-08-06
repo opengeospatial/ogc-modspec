@@ -48,9 +48,8 @@ version by:
 
 [source,sh]
 ----
-docker run -v "$(pwd)":/metanorma -w /metanorma -it metanorma/mn metanorma site generate
+docker run -v "$(pwd)":/metanorma -v ${HOME}/.fontlist/fonts/:/config/fonts metanorma/metanorma metanorma compile --agree-to-terms -t ogc -x xml,html,pdf document.adoc
 ----
-
 
 == UML model definitions
 
