@@ -1,39 +1,34 @@
 [[cls-6]]
-== Requirements Class: The Specification (Core)
+== Requirements Class: Core
 
 [[cls-6-1]]
-=== Specification model
+=== The model
 
-This standard lays requirements against other specifications by using a set-theoretic
-description of those specifications based on their structure as organized sets of
+This Policy defines requirements for specifying the structure as organized sets of
 criteria, those that are to be tested ("requirements") and those that are not tested
-("recommendations"). All specifications, formally or informally, create an
-abstraction of the things to which they apply (called an "abstract model" or
-"metaphor" if more informally constructed) in order to provide a context for stating
-requirements. This standard is considered one of its own standardization targets and
-thus a subject of its own requirements.
-
-This standard assumes that the specifications addressed are in a commonly used
-logical form. This form can be specified by the following descriptions:
-
-. A specification contains Clauses (corresponding to numbered sections as they might
-appear in a table of contents) which describe its standardization target and its
+("recommendations" and "permissions"). All OGC Standards, formally or informally, create an
+abstraction of the things to which they apply (called an "abstract model") in order to provide a context for stating
 requirements.
-. A specification contains Annexes or is associated to other documents (both a
+
+This Policy assumes that OGC Standards documents are in a commonly used
+logical form (template). This form can be specified by the following descriptions:
+
+. A standards document or abstract specification document contains Clauses (corresponding to numbered sections as they might
+appear in a table of contents) which describe its standardization target and its requirements.
+. An OGC Standard or Abstract Specification contains Annexes or is associated to other documents (both a
 logical type of Clause), one of which is the Conformance Test Suite (which may be an
-abstract description of the test suites to be implemented separately).
-. All requirements, recommendations and models are introduced and defined first in
+abstract description of the test suites to be implemented separately). In OGC Documents, this is Annex A – Abstract Test Suite.
+. All requirements, recommendations, permissions and models are introduced and defined first in
 the numbered Clauses.
 . All requirements are identifiable as requirements. In OGC and ISO, this means use
 of "normative" language, meaning the proper use of SHALL, SHOULD, CAN and MAY or
-similar wording in the passive voice. (MUST in ISO is reserved for "external
-statutory obligations" which are not usually carried as requirements)
+similar wording in the passive voice. All requirements in a document are uniquely numbered.
 . All tests for conformance to those requirements are defined in the Conformance Test
-Suite.
-. Tests may be grouped for convenience into conformance test modules (<<iso19105>>)
-. The tests, if conducted, will determine to some degree of certainty whether an
+Suite (also known as the Abstract Test Suite (ATS) in OGC documents).
+. Tests are be grouped for convenience into conformance test classes and if desired the classes are grouped into conformance test modules.
+. The tests, if conducted, determine to some degree of certainty whether an
 implementation meets the requirements which the tests reference.
-. The tests are organized into some number of conformance "classes". If a standard
+. The tests are organized into some number of conformance "classes" where each conformance class has a one to one relationship with a requirements class. If a standard
 does not do this, it is has by default only one "conformance class".
 . Certificates of conformance (see <<term-all-components-schema-document>>) are
 awarded by a testing entity based on these conformance classes.
@@ -45,21 +40,14 @@ not requirements, but explain the consequence of requirements.]
 
 A UML representation of important properties of this model is given in <<annex-C-2>>.
 
-This standard defines a "requirement" of a specification as an atomic testable
+This Policy defines a "requirement" of a standard as an atomic testable
 criterion. See the formal definition of requirement in <<term-requirement>>
-
-[NOTE]
-====
-"Atomic" means non-decomposable from the Greek word for "indivisible." Thus, each
-requirement is not to be further divided (even if it can logically be done) into
-smaller requirement statements.
-====
 
 [[req-1]]
 [requirement,model=ogc,type="general"]
 ====
 #All the parts of a requirement, a requirement module or requirements class shall be
-tested. Failure to meet any part of any requirement shall be a failure to pass the
+testable. Failure to pass any part of any requirement shall be a failure to pass the
 associated conformance test class.#
 ====
 
@@ -74,8 +62,7 @@ failure to pass the requirement.
 ====
 #Each component of the standard, including requirements, requirements modules,
 requirements classes, conformance test cases, conformance modules and conformance
-classes shall be assigned a URI as specified by the OGC naming authority or its
-equivalent.#
+classes shall be assigned a URI conformant with the OGC naming authority policies.#
 ====
 
 *#These URI identities should be used in any external documentation that reference
@@ -83,109 +70,79 @@ these component elements in a normative manner, including but not limited to oth
 standards, implementations of the conformance test suite, or certificates of
 conformance for implementations conformant to the standard in question.#* The precise
 enforcement of this requirement and its associated recommendation is the purview of
-the OGC URI/URN Naming Authority or its equivalence.
+the OGC Naming Authority or its equivalents.
 
-A requirement may have a variety of parts spread throughout the standard, but
-somewhere in the normative clauses, the requirement will be defined in terms of the
-local modeling paradigm or in terms of the conceptual model of the target of the
-standard. This place of its definition shall be its "*#home#*" (see <<cls-5-3>>) and
-will be the only place where full normative language is used. This is because two
-separate statements of the same requirement could eventually diverge in meaning or
-interpretation.
+While a requirement may be referenced in more than one place in a standard, the normative definition of a requirement shall be its "*#home#*" (see <<cls-5-3>>) and
+will be the only place where full normative language is used.
 
 In the conformance test suite there will be a test defined to verify the validity of
 the claim that an implementation of the standard (standardization target) satisfies
 each requirement. Since the normative language of the body of the standard and the
 conformance test classes both define what conformance to the standard means, they
-will be equivalent in a well-written specification. This standard requires
-specifications to be well-written, at least in stating requirements and conformance
+will be equivalent in a well-written specification. This Policy requires
+OGC Standards and Abstract Specifications to be well-written, at least in stating requirements and conformance
 tests.
 
 Conformance tests are aggregated into conformance classes that specify how certain
 "certificates of conformance" are achieved. The natural inclination is to aggregate
 the requirements. The issue that blocks this approach is that some requirements are
 optional while others are mandatory. To achieve a cleaner separation of requirements,
-this standard separates them into sets (called "requirements classes"), each of which
-has no optional components. Since the statement of each requirement has only one
-"*#home#*", it will be in a clause associated to its requirements class.
+this Policy separates them into sets (called "requirements classes"), each of which
+has no optional components. Since the normative statement of each requirement is only declared once and is uniquely identified as such, each requirement will be in a clause associated to its requirements class.
 
-So, this standard defines a "requirements class" as a set of requirements that must
+Therefore, this Policy defines a "requirements class" as a set of requirements that must
 all be passed to achieve a particular conformance class (see
-<<term-conformance-test-class>>). Because <<iso19105>> includes a "middle" structure
-called a conformance test module, this standard also includes requirements modules to
-parallel the conformance test modules. A specification written to this standard may
-use this "module" structure in any manner consistent with the rest of this standard
-and consistent with <<iso19105>>
+<<term-conformance-test-class>>). This Policy also includes a "middle" structure
+called a conformance test module, this Policy also includes requirements modules to
+parallel the conformance test modules. A standard written to this Policy may
+use this "module" structure in any manner consistent with the rest of this Policy.
 
-Those requirements that are sometimes referred to as "optional" requirements will be
-segregated into separate requirements classes by themselves. This allows the options
-in the testing procedure to be grouped into non-varying optional conformance classes
-To conform to this standard, requirements classes may be optional, but each
-requirement within a requirements class is mandatory when that requirements class is
+An OGC Standard or Abstract Specification may have mandatory and optional requirements classes.  This allows the options
+in the testing procedure to be grouped into non-varying mandatory and optional conformance classes.
+Each requirement within an optional requirements class is mandatory when that requirements class is
 implemented. When needed, a particular requirements class may contain only a single
 requirement.
 
-Care must be taken, since the requirements classes are not always in a one-to-one
+However, care must be taken, since the requirements classes may not always in a one-to-one
 correspondence to conformance classes in other standards which may be the source of
-requirements for a specification conformant to this standard. If other standards are
+requirements for a standard conformant to this Policy. If other standards are
 used, their options shall be specified to be useable within a standard conformant to
-this standard, see <<cls-6-5-1>>.
+this policy, see <<cls-6-5-1>>.
 
-Conformance classes contain dependencies on one another. These are represented by
+Conformance classes may contain dependencies on one another. These are represented by
 tests in one conformance class that state that another conformance class must be
 passed to qualify to pass this conformance class. In terms of requirements, that says
 that the dependent conformance class contains tests (by reference) for all
 requirements of the "included" conformance class.
 
-Translating this into this standard's view of requirements classes, one requirements
+From this Policy's view of requirements classes, one requirements
 class is dependent on another if the other is included through such a reference. In
 this manner, requirements classes can be treated as sets of requirements (each in a
 single requirements class but included in others by reference to its "home"
 requirements class).
 
-[NOTE]
-====
-The set containment lattice (partial ordering) defined by:
-
-`[`stem:[A < B]`]` stem:[<=>] `[{requirements in` stem:[A]`}` stem:[sub] `{requirements in` stem:[B]`}]`
-
-This says that to pass "stem:[B]", an implementation must pass "stem:[A]." If
-"stem:[A<B]", we say that "stem:[A]" is a profile of "stem:[B]" (see
-<<term-extension-(of-a-requirements-class)>>) and that "stem:[B]" extends "stem:[A]"
-and that "stem:[B]" depends on "stem:[A]" (see
-<<term-direct-dependency-(of-a-requirements-class)>>).
-
-A "core" requirements class is one which is a dependency of all others (see
-<<term-core-requirements-class>>). So, if we consider a standard "stem:[S]" as a set
-of normative requirements classes:
-
-`[`stem:[A] `is core in standard` stem:[S]] stem:[<=>] `[`stem:[AA B in S: A < B]`}]`
-
-So, a core is a "universal lower bound," and a base is a "universal upper bound."
-====
-
-In this standard, each conformance requirement is separated in its own labeled
+In this Policy, each conformance requirement is separated in its own labeled
 paragraph, such as <<req-1>> above.
 
-The distribution of the information in a specification is not restricted. The only
-requirement will be that the specification's requirements be grouped in a manner
+The distribution of the information in a standard is not restricted. The only
+requirement will be that requirements be grouped in a manner
 consistent with the conformance test classes, see <<req-6>> and <<req-7>>. *#The
-informational and structural universals of the specification may be included in the
-core text and its associated models without violations of this standard.#* This is
-true as long as the requirements of the extension are not implicit in what is
+informational and structural universals of the standard may be included in the
+core text and its associated models without violations of this Policy.#* This is
+true if the requirements of the extension are not implicit in what is
 included in the core.
 
 In this manner, the core requirements class and its associated contents can be
 thought of not only as the requirements of the core conformance class, but as a form
 of reference model for establishing core vocabularies and schemas for the entire
-specification.
+standard.
 
 *#The core may contain the definition and schema of commonly used terms and data
-structures for use in other structures throughout the specification.#*
+structures for use in other structures throughout the standard.#*
 
 *#This may include the list of the names of all operations and operation parameters
 to be used in any request-response pairs defined in any conformance class of the
-specification. If a service receives a request that is not supported in its
+standard. If a service receives a request that is not supported in its
 conformance claim, then the service may return an error message text stating that the
 requested operation is part of a non-supported extension.#*
 
@@ -208,20 +165,18 @@ class in which the request-response pair is defined and set against requirements
 ====
 
 [[cls-6-2]]
-=== Using the specification model
+=== Using the model
 
-The primary difficulty in speaking of specifications (or candidate
-standards){blank}footnote:[This is purposely written as "as yet not adopted"
-standards, since it is during the authoring process that this standard must be
-considered, not _ex post facto_. It is also handy since the word "standard" in this
-section means this document; while the term "specification" here means another
-document to which this standard is being applied..] as a group is their diverse
-nature. Some specifications use UML to define behavior, others use XML to define data
+The primary difficulty in speaking of standards (or candidate
+standards){blank}footnote:[This is purposely written as "as not yet adopted"
+standards, since it is during the authoring process that this Policy must be
+considered, not _post facto_.] as a group is their diverse
+nature. Some standards use UML to define behavior, others use XML to define data
 structures, and others use no specific modeling language at all. However, they all
 must model the standardization target to which they apply since they need to use
 unambiguous language to specify requirements. Thus, the only thing they have in
-common is that they define testable requirements and recommendations against some
-model of an implementation of the specification (the standardization target). For
+common is that they define testable requirements against some
+model of an implementation of the standard (the standardization target). For
 completeness, they should also specify the conformance tests for these requirements
 that are to be run for validation of the implementations against those
 requirements.{blank}footnote:[This "test suite" specification is a requirement for
@@ -230,18 +185,18 @@ cases, if there exists a "validation authority" for conformance, they must inter
 the requirements to be tested, _ex parte_, possibly separated from the authors of the
 standard, leading to issues of separate interpretations of the same specification.]
 
-For simplicity in the text here, we assume that each specification has a single
+The assumption is that each standard has a single
 (root) standardization target type from which all extensions inherit. If this is not
-true, then the specification can be logically factored into parts each corresponding
-to a "root" standardization target type, and that the specification addresses each
+true, then the standard can be logically factored into parts each corresponding
+to a "root" standardization target type, and that the standard addresses each
 such part separately (see the definition of requirements class in
 <<term-requirements-class>>). In this sense, the next requirement divides
-specification into parts more than restricting their content.
+standard into parts more than restricting their content.
 
 [[req-4]]
 [requirement,model=ogc,type="general"]
 ====
-#Each requirement in a conformant specification shall have a single standardization
+#Each requirement in a conformant standard shall have a single standardization
 target type.#
 ====
 
@@ -254,7 +209,7 @@ target.
 [requirement,model=ogc,type="general"]
 ====
 #All conformance tests in a single conformance test class in a conformant
-specification shall have the same standardization target.#
+standard shall have the same standardization target.#
 ====
 
 This means that all requirements are considered as targeting the same entity being
@@ -728,7 +683,7 @@ future, logically-valid extensions of its standardization targets.#
 
 *#The above requirement should not be interpreted as a restriction on quality
 control.#* Any efforts by a specification to enforce a level of quality on its
-standardization targets, when well and properly formed; do not interfere with the
+standardization targets, when well and properly formed, do not interfere with the
 proper extension of those targets. So, the specification may require its
 standardization targets to behave in a certain manner when presented with a logical
 inconsistency, but that inconsistency must be fundamental to the internal logic of
@@ -750,7 +705,7 @@ standard shall be expressible as a list of conformance classes to be passed.#
 
 NOTE: Standards and implementations are restricted by this, but not instances of
 schemas. For example, a XML schema standard can specify an optional element, which
-data instances may use or not., However schema-aware processors claiming conformance
+data instances may use or not. However schema-aware processors claiming conformance
 to the standard should be able to handle all elements defined in the schema, whether
 they are required by the schema or not.
 

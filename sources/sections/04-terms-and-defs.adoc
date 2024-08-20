@@ -4,6 +4,7 @@
 [.boilerplate]
 === {blank}
 
+
 For the purposes of this document, the following terms and definitions shall apply.
 Terms not defined here take their meaning from computer science or from their
 Standard English (common US and UK) meanings. The form of the definitions is
@@ -15,6 +16,10 @@ Many of these definitions depend upon the model given in <<cls-6-1>>.
 
 XML schema document which includes, either directly or through the inclusion of
 other schema documents, all schema components associated to its namespace
+
+=== building block
+
+a requirements class or a requirements module and their associated compliance test class or compliance test module.
 
 === certificate of conformance
 
@@ -46,37 +51,40 @@ NOTE: When no ambiguity, the word "case" may be omitted. i.e.
 
 === conformance test module
 
+
 set of related conformance test classes, all with the same standardization target, that must
 be applied to receive a single {{certificate of conformance}}
 
+
 [NOTE]
 ====
-When there is no ambiguity, the word "test" may be omitted. i.e.
-{{conformance test module}} is the same as *conformance module*. Conformance modules may
-be nested in a hierarchical way.
+When there is no ambiguity, the word "test" may be omitted. i.e. {{conformance test module}}
+is the same as *conformance module*. Conformance modules may be nested in a hierarchical way.
+
 ====
 
 === conformance test class
 alt:[conformance test level]
 
-set of related conformance tests grouped based on the one to one relationship to requirements in a requirements class
+set of related conformance tests grouped based on the one to one relationship to requirements in a requirements class that must be passed to receive a single {{certificate of conformance}
 
 [NOTE]
 ====
-When there is no ambiguity, the word "test" may be left out, so
-{{conformance test class}}
+When no ambiguity is possible, the word "test" may be left out, so {{conformance test class}}
 maybe called a <<conformance-class,_conformance class_>>.
 
-In the ModSpec, the set of {{requirement,requirements}} tested by the
+In the ModSPec, the set of {{requirement,requirements}} tested by the
 conformance tests within a <<conformance-class,_conformance class_>> is a
-{{requirements class}} and its dependencies. Each optional {{requirement}} will
+{{requirements class}} and its dependencies. Optional {{requirement,requirements}} will
 be in a separate {{requirements class}} with other {{requirement,requirements}}
 that are part of the same option. Each {{requirements class}} corresponds to a
 separate <<conformance-class,conformance class>>
 
+
 In other words, the only options in a standard conformant to the ModSpec
 will be if a particular {{requirements class}} is tested. Each requirements
 class will be in a 1 to 1 correspondence to a similarly named
+
 <<conformance-class,_conformance class_>> that tests all of the
 {{requirements class,requirements class's}} {{requirement,requirements}}.
 
@@ -100,6 +108,10 @@ The {{conformance suite}} is the union of all
 In the ModSpec, each {{requirement}} is mandatory within its
 <<conformance-class,conformance class>> and each {{requirement}} is
 tested in at least one {{conformance test}}. In the OGC, this is also known as the Abstract Test Suite (ATS) in OGC documents
+
+alt:[abstract test suite]
+
+
 ====
 
 === core requirements class
@@ -110,7 +122,9 @@ standard
 
 [NOTE]
 ====
+
 The core {{requirements class}} is unique because if it were possible to have
+
 more than one, then each *core* would have to be implemented to pass any
 {{conformance test class}}, and thus would have to be contained in any other
 *core*. The *core* may be empty, or all or part of another standard or related
@@ -123,8 +137,7 @@ requirements class.
 
 === direct dependency (of a requirements class)
 
-another {{requirements class}} (the dependency) whose
-{{requirement,requirements}} are defined to also be
+another {{requirements class}} (the dependency) whose {{requirement,requirements}} are defined to also be
 {{requirement,requirements}} of this
 {{requirements class}}
 
@@ -142,10 +155,8 @@ Any tests associated with this
 
 When testing a
 {{direct dependency (of a requirements class), direct dependency}}, the
-{{standardization target}} is
-directly subject to the test in the specified
-{{conformance test class}} of the
-{{direct dependency (of a requirements class), direct dependency}}.
+{{standardization target}} is directly subject to the test in the specified
+{{conformance test class}} of the {{direct dependency (of a requirements class), direct dependency}}.
 ====
 
 === indirect dependency (of a requirements class)
@@ -169,13 +180,7 @@ test the same {{standardization target}}, but
 {{indirect dependency (of a requirements class), indirect dependencies}}
 test related but different {{standardization target,standardization targets}}.
 
-The {{standardization target}} of the
-{{indirect dependency (of a requirements class), indirect dependency}}
-is different from the target of "this requirements class" but it may be of the
-same or related {{standardization target type}}. For example, if one service is
-related to another second service, then a service {{requirement}} may be placed
-against the second associated service to assure that the first service has
-access to its functionality. For example, if a DRM-enabled service is required
+For example, if a DRM-enabled service is required
 to have an association to a licensing service, then the requirements of a
 licensing service are indirect requirements for the DRM-enabled service. Such a
 requirement may be stated as the associated licensing service has a
@@ -204,7 +209,7 @@ precedent for any other version repeated or rephrased elsewhere in a standard
 
 [NOTE]
 ====
-Explanatory text associated to normative language often repeats or rephrases the
+Explanatory text associated with normative language often repeats or rephrases the
 requirement to aid in the discussion and understanding of the official version
 of the normative language. Since such restatements are often less formal than
 the original source and potentially subject to alternate interpretation, it is
@@ -221,10 +226,23 @@ set of logical and quantitative relationships between them.
 
 === module
 
+
 any of a number of distinct but interrelated units from which a program may be built up or into which a complex activity may be analyzed.
+[.source]
+Cambridge Dictionary
 
 ===	Optional requirements class
 An optional requirements class may or may not be implemented or specified in a profile or extension. However, if a profile, extension, or implementation specifies the use of an optional requirements class, then every requirement in that requirements class shall be implemented.
+one of a set of separate parts that can be joined together to form a larger object
+
+=== optional requirements class
+
+An optional requirements class may or may not be implemented or specified in a profile or extension. However, if a profile, extension, or implementation specifies the use of an optional requirements class, then every requirement in that requirements class _shall_ be implemented.
+
+=== permission 
+
+uses "may" and is used to prevent a requirement from being "over interpreted" and as such is considered to be more
+of a "statement of fact" than a "normative" condition. A permission cannot override a requirement.
 
 === profile
 
@@ -235,13 +253,14 @@ conforming subsets, options and parameters of those base standards, or
 profiles necessary to accomplish a particular function.
 
 [NOTE]
+
 ====
 
-In the usage of this standard, a profile will be a set of requirements classes
-or conformance classes (either preexisting or locally defined) of the base
-standards.
 
-This means that a {{standardization target}} being conformant to a profile
+In the usage of this standard, a profile will be a set of requirements classes
+
+or conformance classes (either preexisting or locally defined) of the base
+standards. This means that a {{standardization target}} being conformant to a profile
 implies that the same *target* is conformant to the standards referenced in the
 {{profile}}.
 ====
@@ -251,7 +270,7 @@ implies that the same *target* is conformant to the standards referenced in the
 
 === recommendation
 
-expression in the content of a document conveying that among several
+expression in the content of a standard conveying that among several
 possibilities one is recommended as particularly suitable, without mentioning or
 excluding others, or that a certain course of action is preferred but not
 necessarily required, or that (in the negative form) a certain possibility or
@@ -262,13 +281,16 @@ a {{requirement}}. The usual form replaces the "shall" (imperative or
 command) of a {{requirement}} with a "should" (suggestive or
 conditional).
 
+NOTE: Recommendations are *not* tested and therefor have no related conformance test.
+
 [.source]
 <<iso-dp2>>
 
 === requirement
 
-expression in the content of a document conveying criteria to be fulfilled if
-compliance with the document is to be claimed and for which no deviation is permitted
+expression in the content of a standard conveying criteria to be fulfilled if
+compliance with the standard is to be claimed and from which no deviation is permitted
+
 
 [NOTE]
 ====
@@ -298,6 +320,7 @@ requirements that use "shall" imperatively.
 aggregate of all requirements with single standardization target that
 must all be satisfied to satisfy a {{conformance test class}}
 
+
 NOTE: There is some confusion possible here, since the testing of indirect
 dependencies seems to violate this definition. But the existence of an indirect
 dependency implies that the test is actually a test of the existence of the
@@ -309,11 +332,6 @@ relationship from the original target to something that has a property
 aggregate of {{requirement,requirements}} ,
 {{recommendation,recommendations}} and permissions of a standard against a
 single {{standardization target type}}
-
-NOTE: The third type of normative language, the "permission" which uses "may,"
-is not considered here mainly because it is usually used to prevent a
-requirement from being "over interpreted" and as such is considered to be more
-of a "statement of fact" than a "normative" condition.
 
 === specification
 
@@ -331,6 +349,8 @@ This definition is included for completeness. {{standard,Standard}} and
 {{specification}} can apply to the same document. While {{specification}} can be used and is
 always valid, {{standard}} only applies after the adoption of the document by a
 legitimate standards organization.
+
+
 ====
 
 === standardization target
@@ -339,10 +359,13 @@ entity to which some {{requirement,requirements}} of a {{standard}} apply
 
 NOTE: For example, the standardization target for the OGC API - Features - Part 2: Coordinate Reference Systems by Reference Standard is to extend the core capabilities specified in Part 1: Core so that implementations have the ability to use coordinate reference system identifiers other than the defaults defined in the core. The standardization target of the CDB version 2.0 CRS Requirements Classes is . . .
 
+NOTE: For Example, the standardization target of the CDB version 2.0 CRS Requirements Classes is to clearly define (with metadata) a CRS for an implementation instance of a CDB compliant datastore. 
+
 === standardization target type
 
 type of entity or set of entities to which the {{requirement,requirements}} of a
 {{standard}} apply
+
 
 [NOTE]
 ====
@@ -353,6 +376,7 @@ standard. A GML application schema is a
 {{standardization target}} for the GML standard, but is in turn a
 specification of instances of that application schema.
 ====
+
 
 === statement
 
