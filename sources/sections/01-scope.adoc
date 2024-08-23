@@ -1,11 +1,13 @@
 == Scope
 
-This standard specifies some desirable characteristics of a standards specification
+This Policy specifies characteristics of the specification of OGC Standards and Abstract Specifications
 that will encourage implementations by minimizing difficulty determining
 requirements, mimicking implementation structure and maximizing usability and
 interoperability.
 
-<<cls-6-1>> contains the UML model of a specification upon which this standard is
-described. Annex C contains informal and non-normative definitions ordered for ease
+Please note that the word “standard” in this document applies to all OGC draft standards, approved standards, draft Abstract Specifications, and approved Abstract Specifications. The exceptions are OGC Abstract Specifications that originate in ISO or Community Standards that are developed external to the OGC and then submitted to the OGC.
+
+<<Annex-B>> contains the UML model upon which this Policy is
+based. Annex B also contains informal and non-normative definitions ordered for ease
 of understanding. These two sections can be read first to aid in the understanding of
 the rest of the document.

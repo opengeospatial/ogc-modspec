@@ -5,13 +5,13 @@
 // [.boilerplate]
 // === {blank}
 
-While this document references UML, SQL and XML, and their technical specifications,
-it does not derive any of its requirements from these documents. While this standard
+While this Policy references UML, SQL and XML, and their technical specifications,
+no requirements are derived from these documents. While this Policy
 may be applied to extensions of those standards, conformance to them is the purview
-of those standards, not this one.
+of those standards, not this Policy.
 
-The following are normative references for this standard in the sense that they
-supplied definitions used here
+The following are normative references for this Policy document in the sense that they
+supplied definitions used in this Policy.
 
 * [[[iso10000-1,ISO/IEC 10000-1]]]
 

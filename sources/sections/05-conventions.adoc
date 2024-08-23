@@ -4,7 +4,7 @@
 
 All symbols used in this document are either:
 
-. common mathematical symbols
+. Common mathematical symbols
 . UML 2 (Unified Modeling Language) as defined by OMG and accepted as a publicly
 available standard (PAS) by ISO in its earlier 1.3 version.
 
@@ -27,26 +27,19 @@ OCL:: Object Constraint Language (part of UML)
 [[cls-5-3]]
 === Finding requirements and recommendations
 
-For clarity, each normative statement in this standard is in one and only one place
-and is set in a #*bold font*#. If the statement of the requirement or recommendation
-is repeated for clarification, the "*#bold font#*" *#home#* of the statement is
+Each normative statement in this Policy is stated in one and only one place
+in a #*bold font*# and has an unique label, such as Req001 or Rec001. A requirement or recommendation may be repeated for clarification. The statement with the unique label is
 considered the official statement of the normative requirement or recommendation. In
-this sense, all requirements in this standard are listed in the Table of Requirements
-at the beginning of this standard.
+this sense, all requirements in this Policy are listed in the Table of Requirements
+at the beginning of this document.
 
-In this standard, all requirements are associated to tests in the abstract test suite
+In this Policy, all requirements are associated with tests specified in the abstract test suite
 in <<annex-A>>. The reference to the requirement in the test case is done by a
 requirements label (in the form "*#Req &#x23;#*", where "&#x23;" is a number) associated to
 the "*#bold font#*" *#home#* of the statement described above. Recommendations are
-not tested and are not labeled, although they still use a *#bold font#* for their
-unique home statement.
+not tested although they still use a *#bold font#*.
 
 Requirements classes are separated into their own clauses and named, and specified
 according to inheritance (direct dependencies). The Conformance test classes in the
-test suite are similarly named to establish an explicit and mnemonic link between
+test suite are similarly named to establish an explicit and link between
 requirements classes and conformance test classes.
-
-In this standard, other documents which may be standards but are being tested for
-conformance to this standard are referred to as "specifications." The purpose of this
-linguistic artifact is to prevent confusion between this standard and the
-standardization targets of its requirements.
