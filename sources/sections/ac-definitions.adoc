@@ -24,20 +24,20 @@ conformance tests}} and {{requirement,requirements}} is many-to-many.
 . all {{conformance test, conformance tests}} are graded as *pass* or *fail*
 against each instance of the {{standardization target}}.
 
-. a {{requirement}} is associated to at least one {{conformance test}}.
+. a {{requirement}} is associated to one {{conformance test}}.
 
 . a {{recommendation}} is a suggestion and is not associated to any
 {{conformance test}}.
 
 . a {{requirements class}} is a set of one or more {{requirement,requirements}}
-all on the same {{standardization target type}}.
+all with the same {{standardization target type}}.
 
 . a {{conformance test class,conformance (test) class}} is a collection of
 {{conformance test,conformance tests}} that are associated to and only to the
 requirements in a corresponding {{requirements class}}.
 
-. a {{conformance test class,conformance (test) class}} is also collection of
-{{conformance test module,conformance test modules}} that group
+. a {{conformance test module,conformance (test) module}} is also collection of
+{{conformance test classes,conformance test classes}} that group
 {{conformance test, conformance tests}} on a single
 {{standardization target type}}.
 
@@ -47,15 +47,15 @@ class,conformance (test) class}} and received a {{certificate of conformance}}
 
 . the {{core requirements class}} of a standard is the minimal set of
 {{requirement,requirements}} which must be supported by all *conformant
-implementations*. If a specification addresses multiple {{standardization target
+implementations*. If a standard addresses multiple {{standardization target
 type,standardization target types}}, it may have a *core* for each *target
 type*.
 
-. an *extension* of a {{requirements class}} is a second {{requirements class}}
+. an *extension* of a {{requirements class}} is an additional {{requirements class}}
 (the extension) that adds additional {{requirement,requirements}} to the first
 {{requirements class}} (the *base requirements class* being extended). The
 extension is said to be dependent on the *base*. Any {{conformance test class}}
-must identify all of its dependencies during the execution of conformance tests
+must identify all its dependencies during the execution of conformance tests
 against a candidate {{standardization target}}.
 
 [[annex-C-2]]
@@ -70,10 +70,10 @@ in <<cls-6-1>>. The following subclauses describe the classes shown in this UML
 class diagram.
 
 === Specification
+
 [lutaml_uml_attributes_table,models/ogc-modspec.lutaml, Specification, skip]
 
 === Conformance Suite
-[lutaml_uml_attributes_table,models/ogc-modspec.lutaml, ConformanceSuite, skip]
 
 [[conformance-class]]
 === Conformance Class

@@ -1,39 +1,25 @@
 [[annex-B]]
 [appendix,obligation=normative]
-== Changes required in the OGC Standards; Transition plan for incorporation into the OGC procedures
+== Changes required in the OGC Standards
 
-=== Existing standards
+NOTE: For OGC Standards only: No chnages are required to existing OGC Standards
 
-This standard does not apply to existing standards or to those adopted before this
-standard's adoption.
+=== New standards and revisions to exissting standards
 
-=== New standards and specifications; during the first year
+Any new standard, specification, or major revision of an existing standard shall
+comply with the ModSpec in the structure of its internal models and its
+conformance tests.
 
-*#Any new standard, specification or major revision of an existing standard shall
-comply with this standard in the structure of its internal models and its
-conformance tests.#*
-
-*#Failure to conform by a candidate standard to this standard should be specifically
+Failure to conform by a candidate standard to the ModSpec should be specifically
 noted and reasons given for such non-compliance in the conformance clauses of any
-new or new version of such candidate standards.#*
+new or new version of such candidate standards.
 
-*#The adoption of such documents not compliant with this standard shall be
-considered as an authorized exception to the requirements of this standard by the
-OGC. This "exception by majority vote" will be a valid approach only before the
-1-year anniversary of the adoption of this standard.#*
-
-=== New standards and specifications; after the first year
-
-*#After the first anniversary of the adoption of this standard, the adoption of such
-documents not compliant with this standard shall be considered as an exception to
-the requirements of this standard by the OGC and shall be considered as an exception
-to the rules of the OGC and will require a two-thirds (2/3) majority ("Robert's
-Rules") or as specified in the current OGC Policy and Procedures for an exception to
-procedure. A similar vote is required within the Planning Committee or as specified
-in any Policy and Procedure document used by this committee.#*
-
-This vote is a vote to override the rules of the consortium, and not a vote on the
-merits of the proposed specification which has failed to conform to this standard.
-Voting to override the rules carries no intellectual property implications in
-addition to that consistent with a non-participating member role for the proposed
-specification as provided in the TC Policy and Procedures.
+The adoption of such documents not compliant with the ModSpec shall be
+considered as an authorized exception to the requirements of the ModSpec by the
+approporiate authority, such as the OGC or ISO. The adoption of such
+documents not compliant with the ModSpec shall be considered as an exception to
+the requirements of the ModSpec by the authority (OGC) and shall be considered as an exception
+to the rules of the authority such as the OGC and will require a two-thirds (2/3) majority ("Robert's
+Rules") or as specified in the authorities Policy and Procedures for an exception to
+procedure. In the OGC, a similar vote is required within the Planning Committee or as specified
+in any Policy and Procedure document used by this committee.

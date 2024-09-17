@@ -1,13 +1,17 @@
 [.preface]
 == Preface
 
-This standard contains requirements for writing standards to be used for any document
-whose eventual purpose is the specification of requirements for software, services or
-data structures.
+This OGC member developed and approved document defines a model and related requirements and recommendations for writing and structuring modular standards documents. Further, this model is designed to enable the consistent and verifiable testing of implementations of a standard that claim conformance.
 
-Suggested additions, changes, and comments on this standard are welcome and
-encouraged. Such suggestions may be submitted through the OGC change request system
-(http://www.opengeospatial.org/standards/cr).
+The goal is to ensure that a standard specifies requirements in a common and consistent manner and that these requirements are testable.
+
+NOTE: For OGC only: Any new OGC Standard, abstract specification, or major revision of an existing OGC Standard shall comply with the requirements stated in this document.
+
+NOTE: Historically, this document has been known and abbreviated as the "ModSpec". For continuity and ease of understanding this document may also be refered to as the "OGC ModSpec".
+
+Suggested additions, changes, and comments on this this document are welcome and
+encouraged. Such suggestions may be submitted through the OGC Change Request System
+(http://www.opengeospatial.org/standards/cr) or by creating an issue in the GitHub repository for this document (https://github.com/opengeospatial/ogc-modspec).
 
 [.preface]
 == Document terms and definitions
@@ -21,8 +25,18 @@ conform to this standard.
 [.preface]
 == Document contributors
 
-The following voting members of the Standards Working Group participated in editing
-this document:
+The following OGC Members participated in editing this document:
+
+[%unnumbered]
+|===
+^h| Person ^h| Organization Represented
+| Carl Reed | Carl Reed & Associates
+|===
+
+[.preface]
+== Acknowledgements
+
+The following OGC Members contributed and particpated in developing the original version of this Policy document.
 
 [%unnumbered]
 |===
@@ -42,18 +56,9 @@ this document:
 [.preface]
 == Revision history
 
-This is the first normative version of this document.
-
-[.preface]
-== Changes to the OGC Abstract Specification
-
-The OpenGIS® Abstract Specification and Standard will require changes to accommodate
-the contents of this document. At their next revision, any volume of the abstract
-specification or implementation standards will have to be made to conform to the
-requirements here.
+This is the second normative version of this document.
 
 [.preface]
 == Future work
 
-Any needed improvements in this document will be made as experience with using it
-increases.
+Improvements to this document will be made based on implementation and changing technical requirements.

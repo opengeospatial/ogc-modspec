@@ -4,8 +4,9 @@
 [.boilerplate]
 === {blank}
 
-For the purposes of this Policy, the following terms and definitions apply.
-Terms not defined here take on their meaning from computer science or from their
+
+For the purposes of this document, the following terms and definitions shall apply.
+Terms not defined here take their meaning from computer science or from their
 Standard English (common US and UK) meanings. The form of the definitions is
 defined by ISO Directives.
 
@@ -28,13 +29,17 @@ that standard
 
 [NOTE]
 ====
-"Certificates" do not have to be instantiated documents; having proof of passing
+"Certificates" do not have to be instantiated documents. Having proof of passing
 the conformance test class is sufficient. For example, the OGC currently keeps
-an online list of conformant applications at
-http://www.opengeospatial.org/resource/products.
+an online list of conformant applications at https://www.ogc.org/resources/certified-products/.
 
 Each certificate of conformance is awarded to a {{standardization target}}.
 ====
+
+=== conformance test
+
+test, abstract or real, of a single {{requirement,requirements}} contained
+within a standard, or set of standards
 
 === conformance test case
 
@@ -46,61 +51,68 @@ NOTE: When no ambiguity, the word "case" may be omitted. i.e.
 
 === conformance test module
 
-set of related for against a given requirements module all with the same standardization target
+
+set of related conformance test classes, all with the same standardization target, that must
+be applied to receive a single {{certificate of conformance}}
+
 
 [NOTE]
 ====
 When there is no ambiguity, the word "test" may be omitted. i.e. {{conformance test module}}
 is the same as *conformance module*. Conformance modules may be nested in a hierarchical way.
-====
 
-[.source]
-<<iso19105>>
+====
 
 === conformance test class
 alt:[conformance test level]
 
-set of {{conformance tests,conformance test}} that must be passed to receive a single {{certificate of conformance}}
+set of related conformance tests grouped based on the one to one relationship to requirements in a requirements class that must be passed to receive a single {{certificate of conformance}
 
 [NOTE]
 ====
 When no ambiguity is possible, the word "test" may be left out, so {{conformance test class}}
 maybe called a <<conformance-class,_conformance class_>>.
 
-In this Policy, the set of {{requirement,requirements}} tested by the
+In the ModSPec, the set of {{requirement,requirements}} tested by the
 conformance tests within a <<conformance-class,_conformance class_>> is a
 {{requirements class}} and its dependencies. Optional {{requirement,requirements}} will
 be in a separate {{requirements class}} with other {{requirement,requirements}}
 that are part of the same option. Each {{requirements class}} corresponds to a
 separate <<conformance-class,conformance class>>
 
-Each requirements class will be in a 1 to 1 correspondence to a similarly named
+
+In other words, the only options in a standard conformant to the ModSpec
+will be if a particular {{requirements class}} is tested. Each requirements
+class will be in a 1 to 1 correspondence to a similarly named
+
 <<conformance-class,_conformance class_>> that tests all of the
 {{requirements class,requirements class's}} {{requirement,requirements}}.
 
-All {{requirement,requirements}} in a <<conformance-class,_conformance class_>>
+All {{requirement,requirements}} in a <<conformance-class,_conformance class_>> and/or <<conformance-module,_conformance module_>>
 will have the same {{standardization target}}.
 
 ====
 
 === conformance suite
 alt:[conformance test suite]
-alt:[abstract test suite]
 
-set of <<conformance-class,_conformance classes_>> that define tests for all {{requirement,requirements}} of a standard or abstract specification
+set of <<conformance-class,_conformance classes_>> and/or conformance modules that define tests for all
+{{requirement,requirements}} of a standard
 
 [NOTE]
 ====
-The {{conformance suite}} is the union of all <<conformance-class,_conformance classes_>>. It is by definition the
-<<conformance-class,_conformance class_>> of the entire standard or abstract specification.
+The {{conformance suite}} is the union of all
+<<conformance-class,_conformance classes_>>. It is by definition the
+<<conformance-class,_conformance class_>> of the entire standard.
 
-In this Policy, each {{requirement}} is mandatory within its <<conformance-class,conformance class>> and each {{requirement}} is tested in at least one {{conformance test}}.
+In the ModSpec, each {{requirement}} is mandatory within its
+<<conformance-class,conformance class>> and each {{requirement}} is
+tested in at least one {{conformance test}}. In the OGC, this is also known as the Abstract Test Suite (ATS) in OGC documents
+
+alt:[abstract test suite]
+
+
 ====
-
-=== conformance test
-
-test, abstract or real, of one or more {{requirement,requirements}} contained
-within a standard, or set of standards
 
 === core requirements class
 
@@ -110,7 +122,9 @@ standard
 
 [NOTE]
 ====
-The core {{requirements class}} is unique because if were possible to have
+
+The core {{requirements class}} is unique because if it were possible to have
+
 more than one, then each *core* would have to be implemented to pass any
 {{conformance test class}}, and thus would have to be contained in any other
 *core*. The *core* may be empty, or all or part of another standard or related
@@ -212,10 +226,14 @@ set of logical and quantitative relationships between them.
 
 === module
 
-one of a set of separate parts that can be joined together to form a larger object
 
+any of a number of distinct but interrelated units from which a program may be built up or into which a complex activity may be analyzed.
 [.source]
 Cambridge Dictionary
+
+===	Optional requirements class
+An optional requirements class may or may not be implemented or specified in a profile or extension. However, if a profile, extension, or implementation specifies the use of an optional requirements class, then every requirement in that requirements class shall be implemented.
+one of a set of separate parts that can be joined together to form a larger object
 
 === optional requirements class
 
@@ -237,11 +255,12 @@ profiles necessary to accomplish a particular function.
 [NOTE]
 
 ====
-In the usage of this Policy, a profile will be a set of requirements classes
-or conformance classes (either preexisting or locally defined) of the base
-standards.
 
-This means that a {{standardization target}} being conformant to a profile
+
+In the usage of this standard, a profile will be a set of requirements classes
+
+or conformance classes (either preexisting or locally defined) of the base
+standards. This means that a {{standardization target}} being conformant to a profile
 implies that the same *target* is conformant to the standards referenced in the
 {{profile}}.
 ====
@@ -272,20 +291,21 @@ NOTE: Recommendations are *not* tested and therefor have no related conformance 
 expression in the content of a standard conveying criteria to be fulfilled if
 compliance with the standard is to be claimed and from which no deviation is permitted
 
+
 [NOTE]
 ====
 Each {{requirement}} is a normative criterion for a single
-*type of standardization target*. In this Policy, requirements are
+*type of standardization target*. In the ModSpec, requirements will be
 associated to {{conformance test, conformance tests}} that can be used to prove
 compliance to the underlying criteria by the {{standardization target}}.
 
 The implementation of a {{requirement}} is dependent on the type of
 standard being written. A data standard requires data structures, but
-a procedural specification requires software implementations. The view of a
+a procedural standard requires software implementations. The view of a
 standard in terms of a set of testable {{requirement,requirements}} allows us to
 use set descriptions of both the standard and its implementations.
 
-{{requirement,Requirements}} use normative language and are
+{{requirement,Requirements}} use normative language and in particular are
 commands and use the imperative "shall" or similar imperative constructs.
 Statements in standards which are not requirements and need to be either
 conditional or future tense normally use "will" and should not be confused with
@@ -297,8 +317,9 @@ requirements that use "shall" imperatively.
 
 === requirements class
 
-aggregate of all {{requirements,requirement}} with a single standrdization target that
-must all be satisfied to pass a {{conformance test class}}
+aggregate of all requirements with single standardization target that
+must all be satisfied to satisfy a {{conformance test class}}
+
 
 NOTE: There is some confusion possible here, since the testing of indirect
 dependencies seems to violate this definition. But the existence of an indirect
@@ -308,23 +329,15 @@ relationship from the original target to something that has a property
 
 === requirements module
 
-collection of {{requirement class,requirements classes}}, 
-{{recommendation,recommendations}} and {{permission,permissions}} with a
-single {{standardization target}}
+aggregate of {{requirement,requirements}} ,
+{{recommendation,recommendations}} and permissions of a standard against a
+single {{standardization target type}}
 
 === specification
 
 document containing {{recommendation,recommendations}},
 {{requirement,requirements}} and {{conformance test, conformance tests}} for
 those {{requirement,requirements}}
-
-[NOTE]
-====
-This definition is included for completeness. See <<cls-5-3>>.
-
-This does not restrict what else a standard may contain, as long as it does
-contain the three types of element cited.
-====
 
 === standard
 
@@ -333,9 +346,10 @@ document that has been approved by a legitimate Standards Body
 [NOTE]
 ====
 This definition is included for completeness. {{standard,Standard}} and
-{{specification}} can apply to the same document. While {{specification}} is
+{{specification}} can apply to the same document. While {{specification}} can be used and is
 always valid, {{standard}} only applies after the adoption of the document by a
 legitimate standards organization.
+
 
 ====
 
@@ -343,8 +357,7 @@ legitimate standards organization.
 
 entity to which some {{requirement,requirements}} of a {{standard}} apply
 
-NOTE: The {{standardization target}} is the entity which may receive a
-{{certificate of conformance}} for a {{requirements class}}.
+NOTE: For example, the standardization target for the OGC API - Features - Part 2: Coordinate Reference Systems by Reference Standard is to extend the core capabilities specified in Part 1: Core so that implementations have the ability to use coordinate reference system identifiers other than the defaults defined in the core. The standardization target of the CDB version 2.0 CRS Requirements Classes is . . .
 
 NOTE: For Example, the standardization target of the CDB version 2.0 CRS Requirements Classes is to clearly define (with metadata) a CRS for an implementation instance of a CDB compliant datastore. 
 
@@ -353,7 +366,17 @@ NOTE: For Example, the standardization target of the CDB version 2.0 CRS Require
 type of entity or set of entities to which the {{requirement,requirements}} of a
 {{standard}} apply
 
-NOTE: Example: The standardization target type for The OGC API – Features Standard are Web APIs. The standardization target type for the CDB Standard are datastores compliant with the requirements as stated in the CDB Standard. 
+
+[NOTE]
+====
+For example, the standardization target type for The OGC API – Features Standard are Web APIs. The standardization target type for the CDB Standard is a datastore compliant with the requirements as stated in the CDB Standard. 
+
+In some cases, the {{standardization target type}} may be another
+standard. A GML application schema is a
+{{standardization target}} for the GML standard, but is in turn a
+specification of instances of that application schema.
+====
+
 
 === statement
 
