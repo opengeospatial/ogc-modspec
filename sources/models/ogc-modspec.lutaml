@@ -3,56 +3,48 @@ diagram OGCModSpec {
 
   class Specification {
     definition {
-      A specification, to become a standard must be approved by an authority,
-      such as ISO or OGC. This gives the specification a namespace corresponding
-      to the standards authority. Thus the name of the specification is usually
-      a local name in this namespace.
+      For a draft standard (aka specification) to become an international standard, the document must be approved by an authority, 
+      such as ISO or the OGC. The attributes of a standard describe its local name, its authority, the date of publication 
+      and its current status (such as CD, DIS, IS in ISO, or Draft, Candidate Standard, or Standard in OGC).
 
-      For example, "ISO 19107: Geographic Information – Spatial schema" is an
-      approved specification of ISO TC 211 (the authority as a TC under ISO).
-      The parts of the name that give this are "ISO" and "Geographic
-      Information". The local name within this namespace is "19107: Spatial
-      schema". This syntax is not usual for namespaces where the namespace name
-      is usually either a prefix or suffix of the local name. GenericName,
-      LocalName, Namespace are all types described in "ISO 19103: Geographic
-      information – Conceptual schema language". The attributes of a
-      Specification describe its local name, its authority, the date of
-      publication and its current status (such as CD, DIS, IS in ISO, or Draft,
-      Candidate Standard or Standard in OGC).
+      The attributes of a
+      Standard describe its local name, its authority, the date of
+      publication and its current status (such as Draft,
+      Candidate Standard or Standard in the OGC).
     }
     name: String {
       definition {
-        Name of the specification.
+        Name of the standard.
       }
     }
     authority: Principal {
       definition {
-        Standards body or author of this specification.
+        Standards body or author of this standard.
       }
     }
     date: DateTime {
       definition {
-        Publication date of the specification.
+        Publication date of the standard.
       }
     }
     status: String {
       definition {
-        Publication status of this specification.
+        Publication status of this standard.
       }
     }
   }
 
   class ConformanceSuite {
     definition {
-      The unique conformance suite of a specification lists the tests (grouped
+      The unique conformance suite of a standard lists the tests (grouped
       into conformance test classes consisting of some number of conformance
       test modules, containing some number of conformance tests) that allow
-      testing of an implementation of the specification for conformance with the
-      specification. Every specification needs one of these suites, or
-      conformance cannot be claimed with proof. In ISO and OGC, the conformance
-      suite included in the specification is usually an abstract description of
+      testing of an implementation of the standard for conformance with the
+      specification. Every standard needs one of these suites, or
+      conformance cannot be claimed with proof. In ISO and the OGC, the conformance
+      suite included in the standard is usually an abstract description of
       the tests which will be implemented. Other standards may use a more
-      concrete description. For the purposes of this OGC standard, the precise
+      concrete description. For the purposes of the ModSpec, the precise
       nature of the conformance suite is not particularly important as long as
       it is not ambiguously stated.
 
@@ -70,7 +62,7 @@ diagram OGCModSpec {
 
   class ConformanceClass {
     definition {
-      The requirements in the requirements classes of a specification have to be
+      The requirements in the requirements classes of a standard must be
       tested and the conformance classes are the containers for these tests’
       definition. The requirements classes will have interdependencies, and this
       is reflected in the explicit dependencies between the conformance classes.
@@ -99,12 +91,12 @@ diagram OGCModSpec {
 
   class RequirementsClass {
     definition {
-      The specification requirements classes (usually realized as clauses in the
-      specification document) segment the requirements in the specification in a
+      Requirements classes (usually realized as clauses in the
+      standard's document) segment the requirements in the standard in a
       manner consistent with the conformance classes. Since the requirements
       class and the conformance class will eventually be referred to in a
       certification of conformance, they should have names, probably in the
-      namespace defined by the specification’s name and authority.
+      namespace defined by the standard’s name and authority.
     }
     name: String {
       definition {
@@ -132,9 +124,9 @@ diagram OGCModSpec {
 
   class RequirementsModule {
     definition {
-      The specification requirements modules (usually realized as subclauses of
-      the requirements class in the specification document) segment the
-      requirements in the specification in a manner consistent with the
+      A requirements modules (usually realized as groups of one or more
+      requirements classes in the standard) group the
+      requirements and recommendations in the standrd in a manner consistent with the
       conformance test modules.
     }
 
@@ -146,7 +138,7 @@ diagram OGCModSpec {
 
     requirements: Requirement[1..*] {
       definition {
-        Requirements that this requirements module contains.
+        Requirements classes that this requirements module contains.
       }
     }
   }
