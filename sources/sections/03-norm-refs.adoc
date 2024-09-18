@@ -11,7 +11,7 @@ may be applied to extensions of those standards, conformance to them is the purv
 of those standards, not the ModSpec.
 
 The following are normative references for this document in the sense that they
-supplied definitions used in this Policy.
+supplied definitions used in this document.
 
 * [[[iso10000-1,ISO/IEC 10000-1]]]
 
