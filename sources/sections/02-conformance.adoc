@@ -1,9 +1,9 @@
 == Conformance
 
-Conformance to this Policy by technical implementation standards and specifications
+Conformance to the ModSpec by technical implementation standards and specifications
 can be tested by inspection. The test suite is in <<annex-A>>.
 
-There are five (5) conformance classes for this Policy:
+There are five (5) conformance classes for this document:
 
 . Standards documents in general (the core) -- see <<cls-6>> and <<annex-A-1>>
 . Standards using UML to state requirements, extending the core -- see
@@ -16,13 +16,13 @@ There are five (5) conformance classes for this Policy:
 the core, whose target XML schemas must be conformant with the XML schema conformance
 class above -- see <<cls-7-2-5>> and <<annex-A-5>>.
 
-This Policy contains normative language and thus places requirements on
-conformance, or mechanism for adoption, of candidate standards to which this Policy
+This document contains normative language and thus places requirements on
+conformance, or mechanism for adoption, of candidate standards to which the ModSpec
 applies. In particular:
 
 * <<cls-6>> specifies the core requirements which shall be met by all conformant
 standards.
-* <<cls-7>> gives information on how this Policy is to be applied to requirements,
+* <<cls-7>> gives information on how the ModSpec is to be applied to requirements,
 conformance clauses, UML models, or XML Schemas.
 
 
