@@ -3,11 +3,27 @@
 
 This OGC document, also known as the `ModSpec` specifies rules for the internal structure and organization of a standard. The ModSpec is designed to enable the clear and concise specification of requirements (the _shalls_ or _musts_ in a standard) that fully supports the ability to define implementable conformance tests. An objective of this approach is to enable implementations of a standard to be tested and deemed _conformant_ . . . or not.
 
-NOTE: Please note that the ModSpec has been approved by the OGC Membership as a policy directive for the development and revision of any OGC Standard or Abstract Specification. However, the ModSpec is written to be non-OGC specific and can be used by any Standards Development Organization (SDO) as a formal guide for structuring a standards document.
+NOTE: Please note that the ModSpec has been approved by the OGC Membership as a policy directive for the development and revision of any OGC Standard or Abstract Specification that has requirements. However, the ModSpec is written to be non-OGC specific and can be used by any Standards Development Organization (SDO) as a formal guide for structuring a standards document.
 
 A standard presents requirements, which must be satisfied by passing the tests defined in a conformance suite (also known as the Abstract Test Suite in an OGC Standard). These tests are organized into conformance classes, each of which represents a mechanism for partial satisfaction of the standard. This results in a standard having a modular structure, where each requirements class has a corresponding conformance (test) class. In a well written standard, the normative clauses and any model or schema are organized in a manner that parallels the requirements and conformance clauses. A goal of the design pattern is the ability to define requirements classes and associated conformance classes that can be used across multiple standards. 
 
-There are numerous examples of requirements/conformance classes that can be used not only in OGC Standards, but for geospatially focused standards defined by other organizations and Standards Development Organizations (SDOs). Some examples can be found in the https://docs.ogc.org/is/19-072/19-072.html[OGC API - Common Part 1: Core Standard] and in the https://github.com/opengeospatial/cdbswg/blob/master/cdb-2.0/cdb-core-crs-requirements-class.adoc[CDB 2.0 Standard CRS Requirements Module]. By formally implementing the requirements specified in the ModSpec, reusable, modular standrds can be developed. 
+There are numerous examples of requirements/conformance classes that can be used not only in OGC Standards, but for geospatially focused standards defined by other organizations and Standards Development Organizations (SDOs). Some OGC examples can be found in the https://docs.ogc.org/is/19-072/19-072.html[OGC API - Common Part 1: Core Standard] and in the https://github.com/opengeospatial/cdbswg/blob/master/cdb-2.0/cdb-core-crs-requirements-class.adoc[CDB 2.0 Standard CRS Requirements Module]. By formally implementing the requirements specified in the ModSpec, reusable, modular standrds can be developed. 
+
+=== ModSpec document structure
+
+Version 2.0 of the ModSpec is split into a Core standard and multiple Parts. These are:
+
+- Core: contains all the core requirements and informational text that define the model and internal structure of a standard.
+- Part 1: UML Model requirements 
+- Part 2: XML Model requirements 
+- Part 3: Schematron requirements 
+- Part 4: XML Metaschema requirements
+
+Future Parts to the ModSpec Standard may include:
+
+- Part 5: RDF/OWL requirements
+
+=== Building Blocks
 
 In software development technology, there is a concept called _building block_. In software development, building blocks are used to support the software build process where source code files/libraries can be accessed from multiple sources, converted into executable code, and linked together in the proper order until a complete set of executable files is generated. The same concept can be applied to OGC Standards development: Requirements classes and/or modules can be linked together from one or more standards to create a new standard not originaly envisioned when the requirements were originally defined.
 
