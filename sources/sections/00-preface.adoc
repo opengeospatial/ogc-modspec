@@ -52,6 +52,7 @@ The following OGC Members contributed and particpated in developing Version 2 of
 
 The following OGC Members were key contributors to Version 1 of the ModSpec
 
+|===
 | Simon Cox | CSIRO
 | David Danko | ESRI
 | James Greenwood | SeiCorp, Inc.
