@@ -42,7 +42,7 @@ The following OGC Members contributed and particpated in developing Version 2 of
 |===
 ^h| Person ^h| Organization Represented
 | Simon Cox | CSIRO and OGC Fellow
-| Chuck Heazel |
+| Chuck Heazel | Heazeltech
 | Clemens Portele | interactive instruments GmbH
 | Jeff Yutzler | ImageMatters
 |===
