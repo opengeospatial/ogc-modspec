@@ -2,7 +2,7 @@
 
 image:https://github.com/opengeospatial/ogc-modspec/workflows/generate/badge.svg["Build Status", link="https://github.com/opengeospatial/ogc-modspec/actions/workflows/generate.yml"]
 
-* https://opengeospatial.github.io/ogc-modspec/[OGC ModSpec (HTML)]
+* https://docs.ogc.org/DRAFTS/08-131r3.html/[OGC ModSpec (HTML)]
 
 == General
 
