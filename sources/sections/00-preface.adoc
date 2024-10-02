@@ -23,7 +23,7 @@ imperative verb form used to indicate a requirement to be strictly followed to
 conform to this standard.
 
 [.preface]
-== Document contributors
+== Document editors
 
 The following OGC Members participated in editing this document:
 
@@ -34,7 +34,7 @@ The following OGC Members participated in editing this document:
 |===
 
 [.preface]
-== Contributors
+== Document Contributors
 
 The following OGC Members contributed and particpated in developing Version 2 of the ModSpec.
 
