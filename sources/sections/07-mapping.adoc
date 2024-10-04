@@ -3,23 +3,23 @@
 
 === Semantics
 
-The previous section defined requirements for conformance to this standard, but
+The previous section defined requirements for conformance to the ModSpec, but
 testing for that conformance may depend on how the various forms and parts of a
 candidate conformant standard are viewed. This clause will define how those views
 are to be defined in most of the common cases. Standards that take an alternative
 mechanism to the ones listed here must be tested solely on the structure of their
-conformance test suite, until an extension to this standard is defined for that
+conformance test suite, until an extension to the ModSpec is defined for that
 alternate mechanism.
 
 Standards are often structured about some form of modeling language, or
 implementation paradigm. This clause looks at some common types of models and
 defines a mechanism to map parts of the model (language, schema, etc.) to the
-conformance classes used as the specification model from <<cls-6-1>>.
+conformance classes used as the model from <<cls-6-1>>.
 
 As suggested in Clause <<req-22>>, the structure of the normative clauses in a
 standard should parallel the structure of the conformance requirements classes in
 that standard. The structure of the normative clauses in a well written
-specification will follow the structure of its model; this means that all three are
+standard will follow the structure of its model. This means that all three are
 parallel.
 
 === Data Models
@@ -30,7 +30,7 @@ parallel.
 then that model should belong in the core since it can be considered as part of a
 common reference model and vocabulary.#
 
-If a data mode is to be used to create "data transfer" elements, the issue is more
+If a data model is to be used to create "data transfer" elements, the issue is more
 complex. In the use of parameter names and types in the operational model above, the
 definition of a common vocabulary in the core is justifiable. In the case where data
 transfer elements are being defined, it may be that some types and elements are a
@@ -42,8 +42,7 @@ requirements classes. The mechanism for enforcing this is dependent on the schem
 language.
 
 [[cls-7-2-2]]
-==== Requirements class: UML model extends The Specification
-
+==== Requirements class: UML model extends The ModSpec
 UML is an OMG™ and an ISO standard for expressing object models. If the organizing
 mechanism for the data model used in the specification is an object model, then the
 mapping from parts of the model to the requirements classes should follow the
