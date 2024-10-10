@@ -157,7 +157,7 @@ packages.
 |*REQ033* | */req/core/uml/to-leaf* +
 A requirements class _SHALL_ be associated to some number of complete leaf packages
 and all classes and constraints in those packages.
-===
+|===
 
 If a requirement uses or refers to elements of more than one package, then one of
 the packages will be called the source of the requirement, and the other targets.
@@ -171,7 +171,7 @@ requirements module and/or class.
 |*REQ034* | */req/core/uml/cpmmon-req-classe* +
 Classes that are common to all requirements classes _SHALL_ be in a package
 associated to the core conformance/requirements class.
-===
+|===
 
 This is actually a derived requirement and is repeated here for emphasis.
 
