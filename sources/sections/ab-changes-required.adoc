@@ -2,9 +2,9 @@
 [appendix,obligation=normative]
 == OGC Only: Changes required in the OGC Standards
 
-NOTE: For OGC Standards only: No changes are required to existing OGC Standards
+NOTE: The following is for OGC Standards and Abstract Specifications only: No changes are required to existing OGC Standards
 
-=== New standards and revisions to exissting standards
+=== New OGC standards and revisions to existing OGC standards
 
 Any new standard, specification, or major revision of an existing standard SHALL
 comply with the ModSpec in the structure of its internal models and its
