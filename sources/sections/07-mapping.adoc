@@ -58,7 +58,7 @@ test class to the core will be made explicit.
 |===
 2+|*Requirements Class - UML extension to the core* 
 2+|/req/core/data-representation 
-|Target | ModSpec Confromant UML Model
+|Target | ModSpec Conformant UML Model
 |Dependency |OGC ModSpec Version 2 (need proper title and document number)
 |REQ028 | /req/core/uml/conformance-with-core 
 |REQ029 | /req/core/uml/object-model 
@@ -70,7 +70,7 @@ test class to the core will be made explicit.
 |REQ035 | /req/core/uml/source-target
 |REQ036 | /req/core/uml/leaf-package-dependency
 |REQ037 | /req/core/uml/two-way-dependency
-|REQ038 | /req/core/uml/sefregate-into-leaf=packages
+|REQ038 | /req/core/uml/segregate-into-leaf-packages
 |===
 
 Any conformant UML extension shall comply with the ModSpec Core requirements class.
@@ -152,10 +152,12 @@ packages.
 
 [[req-33]]
 [requirement,model=ogc,type="general"]
-====
-#A requirements class shall be associated to some number of complete leaf packages
-and all classes and constraints in those packages.#
-====
+[width="90%",cols="2,6"]
+|===
+|*REQ033* | */req/core/uml/to-leaf* +
+A requirements class _SHALL_ be associated to some number of complete leaf packages
+and all classes and constraints in those packages.
+===
 
 If a requirement uses or refers to elements of more than one package, then one of
 the packages will be called the source of the requirement, and the other targets.
@@ -164,10 +166,12 @@ requirements module and/or class.
 
 [[req-34]]
 [requirement,model=ogc,type="general"]
-====
-#Classes that are common to all requirements classes shall be in a package
-associated to the core conformance/requirements class.#
-====
+[width="90%",cols="2,6"]
+|===
+|*REQ034* | */req/core/uml/cpmmon-req-classe* +
+Classes that are common to all requirements classes _SHALL_ be in a package
+associated to the core conformance/requirements class.
+===
 
 This is actually a derived requirement and is repeated here for emphasis.
 
