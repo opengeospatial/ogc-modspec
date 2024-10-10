@@ -64,12 +64,12 @@ test class to the core will be made explicit.
 |REQ029 | /req/core/uml/object-model 
 |REQ030 | /req/core/uml/dependency-graph 
 |REQ031 | /req/core/uml/leaf-package
-|REQ032 | /req/core/uml/req-class-package
-|REQ033 | /req/core/uml/req-to-leaf
+|REQ032 | /req/core/uml/class-package
+|REQ033 | /req/core/uml/to-leaf
 |REQ034 | /req/core/uml/common-req-classes
 |REQ035 | /req/core/uml/source-target
 |REQ036 | /req/core/uml/leaf-package-dependency
-|REQ037 | /req/core/uml/tw0-way-dependency
+|REQ037 | /req/core/uml/two-way-dependency
 |REQ038 | /req/core/uml/sefregate-into-leaf=packages
 |===
 
@@ -79,7 +79,7 @@ Any conformant UML extension shall comply with the ModSpec Core requirements cla
 
 [width="90%",cols="2,6"]
 |===
-|*REQ028* | */req/core/uml/conformance-with-core * +
+|*REQ028* | */req/core/uml/conformance-with-core* +
 An implementation passing the UML conformance test class _SHALL_ first pass the core
 conformance test class
 |===
@@ -107,8 +107,9 @@ to formally explain the standard in a model
 
 [[req-30]]
 [requirement,model=ogc,type="general"]
+[width="90%",cols="2,6"]
 |===
-|*REQ030* | * /req/core/uml/dependency-graph* +
+|*REQ030* | */req/core/uml/dependency-graph* +
 A UML model _SHALL_ have an explicit dependency graph for the leaf packages and
 external packages used by the standard consistent with the way their classifiers use
 those of other packages
@@ -129,17 +130,21 @@ class and its associated conformance class.
 
 [[req-31]]
 [requirement,model=ogc,type="general"]
-====
-#A UML leaf package shall be associated directly to only one requirements class.#
-====
+[width="90%",cols="2,6"]
+|===
+|*REQ031* | */req/core/uml/leaf-model* +
+A UML leaf package _SHALL_ be associated directly to only one requirements class.
+|===
 
 [[req-32]]
 [requirement,model=ogc,type="general"]
-====
-#Each requirements class shall be associated to a unique package in the model and
+[width="90%",cols="2,6"]
+|===
+|*REQ032* | */req/core/uml/class-package* +
+Each requirements class shall be associated to a unique package in the model and
 include either directly or by a dependency any requirement associated to any of its
-subpackages.#
-====
+subpackages.
+|===
 
 The class definitions are the "requirements" of a UML expressed standard. Therefore the
 logical consequence of the above is to organize requirements classes based on leaf
