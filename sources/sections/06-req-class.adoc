@@ -47,31 +47,41 @@ criterion. See the formal definition of requirement in <<term-requirement>>
 
 [[req-1]]
 [requirement,model=ogc,type="general"]
-====
-#All the parts of a requirement, a requirement module, or requirements class SHALL be
+[width="90%",cols="2,6"]
+|===
+|*REQ001* | */req/core/uml/reqs-are-testable* +
+All the parts of a requirement, a requirement module, or requirements class SHALL be
 testable. Failure to pass any part of any requirement shall be a failure to pass the
-associated conformance test class.#
-====
+associated conformance test class.
+|===
 
 [NOTE]
 ====
-This means that any failure to pass the test specified for a part of requirement is a
+This further means that failure to pass the test specified for a part of requirement is a
 failure to pass the requirement.
 ====
 
 [[req-2]]
 [requirement,model=ogc,type="general"]
-====
-#Each component of the standard, including requirements, requirements modules,
+[width="90%",cols="2,6"]
+|===
+|*REQ002* | */req/core/uml/all-components-assigned-uri* +
+Each component of the standard, including requirements, requirements modules,
 requirements classes, conformance test cases, conformance modules and conformance
 classes SHALL be assigned a URI. 
-For OGC stadnrds documents, these URIs SHALL be conformant with the OGC naming authority policies.#
-====
+For OGC standards documents, these URIs SHALL be conformant with the https://www.ogc.org/about-ogc/policies/ogcna/[OGC Naming Authority policies].
+|===
 
-*#These URI identities should be used in any external documentation that reference
+[[rec-1]]
+[recommendation,model=ogc,type="general"]
+[width="90%",cols="2,6"]
+|===
+|*REC001* | */req/core/uml/uri-external-use* +
+These URI identities should be used in any external documentation that reference
 these component elements in a normative manner, including but not limited to other
 standards, implementations of the conformance test suite, or certificates of
-conformance for implementations conformant to the standard in question.#* 
+conformance for implementations conformant to the standard in question.
+|===
 
 NOTE: In the OGC, The precise the enforcement of this requirement and its associated recommendation is the purview of
 the OGC Naming Authority or its equivalents.
@@ -120,7 +130,7 @@ passed to qualify to pass this conformance class. In terms of requirements, that
 that the dependent conformance class contains tests (by reference) for all
 requirements of the "included" conformance class.
 
-From this document's view of requirements classes, one requirements
+From the ModSpec's view of requirements classes, one requirements
 class is dependent on another if the other is included through such a reference. In
 this manner, requirements classes can be treated as sets of requirements (each in a
 single requirements class but included in others by reference to its "home"
@@ -131,32 +141,53 @@ paragraph, such as <<req-1>> above.
 
 The distribution of the information in a standard is not restricted. The only
 requirement will be that requirements be grouped in a manner
-consistent with the conformance test classes, see <<req-6>> and <<req-7>>. *#The
-informational and structural universals of the standard may be included in the
-core text and its associated models without violations of the ModSpec.#* This is
+consistent with the conformance test classes, see <<req-6>> and <<req-7>>. 
+
+[[per-1]]
+[permission,model=ogc,type="general"]
+[width="90%",cols="2,6"]
+|===
+|*PER001* | */per/core/uml/informational-content-in-core* +
+The informational and structural universals of the standard may be included in the
+core text and its associated models without violations of the ModSpec. This is
 true if the requirements of the extension are not implicit in what is
 included in the core.
+|===
 
 In this manner, the core requirements class and its associated contents can be
 thought of not only as the requirements of the core conformance class, but as a form
 of reference model for establishing core vocabularies and schemas for the entire
 standard.
 
-*#The core may contain the definition and schema of commonly used terms and data
-structures for use in other structures throughout the standard.#*
+[[per-2]]
+[permission,model=ogc,type="general"]
+[width="90%",cols="2,6"]
+|===
+|*PER002* | */per/core/uml/core-may-contain-schema-terms* +
+The core may contain the definition and schema of commonly used terms and data
+structures for use in other structures throughout the standard.
+|===
 
-*#This may include the list of the names of all operations and operation parameters
+[[per-3]]
+[permission,model=ogc,type="general"]
+[width="90%",cols="2,6"]
+|===
+|*PER003* | */per/core/uml/core-names-of-operations* +
+This may include the list of the names of all operations and operation parameters
 to be used in any request-response pairs defined in any conformance class of the
 standard. If a service receives a request that is not supported in its
 conformance claim, then the service may return an error message text stating that the
-requested operation is part of a non-supported extension.#*
+requested operation is part of a non-supported extension.
+|===
 
 [[req-3]]
 [requirement,model=ogc,type="general"]
-====
-#Requirements on the use and interpretation of vocabulary SHALL be in the
-requirements class where that use or interpretation is used.#
-====
+[width="90%",cols="2,6"]
+|===
+|*REQ003* | */req/core/uml/vocabulary-and-parent-req-class* +
+Requirements on the use and interpretation of vocabulary SHALL be in the
+requirements class where that use or interpretation is used.
+|===
 
 *#Importation of external vocabularies and schemas may be in the core.#*
 
@@ -174,7 +205,7 @@ class in which the request-response pair is defined and set against requirements
 
 The primary difficulty in speaking about standards (or candidate
 standards){blank}footnote:[This is purposely written as "as not yet adopted"
-standards, since it is during the authoring process that this Policy must be
+standards, since it is during the authoring process that the ModSpec must be
 considered, not _post facto_.] as a group is their diverse
 nature. Some standards use UML to define behavior, others use XML to define data
 structures, and others use no specific modeling language at all. However, they all
@@ -184,11 +215,13 @@ common is that they define testable requirements against some
 model of an implementation of the standard (the standardization target). For
 completeness, they should also specify the conformance tests for these requirements
 that are to be run for validation of the implementations against those
-requirements.{blank}footnote:[This "test suite" specification is a requirement for
+requirements.
+
+NOTE: This "test suite" specification is a requirement for
 ISO and for OGC, but is often ignored in less formal standardization efforts. In such
 cases, if there exists a "validation authority" for conformance, they must interpret
 the requirements to be tested, _ex parte_, possibly separated from the authors of the
-standard, leading to issues of separate interpretations of the same specification.]
+standard, leading to issues of separate interpretations of the same specification.
 
 The assumption is that each standard has a single
 (root) standardization target type from which all extensions inherit. If this is not
