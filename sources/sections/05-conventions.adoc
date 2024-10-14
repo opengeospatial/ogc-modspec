@@ -27,11 +27,10 @@ OCL:: Object Constraint Language (part of UML)
 [[cls-5-3]]
 === Finding requirements and recommendations
 
-Each normative statement in the ModSpec is stated in one and only one place
-in a #*bold font*# and has an unique label, such as Req001 or Rec001. A requirement or recommendation may be repeated for clarification. The statement with the unique label is
-considered the official statement of the normative requirement or recommendation. In
-this sense, all requirements in the ModSpec are listed in the Table of Requirements
-at the beginning of this document.
+Each normative statement in the ModSpec is stated in one and only one place,
+in a standard format, and has an unique label, such as REQ001, REC001, or PER001. A requirement, recommendation, or permission may be repeated for clarification. 
+The statement with the unique label is
+considered the official statement of the normative requirement or recommendation. 
 
 In this document, all requirements are associated with tests specified in the abstract test suite
 in <<annex-A>>. The reference to the requirement in the test case is done by a
