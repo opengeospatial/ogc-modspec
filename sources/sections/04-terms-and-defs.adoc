@@ -346,14 +346,14 @@ entity to which some {{requirement,requirements}} of a {{standard}} apply
 NOTE: The {{standardization target}} is the entity which may receive a
 {{certificate of conformance}} for a {{requirements class}}.
 
-NOTE: Need to add examples! To wit: For example, the standardization target for the OGC API - Features - Part 2: Coordinate Reference Systems by Reference Standard is to extend the core capabilities specified in Part 1: Core so that implementations have the ability to use coordinate reference system identifiers other than the defaults defined in the core. The standardization target of the CDB version 2.0 CRS Requirements Classes is to clearly define (with metadata) a CRS for a CDB compliant datastore. 
+NOTE: Need to add examples! The standardization target of the CDB version 2.0 CRS Requirements Classes is to ensure that an implementation clearly defines (with metadata) the CRS for a CDB compliant datastore. 
 
 === standardization target type
 
 type of entity or set of entities to which the {{requirement,requirements}} of a
 {{standard}} apply
 
-NOTE: Need examples. To wit: For example, the standardization target type for The OGC API – Features Standard are Web APIs. The standardization target type for the CDB Standard is a datastore compliant with the requirements as stated in the CDB Standard. 
+NOTE: Need examples. For example, the standardization target type for The OGC API – Features Standard are Web APIs. The standardization target type for the CDB Standard is a datastore compliant with the requirements as stated in the CDB Standard. 
 
 === statement
 
