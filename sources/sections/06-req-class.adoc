@@ -224,8 +224,8 @@ requirements.
 NOTE: This "test suite" specification is a requirement for
 ISO and for OGC, but is often ignored in less formal standardization efforts. In such
 cases, if there exists a "validation authority" for conformance, they must interpret
-the requirements to be tested, _ex parte_, possibly separated from the authors of the
-standard, leading to issues of separate interpretations of the same specification.
+the requirements to be tested possibly separated from the authors of the
+standard, leading to issues of separate interpretations of the same standard.
 
 The assumption is that each standard has a single
 (root) standardization target type from which all extensions inherit. If this is not
@@ -237,10 +237,12 @@ standard into parts more than restricting their content.
 
 [[req-4]]
 [requirement,model=ogc,type="general"]
-====
-#Each requirement in a conformant standard SHALL have a single standardization
-target type.#
-====
+[width="90%",cols="2,6"]
+|===
+|*REQ004* | */req/core/uml/single-standization-target* +
+Each requirement in a conformant standard SHALL have a single standardization
+target type.
+|===
 
 In practice, the standardization target of the core requirements class is the root
 of an inheritance tree where extensions all have the core's target as an ancestor,
