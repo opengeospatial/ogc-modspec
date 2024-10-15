@@ -50,7 +50,7 @@ criterion. See the formal definition of requirement in <<term-requirement>>
 [width="90%",cols="2,6"]
 |===
 |*REQ001* | */req/core/uml/reqs-are-testable* +
-All the parts of a requirement, a requirement module, or requirements class SHALL be
+All the parts of a requirement, a requirement module, or requirements class _SHALL_ be
 testable. Failure to pass any part of any requirement shall be a failure to pass the
 associated conformance test class.
 |===
@@ -68,7 +68,7 @@ failure to pass the requirement.
 |*REQ002* | */req/core/uml/all-components-assigned-uri* +
 Each component of the standard, including requirements, requirements modules,
 requirements classes, conformance test cases, conformance modules and conformance
-classes SHALL be assigned a URI. 
+classes _SHALL_ be assigned a URI. 
 For OGC standards documents, these URIs SHALL be conformant with the https://www.ogc.org/about-ogc/policies/ogcna/[OGC Naming Authority policies].
 |===
 
@@ -77,7 +77,7 @@ For OGC standards documents, these URIs SHALL be conformant with the https://www
 [width="90%",cols="2,6"]
 |===
 |*REC001* | */req/core/uml/uri-external-use* +
-These URI identities should be used in any external documentation that reference
+These URI identities _SHOULD_ be used in any external documentation that reference
 these component elements in a normative manner, including but not limited to other
 standards, implementations of the conformance test suite, or certificates of
 conformance for implementations conformant to the standard in question.
@@ -150,7 +150,7 @@ The following permissions relate to possible content specified in the core of a 
 [width="90%",cols="2,6"]
 |===
 |*PER001* | */per/core/uml/informational-content-in-core* +
-The informational and structural universals of the standard may be included in the
+The informational and structural universals of the standard _MAY_ be included in the
 core text and its associated models without violations of the ModSpec. This is
 true if the requirements of the extension are not implicit in what is
 included in the core.
@@ -166,7 +166,7 @@ standard.
 [width="90%",cols="2,6"]
 |===
 |*PER002* | */per/core/uml/core-may-contain-schema-terms* +
-The core may contain the definition and schema of commonly used terms and data
+The core _MAY_ contain the definition and schema of commonly used terms and data
 structures for use in other structures throughout the standard.
 |===
 
@@ -189,11 +189,17 @@ The following states how and where vocabularies are specified in relation to a r
 [width="90%",cols="2,6"]
 |===
 |*REQ003* | */req/core/uml/vocabulary-and-parent-req-class* +
-Requirements on the use and interpretation of vocabulary SHALL be in the
+Requirements on the use and interpretation of vocabulary _SHALL_ be in the
 requirements class where that use or interpretation is used.
 |===
 
-*#Importation of external vocabularies and schemas may be in the core.#*
+[[per-4]]
+[permission,model=ogc,type="general"]
+[width="90%",cols="2,6"]
+|===
+|*PER004* | */per/core/uml/external-vocabs-core* +
+Importation of external vocabularies and schemas _MAY_ be in the core.
+|===
 
 [example]
 ====
@@ -240,7 +246,7 @@ standard into parts more than restricting their content.
 [width="90%",cols="2,6"]
 |===
 |*REQ004* | */req/core/uml/single-standardization-target* +
-Each requirement in a conformant standard SHALL have a single standardization
+Each requirement in a conformant standard _SHALL_ have a single standardization
 target type.
 |===
 
@@ -255,7 +261,7 @@ target.
 |===
 |*REQ005* | */req/core/uml/test-class-single-standardization-target* +
 All conformance tests in a single conformance test class in a conformant
-standard shall have the same standardization target.
+standard _SHALL_ have the same standardization target.
 |===
 
 This means that all requirements are considered as targeting the same entity being
@@ -263,9 +269,16 @@ tested for a particular certificate of conformance. The test may specify other t
 as intermediaries or indirect dependencies (see
 <<term-indirect-dependency-(of-a-requirements-class)>>).
 
-*#If needed, a requirement may be repeated word for word in another requirement up
-to but not including the identification of the standardization target type.#* This
-second statement will be in a separate requirements class, since it will have a
+[[per-5]]
+[permission,model=ogc,type="general"]
+[width="90%",cols="2,6"]
+|===
+|*PER005* | */per/core/uml/repeated-requirements* +
+If needed, a requirement _MAY_ be repeated word for word in another requirement up
+to but not including the identification of the standardization target type. 
+|===
+
+This second statement will be in a separate requirements class, since it will have a
 separate standardization target and thus belong to the requirements to be tested by
 a separate conformance class. For example, in a service interface, a standard
 may be written that requires both the client and server to use a particular language
