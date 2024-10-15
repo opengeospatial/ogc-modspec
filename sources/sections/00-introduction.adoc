@@ -2,6 +2,7 @@
 == Introduction
 
 This OGC document, also known as the `ModSpec`:
+
 - Specifies rules for the internal structure and organization of a standard. 
 - Defines requirements for specifying the structure of a standards document as organized sets of criteria, those that are to be tested ("requirements") and those that are not tested ("recommendations" and "permissions"). 
 - Designed to enable the clear and concise specification of requirements (the _shalls_ or _musts_ in a standard) that fully supports the ability to define implementable conformance tests. 
