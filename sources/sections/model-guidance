@@ -12,4 +12,4 @@ Since these clauses, conformance classes, packages and schemas represent the mos
 In this case, at least level 3 headings should be in the table of contents. Level 4 and beyond are optional in the TOC. 
 In summary, the structure of the requirements and requirements classes of the model should be reflected in the organization of the conformance tests and classes, and also in the structure of the normative clauses in the specification document. 
 NOTE	This makes it more difficult to write a standard , but is expected to make the standard easier to read and understand. This trade-off is usually worth it, since the readers of a specification should be orders of magnitude more numerous than its contributing authors.
-	Making it easier to implement a specification is an important goal of this standard.   
+	Making it easier to implement a standard is an important goal of the ModSpec.   
