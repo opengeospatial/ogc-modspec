@@ -1,5 +1,12 @@
 This clause provices additional information that can be used as guidance for implementing requirements specified in the ModSpec
 
+Standards users evaluate and select standards or standards-based products for implementation in
+their countries or organizations, with the goal of achieving national or organizational goals. They
+need to understand how a standard achieves interoperability and whether a standards-based
+product complies and/or is certified to comply with a standard. They want to know the
+standardization target for a specific standard (e.g., web service or metadata) and the kind of
+interoperability that can be achieved (e.g., system, structural, syntactic, or semantic). 
+
 == Logical Structure
 
 This structure is described in the following clause. Thus, if two requirements are in the same clause of the body of the document, 
