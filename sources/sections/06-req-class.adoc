@@ -4,7 +4,7 @@
 [[cls-6-1]]
 === The model
 
-The ModSpec defines requirements for specifying the structure as organized sets of
+The ModSpec defines requirements for specifying the structure of a standards document as organized sets of
 criteria, those that are to be tested ("requirements") and those that are not tested
 ("recommendations" and "permissions"). All OGC Standards, formally or informally, create an
 abstraction of the things to which they apply (called an "abstract model") in order to provide a context for stating
@@ -361,7 +361,7 @@ Strict parallelism of implementation and governance is the essence of this stand
 
 [[req-9]]
 [requirement,model=ogc,type="general"]
- [width="90%",cols="2,6"]
+[width="90%",cols="2,6"]
 |===
 |*REQ009* | */req/core/uml/no-optional-tests* +
 A Conformance class SHALL not contain any optional conformance tests.
@@ -374,13 +374,23 @@ that exactly the same tests have been conducted. Standards documents may use
 recommendations for such options, but the conformance test classes do not test
 recommendations.
 
-*#A Conformance class may be parameterized.#* This means that the class's tests
-depend on some parameter that must be defined before the tests can be executed. For
-example, if a XYZ conformance class needs to specify a data format such as GML or
-KML to be tested, then XYZ(GML) is XYZ using GML, and XYZ(KML) is XYZ using KML.
-*#Because the parameters choose which requirements will be tested, two conformance
+[[per-4]]
+[permission,model=ogc,type="general"]
+[width="90%",cols="2,6"]
+|===
+|*PER004* | */per/core/uml/conf-class-paramterized* +
+A Conformance class may be parameterized.
+|===
+
+This means that the class's tests
+depend on some parameter that must be defined before the tests can be executed. This can
+be thought of as an "if-then-else" decision tree. 
+
+For example, if a conformance class needs to apply tests against a specific data format, such as GML or
+KML, then XYZ(GML) is XYZ using GML, and XYZ(KML) is XYZ using KML.
+Because the parameters choose which requirements will be tested, two conformance
 classes with distinct parameters should be considered as distinct conformance
-classes.#*
+classes.
 
 The most common parameters are the identities of indirect dependencies. For example,
 if a service uses or produces feature data, the format of that data may be a
@@ -389,19 +399,23 @@ the values of such parameters are very important.
 
 [[req-10]]
 [requirement,model=ogc,type="general"]
-====
-#A certificate of conformance SHALL specify all parameter values used to pass the
-tests in its conformance test class.#
-====
+[width="90%",cols="2,6"]
+|===
+|*REQ010* | */req/core/uml/all-parameters-expressed* +
+A certificate of conformance SHALL specify all parameter values used to pass the
+tests in its conformance test class.
+|===
 
 Conformance to a particular conformance class means exactly the same thing everywhere.
 
 [[req-11]]
 [requirement,model=ogc,type="general"]
-====
-#A Conformance class SHALL explicitly test only requirements from a single
-requirements class.#
-====
+[width="90%",cols="2,6"]
+|===
+|*REQ011* | */req/core/uml/conf-class-single-req-class* +
+A Conformance class SHALL explicitly test only requirements from a single
+requirements class.
+|===
 
 This means that there is a strict correspondence between the requirements classes
 and the conformance test classes in the test suite. Recall that a conformance test
@@ -410,11 +424,13 @@ but this is a result of an explicit requirement in the "home" requirements class
 
 [[req-12]]
 [requirement,model=ogc,type="general"]
-====
-#A Conformance class SHALL specify any other conformance class upon which it is
+[width="90%",cols="2,6"]
+|===
+|*REQ012* | */req/core/uml/con-class-dependencies* +
+A Conformance class SHALL specify any other conformance class upon which it is
 dependent and that other conformance class shall be used to test the specified
-dependency.#
-====
+dependency.
+|===
 
 Such referenced conformance classes may be in the same standard or may be a
 conformance class of another standard.
@@ -442,16 +458,16 @@ forces them to include it in a separate requirements class (and therefore in a
 separate conformance test class) which can be left untested.
 
 NOTE: Standards developed outside the OGC may not follow a strict parallelism between requirement specification
-and testing, so for use within a specification compliant to this standard, special
+and testing, so for use within a standard compliant to the ModSpec, special
 care must be taken in importing conformance test classes from other standards.
 
 [[req-13]]
 [requirement,model=ogc,type="general"]
 ====
 #If a requirements class is imported from another standard for use within a
-specification conformant to this standard, and if any imported requirement is
+standardn conformant to the ModSpec, and if any imported requirement is
 "optional," then that requirement SHALL be factored out as a separate requirements
-class in the profile of that imported standard used in the conformant specification.
+class in the profile of that imported standard used in the conformant standard.
 Each such used requirements class SHALL be a conformance class of the source
 standard or a combination of conformance classes of the source standard or standards.#
 ====
