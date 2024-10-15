@@ -7,6 +7,16 @@ product complies and/or is certified to comply with a standard. They want to kno
 standardization target for a specific standard (e.g., web service or metadata) and the kind of
 interoperability that can be achieved (e.g., system, structural, syntactic, or semantic). 
 
+Geospatial standards can be further characterized based on one of three standardization
+targets[15]:
+1. Information (or content) standards
+2. Service or interface standards
+3. Procedural standards.
+A specific standard is not necessarily aimed at a single standardization target. Sometimes
+information, services and procedures are grouped into a single standard for a specific domain. 
+
+Example: The Standardization Targets for the MUDDI Conceptual Model Standard are Logical Models that implement MUDDI in a specific context.
+
 == Logical Structure
 
 This structure is described in the following clause. Thus, if two requirements are in the same clause of the body of the document, 
