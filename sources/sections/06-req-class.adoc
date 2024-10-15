@@ -1,7 +1,7 @@
 [[cls-6]]
 == Requirements Class: Core
 
-The following requirements specify the rules for the content and sructure of a modular standard. These requirements are also known as the `core` of the ModSpec.
+The following requirements specify the rules for the content and structure of a modular standard. These requirements are also known as the `core` of the ModSpec.
 
 [[req-1]]
 [requirement,model=ogc,type="general"]
