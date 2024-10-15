@@ -2,11 +2,11 @@
 == Requirements Class: Core
 
 [[cls-6-1]]
-=== The model
+=== What is the ModSpec?
 
 The ModSpec defines requirements for specifying the structure of a standards document as organized sets of
 criteria, those that are to be tested ("requirements") and those that are not tested
-("recommendations" and "permissions"). All OGC Standards, formally or informally, create an
+("recommendations" and "permissions"). All standards, formally or informally, create an
 abstraction of the things to which they apply (called an "abstract model") in order to provide a context for stating
 requirements.
 
@@ -50,7 +50,7 @@ criterion. See the formal definition of requirement in <<term-requirement>>
 [width="90%",cols="2,6"]
 |===
 |*REQ001* | */req/core/uml/reqs-are-testable* +
-All the parts of a requirement, a requirement module, or requirements class _SHALL_ be
+All the parts of a requirement, a requirements module, or requirements class _SHALL_ be
 testable. Failure to pass any part of any requirement shall be a failure to pass the
 associated conformance test class.
 |===
