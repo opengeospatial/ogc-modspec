@@ -239,7 +239,7 @@ standard into parts more than restricting their content.
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ004* | */req/core/uml/single-standization-target* +
+|*REQ004* | */req/core/uml/single-standardization-target* +
 Each requirement in a conformant standard SHALL have a single standardization
 target type.
 |===
@@ -251,10 +251,12 @@ target.
 
 [[req-5]]
 [requirement,model=ogc,type="general"]
-====
-#All conformance tests in a single conformance test class in a conformant
-standard shall have the same standardization target.#
-====
+[width="90%",cols="2,6"]
+|===
+|*REQ005* | */req/core/uml/test-class-single-standardization-target* +
+All conformance tests in a single conformance test class in a conformant
+standard shall have the same standardization target.
+|===
 
 This means that all requirements are considered as targeting the same entity being
 tested for a particular certificate of conformance. The test may specify other types
@@ -295,37 +297,27 @@ Each standard document is comprised of a set of requirements and their associate
 
 [[req-6]]
 [requirement,model=ogc,type="general"]
-====
-#Requirements SHALL be grouped together in clauses (numbered sections) of the
+[width="90%",cols="2,6"]
+|===
+|*REQ006* | */req/core/uml/requirements-grouped* +
+Requirements SHALL be grouped together in clauses (numbered sections) of the
 document in a strictly hierarchical manner, consistent with 
-requirements classes.#
-====
+requirements classes.
+|===
 
 [[req-7]]
 [requirement,model=ogc,type="general"]
-====
-#The requirements structure of the document SHALL be in a logical correspondence to
-the test suite structure.#
-====
+[width="90%",cols="2,6"]
+|===
+|*REQ007* | */req/core/uml/requirements-test-suite-structure* +
+The requirements structure of the document SHALL be in a logical correspondence to
+the test suite structure.
+|===
 
-This structure is described in the following clause. If two requirements are
+If two requirements are
 in the same requirments class, they should be tested in the same conformance
-class in the conformance suite. *#Each requirement may be separately identifiable
-either by a label as is done in this document, by its subclause number, or by its
-subclause number and full text.#*
-
-The level of the clauses at which the requirements classes corresponding to the test
-suite classes are organized is the purview of the editing body of the document, but
-should be obvious from the language of the clause titles. For example, if UML
-packages or XML schemas are used to express the factoring of the document into test
-suite defined conformance classes, the document should use package or schema names
-in the "table of contents" outline of the standard to indicate the correspondence to
-test suite classes.
-
-Since these clauses, conformance classes, packages and schemas represent the most
-important divisions of the test suite and thus of the requirements classes, their
-name should be included in the table of contents (TOC) of the standard document, and
-should all be at the same level of heading.
+class in the conformance suite. Each requirement is separately identifiable
+either by a label as is done in the ModSpec.
 
 In summary, the structure of the requirements and requirements classes of the model
 should be reflected in the organization of the conformance tests and classes, and
@@ -344,20 +336,21 @@ stated in the normative clauses of the standards document.
 
 NOTE: The Test Suite is normative in the sense that it describes the tests to be
 performed to pass conformance, but it specifies no requirements in any other sense.
-The requirements should be specified in the body of the standard. The test suite
+The requirements are specified in the body of the standard. The test suite
 only describes in detail how those requirements should be tested.
 
 In each of the profiles defined in the Clauses to follow, some set of entities,
-types, elements or objects are defined and segregated into implementation
+types, elements, or objects are defined and segregated into implementation
 requirements classes.
 
 [[req-8]]
 [requirement,model=ogc,type="general"]
-====
-#The requirements classes shall be in a one-to-one correspondence to the conformance
-test classes, and thus to the various certificate of conformance types possible for
-a candidate implementation.#
-====
+[width="90%",cols="2,6"]
+|===
+|*REQ008* | */req/core/uml/requirements-class-correspondence-to-conformance-classes* +
+The requirements classes shall be in a one-to-one correspondence to the conformance test classes, 
+and thus to the various certificate of conformance types possible for a candidate implementation. 
+|===
 
 Strict parallelism of implementation and governance is the essence of this standard.
 
@@ -368,9 +361,11 @@ Strict parallelism of implementation and governance is the essence of this stand
 
 [[req-9]]
 [requirement,model=ogc,type="general"]
-====
-#A Conformance class SHALL not contain any optional conformance tests.#
-====
+ [width="90%",cols="2,6"]
+|===
+|*REQ009* | */req/core/uml/no-optional-tests* +
+A Conformance class SHALL not contain any optional conformance tests.
+|===
 
 This requirement stops
 conformance classes from containing optional requirements and tests, and, at least
