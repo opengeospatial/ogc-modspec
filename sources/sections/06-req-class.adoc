@@ -1,49 +1,7 @@
 [[cls-6]]
 == Requirements Class: Core
 
-[[cls-6-1]]
-=== What is the ModSpec?
-
-The ModSpec defines requirements for specifying the structure of a standards document as organized sets of
-criteria, those that are to be tested ("requirements") and those that are not tested
-("recommendations" and "permissions"). All standards, formally or informally, create an
-abstraction of the things to which they apply (called an "abstract model") in order to provide a context for stating
-requirements.
-
-NOTE: For OGC Standards, the assumptions is that documents are in a commonly used
-logical form (template). 
-
-This form should be specified by the following descriptions:
-
-. A standards document contains Clauses (corresponding to numbered sections as they might
-appear in a table of contents) which describe its standardization target and its requirements.
-. An OGC Standard or Abstract Specification contains Annexes or is associated to other documents (both a
-logical type of Clause), one of which is the Conformance Test Suite (which may be an
-abstract description of the test suites to be implemented separately). In OGC Documents, this is Annex A – Abstract Test Suite.
-. All requirements, recommendations, permissions, and models are introduced and defined first in
-the numbered Clauses.
-. All requirements are identifiable as requirements. In OGC and ISO, this means use
-of "normative" language, meaning the proper use of SHALL, SHOULD, CAN and MAY or
-similar wording in the passive voice. All requirements in a document are uniquely numbered.
-. All tests for conformance to those requirements are defined in the Conformance Test
-Suite.  Is OGC Standards documents, this is the Abstract Test Suite (ATS).
-. Tests are be grouped for convenience into conformance test classes and if desired the classes are grouped into conformance test modules.
-. The tests, if conducted, determine to some degree of certainty whether an
-implementation meets the requirements which the tests reference.
-. The tests are organized into some number of conformance "classes" where each conformance class has a one to one relationship with a requirements class. If a standard
-does not do this, it is has by default only one "conformance class".
-. Certificates of conformance (see <<term-all-components-schema-document>>) are
-awarded by a testing entity based on these conformance classes.
-. There is a clear distinction between normative and informative parts of the text.
-. Examples and notes are informative, and do not use "normative"
-language.{blank}footnote:[In this standard, in informative sections, the word "will"
-implies that something is an implication of a requirement. The "will" statements are
-not requirements, but explain the consequence of requirements.]
-
-A UML representation of important properties of this model is given in <<annex-B-2>>.
-
-The ModSpec defines a "requirement" of a standard as an atomic testable
-criterion. See the formal definition of requirement in <<term-requirement>>
+The following requirements specify the rules for the content and sructure of a modular standard. These requirements are also known as the `core` of the ModSpec.
 
 [[req-1]]
 [requirement,model=ogc,type="general"]
