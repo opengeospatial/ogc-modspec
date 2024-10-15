@@ -1,0 +1,15 @@
+This clause provices additional information that can be used as guidance for implementing requirements specified in the ModSpec
+
+== Logical Structure
+
+This structure is described in the following clause. Thus, if two requirements are in the same clause of the body of the document, they should be tested in the same class in the conformance suite.   Each requirement may be separately identifiable either by a label as is done in this document, by its subclause number, or by its subclause number and full text. 
+The level of the clauses at which the requirements classes corresponding to the test suite classes are organized is the purview of the editing body of the document, but should be obvious from the language of the clause titles. For example, if UML packages or XML schemas are used to express the factoring of the document into test suite defined conformance classes, the document should use package or schema names in the “table of contents” outline of the standard to indicate the correspondence to test suite classes. 
+Since these clauses, conformance classes, packages and schemas represent the most important divisions of the test suite and thus of the requirements classes, their name should be included in the table of contents (TOC) of the standard document, and should all be at the same level of heading. For example, in a UML organized standard, where packages are used for test classes in the test suite, the following may be a reasonable clause subdivision for a version of “ISO 19107: Spatial Schema.” 
+•	Topic at heading level 1, such as Geometry, Topology.
+•	Subdivision of related requirements classes at level 2, such as coordinate systems, points, curves, surfaces and solids at level 2. 
+•	Test Suite subdivisions at level 3, such as linear interpolations, conics, Bézier splines, NURBS, etc. 
+•	Classes at level 4, and so forth. 
+In this case, at least level 3 headings should be in the table of contents. Level 4 and beyond are optional in the TOC. 
+In summary, the structure of the requirements and requirements classes of the model should be reflected in the organization of the conformance tests and classes, and also in the structure of the normative clauses in the specification document. 
+NOTE	This makes it more difficult to write a standard , but is expected to make the standard easier to read and understand. This trade-off is usually worth it, since the readers of a specification should be orders of magnitude more numerous than its contributing authors.
+	Making it easier to implement a specification is an important goal of this standard.   
