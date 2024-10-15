@@ -140,8 +140,10 @@ In the ModSpec, each conformance requirement is separated in its own labeled
 paragraph, such as <<req-1>> above.
 
 The distribution of the information in a standard is not restricted. The only
-requirement will be that requirements be grouped in a manner
+requirement is that requirements be grouped in a manner
 consistent with the conformance test classes, see <<req-6>> and <<req-7>>. 
+
+The following permissions relate to possible content specified in the core of a standard.
 
 [[per-1]]
 [permission,model=ogc,type="general"]
@@ -179,6 +181,8 @@ standard. If a service receives a request that is not supported in its
 conformance claim, then the service may return an error message text stating that the
 requested operation is part of a non-supported extension.
 |===
+
+The following states how and where vocabularies are specified in relation to a requirement or requirements class.
 
 [[req-3]]
 [requirement,model=ogc,type="general"]
