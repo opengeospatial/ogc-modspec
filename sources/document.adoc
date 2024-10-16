@@ -1,4 +1,4 @@
-= The ModSpec Model -- A Standard for Designing Modular Standards
+= The ModSpec Model - A Standard for Designing Modular Standards
 :doctype: draft standard
 :docsubtype: conceptual-model
 :status: Draft
