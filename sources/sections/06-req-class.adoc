@@ -466,39 +466,51 @@ two requirements classes are co-dependent, they shall be merged into a single cl
 
 Normally, circular dependencies between implementation components are signs of a
 poor design, but they often cannot be avoided because of other considerations (code
-ownership for example). *#Circular dependencies of all types should be avoided
-whenever possible.#*
+ownership for example). 
+
+[[rec-3]]
+[recommendation,model=ogc,type="general"]
+[width="90%",cols="2,6"]
+|===
+|*REC003* | */req/core/uml/circular-dependencies* +
+Circular dependencies of all types should be avoided whenever possible.
+|===
 
 [[req-17]]
 [requirement,model=ogc,type="general"]
-====
-#There SHALL be a natural structure on the requirements classes so that each may be
+[width="90%",cols="2,6"]
+|===
+*REQ017* | */req/core/uml/structure-requirements-classes* +
+There _SHALL_ be a natural structure to the requirements classes so that each may be
 implemented on top of any implementations of its dependencies and independent of its
-extensions.#
-====
+extensions.
+|===
 
 [NOTE]
 ====
 The only certain manner to test this requirement maybe to create a reference
 implementation.
+====
 
 This requirement is more important and may be more difficult than it seems. It
 states simply that conformance classes and their associated requirements classes can
 be put in a one-to-one correspondence to a fully modular implementation of the
-complete standard (at least all of the specification against a single
+complete standard (at least against a single
 standardization target). Implementors who wish to sacrifice modularity for some
 other benefit can still do what they want; the requirement here only states that if
 the software requirements classes are properly separated, they can be implemented in
 a "plug'n'play" fashion.
-====
+
 
 [[req-18]]
 [requirement,model=ogc,type="general"]
-====
-#No requirements class SHALL redefine the requirements of its dependencies, unless
+[width="90%",cols="2,6"]
+|===
+^|*REQ018* | */req/core/uml/requirements-and-dependencies* +
+No requirements class _SHALL_ redefine the requirements of its dependencies, unless
 that redefinition is for an entity derived from but not contained in those
 dependencies.#
-====
+|===
 
 This means, for example, that a UML classifier cannot be redefined in a new
 extension. If a new version of the classifier is needed it has to be a valid subtype
@@ -507,15 +519,13 @@ of the original.
 In terms of generalization, subclassing, extension and restriction (into a new class
 or type) are all acceptable, redefinition (of an old class or type) is not.
 
-[NOTE]
-====
 <<cls-6-3>> makes some pointed suggestion as to how to organize the conformance
 classes and normative clauses in parallel to make this requirement easier to verify.
 
 Most standards include examples, which are useful for illustrative or pedagogical
-purposes. However, it is not possible to write a specification "by example" that
+purposes. However, it is not possible to write a standard "by example" that
 leads to conformance tests. Examples are therefore non-normative, by definition.
-====
+
 
 [[cls-6-5-3]]
 ==== Profiles are defined as sets of conformance classes
@@ -528,18 +538,10 @@ requirements classes.
 [[req-19]]
 [requirement,model=ogc,type="general"]
 ====
-#The conformance tests for a profile of a standard SHALL be defined as the
+#The conformance tests for a profile of a standard _SHALL_ be defined as the
 union of a list of conformance classes that are to be satisfied by that profile's
 standardization targets.#
 ====
-
-NOTE: This means that a standard conformant to the ModSpec predefines all of its
-possible profiles through the dependencies between the conformance classes. In
-essence, a profile of a conformant standard is precisely a transitive closure of a
-subset of requirements classes under the dependency relations. If a standard has "n"
-requirements classes and they are all independent, it can have no more than "2^n^ --
-1" profiles. If there is a core and "n" independent extensions, then there are no
-more than "2^n^" profiles. Dependencies will usually decrease these numbers radically.
 
 [[cls-6-5-4]]
 ==== There is a Defined Core
@@ -547,7 +549,7 @@ more than "2^n^" profiles. Dependencies will usually decrease these numbers radi
 [[req-20]]
 [requirement,model=ogc,type="general"]
 ====
-#Every specification SHALL define and identify a core set of requirements as a
+#Every standard SHALL define and identify a core set of requirements as a
 separate conformance class.#
 ====
 
@@ -560,7 +562,7 @@ separate conformance class.#
 [[req-22]]
 [requirement,model=ogc,type="general"]
 ====
-#Every other requirements class in a standard shall SHALL a standardization
+#Every other requirements class in a standard _SHALL_ a standardization
 target type which is a subtype of that of the core and shall have the core as a
 direct dependency.#
 ====
