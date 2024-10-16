@@ -191,10 +191,17 @@ targets types (except in some special circumstances), they will have different
 conformance test classes.
 
 One solution is to state the requirement twice, once for each target. The most
-common alternative is to introduce a new "superclass". *#The specification may
-introduce an abstract superclass of all affected standardization target types and
-use this for the requirements common to all of the affected target types.#* This is
+common alternative is to introduce a new "superclass". 
+
+[[per-6]]
+[permission,model=ogc,type="general"]
+[width="90%",cols="2,6"]
+|===
+|*PER006* | */per/core/uml/abstract-superclass* +
+The standard may introduce an abstract superclass of all affected standardization target types and
+use this for the requirements common to all of the affected target types. This is
 diagrammed in <<fig-6-1>>.
+|===
 
 [[fig-6-1]]
 .Abstract superclass example
@@ -291,11 +298,11 @@ that exactly the same tests have been conducted. Standards documents may use
 recommendations for such options, but the conformance test classes do not test
 recommendations.
 
-[[per-4]]
+[[per-7]]
 [permission,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*PER004* | */per/core/uml/conf-class-paramterized* +
+|*PER007* | */per/core/uml/conf-class-paramterized* +
 A Conformance class may be parameterized.
 |===
 
@@ -380,14 +387,16 @@ care must be taken in importing conformance test classes from other standards.
 
 [[req-13]]
 [requirement,model=ogc,type="general"]
-====
-#If a requirements class is imported from another standard for use within a
-standardn conformant to the ModSpec, and if any imported requirement is
-"optional," then that requirement SHALL be factored out as a separate requirements
+[width="90%",cols="2,6"]
+|===
+^|*REQ013* | */req/core/uml/imported-requirements-class* +
+^| A | If a requirements class is imported from another standard for use within a
+standard conformant to the ModSpec, and if any imported requirement is
+"optional," then that requirement _SHALL_ be factored out as a separate requirements
 class in the profile of that imported standard used in the conformant standard.
-Each such used requirements class SHALL be a conformance class of the source
+^| B | Each such used requirements class _SHALL_ be a conformance class of the source
 standard or a combination of conformance classes of the source standard or standards.#
-====
+|===
 
 The tracking of the parallelism between requirements and tests should be easy if the
 standards document is non-ambiguous. To insure this, by utilizing the names of the two types of classes the following requirement places a
@@ -408,8 +417,6 @@ of tests) are not comparable. This can be remedied by noting that both have a
 consistent relation to a set of requirements. A requirements class is a set of
 requirements. A conformance class tests a set of requirements. Therefore a requirements class corresponds precisely to a conformance class if they
 both are related (as described) to the same set of requirements.
-
-
 ====
 
 [[cls-6-5-2]]
