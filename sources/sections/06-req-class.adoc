@@ -404,55 +404,65 @@ default mapping between the two.
 
 [[req-14]]
 [requirement,model=ogc,type="general"]
-====
-#For the sake of consistency and readability, all requirements classes and all
-conformance test classes SHALL be explicitly named, with corresponding requirements
-classes and conformance test classes having similar names.#
-====
+[width="90%",cols="2,6"]
+|===
+|*REQ014* | */req/core/uml/all-classes-explicitly-named* +
+For the sake of consistency and readability, all requirements classes and all
+conformance test classes _SHALL_ be explicitly named, with corresponding requirements
+classes and conformance test classes having similar names.
+|===
 
-[NOTE]
-====
 Logically, a requirements class (set of requirements) and a conformance class (set
 of tests) are not comparable. This can be remedied by noting that both have a
 consistent relation to a set of requirements. A requirements class is a set of
 requirements. A conformance class tests a set of requirements. Therefore a requirements class corresponds precisely to a conformance class if they
 both are related (as described) to the same set of requirements.
-====
+
 
 [[cls-6-5-2]]
 ==== Requirements classes contain all requirements tested by a conformance test case
 
 [[req-15]]
 [requirement,model=ogc,type="general"]
-====
-#Each requirement in the standard SHALL be contained in one and only one
-requirements class. Inclusion of any requirement in a requirements class by a
-conformance class shall imply inclusion of all requirements in its class (as a
-dependency).#
-====
+[width="90%",cols="2,6"]
+|===
+^|*REQ015* | */req/core/uml/req-in-only-one-rec-class* +
+^| A | Each requirement in the standard _SHALL_ be contained in one and only one
+requirements class. 
+^| B | Inclusion of any requirement in a requirements class by a
+conformance class _SHALL imply inclusion of all requirements in its class (as a
+dependency).
+|===
 
 Unless a requirement is referenced in a conformance test and thus in a conformance
 class, it cannot be considered a requirement since no test has been defined for it.
-*#If possible, the structure of the normative clauses of the standard should
-parallel the structure of the conformance classes in the conformance clause.#*
 
-[NOTE]
-====
-This in conjunction with <<req-9>> means that all requirements in a conformant
+[[rec-2]]
+[recommendation,model=ogc,type="general"]
+[width="90%",cols="2,6"]
+|===
+|*REC002* | */req/core/uml/parallel-structure* +
+If possible, the structure of the normative clauses of the standard _SHOULD_
+parallel the structure of the conformance classes in the conformance clause.
+|===
+
+The above requirement in conjunction with <<req-9>> means that all requirements in a conformant
 standard will be tested in some conformance class. In the best example, a
 requirement should be contained explicitly in one and only one requirements class
 and tested in one and only one conformance class. This is not really a requirement
 here, since a single requirement can be stated twice in different requirements
 classes.
-====
 
 [[req-16]]
 [requirement,model=ogc,type="general"]
-====
-#If any two requirements are co-dependent (each
-dependent on the other) then they shall be in the same requirements class. If any
-two requirements classes are co-dependent, they shall be merged into a single class.#
-====
+[width="90%",cols="2,6"]
+|===
+^|*REQ016* | */req/core/uml/co-dependent-requirements* +
+^| A | If any two requirements are co-dependent (each
+dependent on the other) then they shall be in the same requirements class. 
+^| B | If any
+two requirements classes are co-dependent, they shall be merged into a single class.
+|===
 
 Normally, circular dependencies between implementation components are signs of a
 poor design, but they often cannot be avoided because of other considerations (code
