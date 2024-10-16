@@ -1,7 +1,7 @@
 [.preface]
 == Introduction
 
-NOTE: Reading the terms and definitions clause will help understanding the content and
+NOTE: Reading the Terms and Definitions clause will help understanding the content and
 requirements stated in this document.
 
 This OGC document, also known as the `ModSpec`:
