@@ -22,7 +22,7 @@ There are numerous examples of requirements/conformance classes that can be used
 
 In the conformance test suite there will be a test defined to verify the validity of
 the claim that an implementation of the standard (standardization target) satisfies
-each requirement. Since the normative language of the body of the standard and the
+each mandatory requirement specified in the standard. Since the normative language of the body of the standard and the
 conformance test classes both define what conformance to the standard means, they
 will be equivalent in a well-written standard. The ModSpec requires
 a standards document to be well-written, at least in stating requirements and conformance
