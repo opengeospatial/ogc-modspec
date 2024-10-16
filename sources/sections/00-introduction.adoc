@@ -24,16 +24,14 @@ This form should be specified by the following descriptions:
 
 . A standards document contains Clauses (corresponding to numbered sections as they might
 appear in a table of contents) which describe its standardization target and its requirements.
-. An OGC Standard or Abstract Specification contains Annexes or is associated to other documents (both a
+. A standard contains Annexes or is associated to other documents (both a
 logical type of Clause), one of which is the Conformance Test Suite (which may be an
 abstract description of the test suites to be implemented separately). In OGC Documents, this is Annex A – Abstract Test Suite.
 . All requirements, recommendations, permissions, and models are introduced and defined first in
 the numbered Clauses.
-. All requirements are identifiable as requirements. In OGC and ISO, this means use
-of "normative" language, meaning the proper use of SHALL, SHOULD, CAN and MAY or
-similar wording in the passive voice. All requirements in a document are uniquely numbered.
-. All tests for conformance to those requirements are defined in the Conformance Test
-Suite.  Is OGC Standards documents, this is the Abstract Test Suite (ATS).
+. All requirements are identifiable as requirements. 
+. All requirements in a document are uniquely numbered.
+. All tests for conformance to those requirements are defined in the Conformance Test Suite.
 . Tests are be grouped for convenience into conformance test classes and if desired the classes are grouped into conformance test modules.
 . The tests, if conducted, determine to some degree of certainty whether an
 implementation meets the requirements which the tests reference.
@@ -43,14 +41,15 @@ does not do this, it is has by default only one "conformance class".
 awarded by a testing entity based on these conformance classes.
 . There is a clear distinction between normative and informative parts of the text.
 . Examples and notes are informative, and do not use "normative"
-language.{blank}footnote:[In this standard, in informative sections, the word "will"
-implies that something is an implication of a requirement. The "will" statements are
-not requirements, but explain the consequence of requirements.]
+language.
 
-A UML representation of important properties of this model is given in <<annex-B-2>>.
+In informative sections, the word "will" implies that something is an implication of a requirement. The "will" statements are
+not requirements, but explain the consequence of requirements.
 
 The ModSpec defines a "requirement" of a standard as an atomic testable
 criterion. See the formal definition of requirement in <<term-requirement>>
+
+A UML representation of important properties of this model is given in <<annex-B-2>>.
 
 === ModSpec document structure
 
