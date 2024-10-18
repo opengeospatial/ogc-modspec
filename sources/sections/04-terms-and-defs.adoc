@@ -244,6 +244,8 @@ An optional requirements class may or may not be implemented or specified in a p
 uses "may" and is used to prevent a requirement from being "over interpreted" and as such is considered to be more
 of a "statement of fact" than a "normative" condition. A permission cannot override a requirement.
 
+NOTE: Permissions are *not* testable and therefore have no related conformance test.
+
 === profile
 
 specification or standard consisting of a set of references to one or more base
@@ -281,7 +283,7 @@ a {{requirement}}. The usual form replaces the "shall" (imperative or
 command) of a {{requirement}} with a "should" (suggestive or
 conditional).
 
-NOTE: Recommendations are *not* tested and therefor have no related conformance test.
+NOTE: Recommendations are *not* testable and therefore have no related conformance test.
 
 [.source]
 <<iso-dp2>>
