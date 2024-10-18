@@ -537,27 +537,33 @@ requirements classes.
 
 [[req-19]]
 [requirement,model=ogc,type="general"]
-====
-#The conformance tests for a profile of a standard _SHALL_ be defined as the
+[width="90%",cols="2,6"]
+|===
+^|*REQ019* | */req/core/uml/profile-conformance* +
+The conformance tests for a profile of a standard _SHALL_ be defined as the
 union of a list of conformance classes that are to be satisfied by that profile's
-standardization targets.#
-====
+standardization targets.
+|===
 
 [[cls-6-5-4]]
 ==== There is a Defined Core
 
 [[req-20]]
 [requirement,model=ogc,type="general"]
-====
-#Every standard SHALL define and identify a core set of requirements as a
-separate conformance class.#
-====
+[width="90%",cols="2,6"]
+|===
+^|*REQ020* | */req/core/uml/core-requirements-separate* +
+Every standard _SHALL_ define and identify a core set of requirements as a
+separate conformance class.
+|===
 
 [[req-21]]
 [requirement,model=ogc,type="general"]
-====
-#All general recommendations SHALL be in the core.#
-====
+[width="90%",cols="2,6"]
+|===
+^|*REQ021* | */req/core/uml/requirements-and-dependencies* +
+All general recommendations _SHALL_ be in the core.
+|===
 
 [[req-22]]
 [requirement,model=ogc,type="general"]
@@ -637,7 +643,7 @@ the fundamental intent of the standard.
 [[req-26]]
 [requirement,model=ogc,type="general"]
 ====
-#The only optional requirements acceptable in a standard conformant with the ModSpec SHALL be expressible as a list of conformance classes to be passed.#
+#The only conditionall requirements acceptable in a standard conformant with the ModSpec SHALL be expressible as a list of conformance classes to be passed.#
 ====
 
 NOTE: Standards and implementations are restricted by this, but not instances of
