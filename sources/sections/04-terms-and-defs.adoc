@@ -72,7 +72,7 @@ set of {{conformance tests,conformance test}} that must be passed to receive a s
 When no ambiguity is possible, the word "test" may be left out, so {{conformance test class}}
 maybe called a <<conformance-class,_conformance class_>>.
 
-In this Policy, the set of {{requirement,requirements}} tested by the
+In the ModSpec, the set of {{requirement,requirements}} tested by the
 conformance tests within a <<conformance-class,_conformance class_>> is a
 {{requirements class}} and its dependencies. Optional {{requirement,requirements}} will
 be in a separate {{requirements class}} with other {{requirement,requirements}}
