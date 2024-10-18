@@ -567,23 +567,59 @@ All general recommendations _SHALL_ be in the core.
 
 [[req-22]]
 [requirement,model=ogc,type="general"]
-====
-#Every other requirements class in a standard _SHALL_ a standardization
-target type which is a subtype of that of the core and shall have the core as a
-direct dependency.#
-====
+[width="90%",cols="2,6"]
+|===
+^|*REQ022* | */req/core/uml/requirements-and-dependencies* +
+^| A |Every other requirements class in a standard _SHALL_ a standardization
+target type which is a subtype of that of the core 
+^| B | And every requirement class _SHALL_ have the core as a direct dependency.
+|===
 
-*#This core may be partially or totally abstract. The core should be as simple as
-possible. The core requirements class may be a conformance class in another
-standard, in which case the current standard should identify any optional tests
-in that conformance class that are required by the current standard's core
-requirements class.#* See <<req-13>>.
+[[rec-4]]
+[recommendation,model=ogc,type="general"]
+[width="90%",cols="2,6"]
+|===
+|*REC004* | */req/core/uml/simple-core* +
+The core _SHOULD_ be as simple as possible.
+|===
+
+[[per-8]]
+[permission,model=ogc,type="general"]
+[width="90%",cols="2,6"]
+|===
+|*PER008* | */per/core/uml/core-type* +
+The core _MAY_ be partially or totally abstract.
+|===
+
+[[per-9]]
+[permission,model=ogc,type="general"]
+[width="90%",cols="2,6"]
+|===
+|*PER009* | */per/core/uml/req-class-another-standard* +
+The core requirements class _MAY_ be a conformance class in another standard.
+|===
+
+[[rec-5]]
+[recommendation,model=ogc,type="general"]
+[width="90%",cols="2,6"]
+|===
+|*REC005* | */req/core/uml/optional-tests* +
+If a requirements class is from another standard, the current standard _SHOULD_ identify any optional tests
+in that conformance class that are required by the current standard's core requirements class. See <<req-13>>.
+|===
 
 Since the core requirements class is contained (as a direct dependency) in each
 other requirements class with a similar standardization target type, the general
-recommendations are thus universal to all requirements classes. *#Since the basic
-concept of some standards is mechanism not implementation, the core may contain only
-recommendations, and include no requirements.#*
+recommendations are thus universal to all requirements classes. 
+
+[[per-10]]
+[permission,model=ogc,type="general"]
+[width="90%",cols="2,6"]
+|===
+|*PER010* | */per/core/uml/core-maybe-recommendations* +
+Since the basic concept of some standards is mechanism not implementation, the core _MAY_ contain only
+recommendations, and include no requirements.
+|===
 
 NOTE: In most cases, if someone feels the need to define a "simple" version of the
 standard, it is probably a good approximation of the best core. For example, the
@@ -594,39 +630,47 @@ Features."
 [[cls-6-5-5]]
 ==== Extensions are requirements classes
 
-A common mechanism to extend the functionality of a specification is to define
-extensions, which may be either local or encompass other standards. *#Standards
+A common mechanism to extend the functionality of a standard is to define
+extensions, which may be either local or encompass other standards. 
+
+*#Standards
 should use extensions as required and feasible, but should never hinder them.#*
 
 [[req-23]]
 [requirement,model=ogc,type="general"]
-====
-#Each standard conformant to the ModSpec SHALL consist of the core and some
-number of requirements classes defined as extensions to that core.#
-====
+[width="90%",cols="2,6"]
+|===
+^|*REQ023* | */req/core/uml/core-and-extensions* +
+Each standard conformant to the ModSpec _SHALL_ consist of the core and some
+number of requirements classes defined as extensions to that core.
+|===
 
 [[req-24]]
 [requirement,model=ogc,type="general"]
-====
-#A standard conformant to the ModSpec SHALL require all conformant extensions
-to itself to be conformant to this standard.#
-====
+[width="90%",cols="2,6"]
+|===
+^|*REQ024* | */req/core/uml/extensions-conformant-to-the-modspec* +
+A standard conformant to the ModSpec _SHALL_ require all conformant extensions
+to itself to be conformant to the ModSpec.
+|===
 
 Since software is evolutionary at its best, it would not be wise to restrict that
-evolutionary tendency in a standard, by restricting the specification of extensions. A
-good standrd will thus list the things a standardization target has to do, but
+evolutionary tendency by restricting the specification of extensions. A
+good standard will thus list the things a standardization target has to do, but
 will never list things that a standardization target might want to do above and
 beyond the current design requirements.
 
 [[req-25]]
 [requirement,model=ogc,type="general"]
-====
-#A standard conformant to the ModSpec SHALL never restrict in any manner
-future, logically valid extensions of its standardization targets.#
-====
+[width="90%",cols="2,6"]
+|===
+^|*REQ025* | */req/core/uml/restriction-of-extensions* +
+A standard conformant to the ModSpec _SHALL_ never restrict in any manner
+future, logically valid extensions of its standardization targets.
+|===
 
-*#The above requirement should not be interpreted as a restriction on quality
-control.#* Any efforts by a standard to enforce a level of quality on its
+The above requirement should not be interpreted as a restriction on quality
+control. Any efforts by a standard to enforce a level of quality on its
 standardization targets, when well and properly formed, do not interfere with the
 proper extension of those targets. So, the standard may require its
 standardization targets to behave in a certain manner when presented with a logical
@@ -642,9 +686,11 @@ the fundamental intent of the standard.
 
 [[req-26]]
 [requirement,model=ogc,type="general"]
-====
-#The only conditionall requirements acceptable in a standard conformant with the ModSpec SHALL be expressible as a list of conformance classes to be passed.#
-====
+[width="90%",cols="2,6"]
+|===
+^|*REQ026* | */req/core/uml/optional requirements* +
+The only conditional requirements acceptable in a standard conformant with the ModSpec _SHALL_ be expressible as a list of conformance classes to be passed.
+|===
 
 NOTE: Standards and implementations are restricted by this, but not instances of
 schemas. For example, a XML schema standard can specify an optional element, which
@@ -660,10 +706,12 @@ are considered to be options and should be in a separate requirements class.#*
 
 [[req-27]]
 [requirement,model=ogc,type="general"]
-====
-#The common portion of any two requirements classes SHALL consist only of references
-to other requirements classes.#
-====
+[width="90%",cols="2,6"]
+|===
+^|*REQ027* | */req/core/uml/req-class-overlap-by-reference* +
+The common portion of any two requirements classes _SHALL_ consist only of references
+to other requirements classes.
+|===
 
 This implies that each requirement is directly in exactly one requirements class and
 all references to that requirement from another requirements class must include its
