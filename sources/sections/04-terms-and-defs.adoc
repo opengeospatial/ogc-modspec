@@ -110,7 +110,7 @@ standard
 
 [NOTE]
 ====
-The core {{requirements class}} is unique because if were possible to have
+The core {{requirements class}} is unique because if it were possible to have
 more than one, then each *core* would have to be implemented to pass any
 {{conformance test class}}, and thus would have to be contained in any other
 *core*. The *core* may be empty, or all or part of another standard or related
@@ -224,7 +224,7 @@ An optional requirements class may or may not be implemented or specified in a p
 === permission 
 
 uses "may" and is used to prevent a requirement from being "over interpreted" and as such is considered to be more
-of a "statement of fact" than a "normative" condition.
+of a "statement of fact" than a "normative" condition. 
 
 === profile
 
