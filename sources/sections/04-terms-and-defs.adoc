@@ -275,13 +275,13 @@ compliance with the standard is to be claimed and from which no deviation is per
 [NOTE]
 ====
 Each {{requirement}} is a normative criterion for a single
-*type of standardization target*. In this Policy, requirements are
+*type of standardization target*. In the ModSpec, requirements are
 associated to {{conformance test, conformance tests}} that can be used to prove
 compliance to the underlying criteria by the {{standardization target}}.
 
 The implementation of a {{requirement}} is dependent on the type of
 standard being written. A data standard requires data structures, but
-a procedural specification requires software implementations. The view of a
+a procedural standard requires software implementations. The view of a
 standard in terms of a set of testable {{requirement,requirements}} allows us to
 use set descriptions of both the standard and its implementations.
 
