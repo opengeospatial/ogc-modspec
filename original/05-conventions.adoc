@@ -1,0 +1,45 @@
+== Conventions
+
+=== Symbols (and abbreviated terms)
+
+All symbols used in this document are either:
+
+. Common mathematical symbols
+. UML 2 (Unified Modeling Language) as defined by OMG and accepted as a publicly
+available standard (PAS) by ISO in its earlier 1.3 version.
+
+=== Abbreviations
+
+In this document the following abbreviations and acronyms are used or introduced:
+
+ERA:: Entity, Relation, Attribute (pre-object modeling technique)
+ISO:: International Organization for Standardization (from Greek for "same")
+OGC:: Open Geospatial Consortium (http://www.opengeospatial.org/)
+OOP:: Object Oriented Programming
+OOPL:: OOP Language (such as C++ or Java)
+SQL:: ISO/IEC 9075 query language for relational databases, not originally an acronym, but now often cited as "Structured Query Language"
+TC:: Technical Committee (usually either in ISO or OGC)
+UML:: Unified Modeling Language (an object modeling language)
+XML:: eXtensible Markup Language
+OMG:: Object Management Group (http://www.omg.org/)
+OCL:: Object Constraint Language (part of UML)
+
+[[cls-5-3]]
+=== Finding requirements and recommendations
+
+Each normative statement in this Policy is stated in one and only one place
+in a #*bold font*# and has an unique label, such as Req001 or Rec001. A requirement or recommendation may be repeated for clarification. The statement with the unique label is
+considered the official statement of the normative requirement or recommendation. In
+this sense, all requirements in this Policy are listed in the Table of Requirements
+at the beginning of this document.
+
+In this Policy, all requirements are associated with tests specified in the abstract test suite
+in <<annex-A>>. The reference to the requirement in the test case is done by a
+requirements label (in the form "*#Req &#x23;#*", where "&#x23;" is a number) associated to
+the "*#bold font#*" *#home#* of the statement described above. Recommendations are
+not tested although they still use a *#bold font#*.
+
+Requirements classes are separated into their own clauses and named, and specified
+according to inheritance (direct dependencies). The Conformance test classes in the
+test suite are similarly named to establish an explicit and link between
+requirements classes and conformance test classes.
