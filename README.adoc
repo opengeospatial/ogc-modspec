@@ -3,13 +3,14 @@
 image:https://github.com/opengeospatial/ogc-modspec/workflows/generate/badge.svg["Build Status", link="https://github.com/opengeospatial/ogc-modspec/actions/workflows/generate.yml"]
 
 * https://docs.ogc.org/DRAFTS/08-131r3.html[OGC ModSpec (HTML)]
+
 == General
 
 This repository contains the ModSpec standards, including:
 
-* The original 08-131r3 as approved in 2013
-* A Reed edit branch containing the <many> proposed changes for a Version 2 revision
+* The original 08-131r3 as approved in 2013. This is a Word document showing all the initial edits and comments used for discussion
 * Issues for discussion and resolution related to the proposed changes
+* A modspec Git project
 
 == Structure
 
