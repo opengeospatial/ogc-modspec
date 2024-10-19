@@ -1,0 +1,49 @@
+= The ModSpec Model - A Standard for Designing Modular Standards
+:doctype: draft standard
+:docsubtype: conceptual-model
+:status: Draft
+:committee: technical
+:docnumber: 08-131r3
+:edition: 1.1.0
+:received-date: 2024-11-01
+:issued-date: xxxx-xx-xx
+:published-date: xxxx-xx-xx
+:copyright-year: 2024
+:fullname: Carl Reed, John Herring
+:role: editor
+:language: en
+:submitting-organizations: TBD
+:imagesdir: images
+:mn-document-class: ogc
+:mn-output-extensions: xml,html,doc,pdf,rxl
+:local-cache-only:
+:data-uri-image:
+
+include::sections/00-preface.adoc[]
+
+include::sections/00-foreword.adoc[]
+
+include::sections/00-introduction.adoc[]
+
+include::sections/01-scope.adoc[]
+
+include::sections/02-conformance.adoc[]
+
+include::sections/03-norm-refs.adoc[]
+
+include::sections/04-terms-and-defs.adoc[]
+
+include::sections/05-conventions.adoc[]
+
+include::sections/06-req-class.adoc[]
+
+include::sections/07-mapping.adoc[]
+
+include::sections/aa-abstract-conformance.adoc[]
+
+include::sections/ab-changes-required.adoc[]
+
+include::sections/ac-definitions.adoc[]
+
+include::sections/ad-bibliography.adoc[]
+
