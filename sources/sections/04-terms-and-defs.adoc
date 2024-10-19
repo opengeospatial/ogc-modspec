@@ -353,7 +353,7 @@ NOTE: Need to add examples! The standardization target of the CDB version 2.0 CR
 type of entity or set of entities to which the {{requirement,requirements}} of a
 {{standard}} apply
 
-NOTE: Need examples. For example, the standardization target type for The OGC API – Features Standard are Web APIs. The standardization target type for the CDB Standard is a datastore compliant with the requirements as stated in the CDB Standard. 
+NOTE: For example, the standardization target type for The OGC API – Features Standard are Web APIs. The standardization target type for the CDB Standard is "datastore". It is important to understand that a standard's root standardization target type and can have sub-types and that there can be a hierarchy of target types. For example, a Web API can have sub types of client, server, security, and so forth. As such, each requirements class can have a standardization target type that is a sub-type of the root.
 
 === statement
 
