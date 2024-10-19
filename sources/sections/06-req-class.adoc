@@ -223,7 +223,7 @@ Each standard document is comprised of a set of requirements and their associate
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ006* | */req/core/uml/requirements-grouped* +
+|*REQ006* | */req/core/requirements-grouped* +
 Requirements SHALL be grouped together in clauses (numbered sections) of the
 document in a strictly hierarchical manner, consistent with 
 requirements classes.
@@ -233,7 +233,7 @@ requirements classes.
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ007* | */req/core/uml/requirements-test-suite-structure* +
+|*REQ007* | */req/core/requirements-test-suite-structure* +
 The requirements structure of the document SHALL be in a logical correspondence to
 the test suite structure.
 |===
@@ -271,7 +271,7 @@ requirements classes.
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ008* | */req/core/uml/requirements-class-correspondence-to-conformance-classes* +
+|*REQ008* | */req/core/requirements-class-correspondence-to-conformance-classes* +
 The requirements classes shall be in a one-to-one correspondence to the conformance test classes, 
 and thus to the various certificate of conformance types possible for a candidate implementation. 
 |===
@@ -287,7 +287,7 @@ Strict parallelism of implementation and governance is the essence of this stand
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ009* | */req/core/uml/no-optional-tests* +
+|*REQ009* | */req/core/no-optional-tests* +
 A Conformance class SHALL not contain any optional conformance tests.
 |===
 
@@ -302,7 +302,7 @@ recommendations.
 [permission,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*PER007* | */per/core/uml/conf-class-paramterized* +
+|*PER007* | */per/core/conf-class-paramterized* +
 A Conformance class may be parameterized.
 |===
 
@@ -325,7 +325,7 @@ the values of such parameters are very important.
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ010* | */req/core/uml/all-parameters-expressed* +
+|*REQ010* | */req/core/all-parameters-expressed* +
 A certificate of conformance SHALL specify all parameter values used to pass the
 tests in its conformance test class.
 |===
@@ -336,7 +336,7 @@ Conformance to a particular conformance class means exactly the same thing every
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ011* | */req/core/uml/conf-class-single-req-class* +
+|*REQ011* | */req/core/conf-class-single-req-class* +
 A Conformance class SHALL explicitly test only requirements from a single
 requirements class.
 |===
@@ -350,7 +350,7 @@ but this is a result of an explicit requirement in the "home" requirements class
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ012* | */req/core/uml/con-class-dependencies* +
+|*REQ012* | */req/core/con-class-dependencies* +
 A Conformance class SHALL specify any other conformance class upon which it is
 dependent and that other conformance class shall be used to test the specified
 dependency.
@@ -389,7 +389,7 @@ care must be taken in importing conformance test classes from other standards.
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-^|*REQ013* | */req/core/uml/imported-requirements-class* +
+^|*REQ013* | */req/core/imported-requirements-class* +
 ^| A | If a requirements class is imported from another standard for use within a
 standard conformant to the ModSpec, and if any imported requirement is
 "optional," then that requirement _SHALL_ be factored out as a separate requirements
@@ -406,7 +406,7 @@ default mapping between the two.
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ014* | */req/core/uml/all-classes-explicitly-named* +
+|*REQ014* | */req/core/all-classes-explicitly-named* +
 For the sake of consistency and readability, all requirements classes and all
 conformance test classes _SHALL_ be explicitly named, with corresponding requirements
 classes and conformance test classes having similar names.
@@ -426,7 +426,7 @@ both are related (as described) to the same set of requirements.
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-^|*REQ015* | */req/core/uml/req-in-only-one-rec-class* +
+^|*REQ015* | */req/core/req-in-only-one-rec-class* +
 ^| A | Each requirement in the standard _SHALL_ be contained in one and only one
 requirements class. 
 ^| B | Inclusion of any requirement in a requirements class by a
@@ -441,7 +441,7 @@ class, it cannot be considered a requirement since no test has been defined for 
 [recommendation,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REC002* | */req/core/uml/parallel-structure* +
+|*REC002* | */rec/core/parallel-structure* +
 If possible, the structure of the normative clauses of the standard _SHOULD_
 parallel the structure of the conformance classes in the conformance clause.
 |===
@@ -457,7 +457,7 @@ classes.
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-^|*REQ016* | */req/core/uml/co-dependent-requirements* +
+^|*REQ016* | */req/core/co-dependent-requirements* +
 ^| A | If any two requirements are co-dependent (each
 dependent on the other) then they shall be in the same requirements class. 
 ^| B | If any
@@ -472,7 +472,7 @@ ownership for example).
 [recommendation,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REC003* | */req/core/uml/circular-dependencies* +
+|*REC003* | */rec/core/circular-dependencies* +
 Circular dependencies of all types should be avoided whenever possible.
 |===
 
@@ -480,7 +480,7 @@ Circular dependencies of all types should be avoided whenever possible.
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-*REQ017* | */req/core/uml/structure-requirements-classes* +
+*REQ017* | */req/core/structure-requirements-classes* +
 There _SHALL_ be a natural structure to the requirements classes so that each may be
 implemented on top of any implementations of its dependencies and independent of its
 extensions.
@@ -506,7 +506,7 @@ a "plug'n'play" fashion.
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-^|*REQ018* | */req/core/uml/requirements-and-dependencies* +
+^|*REQ018* | */req/core/requirements-and-dependencies* +
 No requirements class _SHALL_ redefine the requirements of its dependencies, unless
 that redefinition is for an entity derived from but not contained in those
 dependencies.#
@@ -539,7 +539,7 @@ requirements classes.
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-^|*REQ019* | */req/core/uml/profile-conformance* +
+^|*REQ019* | */req/core/profile-conformance* +
 The conformance tests for a profile of a standard _SHALL_ be defined as the
 union of a list of conformance classes that are to be satisfied by that profile's
 standardization targets.
@@ -552,7 +552,7 @@ standardization targets.
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-^|*REQ020* | */req/core/uml/core-requirements-separate* +
+^|*REQ020* | */req/core/core-requirements-separate* +
 Every standard _SHALL_ define and identify a core set of requirements as a
 separate conformance class.
 |===
@@ -561,7 +561,7 @@ separate conformance class.
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-^|*REQ021* | */req/core/uml/requirements-and-dependencies* +
+^|*REQ021* | */req/core/requirements-and-dependencies* +
 All general recommendations _SHALL_ be in the core.
 |===
 
@@ -569,7 +569,7 @@ All general recommendations _SHALL_ be in the core.
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-^|*REQ022* | */req/core/uml/requirements-and-dependencies* +
+^|*REQ022* | */req/core/requirements-and-dependencies* +
 ^| A |Every other requirements class in a standard _SHALL_ a standardization
 target type which is a subtype of that of the core 
 ^| B | And every requirement class _SHALL_ have the core as a direct dependency.
@@ -579,7 +579,7 @@ target type which is a subtype of that of the core
 [recommendation,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REC004* | */req/core/uml/simple-core* +
+|*REC004* | */rec/core/simple-core* +
 The core _SHOULD_ be as simple as possible.
 |===
 
@@ -587,7 +587,7 @@ The core _SHOULD_ be as simple as possible.
 [permission,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*PER008* | */per/core/uml/core-type* +
+|*PER008* | */per/core/core-type* +
 The core _MAY_ be partially or totally abstract.
 |===
 
@@ -595,7 +595,7 @@ The core _MAY_ be partially or totally abstract.
 [permission,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*PER009* | */per/core/uml/req-class-another-standard* +
+|*PER009* | */per/core/req-class-another-standard* +
 The core requirements class _MAY_ be a conformance class in another standard.
 |===
 
@@ -603,7 +603,7 @@ The core requirements class _MAY_ be a conformance class in another standard.
 [recommendation,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REC005* | */req/core/uml/optional-tests* +
+|*REC005* | */rec/core/optional-tests* +
 If a requirements class is from another standard, the current standard _SHOULD_ identify any optional tests
 in that conformance class that are required by the current standard's core requirements class. See <<req-13>>.
 |===
@@ -616,7 +616,7 @@ recommendations are thus universal to all requirements classes.
 [permission,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*PER010* | */per/core/uml/core-maybe-recommendations* +
+|*PER010* | */per/core/core-maybe-recommendations* +
 Since the basic concept of some standards is mechanism not implementation, the core _MAY_ contain only
 recommendations, and include no requirements.
 |===
@@ -640,7 +640,7 @@ should use extensions as required and feasible, but should never hinder them.#*
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-^|*REQ023* | */req/core/uml/core-and-extensions* +
+^|*REQ023* | */req/core/core-and-extensions* +
 Each standard conformant to the ModSpec _SHALL_ consist of the core and some
 number of requirements classes defined as extensions to that core.
 |===
@@ -649,7 +649,7 @@ number of requirements classes defined as extensions to that core.
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-^|*REQ024* | */req/core/uml/extensions-conformant-to-the-modspec* +
+^|*REQ024* | */req/core/extensions-conformant-to-the-modspec* +
 A standard conformant to the ModSpec _SHALL_ require all conformant extensions
 to itself to be conformant to the ModSpec.
 |===
@@ -664,7 +664,7 @@ beyond the current design requirements.
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-^|*REQ025* | */req/core/uml/restriction-of-extensions* +
+^|*REQ025* | */req/core/restriction-of-extensions* +
 A standard conformant to the ModSpec _SHALL_ never restrict in any manner
 future, logically valid extensions of its standardization targets.
 |===
@@ -688,7 +688,7 @@ the fundamental intent of the standard.
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-^|*REQ026* | */req/core/uml/optional requirements* +
+^|*REQ026* | */req/core/optional requirements* +
 The only conditional requirements acceptable in a standard conformant with the ModSpec _SHALL_ be expressible as a list of conformance classes to be passed.
 |===
 
@@ -708,7 +708,7 @@ are considered to be options and should be in a separate requirements class.#*
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-^|*REQ027* | */req/core/uml/req-class-overlap-by-reference* +
+^|*REQ027* | */req/core/req-class-overlap-by-reference* +
 The common portion of any two requirements classes _SHALL_ consist only of references
 to other requirements classes.
 |===
