@@ -1,0 +1,104 @@
+[[annex-C]]
+[appendix,obligation=informative]
+== Definitions
+
+=== Semantically ordered definitions
+
+<<cls-4>> formally defines the terms used in the conformance tests in alphabetical
+order. It may be easier to understand the more significant terms in the following
+less formal definitions arranged in a bottom-up order:
+
+. a {{standardization target type}} is a type of entity about which a standard
+is written. An instance of a {{standardization target type}} is a
+{{standardization target}}. A standard may address multiple targets in separate
+<<conformance-class,_conformance classes_>>.
+
+. a {{requirement}} is a statement of a condition to be satisfied by a single
+{{standardization target type}}, and it must be stated in "normative" language.
+
+. a {{conformance test}} checks if a set of
+{{requirement,requirements}} are met (*pass*) or not met (*fail*) by a
+{{standardization target}}. The relationship between {{conformance test,
+conformance tests}} and {{requirement,requirements}} is many-to-many.
+
+. all {{conformance test, conformance tests}} are graded as *pass* or *fail*
+against each instance of the {{standardization target}}.
+
+. a {{requirement}} is associated to one {{conformance test}}.
+
+. a {{recommendation}} is a suggestion and is not associated to any
+{{conformance test}}.
+
+. a {{requirements class}} is a set of one or more {{requirement,requirements}}
+all with the same {{standardization target type}}.
+
+. a {{conformance test class,conformance (test) class}} is a collection of
+{{conformance test,conformance tests}} that are associated to and only to the
+requirements in a corresponding {{requirements class}}.
+
+. a {{conformance test module,conformance (test) module}} is also collection of
+{{conformance test classes,conformance test classes}} that group
+{{conformance test, conformance tests}} on a single
+{{standardization target type}}.
+
+. a *conformant implementation* is a {{standardization target type}} that has
+successfully passed all tests in a specified {{conformance test
+class,conformance (test) class}} and received a {{certificate of conformance}}
+
+. the {{core requirements class}} of a standard is the minimal set of
+{{requirement,requirements}} which must be supported by all *conformant
+implementations*. If a standard addresses multiple {{standardization target
+type,standardization target types}}, it may have a *core* for each *target
+type*.
+
+. an *extension* of a {{requirements class}} is an additional {{requirements class}}
+(the extension) that adds additional {{requirement,requirements}} to the first
+{{requirements class}} (the *base requirements class* being extended). The
+extension is said to be dependent on the *base*. Any {{conformance test class}}
+must identify all its dependencies during the execution of conformance tests
+against a candidate {{standardization target}}.
+
+[[annex-C-2]]
+=== UML Model
+
+[[fig-C-1]]
+.Specification structure
+image::img02.png[]
+
+<<fig-C-1>> represents a UML model consistent with the specification model described
+in <<cls-6-1>>. The following subclauses describe the classes shown in this UML
+class diagram.
+
+=== Specification
+
+[lutaml_uml_attributes_table,models/ogc-modspec.lutaml, Specification, skip]
+
+=== Conformance Suite
+
+[[conformance-class]]
+=== Conformance Class
+[lutaml_uml_attributes_table,models/ogc-modspec.lutaml, ConformanceClass, skip]
+
+=== Requirements class
+[lutaml_uml_attributes_table,models/ogc-modspec.lutaml, RequirementsClass, skip]
+
+=== Requirements module
+[lutaml_uml_attributes_table,models/ogc-modspec.lutaml, RequirementsModule, skip]
+
+=== Normative Statement
+[lutaml_uml_attributes_table,models/ogc-modspec.lutaml, NormativeStatement, skip]
+
+=== Requirement
+[lutaml_uml_attributes_table,models/ogc-modspec.lutaml, Requirement, skip]
+
+=== Recommendation
+[lutaml_uml_attributes_table,models/ogc-modspec.lutaml, Recommendation, skip]
+
+=== Conformance test
+[lutaml_uml_attributes_table,models/ogc-modspec.lutaml, ConformanceTest, skip]
+
+=== StandardizationTarget
+[lutaml_uml_attributes_table,models/ogc-modspec.lutaml, StandardizationTarget, skip]
+
+=== StandardizationTargetType
+[lutaml_uml_attributes_table,models/ogc-modspec.lutaml, StandardizationTargetType, skip]
