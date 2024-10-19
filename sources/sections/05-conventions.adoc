@@ -8,6 +8,30 @@ All symbols used in this document are either:
 . UML 2 (Unified Modeling Language) as defined by OMG and accepted as a publicly
 available standard (PAS) by ISO in its earlier 1.3 version.
 
+=== Identifiers
+
+The normative provisions in this standard are denoted by the URI namespace
+
+http://www.opengis.net/spec/modspec/1.1/core
+
+All requirements that appear in this document are denoted by partial URIs which are relative to the namespace shown above.
+
+For the sake of brevity, the use of “req” in a requirement URI denotes:
+
+http://www.opengis.net/spec/modspec/1.1
+
+An example might be:
+
+/req/core/crs
+
+All conformance tests that appear in this document are denoted by partial URIs which are relative to the namespace shown above.
+
+For the sake of brevity, the use of “conf” in a requirement URI denotes:
+
+http://www.opengis.net/spec/modspec/1.1/core
+
+The same convenstion is used for permissions (per) and recommendations (rec).
+
 === Abbreviations
 
 In this document the following abbreviations and acronyms are used or introduced:
