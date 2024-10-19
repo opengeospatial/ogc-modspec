@@ -7,7 +7,7 @@ The following requirements specify the rules for the content and structure of a 
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ001* | */req/core/uml/reqs-are-testable* +
+|*REQ001* | */req/core/reqs-are-testable* +
 All the parts of a requirement, a requirements module, or requirements class _SHALL_ be
 testable. Failure to pass any part of any requirement shall be a failure to pass the
 associated conformance test class.
@@ -23,7 +23,7 @@ failure to pass the requirement.
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ002* | */req/core/uml/all-components-assigned-uri* +
+|*REQ002* | */req/core/all-components-assigned-uri* +
 Each component of the standard, including requirements, requirements modules,
 requirements classes, conformance test cases, conformance modules and conformance
 classes _SHALL_ be assigned a URI. 
@@ -37,7 +37,7 @@ the OGC Naming Authority or its equivalents.
 [recommendation,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REC001* | */req/core/uml/uri-external-use* +
+|*REC001* | */req/core/uri-external-use* +
 These URI identities _SHOULD_ be used in any external documentation that reference
 these component elements in a normative manner, including but not limited to other
 standards, implementations of the conformance test suite, or certificates of
@@ -53,7 +53,7 @@ The following permissions relate to possible content specified in the core of a 
 [permission,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*PER001* | */per/core/uml/informational-content-in-core* +
+|*PER001* | */per/core/informational-content-in-core* +
 The informational and structural universals of the standard _MAY_ be included in the
 core text and its associated models without violations of the ModSpec. This is
 true if the requirements of the extension are not implicit in what is
@@ -69,7 +69,7 @@ standard.
 [permission,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*PER002* | */per/core/uml/core-may-contain-schema-terms* +
+|*PER002* | */per/core/core-may-contain-schema-terms* +
 The core _MAY_ contain the definition and schema of commonly used terms and data
 structures for use in other structures throughout the standard.
 |===
@@ -78,7 +78,7 @@ structures for use in other structures throughout the standard.
 [permission,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*PER003* | */per/core/uml/core-names-of-operations* +
+|*PER003* | */per/core/core-names-of-operations* +
 This may include the list of the names of all operations and operation parameters
 to be used in any request-response pairs defined in any conformance class of the
 standard. If a service receives a request that is not supported in its
@@ -92,7 +92,7 @@ The following states how and where vocabularies are specified in relation to a r
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ003* | */req/core/uml/vocabulary-and-parent-req-class* +
+|*REQ003* | */req/core/vocabulary-and-parent-req-class* +
 Requirements on the use and interpretation of vocabulary _SHALL_ be in the
 requirements class where that use or interpretation is used.
 |===
@@ -101,7 +101,7 @@ requirements class where that use or interpretation is used.
 [permission,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*PER004* | */per/core/uml/external-vocabs-core* +
+|*PER004* | */per/core/external-vocabs-core* +
 Importation of external vocabularies and schemas _MAY_ be in the core.
 |===
 
@@ -149,7 +149,7 @@ standard into parts more than restricting their content.
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ004* | */req/core/uml/single-standardization-target* +
+|*REQ004* | */req/core/single-standardization-target* +
 Each requirement in a conformant standard _SHALL_ have a single standardization
 target type.
 |===
@@ -163,7 +163,7 @@ target.
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ005* | */req/core/uml/test-class-single-standardization-target* +
+|*REQ005* | */req/core/modspec/test-class-single-standardization-target* +
 All conformance tests in a single conformance test class in a conformant
 standard _SHALL_ have the same standardization target.
 |===
@@ -177,7 +177,7 @@ as intermediaries or indirect dependencies (see
 [permission,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*PER005* | */per/core/uml/repeated-requirements* +
+|*PER005* | */per/core/repeated-requirements* +
 If needed, a requirement _MAY_ be repeated word for word in another requirement up
 to but not including the identification of the standardization target type. 
 |===
@@ -197,7 +197,7 @@ common alternative is to introduce a new "superclass".
 [permission,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*PER006* | */per/core/uml/abstract-superclass* +
+|*PER006* | */per/core/abstract-superclass* +
 The standard may introduce an abstract superclass of all affected standardization target types and
 use this for the requirements common to all of the affected target types. This is
 diagrammed in <<fig-6-1>>.
