@@ -73,4 +73,7 @@ This is the second normative version of this document.
 [.preface]
 == Future work
 
-Improvements to this document will be made based on implementation and changing technical requirements.
+Improvements to this document will be made based on implementation and changing technical requirements. Planned extensions include:
+
+- ModSpec Part providing requirements and recommendations for specifying requirements and conformance tests using RDFS, SHACL, and OWL.
+- ModSpec Part providing requirements and recommendations for specifying requirements and conformance tests using JSON.
