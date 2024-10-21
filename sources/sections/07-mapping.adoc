@@ -365,7 +365,7 @@ should be referred to as a whole. Subsetting of components in a single XML names
 for conformance purposes is not permitted.
 
 [[cls-7-2-4]]
-==== Requirements class: Schematron extension to the ModSpec Core
+==== Optional Requirements class: Schematron extension to the ModSpec Core
 
 Schematron (<<iso19757-3>>) provides a notation with which many constraints on XML
 documents can be expressed. This requirements class covers any standard that
@@ -418,7 +418,7 @@ schema.#
 ====
 
 [[cls-7-2-5]]
-==== Requirements class: XML meta-schema extension tothe ModSpec Core
+==== Optional Requirements class: XML meta-schema extension tothe ModSpec Core
 
 This requirements class covers any standard which has as one of its purposes
 the introduction of a new type of XML schema. Such a standard would normally
