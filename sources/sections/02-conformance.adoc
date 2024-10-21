@@ -1,6 +1,6 @@
 == Conformance
 
-Conformance to the ModSpec by technical implementation standards and specifications
+Conformance to the ModSpec by technical implementation standards 
 can be tested by inspection. The test suite is in <<annex-A>>.
 
 There are five (5) conformance classes for this document:
