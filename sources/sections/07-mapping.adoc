@@ -3,9 +3,9 @@
 
 === Semantics
 
-The previous section defined requirements for conformance to the ModSpec, but
+The previous section defines requirements for conformance to the ModSpec, but
 testing for that conformance may depend on how the various forms and parts of a
-candidate conformant standard are viewed. This clause specifiess how those views
+conformant standard are viewed. This clause specifies how those views
 are to be defined in most of the common cases. Standards that take an alternative
 mechanism to the ones listed here must be tested solely on the structure of their
 conformance test suite, until an extension to ModSpec is defined for that
@@ -17,7 +17,7 @@ defines a mechanism to map parts of the model (language, schema, etc.) to the
 conformance classes used as the model from <<cls-6-1>>.
 
 As suggested in Clause <<req-22>>, the structure of the normative clauses in a
-standard should parallel the structure of the conformance requirements classes in
+standard should parallel the structure of the conformance test classes in
 that standard. The structure of the normative clauses in a well written
 standard will follow the structure of its model. This means that all three are
 parallel.
@@ -44,7 +44,7 @@ language.
 [[cls-7-2-2]]
 ==== Optional Requirements class: UML model extension to the core
 
-If the organizing mechanism for the data model used in the standrd is an object model, then the
+If the organizing mechanism for the data model used in the standard is an object model, then the
 mapping from parts of the model to the requirements classes should follow the
 logical mechanism described here.
 
@@ -99,7 +99,7 @@ needed, the object code itself can be mapped to a UML model.
 [width="90%",cols="2,6"]
 |===
 |*REQ029* | */req/core/uml/object-model* +
-To be conformant to this UML conformance class, UML _SHALL_ be used to express the
+To be conformant to this UML requirements class, UML _SHALL_ be used to express the
 object model, either as the core mechanism of the standard or as a normative adjunct
 to formally explain the standard in a model
 |===
@@ -168,9 +168,9 @@ requirements module and/or class.
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ034* | */req/core/uml/cpmmon-req-classe* +
+|*REQ034* | */req/core/uml/common-req-classe* +
 Classes that are common to all requirements classes _SHALL_ be in a package
-associated to the core conformance/requirements class.
+associated to the core requirements class.
 |===
 
 This is actually a derived requirement and is repeated here for emphasis.
@@ -185,17 +185,21 @@ source of the relation is dependent on the target of the relation.
 
 [[req-35]]
 [requirement,model=ogc,type="general"]
-====
-#In the UML model, if a "source" package is dependent on a "target" package then
-their requirements class shall be equal or the source package's class shall be an
-extension of the target package's class.#
-====
+[width="90%",cols="2,6"]
+|===
+|*REQ035* | */req/core/uml/source-target* +
+^| A | In the UML model, if a "source" package is dependent on a "target" package then
+their requirements class _SHALL_ be equal or 
+^| B | The source package's class _SHALL_ be an extension of the target package's class.
+|===
 
 This means that the dependency graph of the UML packages parallels in some sense the
 extension diagram of the requirements/conformance classes. If all leaf
 packages of the model are moved into "requirements class packages" containing their
 corresponding modeling packages the model then satisfies the following
-recommendation: *#Each requirements class in a conformant standard should be
+recommendation: 
+
+*#Each requirements class in a conformant standard should be
 associated to one and only one UML package (which may contain sub-packages for a
 finer level of structure). If the core requirements class contains only
 recommendations, it may be an exception to this.#*
@@ -204,14 +208,14 @@ recommendations, it may be an exception to this.#*
 [requirement,model=ogc,type="general"]
 ====
 #If one leaf package is dependent on another leaf package, then the requirements
-class of the first shall be the same or an extension of the requirements class of
+class of the first _SHALL_ be the same or an extension of the requirements class of
 the second.#
 ====
 
 [[req-37]]
 [requirement,model=ogc,type="general"]
 ====
-#If two packages have a two-way dependency (a "co-dependency"), they shall be
+#If two packages have a two-way dependency (a "co-dependency"), they _SHALL_ be
 associated to the same requirements class.#
 ====
 
@@ -230,7 +234,7 @@ package of the original class.
 [[req-38]]
 [requirement,model=ogc,type="general"]
 ====
-#The UML model shall segregate all classes into leaf packages.#
+#The UML model _SHALL_ segregate all classes into leaf packages.#
 ====
 
 [[cls-7-2-3]]
