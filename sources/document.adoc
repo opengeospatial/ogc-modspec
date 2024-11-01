@@ -9,7 +9,7 @@
 :issued-date: 2029-11-01
 :published-date: 2029-11-01
 :copyright-year: 2024
-:fullname: Carl Reed
+:fullname_1: Carl Reed
 :fullname_2: John Herring
 :fullname_3: Chuck Heazel
 :role: editors
