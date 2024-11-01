@@ -11,7 +11,8 @@
 :copyright-year: 2024
 :fullname: Carl Reed
 :fullname_2: John Herring
-:role: editor
+:fullname_3: Chuck Heazel
+:role: editors
 :language: en
 :submitting-organizations: TBD
 :imagesdir: images
