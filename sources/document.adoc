@@ -10,7 +10,6 @@
 :published-date: xxxx-xx-xx
 :copyright-year: 2024
 :fullname_1: Carl Reed
-:fullname_2: John Herring
 :role: editors
 :language: en
 :submitting-organizations: Carl Reed, Heazeltech, ImageMatters
