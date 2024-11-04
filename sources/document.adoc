@@ -9,7 +9,7 @@
 :issued-date: xxxx-xx-xx
 :published-date: xxxx-xx-xx
 :copyright-year: 2024
-:fullname_1: Carl Reed
+:fullname: Carl Reed, PhD
 :role: editors
 :language: en
 :submitting-organizations: Carl Reed, Heazeltech, ImageMatters
