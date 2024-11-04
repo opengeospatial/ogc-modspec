@@ -23,8 +23,6 @@ include::sections/00-preface.adoc[]
 
 include::sections/00-foreword.adoc[]
 
-include::sections/00-introduction.adoc[]
-
 include::sections/01-scope.adoc[]
 
 include::sections/02-conformance.adoc[]
