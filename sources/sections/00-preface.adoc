@@ -31,6 +31,7 @@ The following OGC Members participated in editing this document:
 |===
 ^h| Person ^h| Organization Represented
 | Carl Reed | Carl Reed & Associates
+| Chuck Heazel | Heazeltech
 |===
 
 [.preface]
