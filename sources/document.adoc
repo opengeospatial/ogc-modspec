@@ -9,8 +9,12 @@
 :issued-date: xxxx-xx-xx
 :published-date: xxxx-xx-xx
 :copyright-year: 2024
-:fullname: Carl Reed, PhD
-:role: editors
+:fullname: Carl Reed
+:role: editor
+:fullname_2: John Herring
+:role_2: editor
+:fullname_3: Chuck Heazel
+:role_3: editor
 :language: en
 :submitting-organizations: Carl Reed, Heazeltech, ImageMatters
 :imagesdir: images
