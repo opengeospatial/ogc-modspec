@@ -1,0 +1,116 @@
+<bibdata type="standard" schema-version="v1.2.8">
+  <fetched>2024-11-17</fetched>
+  <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Linear referencing</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Geographic information - Linear referencing</title>
+  <title type="title-intro" format="text/plain" language="fr" script="Latn">Information géographique</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Référencement linéaire</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Information géographique - Référencement linéaire</title>
+  <uri type="src">https://www.iso.org/standard/75150.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:75150:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/07/51/75150.detail.rss</uri>
+  <docidentifier type="ISO" primary="true">ISO 19148</docidentifier>
+  <docidentifier type="iso-reference">ISO 19148(E)</docidentifier>
+  <docidentifier type="URN">urn:iso:std:iso:19148:stage-60.60</docidentifier>
+  <docnumber>19148</docnumber>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>2</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <status>
+    <stage>60</stage>
+    <substage>60</substage>
+  </status>
+  <copyright>
+    <from>2021</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 19148:2012</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 19148:2012</docidentifier>
+    </bibitem>
+  </relation>
+  <relation type="instanceOf">
+    <bibitem type="standard">
+      <fetched>2024-11-17</fetched>
+      <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
+      <title type="title-main" format="text/plain" language="en" script="Latn">Linear referencing</title>
+      <title type="main" format="text/plain" language="en" script="Latn">Geographic information - Linear referencing</title>
+      <title type="title-intro" format="text/plain" language="fr" script="Latn">Information géographique</title>
+      <title type="title-main" format="text/plain" language="fr" script="Latn">Référencement linéaire</title>
+      <title type="main" format="text/plain" language="fr" script="Latn">Information géographique - Référencement linéaire</title>
+      <uri type="src">https://www.iso.org/standard/75150.html</uri>
+      <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:75150:en</uri>
+      <uri type="rss">https://www.iso.org/contents/data/standard/07/51/75150.detail.rss</uri>
+      <docidentifier type="ISO" primary="true">ISO 19148:2021</docidentifier>
+      <docidentifier type="iso-reference">ISO 19148:2021(E)</docidentifier>
+      <docidentifier type="URN">urn:iso:std:iso:19148:stage-60.60</docidentifier>
+      <docnumber>19148</docnumber>
+      <date type="published">
+        <on>2021-04</on>
+      </date>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Organization for Standardization</name>
+          <abbreviation>ISO</abbreviation>
+          <uri>www.iso.org</uri>
+        </organization>
+      </contributor>
+      <edition>2</edition>
+      <language>en</language>
+      <language>fr</language>
+      <script>Latn</script>
+      <abstract format="text/plain" language="en" script="Latn">This document specifies a conceptual schema for locations relative to a one-dimensional object as measurement along (and optionally offset from) that object. It defines a description of the data and operations required to use and support linear referencing.
+This document is applicable to transportation, utilities, environmental protection, location-based services and other applications which define locations relative to linear objects. For ease of reading, most examples discussed in this document come from the transportation domain.</abstract>
+      <abstract format="text/plain" language="fr" script="Latn">Le présent document spécifie un schéma conceptuel pour les localisations par rapport à un objet à une seule dimension sous la forme d'une mesure le long de cet objet (et éventuellement décalées par rapport à celui-ci). Il définit une description des données et des opérations nécessaires pour utiliser et prendre en charge le référencement linéaire.
+Le présent document est applicable aux transports, aux utilités, à la protection de l'environnement, aux services géolocalisés et aux autres applications qui définissent des localisations par rapport à des objets linéaires. Afin de faciliter la lecture, la plupart des exemples abordés dans le présent document proviennent du domaine des transports.</abstract>
+      <status>
+        <stage>60</stage>
+        <substage>60</substage>
+      </status>
+      <copyright>
+        <from>2021</from>
+        <owner>
+          <organization>
+            <name>ISO</name>
+          </organization>
+        </owner>
+      </copyright>
+      <relation type="obsoletes">
+        <bibitem type="standard">
+          <formattedref format="text/plain">ISO 19148:2012</formattedref>
+          <docidentifier type="ISO" primary="true">ISO 19148:2012</docidentifier>
+        </bibitem>
+      </relation>
+      <place>Geneva</place>
+    </bibitem>
+  </relation>
+  <place>Geneva</place>
+  <ext schema-version="v1.0.0">
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical-committee number="211" type="TC" identifier="ISO/TC 211">Geographic information/Geomatics</technical-committee>
+    </editorialgroup>
+    <ics>
+      <code>35.240.70</code>
+      <text>IT applications in science</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO 19148</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>
