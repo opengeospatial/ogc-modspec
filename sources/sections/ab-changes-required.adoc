@@ -6,7 +6,7 @@ NOTE: The following is for OGC Standards and Abstract Specifications only: No ch
 
 === New OGC standards and revisions to existing OGC standards
 
-Any new standard, specification, or major revision of an existing standard SHALL
+Any new standard or major revision of an existing standard _SHALL_
 comply with the ModSpec in the structure of its internal models and its
 conformance tests.
 
@@ -14,12 +14,10 @@ Failure to conform by a candidate standard to the ModSpec should be specifically
 noted and reasons given for such non-compliance in the conformance clauses of any
 new or new version of such candidate standards.
 
-The adoption of such documents not compliant with the ModSpec shall be
+The adoption of such documents not compliant with the ModSpec _SHALL_ be
 considered as an authorized exception to the requirements of the ModSpec by the
-approporiate authority, such as the OGC or ISO. The adoption of such
-documents not compliant with the ModSpec shall be considered as an exception to
-the requirements of the ModSpec by the authority (OGC) and shall be considered as an exception
+approporiate authority, such as the OGC or ISO. An exception
 to the rules of the authority such as the OGC and will require a two-thirds (2/3) majority ("Robert's
 Rules") or as specified in the authorities Policy and Procedures for an exception to
-procedure. In the OGC, a similar vote is required within the Planning Committee or as specified
+procedure. In the OGC, a similar vote is required within the Executive Planning Committee or as specified
 in any Policy and Procedure document used by this committee.

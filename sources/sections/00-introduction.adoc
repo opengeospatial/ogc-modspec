@@ -1,4 +1,4 @@
-[.preface]
+
 == Introduction
 
 NOTE: Reading the Terms and Definitions clause will help understanding the content and

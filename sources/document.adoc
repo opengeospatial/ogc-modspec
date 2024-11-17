@@ -1,6 +1,6 @@
 = The ModSpec Model - A Standard for Designing and Writing Modular Standards
 :doctype: draft standard
-:docsubtype: conceptual-model
+:docsubtype: logical-model
 :status: Draft
 :committee: technical
 :docnumber: 08-131r3
@@ -9,10 +9,14 @@
 :issued-date: 2029-11-01
 :published-date: 2029-11-01
 :copyright-year: 2024
-:fullname: Carl Reed, John Herring
+:fullname: Carl Reed
 :role: editor
+:fullname_2: John Herring
+:role_2: editor
+:fullname_3: Chuck Heazel
+:role_3: editor
 :language: en
-:submitting-organizations: TBD
+:submitting-organizations: Carl Reed, Heazeltech, ImageMatters
 :imagesdir: images
 :mn-document-class: ogc
 :mn-output-extensions: xml,html,doc,pdf,rxl
@@ -22,8 +26,6 @@
 include::sections/00-preface.adoc[]
 
 include::sections/00-foreword.adoc[]
-
-include::sections/00-introduction.adoc[]
 
 include::sections/01-scope.adoc[]
 
