@@ -32,63 +32,6 @@ A standard that follows the rules specified in the ModSpec presents requirements
 
 There are numerous examples of requirements/conformance classes that can be used not only in OGC Standards, but for geospatially focused standards defined by other organizations and Standards Development Organizations (SDOs). Some OGC examples can be found in the https://docs.ogc.org/is/19-072/19-072.html[OGC API - Common Part 1: Core Standard] and in the https://github.com/opengeospatial/cdbswg/blob/master/cdb-2.0/cdb-core-crs-requirements-class.adoc[CDB 2.0 Standard CRS Requirements Module]. By formally implementing the requirements specified in the ModSpec, reusable, modular standards can be developed.
 
-=== Conformance, Requirements, and key information
-
-In the conformance test suite there will be a test defined to verify the validity of
-the claim that an implementation of the standard (standardization target) satisfies
-each mandatory requirement specified in the standard. Since the normative language of the body of the standard and the
-conformance test classes both define what conformance to the standard means, they
-will be equivalent in a well-written standard. The ModSpec requires
-a standards document to be well-written, at least in stating requirements and conformance
-tests.
-
-Conformance tests are aggregated into conformance classes that specify how certain
-"certificates of conformance" are achieved. The natural inclination is to aggregate
-the requirements. The issue that blocks this approach is that some requirements are
-optional while others are mandatory. To achieve a cleaner separation of requirements,
-the ModSpec separates them into sets (called "requirements classes"), each of which
-has no optional components. Since the normative statement of each requirement is only 
-declared once and is uniquely identified as such, each requirement will be in a clause associated to its requirements class.
-
-Therefore, the ModSpec defines a "requirements class" as a set of requirements that must
-all be passed to achieve a particular conformance class (see
-<<term-conformance-test-class>>). This document also includes a "middle" structure
-called a conformance test module. Requirements modules
-parallel the conformance test modules. A standard written to the ModSpec may
-use this "module" structure in any manner consistent with the rest of this Policy.
-
-A standard may have mandatory and optional requirements classes.  This allows the options
-in the testing procedure to be grouped into non-varying mandatory and optional conformance classes.
-Each requirement within an optional requirements class is mandatory when that requirements class is
-implemented. When needed, a particular requirements class may contain only a single
-requirement.
-
-However, care must be taken, since the requirements classes may not always in a one-to-one
-correspondence to conformance classes in other standards which may be the source of
-requirements for a standard conformant to this Policy. If other standards are
-used, their options shall be specified to be useable within a standard conformant to
-this policy, see <<cls-6-5-1>>.
-
-Conformance classes may contain dependencies on one another. These are represented by
-tests in one conformance class that state that another conformance class must be
-passed to qualify to pass this conformance class. In terms of requirements, that says
-that the dependent conformance class contains tests (by reference) for all
-requirements of the "included" conformance class.
-
-As defined in the ModSpec, one requirements
-class is dependent on another if the other is included through such a reference. In
-this manner, requirements classes can be treated as sets of requirements (each in a
-single requirements class but included in others by reference to its "home"
-requirements class).
-
-In the ModSpec, each conformance requirement is separated in its own labeled
-paragraph, such as <<req-1>> above.
-
-The distribution of the information in a standard is not restricted. The only
-requirement is that requirements be grouped in a manner
-consistent with the conformance test classes, see <<req-6>> and <<req-7>>. 
-
-
 === The ModSpec and the "Form" of a standard
 
 NOTE: For OGC Standards, the assumptions is that documents are in a commonly used
