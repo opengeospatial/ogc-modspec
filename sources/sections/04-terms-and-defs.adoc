@@ -19,7 +19,7 @@ other schema documents, all schema components associated to its namespace
 
 === building block
 
-a requirements class or a requirements module and their associated compliance test class or compliance test module.
+a requirements class or a requirements module with no direct dependencies on other requirements classes or modules and their associated compliance test class or compliance test module.
 
 === certificate of conformance
 
@@ -51,16 +51,13 @@ NOTE: When no ambiguity, the word "case" may be omitted. i.e.
 
 === conformance test module
 
-set of related for against a given requirements module all with the same standardization target
+set of related tests for a given requirements module all with the same standardization target
 
 [NOTE]
 ====
 When there is no ambiguity, the word "test" may be omitted. i.e. {{conformance test module}}
 is the same as *conformance module*. Conformance modules may be nested in a hierarchical way.
 ====
-
-[.source]
-<<iso19105>>
 
 === conformance test class
 alt:[conformance test level]
