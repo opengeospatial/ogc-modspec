@@ -1,0 +1,34 @@
+<bibdata type="standard" schema-version="v1.2.8">
+  <fetched>2024-11-21</fetched>
+  <title type="title-main" format="text/plain" language="en" script="Latn">OWS5: OGC Web feature service, core and extensions</title>
+  <title type="main" format="text/plain" language="en" script="Latn">OWS5: OGC Web feature service, core and extensions</title>
+  <uri type="src"/>
+  <uri type="obp">https://portal.ogc.org/files/?artifact_id=28176</uri>
+  <docidentifier type="OGC" primary="true">08-079</docidentifier>
+  <date type="published">
+    <on>2008-09-12</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <completename>John Herring</completename>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>Open Geospatial Consortium</name>
+    </organization>
+  </contributor>
+  <language>en</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">This standard specifies the behavior of a service that provides transactions on and access to geographic features in a manner independent of the underlying data store. It specifies discovery operations, query operations and transaction operations. Discovery operations allow the service to be interrogated to determine its capabilities and to retrieve the application schema that defines the feature types that the service offers. Retrieval operations allow features to be retrieved from the opaque underlying data store based upon constraints on spatial and non-spatial feature properties defined by the client. Transaction operations allow features to be created, changed and deleted from the opaque underlying data store.</abstract>
+  <ext schema-version="v1.0.1">
+    <doctype>discussion-paper</doctype>
+    <editorialgroup>
+      <committee>technical</committee>
+    </editorialgroup>
+  </ext>
+</bibdata>
