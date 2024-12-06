@@ -1,17 +1,14 @@
 [[cls-6]]
 == Requirements Class: Core
 
-The following requirements specify the rules for the content and structure of a modular standard. These requirements are also known as the `core` of the ModSpec.
+This clause defines the key concepts and requirements that represent the Core of the ModSpec.
 
-=== Fundamentals
-
-==== The ModSpec and the "Form" of a standard
+=== The ModSpec and the "Form" of a standard
 
 NOTE: For OGC Standards, the assumption is that documents are in a commonly used
 logical form (template). 
 
-In informative sections, the use of the word "will" implies that something is an implication of a requirement. The "will" statements are
-not requirements but explain the consequence of requirements.
+In informative sections, the use of the word "will" implies that something is an implication of a requirement. The "will" statements are not requirements but explain the consequence of requirements.
 
 The ModSpec defines a "requirement" of a standard as an atomic testable
 criterion. See the formal definition of requirement in <<term-requirement>>
