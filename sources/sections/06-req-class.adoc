@@ -3,35 +3,12 @@
 
 The following requirements specify the rules for the content and structure of a modular standard. These requirements are also known as the `core` of the ModSpec.
 
-== Fundamentals
+=== Fundamentals
 
-=== The ModSpec and the "Form" of a standard
+==== The ModSpec and the "Form" of a standard
 
 NOTE: For OGC Standards, the assumption is that documents are in a commonly used
 logical form (template). 
-
-This form should be specified by the following descriptions:
-
-. A standards document contains Clauses (corresponding to numbered sections as they might
-appear in a table of contents) which describe its standardization target and its requirements.
-. A standard contains Annexes or is associated to other documents (both a
-logical type of Clause), one of which is the Conformance Test Suite (which may be an
-abstract description of the test suites to be implemented separately). In OGC Documents, this is Annex A – Abstract Test Suite.
-. All requirements, recommendations, permissions, and models are introduced and defined first in
-the numbered Clauses.
-. All requirements are identifiable as requirements. 
-. All requirements in a document are uniquely numbered.
-. All tests for conformance to those requirements are defined in the Conformance Test Suite.
-. Tests are be grouped for convenience into conformance test classes and if desired the classes are grouped into conformance test modules.
-. The tests, if conducted, determine to some degree of certainty whether an
-implementation meets the requirements which the tests reference.
-. The tests are organized into some number of conformance "classes" where each conformance class has a one to one relationship with a requirements class. If a standard
-does not do this, by default it has only one "conformance class".
-. Certificates of conformance (see <<term-all-components-schema-document>>) are
-awarded by a testing entity based on these conformance classes.
-. There is a clear distinction between normative and informative parts of the text.
-. Examples and notes are informative, and do not use "normative"
-language.
 
 In informative sections, the use of the word "will" implies that something is an implication of a requirement. The "will" statements are
 not requirements but explain the consequence of requirements.
