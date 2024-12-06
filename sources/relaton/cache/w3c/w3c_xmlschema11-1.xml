@@ -1,0 +1,104 @@
+<bibdata type="standard" schema-version="v1.2.8">
+  <fetched>2024-11-21</fetched>
+  <title format="text/plain">W3C XML Schema Definition Language (XSD) 1.1 Part 1: Structures</title>
+  <uri type="src">http://www.w3.org/TR/xmlschema11-1/</uri>
+  <docidentifier type="W3C" primary="true">W3C xmlschema11-1</docidentifier>
+  <docnumber>xmlschema11-1</docnumber>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>World Wide Web Consortium</name>
+      <abbreviation>W3C</abbreviation>
+      <uri>https://www.w3.org/</uri>
+    </organization>
+  </contributor>
+  <language>en</language>
+  <script>Latn</script>
+  <status>
+    <stage>Working Draft</stage>
+  </status>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-xmlschema11-1-20040716</formattedref>
+      <uri type="src">http://www.w3.org/TR/2004/WD-xmlschema11-1-20040716/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-xmlschema11-1-20040716</docidentifier>
+    </bibitem>
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-xmlschema11-1-20050224</formattedref>
+      <uri type="src">http://www.w3.org/TR/2005/WD-xmlschema11-1-20050224/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-xmlschema11-1-20050224</docidentifier>
+    </bibitem>
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-xmlschema11-1-20060330</formattedref>
+      <uri type="src">http://www.w3.org/TR/2006/WD-xmlschema11-1-20060330/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-xmlschema11-1-20060330</docidentifier>
+    </bibitem>
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-xmlschema11-1-20060831</formattedref>
+      <uri type="src">http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-xmlschema11-1-20060831</docidentifier>
+    </bibitem>
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-xmlschema11-1-20070830</formattedref>
+      <uri type="src">http://www.w3.org/TR/2007/WD-xmlschema11-1-20070830/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-xmlschema11-1-20070830</docidentifier>
+    </bibitem>
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-xmlschema11-1-20080620</formattedref>
+      <uri type="src">http://www.w3.org/TR/2008/WD-xmlschema11-1-20080620/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-xmlschema11-1-20080620</docidentifier>
+    </bibitem>
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-xmlschema11-1-20090130</formattedref>
+      <uri type="src">http://www.w3.org/TR/2009/WD-xmlschema11-1-20090130/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-xmlschema11-1-20090130</docidentifier>
+    </bibitem>
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C CR-xmlschema11-1-20090430</formattedref>
+      <uri type="src">http://www.w3.org/TR/2009/CR-xmlschema11-1-20090430/</uri>
+      <docidentifier type="W3C" primary="true">W3C CR-xmlschema11-1-20090430</docidentifier>
+    </bibitem>
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-xmlschema11-1-20091203</formattedref>
+      <uri type="src">http://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-xmlschema11-1-20091203</docidentifier>
+    </bibitem>
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C CR-xmlschema11-1-20110721</formattedref>
+      <uri type="src">http://www.w3.org/TR/2011/CR-xmlschema11-1-20110721/</uri>
+      <docidentifier type="W3C" primary="true">W3C CR-xmlschema11-1-20110721</docidentifier>
+    </bibitem>
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref format="text/plain">W3C PR-xmlschema11-1-20120119</formattedref>
+      <uri type="src">http://www.w3.org/TR/2012/PR-xmlschema11-1-20120119/</uri>
+      <docidentifier type="W3C" primary="true">W3C PR-xmlschema11-1-20120119</docidentifier>
+    </bibitem>
+  </relation>
+  <series>
+    <title format="text/plain">W3C WD</title>
+    <number>xmlschema11-1</number>
+  </series>
+  <ext schema-version="v1.0.0">
+    <doctype>technicalReport</doctype>
+  </ext>
+</bibdata>

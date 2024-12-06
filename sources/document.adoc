@@ -5,9 +5,9 @@
 :committee: technical
 :docnumber: 08-131r3
 :edition: 1.1.0
-:received-date: 2024-11-01
-:issued-date: xxxx-xx-xx
-:published-date: xxxx-xx-xx
+:received-date: 2024-11-29
+:issued-date: 2029-11-01
+:published-date: 2029-11-01
 :copyright-year: 2024
 :fullname: Carl Reed
 :role: editor

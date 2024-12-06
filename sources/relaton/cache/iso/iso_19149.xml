@@ -1,0 +1,110 @@
+<bibdata type="standard" schema-version="v1.2.8">
+  <fetched>2024-11-21</fetched>
+  <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Rights expression language for geographic information</title>
+  <title type="title-part" format="text/plain" language="en" script="Latn">GeoREL</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Geographic information - Rights expression language for geographic information - GeoREL</title>
+  <title type="title-intro" format="text/plain" language="fr" script="Latn">Information géographique</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Langue sur l'expression des droits pour l'utilisation de l'information géographique</title>
+  <title type="title-part" format="text/plain" language="fr" script="Latn">GeoREL</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Information géographique - Langue sur l'expression des droits pour l'utilisation de l'information géographique - GeoREL</title>
+  <uri type="src">https://www.iso.org/standard/32567.html</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/03/25/32567.detail.rss</uri>
+  <docidentifier type="ISO" primary="true">ISO 19149</docidentifier>
+  <docidentifier type="iso-reference">ISO 19149(E)</docidentifier>
+  <docidentifier type="URN">urn:iso:std:iso:19149:stage-95.99</docidentifier>
+  <docnumber>19149</docnumber>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <status>
+    <stage>95</stage>
+    <substage>99</substage>
+  </status>
+  <copyright>
+    <from>2011</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="instanceOf">
+    <bibitem type="standard">
+      <fetched>2024-11-21</fetched>
+      <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
+      <title type="title-main" format="text/plain" language="en" script="Latn">Rights expression language for geographic information</title>
+      <title type="title-part" format="text/plain" language="en" script="Latn">GeoREL</title>
+      <title type="main" format="text/plain" language="en" script="Latn">Geographic information - Rights expression language for geographic information - GeoREL</title>
+      <title type="title-intro" format="text/plain" language="fr" script="Latn">Information géographique</title>
+      <title type="title-main" format="text/plain" language="fr" script="Latn">Langue sur l'expression des droits pour l'utilisation de l'information géographique</title>
+      <title type="title-part" format="text/plain" language="fr" script="Latn">GeoREL</title>
+      <title type="main" format="text/plain" language="fr" script="Latn">Information géographique - Langue sur l'expression des droits pour l'utilisation de l'information géographique - GeoREL</title>
+      <uri type="src">https://www.iso.org/standard/32567.html</uri>
+      <uri type="rss">https://www.iso.org/contents/data/standard/03/25/32567.detail.rss</uri>
+      <docidentifier type="ISO" primary="true">ISO 19149:2011</docidentifier>
+      <docidentifier type="iso-reference">ISO 19149:2011(E)</docidentifier>
+      <docidentifier type="URN">urn:iso:std:iso:19149:stage-95.99</docidentifier>
+      <docnumber>19149</docnumber>
+      <date type="published">
+        <on>2011-11</on>
+      </date>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Organization for Standardization</name>
+          <abbreviation>ISO</abbreviation>
+          <uri>www.iso.org</uri>
+        </organization>
+      </contributor>
+      <edition>1</edition>
+      <language>en</language>
+      <language>fr</language>
+      <script>Latn</script>
+      <abstract format="text/plain" language="en" script="Latn">ISO 19149:2011 defines an XML-based vocabulary or language to express rights for geographic information in order that digital licenses can be created for such information and related services. This language, GeoREL, is an extension of the rights expression language in ISO/IEC 21000-5 and is to be used to compose digital licenses. Each digital license will unambiguously express those particular rights that the owners (or their agent) of a digital geographic resource extend to the holders of that license. The digital rights management system in which these licenses are used can then offer ex ante (before the fact) protection for all such resources.
+NOTE          The proper use of a GeoREL includes the preservation of rights access by formula expressed in usage licenses. Thus, data in the public or private domain, when protected, remain in their respective domains if the usage rights granted so state. 
+These "rights" are not always covered by copyright law, and are often the result of contracts between individuals that specify the proper and allowed uses of resources, as opposed to the threat of copyright litigations which is an ex post facto (after the fact) remediation measure, not an ex ante protection measure. ISO 19149:2011 is not a reflection of, or extension of, copyright law.
+Mechanisms for the enforcement and preservation of those contract rights are specified in ISO/IEC 21000, and it is not the intention of ISO 19149:2011 to replace nor redefine those mechanisms, but to use them as previously standardized.</abstract>
+      <abstract format="text/plain" language="fr" script="Latn">ISO 19149:2011 defines an XML-based vocabulary or language to express rights for geographic information in order that digital licenses can be created for such information and related services. This language, GeoREL, is an extension of the rights expression language in ISO/IEC 21000-5 and is to be used to compose digital licenses. Each digital license will unambiguously express those particular rights that the owners (or their agent) of a digital geographic resource extend to the holders of that license. The digital rights management system in which these licenses are used can then offer ex ante (before the fact) protection for all such resources.
+NOTE          The proper use of a GeoREL includes the preservation of rights access by formula expressed in usage licenses. Thus, data in the public or private domain, when protected, remain in their respective domains if the usage rights granted so state. 
+These "rights" are not always covered by copyright law, and are often the result of contracts between individuals that specify the proper and allowed uses of resources, as opposed to the threat of copyright litigations which is an ex post facto (after the fact) remediation measure, not an ex ante protection measure. ISO 19149:2011 is not a reflection of, or extension of, copyright law.
+Mechanisms for the enforcement and preservation of those contract rights are specified in ISO/IEC 21000, and it is not the intention of ISO 19149:2011 to replace nor redefine those mechanisms, but to use them as previously standardized.</abstract>
+      <status>
+        <stage>95</stage>
+        <substage>99</substage>
+      </status>
+      <copyright>
+        <from>2011</from>
+        <owner>
+          <organization>
+            <name>ISO</name>
+          </organization>
+        </owner>
+      </copyright>
+      <place>Geneva</place>
+    </bibitem>
+  </relation>
+  <place>Geneva</place>
+  <ext schema-version="v1.0.0">
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical-committee number="211" type="TC" identifier="ISO/TC 211">Geographic information/Geomatics</technical-committee>
+    </editorialgroup>
+    <ics>
+      <code>35.240.70</code>
+      <text>IT applications in science</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO 19149</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>
