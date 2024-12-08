@@ -1,7 +1,7 @@
-
+[[introduction]]
 == Introduction
 
-NOTE: Reading the Terms and Definitions clause will help understanding the content and
+NOTE: Reading the Terms and Definitions clause and Clause <TBD> will help understanding the content and
 requirements stated in this document.
 
 This OGC document, also known as the `ModSpec`:
@@ -18,3 +18,18 @@ A standard that follows the rules specified in the ModSpec presents requirements
 
 There are numerous examples of requirements/conformance classes that can be used not only in OGC Standards, but for geospatially focused standards defined by other organizations and Standards Development Organizations (SDOs). Some OGC examples can be found in the https://docs.ogc.org/is/19-072/19-072.html[OGC API - Common Part 1: Core Standard] and in the https://github.com/opengeospatial/cdbswg/blob/master/cdb-2.0/cdb-core-crs-requirements-class.adoc[CDB 2.0 Standard CRS Requirements Module]. By formally implementing the requirements specified in the ModSpec, reusable, modular standards can be developed.
 
+NOTE: The approach modelled in the ModSpec has been referred to as the "core and extension model" due to its
+insistence on a modular structure throughout all parts of a standard and its implementation.
+
+=== ModSpec document structure
+
+Version 2.0 of the ModSpec will be split into a Core standard and multiple Parts. This document includes the following parts:
+
+- Core: contains all the core requirements and informational text that define the model and internal structure of a standard.
+- Part 1: UML Model requirements 
+
+Future Parts to the ModSpec Standard will include:
+
+- Part 2: Specifying requirements and conformance tests using JSON.
+- Part 3: Specifying requirements and conformance tests using RDFS, SHACL, and OWL
+- Part 4: Specifying requirements and conformance tests using XML and Schematron.

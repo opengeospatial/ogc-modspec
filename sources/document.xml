@@ -2,8 +2,8 @@
 <ogc-standard xmlns="https://www.metanorma.org/ns/ogc" type="semantic" version="2.5.7" schema-version="v1.3.1">
 <bibdata type="standard">
 <title language="en" format="text/plain">The ModSpec Model - A Standard for Designing and Writing Modular Standards</title>
-<docidentifier type="ogc-internal" primary="true">08-131r3</docidentifier><docnumber>08-131r3</docnumber><date type="published"><on>2029-11-01</on></date><date type="issued"><on>2029-11-01</on></date><date type="received"><on>2024-11-29</on></date><contributor><role type="author"/><organization>
-<name>Carl Reed, Heazeltech, ImageMatters</name>
+<docidentifier type="ogc-internal" primary="true">08-131r3</docidentifier><docnumber>08-131r3</docnumber><date type="published"><on>2029-11-01</on></date><date type="issued"><on>2029-11-01</on></date><date type="received"><on>2024-12-07</on></date><contributor><role type="author"/><organization>
+<name>Carl Reed, Charles Heazel, ImageMatters</name>
 </organization></contributor><contributor><role type="editor"/><person>
 <name><completename>Carl Reed</completename></name>
 </person></contributor><contributor><role type="editor"/><person>
@@ -57,7 +57,7 @@ To obtain additional rights of use, visit
 <title>Preface</title>
 <p id="_d8afa241-6621-d9ab-8f00-a33e426480f2">This OGC member developed and approved document defines a model and related requirements and recommendations for writing and structuring modular standards documents. Further, this model is designed to enable the consistent and verifiable testing of implementations of a standard that claim conformance.</p>
 
-<p id="_5e616a75-e341-e59d-3bba-2c15e37cdf93">The goal is to ensure that a standard specifies requirements in a common and consistent manner and that these requirements are testable.<note id="_a297ed30-6f23-2b63-d763-876244260992"><p id="_d7065bd0-7371-30e1-f9d9-1aa22398b5b1">For OGC only: Any new OGC Standard, abstract specification that contains requirements, or major revision of an existing OGC Standard shall comply with the requirements stated in this document.</p>
+<p id="_873aa235-5835-53e6-fdb0-92e6bcc26ac3">The goal is to ensure that a standard specifies requirements in a common and consistent manner and that these requirements are testable.<note id="_bae9aba5-ef16-5c57-5aa9-7f22fc78b190"><p id="_1f2ee6cc-7273-f92d-afd4-01f5d1ff2185">For OGC only: Any new OGC Standard, abstract specification that contains requirements, or major revision of an existing OGC Standard shall comply with the requirements stated in this document (see <xref target="req-0">Requirement 0</xref>).</p>
 </note><note id="_b98eba09-cd87-d3f7-6948-53eb2433ce5b"><p id="_b723d4a4-5f4d-0fbf-2d94-cc92110f53ee">Historically, this document has been known and abbreviated as the “ModSpec”. For continuity and ease of understanding this document may also be refered to as the “OGC ModSpec”.</p>
 </note></p>
 
@@ -79,24 +79,24 @@ conform to this standard.</p>
 <title>Document editors</title>
 <p id="_7fdb78f0-208d-5698-d373-6133991a0bf2">The following OGC Members participated in editing this document:</p>
 
-<table id="_ed57b9c2-82df-23fc-12d0-57ad12904248" unnumbered="true"><tbody><tr><th valign="middle" align="center">Person</th>
+<table id="_79688f4d-377b-03d2-867e-9e3513c6b39d" unnumbered="true"><tbody><tr><th valign="middle" align="center">Person</th>
 <th valign="middle" align="center">Organization Represented</th>
 </tr><tr><td valign="middle" align="left">Carl Reed</td>
 <td valign="middle" align="left">Carl Reed &amp; Associates</td>
 </tr><tr><td valign="middle" align="left">Chuck Heazel</td>
-<td valign="middle" align="left">Heazeltech</td>
+<td valign="middle" align="left">Charles Heazel inc.</td>
 </tr></tbody>
 </table>
 </clause><clause id="_document_contributors" obligation="informative">
 <title>Document Contributors</title>
 <p id="_ec886cdb-2d31-0e6b-05cf-0537fb5c0695">The following OGC Members contributed and particpated in developing Version 2 of the ModSpec.</p>
 
-<table id="_efd73240-fcac-8f47-ef08-891532957519" unnumbered="true"><tbody><tr><th valign="middle" align="center">Person</th>
+<table id="_9fd9891e-c8c2-535d-a20b-270c545962c3" unnumbered="true"><tbody><tr><th valign="middle" align="center">Person</th>
 <th valign="middle" align="center">Organization Represented</th>
 </tr><tr><td valign="middle" align="left">Simon Cox</td>
 <td valign="middle" align="left">CSIRO and OGC Fellow</td>
 </tr><tr><td valign="middle" align="left">Chuck Heazel</td>
-<td valign="middle" align="left">Heazeltech</td>
+<td valign="middle" align="left">Charles Heazel inc.</td>
 </tr><tr><td valign="middle" align="left">Clemens Portele</td>
 <td valign="middle" align="left">interactive instruments GmbH</td>
 </tr><tr><td valign="middle" align="left">Jeff Yutzler</td>
@@ -105,14 +105,16 @@ conform to this standard.</p>
 </table>
 </clause><clause id="_revision_history" obligation="informative">
 <title>Revision history</title>
-<p id="_6ab22a42-1c22-04d9-d0d3-1009164e362c">This is the second normative version of this document.</p>
+<p id="_d8fa68d4-efc8-02ab-3814-db6520ee275e">This is the second normative version of this document. It includes updates and refinements necessary to accomodate changes in the Standards landscape.</p>
 </clause><clause id="_future_work" obligation="informative">
 <title>Future work</title>
 <p id="_e10db900-1d75-8340-64fe-0e616c22b972">Improvements to this document will be made based on implementation and changing technical requirements. Planned extensions include:</p>
 
-<ul id="_dbb16c0e-d4e1-8511-029f-8eb97dc77a4f"><li><p id="_e445657f-a9ea-bbd1-6472-f22962656fde">ModSpec Part providing requirements and recommendations for specifying requirements and conformance tests using RDFS, SHACL, and OWL.</p>
+<ul id="_6cda3964-d292-b89c-d9cb-46c3a6dd1b86"><li><p id="_13f97d56-0bcd-7370-3974-e83e112821a0">ModSpec Part 2 providing requirements and recommendations for specifying requirements and conformance tests using JSON.</p>
 </li>
-<li><p id="_062f2e4e-0aa6-d05e-294d-55ed3cbcf630">ModSpec Part providing requirements and recommendations for specifying requirements and conformance tests using JSON.</p>
+<li><p id="_9e628d2f-87c1-1e64-42b3-bb0e74fb5aed">ModSpec Part 3 providing requirements and recommendations for specifying requirements and conformance tests using RDFS, SHACL, and OWL.</p>
+</li>
+<li><p id="_f317a83c-a5cb-8b46-1e8e-b44b4ee5e694">ModSpec Part 4 providing requirements and recommendations for specifying requirements and conformance tests using XML and Schematron.</p>
 </li>
 </ul>
 </clause><clause id="_foreword" obligation="informative">
@@ -179,13 +181,12 @@ interoperability.<note id="_3e65fbdc-6c2c-b426-bdf2-cefbf6bc0a74"><p id="_be877f
 
 
 
-<p id="_33fd6022-bfb3-74da-0b67-ed92735b6984"><xref target="Annex-B"/> defines the UML model upon which the ModSpec is
+<p id="_99649a5d-2ac8-3d5a-63f3-0ec77a0e3d8a"><xref target="Annex-B"/> defines the UML model upon which the ModSpec is
 based. Annex B also contains informal and non-normative definitions ordered for ease
-of understanding. These two sections can be read first to aid in the understanding of
-the rest of the document.</p>
+of understanding. These two sections can be read first to aid in the understanding of the rest of the document.</p>
 </clause>
 
-<clause id="introduxtion" obligation="normative">
+<clause id="introduction" obligation="normative">
 <title>Introduction</title>
 <note id="_8cf4e52e-4329-70cb-698d-c18f0aa17568"><p id="_e867988d-2e03-d0cc-133e-2ccb31bdf375">Reading the Terms and Definitions clause and Clause &lt;TBD&gt; will help understanding the content and
 requirements stated in this document.</p>
@@ -208,169 +209,31 @@ requirements stated in this document.</p>
 
 <p id="_9542aba3-2f4a-85b9-ccde-40e267850080">A standard that follows the rules specified in the ModSpec presents requirements organized in requirements classes which must be satisfied by passing the tests defined in a conformance suite (also known as the Abstract Test Suite in an OGC Standard). These tests are organized into conformance classes, each of which represents a mechanism for partial satisfaction of the standard. This results in a standard having a modular structure, where each requirements class has a corresponding conformance (test) class. In a well written standard, the normative clauses and any model or schema are organized in a manner that parallels the requirements and conformance clauses. A goal of the design pattern is the ability to define requirements classes and associated conformance classes that can be used across multiple standards.</p>
 
-<p id="_13423764-864a-d877-5f7f-b7243947c191">There are numerous examples of requirements/conformance classes that can be used not only in OGC Standards, but for geospatially focused standards defined by other organizations and Standards Development Organizations (SDOs). Some OGC examples can be found in the <link target="https://docs.ogc.org/is/19-072/19-072.html">OGC API — Common Part 1: Core Standard</link> and in the <link target="https://github.com/opengeospatial/cdbswg/blob/master/cdb-2.0/cdb-core-crs-requirements-class.adoc">CDB 2.0 Standard CRS Requirements Module</link>. By formally implementing the requirements specified in the ModSpec, reusable, modular standards can be developed.</p>
-
-<clause id="_conformance_requirements_and_key_information" obligation="normative">
-<title>Conformance, Requirements, and key information</title>
-<p id="_e35e0a5f-4265-278b-c240-d528e301d6cb">In the conformance test suite there will be a test defined to verify the validity of
-the claim that an implementation of the standard (standardization target) satisfies
-each mandatory requirement specified in the standard. Since the normative language of the body of the standard and the
-conformance test classes both define what conformance to the standard means, they
-will be equivalent in a well-written standard. The ModSpec requires
-a standards document to be well-written, at least in stating requirements and conformance
-tests.</p>
-
-<p id="_18cb355c-b5f0-e8cd-b27f-90c5e0d3f1e6">Conformance tests are aggregated into conformance classes that specify how certain
-“certificates of conformance” are achieved. The natural inclination is to aggregate
-the requirements. The issue that blocks this approach is that some requirements are
-optional while others are mandatory. To achieve a cleaner separation of requirements,
-the ModSpec separates them into sets (called “requirements classes”), each of which
-has no optional components. Since the normative statement of each requirement is only
-declared once and is uniquely identified as such, each requirement will be in a clause associated to its requirements class.</p>
-
-<p id="_c5eb1f53-f036-9c5a-4c1c-34f88f839af9">Therefore, the ModSpec defines a “requirements class” as a set of requirements that must
-all be passed to achieve a particular conformance class (see
-<xref target="term-conformance-test-class"/>). This document also includes a “middle” structure
-called a conformance test module. Requirements modules
-parallel the conformance test modules. A standard written to the ModSpec may
-use this “module” structure in any manner consistent with the rest of this Policy.</p>
-
-<p id="_99302951-b148-d6c9-8704-36380f31372d">A standard may have mandatory and optional requirements classes.  This allows the options
-in the testing procedure to be grouped into non-varying mandatory and optional conformance classes.
-Each requirement within an optional requirements class is mandatory when that requirements class is
-implemented. When needed, a particular requirements class may contain only a single
-requirement.</p>
-
-<p id="_f5ab911d-c704-6610-f838-79abc43de887">However, care must be taken, since the requirements classes may not always in a one-to-one
-correspondence to conformance classes in other standards which may be the source of
-requirements for a standard conformant to this Policy. If other standards are
-used, their options shall be specified to be useable within a standard conformant to
-this policy, see <xref target="cls-6-5-1"/>.</p>
-
-<p id="_adb67821-40e0-909d-4c4d-c50653e941f4">Conformance classes may contain dependencies on one another. These are represented by
-tests in one conformance class that state that another conformance class must be
-passed to qualify to pass this conformance class. In terms of requirements, that says
-that the dependent conformance class contains tests (by reference) for all
-requirements of the “included” conformance class.</p>
-
-<p id="_6ec0aa98-2cd7-426b-47b3-e4f28b97e296">As defined in the ModSpec, one requirements
-class is dependent on another if the other is included through such a reference. In
-this manner, requirements classes can be treated as sets of requirements (each in a
-single requirements class but included in others by reference to its “home”
-requirements class).</p>
-
-<p id="_fe729571-b501-f15c-239d-33cdbb9b7e79">In the ModSpec, each conformance requirement is separated in its own labeled
-paragraph, such as <xref target="req-1"/> above.</p>
-
-<p id="_13d9ed6b-4619-88a7-c409-ae45d96e20a7">The distribution of the information in a standard is not restricted. The only
-requirement is that requirements be grouped in a manner
-consistent with the conformance test classes, see <xref target="req-6"/> and <xref target="req-7"/>.</p>
-</clause>
-
-<clause id="_the_modspec_and_the_form_of_a_standard" obligation="normative">
-<title>The ModSpec and the “Form” of a standard</title>
-<note id="_f1955359-b8dd-3682-c5b4-1a38190e5948"><p id="_b165c009-3b07-4847-8449-650557b744e5">For OGC Standards, the assumptions is that documents are in a commonly used
-logical form (template).</p>
-</note>
-
-<p id="_d09de07e-4840-cdf0-c85a-224ff2f67133">This form should be specified by the following descriptions:</p>
-
-<ol id="_7b90f2e3-1270-bd43-89e4-f375360b27b2" type="arabic"><li><p id="_2a541f60-59fe-4932-dc76-e141c27760f1">A standards document contains Clauses (corresponding to numbered sections as they might
-appear in a table of contents) which describe its standardization target and its requirements.</p>
-</li>
-<li><p id="_99eeed0f-c186-4dc8-970c-c6c3d4514875">A standard contains Annexes or is associated to other documents (both a
-logical type of Clause), one of which is the Conformance Test Suite (which may be an
-abstract description of the test suites to be implemented separately). In OGC Documents, this is Annex A – Abstract Test Suite.</p>
-</li>
-<li><p id="_f96e3c65-c26d-0025-31e2-8a3eba4c4c51">All requirements, recommendations, permissions, and models are introduced and defined first in
-the numbered Clauses.</p>
-</li>
-<li><p id="_3d08d078-5596-b364-b505-7921db602ac6">All requirements are identifiable as requirements.</p>
-</li>
-<li><p id="_2dba3935-fcb8-e823-d0c1-1dc750e5c4e6">All requirements in a document are uniquely numbered.</p>
-</li>
-<li><p id="_04399331-1acf-8782-7fcb-97b5cef85e4f">All tests for conformance to those requirements are defined in the Conformance Test Suite.</p>
-</li>
-<li><p id="_3b7d113a-e2ac-f580-70fc-4dba9c275546">Tests are be grouped for convenience into conformance test classes and if desired the classes are grouped into conformance test modules.</p>
-</li>
-<li><p id="_f0523050-02ce-af74-20e5-9f5980ba9e4b">The tests, if conducted, determine to some degree of certainty whether an
-implementation meets the requirements which the tests reference.</p>
-</li>
-<li><p id="_e0cdb596-7e96-593d-17f8-e76c78b1e7ee">The tests are organized into some number of conformance “classes” where each conformance class has a one to one relationship with a requirements class. If a standard
-does not do this, it is has by default only one “conformance class”.</p>
-</li>
-<li><p id="_2bf89cd4-bfd1-787b-2300-d18a2f15c7a5">Certificates of conformance (see <xref target="term-all-components-schema-document"/>) are
-awarded by a testing entity based on these conformance classes.</p>
-</li>
-<li><p id="_d9d11cf4-0216-bd52-48d1-c41570942d7e">There is a clear distinction between normative and informative parts of the text.</p>
-</li>
-<li><p id="_aef794ea-d7f3-6853-9a12-6acbff339ffa">Examples and notes are informative, and do not use “normative”
-language.</p>
-</li>
-</ol>
-
-<p id="_f44e08dc-511a-f3d3-8857-90d278dc1306">In informative sections, the word “will” implies that something is an implication of a requirement. The “will” statements are
-not requirements, but explain the consequence of requirements.</p>
-
-<p id="_26a31047-79c9-f724-7adf-b38138e0675a">The ModSpec defines a “requirement” of a standard as an atomic testable
-criterion. See the formal definition of requirement in <xref target="term-requirement"/></p>
-
-<p id="_18d5c15f-e17f-7bab-5940-615e16e6cf3d">A UML representation of important properties of this model is given in <xref target="annex-B-2"/>.</p>
-</clause>
-
-<clause id="_modspec_document_structure" obligation="normative">
-<title>ModSpec document structure</title>
-<p id="_7d0d87d8-2bd6-e3f9-8cdf-6533a5a2b5fc">Version 2.0 of the ModSpec is split into a Core standard and multiple Parts. These are:</p>
-
-<ul id="_7d6b0683-be35-93f5-6525-1a52daa58595"><li><p id="_4027dffe-80e7-53b7-deb4-ef74c3287258">Core: contains all the core requirements and informational text that define the model and internal structure of a standard.</p>
-</li>
-<li><p id="_a5e47463-83a5-2db3-5a5f-37dfabe4067a">Part 1: UML Model requirements</p>
-</li>
-<li><p id="_92986053-36e0-61ff-7976-c50eb2ef857d">Part 2: XML Model requirements</p>
-</li>
-<li><p id="_563416a2-5200-ab26-d7a5-fd2f6fe7b6cf">Part 3: Schematron requirements</p>
-</li>
-<li><p id="_023cdb1f-b6b4-7fe3-04f4-86e5625f50d4">Part 4: XML Metaschema requirements</p>
-</li>
-</ul>
-
-<p id="_8c730828-3554-4023-7ad6-8a245bc7b7ad">Future Parts to the ModSpec Standard may include:</p>
-
-<ul id="_7c01c279-6c4c-e6d1-5d0a-6fbed1233fd5"><li><p id="_898fd09d-26b6-8dbf-c4b3-ce63a3a61958">Part 5: RDF/OWL requirements</p>
-</li>
-</ul>
-</clause>
-
-<clause id="_building_blocks" obligation="normative">
-<title>Building Blocks</title>
-<p id="_0f704161-06d3-c595-ecab-f9d39e84a76e">In software development technology, there is a concept called <em>building block</em>. In software development, building blocks are used to support the software build process where source code files/libraries can be accessed from multiple sources, converted into executable code, and linked together in the proper order until a complete set of executable files is generated. The same concept can be applied to OGC Standards development: Requirements classes and/or modules can be linked together from one or more standards to create a new standard not originally envisioned when the requirements were originally defined.</p>
-
-<p id="_13f3cbbd-3042-4cbd-a094-76fd624f7f64">The <link target="https://pubs.opengroup.org/architecture/togaf8-doc/arch/chap32.html">Open Group</link> suggests that building blocks have the following characteristics:</p>
-
-<ol id="_54f17b6d-813f-b2c8-d9af-37597592e4e5" type="arabic"><li><p id="_2669a0a7-1d24-887e-e39b-db67aa448731">A building block is a package of functionality defined to meet business or domain needs.</p>
-</li>
-<li><p id="_6cee77ca-04d9-2c5c-6a6f-134144c24cfd">A building block may interoperate with other, inter-dependent, building blocks.</p>
-</li>
-<li><p id="_e3cec738-6b39-5acb-ac48-409c940bea85">A good building block has the following characteristics:</p>
-<ol id="_39c5a7ad-0062-0c1d-1bb4-2778c14c4b60" type="alphabet"><li><p id="_dee6c95a-a735-240a-e5a7-b2e0ecfc7dc4">Considers implementation and usage, and evolves to exploit technology and standards.</p>
-</li>
-<li><p id="_42dabcba-605d-95d7-e447-b5511b2a4e3e">May be assembled from other building blocks.</p>
-</li>
-<li><p id="_3bff3b75-c2d4-3e79-d440-80190187ad27">May be a subassembly of other building blocks.</p>
-</li>
-<li><p id="_03862a2c-a340-92eb-1752-47670192b5da">Ideally a building block is re-usable and replaceable, and well specified.</p>
-</li>
-</ol>
-</li>
-<li><p id="_751cf77a-c939-2aa4-f024-43e876ca97e6">A building block may have multiple implementations but with different inter-dependent building blocks.</p>
-</li>
-</ol>
-
-<p id="_a3d3984a-7bb8-0c37-4174-06cb61f55e88">These characteristics are slightly modified from the Open Group definitions to accommodate the use of the building block concept in standards work.<note id="_e844daa1-0b79-ad4d-5242-cc7ce2bf37fb"><p id="_3bc61e63-908e-f9d2-0b91-43cae16a50eb">The approach modelled in the ModSpec has been referred to as the “core and extension model” due to its
+<p id="_4785e9ff-9e6e-6d79-000c-a8e0c97bffc0">There are numerous examples of requirements/conformance classes that can be used not only in OGC Standards, but for geospatially focused standards defined by other organizations and Standards Development Organizations (SDOs). Some OGC examples can be found in the <link target="https://docs.ogc.org/is/19-072/19-072.html">OGC API — Common Part 1: Core Standard</link> and in the <link target="https://github.com/opengeospatial/cdbswg/blob/master/cdb-2.0/cdb-core-crs-requirements-class.adoc">CDB 2.0 Standard CRS Requirements Module</link>. By formally implementing the requirements specified in the ModSpec, reusable, modular standards can be developed.<note id="_a0be5564-5b40-1012-f806-68193e591c81"><p id="_45e5d218-2450-f445-6c9b-7ad6e8fa131e">The approach modelled in the ModSpec has been referred to as the “core and extension model” due to its
 insistence on a modular structure throughout all parts of a standard and its implementation.</p>
 </note></p>
 
 
+
+<clause id="_modspec_document_structure" obligation="normative">
+<title>ModSpec document structure</title>
+<p id="_7ba98d02-e53a-c8cd-e7bc-643d546bd26d">Version 2.0 of the ModSpec will be split into a Core standard and multiple Parts. This document includes the following parts:</p>
+
+<ul id="_7007f7f6-6d73-e1f2-6936-511e2f91b838"><li><p id="_8c45a909-ff87-4e20-7ded-a2b9df692a41">Core: contains all the core requirements and informational text that define the model and internal structure of a standard.</p>
+</li>
+<li><p id="_1fb0ede5-7e0a-a8cf-bdf4-8ea079603d2f">Part 1: UML Model requirements</p>
+</li>
+</ul>
+
+<p id="_74defe99-a793-4c19-58be-a74bac2a6f7d">Future Parts to the ModSpec Standard will include:</p>
+
+<ul id="_45fe71ed-dc8b-56d5-c36e-961f23f43647"><li><p id="_dae5575e-bba8-0a3e-8b45-9e00af76f946">Part 2: Specifying requirements and conformance tests using JSON.</p>
+</li>
+<li><p id="_e306af0e-21da-cdd5-7de0-84a6aee416fc">Part 3: Specifying requirements and conformance tests using RDFS, SHACL, and OWL</p>
+</li>
+<li><p id="_7551b7c1-189a-f21c-a534-fa66041c2a85">Part 4: Specifying requirements and conformance tests using XML and Schematron.</p>
+</li>
+</ul>
 </clause>
 </clause>
 
@@ -441,7 +304,7 @@ other schema documents, all schema components associated to its namespace</p></v
 <name>building block</name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_aef07d2a-87d5-94d5-5104-f8f8bc381773">a requirements class or a requirements module and their associated compliance test class or compliance test module.</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_183e3233-7e0a-fbf4-9fec-5c5cba168f91">a requirements class or a requirements module with no direct dependencies on other requirements classes or modules and their associated compliance test class or compliance test module.</p></verbal-definition></definition>
  </term>
 
 <term id="term-certificate-of-conformance"><preferred><expression>
@@ -484,14 +347,12 @@ within a standard, or set of standards</p></verbal-definition></definition>
 <name>conformance test module</name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_3c491818-7b61-08b6-bef1-3c6e17b1369a">set of related for against a given requirements module all with the same standardization target</p></verbal-definition></definition>
-
-
+<definition><verbal-definition><p id="_7e0c730f-3e54-3406-4dc4-2dfc533140b5">set of related tests for a given requirements module all with the same standardization target</p></verbal-definition></definition>
 
 
  <termnote id="_fffdc3a8-5529-ebb7-3a08-df733a07e0cf"><p id="_0e537b60-9c19-11c0-e1e6-6fe8b98c28e3">When there is no ambiguity, the word “test” may be omitted. i.e. <concept><refterm>conformance test module</refterm><renderterm>conformance test module</renderterm><xref target="term-conformance-test-module"/></concept>
 is the same as <strong>conformance module</strong>. Conformance modules may be nested in a hierarchical way.</p>
-</termnote><termsource status="identical" type="authoritative"><origin bibitemid="iso19105" type="inline" citeas="ISO&amp;#xa0;19105"/></termsource></term>
+</termnote></term>
 
 <term id="term-conformance-test-class"><preferred><expression>
 <name>conformance test class</name>
@@ -949,137 +810,61 @@ requirements classes and conformance test classes.</p>
 </clause>
 </clause>
 
-<clause id="_fundamentals" obligation="normative">
-<title>Fundamentals</title>
-<clause id="_the_modspec_and_the_form_of_a_standard_2" obligation="normative">
-<title>The ModSpec and the “Form” of a standard</title>
-<note id="_cf9f38db-2a5e-bd2e-eda3-308c7d55b3c7"><p id="_1a5dba3a-c252-054c-7363-74280500d715">For OGC Standards, the assumption is that documents are in a commonly used
-logical form (template).</p>
-</note>
-
-<p id="_1421e1cf-70d6-484a-ef22-8aa630adf5bc">This form should be specified by the following descriptions:</p>
-
-<ol id="_71b89f8d-ce44-26af-b0d3-c71933c0e7c5" type="arabic"><li><p id="_394e07d7-40e9-4786-3424-327cefee3b91">A standards document contains Clauses (corresponding to numbered sections as they might
-appear in a table of contents) which describe its standardization target and its requirements.</p>
-</li>
-<li><p id="_af6eb072-86ab-ee51-1f1c-ce5ac45ff4f9">A standard contains Annexes or is associated to other documents (both a
-logical type of Clause), one of which is the Conformance Test Suite (which may be an
-abstract description of the test suites to be implemented separately). In OGC Documents, this is Annex A – Abstract Test Suite.</p>
-</li>
-<li><p id="_8c74de85-186f-ad63-66f5-9b992a89040e">All requirements, recommendations, permissions, and models are introduced and defined first in
-the numbered Clauses.</p>
-</li>
-<li><p id="_cea5fbb5-6ff9-4e75-f863-c4d237198a7c">All requirements are identifiable as requirements.</p>
-</li>
-<li><p id="_c647bf7a-5638-edd7-b969-10e2109a8da0">All requirements in a document are uniquely numbered.</p>
-</li>
-<li><p id="_00469cfa-6e1d-f023-d260-584bbfd48705">All tests for conformance to those requirements are defined in the Conformance Test Suite.</p>
-</li>
-<li><p id="_b33f8edf-0c04-73c6-c978-e54e34fae8bf">Tests are be grouped for convenience into conformance test classes and if desired the classes are grouped into conformance test modules.</p>
-</li>
-<li><p id="_c0f42042-fc05-95d7-f523-02b330c94fbd">The tests, if conducted, determine to some degree of certainty whether an
-implementation meets the requirements which the tests reference.</p>
-</li>
-<li><p id="_08596bca-7dac-217d-8683-fc5938409148">The tests are organized into some number of conformance “classes” where each conformance class has a one to one relationship with a requirements class. If a standard
-does not do this, by default it has only one “conformance class”.</p>
-</li>
-<li><p id="_c3646a6b-86e7-fa76-32c8-e1e7c0c20b36">Certificates of conformance (see <xref target="term-all-components-schema-document"/>) are
-awarded by a testing entity based on these conformance classes.</p>
-</li>
-<li><p id="_b974559d-641e-e75d-1488-b3a18cb035f7">There is a clear distinction between normative and informative parts of the text.</p>
-</li>
-<li><p id="_b43eb418-e9fe-d256-f83e-a0a2dee2325b">Examples and notes are informative, and do not use “normative”
-language.</p>
-</li>
-</ol>
-
-<p id="_f1d1aa86-f4a0-bf4d-59d2-7d088fd7c3d0">In informative sections, the use of the word “will” implies that something is an implication of a requirement. The “will” statements are
-not requirements but explain the consequence of requirements.</p>
-
-<p id="_504f78f1-c3bf-3ac9-5ca9-a8508d74488e">The ModSpec defines a “requirement” of a standard as an atomic testable
-criterion. See the formal definition of requirement in <xref target="term-requirement"/></p>
-
-<p id="_ee968187-ef65-ded4-d8c0-b58d2c04bb6b">A UML representation of important properties of this model is given in <xref target="annex-B-2"/>.</p>
-</clause>
-
-<clause id="_modspec_document_structure_2" obligation="normative">
-<title>ModSpec document structure</title>
-<p id="_639a4011-246c-e69e-6cda-83b89022f14f">Version 2.0 of the ModSpec is split into a Core standard and multiple Parts. These are:</p>
-
-<ul id="_f1c1701e-5543-72c8-d74b-90aec0b14a38"><li><p id="_66b3ec0a-a4a6-ff8b-aa89-f9e3b153159b">Core: contains all the core requirements and informational text that define the model and internal structure of a standard.</p>
-</li>
-<li><p id="_386fb0ba-b9d5-65ef-ab19-cb2fe73e621c">Part 1: UML Model requirements</p>
-</li>
-<li><p id="_4ddd4d98-19d9-6ac8-5e77-0a52146ad543">Part 2: XML Model requirements</p>
-</li>
-<li><p id="_cb917bf0-4e25-60e8-e17f-27fb79c44360">Part 3: Schematron requirements</p>
-</li>
-<li><p id="_b4d9df35-4d34-3388-1827-961c88b91df2">Part 4: XML Metaschema requirements</p>
-</li>
-</ul>
-
-<p id="_6bc3702d-ebde-e85f-ba0b-e150b58c9c4c">Future Parts to the ModSpec Standard may include:</p>
-
-<ul id="_d4862f80-6940-e324-3f6d-ee9e68ec8e2b"><li><p id="_3d30d03d-cb04-1d04-33a1-298c2ddd1a1f">Part 5: RDF/OWL requirements</p>
-</li>
-</ul>
-</clause>
-
-<clause id="_building_blocks_2" obligation="normative">
+<clause id="fundamentals" obligation="normative">
+<title>Standards Fundamentals</title>
+<clause id="_building_blocks" obligation="normative">
 <title>Building Blocks</title>
-<p id="_edc7280d-32fd-2a54-e487-df442ed3d0de">In software development technology, there is a concept called <em>building block</em>. In software development, building blocks are used to support the software build process where source code files/libraries can be accessed from multiple sources, converted into executable code, and linked together in the proper order until a complete set of executable files is generated. The same concept can be applied to OGC Standards development: Requirements classes and/or modules can be linked together from one or more standards to create a new standard not originally envisioned when the requirements were originally defined.</p>
+<p id="_049e2fb0-84b5-0394-4f47-1cb19a95d997">In software development technology, there is a concept called <em>building block</em>. In software development, building blocks are used to support the software build process where source code files/libraries can be accessed from multiple sources, converted into executable code, and linked together in the proper order until a complete set of executable files is generated. The same concept can be applied to OGC Standards development: Requirements classes and/or modules can be linked together from one or more standards to create a new standard not originally envisioned when the requirements were originally defined.</p>
 
-<p id="_3b595069-d007-be87-728d-2bffa2feaa5e">The <link target="https://pubs.opengroup.org/architecture/togaf8-doc/arch/chap32.html">Open Group</link> suggests that building blocks have the following characteristics:</p>
+<p id="_a2ade505-b39a-333b-5a7f-d6951a61f2f4">The <link target="https://pubs.opengroup.org/architecture/togaf8-doc/arch/chap32.html">Open Group</link> suggests that building blocks have the following characteristics:</p>
 
-<ol id="_e3207f47-8e0e-8631-9159-ae4943ba3a86" type="arabic"><li><p id="_8b551867-cba1-2e1a-78de-085dcbc71cd1">A building block is a package of functionality defined to meet business or domain needs.</p>
+<ol id="_ca346312-fa37-3ab7-00bc-06d9eeff36aa" type="arabic"><li><p id="_71d675a7-c1b2-f9c1-94ba-81fe5f19c4b2">A building block is a package of functionality defined to meet business or domain needs.</p>
 </li>
-<li><p id="_a0195ed6-4e2c-1b74-b34c-34cbab91b0d3">A building block may interoperate with other, inter-dependent, building blocks.</p>
+<li><p id="_002474bb-6d1e-e048-0061-599d3427533d">A building block may interoperate with other, inter-dependent, building blocks.</p>
 </li>
-<li><p id="_fed02f11-95f7-19f7-8b42-422e2d784f42">A good building block has the following characteristics:</p>
-<ol id="_92cd2262-96e0-55f3-e2a2-e8cf3920ecc6" type="alphabet"><li><p id="_564c163a-3e95-92fa-8865-91fec7bdb5cc">Considers implementation and usage and evolves to exploit technology and standards.</p>
+<li><p id="_d015b348-40ee-45f1-b3d2-1db3d10265e9">A good building block has the following characteristics:</p>
+<ol id="_9efe5b41-5692-9749-2580-369d1ad032c5" type="alphabet"><li><p id="_bb3e2948-4660-27ea-06d0-09e06da7de8f">Considers implementation and usage, and evolves to exploit technology and standards.</p>
 </li>
-<li><p id="_3872a2b9-0afd-94a3-cbb3-11d4e23e3887">May be assembled from other building blocks.</p>
+<li><p id="_6e14d52c-0e2f-0486-87c6-249086ed3c00">May be assembled from other building blocks.</p>
 </li>
-<li><p id="_ca5d4c20-eb36-da30-9351-4809da2d454d">May be a subassembly of other building blocks.</p>
+<li><p id="_b748db10-d451-1dcb-495d-8b44effb4970">May be a subassembly of other building blocks.</p>
 </li>
-<li><p id="_0a9134e4-6b8f-110b-0b20-7a992ee61b59">Ideally a building block is re-usable and replaceable, and well specified.</p>
+<li><p id="_b67f6fb9-2837-3b56-c84f-3a247965f5eb">Ideally a building block is re-usable and replaceable, and well specified.</p>
 </li>
 </ol>
 </li>
-<li><p id="_013094c3-3fa0-a7cb-b202-9d08b91264bb">A building block may have multiple implementations but with different inter-dependent building blocks.</p>
+<li><p id="_d38a8c06-2109-0805-fa35-f3d441f00bf1">A building block may have multiple implementations but with different inter-dependent building blocks.</p>
 </li>
 </ol>
 
-<p id="_f9463dc2-dd2e-4af3-b5b6-5b4775ff61f6">These characteristics are slightly modified from the Open Group definitions to accommodate the use of the building block concept in standards work.<note id="_e594bcb3-8c6c-3d15-a9c6-70dc3982a76a"><p id="_7fff9714-0849-1666-1b72-4f849d06e9a9">The approach modelled in the ModSpec has been referred to as the “core and extension model” due to its
-insistence on a modular structure throughout all parts of a standard and its implementation.
-The modular approach is consistent with the definition and use of software building blocks.</p>
-</note></p>
-
-
+<p id="_111560d2-4824-3c2a-7437-b3a8a44a8169">These characteristics are slightly modified from the Open Group definitions to accommodate the use of the building block concept in standards work.</p>
 </clause>
 
 <clause id="_standardization_context_goals_and_targets" obligation="normative">
 <title>Standardization Context — Goals and Targets</title>
-<p id="_23e5a6ba-4f4b-192e-3197-7371493f4002">Every OGC Standard document shall include a Standardization Goal. This is a concise statement of the problem that the Standard helps address and the strategy envisioned for achieving a solution.  This strategy typically identifies real-world entities that need to be modified or constrained.  At the abstract level, those entities are the Standardization Target Types.  These are the classes of entities to be standardized. A Standard defines the requirements levied on one or more Standardization Target Types.</p>
+<note id="_9f4fd836-a370-6087-9c91-44c529200a73"><p id="_29be488f-1916-8e50-3b07-8ead16761ced">Don’t forget to add the requirements cited.</p>
+</note>
 
-<p id="_db2ef1cd-6b66-ebfb-72ac-3efdbc55eb47">Instances of a Standardization Target Type are the Standardization Targets.  These are the real-world manifestations of the Standardization Target Type.  In summary:</p>
+<p id="_86680b3f-7f0a-0a59-27c1-443ce02894a3">Every OGC Standard document shall include a Standardization Goal (see requirement TBD). This is a concise statement of the problem that the Standard helps address and the strategy envisioned for achieving a solution.  This strategy typically identifies real-world entities that need to be modified or constrained.  At the abstract level, those entities are the Standardization Target Types.  These are the classes of entities to be standardized. A Standard defines the requirements levied on one or more Standardization Target Types.</p>
 
-<ul id="_7f26cfcf-f891-cf41-ec52-66d8a7246549"><li><p id="_543977a0-3a27-f10c-9bf4-1a68cdf4e1ed">Standardization Goal – identifies the problem and identifies the actors and entities involved in solving that problem</p>
+<p id="_95ef188d-1281-aca9-f48b-d00ff10ae681">Instances of a Standardization Target Type are the Standardization Targets.  These are the real-world manifestations of the Standardization Target Type.  In summary:</p>
+
+<ul id="_4d89e629-30e7-5fdf-68e0-49a10b51a96b"><li><p id="_20efe77a-6146-d9c6-66b8-9f070826dfec">Standardization Goal – identifies the problem and identifies the actors and entities involved in solving that problem</p>
 </li>
-<li><p id="_8f90ce7b-f3f4-e4be-8f07-f50a86a895f9">Standardization Target Type – An abstract representation of one of the actors or entities identified in the Standardization Goal</p>
+<li><p id="_f27617dd-6dd3-c3cf-6438-30336a0f71de">Standardization Target Type – An abstract representation of one of the actors or entities identified in the Standardization Goal</p>
 </li>
-<li><p id="_9194a94c-4a84-8e08-d3cc-a95ddeae39e6">Standardization Target – an implementation of a Standardization Target Type. These are the real-world entities which can be tested for conformance with the requirements documented in the Standard.</p>
+<li><p id="_9d2a1452-535d-7460-3141-a2d6ce8a9f04">Standardization Target – an implementation of a Standardization Target Type. These are the real-world entities which can be tested for conformance with the requirements documented in the Standard.</p>
 </li>
 </ul>
 
-<p id="_7dfceb8a-4ddd-e2ee-b02a-4d7e8cb4dfae">Standardization Target Types can be hierarchical.  The Conceptual, Logical, Physical hierarchy is one example where the Standardization Target Types are information models. Another example would be implementations of OGC API — Features Part 2 which support XML data exchange.</p>
+<p id="_5b573233-72e2-17c7-b13c-037d12e0c21f">Standardization Target Types can be hierarchical.  The Conceptual, Logical, Physical hierarchy is one example where the Standardization Target Types are information models. Another example would be implementations of OGC API — Features Part 2 which support XML data exchange.</p>
 
-<p id="_4b57588b-0435-8f2b-b25e-245be680647d">Notice that the Standardization Targets and Standardization Target Types no longer form a simple taxonomy. The Standardization Target Types, Standardization Targets, and Standardization Goal provide a well-defined context for the standard.  This will help users of standards to quickly understand the scope of a Standard and to select those Standards appropriate for their needs. It also will help keep Standards developers focused on the intended use of their standards, avoiding standards which are overly broad and/or unfocused.</p>
+<p id="_ff4cbfc6-83b6-72c0-570b-fc8a1f622f41">Notice that the Standardization Targets and Standardization Target Types no longer form a simple taxonomy. The Standardization Target Types, Standardization Targets, and Standardization Goal provide a well-defined context for the standard.  This will help users of standards to quickly understand the scope of a Standard and to select those Standards appropriate for their needs. It also will help keep Standards developers focused on the intended use of their standards, avoiding standards which are overly broad and/or unfocused.</p>
 </clause>
 
-<clause id="_conformance_requirements_and_key_information_2" obligation="normative">
+<clause id="_conformance_requirements_and_key_information" obligation="normative">
 <title>Conformance, Requirements, and key information</title>
-<p id="_9117e552-9b2b-b3ed-5381-864fe5f17212">In the conformance test suite, there will be a test defined to verify the validity of
+<p id="_0fabb1b3-4e11-c52d-9c99-8f9144d13d2e">In the conformance test suite, there will be a test defined to verify the validity of
 the claim that an implementation of the standard (standardization target) satisfies
 each mandatory requirement specified in the standard. Since the normative language of the body of the standard and the
 conformance test classes both define what conformance to the standard means, they
@@ -1087,7 +872,7 @@ will be equivalent in a well-written standard. The ModSpec requires
 a standards document to be well-written, at least in stating requirements and conformance
 tests.</p>
 
-<p id="_449db982-c6e3-e2c2-5434-14c79876062d">Conformance tests are aggregated into conformance classes that specify how certain
+<p id="_a358c291-8cc7-4357-8e11-308a1f7bfe3b">Conformance tests are aggregated into conformance classes that specify how certain
 “certificates of conformance” are achieved. The natural inclination is to aggregate
 the requirements. The issue that blocks this approach is that some requirements are
 optional while others are mandatory. To achieve a cleaner separation of requirements,
@@ -1095,49 +880,106 @@ the ModSpec separates them into sets (called “requirements classes”), each o
 has no optional components. Since the normative statement of each requirement is only
 declared once and is uniquely identified as such, each requirement will be in a clause associated to its requirements class.</p>
 
-<p id="_d28fd8c0-22d0-0c24-8019-40a3ddb879f7">Therefore, the ModSpec defines a “requirements class” as a set of requirements that must
+<p id="_6563d432-9cd1-6402-9b3e-db7634a5fa93">Therefore, the ModSpec defines a “requirements class” as a set of requirements that must
 all be passed to achieve a particular conformance class (see
 <xref target="term-conformance-test-class"/>). This document also includes a “middle” structure
 called a conformance test module. Requirements modules
 parallel the conformance test modules. A standard written to the ModSpec may
 use this “module” structure in any manner consistent with the rest of this Policy.</p>
 
-<p id="_7009dd4a-ac42-44b2-ed85-68c3b52b07c2">A standard may have mandatory and optional requirements classes.  This allows the options
+<p id="_8b8ec455-4a75-83ed-6d20-df1d6e6e13bf">A standard may have mandatory and optional requirements classes.  This allows the options
 in the testing procedure to be grouped into non-varying mandatory and optional conformance classes.
 Each requirement within an optional requirements class is mandatory when that requirements class is
 implemented. When needed, a particular requirements class may contain only a single
 requirement.</p>
 
-<p id="_c495f023-4228-f0b6-d02c-ecead2cf1351">However, care must be taken, since the requirements classes may not always in a one-to-one
+<p id="_edc66358-e1b6-1783-4bf5-0b30c4652a66">However, care must be taken, since the requirements classes may not always in a one-to-one
 correspondence to conformance classes in other standards which may be the source of
 requirements for a standard conformant to the ModSpec. If other standards are
 used, their options shall be specified to be useable within a standard conformant to
 this policy, see <xref target="cls-6-5-1"/>.</p>
 
-<p id="_d07c8102-1fdb-91b6-3254-8341e3bd4679">Conformance classes may contain dependencies on one another. These are represented by
+<p id="_f4c050b4-1d5e-4da5-d770-654e80d36e14">Conformance classes may contain dependencies on one another. These are represented by
 tests in one conformance class that state that another conformance class must be
 passed to qualify to pass this conformance class. In terms of requirements, that says
 that the dependent conformance class contains tests (by reference) for all
 requirements of the “included” conformance class.</p>
 
-<p id="_579a86d0-ee2e-a1c9-ceda-9b94145e7151">As defined in the ModSpec, one requirements
+<p id="_c4db73bb-1b84-fc6d-582a-d838918b3ee9">As defined in the ModSpec, one requirements
 class is dependent on another if the other is included through such a reference. In
 this manner, requirements classes can be treated as sets of requirements (each in a
 single requirements class but included in others by reference to its “home”
 requirements class).</p>
 
-<p id="_c75ec73b-db23-fa12-f049-07ab3c1ef312">In the ModSpec, each conformance requirement is separated in its own labeled
+<p id="_e11ba800-2395-56b3-3bfd-b70d4cd26477">In the ModSpec, each conformance requirement is separated in its own labeled
 paragraph, such as <xref target="req-1"/> above.</p>
 
-<p id="_d6e09e73-f2c2-386d-bdb0-c633918544d8">The distribution of the information in a standard is not restricted. The only
+<p id="_bd1b6c3c-c468-e132-f8ef-e1cde6d2a650">The distribution of the information in a standard is not restricted. The only
 requirement is that requirements be grouped in a manner
 consistent with the conformance test classes, see <xref target="req-6"/> and <xref target="req-7"/>.</p>
 </clause>
+
+<clause id="_documenting_the_standard" obligation="normative">
+<title>Documenting the Standard</title>
+<note id="_fb8db164-5638-4c9d-382f-45349c0c2245"><p id="_ddf360b1-286d-7502-1f88-08464b02c511">For OGC Standards, the assumptions is that documents are in a commonly used
+logical form (template).</p>
+</note>
+
+<p id="_23190e91-76f8-c104-6bf9-ca4b41d7eb22">This form should be specified by the following descriptions:</p>
+
+<ol id="_1713c412-de7b-0daa-16ab-dee52f057256" type="arabic"><li><p id="_f40c63c6-7621-a544-dabc-b48f774fb2e2">A standards document contains Clauses (corresponding to numbered sections as they might
+appear in a table of contents) which describe its standardization target and its requirements.</p>
+</li>
+<li><p id="_f23307c8-6717-e4cc-7033-84ddec4f985b">A standard contains Annexes or is associated to other documents (both a
+logical type of Clause), one of which is the Conformance Test Suite (which may be an
+abstract description of the test suites to be implemented separately). In OGC Documents, this is Annex A – Abstract Test Suite.</p>
+</li>
+<li><p id="_6c449328-a461-0682-ac0a-e0f0d72a86ff">All requirements, recommendations, permissions, and models are introduced and defined first in
+the numbered Clauses.</p>
+</li>
+<li><p id="_bdb51a50-cabb-0190-5cae-4cbbad31d53b">All requirements are identifiable as requirements.</p>
+</li>
+<li><p id="_07699287-c76a-6ad3-6325-f580ab0beef5">All requirements in a document are uniquely numbered.</p>
+</li>
+<li><p id="_52f21aa1-c242-f540-55bd-f3f8404da37d">All tests for conformance to those requirements are defined in the Conformance Test Suite.</p>
+</li>
+<li><p id="_51761fdb-62c4-e420-26f5-5a5a8e7442bd">Tests are be grouped for convenience into conformance test classes and if desired the classes are grouped into conformance test modules.</p>
+</li>
+<li><p id="_65e6d802-2f2c-2c02-9ee1-1cfbf130a70f">The tests, if conducted, determine to some degree of certainty whether an
+implementation meets the requirements which the tests reference.</p>
+</li>
+<li><p id="_1a3e9b63-2500-a1d9-5608-4fb6cf0be359">The tests are organized into some number of conformance “classes” where each conformance class has a one to one relationship with a requirements class. If a standard
+does not do this, it is has by default only one “conformance class”.</p>
+</li>
+<li><p id="_ed3a5961-c309-75fd-4573-ebe3e9777bea">Certificates of conformance (see <xref target="term-all-components-schema-document"/>) are
+awarded by a testing entity based on these conformance classes.</p>
+</li>
+<li><p id="_e2900e6d-79f7-2b8f-c5db-12de569328f2">There is a clear distinction between normative and informative parts of the text.</p>
+</li>
+<li><p id="_8b695354-34a5-8b9d-035f-348002eae48c">Examples and notes are informative, and do not use “normative”
+language.</p>
+</li>
+</ol>
+
+<p id="_1228c66a-b229-5343-dc70-8cbb602a982b">In informative sections, the word “will” implies that something is an implication of a requirement. The “will” statements are
+not requirements, but explain the consequence of requirements.</p>
+
+<p id="_5e076e3b-c52a-7cff-5efc-fbc2f1f41230">The ModSpec defines a “requirement” of a standard as an atomic testable
+criterion. See the formal definition of requirement in <xref target="term-requirement"/></p>
+
+<p id="_4a31e4da-fe29-22de-a4bd-0ebb19b7b480">A UML representation of important properties of this model is given in <xref target="annex-B-2"/>.</p>
+</clause>
 </clause>
 
-<clause id="_requirements_class_core" obligation="normative">
+<clause id="cls-6" obligation="normative">
 <title>Requirements Class: Core</title>
 <p id="_ced39dde-b4ce-fb73-acd8-f98f615573c3">The following requirements specify the rules for the content and structure of a modular standard. These requirements are also known as the <tt>core</tt> of the ModSpec.</p>
+
+<table id="req-0" width="90%"><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ000</strong></td>
+<td valign="middle" align="left"><strong>/req/core/ogc-compliance</strong><br/>
+Any new OGC Standard, abstract specification that contains requirements, or major revision of an existing OGC Standard <em>SHALL</em> comply with the requirements stated in this document.</td>
+</tr></tbody>
+</table>
 
 <table id="req-1" width="90%"><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ001</strong></td>
 <td valign="middle" align="left"><strong>/req/core/reqs-are-testable</strong><br/>
@@ -1145,7 +987,7 @@ All the parts of a requirement, a requirements module, or requirements class <em
 testable. Failure to pass any part of any requirement shall be a failure to pass the
 associated conformance test class.</td>
 </tr></tbody>
-<note id="_f96707d1-1b18-dbd9-5a1c-44c0e2bc58fd"><p id="_1baef0b1-88d3-8ff7-0720-8956de4b4228">This further means that failure to pass the test specified for a part of requirement is a
+<note id="_98481e33-6d14-47b1-aef5-3a67b1962f60"><p id="_ec4e6883-7ab9-06fb-195d-c178db263360">This further means that failure to pass the test specified for a part of requirement is a
 failure to pass the requirement.</p>
 </note></table>
 
@@ -1158,7 +1000,7 @@ requirements classes, conformance test cases, conformance modules and conformanc
 classes <em>SHALL</em> be assigned a URI.
 For OGC standards documents, these URIs SHALL be conformant with the <link target="https://www.ogc.org/about-ogc/policies/ogcna/">OGC Naming Authority policies</link>.</td>
 </tr></tbody>
-<note id="_3ee8b270-d797-99b6-1a9e-1c6ead318f67"><p id="_f7b379a2-0d38-584d-04bd-b5480017a9e7">In the OGC, the enforcement of this requirement and its associated recommendation is the purview of
+<note id="_f1df52a5-ca10-bbeb-23dd-920b9d51082f"><p id="_c62be524-ded2-845f-9b72-d0e8143d5e89">In the OGC, the enforcement of this requirement and its associated recommendation is the purview of
 the OGC Naming Authority or its equivalents.</p>
 </note></table>
 

@@ -5,7 +5,7 @@ This OGC member developed and approved document defines a model and related requ
 
 The goal is to ensure that a standard specifies requirements in a common and consistent manner and that these requirements are testable.
 
-NOTE: For OGC only: Any new OGC Standard, abstract specification that contains requirements, or major revision of an existing OGC Standard shall comply with the requirements stated in this document.
+NOTE: For OGC only: Any new OGC Standard, abstract specification that contains requirements, or major revision of an existing OGC Standard shall comply with the requirements stated in this document (see <<req-0,Requirement 0>>).
 
 NOTE: Historically, this document has been known and abbreviated as the "ModSpec". For continuity and ease of understanding this document may also be refered to as the "OGC ModSpec".
 
@@ -31,7 +31,7 @@ The following OGC Members participated in editing this document:
 |===
 ^h| Person ^h| Organization Represented
 | Carl Reed | Carl Reed & Associates
-| Chuck Heazel | Heazeltech
+| Chuck Heazel | Charles Heazel inc.
 |===
 
 [.preface]
@@ -43,7 +43,7 @@ The following OGC Members contributed and particpated in developing Version 2 of
 |===
 ^h| Person ^h| Organization Represented
 | Simon Cox | CSIRO and OGC Fellow
-| Chuck Heazel | Heazeltech
+| Chuck Heazel | Charles Heazel inc.
 | Clemens Portele | interactive instruments GmbH
 | Jeff Yutzler | ImageMatters
 |===
@@ -71,12 +71,13 @@ The following OGC Members were key contributors to Version 1 of the ModSpec
 [.preface]
 == Revision history
 
-This is the second normative version of this document.
+This is the second normative version of this document. It includes updates and refinements necessary to accomodate changes in the Standards landscape.
 
 [.preface]
 == Future work
 
 Improvements to this document will be made based on implementation and changing technical requirements. Planned extensions include:
 
-- ModSpec Part providing requirements and recommendations for specifying requirements and conformance tests using RDFS, SHACL, and OWL.
-- ModSpec Part providing requirements and recommendations for specifying requirements and conformance tests using JSON.
+- ModSpec Part 2 providing requirements and recommendations for specifying requirements and conformance tests using JSON.
+- ModSpec Part 3 providing requirements and recommendations for specifying requirements and conformance tests using RDFS, SHACL, and OWL.
+- ModSpec Part 4 providing requirements and recommendations for specifying requirements and conformance tests using XML and Schematron.
