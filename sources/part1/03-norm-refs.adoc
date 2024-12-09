@@ -1,0 +1,20 @@
+[[cls-3]]
+[bibliography]
+== Normative references
+
+// [.boilerplate]
+// === {blank}
+
+While the ModSpec Part 1 Standard references UML and its technical specification,
+no requirements are derived from these documents. While this document
+may be applied to extensions of those standards, conformance to them is the purview
+of those standards, not the ModSpec.
+
+The following are normative references for this document in the sense that they
+supplied definitions used in this document.
+
+* [[[omg-infrastructure,OMG UML/2.5/Infrastructure]]], OMG Unified Modeling Language (OMG UML), Infrastructure, V2.5, OMG Document Number: formal/2015-03-01, Standard document URL: https://www.omg.org/spec/UML/2.5
+
+* [[[omg-superstructure,OMG UML/2.4.1/Superstructure]]], OMG Unified Modeling Language (OMG UML), Superstructure, V2.4.1, OMG Document Number: formal/2012-05-07; Standard document URL: https://www.omg.org/spec/UML/ISO/19505-2/PDF
+
+* [[[iso19757-3,ISO/IEC 19757-3:2006]]]
