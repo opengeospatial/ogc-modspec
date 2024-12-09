@@ -4,18 +4,9 @@
 Conformance to the ModSpec by technical implementation standards 
 can be tested by inspection. The test suite is in <<annex-A>>.
 
-There are five (5) conformance classes for this document:
+There is conformance class for this document:
 
 . Standards documents in general (the core) -- see <<cls-6>> and <<annex-A-1>>
-. Standards using UML to state requirements, extending the core -- see
-<<cls-7-2-2>> and <<annex-A-2>>
-. Standards using XML schema to state requirements, extending the core -- see
-<<cls-7-2-3>> and <<annex-A-3>>
-. Standards using Schematron to state requirements, extending XML schema -- see
-<<cls-7-2-4>> and <<annex-A-4>>
-. Standards defining requirement for a new category of XML schemas, extending
-the core, whose target XML schemas must be conformant with the XML schema conformance
-class above -- see <<cls-7-2-5>> and <<annex-A-5>>.
 
 This document contains normative language and thus places requirements on
 conformance, or mechanism for adoption, of candidate standards to which the ModSpec
@@ -23,11 +14,5 @@ applies. In particular:
 
 * <<cls-6>> specifies the core requirements which shall be met by all conformant
 standards.
-* <<cls-7>> gives information on how the ModSpec is to be applied to requirements,
-conformance clauses, UML models, or XML Schemas.
-
-
-The various subclauses of <<cls-7>> list requirements partially derived from the
-core, but more specific to the conditions where a data model expressed in one of the
-specified languages (UML or XML) is involved. These requirements classes are
-extensions of the core presented in <<cls-6>>.
+* <<cls-7>> gives information on how the ModSpec is to be applied to extensions to the core model for requirements,
+conformance clauses.
