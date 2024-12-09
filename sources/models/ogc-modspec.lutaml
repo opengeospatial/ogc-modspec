@@ -40,7 +40,7 @@ diagram OGCModSpec {
       into conformance test classes consisting of some number of conformance
       test modules, containing some number of conformance tests) that allow
       testing of an implementation of the standard for conformance with the
-      specification. Every standard needs one of these suites, or
+      requirements stated in the standard. Every standard needs one of these suites, or
       conformance cannot be claimed with proof. In ISO and the OGC, the conformance
       suite included in the standard is usually an abstract description of
       the tests which will be implemented. Other standards may use a more
@@ -126,7 +126,7 @@ diagram OGCModSpec {
     definition {
       A requirements modules (usually realized as groups of one or more
       requirements classes in the standard) group the
-      requirements and recommendations in the standrd in a manner consistent with the
+      requirements and recommendations in the standard in a manner consistent with the
       conformance test modules.
     }
 
