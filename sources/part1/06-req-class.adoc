@@ -1,0 +1,14 @@
+[[cls-6]]
+== Requirements Class: Part 1 UML
+
+This clause defines the key concepts and requirements that represent Part 1 of the ModSpec.
+
+=== The ModSpec and the "Form" of a standard
+
+NOTE: For OGC Standards, the assumption is that documents are in a commonly used
+logical form (template). 
+
+In informative sections, the use of the word "will" implies that something is an implication of a requirement. The "will" statements are not requirements but explain the consequence of requirements.
+
+The ModSpec defines a "requirement" of a standard as an atomic testable
+criterion. See the formal definition of requirement in <<term-requirement>>
