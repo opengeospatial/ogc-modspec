@@ -27,8 +27,8 @@ schema, all of its components, and its intended uses.
 |Target | ModSpec Conformant XML Model
 |Dependency |OGC ModSpec Version 2 (need proper title and document number)
 |REQ039 | /req/part2/xml/conformance-with-core 
-|REQ040 | /req/part2/xml/object-model 
-|REQ041 | /req/part2/xml/dependency-graph 
+|REQ040 | /req/part2/xml/w3c-xml 
+|REQ041 | /req/part2/xml/single-xml-space 
 |REQ042 | /req/part2/xml/leaf-package
 |REQ043 | /req/part2/xml/class-package
 |REQ044 | /req/part2/xml/to-leaf
@@ -40,7 +40,6 @@ test class to the core must be made explicit.
 
 [[req-39]]
 [requirement,model=ogc,type="general"]
-
 [width="90%",cols="2,6"]
 |===
 |*REQ039* | */req/part1/xml/conformance-with-core* +
@@ -48,12 +47,15 @@ An implementation passing the XML conformance test class _SHALL_ first pass the 
 conformance test class
 |===
 
+
 [[req-40]]
 [requirement,model=ogc,type="general"]
-====
-#An implementation passing the XML schema conformance test class shall first pass
-the W3C Recommendation for XML schema.#
-====
+[width="90%",cols="2,6"]
+|===
+|*REQ040* | */req/part1/xml/w3c-xml* +
+An implementation passing the XML schema conformance test class _SHALL_ first pass
+the W3C Recommendation for XML schema.
+|===
 
 Each XML schema file (usually *.xsd) carries a target namespace specification, recorded in the
 `targetNamespace` attribute of the `<schema>` element in the XML representation. In
@@ -78,15 +80,17 @@ document".
 
 In defining a XML schema (either completely, or partially in a standard) the
 fundamental component or module of XML schema is always the namespace and its
-associated schema; which is designated by a URI.
+associated schema, which is designated by a URI.
 
 [[req-41]]
 [requirement,model=ogc,type="general"]
-====
-#If a standard conformant to the XML schema conformance class defines a set of
+[width="90%",cols="2,6"]
+|===
+|*REQ041* | */req/part1/xml/single-xml-space* +
+If a standard conformant to the XML schema conformance class defines a set of
 data schemas, all components (e.g. elements, attributes, types ...) associated with
-a single conformance test class shall be scoped to a single XML namespace.#
-====
+a single conformance test class _SHALL_ be scoped to a single XML namespace.
+|===
 
 [[req-42]]
 [requirement,model=ogc,type="general"]
