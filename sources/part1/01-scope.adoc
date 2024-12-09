@@ -7,9 +7,9 @@ interoperability. Part 1 of the ModSpec defines the requirements for using UML. 
 used in a standard is an object model, then the mapping from parts of the model to the requirements classes should follow the logical mechanism described in Part 1 of the ModSpec
 
 [[introduction]]
-== Introduction
+=== Introduction
 
-=== Semantics
+==== Semantics
 
 The ModSpec Core Standard defines requirements for conformance to the ModSpec, but
 testing for that conformance may depend on how the various forms and parts of a
@@ -22,7 +22,7 @@ that standard. The structure of the normative clauses in a well written
 standard will follow the structure of its model. This means that all three are
 parallel.
 
-=== ModSpec document structure
+==== ModSpec document structure
 
 Version 2.0 of the ModSpec is split into a Core standard and multiple Parts. These are:
 
