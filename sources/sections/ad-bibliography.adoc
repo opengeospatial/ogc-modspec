@@ -6,13 +6,15 @@ To preserve a unique numeric identifier for all documents listed as references i
 this standard, the numbering of references in this annex is continued from the list
 of normative reference in <<cls-3>>.
 
-* [[[omg2007-superstructure,OMG UML/2.1.1/Superstructure]]], Object Management Group (OMG), February 2007, Unified Modeling Language: Superstructure, version 2.1.1 , formal/07-02-05, available from OMG.org at http://www.omg.org/cgi-bin/doc?formal/07-02-05
+* [[[omg-infrastructure,OMG UML/2.5/Infrastructure]]], OMG Unified Modeling Language (OMG UML), Infrastructure, V2.5, OMG Document Number: formal/2015-03-01, Standard document URL: https://www.omg.org/spec/UML/2.5
 
-* [[[omg2007-infrastructure,OMG UML/2.1.1/Infrastructure]]], Object Management Group (OMG), February 2007, Unified Modeling Language: Infrastructure , version 2.1.1 , formal/07-02-06, available from OMG.org at http://www.omg.org/cgi-bin/doc?formal/07-02-06
+* [[[omg-superstructure,OMG UML/2.4.1/Superstructure]]], OMG Unified Modeling Language (OMG UML), Superstructure, V2.4.1, OMG Document Number: formal/2012-05-07; Standard document URL: https://www.omg.org/spec/UML/ISO/19505-2/PDF
 
 * [[[iso9075,ISO/IEC 9075:2003]]], ISO/IEC JTC 1, ISO/IEC 9075:2003 -- Information Technology -- Database Languages - SQL.
 
 * [[[iso13249-3,ISO/IEC 13249-3:2006]]]
+
+* [[[iso19105:2022,ISO 19105:2022]]], Geographic information — Conformance and testing
 
 * [[[w3c-xml-part1,W3C xmlschema11-1]]], XML Schema 1.1 Part 1: Structures, 31 August 2006, available from W3C at http://www.w3.org/TR/xmlschema11-1/
 
