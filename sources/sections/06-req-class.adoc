@@ -3,6 +3,7 @@
 
 This clause defines the key concepts and requirements that define the ModSpec Core Requirements Class.
 
+[[cls-6-1]]
 === The ModSpec and the "Form" of a standard
 
 NOTE: For OGC Standards, the assumption is that documents are in a commonly used
@@ -85,7 +86,7 @@ The distribution of the information in a standard is not restricted. The only
 requirement is that requirements be grouped in a manner
 consistent with the conformance test classes, see <<req-6>> and <<req-7>>. 
 
-=== Requirements Class: Core
+=== ModSpec Requirements Class: Core
 
 The following requirements specify the rules for the content and structure of a modular standard. These requirements are also known as the `core` of the ModSpec.
 
