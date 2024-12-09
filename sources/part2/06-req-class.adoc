@@ -13,7 +13,7 @@ In informative sections, the use of the word "will" implies that something is an
 The ModSpec defines a "requirement" of a standard as an atomic testable
 criterion. See the formal definition of requirement in <<term-requirement>>
 
-[[cls-7-1]]
+[[cls-6-1]]
 ==== Requirements class: The XML schema extension to the core
 
 This requirements class covers any standard which has as one of its purposes
@@ -198,10 +198,10 @@ uses Schematron to create patterns or constrains for an XML Schema.
 |Dependency |OGC ModSpec Version 2 (need proper title and document number)
 |REQ045 | /req/part2/xml/schematron-xml-schema 
 |REQ046 | /req/part2/xml/sch-pattern-constraints 
-|REQ041 | /req/part2/xml/single-xml-space 
-|REQ042 | /req/part2/xml/all-components-uri
-|REQ043 | /req/part2/xml/direct-dependency
-|REQ044 | /req/part2/xml/no-element-modification
+|REQ047 | /req/part2/xml/pattern-to-element 
+|REQ048 | /req/part2/xml/fpi-attribute-is-uri
+|REQ049 | /req/part2/xml/see-attribute-is-identifier
+|REQ050 | /req/part2/xml/one-fpi-attribute-per-schema
 |===
 
 First the schema must be defined within the bounds of the XML schema requirements class.
@@ -231,33 +231,47 @@ requirement.
 
 [[req-47]]
 [requirement,model=ogc,type="general"]
-====
-#Each sch:pattern element shall be contained within one sch:schema element.#
-====
+[width="90%",cols="2,6"]
+|===
+|*REQ047* | */req/part1/xml/pattern-to-element* +
+Each sch:pattern element _SHALL_ be contained within one sch:schema element.
+|===
+
+The Formal Public Identifier (fpi) attribute names the Schematron schema. In the ModSpec Part 2 extension, this identifier is a URI.
 
 [[req-48]]
 [requirement,model=ogc,type="general"]
-====
-#The value of the sch:schema/@fpi attribute shall be a URI that identifies this
-implementation#
-====
+[width="90%",cols="2,6"]
+|===
+|*REQ048* | */req/part1/xml/fpi-attribute-is-uri* +
+The value of the sch:schema/@fpi attribute _SHALL_ be a URI that identifies this
+implementation.
+|===
+
+The @see attribute in Schematron provides a hypertext link to documentation or related material for each pattern, rule, or assertion. 
+This allows the Schematron schema to be integrated into a wider information system. In the ModSpec Part 2 extension, this attribute is the identifier for a 
+requirements class.
 
 [[req-49]]
 [requirement,model=ogc,type="general"]
-====
-#The value of the sch:schema/@see attribute shall be the identifier for the
-requirements class that contains the requirement(s) implemented by the schema#
-====
+[width="90%",cols="2,6"]
+|===
+|*REQ049* | */req/part1/xml/see-attribute-is-identifier* +
+The value of the sch:schema/@see attribute _SHALL_ be the identifier for the
+requirements class that contains the requirement(s) implemented by the schema
+|===
 
 [[req-50]]
 [requirement,model=ogc,type="general"]
-====
-#The value of the sch:schema/@fpi attribute shall be used on only one Schematron
-schema.#
-====
+[width="90%",cols="2,6"]
+|===
+|*REQ050* | */req/part1/xml/one-fpi-attribute-per-schema* +
+The value of the sch:schema/@fpi attribute _SHALL_ be used on only one Schematron
+schema.
+|===
 
-[[cls-7-2-5]]
-==== Optional Requirements class: XML meta-schema extension tothe ModSpec Core
+[[cls-6-3]]
+==== Optional Requirements class: XML meta-schema extension to the ModSpec Core.
 
 This requirements class covers any standard which has as one of its purposes
 the introduction of a new type of XML schema. Such a standard would normally
