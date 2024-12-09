@@ -31,7 +31,7 @@ include::02-conformance.adoc[]
 
 include::03-norm-refs.adoc[]
 
-include::s04-terms-and-defs.adoc[]
+include::04-terms-and-defs.adoc[]
 
 include::05-conventions.adoc[]
 
