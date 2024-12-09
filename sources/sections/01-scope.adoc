@@ -1,12 +1,17 @@
 [[cls-1]]
 == Scope
+The OGC Standard for Designing and Writing Modular Standards, also known as the `ModSpec`:
 
-The ModSpec defines characteristics and structure for the specification of Standards 
+- Specifies rules for the internal structure and organization of a standard. 
+- Defines requirements for specifying the structure of a standards document as organized sets of criteria, those that are to be tested ("requirements") and those that are not tested ("recommendations" and "permissions"). 
+- Designed to enable the clear and concise specification of requirements (the _shalls_ or _musts_ in a standard) that fully supports the ability to define implementable conformance tests. 
+
+The standardization goal of the ModSpec is to define characteristics and a structure for the specification of Standards 
 that will encourage implementation by minimizing difficulty determining
-requirements, mimicking implementation structure and maximizing usability and
+requirements, mimicking implementation structure, and maximizing usability and
 interoperability.
 
-NOTE: For OGC Standards work, the word “standard” in this document applies to all OGC draft standards, approved standards, draft Abstract Specifications, and approved Abstract Specifications. The exceptions are OGC Abstract Specifications that originate in ISO or Community Standards that are developed external to the OGC and then submitted to the OGC.
+NOTE: For OGC Standards work, the word “standard” in the ModSpec applies to all OGC draft standards, approved standards, draft Abstract Specifications, and approved Abstract Specifications. The exceptions are OGC Abstract Specifications that originate in ISO or Community Standards that are developed external to the OGC and then submitted to the OGC.
 
 <<Annex-B>> defines the UML model upon which the ModSpec is
 based. Annex B also contains informal and non-normative definitions ordered for ease
