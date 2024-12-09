@@ -29,9 +29,9 @@ schema, all of its components, and its intended uses.
 |REQ039 | /req/part2/xml/conformance-with-core 
 |REQ040 | /req/part2/xml/w3c-xml 
 |REQ041 | /req/part2/xml/single-xml-space 
-|REQ042 | /req/part2/xml/leaf-package
-|REQ043 | /req/part2/xml/class-package
-|REQ044 | /req/part2/xml/to-leaf
+|REQ042 | /req/part2/xml/all-components-uri
+|REQ043 | /req/part2/xml/direct-dependency
+|REQ044 | /req/part2/xml/no-element-modification
 |===
 
 
@@ -94,10 +94,12 @@ a single conformance test class _SHALL_ be scoped to a single XML namespace.
 
 [[req-42]]
 [requirement,model=ogc,type="general"]
-====
-#The all-components schema document for an XML Schema shall indicate the URI of the
-associated conformance test class in the schema/annotation/appinfo element.#
-====
+[width="90%",cols="2,6"]
+|===
+|*REQ042* | */req/part1/xml/all-components-uri* +
+The all-components schema document for an XML Schema _SHALL_ indicate the URI of the
+associated conformance test class in the schema/annotation/appinfo element.
+|===
 
 The mechanism for dependencies may either be by importation or by inclusion of
 schema components.
@@ -116,19 +118,28 @@ constant. Either of the above approaches may be used.
 
 [[req-43]]
 [requirement,model=ogc,type="general"]
-====
-#If a standard conformant to the XML schema conformance class defines a direct
+[width="90%",cols="2,6"]
+|===
+|*REQ043* | */req/part1/xml/direct dependency* +
+If a standard conformant to the XML schema conformance class defines a direct
 dependency from one requirement class to another, then a standardization target of
-the corresponding conformance test class shall import a schema that has passed the
+the corresponding conformance test class _SHALL_ import a schema that has passed the
 associated conformance test class (dependency) or shall itself pass the associated
-conformance test class.#
-====
+conformance test class.
+|===
 
 NOTE: This implies that the value of the schemaLocation on the `<import>` element
 will refer to the all-components schema document.
 
-*#An all-components schema document may be assembled by inclusion of documents that
-describe subsets of the components associated with the conformance test class.#*
+[[per-11]]
+[permission,model=ogc,type="general"]
+[width="90%",cols="2,6"]
+|===
+|*PER011* | */per/part1/xml/schema-assembly* +
+An all-components schema document _MAY_ be assembled by inclusion of documents that
+describe subsets of the components associated with the conformance test class.
+|===
+
 This allows schema designers to do some modularization within a namespace for
 convenience, notwithstanding the requirement for an all-components schema document.
 
@@ -140,13 +151,22 @@ application schema becomes a variable in the conformance test cases.
 
 [[req-44]]
 [requirement,model=ogc,type="general"]
-====
-#No requirements class in a specification conformant to the XML schema conformance
-class shall modify elements, types or any other requirement from a namespace to
-which it is not associated.#
-====
+[width="90%",cols="2,6"]
+|===
+|*REQ044* | */req/part1/xml/no-element-modification* +
+The all-components schema document for an XML Schema _SHALL_ indicate the URI of the
+associated conformance test class in the schema/annotation/appinfo element.
+|===
 
-*#Requirements may add constraints.#* This allows extensions to restrict:
+[[per-12]]
+[permission,model=ogc,type="general"]
+[width="90%",cols="2,6"]
+|===
+|*PER012* | */per/part1/xml/add-constraints* +
+Requirements may add constraints.
+|===
+
+This allows extensions to restrict:
 
 . Usage of existing elements, but only if their use was originally optional. This is
 similar to the rules for inheritance (such as in UML or other object models), where
@@ -162,7 +182,7 @@ conformance class per XML namespace; i.e. the set of components in an XML namesp
 should be referred to as a whole. Subsetting of components in a single XML namespace
 for conformance purposes is not permitted.
 
-[[cls-7-2-4]]
+[[cls-6-2]]
 
 ==== Optional Requirements class: Schematron extension
 
