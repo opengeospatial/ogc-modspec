@@ -62,14 +62,14 @@ against a candidate {{standardization target}}.
 === UML Model
 
 [[fig-C-1]]
-.Specification structure
+. Structure
 image::img02.png[]
 
-<<fig-C-1>> represents a UML model consistent with the specification model described
-in <<cls-6-1>>. The following subclauses describe the classes shown in this UML
+<<fig-C-1>> represents a UML model consistent with the model described
+in <<cls-6-1>> of this document. The following subclauses describe the classes shown in this UML
 class diagram.
 
-=== Specification
+=== Standard
 
 [lutaml_uml_attributes_table,models/ogc-modspec.lutaml, Specification, skip]
 
