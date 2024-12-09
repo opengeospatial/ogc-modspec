@@ -1,0 +1,223 @@
+[[cls-6]]
+== Requirements Class: Part 2: XML
+
+This clause defines the key concepts and requirements that represent Part 2 of the ModSpec.
+
+=== The ModSpec and the "Form" of a standard
+
+NOTE: For OGC Standards, the assumption is that documents are in a commonly used
+logical form (template). 
+
+In informative sections, the use of the word "will" implies that something is an implication of a requirement. The "will" statements are not requirements but explain the consequence of requirements.
+
+The ModSpec defines a "requirement" of a standard as an atomic testable
+criterion. See the formal definition of requirement in <<term-requirement>>
+
+[[cls-7-1]]
+==== Requirements class: The XML schema extension to the core
+
+This requirements class covers any standard which has as one of its purposes
+the introduction of a new XML schema. Such a standard would normally define the
+schema, all of its components, and its intended uses.
+
+First, by the requirements above, the extension relationship of this conformance
+test class to the core must be made explicit.
+
+[[req-39]]
+[requirement,model=ogc,type="general"]
+====
+#An implementation passing the XML schema conformance test class shall first pass
+the ModSpec core conformance test class.#
+====
+
+[[req-40]]
+[requirement,model=ogc,type="general"]
+====
+#An implementation passing the XML schema conformance test class shall first pass
+the W3C Recommendation for XML schema.#
+====
+
+Each XML schema file (usually *.xsd) carries a target namespace specification, recorded in the
+`targetNamespace` attribute of the `<schema>` element in the XML representation. In
+its implementation, this namespace is represented by a globally unique identifier, a
+URI. All schema components defined with that URI as its namespace designation are
+part of the same module in XML schema.
+
+The XML Schema specification lists those resolution strategies for namespace and
+schema that a schema-aware process may use. They work in a predictable fashion
+independent of the choice of strategy if and only if the schemas are in a one to one
+correspondence to their namespace. A schema may be dependent on another schema and
+may contain "import" directives that load all such schemas whenever it is loaded.
+
+When a process loads a schema as defined by its namespace URI
+identity, it must always get a linkage to all components in that namespace. If not,
+then at sometime in the future, the process will fail when it finds a reference to
+such a component that it missed. To prevent this sort of failure, when a
+schema-aware process first encounters a namespace URI it must always be associated
+to a schema location (a file) that contains or includes all schema components having
+the URI as their namespace. This is referred to as the "all-components schema
+document".
+
+In defining a XML schema (either completely, or partially in a standard) the
+fundamental component or module of XML schema is always the namespace and its
+associated schema; which is designated by a URI.
+
+[[req-41]]
+[requirement,model=ogc,type="general"]
+====
+#If a standard conformant to the XML schema conformance class defines a set of
+data schemas, all components (e.g. elements, attributes, types ...) associated with
+a single conformance test class shall be scoped to a single XML namespace.#
+====
+
+[[req-42]]
+[requirement,model=ogc,type="general"]
+====
+#The all-components schema document for an XML Schema shall indicate the URI of the
+associated conformance test class in the schema/annotation/appinfo element.#
+====
+
+The mechanism for dependencies may either be by importation or by inclusion of
+schema components.
+
+[example]
+====
+In GML 3, the spatial schema (ISO 19107) and the general feature model (ISO 19109)
+are both satisfied by elements within the single GML namespace. A viable alternative
+would to have put the schema components for spatial schema and feature schema in
+separate namespaces.
+====
+
+This is a choice of design, and at the level of the ModSpec, the trade-off factors
+cannot be prejudged because the details of such cost-benefit trade-offs are not
+constant. Either of the above approaches may be used.
+
+[[req-43]]
+[requirement,model=ogc,type="general"]
+====
+#If a standard conformant to the XML schema conformance class defines a direct
+dependency from one requirement class to another, then a standardization target of
+the corresponding conformance test class shall import a schema that has passed the
+associated conformance test class (dependency) or shall itself pass the associated
+conformance test class.#
+====
+
+NOTE: This implies that the value of the schemaLocation on the `<import>` element
+will refer to the all-components schema document.
+
+*#An all-components schema document may be assembled by inclusion of documents that
+describe subsets of the components associated with the conformance test class.#*
+This allows schema designers to do some modularization within a namespace for
+convenience, notwithstanding the requirement for an all-components schema document.
+
+NOTE: A namespace variable is used if the requirements class is not defining a
+schema, but defining requirements for a schema to be the target of its conformance
+class. For example, GML defines requirements for application schemas, but does not a
+priori know the namespace of any application schema. The namespace for the
+application schema becomes a variable in the conformance test cases.
+
+[[req-44]]
+[requirement,model=ogc,type="general"]
+====
+#No requirements class in a specification conformant to the XML schema conformance
+class shall modify elements, types or any other requirement from a namespace to
+which it is not associated.#
+====
+
+*#Requirements may add constraints.#* This allows extensions to restrict:
+
+. Usage of existing elements, but only if their use was originally optional. This is
+similar to the rules for inheritance (such as in UML or other object models), where
+a class can eliminate an attribute from a superclass only if the superclass
+attribute includes a "0" in its multiplicity range.
+. The type of existing elements, to sub-types of the original elements. This is
+similar to the rules for inheritance, where a class can re-define an attribute or
+association role from a superclass so that its type or class is a specialization of
+the original.
+
+In summary, effective modularization is enabled by following the pattern of one
+conformance class per XML namespace; i.e. the set of components in an XML namespace
+should be referred to as a whole. Subsetting of components in a single XML namespace
+for conformance purposes is not permitted.
+
+[[cls-7-2-4]]
+==== Optional Requirements class: Schematron extension to the ModSpec Core
+
+Schematron (<<iso19757-3>>) provides a notation with which many constraints on XML
+documents can be expressed. This requirements class covers any standard that
+uses Schematron to create patterns or constrains for an XML Schema. First the schema
+must be defined within the bounds of the XML schema requirements class.
+
+[[req-45]]
+[requirement,model=ogc,type="general"]
+====
+#A standard passing the Schematron conformance test class shall also define or
+reference an XML schema that shall pass the XML schema conformance class from this
+standard.#
+====
+
+Within a Schematron schema, the "pattern" and "schema" elements may be used in a way
+that corresponds with conformance tests and a conformance test class as follows:
+
+[[req-46]]
+[requirement,model=ogc,type="general"]
+====
+#Each sch:pattern element shall implement constraints described in no more than one
+requirement. Each requirement shall be implemented by no more than one sch:pattern.#
+====
+
+[[req-47]]
+[requirement,model=ogc,type="general"]
+====
+#Each sch:pattern element shall be contained within one sch:schema element.#
+====
+
+[[req-48]]
+[requirement,model=ogc,type="general"]
+====
+#The value of the sch:schema/@fpi attribute shall be a URI that identifies this
+implementation#
+====
+
+[[req-49]]
+[requirement,model=ogc,type="general"]
+====
+#The value of the sch:schema/@see attribute shall be the identifier for the
+requirements class that contains the requirement(s) implemented by the schema#
+====
+
+[[req-50]]
+[requirement,model=ogc,type="general"]
+====
+#The value of the sch:schema/@fpi attribute shall be used on only one Schematron
+schema.#
+====
+
+[[cls-7-2-5]]
+==== Optional Requirements class: XML meta-schema extension tothe ModSpec Core
+
+This requirements class covers any standard which has as one of its purposes
+the introduction of a new type of XML schema. Such a standard would normally
+define the characteristics of such schema, how its components are created and its
+intended uses.
+
+First, by the requirements above, the extension relationship of this conformance
+test class to the core must be made explicit.
+
+[[req-51]]
+[requirement,model=ogc,type="general"]
+====
+#A standard passing the XML meta-schema conformance test class shall first pass
+the core specification conformance test class.#
+====
+
+Since the target specification will be defining requirements for XML schemas, it
+will require that the ModSpec be used.
+
+[[req-52]]
+[requirement,model=ogc,type="general"]
+====
+#A standard passing the XML meta-schema conformance test class shall require
+that its specification targets (XML schema) pass the XML schema conformance class
+from the ModSpec.#
+====
