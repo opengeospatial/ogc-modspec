@@ -1,0 +1,64 @@
+== Conventions
+
+=== Symbols (and abbreviated terms)
+
+All symbols used in this document are either:
+
+. Common mathematical symbols
+. UML 2 (Unified Modeling Language) as defined by OMG and accepted as a publicly
+available standard (PAS) by ISO in its earlier 1.3 version.
+
+=== Identifiers
+
+The normative provisions in this standard are denoted by the URI namespace
+
+https://www.opengis.net/spec/modspec/part1/1.1/
+
+All requirements that appear in this document are denoted by partial URIs which are relative to the namespace shown above.
+
+For the sake of brevity, the use of “req” in a requirement URI denotes:
+
+https://www.opengis.net/spec/modspec/part1/1.1/
+
+An example might be:
+
+/req/core/crs
+
+All conformance tests that appear in this document are denoted by partial URIs which are relative to the namespace shown above.
+
+For the sake of brevity, the use of “conf” in a requirement URI denotes:
+
+https://www.opengis.net/spec/modspec/part1/1.1/
+
+The same convenstion is used for permissions (per) and recommendations (rec).
+
+=== Abbreviations
+
+In this document the following abbreviations and acronyms are used or introduced:
+
+ERA:: Entity, Relation, Attribute (pre-object modeling technique)
+ISO:: International Organization for Standardization (from Greek for "same")
+OGC:: Open Geospatial Consortium (http://www.opengeospatial.org/)
+OOP:: Object Oriented Programming
+OOPL:: OOP Language (such as C++ or Java)
+TC:: Technical Committee (usually either in ISO or OGC)
+UML:: Unified Modeling Language (an object modeling language)
+XML:: eXtensible Markup Language
+OMG:: Object Management Group (http://www.omg.org/)
+OCL:: Object Constraint Language (part of UML)
+
+[[cls-5-3]]
+=== Finding requirements and recommendations
+
+Each normative statement in the ModSpec Part 1 Standard is stated in one and only one place,
+in a standard format, and with an unique label, such as REQ001, REC001, or PER001. A requirement, recommendation, or permission may be repeated for clarification. 
+The statement with the unique label is considered the official statement of the normative requirement or recommendation. 
+
+In this document, all requirements are associated with tests specified in the test suite
+in <<annex-A>>. The reference to the requirement in the test case is done by a
+requirements label Recommendations are not tested although they still are documented using a standard template and have unique identifiers.
+
+Requirements classes are separated into their own clauses and named, and specified
+according to inheritance (direct dependencies). The Conformance test classes in the
+test suite are similarly named to establish an explicit and link between
+requirements classes and conformance test classes.
