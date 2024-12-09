@@ -4,18 +4,12 @@
 [.boilerplate]
 === {blank}
 
-
 For the purposes of this document, the following terms and definitions shall apply.
 Terms not defined here take their meaning from computer science or from their
 Standard English (common US and UK) meanings. The form of the definitions is
 defined by ISO Directives.
 
 Many of these definitions depend upon the model given in <<cls-6-1>>.
-
-=== all-components schema document
-
-XML schema document which includes, either directly or through the inclusion of
-other schema documents, all schema components associated to its namespace
 
 === building block
 
@@ -82,7 +76,6 @@ Each requirements class will be in a 1 to 1 correspondence to a similarly named
 
 All {{requirement,requirements}} in a <<conformance-class,_conformance class_>>
 will have the same {{standardization target}}.
-
 ====
 
 === conformance suite
@@ -197,7 +190,6 @@ requirement to aid in the discussion and understanding of the official version
 of the normative language. Since such restatements are often less formal than
 the original source and potentially subject to alternate interpretation, it is
 important to know the location of the *home* official version of the language.
-
 ====
 
 === model
@@ -232,7 +224,6 @@ conforming subsets, options and parameters of those base standards, or
 profiles necessary to accomplish a particular function.
 
 [NOTE]
-
 ====
 In the usage of this Policy, a profile will be a set of requirements classes
 or conformance classes (either preexisting or locally defined) of the base
@@ -333,7 +324,6 @@ This definition is included for completeness. {{standard,Standard}} and
 {{specification}} can apply to the same document. While {{specification}} is
 always valid, {{standard}} only applies after the adoption of the document by a
 legitimate standards organization.
-
 ====
 
 === standardization target
