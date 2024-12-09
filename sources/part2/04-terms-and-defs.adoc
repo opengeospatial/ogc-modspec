@@ -1,0 +1,12 @@
+[[cls-4]]
+== Terms and definitions
+
+[.boilerplate]
+=== {blank}
+
+For the purposes of this document, the following terms and definitions shall apply.
+Terms not defined here take their meaning from computer science or from their
+Standard English (common US and UK) meanings. The form of the definitions is
+defined by ISO Directives.
+
+NOTE: All terms and definitions in Clause 4 of the OGC ModSpec: Core are relevant and used in this Part 2.
