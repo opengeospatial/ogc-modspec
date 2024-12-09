@@ -188,26 +188,46 @@ for conformance purposes is not permitted.
 
 Schematron (<<iso19757-3>>) provides a notation with which many constraints on XML
 documents can be expressed. This requirements class covers any standard that
-uses Schematron to create patterns or constrains for an XML Schema. First the schema
-must be defined within the bounds of the XML schema requirements class.
+uses Schematron to create patterns or constrains for an XML Schema. 
+
+[cols="1,4",width="90%"]
+|===
+2+|*Requirements Class - XML schmeatron extension to the core* 
+2+|/req/core/data-representation 
+|Target | ModSpec Conformant XML Model
+|Dependency |OGC ModSpec Version 2 (need proper title and document number)
+|REQ045 | /req/part2/xml/schematron-xml-schema 
+|REQ046 | /req/part2/xml/sch-pattern-constraints 
+|REQ041 | /req/part2/xml/single-xml-space 
+|REQ042 | /req/part2/xml/all-components-uri
+|REQ043 | /req/part2/xml/direct-dependency
+|REQ044 | /req/part2/xml/no-element-modification
+|===
+
+First the schema must be defined within the bounds of the XML schema requirements class.
 
 [[req-45]]
 [requirement,model=ogc,type="general"]
-====
-#A standard passing the Schematron conformance test class shall also define or
+[width="90%",cols="2,6"]
+|===
+|*REQ045* | */req/part1/xml/schematron-xml-schema* +
+A standard passing the Schematron conformance test class _SHALL_ also define or
 reference an XML schema that shall pass the XML schema conformance class from this
-standard.#
-====
+standard.
+|===
 
 Within a Schematron schema, the "pattern" and "schema" elements may be used in a way
 that corresponds with conformance tests and a conformance test class as follows:
 
 [[req-46]]
 [requirement,model=ogc,type="general"]
-====
-#Each sch:pattern element shall implement constraints described in no more than one
-requirement. Each requirement shall be implemented by no more than one sch:pattern.#
-====
+[width="90%",cols="2,6"]
+|===
+|*REQ046* | */req/part1/xml/sch-pattern-constraints* +
+^| A |Each sch:pattern element _SHALL_ implement constraints described in no more than one
+requirement. 
+^| B |Each requirement _SHALL_ be implemented by no more than one sch:pattern.
+|===
 
 [[req-47]]
 [requirement,model=ogc,type="general"]
