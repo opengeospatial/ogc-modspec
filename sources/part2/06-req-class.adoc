@@ -20,6 +20,21 @@ This requirements class covers any standard which has as one of its purposes
 the introduction of a new XML schema. Such a standard would normally define the
 schema, all of its components, and its intended uses.
 
+[cols="1,4",width="90%"]
+|===
+2+|*Requirements Class - XML extension to the core* 
+2+|/req/core/data-representation 
+|Target | ModSpec Conformant XML Model
+|Dependency |OGC ModSpec Version 2 (need proper title and document number)
+|REQ039 | /req/part2/xml/conformance-with-core 
+|REQ040 | /req/part2/xml/object-model 
+|REQ041 | /req/part2/xml/dependency-graph 
+|REQ042 | /req/part2/xml/leaf-package
+|REQ043 | /req/part2/xml/class-package
+|REQ044 | /req/part2/xml/to-leaf
+|===
+
+
 First, by the requirements above, the extension relationship of this conformance
 test class to the core must be made explicit.
 
@@ -141,7 +156,8 @@ should be referred to as a whole. Subsetting of components in a single XML names
 for conformance purposes is not permitted.
 
 [[cls-7-2-4]]
-==== Optional Requirements class: Schematron extension to the ModSpec Core
+
+==== Optional Requirements class: Schematron extension
 
 Schematron (<<iso19757-3>>) provides a notation with which many constraints on XML
 documents can be expressed. This requirements class covers any standard that
