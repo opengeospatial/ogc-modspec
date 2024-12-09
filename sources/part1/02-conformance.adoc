@@ -3,7 +3,7 @@
 Conformance to the ModSpec Part 1: UML by technical implementation standards 
 can be tested by inspection. The test suite is in <<annex-A>>.
 
-There is on conformance class for this document for:
+There is one conformance class for this document for:
 
 . Standards using UML to state requirements, extending the core.
 
