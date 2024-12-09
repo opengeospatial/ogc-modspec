@@ -1,3 +1,4 @@
+[[cls-1]]
 == Scope
 
 The ModSpec defines characteristics and structure for the specification of Standards 
