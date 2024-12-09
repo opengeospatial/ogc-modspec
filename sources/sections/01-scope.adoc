@@ -12,8 +12,8 @@ based. Annex B also contains informal and non-normative definitions ordered for 
 of understanding. These two sections can be read first to aid in the understanding of
 the rest of the document.
 
-[[introduction]]
-=== Introduction - Things to know
+[[things-to-know]]
+=== Things to know
 
 NOTE: Reading the Terms and Definitions clause and Clause <TBD> will help understanding the content and
 requirements stated in this document.
@@ -74,9 +74,7 @@ Version 2.0 of the ModSpec is split into a Core standard and multiple Parts. The
 
 - Core: contains all the core requirements and informational text that define the model and internal structure of a standard.
 - Part 1: UML Model requirements 
-- Part 2: XML Model requirements 
-- Part 3: Schematron requirements 
-- Part 4: XML Metaschema requirements
+- Part 2: XML and Schematron Model requirements 
 
 Future Parts to the ModSpec Standard may include:
 
