@@ -1,3 +1,4 @@
+[[cls-2]]
 == Conformance
 
 Conformance to the ModSpec by technical implementation standards 
