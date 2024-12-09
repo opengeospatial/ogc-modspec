@@ -12,8 +12,8 @@ based. Annex B also contains informal and non-normative definitions ordered for 
 of understanding. These two sections can be read first to aid in the understanding of
 the rest of the document.
 
-[[introduxtion]]
-== Introduction
+[[introduction]]
+=== Introduction - Things to know
 
 NOTE: Reading the Terms and Definitions clause and Clause <TBD> will help understanding the content and
 requirements stated in this document.
@@ -32,7 +32,7 @@ A standard that follows the rules specified in the ModSpec presents requirements
 
 There are numerous examples of requirements/conformance classes that can be used not only in OGC Standards, but for geospatially focused standards defined by other organizations and Standards Development Organizations (SDOs). Some OGC examples can be found in the https://docs.ogc.org/is/19-072/19-072.html[OGC API - Common Part 1: Core Standard] and in the https://github.com/opengeospatial/cdbswg/blob/master/cdb-2.0/cdb-core-crs-requirements-class.adoc[CDB 2.0 Standard CRS Requirements Module]. By formally implementing the requirements specified in the ModSpec, reusable, modular standards can be developed.
 
-=== The ModSpec and the "Form" of a standard
+==== The ModSpec and the "Form" of a standard
 
 NOTE: For OGC Standards, the assumptions is that documents are in a commonly used
 logical form (template). 
@@ -68,7 +68,7 @@ criterion. See the formal definition of requirement in <<term-requirement>>
 
 A UML representation of important properties of this model is given in <<annex-B-2>>.
 
-=== ModSpec document structure
+==== ModSpec document structure
 
 Version 2.0 of the ModSpec is split into a Core standard and multiple Parts. These are:
 
@@ -82,7 +82,7 @@ Future Parts to the ModSpec Standard may include:
 
 - Part 5: RDF/OWL requirements
 
-=== Building Blocks
+==== Building Blocks
 
 In software development technology, there is a concept called _building block_. In software development, building blocks are used to support the software build process where source code files/libraries can be accessed from multiple sources, converted into executable code, and linked together in the proper order until a complete set of executable files is generated. The same concept can be applied to OGC Standards development: Requirements classes and/or modules can be linked together from one or more standards to create a new standard not originally envisioned when the requirements were originally defined.
 
