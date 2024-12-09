@@ -210,6 +210,9 @@ Cambridge Dictionary
 
 An optional requirements class may or may not be implemented or specified in a profile or extension. However, if a profile, extension, or implementation specifies the use of an optional requirements class, then every requirement in that requirements class _shall_ be implemented.
 
+=== part of a requirment
+Collection of requirements that are parts to a requirement. Satisfaction of all requirement parts are necessary for this requirement to be satisfied. The use of `parts` is optional.
+
 === permission 
 
 uses "may" and is used to prevent a requirement from being "over interpreted" and as such is considered to be more
