@@ -1,0 +1,20 @@
+[[cls-3]]
+[bibliography]
+== Normative references
+
+// [.boilerplate]
+// === {blank}
+
+While the ModSpec Part 1 Standard references UML and its technical specification,
+no requirements are derived from these documents. While this document
+may be applied to extensions of those standards, conformance to them is the purview
+of those standards, not the ModSpec.
+
+The following are normative references for this document in the sense that they
+supplied definitions used in this document.
+
+* [[[w3c-sp1,W3C xmlschema-1]]], W3C XML Schema Part 1: Structures Second Edition. W3C Recommendation (28 October 2004)
+
+* [[[w3c-sp2,W3C xmlschema-2]]], W3C XML Schema Part 2: Datatypes Second Edition. W3C Recommendation (28 October 2004)
+
+* [[[iso19757-3,ISO/IEC 19757-3:2006]]]
