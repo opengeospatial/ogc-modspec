@@ -17,9 +17,7 @@ supplied definitions used in this document.
 
 * [[[iso-dp2,ISO/IEC DIR 2]]], available at https://isotc.iso.org/livelink/livelink?func=ll&objId=4230456&objAction=browse&sort=subtype[ISO/IEC Directives, Part 2: Rules for the structure and drafting of International Standards]
 
-* [[[iso19105,ISO 19105]]]
-
-* [[[iso19501,ISO/IEC 19501]]]
+* [[[iso19105:2022,ISO 19105:2022]]], Geographic information — Conformance and testing
 
 * [[[omg-infrastructure,OMG UML/2.5/Infrastructure]]], OMG Unified Modeling Language (OMG UML), Infrastructure, V2.5, OMG Document Number: formal/2015-03-01, Standard document URL: https://www.omg.org/spec/UML/2.5
 
