@@ -6,7 +6,7 @@ can be tested by inspection. The test suite is in <<annex-A>>.
 There are two conformance classes in this document for:
 
 . Standards using XML to state requirements, extending the core.
-. Standards using Schematron
+. Standards using Schematron. This class covers any standard that uses Schematron to create patterns or constraints for an XML Schema.
 
 This document contains normative language and thus places requirements on
 conformance, or mechanism for adoption, of candidate standards to which the ModSpec
