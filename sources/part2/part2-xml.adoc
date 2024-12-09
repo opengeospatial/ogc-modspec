@@ -3,7 +3,7 @@
 :docsubtype: logical-model
 :status: Draft
 :committee: technical
-:docnumber: 24-xxx
+:docnumber: 24-066
 :edition: 1.1.0
 :received-date: 2024-12-15
 :issued-date: xxxx-xx-xx
@@ -37,4 +37,4 @@ include::05-conventions.adoc[]
 
 include::06-req-class.adoc[]
 
-include::aa-abstract-class[]
+include::aa-abstract-class.adoc[]
