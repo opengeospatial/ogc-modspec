@@ -5,7 +5,7 @@ The OGC Standard for Designing and Writing Modular Standards, also known as the 
 - Specifies rules for the internal structure and organization of a standard. 
 - Defines requirements for specifying the structure of a standards document as organized sets of criteria, those that are to be tested ("requirements") and those that are not tested ("recommendations" and "permissions"). 
 - Is designed to enable the clear and concise specification of requirements (the _shalls_ or _musts_ in a standard) that fully supports the ability to define implementable conformance tests. 
-- By formally implementing the requirements specified in the ModSpec, reusable, modular standards can be developed.
+- Formalizes implementing the requirements specified in the ModSpec so that reusable, modular standards can be developed.
 
 The standardization goal of the ModSpec is to define characteristics and a structure for the specification of Standards 
 that will encourage implementation by minimizing difficulty determining
