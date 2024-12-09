@@ -1,0 +1,32 @@
+== Scope
+
+The OGC ModSpec Standard defines characteristics and structure for the specification of Standards 
+that will encourage implementation by minimizing difficulty determining
+requirements, mimicking implementation structure and maximizing usability and
+interoperability. Part 2 of the ModSpec defines the requirements for using XML. This requirements class covers any standard which has as one of its purposes
+the introduction of a new XML schema. Such a standard would normally define the
+schema, all of its components, and its intended uses.
+
+[[introduction]]
+=== Introduction
+
+==== Semantics
+
+The ModSpec Core Standard defines requirements for conformance to the ModSpec, but
+testing for that conformance may depend on how the various forms and parts of a
+conformant standard are viewed. The ModSpec Part 1 Standard specifies how those views
+are to be defined as UML. 
+
+As suggested in Clause <<req-22>> of the Core, the structure of the normative clauses in a
+standard should parallel the structure of the conformance test classes in
+that standard. The structure of the normative clauses in a well written
+standard will follow the structure of its model. This means that all three are
+parallel.
+
+==== ModSpec document structure
+
+Version 2.0 of the ModSpec is split into a Core standard and multiple Parts. These are:
+
+- Core: contains all the core requirements and informational text that define the model and internal structure of a standard.
+- Part 1: UML Model requirements 
+- Part 2: XML Model and Schematron requirements 
