@@ -3,7 +3,7 @@
 Conformance to the ModSpec Part 2: XML by technical implementation standards 
 can be tested by inspection. The test suite is in <<annex-A>>.
 
-There is on conformance class for this document:
+There is one conformance class in this document for:
 
 . Standards using XML to state requirements, extending the core.
 
