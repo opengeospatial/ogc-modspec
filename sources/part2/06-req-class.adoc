@@ -40,10 +40,13 @@ test class to the core must be made explicit.
 
 [[req-39]]
 [requirement,model=ogc,type="general"]
-====
-#An implementation passing the XML schema conformance test class shall first pass
-the ModSpec core conformance test class.#
-====
+
+[width="90%",cols="2,6"]
+|===
+|*REQ039* | */req/part1/xml/conformance-with-core* +
+An implementation passing the XML conformance test class _SHALL_ first pass the ModSpec Core
+conformance test class
+|===
 
 [[req-40]]
 [requirement,model=ogc,type="general"]
