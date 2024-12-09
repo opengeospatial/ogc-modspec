@@ -1,7 +1,7 @@
 [[cls-6]]
-== Requirements Class: Core
+== Key Concepts and the ModSpec Core Requirements Class
 
-This clause defines the key concepts and requirements that represent the Core of the ModSpec.
+This clause defines the key concepts and requirements that define the ModSpec Core Requirements Class.
 
 === The ModSpec and the "Form" of a standard
 
@@ -15,7 +15,7 @@ criterion. See the formal definition of requirement in <<term-requirement>>
 
 A UML representation of important properties of this model is given in <<annex-B-2>>.
 
-=== Standardization Context - Goals and Targets
+==== Standardization Context - Goals and Targets
 
 Every OGC Standard document shall include a Standardization Goal. This is a concise statement of the problem that the Standard helps address and the strategy envisioned for achieving a solution.  This strategy typically identifies real-world entities that need to be modified or constrained.  At the abstract level, those entities are the Standardization Target Types.  These are the classes of entities to be standardized. A Standard defines the requirements levied on one or more Standardization Target Types. 
 
@@ -29,7 +29,7 @@ Standardization Target Types can be hierarchical.  The Conceptual, Logical, Phys
 
 Notice that the Standardization Targets and Standardization Target Types no longer form a simple taxonomy. The Standardization Target Types, Standardization Targets, and Standardization Goal provide a well-defined context for the standard.  This will help users of standards to quickly understand the scope of a Standard and to select those Standards appropriate for their needs. It also will help keep Standards developers focused on the intended use of their standards, avoiding standards which are overly broad and/or unfocused.
 
-=== Conformance, Requirements, and key information
+==== Conformance, Requirements, and key information
 
 In the conformance test suite, there will be a test defined to verify the validity of
 the claim that an implementation of the standard (standardization target) satisfies
@@ -85,7 +85,7 @@ The distribution of the information in a standard is not restricted. The only
 requirement is that requirements be grouped in a manner
 consistent with the conformance test classes, see <<req-6>> and <<req-7>>. 
 
-== Requirements Class: Core
+=== Requirements Class: Core
 
 The following requirements specify the rules for the content and structure of a modular standard. These requirements are also known as the `core` of the ModSpec.
 
@@ -201,7 +201,7 @@ class in which the request-response pair is defined and set against requirements
 ====
 
 [[cls-6-2]]
-=== Using the model
+==== Using the model
 
 The primary difficulty in speaking about standards (or candidate
 standards){blank}footnote:[This is purposely written as "as not yet adopted"
@@ -301,7 +301,7 @@ image::img01.png[]
 ====
 
 [[cls-6-3]]
-=== The "standards" document
+==== The "standards" document
 
 Each standard document is comprised of a set of requirements and their associated conformance tests.
 
@@ -334,7 +334,7 @@ should be reflected in the organization of the conformance tests and classes, an
 also in the structure of the normative clauses in the specification document.
 
 [[cls-6-4]]
-=== Conformance Test Suite
+==== Conformance Test Suite
 
 The requirements specified in this clause will be applied directly to the test suite, and in particular
 to the conformance classes. By definition, a "test suite" is a collection of
@@ -364,10 +364,10 @@ and thus to the various certificate of conformance types possible for a candidat
 
 Strict parallelism of implementation and governance is the essence of this standard.
 
-=== Requirements for Modularity
+==== Requirements for Modularity
 
 [[cls-6-5-1]]
-==== Each Conformance class tests a complete requirements class
+===== Each Conformance class tests a complete requirements class
 
 [[req-9]]
 [requirement,model=ogc,type="general"]
