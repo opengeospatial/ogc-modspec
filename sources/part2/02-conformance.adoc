@@ -3,9 +3,10 @@
 Conformance to the ModSpec Part 2: XML by technical implementation standards 
 can be tested by inspection. The test suite is in <<annex-A>>.
 
-There is one conformance class in this document for:
+There are two conformance classes in this document for:
 
 . Standards using XML to state requirements, extending the core.
+. Standards using Schematron
 
 This document contains normative language and thus places requirements on
 conformance, or mechanism for adoption, of candidate standards to which the ModSpec
