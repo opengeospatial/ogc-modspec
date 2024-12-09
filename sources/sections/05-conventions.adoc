@@ -30,7 +30,7 @@ For the sake of brevity, the use of “conf” in a requirement URI denotes:
 
 https://www.opengis.net/spec/modspec/1.1/
 
-The same convenstion is used for permissions (per) and recommendations (rec).
+The same convention is used for permissions (per) and recommendations (rec).
 
 === Abbreviations
 
