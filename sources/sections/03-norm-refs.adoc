@@ -21,9 +21,9 @@ supplied definitions used in this document.
 
 * [[[iso19501,ISO/IEC 19501]]]
 
-* [[[omg-infrastructure,OMG UML/2.1.2/Infrastructure]]], OMG Unified Modeling Language (OMG UML), Infrastructure, V2.1.2, OMG Document Number: formal/2007-11-04, Standard document URL: http://www.omg.org/spec/UML/2.1.2/Infrastructure/PDF
+* [[[omg-infrastructure,OMG UML/2.5/Infrastructure]]], OMG Unified Modeling Language (OMG UML), Infrastructure, V2.5, OMG Document Number: formal/2015-03-01, Standard document URL: https://www.omg.org/spec/UML/2.5
 
-* [[[omg-superstructure,OMG UML/2.1.2/Superstructure]]], OMG Unified Modeling Language (OMG UML), Superstructure, V2.1.2, OMG Document Number: formal/2007-11-02; Standard document URL: http://www.omg.org/spec/UML/2.1.2/Superstructure/PDF
+* [[[omg-superstructure,OMG UML/2.4.1/Superstructure]]], OMG Unified Modeling Language (OMG UML), Superstructure, V2.4.1, OMG Document Number: formal/2012-05-07; Standard document URL: https://www.omg.org/spec/UML/ISO/19505-2/PDF
 
 * [[[iso19757-3,ISO/IEC 19757-3:2006]]]
 
