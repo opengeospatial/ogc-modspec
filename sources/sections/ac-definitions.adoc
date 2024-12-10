@@ -62,11 +62,11 @@ against a candidate {{standardization target}}.
 === UML Model
 
 [[fig-C-1]]
-. Structure
+
 image::img02.png[]
 
-<<fig-C-1>> represents a UML model consistent with the model described
-in <<cls-6-1>> of this document. The following subclauses describe the classes shown in this UML
+<<Figure 1,fig-C-1>> represents a UML model consistent with the model described
+in <<Clause 6.1,cls-6-1>> of this document. The following subclauses describe the classes shown in this UML
 class diagram.
 
 === Standard
