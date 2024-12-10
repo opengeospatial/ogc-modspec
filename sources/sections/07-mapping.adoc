@@ -3,18 +3,18 @@
 
 === Semantics
 
-The previous section defines requirements for conformance to the ModSpec, but
+The previous section defines requirements for conformance to the ModSpec Hpwever,
 testing for that conformance may depend on how the various forms and parts of a
-conformant standard are viewed. This clause specifies how those views
-are to be defined in most of the common cases. Standards that take an alternative
-mechanism to the ones listed here must be tested solely on the structure of their
-conformance test suite, until an extension to ModSpec is defined for that
+conformant standard are viewed. Additional Parts to the ModSpec Standard specify how those views
+are to be defined. Standards that take an alternative
+mechanism to the ones defined in the additional Parts must be tested solely on the structure of their
+conformance test suite until such times as an extension to the ModSpec is defined for that
 alternate mechanism.
 
 Standards are often structured about some form of modeling language, or
-implementation paradigm. This clause looks at some common types of models and
-defines a mechanism to map parts of the model (language, schema, etc.) to the
-conformance classes used as the model from <<cls-6-1>>.
+implementation paradigm. Additional Parts to the ModSpec
+define a mechanism to map parts of the model (language, schema, etc.) to the
+conformance classes used as the model from <<Clause 6.1,cls-6-1>>.
 
 As suggested in Clause <<req-22>>, the structure of the normative clauses in a
 standard should parallel the structure of the conformance test classes in
@@ -22,21 +22,19 @@ that standard. The structure of the normative clauses in a well written
 standard will follow the structure of its model. This means that all three are
 parallel.
 
-=== Data Models
+=== A Note on Data Models
 
-==== Common modeling issues
-
-#If a data model is to be used to define the parameters of operational interfaces,
+If a data model is to be used to define the parameters of operational interfaces,
 then that model should belong in the core since it can be considered as part of a
-common reference model and vocabulary.#
+common reference model and vocabulary.
 
 If a data model is to be used to create "data transfer" elements, the issue is more
 complex. In the use of parameter names and types in the operational model above, the
 definition of a common vocabulary in the core is justifiable. In the case where data
 transfer elements are being defined, it may be that some types and elements are a
 defining separator between conformance classes and have to exist independently of
-such data elements defined for non-dependent classes. *#For these reasons, care
-should be taken in creating separable data transfer schemas across requirements.#*
+such data elements defined for non-dependent classes. For these reasons, care
+should be taken in creating separable data transfer schemas across requirements.
 Dependencies in the schemas will have to parallel the dependencies in the
 requirements classes. The mechanism for enforcing this is dependent on the schema
 language.
