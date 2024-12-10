@@ -4,7 +4,7 @@
 
 === Semantically ordered definitions
 
-<<cls-4>> formally defines the terms used in the conformance tests in alphabetical
+<<Clause 4,cls-4>> formally defines the terms used in the conformance tests in alphabetical
 order. It may be easier to understand the more significant terms in the following
 less formal definitions arranged in a bottom-up order:
 
