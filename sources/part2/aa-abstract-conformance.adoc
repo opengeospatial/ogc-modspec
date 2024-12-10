@@ -1,10 +1,10 @@
 [[annex-A-3]]
-=== Conformance test class: XML schema extends The Specification
+=== Conformance test class: XML schema
 
 ==== Dependency on Core
 
-An implementation passing the XML schema conformance test class shall first pass the
-core standard conformance test class.
+An implementation passing the XML schema conformance test class shall first pass the ModSpec
+Core Standard conformance test class.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
@@ -135,7 +135,7 @@ schema.
 ==== Supports the Specification class
 
 A standard passing the XML meta-schema conformance test class shall first pass
-the core specification conformance test class.
+the ModSpec Core conformance test class.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
@@ -145,7 +145,7 @@ the core specification conformance test class.
 ==== Each XML schema is conformant with the XML Schema class
 
 A standard passing the XML meta-schema conformance test class shall require
-that its specification targets (XML schema) pass the XML schema conformance class
+that its standaridization targets (XML schema) pass the XML schema conformance class
 from this standard.
 
 . Test Purpose: Verify that this requirement is satisfied.
