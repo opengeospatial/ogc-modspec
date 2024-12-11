@@ -1,13 +1,116 @@
 [[cls-1]]
 == Scope
+The OGC Standard for Designing and Writing Modular Standards, also known as the `ModSpec`:
 
-The ModSpec defines characteristics and structure for the specification of Standards 
+- Specifies rules for the internal structure and organization of a standard. 
+- Defines requirements for specifying the structure of a standards document as organized sets of criteria, those that are to be tested ("requirements") and those that are not tested ("recommendations" and "permissions"). 
+- Is designed to enable the clear and concise specification of requirements (the _shalls_ or _musts_ in a standard) that fully supports the ability to define implementable conformance tests. 
+- Formalizes implementing the requirements specified in the ModSpec so that reusable, modular standards can be developed.
+
+The standardization goal of the ModSpec is to define characteristics and a structure for the specification of Standards 
 that will encourage implementation by minimizing difficulty determining
-requirements, mimicking implementation structure and maximizing usability and
-interoperability.
+requirements, mimicking implementation structure, and maximizing usability and
+interoperability.The goal of this approach is to enable implementations of a standard to be tested and deemed _conformant_ or not.
 
-NOTE: For OGC Standards work, the word “standard” in this document applies to all OGC draft standards, approved standards, draft Abstract Specifications, and approved Abstract Specifications. The exceptions are OGC Abstract Specifications that originate in ISO or Community Standards that are developed external to the OGC and then submitted to the OGC.
+NOTE: For OGC Standards work, the word “standard” in the ModSpec applies to all OGC draft standards, approved standards, draft Abstract Specifications, and approved Abstract Specifications. The exceptions are OGC Abstract Specifications that originate in ISO or Community Standards that are developed external to the OGC and then submitted to the OGC.
 
-<<Annex-B>> defines the UML model upon which the ModSpec is
-based. Annex B also contains informal and non-normative definitions ordered for ease
-of understanding. These two sections can be read first to aid in the understanding of the rest of the document.
+Therefore, a standard that follows the rules specified in the ModSpec presents requirements organized in requirements classes which must be satisfied by passing the tests defined in a conformance suite (also known as the Abstract Test Suite in an OGC Standard). These tests are organized into conformance classes, each of which represents a mechanism for partial satisfaction of the standard. This results in a standard having a modular structure, where each requirements class has a corresponding conformance (test) class. In a well written standard, the normative clauses and any model or schema are organized in a manner that parallels the requirements and conformance clauses. A goal of the design pattern is the ability to define requirements classes and associated conformance classes that can be used across multiple standards. 
+
+<<Annex C,Annex-C>> defines the UML model upon which the ModSpec is
+based. Annex C also contains informal and non-normative definitions ordered for ease
+of understanding. These two sections can be read first to aid in the understanding of
+the rest of the document.
+
+NOTE: Please note that the ModSpec has been approved by the OGC Membership as a policy directive for the development and revision of any OGC Standard or Abstract Specification that has requirements. However, the ModSpec is written to be non-OGC specific and can be used by any Standards Development Organization (SDO) as a formal guide for structuring a standards document.
+
+[[things-to-know]]
+=== Things to know
+
+NOTE: Reading the Terms and Definitions clause and Clause <TBD> will help understanding the content and
+requirements stated in this document.
+
+This OGC document, also known as the `ModSpec`:
+
+- Specifies rules for the internal structure and organization of a standard. 
+- Defines requirements for specifying the structure of a standards document as organized sets of criteria, those that are to be tested ("requirements") and those that are not tested ("recommendations" and "permissions"). 
+- Designed to enable the clear and concise specification of requirements (the _shalls_ or _musts_ in a standard) that fully supports the ability to define implementable conformance tests. 
+
+The goal of this approach is to enable implementations of a standard to be tested and deemed _conformant_ or not.
+
+NOTE: Please note that the ModSpec has been approved by the OGC Membership as a policy directive for the development and revision of any OGC Standard or Abstract Specification that has requirements. However, the ModSpec is written to be non-OGC specific and can be used by any Standards Development Organization (SDO) as a formal guide for structuring a standards document.
+
+A standard that follows the rules specified in the ModSpec presents requirements organized in requirements classes which must be satisfied by passing the tests defined in a conformance suite (also known as the Abstract Test Suite in an OGC Standard). These tests are organized into conformance classes, each of which represents a mechanism for partial satisfaction of the standard. This results in a standard having a modular structure, where each requirements class has a corresponding conformance (test) class. In a well written standard, the normative clauses and any model or schema are organized in a manner that parallels the requirements and conformance clauses. A goal of the design pattern is the ability to define requirements classes and associated conformance classes that can be used across multiple standards. 
+
+There are numerous examples of requirements/conformance classes that can be used not only in OGC Standards, but for geospatially focused standards defined by other organizations and Standards Development Organizations (SDOs). Some OGC examples can be found in the https://docs.ogc.org/is/19-072/19-072.html[OGC API - Common Part 1: Core Standard] and in the https://github.com/opengeospatial/cdbswg/blob/master/cdb-2.0/cdb-core-crs-requirements-class.adoc[CDB 2.0 Standard CRS Requirements Module]. By formally implementing the requirements specified in the ModSpec, reusable, modular standards can be developed.
+
+==== The ModSpec and the "Form" of a standard
+
+NOTE: This content is duplicated in fundamentals
+
+NOTE: For OGC Standards, the assumptions is that documents are in a commonly used
+logical form (template). 
+
+This form should be specified by the following descriptions:
+
+. A standards document contains Clauses (corresponding to numbered sections as they might
+appear in a table of contents) which describe its standardization target and its requirements.
+. A standard contains Annexes or is associated to other documents (both a
+logical type of Clause), one of which is the Conformance Test Suite (which may be an
+abstract description of the test suites to be implemented separately). In OGC Documents, this is Annex A – Abstract Test Suite.
+. All requirements, recommendations, permissions, and models are introduced and defined first in
+the numbered Clauses.
+. All requirements are identifiable as requirements. 
+. All requirements in a document are uniquely numbered.
+. All tests for conformance to those requirements are defined in the Conformance Test Suite.
+. Tests are be grouped for convenience into conformance test classes and if desired the classes are grouped into conformance test modules.
+. The tests, if conducted, determine to some degree of certainty whether an
+implementation meets the requirements which the tests reference.
+. The tests are organized into some number of conformance "classes" where each conformance class has a one to one relationship with a requirements class. If a standard
+does not do this, it is has by default only one "conformance class".
+. Certificates of conformance (see <<term-all-components-schema-document>>) are
+awarded by a testing entity based on these conformance classes.
+. There is a clear distinction between normative and informative parts of the text.
+. Examples and notes are informative, and do not use "normative"
+language.
+
+In informative sections, the word "will" implies that something is an implication of a requirement. The "will" statements are
+not requirements, but explain the consequence of requirements.
+
+The ModSpec defines a "requirement" of a standard as an atomic testable
+criterion. See the formal definition of requirement in <<term-requirement>>
+
+A UML representation of important properties of this model is given in <<annex-B-2>>.
+
+==== ModSpec document structure
+
+Version 2.0 of the ModSpec is split into a Core standard and multiple Parts. These are:
+
+- Core: contains all the core requirements and informational text that define the model and internal structure of a standard.
+- Part 1: UML Model requirements 
+- Part 2: XML and Schematron Model requirements 
+
+Future Parts to the ModSpec Standard may include:
+
+- Part 5: RDF/OWL requirements
+
+==== Building Blocks
+
+NOTE: This content is covered in Fundamentals.
+
+In software development technology, there is a concept called _building block_. In software development, building blocks are used to support the software build process where source code files/libraries can be accessed from multiple sources, converted into executable code, and linked together in the proper order until a complete set of executable files is generated. The same concept can be applied to OGC Standards development: Requirements classes and/or modules can be linked together from one or more standards to create a new standard not originally envisioned when the requirements were originally defined.
+
+The https://pubs.opengroup.org/architecture/togaf8-doc/arch/chap32.html[Open Group] suggests that building blocks have the following characteristics:
+
+. A building block is a package of functionality defined to meet business or domain needs.
+. A building block may interoperate with other, inter-dependent, building blocks.
+. A good building block has the following characteristics:
+.. Considers implementation and usage, and evolves to exploit technology and standards.
+.. May be assembled from other building blocks.
+.. May be a subassembly of other building blocks.
+.. Ideally a building block is re-usable and replaceable, and well specified.
+. A building block may have multiple implementations but with different inter-dependent building blocks.
+
+These characteristics are slightly modified from the Open Group definitions to accommodate the use of the building block concept in standards work.
+
+NOTE: The approach modelled in the ModSpec has been referred to as the "core and extension model" due to its
+insistence on a modular structure throughout all parts of a standard and its implementation.

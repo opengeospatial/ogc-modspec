@@ -118,7 +118,7 @@ awarded by a testing entity based on these conformance classes.
 . Examples and notes are informative, and do not use "normative"
 language.
 
-In informative sections, the word "will" implies that something is an implication of a requirement. The "will" statements are
+In informative sections, the use of the word "will" implies that something is an implication of a requirement. The "will" statements are
 not requirements, but explain the consequence of requirements.
 
 The ModSpec defines a "requirement" of a standard as an atomic testable
