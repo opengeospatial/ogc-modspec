@@ -6,8 +6,8 @@
 :docnumber: 08-131r3
 :edition: 1.1.0
 :received-date: 2024-12-07
-:issued-date: 2029-11-01
-:published-date: 2029-11-01
+:issued-date: 2025-xx-xx
+:published-date: 2025-xx-xx
 :copyright-year: 2024
 :fullname: Carl Reed
 :role: editor
@@ -29,8 +29,6 @@ include::sections/00-foreword.adoc[]
 
 include::sections/01-scope.adoc[]
 
-include::sections/00-introduction.adoc[]
-
 include::sections/02-conformance.adoc[]
 
 include::sections/03-norm-refs.adoc[]
@@ -38,8 +36,6 @@ include::sections/03-norm-refs.adoc[]
 include::sections/04-terms-and-defs.adoc[]
 
 include::sections/05-conventions.adoc[]
-
-include::sections/06-fundamentals.adoc[]
 
 include::sections/06-req-class.adoc[]
 
