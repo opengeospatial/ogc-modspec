@@ -1,4 +1,4 @@
-= The ModSpec Model - Part 1: UML
+= The ModSpec Model - Part 2: XML
 :doctype: draft standard
 :docsubtype: logical-model
 :status: Draft
@@ -21,7 +21,7 @@
 :local-cache-only:
 :data-uri-image:
 
-include::../sections/00-preface.adoc[]
+include::00-preface.adoc[]
 
 include::00-foreword.adoc[]
 
@@ -37,4 +37,4 @@ include::05-conventions.adoc[]
 
 include::06-req-class.adoc[]
 
-include::aa-abstract-class.adoc[]
+include::aa-abstract-conformance.adoc[]
