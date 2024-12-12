@@ -45,6 +45,8 @@ There are numerous examples of requirements/conformance classes that can be used
 
 ==== The ModSpec and the "Form" of a standard
 
+NOTE: This content is duplicated in fundamentals
+
 NOTE: For OGC Standards, the assumptions is that documents are in a commonly used
 logical form (template). 
 
@@ -92,6 +94,8 @@ Future Parts to the ModSpec Standard may include:
 - Part 5: RDF/OWL requirements
 
 ==== Building Blocks
+
+NOTE: This content is covered in Fundamentals.
 
 In software development technology, there is a concept called _building block_. In software development, building blocks are used to support the software build process where source code files/libraries can be accessed from multiple sources, converted into executable code, and linked together in the proper order until a complete set of executable files is generated. The same concept can be applied to OGC Standards development: Requirements classes and/or modules can be linked together from one or more standards to create a new standard not originally envisioned when the requirements were originally defined.
 
