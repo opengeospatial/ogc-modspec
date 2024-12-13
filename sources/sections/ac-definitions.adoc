@@ -71,9 +71,10 @@ class diagram.
 
 === Standard
 
-[lutaml_uml_attributes_table,models/ogc-modspec.lutaml, Specification, skip]
+[lutaml_uml_attributes_table,models/ogc-modspec.lutaml, Standard, skip]
 
 === Conformance Suite
+[lutaml_uml_attributes_table,models/ogc-modspec.lutaml, ConformanceSuite, skip]
 
 [[conformance-class]]
 === Conformance Class
