@@ -1,7 +1,7 @@
 diagram OGCModSpec {
   title "OGC 08-131r3 ModSpec"
 
-  class Specification {
+  class Standard {
     definition {
       For a draft standard (aka specification) to become an international standard, the document must be approved by an authority, 
       such as ISO or the OGC. The attributes of a standard describe its local name, its authority, the date of publication 
