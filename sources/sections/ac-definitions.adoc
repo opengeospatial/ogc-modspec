@@ -66,7 +66,7 @@ against a candidate {{standardization target}}.
 image::img02.png[]
 
 <<fig-C-1,Figure 1>> represents a UML model consistent with the model described
-in <<cls-6-1,Clause 6.1>> of this document. The following subclauses describe the classes shown in this UML
+in <<cls-8-1,Clause 8>> of this document. The following subclauses describe the classes shown in this UML
 class diagram.
 
 === Standard
