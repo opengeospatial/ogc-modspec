@@ -65,14 +65,14 @@ against a candidate {{standardization target}}.
 
 image::img02.png[]
 
-<<Figure 1,fig-C-1>> represents a UML model consistent with the model described
-in <<Clause 6.1,cls-6-1>> of this document. The following subclauses describe the classes shown in this UML
+<<fig-C-1,Figure 1>> represents a UML model consistent with the model described
+in <<cls-6-1,Clause 6.1>> of this document. The following subclauses describe the classes shown in this UML
 class diagram.
 
 === Standard
-
 [lutaml_uml_attributes_table,models/ogc-modspec.lutaml, Standard, skip]
 
+[[conformance-suite]]
 === Conformance Suite
 [lutaml_uml_attributes_table,models/ogc-modspec.lutaml, ConformanceSuite, skip]
 
