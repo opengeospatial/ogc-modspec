@@ -84,7 +84,7 @@ single requirements class but included in others by reference to its "home"
 requirements class).
 
 In the ModSpec, each conformance requirement is separated in its own labeled
-paragraph, such as <<req-1>> above.
+paragraph, such as <<Requirement 1,req-1>> below.
 
 The distribution of the information in a standard is not restricted. The only
 requirement is that requirements be grouped in a manner
@@ -92,8 +92,9 @@ consistent with the conformance test classes, see <<req-6>> and <<req-7>>.
 
 === Documenting the Standard
 
-NOTE: For OGC Standards, the assumptions is that documents are in a commonly used
-logical form (template). 
+NOTE: OGC Standards are written using an OGC Member approved template that is conformant with the 
+requirements stated in the ModSpec
+ 
 
 This form should be specified by the following descriptions:
 
