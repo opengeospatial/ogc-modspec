@@ -9,7 +9,7 @@ Terms not defined here take their meaning from computer science or from their
 Standard English (common US and UK) meanings. The form of the definitions is
 defined by ISO Directives.
 
-Many of these definitions depend upon the model given in <<cls-6-1>>.
+Many of these definitions depend upon the model given in <<Annex C,annex-C>>.
 
 === building block
 
@@ -89,7 +89,7 @@ set of <<conformance-class,_conformance classes_>> that define tests for all {{r
 The {{conformance suite}} is the union of all <<conformance-class,_conformance classes_>>. It is by definition the
 <<conformance-class,_conformance class_>> of the entire standard or abstract specification.
 
-In this Policy, each {{requirement}} is mandatory within its <<conformance-class,conformance class>> and each {{requirement}} is tested in at least one {{conformance test}}.
+In theModSpec, each {{requirement}} is mandatory within its <<conformance-class,conformance class>> and each {{requirement}} is tested in at least one {{conformance test}}.
 ====
 
 === core requirements class
