@@ -5,10 +5,6 @@ This OGC member developed and approved document, referred to as the `ModSpec`, d
 
 The goal is to ensure that a standard specifies requirements in a common and consistent manner and that these requirements are testable.
 
-///
-NOTE: For OGC only: Any new OGC Standard, abstract specification that contains requirements, or major revision of an existing OGC Standard shall comply with the requirements stated in this document.
-///
-
 NOTE: Historically, this document has been known and abbreviated as the "ModSpec". For continuity and ease of understanding this document may also be refered to as the "OGC ModSpec".
 
 Suggested additions, changes, and comments on this this document are welcome and
