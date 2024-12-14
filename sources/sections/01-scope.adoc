@@ -34,7 +34,7 @@ NOTE: Please note that the ModSpec has been approved by the OGC Membership as a 
 NOTE: In informative sections, the word "will" implies that something is an implication of a requirement. The "will" statements are
 not requirements, but explain the consequence of requirements.
 
-==== ModSpec document structure
+=== ModSpec document structure
 
 Version 2.0 of the ModSpec is split into a Core standard and multiple Parts. These are:
 
