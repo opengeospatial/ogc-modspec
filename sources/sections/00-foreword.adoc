@@ -1,7 +1,7 @@
 [.preface]
 == Foreword
 
-The OGC ModSpec - A Standard for Designing and Writing Modular Standards specifies a model for a formal structure and requirements for writing standards documents. However, the ModSpec does not supply specific content. Where possible, this document is conformant with itself (with respect to the core conformance test class, <<cls-6>>
+The OGC ModSpec - A Standard for Designing and Writing Modular Standards specifies a formal structure and requirements for writing modular standards documents. However, the ModSpec does not supply specific content. Where possible, this document is conformant with itself (with respect to the core conformance test class, <<cls-6>>
 and the Conformance Test Suite <<annex-A-1>>).
 
 _Attention is drawn to the possibility that some of the elements of this document may
