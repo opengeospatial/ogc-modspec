@@ -69,11 +69,11 @@ image::img02.png[]
 in <<cls-8-1,Clause 8>> of this document. The following subclauses describe the classes shown in this UML
 class diagram.
 
-=== Standard
+[[Standard]]
 [lutaml_uml_attributes_table,models/ogc-modspec.lutaml, Standard, skip]
 
 [[conformance-suite]]
-=== Conformance Suite
+
 [lutaml_uml_attributes_table,models/ogc-modspec.lutaml, ConformanceSuite, skip]
 
 [[conformance-class]]
