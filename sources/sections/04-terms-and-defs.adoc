@@ -63,11 +63,11 @@ When no ambiguity is possible, the word "test" may be left out, so conformance t
 maybe called a conformance class.
 
 In the ModSpec, the set of {{requirement,requirements}} tested by the
-conformance tests within a <<conformance-class,_conformance class_>> is a
-requirements class and its dependencies. Optional {{requirement,requirements}} will
+conformance tests within a conformance class is a
+requirements class and its dependencies. Optional requirements will
 be in a separate {{requirements class}} with other requirements
-that are part of the same option. Each {{requirements class}} corresponds to a
-separate {{conformance class}}
+that are part of the same option. Each requirements class corresponds to a
+separate conformance test class.
 
 Each requirements class will be in a 1 to 1 correspondence to a similarly named
 {{conformance class}} that tests all of the requirements in a requirements class.
