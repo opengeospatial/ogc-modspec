@@ -53,7 +53,7 @@ is the same as conformance module. Conformance modules may be nested in a hierar
 ====
 
 === conformance test class
-alt:[conformance test level]
+alt:[conformance class]
 
 set of conformance tests that must be passed to receive a single {{certificate of conformance}}
 
