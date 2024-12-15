@@ -55,7 +55,7 @@ is the same as conformance module. Conformance modules may be nested in a hierar
 === conformance test class
 alt:[conformance test level]
 
-set of {{conformance tests,conformance test}} that must be passed to receive a single {{certificate of conformance}}
+set of conformance tests that must be passed to receive a single {{certificate of conformance}}
 
 [NOTE]
 ====
@@ -70,7 +70,7 @@ that are part of the same option. Each requirements class corresponds to a
 separate conformance test class.
 
 Each requirements class will be in a 1 to 1 correspondence to a similarly named
-{{conformance class}} that tests all of the requirements in a requirements class.
+{{conformance test class}} that tests all of the requirements in a requirements class.
 
 All {{requirement,requirements}} in a conformance class will have the same {{standardization target}}.
 ====
