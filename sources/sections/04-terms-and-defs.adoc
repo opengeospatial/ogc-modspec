@@ -40,8 +40,7 @@ within a standard, or set of standards
 test for a particular requirement or a set of related requirements
 
 NOTE: When no ambiguity, the word "case" may be omitted. i.e.
-{{conformance test}} is the same as
-{{conformance test case}}.
+conformance test is the same as conformance test case.
 
 === conformance test module
 
@@ -49,8 +48,8 @@ set of related tests for a given requirements module all with the same standardi
 
 [NOTE]
 ====
-When there is no ambiguity, the word "test" may be omitted. i.e. {{conformance test module}}
-is the same as *conformance module*. Conformance modules may be nested in a hierarchical way.
+When there is no ambiguity, the word "test" may be omitted. i.e. conformance test module
+is the same as conformance module. Conformance modules may be nested in a hierarchical way.
 ====
 
 === conformance test class
@@ -60,36 +59,34 @@ set of {{conformance tests,conformance test}} that must be passed to receive a s
 
 [NOTE]
 ====
-When no ambiguity is possible, the word "test" may be left out, so {{conformance test class}}
-maybe called a <<conformance-class,_conformance class_>>.
+When no ambiguity is possible, the word "test" may be left out, so conformance test class
+maybe called a conformance class.
 
 In the ModSpec, the set of {{requirement,requirements}} tested by the
 conformance tests within a <<conformance-class,_conformance class_>> is a
-{{requirements class}} and its dependencies. Optional {{requirement,requirements}} will
-be in a separate {{requirements class}} with other {{requirement,requirements}}
+requirements class and its dependencies. Optional {{requirement,requirements}} will
+be in a separate {{requirements class}} with other requirements
 that are part of the same option. Each {{requirements class}} corresponds to a
-separate <<conformance-class,conformance class>>
+separate {{conformance class}}
 
 Each requirements class will be in a 1 to 1 correspondence to a similarly named
-<<conformance-class,_conformance class_>> that tests all of the
-{{requirements class,requirements class's}} {{requirement,requirements}}.
+{{conformance class}} that tests all of the requirements in a requirements class.
 
-All {{requirement,requirements}} in a <<conformance-class,_conformance class_>>
-will have the same {{standardization target}}.
+All {{requirement,requirements}} in a conformance class will have the same {{standardization target}}.
 ====
 
 === conformance suite
 alt:[conformance test suite]
 alt:[abstract test suite]
 
-set of <<conformance-class,_conformance classes_>> that define tests for all {{requirement,requirements}} of a standard or abstract specification
+set of conformance classes that define tests for all requirements of a standard or abstract specification
 
 [NOTE]
 ====
-The {{conformance suite}} is the union of all <<conformance-class,_conformance classes_>>. It is by definition the
-<<conformance-class,_conformance class_>> of the entire standard or abstract specification.
+The conformance suite is the union of all conformance classes. It is by definition the
+conformance class of the entire standard or abstract specification.
 
-In theModSpec, each {{requirement}} is mandatory within its <<conformance-class,conformance class>> and each {{requirement}} is tested in at least one {{conformance test}}.
+In theModSpec, each {{requirement}} is mandatory within its conformance class and each {{requirement}} is tested in at least one {{conformance test}}.
 ====
 
 === core requirements class
@@ -106,7 +103,7 @@ more than one, then each *core* would have to be implemented to pass any
 *core*. The *core* may be empty, or all or part of another standard or related
 set of standards.
 
-The "*core*" can refer to this {{requirements class}}, its associated
+The "*core*" can refer to this requirements class, its associated
 {{conformance test class}} or the software module that implements that
 requirements class.
 ====
@@ -114,25 +111,18 @@ requirements class.
 === direct dependency (of a requirements class)
 
 another {{requirements class}} (the dependency) whose {{requirement,requirements}} are defined to also be
-{{requirement,requirements}} of this
-{{requirements class}}
+requirement(s) of this requirements class
 
 [NOTE]
 ====
-A {{direct dependency (of a requirements class), direct dependency}}
-of the current {{requirements class}} will have the same
-{{standardization target}} as the current
-{{requirements class}}. This is another ways of saying that the current
-{{requirements class}} extends, or uses all the aspects of the
-{{direct dependency (of a requirements class), direct dependency}}.
-Any tests associated with this
-{{direct dependency (of a requirements class),dependency}} can be applied to this
-{{requirements class}}.
+A direct dependency (of a requirements class) of the current {{requirements class}} will have the same
+{{standardization target}} as the current requirements class. This is another way of saying that the current
+requirements class extends, or uses all the aspects of the direct dependency (of a requirements class).
+Any tests associated with this direct dependency (of a requirements class) can be applied to this requirements class.
 
 When testing a
-{{direct dependency (of a requirements class), direct dependency}}, the
-{{standardization target}} is directly subject to the test in the specified
-{{conformance test class}} of the {{direct dependency (of a requirements class), direct dependency}}.
+direct dependency of a requirements class, the {{standardization target}} is directly subject to the test in the specified
+{{conformance test class}} of the direct dependency of a requirements class.
 ====
 
 === indirect dependency (of a requirements class)
@@ -144,17 +134,14 @@ implementation of this {{requirements class}}
 [NOTE]
 ====
 In this instance, as opposed to the
-{{direct dependency (of a requirements class),direct dependency}},
-the test against the consumable or product used
+direct dependency of a requirements class), the test against the consumable or product used
 or produced by the {{requirements class}} does not directly test the
 {{requirements class}}, but tests only its side effects. Hence, a particular
 type of feature service could be required to produce valid XML documents, but
 the test of validity for the XML document is not directly testing the service,
 but only indirectly testing the validity of its output.
-{{direct dependency (of a requirements class), Direct dependencies}}
-test the same {{standardization target}}, but
-{{indirect dependency (of a requirements class), indirect dependencies}}
-test related but different {{standardization target,standardization targets}}.
+Direct dependencies test the same {{standardization target}}, but
+indirect dependencies}} test related but different {{standardization target,standardization targets}}.
 
 For example, if a DRM-enabled service is required
 to have an association to a licensing service, then the requirements of a
@@ -165,12 +152,9 @@ requirement may be stated as the associated licensing service has a
 
 === extension (of a requirements class)
 
-{{requirements class}} which has a
-{{direct dependency (of a requirements class), direct dependency}} on another
-{{requirements class}}
+{{requirements class}} which has a direct dependency}} on another {{requirements class}}
 
-NOTE: Here {{extension (of a requirements class),extension}} is
-defined on {{requirements class}} so that their implementation may be
+NOTE: Here an extension of a requirements class is defined on {{requirements class}} so that their implementation may be
 software extensions in a manner analogous to the extension relation between the
 {{requirements class,requirements classes}}.
 
@@ -265,8 +249,7 @@ compliance with the standard is to be claimed and from which no deviation is per
 
 [NOTE]
 ====
-Each {{requirement}} is a normative criterion for a single
-*type of standardization target*. In the ModSpec, requirements are
+Each requirement is a normative criterion for a single *type of standardization target*. In the ModSpec, requirements are
 associated to {{conformance test, conformance tests}} that can be used to prove
 compliance to the underlying criteria by the {{standardization target}}.
 
@@ -276,8 +259,7 @@ a procedural standard requires software implementations. The view of a
 standard in terms of a set of testable {{requirement,requirements}} allows us to
 use set descriptions of both the standard and its implementations.
 
-{{requirement,Requirements}} use normative language and are
-commands and use the imperative "shall" or similar imperative constructs.
+Requirements use normative language and are commands and use the imperative "shall" or similar imperative constructs.
 Statements in standards which are not requirements and need to be either
 conditional or future tense normally use "will" and should not be confused with
 requirements that use "shall" imperatively.
@@ -340,8 +322,7 @@ NOTE: Need to add examples! The standardization target of the CDB version 2.0 CR
 
 === standardization target type
 
-type of entity or set of entities to which the {{requirement,requirements}} of a
-{{standard}} apply
+type of entity or set of entities to which the {{requirement,requirements}} of a {{standard}} apply
 
 NOTE: For example, the standardization target type for The OGC API – Features Standard are Web APIs. The standardization target type for the CDB Standard is "datastore". It is important to understand that a standard's root standardization target type and can have sub-types and that there can be a hierarchy of target types. For example, a Web API can have sub types of client, server, security, and so forth. As such, each requirements class can have a standardization target type that is a sub-type of the root.
 
