@@ -22,4 +22,8 @@ include::00-preface.adoc[]
 
 include::00-foreword.adoc[]
 
-include::01-policy.adoc[]
+include::01-scope.adoc[]
+
+include::02-conformance.adoc[]
+
+include::06-policy.adoc[]
