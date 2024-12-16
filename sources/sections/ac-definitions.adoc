@@ -73,33 +73,31 @@ class diagram.
 [lutaml_uml_attributes_table,models/ogc-modspec.lutaml, Standard, skip]
 
 [[conformance-suite]]
-
 [lutaml_uml_attributes_table,models/ogc-modspec.lutaml, ConformanceSuite, skip]
 
 [[conformance-class]]
-=== Conformance Class
 [lutaml_uml_attributes_table,models/ogc-modspec.lutaml, ConformanceClass, skip]
 
-=== Requirements class
+[[requirements-class]]
 [lutaml_uml_attributes_table,models/ogc-modspec.lutaml, RequirementsClass, skip]
 
-=== Requirements module
+[[requirements-module]]
 [lutaml_uml_attributes_table,models/ogc-modspec.lutaml, RequirementsModule, skip]
 
-=== Normative Statement
+[[normative-statement]]
 [lutaml_uml_attributes_table,models/ogc-modspec.lutaml, NormativeStatement, skip]
 
-=== Requirement
+[[requirement]]
 [lutaml_uml_attributes_table,models/ogc-modspec.lutaml, Requirement, skip]
 
-=== Recommendation
+[[recommendation]]
 [lutaml_uml_attributes_table,models/ogc-modspec.lutaml, Recommendation, skip]
 
-=== Conformance test
+[[conformance-test]]
 [lutaml_uml_attributes_table,models/ogc-modspec.lutaml, ConformanceTest, skip]
 
-=== StandardizationTarget
+[[standardization-target]]
 [lutaml_uml_attributes_table,models/ogc-modspec.lutaml, StandardizationTarget, skip]
 
-=== StandardizationTargetType
+[[standardization-Target-Type]]
 [lutaml_uml_attributes_table,models/ogc-modspec.lutaml, StandardizationTargetType, skip]
