@@ -232,7 +232,7 @@ excluding others, or that a certain course of action is preferred but not
 necessarily required, or that (in the negative form) a certain possibility or
 course of action is deprecated but not prohibited
 
-NOTE: Although using normative language, a {{recommendation}} is not
+NOTE: Although using normative language, a recommendation is not
 a {{requirement}}. The usual form replaces the "shall" (imperative or
 command) of a {{requirement}} with a "should" (suggestive or
 conditional).
@@ -253,11 +253,11 @@ Each requirement is a normative criterion for a single *type of standardization 
 associated to {{conformance test, conformance tests}} that can be used to prove
 compliance to the underlying criteria by the {{standardization target}}.
 
-The implementation of a {{requirement}} is dependent on the type of
+The implementation of a requirement is dependent on the type of
 standard being written. A data standard requires data structures, but
 a procedural standard requires software implementations. The view of a
-standard in terms of a set of testable {{requirement,requirements}} allows us to
-use set descriptions of both the standard and its implementations.
+standard in terms of a set of testable requirements allows for
+using set descriptions of both the standard and its implementations.
 
 Requirements use normative language and are commands and use the imperative "shall" or similar imperative constructs.
 Statements in standards which are not requirements and need to be either
@@ -293,10 +293,14 @@ those {{requirement,requirements}}
 
 [NOTE]
 ====
-This definition is included for completeness. See <<cls-5-3>>.
+This definition is included for completeness.
+====
 
-This does not restrict what else a standard may contain, as long as it does
-contain the three types of element cited.
+[NOTE]
+====
+In the OGC, there are Abstract Specifications and Implementation Standards. Abstract Specifications may or may not be
+testable. Further, Abstract Specifications may not be directly implementable.
+Implementatins Standards are always testable and contain a {{conformance test suite}}.
 ====
 
 === standard
@@ -318,8 +322,6 @@ entity to which some {{requirement,requirements}} of a {{standard}} apply
 NOTE: The {{standardization target}} is the entity which may receive a
 {{certificate of conformance}} for a {{requirements class}}.
 
-NOTE: Need to add examples! The standardization target of the CDB version 2.0 CRS Requirements Classes is to ensure that an implementation clearly defines (with metadata) the CRS for a CDB compliant datastore. 
-
 === standardization target type
 
 type of entity or set of entities to which the {{requirement,requirements}} of a {{standard}} apply
@@ -331,8 +333,7 @@ NOTE: For example, the standardization target type for The OGC API – Features 
 expression in a document conveying information
 
 NOTE: Includes all statements in a document not part of the normative
-{{requirement,requirements}},
-{{recommendation,recommendations}} or
+{{requirement,requirements}}, {{recommendation,recommendations}} or
 {{conformance test, conformance tests}}. Included for completeness.
 
 [.source]
