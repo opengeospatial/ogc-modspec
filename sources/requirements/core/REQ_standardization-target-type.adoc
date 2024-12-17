@@ -1,9 +1,8 @@
-[[req_class_a_name_1]]
+[[req_standardization-target-type]]
 
 [requirement]
 ====
 [%metadata]
-identifier:: /req/req-class-a/req-name-1
-part:: Any new OGC Standard or abstract specification that contains requirements SHALL comply with the requirements stated in this document.
-part:: Any major revision of an existing OGC Standard or abstract specification that contains requirements SHALL comply with the requirements stated in this document.
+identifier:: /req/core/standardization-target-type
+part:: A standard SHALL shall identify at least one Standardization Target Type.
 ====

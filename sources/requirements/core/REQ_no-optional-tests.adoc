@@ -4,5 +4,5 @@
 ====
 [%metadata]
 identifier:: /req/core/no-optional-tests
-part:: Conformance class SHALL not contain any optional conformance tests.
+part:: A conformance class SHALL not contain any optional conformance tests.
 ====
