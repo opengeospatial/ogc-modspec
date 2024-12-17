@@ -29,7 +29,7 @@ The following OGC Members participated in editing this document:
 |===
 ^h| Person ^h| Organization Represented
 | Carl Reed | Carl Reed & Associates
-| Chuck Heazel | Heazeltech
+| Chuck Heazel | Charles Heazel
 |===
 
 [.preface]
@@ -41,7 +41,7 @@ The following OGC Members contributed and particpated in developing Version 2 of
 |===
 ^h| Person ^h| Organization Represented
 | Simon Cox | CSIRO and OGC Fellow
-| Chuck Heazel | Heazeltech
+| Chuck Heazel | Charles Heazel
 | Clemens Portele | interactive instruments GmbH
 | Jeff Yutzler | ImageMatters
 |===
