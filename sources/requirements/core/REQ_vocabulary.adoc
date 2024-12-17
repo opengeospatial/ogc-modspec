@@ -1,0 +1,8 @@
+[[req_vocabulary-and-parent-req-class]]
+
+[requirement]
+====
+[%metadata]
+identifier:: /req/core/vocabulary-and-parent-req-class
+part:: Requirements on the use and interpretation of vocabulary SHALL be in the requirements class where that use or interpretation is used.
+====

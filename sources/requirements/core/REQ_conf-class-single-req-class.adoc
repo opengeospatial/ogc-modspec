@@ -1,0 +1,8 @@
+[[req_conf-class-single-req-class]]
+
+[requirement]
+====
+[%metadata]
+identifier:: /req/core/conf-class-single-req-class
+part:: A Conformance class SHALL explicitly test only requirements from a single requirements class.
+====

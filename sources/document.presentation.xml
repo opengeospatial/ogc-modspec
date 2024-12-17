@@ -24,7 +24,7 @@
 </localized-string><localized-string key="internal_external_terms_boilerplate" language="en"><p>This document uses the terms defined in <link target="https://portal.ogc.org/public_ogc/directives/directives.php">OGC Policy Directive 49</link>, which is based on the ISO/IEC Directives, Part 2, Rules for the structure and drafting of International Standards. In particular, the word “shall” (not “must”) is the verb form used to indicate a requirement to be strictly followed to conform to this document and OGC documents do not use the equivalent phrases in the ISO/IEC Directives, Part 2.</p>
 <p>This document also uses terms defined in the OGC Standard for Modular specifications (<link target="https://portal.opengeospatial.org/files/?artifact_id=34762">OGC 08-131r3</link>), also known as the 'ModSpec'. The definitions of terms such as standard, specification, requirement, and conformance test are provided in the ModSpec.</p>
 <p>For the purposes of this document, the terms and definitions given in % and the following additionally apply.</p>
-</localized-string><localized-string key="no_information_available" language="en">[NO INFORMATION AVAILABLE]</localized-string><localized-string key="term_defined_in" language="en">(%)</localized-string><localized-string key="binary_and" language="en">%1 and %2</localized-string><localized-string key="multiple_and" language="en">%1, and %2</localized-string><localized-string key="binary_or" language="en">%1 or %2</localized-string><localized-string key="multiple_or" language="en">%1, or %2</localized-string><localized-string key="chain_and" language="en">%1 and %2</localized-string><localized-string key="chain_or" language="en">%1 or %2</localized-string><localized-string key="chain_from" language="en">%1 from %2</localized-string><localized-string key="chain_to" language="en">%1 to %2</localized-string><localized-string key="nested_xref" language="en">%1, %2</localized-string><localized-string key="list_nested_xref" language="en">%1 %2</localized-string><localized-string key="SpelloutRules" language="en">spellout-ordinal</localized-string><localized-string key="OrdinalRules" language="en">digits-ordinal</localized-string><localized-string key="note" language="en">NOTE</localized-string><localized-string key="note_xref" language="en">Note</localized-string><localized-string key="termnote" language="en">Note % to entry</localized-string><localized-string key="list" language="en">List</localized-string><localized-string key="deflist" language="en">Definition List</localized-string><localized-string key="figure" language="en">Figure</localized-string><localized-string key="diagram" language="en">Diagram</localized-string><localized-string key="formula" language="en">Formula</localized-string><localized-string key="inequality" language="en">Formula</localized-string><localized-string key="table" language="en">Table</localized-string><localized-string key="requirement" language="en">Requirement</localized-string><localized-string key="recommendation" language="en">Recommendation</localized-string><localized-string key="permission" language="en">Permission</localized-string><localized-string key="box" language="en">Box</localized-string><localized-string key="recommendationtest" language="en">Recommendation test</localized-string><localized-string key="requirementtest" language="en">Requirement test</localized-string><localized-string key="permissiontest" language="en">Permission test</localized-string><localized-string key="recommendationclass" language="en">Recommendations class</localized-string><localized-string key="requirementclass" language="en">Requirements class</localized-string><localized-string key="permissionclass" language="en">Permissions class</localized-string><localized-string key="abstracttest" language="en">Abstract test</localized-string><localized-string key="conformanceclass" language="en">Conformance class</localized-string><localized-string key="key" language="en">Key</localized-string><localized-string key="example" language="en">Example</localized-string><localized-string key="example_xref" language="en">Example</localized-string><localized-string key="where" language="en">where</localized-string><localized-string key="where_one" language="en">where</localized-string><localized-string key="wholeoftext" language="en">Whole of text</localized-string><localized-string key="draft_label" language="en">draft</localized-string><localized-string key="inform_annex" language="en">informative</localized-string><localized-string key="norm_annex" language="en">normative</localized-string><localized-string key="modified" language="en">modified</localized-string><localized-string key="adapted" language="en">adapted</localized-string><localized-string key="deprecated" language="en">DEPRECATED</localized-string><localized-string key="source" language="en">SOURCE</localized-string><localized-string key="and" language="en">and</localized-string><localized-string key="all_parts" language="en">All Parts</localized-string><localized-string key="edition_ordinal" language="en">{{ var1 | ordinal_word: '', '' }} edition</localized-string><localized-string key="edition" language="en">edition</localized-string><localized-string key="version" language="en">version</localized-string><localized-string key="toc_figures" language="en">List of Figures</localized-string><localized-string key="toc_tables" language="en">List of Tables</localized-string><localized-string key="toc_recommendations" language="en">List of Recommendations</localized-string><localized-string key="month_january" language="en">January</localized-string><localized-string key="month_february" language="en">February</localized-string><localized-string key="month_march" language="en">March</localized-string><localized-string key="month_april" language="en">April</localized-string><localized-string key="month_may" language="en">May</localized-string><localized-string key="month_june" language="en">June</localized-string><localized-string key="month_july" language="en">July</localized-string><localized-string key="month_august" language="en">August</localized-string><localized-string key="month_september" language="en">September</localized-string><localized-string key="month_october" language="en">October</localized-string><localized-string key="month_november" language="en">November</localized-string><localized-string key="month_december" language="en">December</localized-string><localized-string key="obligation" language="en">Obligation</localized-string><localized-string key="admonition.danger" language="en">Danger</localized-string><localized-string key="admonition.warning" language="en">Warning</localized-string><localized-string key="admonition.caution" language="en">Caution</localized-string><localized-string key="admonition.important" language="en">Important</localized-string><localized-string key="admonition.safety_precautions" language="en">Safety Precautions</localized-string><localized-string key="admonition.editorial" language="en">Editorial Note</localized-string><localized-string key="locality.section" language="en">Section</localized-string><localized-string key="locality.clause" language="en">Clause</localized-string><localized-string key="locality.part" language="en">Part</localized-string><localized-string key="locality.paragraph" language="en">Paragraph</localized-string><localized-string key="locality.chapter" language="en">Chapter</localized-string><localized-string key="locality.page" language="en">Page</localized-string><localized-string key="locality.table" language="en">Table</localized-string><localized-string key="locality.annex" language="en">Annex</localized-string><localized-string key="locality.figure" language="en">Figure</localized-string><localized-string key="locality.example" language="en">Example</localized-string><localized-string key="locality.note" language="en">Note</localized-string><localized-string key="locality.formula" language="en">Formula</localized-string><localized-string key="grammar_abbrevs.masculine" language="en">m</localized-string><localized-string key="grammar_abbrevs.feminine" language="en">f</localized-string><localized-string key="grammar_abbrevs.neuter" language="en">n</localized-string><localized-string key="grammar_abbrevs.common" language="en">common</localized-string><localized-string key="grammar_abbrevs.singular" language="en">sg</localized-string><localized-string key="grammar_abbrevs.dual" language="en">dual</localized-string><localized-string key="grammar_abbrevs.pl" language="en">pl</localized-string><localized-string key="grammar_abbrevs.isPreposition" language="en">prep</localized-string><localized-string key="grammar_abbrevs.isParticiple" language="en">part</localized-string><localized-string key="grammar_abbrevs.isAdjective" language="en">adj</localized-string><localized-string key="grammar_abbrevs.isAdverb" language="en">adv</localized-string><localized-string key="grammar_abbrevs.isNoun" language="en">noun</localized-string><localized-string key="grammar_abbrevs.isVerb" language="en">verb</localized-string><localized-string key="relatedterms.deprecates" language="en">deprecates</localized-string><localized-string key="relatedterms.supersedes" language="en">supersedes</localized-string><localized-string key="relatedterms.narrower" language="en">narrower</localized-string><localized-string key="relatedterms.broader" language="en">broader</localized-string><localized-string key="relatedterms.equivalent" language="en">equivalent</localized-string><localized-string key="relatedterms.compare" language="en">compare</localized-string><localized-string key="relatedterms.contrast" language="en">contrast</localized-string><localized-string key="relatedterms.see" language="en">see</localized-string><localized-string key="relatedterms.seealso" language="en">see also</localized-string><localized-string key="Clause.sg" language="en">Clause</localized-string><localized-string key="Clause.pl" language="en">Clauses</localized-string><localized-string key="Annex.sg" language="en">Annex</localized-string><localized-string key="Annex.pl" language="en">Annexes</localized-string><localized-string key="Appendix.sg" language="en">Appendix</localized-string><localized-string key="Appendix.pl" language="en">Appendixes</localized-string><localized-string key="Note.sg" language="en">Note</localized-string><localized-string key="Note.pl" language="en">Notes</localized-string><localized-string key="Note_%_to_entry.sg" language="en">Note % to entry</localized-string><localized-string key="Note_%_to_entry.pl" language="en">Notes % to entry</localized-string><localized-string key="List.sg" language="en">List</localized-string><localized-string key="List.pl" language="en">Lists</localized-string><localized-string key="Figure.sg" language="en">Figure</localized-string><localized-string key="Figure.pl" language="en">Figures</localized-string><localized-string key="Formula.sg" language="en">Formula</localized-string><localized-string key="Formula.pl" language="en">Formulas</localized-string><localized-string key="Table.sg" language="en">Table</localized-string><localized-string key="Table.pl" language="en">Tables</localized-string><localized-string key="Requirement.sg" language="en">Requirement</localized-string><localized-string key="Requirement.pl" language="en">Requirements</localized-string><localized-string key="Recommendation.sg" language="en">Recommendation</localized-string><localized-string key="Recommendation.pl" language="en">Recommendations</localized-string><localized-string key="Permission.sg" language="en">Permission</localized-string><localized-string key="Permission.pl" language="en">Permissions</localized-string><localized-string key="Example.sg" language="en">Example</localized-string><localized-string key="Example.pl" language="en">Examples</localized-string><localized-string key="Part.sg" language="en">Part</localized-string><localized-string key="Part.pl" language="en">Parts</localized-string><localized-string key="Section.sg" language="en">Section</localized-string><localized-string key="Section.pl" language="en">Sections</localized-string><localized-string key="Paragraph.sg" language="en">Paragraph</localized-string><localized-string key="Paragraph.pl" language="en">Paragraphs</localized-string><localized-string key="Chapter.sg" language="en">Chapter</localized-string><localized-string key="Chapter.pl" language="en">Chapters</localized-string><localized-string key="Page.sg" language="en">Page</localized-string><localized-string key="Page.pl" language="en">Pages</localized-string><localized-string key="admitted" language="en">ALTERNATIVE</localized-string><localized-string key="submitters" language="en">Submitters</localized-string><localized-string key="contributors_clause" language="en">Contributors</localized-string><localized-string key="dochistory" language="en">Revision history</localized-string><localized-string key="table_of_figures" language="en">Table of Figures</localized-string><localized-string key="security_empty" language="en">No security considerations have been made for this document.</localized-string><localized-string key="submission_date" language="en">Submission Date</localized-string><localized-string key="approval_date" language="en">Approval Date</localized-string><localized-string key="publication_date" language="en">Publication Date</localized-string><localized-string key="author" language="en">Author</localized-string><localized-string key="editor_full" language="en">Editor</localized-string><localized-string key="contributor" language="en">Contributor</localized-string><localized-string key="stage_dict.draft" language="en">Draft</localized-string><localized-string key="stage_dict.work-item-draft" language="en">Work Item Draft</localized-string><localized-string key="stage_dict.swg-draft" language="en">Candidate SWG Draft</localized-string><localized-string key="stage_dict.oab-review" language="en">Candidate OAB Review Draft</localized-string><localized-string key="stage_dict.public-rfc" language="en">Candidate Public RFC Draft</localized-string><localized-string key="stage_dict.tc-vote" language="en">Candidate TC Vote Draft</localized-string><localized-string key="stage_dict.approved" language="en">Approved</localized-string><localized-string key="stage_dict.published" language="en">Published</localized-string><localized-string key="stage_dict.deprecated" language="en">Deprecated</localized-string><localized-string key="stage_dict.rescinded" language="en">Rescinded</localized-string><localized-string key="stage_dict.retired" language="en">Retired</localized-string><localized-string key="language" language="en">en</localized-string><localized-string key="script" language="en">Latn</localized-string></localized-strings><metanorma-extension><presentation-metadata><name>TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>HTML TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>DOC TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>PDF TOC Heading Levels</name><value>2</value></presentation-metadata><metanorma><source><semantic__ogc-standard type="semantic" version="2.5.7" schema-version="v1.3.1">
+</localized-string><localized-string key="no_information_available" language="en">[NO INFORMATION AVAILABLE]</localized-string><localized-string key="term_defined_in" language="en">(%)</localized-string><localized-string key="binary_and" language="en">%1 and %2</localized-string><localized-string key="multiple_and" language="en">%1, and %2</localized-string><localized-string key="binary_or" language="en">%1 or %2</localized-string><localized-string key="multiple_or" language="en">%1, or %2</localized-string><localized-string key="chain_and" language="en">%1 and %2</localized-string><localized-string key="chain_or" language="en">%1 or %2</localized-string><localized-string key="chain_from" language="en">%1 from %2</localized-string><localized-string key="chain_to" language="en">%1 to %2</localized-string><localized-string key="nested_xref" language="en">%1, %2</localized-string><localized-string key="list_nested_xref" language="en">%1 %2</localized-string><localized-string key="SpelloutRules" language="en">spellout-ordinal</localized-string><localized-string key="OrdinalRules" language="en">digits-ordinal</localized-string><localized-string key="note" language="en">NOTE</localized-string><localized-string key="note_xref" language="en">Note</localized-string><localized-string key="termnote" language="en">Note % to entry</localized-string><localized-string key="list" language="en">List</localized-string><localized-string key="deflist" language="en">Definition List</localized-string><localized-string key="figure" language="en">Figure</localized-string><localized-string key="diagram" language="en">Diagram</localized-string><localized-string key="formula" language="en">Formula</localized-string><localized-string key="inequality" language="en">Formula</localized-string><localized-string key="table" language="en">Table</localized-string><localized-string key="requirement" language="en">Requirement</localized-string><localized-string key="recommendation" language="en">Recommendation</localized-string><localized-string key="permission" language="en">Permission</localized-string><localized-string key="box" language="en">Box</localized-string><localized-string key="recommendationtest" language="en">Recommendation test</localized-string><localized-string key="requirementtest" language="en">Requirement test</localized-string><localized-string key="permissiontest" language="en">Permission test</localized-string><localized-string key="recommendationclass" language="en">Recommendations class</localized-string><localized-string key="requirementclass" language="en">Requirements class</localized-string><localized-string key="permissionclass" language="en">Permissions class</localized-string><localized-string key="abstracttest" language="en">Abstract test</localized-string><localized-string key="conformanceclass" language="en">Conformance class</localized-string><localized-string key="key" language="en">Key</localized-string><localized-string key="example" language="en">Example</localized-string><localized-string key="example_xref" language="en">Example</localized-string><localized-string key="where" language="en">where</localized-string><localized-string key="where_one" language="en">where</localized-string><localized-string key="wholeoftext" language="en">Whole of text</localized-string><localized-string key="draft_label" language="en">draft</localized-string><localized-string key="inform_annex" language="en">informative</localized-string><localized-string key="norm_annex" language="en">normative</localized-string><localized-string key="modified" language="en">modified</localized-string><localized-string key="adapted" language="en">adapted</localized-string><localized-string key="deprecated" language="en">DEPRECATED</localized-string><localized-string key="source" language="en">SOURCE</localized-string><localized-string key="and" language="en">and</localized-string><localized-string key="all_parts" language="en">All Parts</localized-string><localized-string key="edition_ordinal" language="en">{{ var1 | ordinal_word: '', '' }} edition</localized-string><localized-string key="edition" language="en">edition</localized-string><localized-string key="version" language="en">version</localized-string><localized-string key="toc_figures" language="en">List of Figures</localized-string><localized-string key="toc_tables" language="en">List of Tables</localized-string><localized-string key="toc_recommendations" language="en">List of Recommendations</localized-string><localized-string key="month_january" language="en">January</localized-string><localized-string key="month_february" language="en">February</localized-string><localized-string key="month_march" language="en">March</localized-string><localized-string key="month_april" language="en">April</localized-string><localized-string key="month_may" language="en">May</localized-string><localized-string key="month_june" language="en">June</localized-string><localized-string key="month_july" language="en">July</localized-string><localized-string key="month_august" language="en">August</localized-string><localized-string key="month_september" language="en">September</localized-string><localized-string key="month_october" language="en">October</localized-string><localized-string key="month_november" language="en">November</localized-string><localized-string key="month_december" language="en">December</localized-string><localized-string key="obligation" language="en">Obligation</localized-string><localized-string key="admonition.danger" language="en">Danger</localized-string><localized-string key="admonition.warning" language="en">Warning</localized-string><localized-string key="admonition.caution" language="en">Caution</localized-string><localized-string key="admonition.important" language="en">Important</localized-string><localized-string key="admonition.safety_precautions" language="en">Safety Precautions</localized-string><localized-string key="admonition.editorial" language="en">Editorial Note</localized-string><localized-string key="locality.section" language="en">Section</localized-string><localized-string key="locality.clause" language="en">Clause</localized-string><localized-string key="locality.part" language="en">Part</localized-string><localized-string key="locality.paragraph" language="en">Paragraph</localized-string><localized-string key="locality.chapter" language="en">Chapter</localized-string><localized-string key="locality.page" language="en">Page</localized-string><localized-string key="locality.table" language="en">Table</localized-string><localized-string key="locality.annex" language="en">Annex</localized-string><localized-string key="locality.figure" language="en">Figure</localized-string><localized-string key="locality.example" language="en">Example</localized-string><localized-string key="locality.note" language="en">Note</localized-string><localized-string key="locality.formula" language="en">Formula</localized-string><localized-string key="grammar_abbrevs.masculine" language="en">m</localized-string><localized-string key="grammar_abbrevs.feminine" language="en">f</localized-string><localized-string key="grammar_abbrevs.neuter" language="en">n</localized-string><localized-string key="grammar_abbrevs.common" language="en">common</localized-string><localized-string key="grammar_abbrevs.singular" language="en">sg</localized-string><localized-string key="grammar_abbrevs.dual" language="en">dual</localized-string><localized-string key="grammar_abbrevs.pl" language="en">pl</localized-string><localized-string key="grammar_abbrevs.isPreposition" language="en">prep</localized-string><localized-string key="grammar_abbrevs.isParticiple" language="en">part</localized-string><localized-string key="grammar_abbrevs.isAdjective" language="en">adj</localized-string><localized-string key="grammar_abbrevs.isAdverb" language="en">adv</localized-string><localized-string key="grammar_abbrevs.isNoun" language="en">noun</localized-string><localized-string key="grammar_abbrevs.isVerb" language="en">verb</localized-string><localized-string key="relatedterms.deprecates" language="en">deprecates</localized-string><localized-string key="relatedterms.supersedes" language="en">supersedes</localized-string><localized-string key="relatedterms.narrower" language="en">narrower</localized-string><localized-string key="relatedterms.broader" language="en">broader</localized-string><localized-string key="relatedterms.equivalent" language="en">equivalent</localized-string><localized-string key="relatedterms.compare" language="en">compare</localized-string><localized-string key="relatedterms.contrast" language="en">contrast</localized-string><localized-string key="relatedterms.see" language="en">see</localized-string><localized-string key="relatedterms.seealso" language="en">see also</localized-string><localized-string key="Clause.sg" language="en">Clause</localized-string><localized-string key="Clause.pl" language="en">Clauses</localized-string><localized-string key="Annex.sg" language="en">Annex</localized-string><localized-string key="Annex.pl" language="en">Annexes</localized-string><localized-string key="Appendix.sg" language="en">Appendix</localized-string><localized-string key="Appendix.pl" language="en">Appendixes</localized-string><localized-string key="Note.sg" language="en">Note</localized-string><localized-string key="Note.pl" language="en">Notes</localized-string><localized-string key="Note_%_to_entry.sg" language="en">Note % to entry</localized-string><localized-string key="Note_%_to_entry.pl" language="en">Notes % to entry</localized-string><localized-string key="List.sg" language="en">List</localized-string><localized-string key="List.pl" language="en">Lists</localized-string><localized-string key="Figure.sg" language="en">Figure</localized-string><localized-string key="Figure.pl" language="en">Figures</localized-string><localized-string key="Formula.sg" language="en">Formula</localized-string><localized-string key="Formula.pl" language="en">Formulas</localized-string><localized-string key="Table.sg" language="en">Table</localized-string><localized-string key="Table.pl" language="en">Tables</localized-string><localized-string key="Requirement.sg" language="en">Requirement</localized-string><localized-string key="Requirement.pl" language="en">Requirements</localized-string><localized-string key="Recommendation.sg" language="en">Recommendation</localized-string><localized-string key="Recommendation.pl" language="en">Recommendations</localized-string><localized-string key="Permission.sg" language="en">Permission</localized-string><localized-string key="Permission.pl" language="en">Permissions</localized-string><localized-string key="Example.sg" language="en">Example</localized-string><localized-string key="Example.pl" language="en">Examples</localized-string><localized-string key="Part.sg" language="en">Part</localized-string><localized-string key="Part.pl" language="en">Parts</localized-string><localized-string key="Section.sg" language="en">Section</localized-string><localized-string key="Section.pl" language="en">Sections</localized-string><localized-string key="Paragraph.sg" language="en">Paragraph</localized-string><localized-string key="Paragraph.pl" language="en">Paragraphs</localized-string><localized-string key="Chapter.sg" language="en">Chapter</localized-string><localized-string key="Chapter.pl" language="en">Chapters</localized-string><localized-string key="Page.sg" language="en">Page</localized-string><localized-string key="Page.pl" language="en">Pages</localized-string><localized-string key="admitted" language="en">ALTERNATIVE</localized-string><localized-string key="submitters" language="en">Submitters</localized-string><localized-string key="contributors_clause" language="en">Contributors</localized-string><localized-string key="dochistory" language="en">Revision history</localized-string><localized-string key="table_of_figures" language="en">Table of Figures</localized-string><localized-string key="security_empty" language="en">No security considerations have been made for this document.</localized-string><localized-string key="submission_date" language="en">Submission Date</localized-string><localized-string key="approval_date" language="en">Approval Date</localized-string><localized-string key="publication_date" language="en">Publication Date</localized-string><localized-string key="author" language="en">Author</localized-string><localized-string key="editor_full" language="en">Editor</localized-string><localized-string key="contributor" language="en">Contributor</localized-string><localized-string key="stage_dict.draft" language="en">Draft</localized-string><localized-string key="stage_dict.work-item-draft" language="en">Work Item Draft</localized-string><localized-string key="stage_dict.swg-draft" language="en">Candidate SWG Draft</localized-string><localized-string key="stage_dict.oab-review" language="en">Candidate OAB Review Draft</localized-string><localized-string key="stage_dict.public-rfc" language="en">Candidate Public RFC Draft</localized-string><localized-string key="stage_dict.tc-vote" language="en">Candidate TC Vote Draft</localized-string><localized-string key="stage_dict.approved" language="en">Approved</localized-string><localized-string key="stage_dict.published" language="en">Published</localized-string><localized-string key="stage_dict.deprecated" language="en">Deprecated</localized-string><localized-string key="stage_dict.rescinded" language="en">Rescinded</localized-string><localized-string key="stage_dict.retired" language="en">Retired</localized-string><localized-string key="language" language="en">en</localized-string><localized-string key="script" language="en">Latn</localized-string></localized-strings><metanorma-extension><table id="_misccontainer_anchor_aliases"><name>Table</name><tbody><tr><th>req_reqs-are-testable</th><td>/req/core/reqs-are-testable</td></tr><tr><th>req_all-components-assigned-uri</th><td>/req/core/all-components-assigned-uri</td></tr><tr><th>req_vocabulary-and-parent-req-class</th><td>/req/core/vocabulary-and-parent-req-class</td></tr><tr><th>req_single-standardization-target</th><td>/req/core/single-standardization-target</td></tr><tr><th>req_test-class-single-standardization-target</th><td>/req/core/test-class-single-standardization-target</td></tr><tr><th>req_requirements-grouped</th><td>/req/core/requirements-grouped</td></tr><tr><th>req_requirements-test-suite-structure</th><td>/req/core/requirements-test-suite-structure</td></tr><tr><th>req_requirements-class-correspondence-to-conformance-classes</th><td>/req/core/requirements-class-correspondence-to-conformance-classes</td></tr><tr><th>req_no-optional-tests</th><td>/req/core/no-optional-tests</td></tr><tr><th>req_all-parameters-expressed</th><td>/req/core/all-parameters-expressed</td></tr><tr><th>req_conf-class-single-req-class</th><td>/req/core/conf-class-single-req-class</td></tr><tr><th>req_con-class-dependencies</th><td>/req/core/con-class-dependencies</td></tr><tr><th>req_imported-requirements-class</th><td>/req/core/imported-requirements-class</td></tr><tr><th>req_all-classes-explicitly-named</th><td>/req/core/all-classes-explicitly-named</td></tr><tr><th>req_req-in-only-one-req-class</th><td>/req/core/req-in-only-one-req-class</td></tr><tr><th>req_co-dependent-requirements</th><td>/req/core/co-dependent-requirements</td></tr><tr><th>req_structure-requirements-classes</th><td>/req/core/structure-requirements-classes</td></tr><tr><th>req_requirements-and-dependencies</th><td>/req/core/requirements-and-dependencies</td></tr><tr><th>req_profile-conformance</th><td>/req/core/profile-conformance</td></tr><tr><th>req_core-requirements-separate</th><td>/req/core/core-requirements-separate</td></tr><tr><th>req_requirements-and-dependencies-2</th><td>/req/core/requirements-and-dependencies-2</td></tr><tr><th>req_requirements-and-dependencies-3</th><td>/req/core/requirements-and-dependencies-3</td></tr><tr><th>req_core-and-extensions</th><td>/req/core/core-and-extensions</td></tr><tr><th>req_extensions-conformant-to-the-modspec</th><td>/req/core/extensions-conformant-to-the-modspec</td></tr><tr><th>req_restriction-of-extensions</th><td>/req/core/restriction-of-extensions</td></tr><tr><th>req_optional-requirements</th><td>/req/core/optional-requirements</td></tr><tr><th>req_req-class-overlap-by-reference</th><td>/req/core/req-class-overlap-by-reference</td></tr></tbody></table><presentation-metadata><name>TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>HTML TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>DOC TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>PDF TOC Heading Levels</name><value>2</value></presentation-metadata><metanorma><source><semantic__ogc-standard type="semantic" version="2.5.7" schema-version="v1.3.1">
 <semantic__bibdata type="standard">
 <semantic__title language="en" format="text/plain">The ModSpec Model - A Standard for Designing and Writing Modular Standards</semantic__title>
 <semantic__docidentifier type="ogc-internal" primary="true">08-131r3</semantic__docidentifier><semantic__docnumber>08-131r3</semantic__docnumber><semantic__date type="published"><semantic__on>2025-xx-xx</semantic__on></semantic__date><semantic__date type="issued"><semantic__on>2025-xx-xx</semantic__on></semantic__date><semantic__date type="received"><semantic__on>2024-12-10</semantic__on></semantic__date><semantic__contributor><semantic__role type="author"/><semantic__organization>
@@ -39,7 +39,7 @@
 <semantic__name>Open Geospatial Consortium</semantic__name>
 <semantic__abbreviation>OGC</semantic__abbreviation></semantic__organization></semantic__contributor><semantic__edition>1.1.0</semantic__edition><semantic__language>en</semantic__language><semantic__script>Latn</semantic__script><semantic__status><semantic__stage>Draft</semantic__stage></semantic__status><semantic__copyright><semantic__from>2024</semantic__from><semantic__owner><semantic__organization>
 <semantic__name>Open Geospatial Consortium</semantic__name>
-<semantic__abbreviation>OGC</semantic__abbreviation></semantic__organization></semantic__owner></semantic__copyright><semantic__ext><semantic__doctype>draft-standard</semantic__doctype><semantic__subdoctype>logical-model</semantic__subdoctype><semantic__editorialgroup><semantic__committee>technical</semantic__committee></semantic__editorialgroup></semantic__ext></semantic__bibdata><semantic__metanorma-extension><semantic__presentation-metadata><semantic__name>TOC Heading Levels</semantic__name><semantic__value>2</semantic__value></semantic__presentation-metadata><semantic__presentation-metadata><semantic__name>HTML TOC Heading Levels</semantic__name><semantic__value>2</semantic__value></semantic__presentation-metadata><semantic__presentation-metadata><semantic__name>DOC TOC Heading Levels</semantic__name><semantic__value>2</semantic__value></semantic__presentation-metadata><semantic__presentation-metadata><semantic__name>PDF TOC Heading Levels</semantic__name><semantic__value>2</semantic__value></semantic__presentation-metadata></semantic__metanorma-extension>
+<semantic__abbreviation>OGC</semantic__abbreviation></semantic__organization></semantic__owner></semantic__copyright><semantic__ext><semantic__doctype>draft-standard</semantic__doctype><semantic__subdoctype>logical-model</semantic__subdoctype><semantic__editorialgroup><semantic__committee>technical</semantic__committee></semantic__editorialgroup></semantic__ext></semantic__bibdata><semantic__metanorma-extension><semantic__table id="semantic___misccontainer_anchor_aliases"><semantic__tbody><semantic__tr><semantic__th>req_reqs-are-testable</semantic__th><semantic__td>/req/core/reqs-are-testable</semantic__td></semantic__tr><semantic__tr><semantic__th>req_all-components-assigned-uri</semantic__th><semantic__td>/req/core/all-components-assigned-uri</semantic__td></semantic__tr><semantic__tr><semantic__th>req_vocabulary-and-parent-req-class</semantic__th><semantic__td>/req/core/vocabulary-and-parent-req-class</semantic__td></semantic__tr><semantic__tr><semantic__th>req_single-standardization-target</semantic__th><semantic__td>/req/core/single-standardization-target</semantic__td></semantic__tr><semantic__tr><semantic__th>req_test-class-single-standardization-target</semantic__th><semantic__td>/req/core/test-class-single-standardization-target</semantic__td></semantic__tr><semantic__tr><semantic__th>req_requirements-grouped</semantic__th><semantic__td>/req/core/requirements-grouped</semantic__td></semantic__tr><semantic__tr><semantic__th>req_requirements-test-suite-structure</semantic__th><semantic__td>/req/core/requirements-test-suite-structure</semantic__td></semantic__tr><semantic__tr><semantic__th>req_requirements-class-correspondence-to-conformance-classes</semantic__th><semantic__td>/req/core/requirements-class-correspondence-to-conformance-classes</semantic__td></semantic__tr><semantic__tr><semantic__th>req_no-optional-tests</semantic__th><semantic__td>/req/core/no-optional-tests</semantic__td></semantic__tr><semantic__tr><semantic__th>req_all-parameters-expressed</semantic__th><semantic__td>/req/core/all-parameters-expressed</semantic__td></semantic__tr><semantic__tr><semantic__th>req_conf-class-single-req-class</semantic__th><semantic__td>/req/core/conf-class-single-req-class</semantic__td></semantic__tr><semantic__tr><semantic__th>req_con-class-dependencies</semantic__th><semantic__td>/req/core/con-class-dependencies</semantic__td></semantic__tr><semantic__tr><semantic__th>req_imported-requirements-class</semantic__th><semantic__td>/req/core/imported-requirements-class</semantic__td></semantic__tr><semantic__tr><semantic__th>req_all-classes-explicitly-named</semantic__th><semantic__td>/req/core/all-classes-explicitly-named</semantic__td></semantic__tr><semantic__tr><semantic__th>req_req-in-only-one-req-class</semantic__th><semantic__td>/req/core/req-in-only-one-req-class</semantic__td></semantic__tr><semantic__tr><semantic__th>req_co-dependent-requirements</semantic__th><semantic__td>/req/core/co-dependent-requirements</semantic__td></semantic__tr><semantic__tr><semantic__th>req_structure-requirements-classes</semantic__th><semantic__td>/req/core/structure-requirements-classes</semantic__td></semantic__tr><semantic__tr><semantic__th>req_requirements-and-dependencies</semantic__th><semantic__td>/req/core/requirements-and-dependencies</semantic__td></semantic__tr><semantic__tr><semantic__th>req_profile-conformance</semantic__th><semantic__td>/req/core/profile-conformance</semantic__td></semantic__tr><semantic__tr><semantic__th>req_core-requirements-separate</semantic__th><semantic__td>/req/core/core-requirements-separate</semantic__td></semantic__tr><semantic__tr><semantic__th>req_requirements-and-dependencies-2</semantic__th><semantic__td>/req/core/requirements-and-dependencies-2</semantic__td></semantic__tr><semantic__tr><semantic__th>req_requirements-and-dependencies-3</semantic__th><semantic__td>/req/core/requirements-and-dependencies-3</semantic__td></semantic__tr><semantic__tr><semantic__th>req_core-and-extensions</semantic__th><semantic__td>/req/core/core-and-extensions</semantic__td></semantic__tr><semantic__tr><semantic__th>req_extensions-conformant-to-the-modspec</semantic__th><semantic__td>/req/core/extensions-conformant-to-the-modspec</semantic__td></semantic__tr><semantic__tr><semantic__th>req_restriction-of-extensions</semantic__th><semantic__td>/req/core/restriction-of-extensions</semantic__td></semantic__tr><semantic__tr><semantic__th>req_optional-requirements</semantic__th><semantic__td>/req/core/optional-requirements</semantic__td></semantic__tr><semantic__tr><semantic__th>req_req-class-overlap-by-reference</semantic__th><semantic__td>/req/core/req-class-overlap-by-reference</semantic__td></semantic__tr></semantic__tbody></semantic__table><semantic__presentation-metadata><semantic__name>TOC Heading Levels</semantic__name><semantic__value>2</semantic__value></semantic__presentation-metadata><semantic__presentation-metadata><semantic__name>HTML TOC Heading Levels</semantic__name><semantic__value>2</semantic__value></semantic__presentation-metadata><semantic__presentation-metadata><semantic__name>DOC TOC Heading Levels</semantic__name><semantic__value>2</semantic__value></semantic__presentation-metadata><semantic__presentation-metadata><semantic__name>PDF TOC Heading Levels</semantic__name><semantic__value>2</semantic__value></semantic__presentation-metadata></semantic__metanorma-extension>
 <semantic__boilerplate><semantic__copyright-statement>
 
 <semantic__clause id="semantic___copyright_notice" obligation="normative">
@@ -933,7 +933,13 @@ Any new OGC Standard, abstract specification that contains requirements, or majo
 
 <semantic__p id="semantic___44f43ad6-e349-39cf-adcd-28d235f96500">The following requirement states that every requirement is testable.</semantic__p>
 
-<semantic__table id="semantic__req-1" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="left"><semantic__strong>REQ001</semantic__strong></semantic__td>
+<semantic__requirement id="semantic__req_reqs-are-testable" model="ogc"> <semantic__identifier>/req/core/reqs-are-testable</semantic__identifier><semantic__component class="part"><semantic__p id="semantic___7ee92889-b923-f151-7524-493429e1dbda">All the parts of a requirement, a requirements module, or requirements class SHALL be testable. Failure to pass any part of any requirement shall be a failure to pass the associated conformance test class.</semantic__p>
+</semantic__component>
+</semantic__requirement>
+
+<semantic__p id="semantic___bde14a7e-73c0-2ade-61bb-eb4314cc1dc5">NOTE:This further means that failure to pass the test specified for a part of requirement is a failure to pass the requirement.</semantic__p>
+
+<semantic__table id="semantic___d6b7df05-b1ed-c4a9-ce08-cdeaf34aa376" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="left"><semantic__strong>REQ001</semantic__strong></semantic__td>
 <semantic__td valign="middle" align="left"><semantic__strong>/req/core/reqs-are-testable</semantic__strong><semantic__br/>
 All the parts of a requirement, a requirements module, or requirements class <semantic__em>SHALL</semantic__em> be
 testable. Failure to pass any part of any requirement shall be a failure to pass the
@@ -945,7 +951,14 @@ failure to pass the requirement.</semantic__p>
 
 
 
-<semantic__table id="semantic__req-2" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="left"><semantic__strong>REQ002</semantic__strong></semantic__td>
+<semantic__requirement id="semantic__req_all-components-assigned-uri" model="ogc"> <semantic__identifier>/req/core/all-components-assigned-uri</semantic__identifier><semantic__component class="part"><semantic__p id="semantic___96820075-802e-332f-346d-2db7e0460c49">Each component of the standard, including requirements, requirements modules, requirements classes, conformance test cases, conformance modules and conformance classes SHALL be assigned a URI.</semantic__p>
+</semantic__component><semantic__component class="part"><semantic__p id="semantic___321bf639-dab1-ceb0-66a7-aa3d726b6bcc">For OGC standards documents, these URIs SHALL be conformant with the policies of the OGC Naming Authority.</semantic__p>
+</semantic__component>
+</semantic__requirement>
+
+<semantic__p id="semantic___ef16e88c-e818-88c6-da9a-4f2cebbba1e2">NOTE:In the OGC, the enforcement of this requirement and its associated recommendation is the purview of the OGC Naming Authority or its equivalents.</semantic__p>
+
+<semantic__table id="semantic___ae77a100-905b-01a6-f14b-dcf6fd78bdd8" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="left"><semantic__strong>REQ002</semantic__strong></semantic__td>
 <semantic__td valign="middle" align="left"><semantic__strong>/req/core/all-components-assigned-uri</semantic__strong><semantic__br/>
 Each component of the standard, including requirements, requirements modules,
 requirements classes, conformance test cases, conformance modules and conformance
@@ -967,10 +980,10 @@ conformance for implementations conformant to the standard in question.</semanti
 </semantic__tr></semantic__tbody>
 </semantic__table>
 
-<semantic__p id="semantic___31baa165-6420-8f83-795e-00fffd1c9e02">While a requirement may be referenced in more than one place in a standard, the normative definition of a requirement shall be its “<semantic__strong><semantic__hi>home</semantic__hi></semantic__strong>” (see <semantic__xref target="semantic__cls-5-3"/>) and
+<semantic__p id="semantic___06651d2d-e86b-2f90-cab8-a3ad58099ae4">While a requirement may be referenced in more than one place in a standard, the normative definition of a requirement shall be its “<semantic__strong><semantic__hi>home</semantic__hi></semantic__strong>” (see <semantic__xref target="semantic__cls-5-3"/>) and
 will be the only place where full normative language is used.</semantic__p>
 
-<semantic__p id="semantic___96c17e22-1baa-f8e9-160f-5d7d5da151c0">The following permissions relate to possible content specified in the core of a standard.</semantic__p>
+<semantic__p id="semantic___d0a4831b-0a38-3bc9-d2e8-0908c5446aef">The following permissions relate to possible content specified in the core of a standard.</semantic__p>
 
 <semantic__table id="semantic__per-1" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="left"><semantic__strong>PER001</semantic__strong></semantic__td>
 <semantic__td valign="middle" align="left"><semantic__strong>/per/core/informational-content-in-core</semantic__strong><semantic__br/>
@@ -981,7 +994,7 @@ included in the core.</semantic__td>
 </semantic__tr></semantic__tbody>
 </semantic__table>
 
-<semantic__p id="semantic___776c1aef-7e2d-c2bf-735b-7607a40a3867">In this manner, the core requirements class and its associated contents can be
+<semantic__p id="semantic___f307b3b6-c2fb-8179-a8cb-37b390f2b873">In this manner, the core requirements class and its associated contents can be
 thought of not only as the requirements of the core conformance class, but as a form
 of reference model for establishing core vocabularies and schemas for the entire
 standard.</semantic__p>
@@ -1003,9 +1016,13 @@ requested operation is part of a non-supported extension.</semantic__td>
 </semantic__tr></semantic__tbody>
 </semantic__table>
 
-<semantic__p id="semantic___21d2959f-9b26-7bf3-ca96-04fba19dc6a6">The following states how and where vocabularies are specified in relation to a requirement or requirements class.</semantic__p>
+<semantic__p id="semantic___dc2d2853-55e9-5c7f-5781-dcfb24dbb4cc">The following states how and where vocabularies are specified in relation to a requirement or requirements class.</semantic__p>
 
-<semantic__table id="semantic__req-3" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="left"><semantic__strong>REQ003</semantic__strong></semantic__td>
+<semantic__requirement id="semantic__req_vocabulary-and-parent-req-class" model="ogc"> <semantic__identifier>/req/core/vocabulary-and-parent-req-class</semantic__identifier><semantic__component class="part"><semantic__p id="semantic___3431ce38-cb94-ca87-f616-3430be94a655">Requirements on the use and interpretation of vocabulary SHALL be in the requirements class where that use or interpretation is used.</semantic__p>
+</semantic__component>
+</semantic__requirement>
+
+<semantic__table id="semantic___ee1eebcd-13d4-6014-a72b-de1ae5c768bb" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="left"><semantic__strong>REQ003</semantic__strong></semantic__td>
 <semantic__td valign="middle" align="left"><semantic__strong>/req/core/vocabulary-and-parent-req-class</semantic__strong><semantic__br/>
 Requirements on the use and interpretation of vocabulary <semantic__em>SHALL</semantic__em> be in the
 requirements class where that use or interpretation is used.</semantic__td>
@@ -1055,7 +1072,11 @@ such part separately (see the definition of requirements class in
 <semantic__xref target="semantic__term-requirements-class"/>). In this sense, the next requirement divides
 standard into parts more than restricting their content.</semantic__p>
 
-<semantic__table id="semantic__req-4" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="left"><semantic__strong>REQ004</semantic__strong></semantic__td>
+<semantic__requirement id="semantic__req_single-standardization-target" model="ogc"> <semantic__identifier>/req/core/single-standardization-target</semantic__identifier><semantic__component class="part"><semantic__p id="semantic___2608c8d5-3911-13e5-ee58-fd9e1feb5b82">Each requirement in a conformant standard SHALL have a single standardization target type.</semantic__p>
+</semantic__component>
+</semantic__requirement>
+
+<semantic__table id="semantic___04533135-19e4-5219-fef5-3f198a6cec33" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="left"><semantic__strong>REQ004</semantic__strong></semantic__td>
 <semantic__td valign="middle" align="left"><semantic__strong>/req/core/single-standardization-target</semantic__strong><semantic__br/>
 Each requirement in a conformant standard <semantic__em>SHALL</semantic__em> have a single standardization
 target type.</semantic__td>
@@ -1067,7 +1088,11 @@ of an inheritance tree where extensions all have the core’s target as an ances
 and thus can be considered as belonging to the same “class” or type as the core’s
 target.</semantic__p>
 
-<semantic__table id="semantic__req-5" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="left"><semantic__strong>REQ005</semantic__strong></semantic__td>
+<semantic__requirement id="semantic__req_test-class-single-standardization-target" model="ogc"> <semantic__identifier>/req/core/test-class-single-standardization-target</semantic__identifier><semantic__component class="part"><semantic__p id="semantic___ede44dd0-9284-6a73-e0cf-eeb32fb89d68">All conformance tests in a single conformance test class in a conformant standard SHALL have the same standardization target.</semantic__p>
+</semantic__component>
+</semantic__requirement>
+
+<semantic__table id="semantic___4c5171c9-ab27-fb1f-b2d0-63a512850e0f" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="left"><semantic__strong>REQ005</semantic__strong></semantic__td>
 <semantic__td valign="middle" align="left"><semantic__strong>/req/core/modspec/test-class-single-standardization-target</semantic__strong><semantic__br/>
 All conformance tests in a single conformance test class in a conformant
 standard <semantic__em>SHALL</semantic__em> have the same standardization target.</semantic__td>
@@ -1118,7 +1143,11 @@ diagrammed in <semantic__xref target="semantic__fig-6-1"/>.</semantic__td>
 <semantic__title>The “standards” document</semantic__title>
 <semantic__p id="semantic___3072f34a-49ad-4230-661f-3952bb1988b8">Each standard document is comprised of a set of requirements and their associated conformance tests.</semantic__p>
 
-<semantic__table id="semantic__req-6" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="left"><semantic__strong>REQ006</semantic__strong></semantic__td>
+<semantic__requirement id="semantic__req_requirements-grouped" model="ogc"> <semantic__identifier>/req/core/requirements-grouped</semantic__identifier><semantic__component class="part"><semantic__p id="semantic___af38868d-d5a1-835e-f1c0-2fd47d081ab2">Requirements SHALL be grouped together in clauses (numbered sections) of the document in a strictly hierarchical manner, consistent with requirements classes.</semantic__p>
+</semantic__component>
+</semantic__requirement>
+
+<semantic__table id="semantic___6cd63115-dd0a-6352-1c8b-cd289941fb18" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="left"><semantic__strong>REQ006</semantic__strong></semantic__td>
 <semantic__td valign="middle" align="left"><semantic__strong>/req/core/requirements-grouped</semantic__strong><semantic__br/>
 Requirements SHALL be grouped together in clauses (numbered sections) of the
 document in a strictly hierarchical manner, consistent with
@@ -1126,7 +1155,11 @@ requirements classes.</semantic__td>
 </semantic__tr></semantic__tbody>
 </semantic__table>
 
-<semantic__table id="semantic__req-7" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="left"><semantic__strong>REQ007</semantic__strong></semantic__td>
+<semantic__requirement id="semantic__req_requirements-test-suite-structure" model="ogc"> <semantic__identifier>/req/core/requirements-test-suite-structure</semantic__identifier><semantic__component class="part"><semantic__p id="semantic___756b5896-151c-9084-8caa-05b321510ad0">The requirements structure of the document SHALL be in a logical correspondence to the test suite structure.</semantic__p>
+</semantic__component>
+</semantic__requirement>
+
+<semantic__table id="semantic___42cef974-b03d-cb4b-8082-bc60385c29cf" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="left"><semantic__strong>REQ007</semantic__strong></semantic__td>
 <semantic__td valign="middle" align="left"><semantic__strong>/req/core/requirements-test-suite-structure</semantic__strong><semantic__br/>
 The requirements structure of the document SHALL be in a logical correspondence to
 the test suite structure.</semantic__td>
@@ -1163,7 +1196,11 @@ only describes in detail how those requirements should be tested.</semantic__p>
 types, elements, or objects are defined and segregated into implementation
 requirements classes.</semantic__p>
 
-<semantic__table id="semantic__req-8" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="left"><semantic__strong>REQ008</semantic__strong></semantic__td>
+<semantic__requirement id="semantic__req_requirements-class-correspondence-to-conformance-classes" model="ogc"> <semantic__identifier>/req/core/requirements-class-correspondence-to-conformance-classes</semantic__identifier><semantic__component class="part"><semantic__p id="semantic___74ae8bc2-8617-3f2b-beca-431294e9e3fb">The requirements classes SHALL be in a one-to-one correspondence to the conformance test classes, and thus to the various certificate of conformance types possible for a candidate implementation.</semantic__p>
+</semantic__component>
+</semantic__requirement>
+
+<semantic__table id="semantic___0c2b47f5-aabd-0522-c9ac-3ecebc2b5a49" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="left"><semantic__strong>REQ008</semantic__strong></semantic__td>
 <semantic__td valign="middle" align="left"><semantic__strong>/req/core/requirements-class-correspondence-to-conformance-classes</semantic__strong><semantic__br/>
 The requirements classes shall be in a one-to-one correspondence to the conformance test classes,
 and thus to the various certificate of conformance types possible for a candidate implementation.</semantic__td>
@@ -1177,7 +1214,11 @@ and thus to the various certificate of conformance types possible for a candidat
 <semantic__title>Requirements for Modularity</semantic__title>
 <semantic__clause id="semantic__cls-6-5-1" obligation="normative">
 <semantic__title>Each Conformance class tests a complete requirements class</semantic__title>
-<semantic__table id="semantic__req-9" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="left"><semantic__strong>REQ009</semantic__strong></semantic__td>
+<semantic__requirement id="semantic__req_no-optional-tests" model="ogc"> <semantic__identifier>/req/core/no-optional-tests</semantic__identifier><semantic__component class="part"><semantic__p id="semantic___d58eaa14-426d-4953-60ee-a69d877a4cb0">Conformance class SHALL not contain any optional conformance tests.</semantic__p>
+</semantic__component>
+</semantic__requirement>
+
+<semantic__table id="semantic___b9838f15-db02-5bc8-e5bd-07fd21b4e6cb" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="left"><semantic__strong>REQ009</semantic__strong></semantic__td>
 <semantic__td valign="middle" align="left"><semantic__strong>/req/core/no-optional-tests</semantic__strong><semantic__br/>
 A Conformance class SHALL not contain any optional conformance tests.</semantic__td>
 </semantic__tr></semantic__tbody>
@@ -1211,7 +1252,11 @@ if a service uses or produces feature data, the format of that data may be a
 parameter, such as GML, KML or GeoJSON. When reading a certificate of conformance,
 the values of such parameters are very important.</semantic__p>
 
-<semantic__table id="semantic__req-10" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="left"><semantic__strong>REQ010</semantic__strong></semantic__td>
+<semantic__requirement id="semantic__req_all-parameters-expressed" model="ogc"> <semantic__identifier>/req/core/all-parameters-expressed</semantic__identifier><semantic__component class="part"><semantic__p id="semantic___939c7b29-17c5-2f47-f557-dd62b8d3af2a">A certificate of conformance SHALL specify all parameter values used to pass the tests in its conformance test class.</semantic__p>
+</semantic__component>
+</semantic__requirement>
+
+<semantic__table id="semantic___9d000c5d-c610-e883-7a28-9301cb86eb26" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="left"><semantic__strong>REQ010</semantic__strong></semantic__td>
 <semantic__td valign="middle" align="left"><semantic__strong>/req/core/all-parameters-expressed</semantic__strong><semantic__br/>
 A certificate of conformance SHALL specify all parameter values used to pass the
 tests in its conformance test class.</semantic__td>
@@ -1220,7 +1265,11 @@ tests in its conformance test class.</semantic__td>
 
 <semantic__p id="semantic___55cbab72-c748-a416-7f9a-9e5e605ff9b0">Conformance to a particular conformance class means exactly the same thing everywhere.</semantic__p>
 
-<semantic__table id="semantic__req-11" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="left"><semantic__strong>REQ011</semantic__strong></semantic__td>
+<semantic__requirement id="semantic__req_conf-class-single-req-class" model="ogc"> <semantic__identifier>/req/core/conf-class-single-req-class</semantic__identifier><semantic__component class="part"><semantic__p id="semantic___9becba81-a4ed-03b7-76da-b0e02ebf7542">A Conformance class SHALL explicitly test only requirements from a single requirements class.</semantic__p>
+</semantic__component>
+</semantic__requirement>
+
+<semantic__table id="semantic___52256758-bedd-5cc8-c2c6-26c241e7a6f8" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="left"><semantic__strong>REQ011</semantic__strong></semantic__td>
 <semantic__td valign="middle" align="left"><semantic__strong>/req/core/conf-class-single-req-class</semantic__strong><semantic__br/>
 A Conformance class SHALL explicitly test only requirements from a single
 requirements class.</semantic__td>
@@ -1232,7 +1281,11 @@ and the conformance test classes in the test suite. Recall that a conformance te
 class may specify dependencies causing other conformance test classes to be used,
 but this is a result of an explicit requirement in the “home” requirements class.</semantic__p>
 
-<semantic__table id="semantic__req-12" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="left"><semantic__strong>REQ012</semantic__strong></semantic__td>
+<semantic__requirement id="semantic__req_con-class-dependencies" model="ogc"> <semantic__identifier>/req/core/con-class-dependencies</semantic__identifier><semantic__component class="part"><semantic__p id="semantic___6517af05-91df-4c3e-298d-d3f0dbf8e755">A Conformance class SHALL specify any other conformance class upon which it is dependent and that other conformance class shall be used to test the specified dependency.</semantic__p>
+</semantic__component>
+</semantic__requirement>
+
+<semantic__table id="semantic___fde66fcf-6d22-29fe-8ca2-eedd9cc93161" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="left"><semantic__strong>REQ012</semantic__strong></semantic__td>
 <semantic__td valign="middle" align="left"><semantic__strong>/req/core/con-class-dependencies</semantic__strong><semantic__br/>
 A Conformance class SHALL specify any other conformance class upon which it is
 dependent and that other conformance class shall be used to test the specified
@@ -1268,7 +1321,12 @@ care must be taken in importing conformance test classes from other standards.</
 
 
 
-<semantic__table id="semantic__req-13" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="center"><semantic__strong>REQ013</semantic__strong></semantic__td>
+<semantic__requirement id="semantic__req_imported-requirements-class" model="ogc"> <semantic__identifier>/req/core/imported-requirements-class</semantic__identifier><semantic__component class="part"><semantic__p id="semantic___4327469a-1c96-7133-8587-4617d598ca8b">If a requirements class is imported from another standard for use within a standard conformant to the ModSpec, and if any imported requirement is “optional,” then that requirement SHALL be factored out as a separate requirements class in the profile of that imported standard used in the conformant standard.</semantic__p>
+</semantic__component><semantic__component class="part"><semantic__p id="semantic___6e6e374a-ed5f-d306-4158-f2099fe47f03">Each such used requirements class SHALL be a conformance class of the source standard or a combination of conformance classes of the source standard or standards.</semantic__p>
+</semantic__component>
+</semantic__requirement>
+
+<semantic__table id="semantic___5ddc9108-e41c-44ba-2206-68a5d3f97581" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="center"><semantic__strong>REQ013</semantic__strong></semantic__td>
 <semantic__td valign="middle" align="left"><semantic__strong>/req/core/imported-requirements-class</semantic__strong><semantic__br/></semantic__td>
 </semantic__tr><semantic__tr><semantic__td valign="middle" align="center">A</semantic__td>
 <semantic__td valign="middle" align="left">If a requirements class is imported from another standard for use within a
@@ -1285,7 +1343,11 @@ standard or a combination of conformance classes of the source standard or stand
 standards document is non-ambiguous. To insure this, by utilizing the names of the two types of classes the following requirement places a
 default mapping between the two.</semantic__p>
 
-<semantic__table id="semantic__req-14" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="left"><semantic__strong>REQ014</semantic__strong></semantic__td>
+<semantic__requirement id="semantic__req_all-classes-explicitly-named" model="ogc"> <semantic__identifier>/req/core/all-classes-explicitly-named</semantic__identifier><semantic__component class="part"><semantic__p id="semantic___0e6f8c85-4f26-0c4f-fb9a-0de87954444d">For the sake of consistency and readability, all requirements classes and all conformance test classes SHALL be explicitly named, with corresponding requirements classes and conformance test classes having similar names.</semantic__p>
+</semantic__component>
+</semantic__requirement>
+
+<semantic__table id="semantic___1c11576c-2556-7612-fc70-548b97befa79" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="left"><semantic__strong>REQ014</semantic__strong></semantic__td>
 <semantic__td valign="middle" align="left"><semantic__strong>/req/core/all-classes-explicitly-named</semantic__strong><semantic__br/>
 For the sake of consistency and readability, all requirements classes and all
 conformance test classes <semantic__em>SHALL</semantic__em> be explicitly named, with corresponding requirements
@@ -1303,7 +1365,12 @@ both are related (as described) to the same set of requirements.</semantic__p>
 
 <semantic__clause id="semantic__cls-6-5-2" obligation="normative">
 <semantic__title>Requirements classes contain all requirements tested by a conformance test case</semantic__title>
-<semantic__table id="semantic__req-15" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="center"><semantic__strong>REQ015</semantic__strong></semantic__td>
+<semantic__requirement id="semantic__req_req-in-only-one-req-class" model="ogc"> <semantic__identifier>/req/core/req-in-only-one-req-class</semantic__identifier><semantic__component class="part"><semantic__p id="semantic___3495dba2-6cfe-32ba-7ca9-36ec598f3a62">Each requirement in the standard SHALL be contained in one and only one requirements class.</semantic__p>
+</semantic__component><semantic__component class="part"><semantic__p id="semantic___72072ae9-3ef6-ff15-17c9-7eeb2c25f4dd">Inclusion of any requirement in a requirements class by a conformance class SHALL imply inclusion of all requirements in its class (as a dependency).</semantic__p>
+</semantic__component>
+</semantic__requirement>
+
+<semantic__table id="semantic___ccd67cbf-852e-c0d0-f4f5-ba0d0e20a355" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="center"><semantic__strong>REQ015</semantic__strong></semantic__td>
 <semantic__td valign="middle" align="left"><semantic__strong>/req/core/req-in-only-one-rec-class</semantic__strong><semantic__br/></semantic__td>
 </semantic__tr><semantic__tr><semantic__td valign="middle" align="center">A</semantic__td>
 <semantic__td valign="middle" align="left">Each requirement in the standard <semantic__em>SHALL</semantic__em> be contained in one and only one
@@ -1332,7 +1399,12 @@ and tested in one and only one conformance class. This is not really a requireme
 here, since a single requirement can be stated twice in different requirements
 classes.</semantic__p>
 
-<semantic__table id="semantic__req-16" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="center"><semantic__strong>REQ016</semantic__strong></semantic__td>
+<semantic__requirement id="semantic__req_co-dependent-requirements" model="ogc"> <semantic__identifier>/req/core/co-dependent-requirements</semantic__identifier><semantic__component class="part"><semantic__p id="semantic___062088cc-10f1-4e62-326a-dceac40e66f6">If any two requirements are co-dependent (each dependent on the other) then they shall be in the same requirements class.</semantic__p>
+</semantic__component><semantic__component class="part"><semantic__p id="semantic___23b48bb3-9d8f-a720-273b-71671b59b851">If any two requirements classes are co-dependent, they shall be merged into a single class.</semantic__p>
+</semantic__component>
+</semantic__requirement>
+
+<semantic__table id="semantic___bdafab97-bc2f-2d75-787c-3e85cfc0082f" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="center"><semantic__strong>REQ016</semantic__strong></semantic__td>
 <semantic__td valign="middle" align="left"><semantic__strong>/req/core/co-dependent-requirements</semantic__strong><semantic__br/></semantic__td>
 </semantic__tr><semantic__tr><semantic__td valign="middle" align="center">A</semantic__td>
 <semantic__td valign="middle" align="left">If any two requirements are co-dependent (each
@@ -1353,7 +1425,11 @@ Circular dependencies of all types should be avoided whenever possible.</semanti
 </semantic__tr></semantic__tbody>
 </semantic__table>
 
-<semantic__table id="semantic__req-17" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="left"><semantic__strong>REQ017</semantic__strong></semantic__td>
+<semantic__requirement id="semantic__req_structure-requirements-classes" model="ogc"> <semantic__identifier>/req/core/structure-requirements-classes</semantic__identifier><semantic__component class="part"><semantic__p id="semantic___e5ada687-d5e6-08dc-7e26-7307be535b5c">There SHALL be a natural structure to the requirements classes so that each may be implemented on top of any implementations of its dependencies and independent of its extensions.</semantic__p>
+</semantic__component>
+</semantic__requirement>
+
+<semantic__table id="semantic___ba265d6c-3299-39c6-0c3c-4319578c01ce" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="left"><semantic__strong>REQ017</semantic__strong></semantic__td>
 <semantic__td valign="middle" align="left"><semantic__strong>/req/core/structure-requirements-classes</semantic__strong><semantic__br/>
 There <semantic__em>SHALL</semantic__em> be a natural structure to the requirements classes so that each may be
 implemented on top of any implementations of its dependencies and independent of its
@@ -1374,7 +1450,11 @@ other benefit can still do what they want; the requirement here only states that
 the software requirements classes are properly separated, they can be implemented in
 a “plug’n’play” fashion.</semantic__p>
 
-<semantic__table id="semantic__req-18" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="center"><semantic__strong>REQ018</semantic__strong></semantic__td>
+<semantic__requirement id="semantic__req_requirements-and-dependencies" model="ogc"> <semantic__identifier>/req/core/requirements-and-dependencies</semantic__identifier><semantic__component class="part"><semantic__p id="semantic___ea5c08da-41a0-bf6c-62f7-780d7a206381">No requirements class SHALL redefine the requirements of its dependencies, unless that redefinition is for an entity derived from but not contained in those dependencies.</semantic__p>
+</semantic__component>
+</semantic__requirement>
+
+<semantic__table id="semantic___2930c041-fe6b-5455-4fd0-9e132acf0fb2" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="center"><semantic__strong>REQ018</semantic__strong></semantic__td>
 <semantic__td valign="middle" align="left"><semantic__strong>/req/core/requirements-and-dependencies</semantic__strong><semantic__br/>
 No requirements class <semantic__em>SHALL</semantic__em> redefine the requirements of its dependencies, unless
 that redefinition is for an entity derived from but not contained in those
@@ -1404,7 +1484,11 @@ of all conformance classes) for defining profiles as defined in ISO/IEC 10000 (s
 <semantic__eref type="inline" bibitemid="semantic__iso-dp2" citeas="ISO/IEC DIR 2"/>). The base for creating a profile can be defined as the union of all
 requirements classes.</semantic__p>
 
-<semantic__table id="semantic__req-19" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="center"><semantic__strong>REQ019</semantic__strong></semantic__td>
+<semantic__requirement id="semantic__req_profile-conformance" model="ogc"> <semantic__identifier>/req/core/profile-conformance</semantic__identifier><semantic__component class="part"><semantic__p id="semantic___427c237e-a695-4e3d-7290-78b8b55e7dbe">The conformance tests for a profile of a standard SHALL be defined as the union of a list of conformance classes that are to be satisfied by that profile’s standardization targets.</semantic__p>
+</semantic__component>
+</semantic__requirement>
+
+<semantic__table id="semantic___fbcfd522-cfa4-20eb-3de0-3a7dc85f7640" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="center"><semantic__strong>REQ019</semantic__strong></semantic__td>
 <semantic__td valign="middle" align="left"><semantic__strong>/req/core/profile-conformance</semantic__strong><semantic__br/>
 The conformance tests for a profile of a standard <semantic__em>SHALL</semantic__em> be defined as the
 union of a list of conformance classes that are to be satisfied by that profile’s
@@ -1415,20 +1499,33 @@ standardization targets.</semantic__td>
 
 <semantic__clause id="semantic__cls-6-5-4" obligation="normative">
 <semantic__title>There is a Defined Core</semantic__title>
-<semantic__table id="semantic__req-20" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="center"><semantic__strong>REQ020</semantic__strong></semantic__td>
+<semantic__requirement id="semantic__req_core-requirements-separate" model="ogc"> <semantic__identifier>/req/core/core-requirements-separate</semantic__identifier><semantic__component class="part"><semantic__p id="semantic___42a2d5de-727e-79bc-ea9f-3e204c62ff12">Every standard SHALL define and identify a core set of requirements as a separate conformance class.</semantic__p>
+</semantic__component>
+</semantic__requirement>
+
+<semantic__table id="semantic___21bf89ab-2061-fc85-178d-4b2a0c10bff4" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="center"><semantic__strong>REQ020</semantic__strong></semantic__td>
 <semantic__td valign="middle" align="left"><semantic__strong>/req/core/core-requirements-separate</semantic__strong><semantic__br/>
 Every standard <semantic__em>SHALL</semantic__em> define and identify a core set of requirements as a
 separate conformance class.</semantic__td>
 </semantic__tr></semantic__tbody>
 </semantic__table>
 
-<semantic__table id="semantic__req-21" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="center"><semantic__strong>REQ021</semantic__strong></semantic__td>
+<semantic__requirement id="semantic__req_requirements-and-dependencies-2" model="ogc"> <semantic__identifier>/req/core/requirements-and-dependencies-2</semantic__identifier><semantic__component class="part"><semantic__p id="semantic___e5bfbd98-1593-3121-2e45-fc37568f4e48">All general recommendations SHALL be in the core.</semantic__p>
+</semantic__component>
+</semantic__requirement>
+
+<semantic__table id="semantic___53596157-79d6-629d-3586-fd860aa3a67f" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="center"><semantic__strong>REQ021</semantic__strong></semantic__td>
 <semantic__td valign="middle" align="left"><semantic__strong>/req/core/requirements-and-dependencies</semantic__strong><semantic__br/>
 All general recommendations <semantic__em>SHALL</semantic__em> be in the core.</semantic__td>
 </semantic__tr></semantic__tbody>
 </semantic__table>
 
-<semantic__table id="semantic__req-22" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="center"><semantic__strong>REQ022</semantic__strong></semantic__td>
+<semantic__requirement id="semantic__req_requirements-and-dependencies-3" model="ogc"> <semantic__identifier>/req/core/requirements-and-dependencies-3</semantic__identifier><semantic__component class="part"><semantic__p id="semantic___77d3ccef-d0df-5231-29e9-300bca5c2c87">Every other requirements class in a standard SHALL a standardization target type which is a subtype of that of the core</semantic__p>
+</semantic__component><semantic__component class="part"><semantic__p id="semantic___147491f2-9ec6-8381-3612-51a10c7e5822">And every requirement class SHALL have the core as a direct dependency.</semantic__p>
+</semantic__component>
+</semantic__requirement>
+
+<semantic__table id="semantic___7a53dd0c-2152-9dc3-92ce-37116e72158f" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="center"><semantic__strong>REQ022</semantic__strong></semantic__td>
 <semantic__td valign="middle" align="left"><semantic__strong>/req/core/requirements-and-dependencies</semantic__strong><semantic__br/></semantic__td>
 </semantic__tr><semantic__tr><semantic__td valign="middle" align="center">A</semantic__td>
 <semantic__td valign="middle" align="left">Every other requirements class in a standard <semantic__em>SHALL</semantic__em> a standardization
@@ -1489,14 +1586,22 @@ extensions, which may be either local or encompass other standards.</semantic__p
 
 <semantic__p id="semantic___d54b8027-cdbc-8be0-818f-ce638a7bad49"><semantic__strong><semantic__hi>Standards should use extensions as required and feasible, but should never hinder them.</semantic__hi></semantic__strong></semantic__p>
 
-<semantic__table id="semantic__req-23" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="center"><semantic__strong>REQ023</semantic__strong></semantic__td>
+<semantic__requirement id="semantic__req_core-and-extensions" model="ogc"> <semantic__identifier>/req/core/core-and-extensions</semantic__identifier><semantic__component class="part"><semantic__p id="semantic___40a32fa9-6fcc-de33-672c-946d86c75f5e">Each standard conformant to the ModSpec SHALL consist of the core and some number of requirements classes defined as extensions to that core.</semantic__p>
+</semantic__component>
+</semantic__requirement>
+
+<semantic__table id="semantic___b78c2694-ec52-cc23-e51e-e897aaa0db40" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="center"><semantic__strong>REQ023</semantic__strong></semantic__td>
 <semantic__td valign="middle" align="left"><semantic__strong>/req/core/core-and-extensions</semantic__strong><semantic__br/>
 Each standard conformant to the ModSpec <semantic__em>SHALL</semantic__em> consist of the core and some
 number of requirements classes defined as extensions to that core.</semantic__td>
 </semantic__tr></semantic__tbody>
 </semantic__table>
 
-<semantic__table id="semantic__req-24" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="center"><semantic__strong>REQ024</semantic__strong></semantic__td>
+<semantic__requirement id="semantic__req_extensions-conformant-to-the-modspec" model="ogc"> <semantic__identifier>/req/core/extensions-conformant-to-the-modspec</semantic__identifier><semantic__component class="part"><semantic__p id="semantic___1b116164-2fff-7d9f-53ed-069cd2935f18">A standard conformant to the ModSpec SHALL require all conformant extensions to itself to be conformant to the ModSpec.</semantic__p>
+</semantic__component>
+</semantic__requirement>
+
+<semantic__table id="semantic___eb4c2e53-0283-f849-4c22-ffd5f5351dba" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="center"><semantic__strong>REQ024</semantic__strong></semantic__td>
 <semantic__td valign="middle" align="left"><semantic__strong>/req/core/extensions-conformant-to-the-modspec</semantic__strong><semantic__br/>
 A standard conformant to the ModSpec <semantic__em>SHALL</semantic__em> require all conformant extensions
 to itself to be conformant to the ModSpec.</semantic__td>
@@ -1509,7 +1614,11 @@ good standard will thus list the things a standardization target has to do, but
 will never list things that a standardization target might want to do above and
 beyond the current design requirements.</semantic__p>
 
-<semantic__table id="semantic__req-25" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="center"><semantic__strong>REQ025</semantic__strong></semantic__td>
+<semantic__requirement id="semantic__req_restriction-of-extensions" model="ogc"> <semantic__identifier>/req/core/restriction-of-extensions</semantic__identifier><semantic__component class="part"><semantic__p id="semantic___33f5131f-1747-5d34-722a-bd13c5fc7bd5">A standard conformant to the ModSpec SHALL never restrict in any manner future, logically valid extensions of its standardization targets</semantic__p>
+</semantic__component>
+</semantic__requirement>
+
+<semantic__table id="semantic___ebfc6885-48de-5cc8-7781-84ea269e0378" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="center"><semantic__strong>REQ025</semantic__strong></semantic__td>
 <semantic__td valign="middle" align="left"><semantic__strong>/req/core/restriction-of-extensions</semantic__strong><semantic__br/>
 A standard conformant to the ModSpec <semantic__em>SHALL</semantic__em> never restrict in any manner
 future, logically valid extensions of its standardization targets.</semantic__td>
@@ -1531,7 +1640,11 @@ the fundamental intent of the standard.</semantic__p>
 
 <semantic__clause id="semantic__cls-6-5-6" obligation="normative">
 <semantic__title>Optional requirements are organized as requirements classes</semantic__title>
-<semantic__table id="semantic__req-26" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="center"><semantic__strong>REQ026</semantic__strong></semantic__td>
+<semantic__requirement id="semantic__req_optional-requirements" model="ogc"> <semantic__identifier>/req/core/optional-requirements</semantic__identifier><semantic__component class="part"><semantic__p id="semantic___ab37f6f5-0ecd-ba95-e40f-e009f6c98fd7">The only conditional requirements acceptable in a standard conformant with the ModSpec SHALL be expressible as a list of conformance classes to be passed.</semantic__p>
+</semantic__component>
+</semantic__requirement>
+
+<semantic__table id="semantic___7ff3437a-0b72-7e23-0f1f-ef93c433e01c" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="center"><semantic__strong>REQ026</semantic__strong></semantic__td>
 <semantic__td valign="middle" align="left"><semantic__strong>/req/core/optional requirements</semantic__strong><semantic__br/>
 The only conditional requirements acceptable in a standard conformant with the ModSpec <semantic__em>SHALL</semantic__em> be expressible as a list of conformance classes to be passed.</semantic__td>
 </semantic__tr></semantic__tbody>
@@ -1549,7 +1662,11 @@ they are required by the schema or not.</semantic__p>
 
 <semantic__clause id="semantic__cls-6-5-7" obligation="normative">
 <semantic__title>Requirements classes intersect overlap only by reference</semantic__title>
-<semantic__table id="semantic__req-27" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="center"><semantic__strong>REQ027</semantic__strong></semantic__td>
+<semantic__requirement id="semantic__req_req-class-overlap-by-reference" model="ogc"> <semantic__identifier>/req/core/req-class-overlap-by-reference</semantic__identifier><semantic__component class="part"><semantic__p id="semantic___1d7355a8-ec95-91f8-bb95-dd63ddaddd82">The common portion of any two requirements classes SHALL consist only of references to other requirements classes.</semantic__p>
+</semantic__component>
+</semantic__requirement>
+
+<semantic__table id="semantic___65b84e35-a5fb-1bd3-5b5b-584f489d53ce" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="center"><semantic__strong>REQ027</semantic__strong></semantic__td>
 <semantic__td valign="middle" align="left"><semantic__strong>/req/core/req-class-overlap-by-reference</semantic__strong><semantic__br/>
 The common portion of any two requirements classes <semantic__em>SHALL</semantic__em> consist only of references
 to other requirements classes.</semantic__td>
@@ -1572,7 +1689,7 @@ conformance test class contains tests that all other conformance classes must pa
 <semantic__title>Mapping this standard to types of models</semantic__title>
 <semantic__clause id="semantic___semantics" obligation="normative">
 <semantic__title>Semantics</semantic__title>
-<semantic__p id="semantic___a403118d-8bc2-19b4-60e1-9bbac0f2ed8d">The previous section defines requirements for conformance to the ModSpec Hpwever,
+<semantic__p id="semantic___d6fd27c4-1a0c-7606-1e7e-8012cde57f69">The previous section defines requirements for conformance to the ModSpec However,
 testing for that conformance may depend on how the various forms and parts of a
 conformant standard are viewed. Additional Parts to the ModSpec Standard specify how those views
 are to be defined. Standards that take an alternative
@@ -2862,7 +2979,7 @@ To obtain additional rights of use, visit
 <feedback-statement>
 
 </feedback-statement>
-</boilerplate><preface><clause type="toc" id="_699c6377-6e91-4789-a24b-bbf3a82f2ac3" displayorder="1"><title depth="1">Contents</title></clause>
+</boilerplate><preface><clause type="toc" id="_52758e62-4fe5-42ba-a320-1175ca1e9f4f" displayorder="1"><title depth="1">Contents</title></clause>
 <foreword id="_preface" obligation="informative" displayorder="2">
 <title depth="1">I.<tab/>Preface</title>
 <p id="_fdaaa692-ebfe-a2c5-d3b9-83b1832776ae">This OGC member developed and approved document, referred to as the <tt>ModSpec</tt>, defines a model and related requirements and recommendations for writing and structuring modular standards documents. Further, this model is designed to enable the consistent and verifiable testing of implementations of a standard that claim conformance.</p>
@@ -2877,7 +2994,7 @@ encouraged. Such suggestions may be submitted through the OGC Change Request Sys
 (<link target="http://ogc.standardstracker.org/"/>) or by creating an issue in the OGC ModSpec GitHub repository (<link target="https://github.com/opengeospatial/ogc-modspec"/>).</p>
 </foreword><clause type="security" id="_7e232d1c-c0f2-dda6-bc37-02b0bf1f6d47" obligation="informative" displayorder="3">
   <title depth="1">II.<tab/>Security considerations</title>
-  <p id="_1f61d5b6-b4dc-0114-be4d-845967211e7e">No security considerations have been made for this document.</p></clause><clause id="_6c81fdf1-be98-4b64-ab2a-587eab30b686" type="submitting_orgs" displayorder="4">
+  <p id="_1f61d5b6-b4dc-0114-be4d-845967211e7e">No security considerations have been made for this document.</p></clause><clause id="_6a6ac1b0-2554-4b70-a39c-0efebb8edb62" type="submitting_orgs" displayorder="4">
 <title depth="1">III.<tab/>Submitting Organizations</title>
 <p>The following organizations submitted this Document to the Open Geospatial Consortium (OGC):</p>
  <ul><li>Carl Reed, Charles Heazel, ImageMatters</li></ul>
@@ -3024,7 +3141,7 @@ can be tested by inspection. The test suite is in <xref target="annex-A">Annex A
 
 <p id="_690a8011-3eb8-197b-43b2-4e989e2c468e">There is one conformance class for this document:</p>
 
-<ol id="_78ce1268-bfab-9285-0c1f-cb6ecbfad247" type="arabic"><li id="_9967f408-ff57-4c47-8574-1e1dbd6f227a" label="1"><p id="_81795308-85a8-d659-b8f2-ab49abbba286">The Core: Common requirements for standards documents in general. See <xref target="cls-6">[cls-6]</xref> and <xref target="annex-A-1">Annex A.1</xref></p>
+<ol id="_78ce1268-bfab-9285-0c1f-cb6ecbfad247" type="arabic"><li id="_3ef78cf8-f125-45b3-ae09-c210577c91d6" label="1"><p id="_81795308-85a8-d659-b8f2-ab49abbba286">The Core: Common requirements for standards documents in general. See <xref target="cls-6">[cls-6]</xref> and <xref target="annex-A-1">Annex A.1</xref></p>
 </li>
 </ol>
 
@@ -3374,9 +3491,9 @@ legitimate standards organization.</p>
 <title depth="2">6.1.<tab/>Symbols (and abbreviated terms)</title>
 <p id="_189b05f8-d8bd-86ff-6cae-0a71bf9b4a45">All symbols used in this document are either:</p>
 
-<ol id="_3219167d-2bf6-1257-507a-ad5a354eeb47" type="arabic"><li id="_7a22c7d3-87a5-4e12-a242-9c515d6719a2" label="1"><p id="_e0b0922e-824c-1ca5-ce67-98d43a0dbc7e">Common mathematical symbols</p>
+<ol id="_3219167d-2bf6-1257-507a-ad5a354eeb47" type="arabic"><li id="_b7b5a2cf-262b-4302-92e9-bedbc22d501d" label="1"><p id="_e0b0922e-824c-1ca5-ce67-98d43a0dbc7e">Common mathematical symbols</p>
 </li>
-<li id="_313778dc-31f1-4d7e-8257-64795d5e76c0" label="2"><p id="_b2dc0e0c-ea74-4888-09c2-075d49663fcd">UML 2 (Unified Modeling Language) as defined by OMG and accepted as a publicly
+<li id="_7f504200-4d62-46ae-bb4e-b999103c9f49" label="2"><p id="_b2dc0e0c-ea74-4888-09c2-075d49663fcd">UML 2 (Unified Modeling Language) as defined by OMG and accepted as a publicly
 available standard (PAS) by ISO in its earlier 1.3 version.</p>
 </li>
 </ol>
@@ -3459,22 +3576,22 @@ requirements classes and conformance test classes.</p>
 
 <p id="_c9cc0fa7-b2db-1e76-3c21-5baba8b08b2d">The <link target="https://pubs.opengroup.org/architecture/togaf8-doc/arch/chap32.html">Open Group</link> suggests that building blocks have the following characteristics:</p>
 
-<ol id="_65fc9f9c-d3db-8a6a-d379-6f858f05c140" type="arabic"><li id="_d50c9629-5900-4baa-93bc-33a72b78914a" label="1"><p id="_5618b027-534d-21f6-13fb-ee460a38129b">A building block is a package of functionality defined to meet business or domain needs.</p>
+<ol id="_65fc9f9c-d3db-8a6a-d379-6f858f05c140" type="arabic"><li id="_17c1aa8f-6948-48fd-abe0-2c7383da2bdd" label="1"><p id="_5618b027-534d-21f6-13fb-ee460a38129b">A building block is a package of functionality defined to meet business or domain needs.</p>
 </li>
-<li id="_e5150738-4b95-4509-8203-a2f01ec36d2b" label="2"><p id="_7a4044d5-f04d-9554-cca4-5d0fee2e8929">A building block may interoperate with other, inter-dependent, building blocks.</p>
+<li id="_f761adae-3ab9-4e80-92a4-f76ae3f162e9" label="2"><p id="_7a4044d5-f04d-9554-cca4-5d0fee2e8929">A building block may interoperate with other, inter-dependent, building blocks.</p>
 </li>
-<li id="_5d1b8bc1-2c88-40f3-997b-9b8e66e83e43" label="3"><p id="_3cbdbbba-b453-8ba1-6afb-4a638acae511">A good building block has the following characteristics:</p>
-<ol id="_f4d5735b-369a-13b4-cdb3-ad684b7bf304" type="alphabet"><li id="_c9ff3aaf-9504-4666-b4ae-c271df63eae8" label="a"><p id="_2e45350c-ca6b-674f-2f76-809205384d95">Considers implementation and usage, and evolves to exploit technology and standards.</p>
+<li id="_fee915d1-20d5-4952-aaa7-b434b09f5aa4" label="3"><p id="_3cbdbbba-b453-8ba1-6afb-4a638acae511">A good building block has the following characteristics:</p>
+<ol id="_f4d5735b-369a-13b4-cdb3-ad684b7bf304" type="alphabet"><li id="_4219f24d-3827-4ec1-b18d-e8865d8df96f" label="a"><p id="_2e45350c-ca6b-674f-2f76-809205384d95">Considers implementation and usage, and evolves to exploit technology and standards.</p>
 </li>
-<li id="_903be574-de3f-4f6d-a228-63dcfeed54b7" label="b"><p id="_4c954927-285f-ae41-61df-7ce1ef9bbf78">May be assembled from other building blocks.</p>
+<li id="_aaac9fa5-2ce4-4df5-b805-43fb77121e2b" label="b"><p id="_4c954927-285f-ae41-61df-7ce1ef9bbf78">May be assembled from other building blocks.</p>
 </li>
-<li id="_3727aa21-6aff-428a-86bf-f67e9247a9ea" label="c"><p id="_e095ab48-3920-8e8d-b830-5f9663d5ce9a">May be a subassembly of other building blocks.</p>
+<li id="_9d5e6330-3517-4d02-ac1a-bf48cd2f1e52" label="c"><p id="_e095ab48-3920-8e8d-b830-5f9663d5ce9a">May be a subassembly of other building blocks.</p>
 </li>
-<li id="_8c6b6279-2632-414a-8e40-457f2ead31c6" label="d"><p id="_cb043916-b1a3-8ca1-aecb-5a111d0dba9f">Ideally a building block is re-usable and replaceable, and well specified.</p>
+<li id="_f86f2f5a-a322-4113-93fc-90aec23bfcf8" label="d"><p id="_cb043916-b1a3-8ca1-aecb-5a111d0dba9f">Ideally a building block is re-usable and replaceable, and well specified.</p>
 </li>
 </ol>
 </li>
-<li id="_12ed16e7-2e97-4de7-970b-d6095d5beb0d" label="4"><p id="_54a42bf3-4208-6ef8-2190-2a731877d4d8">A building block may have multiple implementations but with different inter-dependent building blocks.</p>
+<li id="_cc8bb268-f08d-44b4-8187-fa423baefcc1" label="4"><p id="_54a42bf3-4208-6ef8-2190-2a731877d4d8">A building block may have multiple implementations but with different inter-dependent building blocks.</p>
 </li>
 </ol>
 
@@ -3554,7 +3671,7 @@ paragraph, such as <xref target="Requirement_1">req-1</xref> below.</p>
 
 <p id="_6c376682-76de-3bab-c1b5-5b3f2ed4d44b">The distribution of the information in a standard is not restricted. The only
 requirement is that requirements be grouped in a manner
-consistent with the conformance test classes, see <xref target="req-6">Table 14</xref> and <xref target="req-7">Table 15</xref>.</p>
+consistent with the conformance test classes, see <xref target="req-6">[req-6]</xref> and <xref target="req-7">[req-7]</xref>.</p>
 </clause>
 
 <clause id="_documenting_the_standard" obligation="normative">
@@ -3565,36 +3682,36 @@ requirements stated in the ModSpec</p>
 
 <p id="_52054257-2f23-bcfd-2e5e-91e4987d2758">This form should be specified by the following descriptions:</p>
 
-<ol id="_87a85b52-d515-db8e-ea47-9fadfb0f2d78" type="arabic"><li id="_638e66f5-076d-4f71-9534-cffe65fa05cb" label="1"><p id="_2055f9a7-bc44-4022-62a6-177d8b36d3f9">A standards document contains Clauses (corresponding to numbered sections as they might
+<ol id="_87a85b52-d515-db8e-ea47-9fadfb0f2d78" type="arabic"><li id="_b811d370-8b4c-41dd-9f4d-bcfc2b1c498a" label="1"><p id="_2055f9a7-bc44-4022-62a6-177d8b36d3f9">A standards document contains Clauses (corresponding to numbered sections as they might
 appear in a table of contents) which describe its standardization target and its requirements.</p>
 </li>
-<li id="_cde93391-4c3a-4280-b115-505d6f1b76f7" label="2"><p id="_f745efaa-7561-175c-0ef3-dd21743cb54a">A standard contains Annexes or is associated to other documents (both a
+<li id="_306732b6-0eec-41da-9cc1-ead8cf96cd89" label="2"><p id="_f745efaa-7561-175c-0ef3-dd21743cb54a">A standard contains Annexes or is associated to other documents (both a
 logical type of Clause), one of which is the Conformance Test Suite (which may be an
 abstract description of the test suites to be implemented separately). In OGC Documents, this is Annex A – Abstract Test Suite.</p>
 </li>
-<li id="_d71ee2d7-8119-478c-b286-01e8540c392c" label="3"><p id="_353c00ab-d897-2258-b21f-46aa21005687">All requirements, recommendations, permissions, and models are introduced and defined first in
+<li id="_df2347d4-120c-416e-becc-83b3804d3ed9" label="3"><p id="_353c00ab-d897-2258-b21f-46aa21005687">All requirements, recommendations, permissions, and models are introduced and defined first in
 the numbered Clauses.</p>
 </li>
-<li id="_349b6830-c156-4f76-a564-d5ebcd1ffa85" label="4"><p id="_2bd233bb-c619-ed61-32cd-3aa13e3f58e1">All requirements are identifiable as requirements.</p>
+<li id="_17ebb8fd-2dbb-4ac2-8704-7f29c29d23d1" label="4"><p id="_2bd233bb-c619-ed61-32cd-3aa13e3f58e1">All requirements are identifiable as requirements.</p>
 </li>
-<li id="_551165d3-0ac8-40af-bce5-44dda3509bbc" label="5"><p id="_3aaba63e-d68e-ee13-7049-9db3167fe123">All requirements in a document are uniquely numbered.</p>
+<li id="_8406b555-6d51-4a0e-af1c-74b632fd183c" label="5"><p id="_3aaba63e-d68e-ee13-7049-9db3167fe123">All requirements in a document are uniquely numbered.</p>
 </li>
-<li id="_f0d9d005-4832-4c59-920e-b166714dd94a" label="6"><p id="_2b66833e-1be0-0ac3-b25a-3b87f01acac4">All tests for conformance to those requirements are defined in the Conformance Test Suite.</p>
+<li id="_2f86662b-9242-4630-9e15-3d9e3523b1ce" label="6"><p id="_2b66833e-1be0-0ac3-b25a-3b87f01acac4">All tests for conformance to those requirements are defined in the Conformance Test Suite.</p>
 </li>
-<li id="_8e6ec637-395c-489a-9a0c-9756c029141c" label="7"><p id="_7b33de69-e837-48f6-62fb-75753d1395d6">Tests are be grouped for convenience into conformance test classes and if desired the classes are grouped into conformance test modules.</p>
+<li id="_9f935ed1-b282-40a3-981b-36fb37d8d632" label="7"><p id="_7b33de69-e837-48f6-62fb-75753d1395d6">Tests are be grouped for convenience into conformance test classes and if desired the classes are grouped into conformance test modules.</p>
 </li>
-<li id="_8e58aabb-fa32-446e-9dcb-dfbd47a0a602" label="8"><p id="_9bd08859-309b-1170-01c5-99d86cb535a0">The tests, if conducted, determine to some degree of certainty whether an
+<li id="_aad15818-6c48-4ea1-b52d-4f9f747fb331" label="8"><p id="_9bd08859-309b-1170-01c5-99d86cb535a0">The tests, if conducted, determine to some degree of certainty whether an
 implementation meets the requirements which the tests reference.</p>
 </li>
-<li id="_c1a8c1a9-3086-4fc8-a766-baf88c9fd600" label="9"><p id="_f8d1d894-8c39-fa2e-1a7e-07f7e1df8f56">The tests are organized into some number of conformance “classes” where each conformance class has a one to one relationship with a requirements class. If a standard
+<li id="_1f7ea57a-c20d-4859-9674-1fb6d0b281a7" label="9"><p id="_f8d1d894-8c39-fa2e-1a7e-07f7e1df8f56">The tests are organized into some number of conformance “classes” where each conformance class has a one to one relationship with a requirements class. If a standard
 does not do this, it is has by default only one “conformance class”.</p>
 </li>
-<li id="_1a607c14-24a6-4908-bcca-3dc0ed57b8f1" label="10"><p id="_875f9b1a-e635-e726-a40f-00bce22dcd56">Certificates of conformance (see <xref target="term-all-components-schema-document">[term-all-components-schema-document]</xref>) are
+<li id="_c195c16c-1afd-4324-bd86-f21570ac942f" label="10"><p id="_875f9b1a-e635-e726-a40f-00bce22dcd56">Certificates of conformance (see <xref target="term-all-components-schema-document">[term-all-components-schema-document]</xref>) are
 awarded by a testing entity based on these conformance classes.</p>
 </li>
-<li id="_4f81ec3d-8268-4e19-b4c0-627b2a06f845" label="11"><p id="_eb8b8d5e-e212-b672-db2c-fe4cca551c05">There is a clear distinction between normative and informative parts of the text.</p>
+<li id="_b6cc0742-b64d-4a8b-84d5-8e85f34180ca" label="11"><p id="_eb8b8d5e-e212-b672-db2c-fe4cca551c05">There is a clear distinction between normative and informative parts of the text.</p>
 </li>
-<li id="_fede4a4d-4304-44e4-9549-aefe6f682b62" label="12"><p id="_954320da-2d93-a34b-181a-08fc4de88340">Examples and notes are informative, and do not use “normative”
+<li id="_013712e9-de7e-40d4-9e9c-cf99cb1c1b43" label="12"><p id="_954320da-2d93-a34b-181a-08fc4de88340">Examples and notes are informative, and do not use “normative”
 language.</p>
 </li>
 </ol>
@@ -3624,7 +3741,14 @@ Any new OGC Standard, abstract specification that contains requirements, or majo
 
 <p id="_44f43ad6-e349-39cf-adcd-28d235f96500">The following requirement states that every requirement is testable.</p>
 
-<table id="req-1" width="90%"><name>Table 2</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ001</strong></td>
+<table id="req_reqs-are-testable" class="modspec" type="recommend"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTitle">Requirement 1</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/req/core/reqs-are-testable</tt></td>
+</tr><tr><th>A</th><td><p id="_7ee92889-b923-f151-7524-493429e1dbda">All the parts of a requirement, a requirements module, or requirements class SHALL be testable. Failure to pass any part of any requirement shall be a failure to pass the associated conformance test class.</p>
+</td></tr></tbody></table>
+
+<p id="_bde14a7e-73c0-2ade-61bb-eb4314cc1dc5">NOTE:This further means that failure to pass the test specified for a part of requirement is a failure to pass the requirement.</p>
+
+<table id="_d6b7df05-b1ed-c4a9-ce08-cdeaf34aa376" width="90%"><name>Table 2</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ001</strong></td>
 <td valign="middle" align="left"><strong>/req/core/reqs-are-testable</strong><br/>
 All the parts of a requirement, a requirements module, or requirements class <em>SHALL</em> be
 testable. Failure to pass any part of any requirement shall be a failure to pass the
@@ -3636,7 +3760,15 @@ failure to pass the requirement.</p>
 
 
 
-<table id="req-2" width="90%"><name>Table 3</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ002</strong></td>
+<table id="req_all-components-assigned-uri" class="modspec" type="recommend"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTitle">Requirement 2</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/req/core/all-components-assigned-uri</tt></td>
+</tr><tr><th>A</th><td><p id="_96820075-802e-332f-346d-2db7e0460c49">Each component of the standard, including requirements, requirements modules, requirements classes, conformance test cases, conformance modules and conformance classes SHALL be assigned a URI.</p>
+</td></tr><tr><th>B</th><td><p id="_321bf639-dab1-ceb0-66a7-aa3d726b6bcc">For OGC standards documents, these URIs SHALL be conformant with the policies of the OGC Naming Authority.</p>
+</td></tr></tbody></table>
+
+<p id="_ef16e88c-e818-88c6-da9a-4f2cebbba1e2">NOTE:In the OGC, the enforcement of this requirement and its associated recommendation is the purview of the OGC Naming Authority or its equivalents.</p>
+
+<table id="_ae77a100-905b-01a6-f14b-dcf6fd78bdd8" width="90%"><name>Table 3</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ002</strong></td>
 <td valign="middle" align="left"><strong>/req/core/all-components-assigned-uri</strong><br/>
 Each component of the standard, including requirements, requirements modules,
 requirements classes, conformance test cases, conformance modules and conformance
@@ -3658,10 +3790,10 @@ conformance for implementations conformant to the standard in question.</td>
 </tr></tbody>
 </table>
 
-<p id="_31baa165-6420-8f83-795e-00fffd1c9e02">While a requirement may be referenced in more than one place in a standard, the normative definition of a requirement shall be its “<strong><hi>home</hi></strong>” (see <xref target="cls-5-3">Clause 6.4</xref>) and
+<p id="_06651d2d-e86b-2f90-cab8-a3ad58099ae4">While a requirement may be referenced in more than one place in a standard, the normative definition of a requirement shall be its “<strong><hi>home</hi></strong>” (see <xref target="cls-5-3">Clause 6.4</xref>) and
 will be the only place where full normative language is used.</p>
 
-<p id="_96c17e22-1baa-f8e9-160f-5d7d5da151c0">The following permissions relate to possible content specified in the core of a standard.</p>
+<p id="_d0a4831b-0a38-3bc9-d2e8-0908c5446aef">The following permissions relate to possible content specified in the core of a standard.</p>
 
 <table id="per-1" width="90%"><name>Table 5</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>PER001</strong></td>
 <td valign="middle" align="left"><strong>/per/core/informational-content-in-core</strong><br/>
@@ -3672,7 +3804,7 @@ included in the core.</td>
 </tr></tbody>
 </table>
 
-<p id="_776c1aef-7e2d-c2bf-735b-7607a40a3867">In this manner, the core requirements class and its associated contents can be
+<p id="_f307b3b6-c2fb-8179-a8cb-37b390f2b873">In this manner, the core requirements class and its associated contents can be
 thought of not only as the requirements of the core conformance class, but as a form
 of reference model for establishing core vocabularies and schemas for the entire
 standard.</p>
@@ -3694,9 +3826,14 @@ requested operation is part of a non-supported extension.</td>
 </tr></tbody>
 </table>
 
-<p id="_21d2959f-9b26-7bf3-ca96-04fba19dc6a6">The following states how and where vocabularies are specified in relation to a requirement or requirements class.</p>
+<p id="_dc2d2853-55e9-5c7f-5781-dcfb24dbb4cc">The following states how and where vocabularies are specified in relation to a requirement or requirements class.</p>
 
-<table id="req-3" width="90%"><name>Table 8</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ003</strong></td>
+<table id="req_vocabulary-and-parent-req-class" class="modspec" type="recommend"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTitle">Requirement 3</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/req/core/vocabulary-and-parent-req-class</tt></td>
+</tr><tr><th>A</th><td><p id="_3431ce38-cb94-ca87-f616-3430be94a655">Requirements on the use and interpretation of vocabulary SHALL be in the requirements class where that use or interpretation is used.</p>
+</td></tr></tbody></table>
+
+<table id="_ee1eebcd-13d4-6014-a72b-de1ae5c768bb" width="90%"><name>Table 8</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ003</strong></td>
 <td valign="middle" align="left"><strong>/req/core/vocabulary-and-parent-req-class</strong><br/>
 Requirements on the use and interpretation of vocabulary <em>SHALL</em> be in the
 requirements class where that use or interpretation is used.</td>
@@ -3746,7 +3883,12 @@ such part separately (see the definition of requirements class in
 <xref target="term-requirements-class">Clause 4.22</xref>). In this sense, the next requirement divides
 standard into parts more than restricting their content.</p>
 
-<table id="req-4" width="90%"><name>Table 10</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ004</strong></td>
+<table id="req_single-standardization-target" class="modspec" type="recommend"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTitle">Requirement 4</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/req/core/single-standardization-target</tt></td>
+</tr><tr><th>A</th><td><p id="_2608c8d5-3911-13e5-ee58-fd9e1feb5b82">Each requirement in a conformant standard SHALL have a single standardization target type.</p>
+</td></tr></tbody></table>
+
+<table id="_04533135-19e4-5219-fef5-3f198a6cec33" width="90%"><name>Table 10</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ004</strong></td>
 <td valign="middle" align="left"><strong>/req/core/single-standardization-target</strong><br/>
 Each requirement in a conformant standard <em>SHALL</em> have a single standardization
 target type.</td>
@@ -3758,7 +3900,12 @@ of an inheritance tree where extensions all have the core’s target as an ances
 and thus can be considered as belonging to the same “class” or type as the core’s
 target.</p>
 
-<table id="req-5" width="90%"><name>Table 11</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ005</strong></td>
+<table id="req_test-class-single-standardization-target" class="modspec" type="recommend"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTitle">Requirement 5</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/req/core/test-class-single-standardization-target</tt></td>
+</tr><tr><th>A</th><td><p id="_ede44dd0-9284-6a73-e0cf-eeb32fb89d68">All conformance tests in a single conformance test class in a conformant standard SHALL have the same standardization target.</p>
+</td></tr></tbody></table>
+
+<table id="_4c5171c9-ab27-fb1f-b2d0-63a512850e0f" width="90%"><name>Table 11</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ005</strong></td>
 <td valign="middle" align="left"><strong>/req/core/modspec/test-class-single-standardization-target</strong><br/>
 All conformance tests in a single conformance test class in a conformant
 standard <em>SHALL</em> have the same standardization target.</td>
@@ -3809,7 +3956,12 @@ diagrammed in <xref target="fig-6-1">Figure 1</xref>.</td>
 <title depth="2">8.2.<tab/>The “standards” document</title>
 <p id="_3072f34a-49ad-4230-661f-3952bb1988b8">Each standard document is comprised of a set of requirements and their associated conformance tests.</p>
 
-<table id="req-6" width="90%"><name>Table 14</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ006</strong></td>
+<table id="req_requirements-grouped" class="modspec" type="recommend"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTitle">Requirement 6</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/req/core/requirements-grouped</tt></td>
+</tr><tr><th>A</th><td><p id="_af38868d-d5a1-835e-f1c0-2fd47d081ab2">Requirements SHALL be grouped together in clauses (numbered sections) of the document in a strictly hierarchical manner, consistent with requirements classes.</p>
+</td></tr></tbody></table>
+
+<table id="_6cd63115-dd0a-6352-1c8b-cd289941fb18" width="90%"><name>Table 14</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ006</strong></td>
 <td valign="middle" align="left"><strong>/req/core/requirements-grouped</strong><br/>
 Requirements SHALL be grouped together in clauses (numbered sections) of the
 document in a strictly hierarchical manner, consistent with
@@ -3817,7 +3969,12 @@ requirements classes.</td>
 </tr></tbody>
 </table>
 
-<table id="req-7" width="90%"><name>Table 15</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ007</strong></td>
+<table id="req_requirements-test-suite-structure" class="modspec" type="recommend"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTitle">Requirement 7</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/req/core/requirements-test-suite-structure</tt></td>
+</tr><tr><th>A</th><td><p id="_756b5896-151c-9084-8caa-05b321510ad0">The requirements structure of the document SHALL be in a logical correspondence to the test suite structure.</p>
+</td></tr></tbody></table>
+
+<table id="_42cef974-b03d-cb4b-8082-bc60385c29cf" width="90%"><name>Table 15</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ007</strong></td>
 <td valign="middle" align="left"><strong>/req/core/requirements-test-suite-structure</strong><br/>
 The requirements structure of the document SHALL be in a logical correspondence to
 the test suite structure.</td>
@@ -3854,7 +4011,12 @@ only describes in detail how those requirements should be tested.</p>
 types, elements, or objects are defined and segregated into implementation
 requirements classes.</p>
 
-<table id="req-8" width="90%"><name>Table 16</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ008</strong></td>
+<table id="req_requirements-class-correspondence-to-conformance-classes" class="modspec" type="recommend"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTitle">Requirement 8</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/req/core/requirements-class-correspondence-to-conformance-classes</tt></td>
+</tr><tr><th>A</th><td><p id="_74ae8bc2-8617-3f2b-beca-431294e9e3fb">The requirements classes SHALL be in a one-to-one correspondence to the conformance test classes, and thus to the various certificate of conformance types possible for a candidate implementation.</p>
+</td></tr></tbody></table>
+
+<table id="_0c2b47f5-aabd-0522-c9ac-3ecebc2b5a49" width="90%"><name>Table 16</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ008</strong></td>
 <td valign="middle" align="left"><strong>/req/core/requirements-class-correspondence-to-conformance-classes</strong><br/>
 The requirements classes shall be in a one-to-one correspondence to the conformance test classes,
 and thus to the various certificate of conformance types possible for a candidate implementation.</td>
@@ -3868,7 +4030,12 @@ and thus to the various certificate of conformance types possible for a candidat
 <title depth="2">8.4.<tab/>Requirements for Modularity</title>
 <clause id="cls-6-5-1" obligation="normative">
 <title depth="3">8.4.1.<tab/>Each Conformance class tests a complete requirements class</title>
-<table id="req-9" width="90%"><name>Table 17</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ009</strong></td>
+<table id="req_no-optional-tests" class="modspec" type="recommend"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTitle">Requirement 9</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/req/core/no-optional-tests</tt></td>
+</tr><tr><th>A</th><td><p id="_d58eaa14-426d-4953-60ee-a69d877a4cb0">Conformance class SHALL not contain any optional conformance tests.</p>
+</td></tr></tbody></table>
+
+<table id="_b9838f15-db02-5bc8-e5bd-07fd21b4e6cb" width="90%"><name>Table 17</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ009</strong></td>
 <td valign="middle" align="left"><strong>/req/core/no-optional-tests</strong><br/>
 A Conformance class SHALL not contain any optional conformance tests.</td>
 </tr></tbody>
@@ -3902,7 +4069,12 @@ if a service uses or produces feature data, the format of that data may be a
 parameter, such as GML, KML or GeoJSON. When reading a certificate of conformance,
 the values of such parameters are very important.</p>
 
-<table id="req-10" width="90%"><name>Table 19</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ010</strong></td>
+<table id="req_all-parameters-expressed" class="modspec" type="recommend"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTitle">Requirement 10</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/req/core/all-parameters-expressed</tt></td>
+</tr><tr><th>A</th><td><p id="_939c7b29-17c5-2f47-f557-dd62b8d3af2a">A certificate of conformance SHALL specify all parameter values used to pass the tests in its conformance test class.</p>
+</td></tr></tbody></table>
+
+<table id="_9d000c5d-c610-e883-7a28-9301cb86eb26" width="90%"><name>Table 19</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ010</strong></td>
 <td valign="middle" align="left"><strong>/req/core/all-parameters-expressed</strong><br/>
 A certificate of conformance SHALL specify all parameter values used to pass the
 tests in its conformance test class.</td>
@@ -3911,7 +4083,12 @@ tests in its conformance test class.</td>
 
 <p id="_55cbab72-c748-a416-7f9a-9e5e605ff9b0">Conformance to a particular conformance class means exactly the same thing everywhere.</p>
 
-<table id="req-11" width="90%"><name>Table 20</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ011</strong></td>
+<table id="req_conf-class-single-req-class" class="modspec" type="recommend"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTitle">Requirement 11</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/req/core/conf-class-single-req-class</tt></td>
+</tr><tr><th>A</th><td><p id="_9becba81-a4ed-03b7-76da-b0e02ebf7542">A Conformance class SHALL explicitly test only requirements from a single requirements class.</p>
+</td></tr></tbody></table>
+
+<table id="_52256758-bedd-5cc8-c2c6-26c241e7a6f8" width="90%"><name>Table 20</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ011</strong></td>
 <td valign="middle" align="left"><strong>/req/core/conf-class-single-req-class</strong><br/>
 A Conformance class SHALL explicitly test only requirements from a single
 requirements class.</td>
@@ -3923,7 +4100,12 @@ and the conformance test classes in the test suite. Recall that a conformance te
 class may specify dependencies causing other conformance test classes to be used,
 but this is a result of an explicit requirement in the “home” requirements class.</p>
 
-<table id="req-12" width="90%"><name>Table 21</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ012</strong></td>
+<table id="req_con-class-dependencies" class="modspec" type="recommend"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTitle">Requirement 12</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/req/core/con-class-dependencies</tt></td>
+</tr><tr><th>A</th><td><p id="_6517af05-91df-4c3e-298d-d3f0dbf8e755">A Conformance class SHALL specify any other conformance class upon which it is dependent and that other conformance class shall be used to test the specified dependency.</p>
+</td></tr></tbody></table>
+
+<table id="_fde66fcf-6d22-29fe-8ca2-eedd9cc93161" width="90%"><name>Table 21</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ012</strong></td>
 <td valign="middle" align="left"><strong>/req/core/con-class-dependencies</strong><br/>
 A Conformance class SHALL specify any other conformance class upon which it is
 dependent and that other conformance class shall be used to test the specified
@@ -3950,7 +4132,7 @@ every implementation that passed a particular conformance class satisfies exactl
 the same requirements and passes exactly the same conformance tests. Differences
 between implementations will be determined by which conformance test classes are
 passed, not by listing of which options within a class were tested. If a
-standard’s authors wish to make a particular requirement optional, <xref target="req-9">Table 17</xref>
+standard’s authors wish to make a particular requirement optional, <xref target="req-9">[req-9]</xref>
 forces them to include it in a separate requirements class (and therefore in a
 separate conformance test class) which can be left untested.<note id="_f6b86c63-7149-d939-778b-b9df8338f5da"><name>NOTE</name><p id="_eb457960-4a9d-823e-24a4-80365bce9458">Standards developed outside the OGC may not follow a strict parallelism between requirement specification
 and testing, so for use within a standard compliant to the ModSpec, special
@@ -3959,7 +4141,13 @@ care must be taken in importing conformance test classes from other standards.</
 
 
 
-<table id="req-13" width="90%"><name>Table 22</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="center"><strong>REQ013</strong></td>
+<table id="req_imported-requirements-class" class="modspec" type="recommend"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTitle">Requirement 13</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/req/core/imported-requirements-class</tt></td>
+</tr><tr><th>A</th><td><p id="_4327469a-1c96-7133-8587-4617d598ca8b">If a requirements class is imported from another standard for use within a standard conformant to the ModSpec, and if any imported requirement is “optional,” then that requirement SHALL be factored out as a separate requirements class in the profile of that imported standard used in the conformant standard.</p>
+</td></tr><tr><th>B</th><td><p id="_6e6e374a-ed5f-d306-4158-f2099fe47f03">Each such used requirements class SHALL be a conformance class of the source standard or a combination of conformance classes of the source standard or standards.</p>
+</td></tr></tbody></table>
+
+<table id="_5ddc9108-e41c-44ba-2206-68a5d3f97581" width="90%"><name>Table 22</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="center"><strong>REQ013</strong></td>
 <td valign="middle" align="left"><strong>/req/core/imported-requirements-class</strong><br/></td>
 </tr><tr><td valign="middle" align="center">A</td>
 <td valign="middle" align="left">If a requirements class is imported from another standard for use within a
@@ -3976,7 +4164,12 @@ standard or a combination of conformance classes of the source standard or stand
 standards document is non-ambiguous. To insure this, by utilizing the names of the two types of classes the following requirement places a
 default mapping between the two.</p>
 
-<table id="req-14" width="90%"><name>Table 23</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ014</strong></td>
+<table id="req_all-classes-explicitly-named" class="modspec" type="recommend"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTitle">Requirement 14</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/req/core/all-classes-explicitly-named</tt></td>
+</tr><tr><th>A</th><td><p id="_0e6f8c85-4f26-0c4f-fb9a-0de87954444d">For the sake of consistency and readability, all requirements classes and all conformance test classes SHALL be explicitly named, with corresponding requirements classes and conformance test classes having similar names.</p>
+</td></tr></tbody></table>
+
+<table id="_1c11576c-2556-7612-fc70-548b97befa79" width="90%"><name>Table 23</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ014</strong></td>
 <td valign="middle" align="left"><strong>/req/core/all-classes-explicitly-named</strong><br/>
 For the sake of consistency and readability, all requirements classes and all
 conformance test classes <em>SHALL</em> be explicitly named, with corresponding requirements
@@ -3994,7 +4187,13 @@ both are related (as described) to the same set of requirements.</p>
 
 <clause id="cls-6-5-2" obligation="normative">
 <title depth="2">8.5.<tab/>Requirements classes contain all requirements tested by a conformance test case</title>
-<table id="req-15" width="90%"><name>Table 24</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="center"><strong>REQ015</strong></td>
+<table id="req_req-in-only-one-req-class" class="modspec" type="recommend"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTitle">Requirement 15</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/req/core/req-in-only-one-req-class</tt></td>
+</tr><tr><th>A</th><td><p id="_3495dba2-6cfe-32ba-7ca9-36ec598f3a62">Each requirement in the standard SHALL be contained in one and only one requirements class.</p>
+</td></tr><tr><th>B</th><td><p id="_72072ae9-3ef6-ff15-17c9-7eeb2c25f4dd">Inclusion of any requirement in a requirements class by a conformance class SHALL imply inclusion of all requirements in its class (as a dependency).</p>
+</td></tr></tbody></table>
+
+<table id="_ccd67cbf-852e-c0d0-f4f5-ba0d0e20a355" width="90%"><name>Table 24</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="center"><strong>REQ015</strong></td>
 <td valign="middle" align="left"><strong>/req/core/req-in-only-one-rec-class</strong><br/></td>
 </tr><tr><td valign="middle" align="center">A</td>
 <td valign="middle" align="left">Each requirement in the standard <em>SHALL</em> be contained in one and only one
@@ -4016,14 +4215,20 @@ parallel the structure of the conformance classes in the conformance clause.</td
 </tr></tbody>
 </table>
 
-<p id="_a7d3dade-e839-1f9b-6681-dde79bec7f65">The above requirement in conjunction with <xref target="req-9">Table 17</xref> means that all requirements in a conformant
+<p id="_a7d3dade-e839-1f9b-6681-dde79bec7f65">The above requirement in conjunction with <xref target="req-9">[req-9]</xref> means that all requirements in a conformant
 standard will be tested in some conformance class. In the best example, a
 requirement should be contained explicitly in one and only one requirements class
 and tested in one and only one conformance class. This is not really a requirement
 here, since a single requirement can be stated twice in different requirements
 classes.</p>
 
-<table id="req-16" width="90%"><name>Table 26</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="center"><strong>REQ016</strong></td>
+<table id="req_co-dependent-requirements" class="modspec" type="recommend"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTitle">Requirement 16</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/req/core/co-dependent-requirements</tt></td>
+</tr><tr><th>A</th><td><p id="_062088cc-10f1-4e62-326a-dceac40e66f6">If any two requirements are co-dependent (each dependent on the other) then they shall be in the same requirements class.</p>
+</td></tr><tr><th>B</th><td><p id="_23b48bb3-9d8f-a720-273b-71671b59b851">If any two requirements classes are co-dependent, they shall be merged into a single class.</p>
+</td></tr></tbody></table>
+
+<table id="_bdafab97-bc2f-2d75-787c-3e85cfc0082f" width="90%"><name>Table 26</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="center"><strong>REQ016</strong></td>
 <td valign="middle" align="left"><strong>/req/core/co-dependent-requirements</strong><br/></td>
 </tr><tr><td valign="middle" align="center">A</td>
 <td valign="middle" align="left">If any two requirements are co-dependent (each
@@ -4044,7 +4249,12 @@ Circular dependencies of all types should be avoided whenever possible.</td>
 </tr></tbody>
 </table>
 
-<table id="req-17" width="90%"><name>Table 28</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ017</strong></td>
+<table id="req_structure-requirements-classes" class="modspec" type="recommend"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTitle">Requirement 17</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/req/core/structure-requirements-classes</tt></td>
+</tr><tr><th>A</th><td><p id="_e5ada687-d5e6-08dc-7e26-7307be535b5c">There SHALL be a natural structure to the requirements classes so that each may be implemented on top of any implementations of its dependencies and independent of its extensions.</p>
+</td></tr></tbody></table>
+
+<table id="_ba265d6c-3299-39c6-0c3c-4319578c01ce" width="90%"><name>Table 28</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ017</strong></td>
 <td valign="middle" align="left"><strong>/req/core/structure-requirements-classes</strong><br/>
 There <em>SHALL</em> be a natural structure to the requirements classes so that each may be
 implemented on top of any implementations of its dependencies and independent of its
@@ -4065,7 +4275,12 @@ other benefit can still do what they want; the requirement here only states that
 the software requirements classes are properly separated, they can be implemented in
 a “plug’n’play” fashion.</p>
 
-<table id="req-18" width="90%"><name>Table 29</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="center"><strong>REQ018</strong></td>
+<table id="req_requirements-and-dependencies" class="modspec" type="recommend"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTitle">Requirement 18</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/req/core/requirements-and-dependencies</tt></td>
+</tr><tr><th>A</th><td><p id="_ea5c08da-41a0-bf6c-62f7-780d7a206381">No requirements class SHALL redefine the requirements of its dependencies, unless that redefinition is for an entity derived from but not contained in those dependencies.</p>
+</td></tr></tbody></table>
+
+<table id="_2930c041-fe6b-5455-4fd0-9e132acf0fb2" width="90%"><name>Table 29</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="center"><strong>REQ018</strong></td>
 <td valign="middle" align="left"><strong>/req/core/requirements-and-dependencies</strong><br/>
 No requirements class <em>SHALL</em> redefine the requirements of its dependencies, unless
 that redefinition is for an entity derived from but not contained in those
@@ -4095,7 +4310,12 @@ of all conformance classes) for defining profiles as defined in ISO/IEC 10000 (s
 <xref type="inline" target="iso-dp2">ISO/IEC DIR 2</xref>). The base for creating a profile can be defined as the union of all
 requirements classes.</p>
 
-<table id="req-19" width="90%"><name>Table 30</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="center"><strong>REQ019</strong></td>
+<table id="req_profile-conformance" class="modspec" type="recommend"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTitle">Requirement 19</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/req/core/profile-conformance</tt></td>
+</tr><tr><th>A</th><td><p id="_427c237e-a695-4e3d-7290-78b8b55e7dbe">The conformance tests for a profile of a standard SHALL be defined as the union of a list of conformance classes that are to be satisfied by that profile’s standardization targets.</p>
+</td></tr></tbody></table>
+
+<table id="_fbcfd522-cfa4-20eb-3de0-3a7dc85f7640" width="90%"><name>Table 30</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="center"><strong>REQ019</strong></td>
 <td valign="middle" align="left"><strong>/req/core/profile-conformance</strong><br/>
 The conformance tests for a profile of a standard <em>SHALL</em> be defined as the
 union of a list of conformance classes that are to be satisfied by that profile’s
@@ -4106,20 +4326,36 @@ standardization targets.</td>
 
 <clause id="cls-6-5-4" obligation="normative">
 <title depth="2">8.7.<tab/>There is a Defined Core</title>
-<table id="req-20" width="90%"><name>Table 31</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="center"><strong>REQ020</strong></td>
+<table id="req_core-requirements-separate" class="modspec" type="recommend"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTitle">Requirement 20</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/req/core/core-requirements-separate</tt></td>
+</tr><tr><th>A</th><td><p id="_42a2d5de-727e-79bc-ea9f-3e204c62ff12">Every standard SHALL define and identify a core set of requirements as a separate conformance class.</p>
+</td></tr></tbody></table>
+
+<table id="_21bf89ab-2061-fc85-178d-4b2a0c10bff4" width="90%"><name>Table 31</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="center"><strong>REQ020</strong></td>
 <td valign="middle" align="left"><strong>/req/core/core-requirements-separate</strong><br/>
 Every standard <em>SHALL</em> define and identify a core set of requirements as a
 separate conformance class.</td>
 </tr></tbody>
 </table>
 
-<table id="req-21" width="90%"><name>Table 32</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="center"><strong>REQ021</strong></td>
+<table id="req_requirements-and-dependencies-2" class="modspec" type="recommend"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTitle">Requirement 21</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/req/core/requirements-and-dependencies-2</tt></td>
+</tr><tr><th>A</th><td><p id="_e5bfbd98-1593-3121-2e45-fc37568f4e48">All general recommendations SHALL be in the core.</p>
+</td></tr></tbody></table>
+
+<table id="_53596157-79d6-629d-3586-fd860aa3a67f" width="90%"><name>Table 32</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="center"><strong>REQ021</strong></td>
 <td valign="middle" align="left"><strong>/req/core/requirements-and-dependencies</strong><br/>
 All general recommendations <em>SHALL</em> be in the core.</td>
 </tr></tbody>
 </table>
 
-<table id="req-22" width="90%"><name>Table 33</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="center"><strong>REQ022</strong></td>
+<table id="req_requirements-and-dependencies-3" class="modspec" type="recommend"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTitle">Requirement 22</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/req/core/requirements-and-dependencies-3</tt></td>
+</tr><tr><th>A</th><td><p id="_77d3ccef-d0df-5231-29e9-300bca5c2c87">Every other requirements class in a standard SHALL a standardization target type which is a subtype of that of the core</p>
+</td></tr><tr><th>B</th><td><p id="_147491f2-9ec6-8381-3612-51a10c7e5822">And every requirement class SHALL have the core as a direct dependency.</p>
+</td></tr></tbody></table>
+
+<table id="_7a53dd0c-2152-9dc3-92ce-37116e72158f" width="90%"><name>Table 33</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="center"><strong>REQ022</strong></td>
 <td valign="middle" align="left"><strong>/req/core/requirements-and-dependencies</strong><br/></td>
 </tr><tr><td valign="middle" align="center">A</td>
 <td valign="middle" align="left">Every other requirements class in a standard <em>SHALL</em> a standardization
@@ -4150,7 +4386,7 @@ The core requirements class <em>MAY</em> be a conformance class in another stand
 <table id="rec-5" width="90%"><name>Table 37</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REC005</strong></td>
 <td valign="middle" align="left"><strong>/rec/core/optional-tests</strong><br/>
 If a requirements class is from another standard, the current standard <em>SHOULD</em> identify any optional tests
-in that conformance class that are required by the current standard’s core requirements class. See <xref target="req-13">Table 22</xref>.</td>
+in that conformance class that are required by the current standard’s core requirements class. See <xref target="req-13">[req-13]</xref>.</td>
 </tr></tbody>
 </table>
 
@@ -4180,14 +4416,24 @@ extensions, which may be either local or encompass other standards.</p>
 
 <p id="_d54b8027-cdbc-8be0-818f-ce638a7bad49"><strong><hi>Standards should use extensions as required and feasible, but should never hinder them.</hi></strong></p>
 
-<table id="req-23" width="90%"><name>Table 39</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="center"><strong>REQ023</strong></td>
+<table id="req_core-and-extensions" class="modspec" type="recommend"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTitle">Requirement 23</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/req/core/core-and-extensions</tt></td>
+</tr><tr><th>A</th><td><p id="_40a32fa9-6fcc-de33-672c-946d86c75f5e">Each standard conformant to the ModSpec SHALL consist of the core and some number of requirements classes defined as extensions to that core.</p>
+</td></tr></tbody></table>
+
+<table id="_b78c2694-ec52-cc23-e51e-e897aaa0db40" width="90%"><name>Table 39</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="center"><strong>REQ023</strong></td>
 <td valign="middle" align="left"><strong>/req/core/core-and-extensions</strong><br/>
 Each standard conformant to the ModSpec <em>SHALL</em> consist of the core and some
 number of requirements classes defined as extensions to that core.</td>
 </tr></tbody>
 </table>
 
-<table id="req-24" width="90%"><name>Table 40</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="center"><strong>REQ024</strong></td>
+<table id="req_extensions-conformant-to-the-modspec" class="modspec" type="recommend"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTitle">Requirement 24</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/req/core/extensions-conformant-to-the-modspec</tt></td>
+</tr><tr><th>A</th><td><p id="_1b116164-2fff-7d9f-53ed-069cd2935f18">A standard conformant to the ModSpec SHALL require all conformant extensions to itself to be conformant to the ModSpec.</p>
+</td></tr></tbody></table>
+
+<table id="_eb4c2e53-0283-f849-4c22-ffd5f5351dba" width="90%"><name>Table 40</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="center"><strong>REQ024</strong></td>
 <td valign="middle" align="left"><strong>/req/core/extensions-conformant-to-the-modspec</strong><br/>
 A standard conformant to the ModSpec <em>SHALL</em> require all conformant extensions
 to itself to be conformant to the ModSpec.</td>
@@ -4200,7 +4446,12 @@ good standard will thus list the things a standardization target has to do, but
 will never list things that a standardization target might want to do above and
 beyond the current design requirements.</p>
 
-<table id="req-25" width="90%"><name>Table 41</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="center"><strong>REQ025</strong></td>
+<table id="req_restriction-of-extensions" class="modspec" type="recommend"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTitle">Requirement 25</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/req/core/restriction-of-extensions</tt></td>
+</tr><tr><th>A</th><td><p id="_33f5131f-1747-5d34-722a-bd13c5fc7bd5">A standard conformant to the ModSpec SHALL never restrict in any manner future, logically valid extensions of its standardization targets</p>
+</td></tr></tbody></table>
+
+<table id="_ebfc6885-48de-5cc8-7781-84ea269e0378" width="90%"><name>Table 41</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="center"><strong>REQ025</strong></td>
 <td valign="middle" align="left"><strong>/req/core/restriction-of-extensions</strong><br/>
 A standard conformant to the ModSpec <em>SHALL</em> never restrict in any manner
 future, logically valid extensions of its standardization targets.</td>
@@ -4222,7 +4473,12 @@ the fundamental intent of the standard.</p>
 
 <clause id="cls-6-5-6" obligation="normative">
 <title depth="2">8.9.<tab/>Optional requirements are organized as requirements classes</title>
-<table id="req-26" width="90%"><name>Table 42</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="center"><strong>REQ026</strong></td>
+<table id="req_optional-requirements" class="modspec" type="recommend"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTitle">Requirement 26</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/req/core/optional-requirements</tt></td>
+</tr><tr><th>A</th><td><p id="_ab37f6f5-0ecd-ba95-e40f-e009f6c98fd7">The only conditional requirements acceptable in a standard conformant with the ModSpec SHALL be expressible as a list of conformance classes to be passed.</p>
+</td></tr></tbody></table>
+
+<table id="_7ff3437a-0b72-7e23-0f1f-ef93c433e01c" width="90%"><name>Table 42</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="center"><strong>REQ026</strong></td>
 <td valign="middle" align="left"><strong>/req/core/optional requirements</strong><br/>
 The only conditional requirements acceptable in a standard conformant with the ModSpec <em>SHALL</em> be expressible as a list of conformance classes to be passed.</td>
 </tr></tbody>
@@ -4240,7 +4496,12 @@ they are required by the schema or not.</p>
 
 <clause id="cls-6-5-7" obligation="normative">
 <title depth="2">8.10.<tab/>Requirements classes intersect overlap only by reference</title>
-<table id="req-27" width="90%"><name>Table 43</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="center"><strong>REQ027</strong></td>
+<table id="req_req-class-overlap-by-reference" class="modspec" type="recommend"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTitle">Requirement 27</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/req/core/req-class-overlap-by-reference</tt></td>
+</tr><tr><th>A</th><td><p id="_1d7355a8-ec95-91f8-bb95-dd63ddaddd82">The common portion of any two requirements classes SHALL consist only of references to other requirements classes.</p>
+</td></tr></tbody></table>
+
+<table id="_65b84e35-a5fb-1bd3-5b5b-584f489d53ce" width="90%"><name>Table 43</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="center"><strong>REQ027</strong></td>
 <td valign="middle" align="left"><strong>/req/core/req-class-overlap-by-reference</strong><br/>
 The common portion of any two requirements classes <em>SHALL</em> consist only of references
 to other requirements classes.</td>
@@ -4263,7 +4524,7 @@ conformance test class contains tests that all other conformance classes must pa
 <title depth="1">9.<tab/>Mapping this standard to types of models</title>
 <clause id="_semantics" obligation="normative">
 <title depth="2">9.1.<tab/>Semantics</title>
-<p id="_a403118d-8bc2-19b4-60e1-9bbac0f2ed8d">The previous section defines requirements for conformance to the ModSpec Hpwever,
+<p id="_d6fd27c4-1a0c-7606-1e7e-8012cde57f69">The previous section defines requirements for conformance to the ModSpec However,
 testing for that conformance may depend on how the various forms and parts of a
 conformant standard are viewed. Additional Parts to the ModSpec Standard specify how those views
 are to be defined. Standards that take an alternative
@@ -4276,7 +4537,7 @@ implementation paradigm. Additional Parts to the ModSpec
 define a mechanism to map parts of the model (language, schema, etc.) to the
 conformance classes used as the model from <xref target="Clause_6.1">cls-6-1</xref>.</p>
 
-<p id="_c9e5b300-7ecf-e51d-bb14-ca043134b7dc">As suggested in Clause <xref target="req-22">Table 33</xref>, the structure of the normative clauses in a
+<p id="_c9e5b300-7ecf-e51d-bb14-ca043134b7dc">As suggested in Clause <xref target="req-22">[req-22]</xref>, the structure of the normative clauses in a
 standard should parallel the structure of the conformance test classes in
 that standard. The structure of the normative clauses in a well written
 standard will follow the structure of its model. This means that all three are
@@ -4335,13 +4596,13 @@ language.</p>
 tested. Failure to meet any part of any requirement shall be a failure to pass the
 associated conformance test class.</p>
 
-<ol id="_e30a06e8-edf3-faa1-5bbf-8ea390cc091d" type="arabic"><li id="_193a61fd-fb73-4ef5-aeac-1314cb9cd2c4" label="1"><p id="_7a1be84c-ace3-1d9a-7a45-9749b4f466ce">Test Purpose: Verify that this requirement is satisfied.</p>
+<ol id="_e30a06e8-edf3-faa1-5bbf-8ea390cc091d" type="arabic"><li id="_e2b06c56-125d-45a8-90bf-14bf7337aa0c" label="1"><p id="_7a1be84c-ace3-1d9a-7a45-9749b4f466ce">Test Purpose: Verify that this requirement is satisfied.</p>
 </li>
-<li id="_5f569e70-2dc7-4b73-9815-7a2291e721b0" label="2"><p id="_1ff7f9a0-52a3-6a92-3402-1da21b7d3dbe">Test Method: Inspect the document to verify the above.</p>
+<li id="_878c9842-ee2e-4cf4-a9a1-42849e1bfab7" label="2"><p id="_1ff7f9a0-52a3-6a92-3402-1da21b7d3dbe">Test Method: Inspect the document to verify the above.</p>
 </li>
-<li id="_b709e4e2-5f54-4931-91c8-0841273d2e10" label="3"><p id="_af4446ff-a6ab-2f9b-815b-5f365acaf0d3">Reference: <xref target="req-1">Table 2</xref></p>
+<li id="_c865598c-ca08-4bf4-b14d-af6c2de5683c" label="3"><p id="_af4446ff-a6ab-2f9b-815b-5f365acaf0d3">Reference: <xref target="req-1">[req-1]</xref></p>
 </li>
-<li id="_03a31144-0c77-4052-975d-0c5734792037" label="4"><p id="_de6d8737-53cf-36b0-9534-4eb4798c53d9">Test Type: Conformance.</p>
+<li id="_af3d8847-6706-49cc-b522-f111043bc348" label="4"><p id="_de6d8737-53cf-36b0-9534-4eb4798c53d9">Test Type: Conformance.</p>
 </li>
 </ol>
 </clause>
@@ -4353,13 +4614,13 @@ requirements classes, conformance test cases, conformance modules and conformanc
 classes shall be assigned a URI as specified by the OGC Naming Authority or its
 equivalent.</p>
 
-<ol id="_59bd875e-d358-b94b-4279-25fe3db1d773" type="arabic"><li id="_f8144ff2-d9f0-4237-8982-06b22efb0707" label="1"><p id="_dae6bfb2-df9e-8d91-298b-3fff8440da37">Test Purpose: Verify that this requirement is satisfied.</p>
+<ol id="_59bd875e-d358-b94b-4279-25fe3db1d773" type="arabic"><li id="_db990372-72c9-419e-b5e5-d5c664c6d1bd" label="1"><p id="_dae6bfb2-df9e-8d91-298b-3fff8440da37">Test Purpose: Verify that this requirement is satisfied.</p>
 </li>
-<li id="_ac34d09c-886e-4df2-bdf2-a521678df18a" label="2"><p id="_9cf37895-6ece-5180-079c-8208da8ca8c0">Test Method: Inspect the document to verify the above.</p>
+<li id="_2131ecda-523a-4cec-86d0-bf3fa121589b" label="2"><p id="_9cf37895-6ece-5180-079c-8208da8ca8c0">Test Method: Inspect the document to verify the above.</p>
 </li>
-<li id="_a9437254-4d8d-4e30-8f22-2553ab7718c1" label="3"><p id="_1fa8c208-b43d-7683-5bde-d61c4034c4be">Reference: <xref target="req-2">Table 3</xref></p>
+<li id="_15fc2cac-933e-4cef-9a3a-31dca5ef26e1" label="3"><p id="_1fa8c208-b43d-7683-5bde-d61c4034c4be">Reference: <xref target="req-2">[req-2]</xref></p>
 </li>
-<li id="_aca50913-cb88-46cb-bc6a-a32b5abb6e3c" label="4"><p id="_8e978bda-f652-4da3-abdd-c7cd9fd71e62">Test Type: Conformance.</p>
+<li id="_a790cec4-d078-4ab3-91ad-082bc48b757f" label="4"><p id="_8e978bda-f652-4da3-abdd-c7cd9fd71e62">Test Type: Conformance.</p>
 </li>
 </ol>
 </clause>
@@ -4369,13 +4630,13 @@ equivalent.</p>
 <p id="_b52b0ad9-6a05-2cec-bdd2-d770a60b740b">Requirements on the use and interpretation of vocabulary shall be in the
 requirements class where that use or interpretation is used.</p>
 
-<ol id="_76a31059-28ed-c5df-294a-da7ef2e9adb2" type="arabic"><li id="_32a8f827-b6b8-48f8-bc39-ee5bf6dbc1c1" label="1"><p id="_d5de1abe-5617-2bda-a9d7-96994675c73f">Test Purpose: Verify that this requirement is satisfied.</p>
+<ol id="_76a31059-28ed-c5df-294a-da7ef2e9adb2" type="arabic"><li id="_8e2d5b4d-b756-4cde-ba17-64362fcf01b1" label="1"><p id="_d5de1abe-5617-2bda-a9d7-96994675c73f">Test Purpose: Verify that this requirement is satisfied.</p>
 </li>
-<li id="_fef4ba17-d9e5-4ddf-acbc-468e632943d6" label="2"><p id="_ca99d300-4e9a-9028-05d4-66f772b7e803">Test Method: Inspect the document to verify the above.</p>
+<li id="_fc431730-6b76-4947-acc4-091baa909bbb" label="2"><p id="_ca99d300-4e9a-9028-05d4-66f772b7e803">Test Method: Inspect the document to verify the above.</p>
 </li>
-<li id="_27ddd99a-13b6-43ad-b13a-4bb212128c8b" label="3"><p id="_70a72771-3e84-0a41-7374-8d21366e8501">Reference: <xref target="req-3">Table 8</xref></p>
+<li id="_bf53afad-d853-4f64-88b3-2a1543a64550" label="3"><p id="_70a72771-3e84-0a41-7374-8d21366e8501">Reference: <xref target="req-3">[req-3]</xref></p>
 </li>
-<li id="_48426c23-45bc-47a2-974f-31dd2d59fa15" label="4"><p id="_5c3d36c0-9cb4-5ed1-340c-d70a2d39dee6">Test Type: Conformance.</p>
+<li id="_43956023-f67f-4c30-92fb-b661fe5de423" label="4"><p id="_5c3d36c0-9cb4-5ed1-340c-d70a2d39dee6">Test Type: Conformance.</p>
 </li>
 </ol>
 </clause>
@@ -4385,13 +4646,13 @@ requirements class where that use or interpretation is used.</p>
 <p id="_763bf5ac-6d53-451b-c186-9cd98d139b89">Each requirement in a conformant standard shall have a single standardization
 target type.</p>
 
-<ol id="_5744c61c-b1c5-04c6-2c45-be3660f9620c" type="arabic"><li id="_360b7068-e4dc-46f0-9a42-a19ea1fb4830" label="1"><p id="_048cba70-7d16-f6d8-1dea-f351b20bbdda">Test Purpose: Verify that this requirement is satisfied.</p>
+<ol id="_5744c61c-b1c5-04c6-2c45-be3660f9620c" type="arabic"><li id="_075ce2af-958d-4bf2-af68-1ad4be719d60" label="1"><p id="_048cba70-7d16-f6d8-1dea-f351b20bbdda">Test Purpose: Verify that this requirement is satisfied.</p>
 </li>
-<li id="_6119e18d-d861-422b-ae80-5c6a9866f623" label="2"><p id="_293f9c3a-f9b6-a2be-4114-093730f38ece">Test Method: Inspect the document to verify the above.</p>
+<li id="_e773d7f8-aec1-450a-bac1-dc194791b3d6" label="2"><p id="_293f9c3a-f9b6-a2be-4114-093730f38ece">Test Method: Inspect the document to verify the above.</p>
 </li>
-<li id="_f337a8d4-3151-41bb-9ce2-69542eefbbb9" label="3"><p id="_8839717f-15f3-8a8c-f181-728f147baaf5">Reference: <xref target="req-4">Table 10</xref></p>
+<li id="_437c7227-c839-4368-bf21-98a9918e3cae" label="3"><p id="_8839717f-15f3-8a8c-f181-728f147baaf5">Reference: <xref target="req-4">[req-4]</xref></p>
 </li>
-<li id="_70160664-4b83-48ec-b90c-23b3cdb917d7" label="4"><p id="_aefa9122-075e-730b-9168-6f156414ae81">Test Type: Conformance.</p>
+<li id="_ead9708e-8140-4f92-a518-c3be30f40207" label="4"><p id="_aefa9122-075e-730b-9168-6f156414ae81">Test Type: Conformance.</p>
 </li>
 </ol>
 </clause>
@@ -4401,13 +4662,13 @@ target type.</p>
 <p id="_5eb4e119-dcab-fa12-189f-37f2ec4d2869">All conformance tests in a single conformance test class in a conformant
 standard shall have the same standardization target.</p>
 
-<ol id="_f29accde-a978-ebd9-87b1-8f3752c595ae" type="arabic"><li id="_339b55a9-54ba-4671-b060-dc187c801cb0" label="1"><p id="_1ae5578c-8c6d-0f99-6831-3437059db6c6">Test Purpose: Verify that this requirement is satisfied.</p>
+<ol id="_f29accde-a978-ebd9-87b1-8f3752c595ae" type="arabic"><li id="_54c9e1da-68d2-43a9-92dd-c2d84aedd398" label="1"><p id="_1ae5578c-8c6d-0f99-6831-3437059db6c6">Test Purpose: Verify that this requirement is satisfied.</p>
 </li>
-<li id="_ef2aab8e-960e-4ccd-a0f4-d4e6f3cf4b50" label="2"><p id="_3c58d217-54cf-9986-c234-95c448d50eaf">Test Method: Inspect the document to verify the above.</p>
+<li id="_a9f77b0f-6c5b-4c21-bc3c-cc0c6718c043" label="2"><p id="_3c58d217-54cf-9986-c234-95c448d50eaf">Test Method: Inspect the document to verify the above.</p>
 </li>
-<li id="_15766410-60ac-4d30-ab7c-29740b6ffac5" label="3"><p id="_44d3abdf-7c31-b0d9-797c-2375405e1708">Reference: <xref target="req-5">Table 11</xref></p>
+<li id="_c42b5d52-6a8e-4bea-adf0-fe75d24756d3" label="3"><p id="_44d3abdf-7c31-b0d9-797c-2375405e1708">Reference: <xref target="req-5">[req-5]</xref></p>
 </li>
-<li id="_9c6d71fa-2791-450f-83f7-d3f1e9d33a45" label="4"><p id="_2abaddf1-7eb0-96af-f564-68a7a7da1dac">Test Type: Conformance.</p>
+<li id="_5eaf5a81-ab64-4f2c-a876-957ff07d5093" label="4"><p id="_2abaddf1-7eb0-96af-f564-68a7a7da1dac">Test Type: Conformance.</p>
 </li>
 </ol>
 </clause>
@@ -4418,13 +4679,13 @@ standard shall have the same standardization target.</p>
 document in a strictly hierarchical manner, consistent with requirements modules and
 requirements classes.</p>
 
-<ol id="_67440cad-58dc-185a-c2a4-b8ad37203430" type="arabic"><li id="_56b3cff0-1a71-4b2c-b5e2-e0d2cd1b40e5" label="1"><p id="_516993ad-aec9-88f1-2a10-e408c54dd9ba">Test Purpose: Verify that this requirement is satisfied.</p>
+<ol id="_67440cad-58dc-185a-c2a4-b8ad37203430" type="arabic"><li id="_5a50b2a6-8553-4c32-abd0-2182bf827c76" label="1"><p id="_516993ad-aec9-88f1-2a10-e408c54dd9ba">Test Purpose: Verify that this requirement is satisfied.</p>
 </li>
-<li id="_4c02e52e-6ad3-40f6-b936-8f18e6b6122b" label="2"><p id="_5ce507d8-7d95-00a2-6460-ceb16e16881c">Test Method: Inspect the document to verify the above.</p>
+<li id="_06a63db0-0b1f-4a08-92d5-8a089ff07793" label="2"><p id="_5ce507d8-7d95-00a2-6460-ceb16e16881c">Test Method: Inspect the document to verify the above.</p>
 </li>
-<li id="_ecfb52d2-f2cc-4ed0-9df0-17346be25c4e" label="3"><p id="_555300ab-e182-c8a6-3a4c-e14b3d23c954">Reference: <xref target="cls-6-3">Clause 8.2</xref>, <xref target="req-6">Table 14</xref></p>
+<li id="_41e59d9c-7833-453b-8675-666c4c87cecc" label="3"><p id="_555300ab-e182-c8a6-3a4c-e14b3d23c954">Reference: <xref target="cls-6-3">Clause 8.2</xref>, <xref target="req-6">[req-6]</xref></p>
 </li>
-<li id="_6cc8104a-b369-48dc-8711-3595d287b99f" label="4"><p id="_59a6e8f3-f47d-b812-e995-16d034851433">Test Type: Conformance.</p>
+<li id="_1f038cdc-f240-4828-ae66-59d83796cea7" label="4"><p id="_59a6e8f3-f47d-b812-e995-16d034851433">Test Type: Conformance.</p>
 </li>
 </ol>
 </clause>
@@ -4434,13 +4695,13 @@ requirements classes.</p>
 <p id="_6ff8d5ea-7521-b9a6-ae1d-91e838cd6d52">The requirements structure of the document shall be in a logical correspondence to
 the test suite structure.</p>
 
-<ol id="_a24daa46-b349-cc67-2c10-28790689d951" type="arabic"><li id="_f7f57215-b45b-4f9a-add5-d1dae94189e6" label="1"><p id="_413a073c-1064-0d8b-ff85-05284e701d14">Test Purpose: Verify that this requirement is satisfied.</p>
+<ol id="_a24daa46-b349-cc67-2c10-28790689d951" type="arabic"><li id="_e166070a-8cc1-4db7-bce9-37691b25680a" label="1"><p id="_413a073c-1064-0d8b-ff85-05284e701d14">Test Purpose: Verify that this requirement is satisfied.</p>
 </li>
-<li id="_5afc328a-72fe-48fd-bd53-c727190a2aef" label="2"><p id="_99abe55c-f8a1-3418-70bb-4e6eafcb9986">Test Method: Inspect the document to verify the above.</p>
+<li id="_5cc3a342-47f5-4f6e-8e20-486a5fedaff7" label="2"><p id="_99abe55c-f8a1-3418-70bb-4e6eafcb9986">Test Method: Inspect the document to verify the above.</p>
 </li>
-<li id="_8962e02c-8933-49e0-9bd2-581ba3fde77c" label="3"><p id="_0e4e1073-3971-0822-4e65-c7f93ea36345">Reference: <xref target="cls-6-3">Clause 8.2</xref>, <xref target="req-7">Table 15</xref></p>
+<li id="_c1c95356-804e-4e1d-91c7-bdbeb976c854" label="3"><p id="_0e4e1073-3971-0822-4e65-c7f93ea36345">Reference: <xref target="cls-6-3">Clause 8.2</xref>, <xref target="req-7">[req-7]</xref></p>
 </li>
-<li id="_e7536e13-15d7-47f6-ba52-a75fcae51d30" label="4"><p id="_c12220bf-e18e-9a05-7a24-3072eee45bd7">Test Type: Conformance.</p>
+<li id="_b5c637a9-9958-4fd8-8649-270cdb2df814" label="4"><p id="_c12220bf-e18e-9a05-7a24-3072eee45bd7">Test Type: Conformance.</p>
 </li>
 </ol>
 </clause>
@@ -4451,13 +4712,13 @@ the test suite structure.</p>
 test classes, and thus to the various certificate of conformance types possible for
 a candidate implementation.</p>
 
-<ol id="_f133f774-d86d-29ac-578c-dcbe10b1f993" type="arabic"><li id="_726478ac-0eb4-4918-b0bd-587645266cea" label="1"><p id="_fcc99145-c8ae-be7a-5276-42cc4f3734d3">Test Purpose: Verify that this requirement is satisfied.</p>
+<ol id="_f133f774-d86d-29ac-578c-dcbe10b1f993" type="arabic"><li id="_6fdca877-1a7b-404a-957d-51ff426ae9bb" label="1"><p id="_fcc99145-c8ae-be7a-5276-42cc4f3734d3">Test Purpose: Verify that this requirement is satisfied.</p>
 </li>
-<li id="_6cb4d61e-0ba7-4d00-a66b-445d56b50b4e" label="2"><p id="_c6a96aad-6f07-32d3-5267-33859083f06b">Test Method: Inspect the document to verify the above.</p>
+<li id="_a04f1b83-b7c1-4f41-bfb2-ebaa8298fbb7" label="2"><p id="_c6a96aad-6f07-32d3-5267-33859083f06b">Test Method: Inspect the document to verify the above.</p>
 </li>
-<li id="_363f992b-7d78-420a-abaf-8d7bb5322b50" label="3"><p id="_932c2fd9-6312-ce28-a379-d4633032a8fd">Reference: <xref target="req-8">Table 16</xref></p>
+<li id="_fcf2579e-0e48-4ccc-b52b-e6351c1b0708" label="3"><p id="_932c2fd9-6312-ce28-a379-d4633032a8fd">Reference: <xref target="req-8">[req-8]</xref></p>
 </li>
-<li id="_c1e653d5-a86f-41a9-b7dc-420bed7ef087" label="4"><p id="_a97e119f-c6fe-c106-5a51-6d4bedc765a2">Test Type: Conformance.</p>
+<li id="_dda66652-1292-43fc-90ce-85d506ff027b" label="4"><p id="_a97e119f-c6fe-c106-5a51-6d4bedc765a2">Test Type: Conformance.</p>
 </li>
 </ol>
 </clause>
@@ -4466,13 +4727,13 @@ a candidate implementation.</p>
 <title depth="3">A.1.9.<tab/>No Optional Elements in Requirements classes</title>
 <p id="_51a04e56-46b4-4db9-a58d-b3efaa356f4f">A Conformance class shall not contain any optional conformance tests.</p>
 
-<ol id="_e089f394-3f1f-c9d4-ba54-2d82cfc40717" type="arabic"><li id="_4ffa568c-9fed-415e-a76c-39ede7822658" label="1"><p id="_dde491b1-eac0-b157-bc3c-d6e622ae25cc">Test Purpose: Verify that this requirement is satisfied.</p>
+<ol id="_e089f394-3f1f-c9d4-ba54-2d82cfc40717" type="arabic"><li id="_6c8f73bf-c975-40cb-bc5a-a6684eb23419" label="1"><p id="_dde491b1-eac0-b157-bc3c-d6e622ae25cc">Test Purpose: Verify that this requirement is satisfied.</p>
 </li>
-<li id="_51016ceb-7e98-4b55-ab17-bc46b60a746e" label="2"><p id="_06c319a9-9612-38d7-f9be-5025efabdd87">Test Method: Inspect the document to verify the above.</p>
+<li id="_0b10134c-61ea-4e4d-80de-36320a1adabe" label="2"><p id="_06c319a9-9612-38d7-f9be-5025efabdd87">Test Method: Inspect the document to verify the above.</p>
 </li>
-<li id="_b50ef333-e885-46f2-a69d-1ae6835fb347" label="3"><p id="_24b241b8-667b-0156-0900-0e59e21e9383">Reference: <xref target="req-9">Table 17</xref></p>
+<li id="_8b649cd6-23e3-4a80-a912-d3997779c79e" label="3"><p id="_24b241b8-667b-0156-0900-0e59e21e9383">Reference: <xref target="req-9">[req-9]</xref></p>
 </li>
-<li id="_ca63229f-2302-4fc4-9d15-c352bc4107d3" label="4"><p id="_376e2253-6e3d-9890-dd71-af6af5894ac6">Test Type: Conformance.</p>
+<li id="_5a6b5942-75db-4ee9-a5ba-0011ace2a5eb" label="4"><p id="_376e2253-6e3d-9890-dd71-af6af5894ac6">Test Type: Conformance.</p>
 </li>
 </ol>
 </clause>
@@ -4482,13 +4743,13 @@ a candidate implementation.</p>
 <p id="_03576f7c-095d-0f28-bc11-d21b92a67385">A certificate of conformance shall specify all parameter values used to pass the
 tests in its conformance test class.</p>
 
-<ol id="_e499b493-eeaa-c98e-9f32-148d3d213d53" type="arabic"><li id="_9c05588c-de91-42fe-9b93-f0cbde05dc83" label="1"><p id="_4482356e-eb68-48fe-a42e-3107dce69641">Test Purpose: Verify that this requirement is satisfied.</p>
+<ol id="_e499b493-eeaa-c98e-9f32-148d3d213d53" type="arabic"><li id="_6a5ecad6-1f2f-4f35-8910-ca610acdb33f" label="1"><p id="_4482356e-eb68-48fe-a42e-3107dce69641">Test Purpose: Verify that this requirement is satisfied.</p>
 </li>
-<li id="_70fe5933-327d-4a72-9c51-fc7dd3b3cd5e" label="2"><p id="_659097e7-364f-714f-c0b5-d42e6b2a2e6a">Test Method: Inspect the document to verify the above.</p>
+<li id="_2cb94894-5fc1-4438-8a62-edee83d1286c" label="2"><p id="_659097e7-364f-714f-c0b5-d42e6b2a2e6a">Test Method: Inspect the document to verify the above.</p>
 </li>
-<li id="_92bacf47-8b79-4004-9fe4-ded576162cfa" label="3"><p id="_a11a6af0-f703-981a-e004-44362c376491">Reference: <xref target="req-10">Table 19</xref></p>
+<li id="_8c252eba-6687-4546-bc7e-22c22fa26295" label="3"><p id="_a11a6af0-f703-981a-e004-44362c376491">Reference: <xref target="req-10">[req-10]</xref></p>
 </li>
-<li id="_7bc1db2b-80d0-4576-a93d-ac56ea089ebf" label="4"><p id="_49b3a178-2569-0064-2072-76b15e0c6dbd">Test Type: Conformance.</p>
+<li id="_30bbec07-4a13-478c-abe6-2cb0f4b1c0df" label="4"><p id="_49b3a178-2569-0064-2072-76b15e0c6dbd">Test Type: Conformance.</p>
 </li>
 </ol>
 </clause>
@@ -4498,13 +4759,13 @@ tests in its conformance test class.</p>
 <p id="_bae54c71-e0cc-c191-d0a9-8d4f04586c3d">A Conformance class shall explicitly test only requirements from a single
 requirements class.</p>
 
-<ol id="_e16122e0-4aa6-fb6b-fe53-979284bde735" type="arabic"><li id="_b272ec4c-eba8-4e6a-b700-bb97d70ee0be" label="1"><p id="_8ce2d96c-db28-3b0e-a70e-dc3ff1fb702d">Test Purpose: Verify that this requirement is satisfied.</p>
+<ol id="_e16122e0-4aa6-fb6b-fe53-979284bde735" type="arabic"><li id="_96f6ecc7-aead-4b6a-90a9-8e78c2ac1a8f" label="1"><p id="_8ce2d96c-db28-3b0e-a70e-dc3ff1fb702d">Test Purpose: Verify that this requirement is satisfied.</p>
 </li>
-<li id="_6c7761fd-e9d0-42b8-9003-f0ac55b86565" label="2"><p id="_5e798c06-5e08-796d-cffa-d3b37f2cbb04">Test Method: Inspect the document to verify the above.</p>
+<li id="_0344ea27-0ddf-4799-bdd4-29e025b9d682" label="2"><p id="_5e798c06-5e08-796d-cffa-d3b37f2cbb04">Test Method: Inspect the document to verify the above.</p>
 </li>
-<li id="_bfdf56bc-07ab-4da0-8b6c-b69e21ecf7e6" label="3"><p id="_9906392b-c187-5d69-627b-eae84b5cf164">Reference: <xref target="req-11">Table 20</xref></p>
+<li id="_cce49385-6ee8-487a-8c22-dac78b8a651e" label="3"><p id="_9906392b-c187-5d69-627b-eae84b5cf164">Reference: <xref target="req-11">[req-11]</xref></p>
 </li>
-<li id="_cda2e501-62e4-4c0c-be34-bf6597ddef74" label="4"><p id="_3381da6d-0c0a-b772-a360-0c04f0618ee7">Test Type: Conformance.</p>
+<li id="_8c3a1d47-24be-4907-b586-43ec86345a2f" label="4"><p id="_3381da6d-0c0a-b772-a360-0c04f0618ee7">Test Type: Conformance.</p>
 </li>
 </ol>
 </clause>
@@ -4515,13 +4776,13 @@ requirements class.</p>
 dependent and that other conformance class shall be used to test the specified
 dependency.</p>
 
-<ol id="_0e88ab43-c984-e8c6-3423-f724e30f5b45" type="arabic"><li id="_e2899ac7-4207-40f4-aa13-582026961077" label="1"><p id="_9e48a8b8-2b31-80fb-b891-9c237669160e">Test Purpose: Verify that this requirement is satisfied.</p>
+<ol id="_0e88ab43-c984-e8c6-3423-f724e30f5b45" type="arabic"><li id="_95e86461-fefe-417e-9b40-8724cdb677bc" label="1"><p id="_9e48a8b8-2b31-80fb-b891-9c237669160e">Test Purpose: Verify that this requirement is satisfied.</p>
 </li>
-<li id="_ecc798a7-096a-4319-a286-c52de0572a2e" label="2"><p id="_b4f28644-57c9-e3de-12dc-208510e690d1">Test Method: Inspect the document to verify the above.</p>
+<li id="_719ccfd1-b87b-4889-b697-b021e7132059" label="2"><p id="_b4f28644-57c9-e3de-12dc-208510e690d1">Test Method: Inspect the document to verify the above.</p>
 </li>
-<li id="_53b8abe2-aeb5-4b35-a5e9-106874279d36" label="3"><p id="_6ebbce9f-3afd-d145-db4d-288ca8ba5dad">Reference: <xref target="req-12">Table 21</xref></p>
+<li id="_538b596a-9c9b-4356-a205-aacff6bf1a4e" label="3"><p id="_6ebbce9f-3afd-d145-db4d-288ca8ba5dad">Reference: <xref target="req-12">[req-12]</xref></p>
 </li>
-<li id="_6eea4a7a-677c-496d-87d3-6869d719b761" label="4"><p id="_5422ccfe-64b8-5a02-5b5e-d5f07429e0a1">Test Type: Conformance.</p>
+<li id="_11e878c6-b08b-4fe8-9296-b422feb83a46" label="4"><p id="_5422ccfe-64b8-5a02-5b5e-d5f07429e0a1">Test Type: Conformance.</p>
 </li>
 </ol>
 </clause>
@@ -4535,13 +4796,13 @@ class in the profile of that imported standard used in the conformant standard.
 Each such used requirements class shall be a conformance class of the source
 standard or a combination of conformance classes of the source standard or standards.</p>
 
-<ol id="_9de51546-5feb-c31a-3959-15e259d56690" type="arabic"><li id="_e8b3558f-ba8e-41b6-826c-4bd5c6e07f0b" label="1"><p id="_abf8bcdb-0599-a7ee-ac62-9526cbce99cd">Test Purpose: Verify that this requirement is satisfied.</p>
+<ol id="_9de51546-5feb-c31a-3959-15e259d56690" type="arabic"><li id="_d52ddc17-5b12-49a0-8bed-921a7560c89d" label="1"><p id="_abf8bcdb-0599-a7ee-ac62-9526cbce99cd">Test Purpose: Verify that this requirement is satisfied.</p>
 </li>
-<li id="_8c85cc39-da47-43d5-bf8c-94723e0ebaf9" label="2"><p id="_be6a2297-b775-4e66-551b-e7d71a3657f7">Test Method: Inspect the document to verify the above.</p>
+<li id="_94891703-af24-43e9-8f56-b6a6f32352ef" label="2"><p id="_be6a2297-b775-4e66-551b-e7d71a3657f7">Test Method: Inspect the document to verify the above.</p>
 </li>
-<li id="_93367024-3fd5-4d8b-83ff-b5219ac97602" label="3"><p id="_ae117226-8386-e831-8216-0d064cbc4256">Reference: <xref target="req-13">Table 22</xref></p>
+<li id="_ce023396-d21b-427a-9500-9ed18d127e82" label="3"><p id="_ae117226-8386-e831-8216-0d064cbc4256">Reference: <xref target="req-13">[req-13]</xref></p>
 </li>
-<li id="_42672394-a773-4884-8015-05075f9fadba" label="4"><p id="_81d0b321-3ba3-c684-66d7-f39615930206">Test Type: Conformance.</p>
+<li id="_4481c765-cf33-4c4d-a7f5-ca130f17177c" label="4"><p id="_81d0b321-3ba3-c684-66d7-f39615930206">Test Type: Conformance.</p>
 </li>
 </ol>
 </clause>
@@ -4552,13 +4813,13 @@ standard or a combination of conformance classes of the source standard or stand
 conformance test classes shall be explicitly named, with corresponding requirements
 classes and conformance test classes having similar names.</p>
 
-<ol id="_1dbeaad3-9f5d-afd4-674f-6a4236cf9ca0" type="arabic"><li id="_717779ad-8cb3-4d13-83e2-b11cceda8a90" label="1"><p id="_4fd296ca-31a3-2789-d21c-6163739fffe2">Test Purpose: Verify that this requirement is satisfied.</p>
+<ol id="_1dbeaad3-9f5d-afd4-674f-6a4236cf9ca0" type="arabic"><li id="_7802f348-c56d-4d87-8b86-82ca718fc997" label="1"><p id="_4fd296ca-31a3-2789-d21c-6163739fffe2">Test Purpose: Verify that this requirement is satisfied.</p>
 </li>
-<li id="_4427fbc3-9235-40ab-a0e4-b57dfcd5b555" label="2"><p id="_38fa114f-6511-3961-c39a-fa5cb640f315">Test Method: Inspect the document to verify the above.</p>
+<li id="_42b6f985-e5d7-4cfe-a614-06cba15850a0" label="2"><p id="_38fa114f-6511-3961-c39a-fa5cb640f315">Test Method: Inspect the document to verify the above.</p>
 </li>
-<li id="_963af70e-10d1-4d7c-ab9a-3a9e6695015b" label="3"><p id="_ec2f0f26-d11a-f395-9ee4-e8f4cb13e5a7">Reference: <xref target="req-14">Table 23</xref></p>
+<li id="_cee97329-0c7f-4366-9d64-41ac3d6ed2d3" label="3"><p id="_ec2f0f26-d11a-f395-9ee4-e8f4cb13e5a7">Reference: <xref target="req-14">[req-14]</xref></p>
 </li>
-<li id="_ce83fccc-a303-4b60-9aa0-942b2f896638" label="4"><p id="_8c7e4778-01ae-484b-963f-d2cec575368b">Test Type: Conformance.</p>
+<li id="_f294299d-1b3e-4dc7-830a-4fe0159341ba" label="4"><p id="_8c7e4778-01ae-484b-963f-d2cec575368b">Test Type: Conformance.</p>
 </li>
 </ol>
 </clause>
@@ -4569,13 +4830,13 @@ classes and conformance test classes having similar names.</p>
 class. Inclusion of any requirement in a requirements class by a conformance class
 shall imply inclusion of all requirements in its class (as a dependency).</p>
 
-<ol id="_9f61e549-2cb4-197c-3c74-5e7b88c51549" type="arabic"><li id="_7315903b-5841-4ecd-8bfc-57fafd55739f" label="1"><p id="_b58eceff-e3e0-1ae1-5da6-10dfe6a21472">Test Purpose: Verify that this requirement is satisfied.</p>
+<ol id="_9f61e549-2cb4-197c-3c74-5e7b88c51549" type="arabic"><li id="_b9b2dd5c-fb7c-48b9-9b4c-dfac8bc63308" label="1"><p id="_b58eceff-e3e0-1ae1-5da6-10dfe6a21472">Test Purpose: Verify that this requirement is satisfied.</p>
 </li>
-<li id="_473de44f-63f9-4393-846c-d58c48e68ed9" label="2"><p id="_c2f197ac-a46a-ab37-cf66-8f2ce3b3402a">Test Method: Inspect the document to verify the above.</p>
+<li id="_1ce1785d-835a-4cbf-a609-37378ecaba30" label="2"><p id="_c2f197ac-a46a-ab37-cf66-8f2ce3b3402a">Test Method: Inspect the document to verify the above.</p>
 </li>
-<li id="_fc2a9261-f804-4cb1-be61-f6bc45491ed0" label="3"><p id="_f81255cb-4880-8311-a4e0-16b5707f0d62">Reference: <xref target="req-15">Table 24</xref></p>
+<li id="_cacc8d91-50b7-4327-8a5f-a1f033626201" label="3"><p id="_f81255cb-4880-8311-a4e0-16b5707f0d62">Reference: <xref target="req-15">[req-15]</xref></p>
 </li>
-<li id="_3151bed9-f3d2-4094-8357-52f05838ff22" label="4"><p id="_1c184067-6e09-2c62-cffa-7d87ac802d9e">Test Type: Conformance.</p>
+<li id="_6122d680-2af0-4a64-8c80-2c8c4437f91f" label="4"><p id="_1c184067-6e09-2c62-cffa-7d87ac802d9e">Test Type: Conformance.</p>
 </li>
 </ol>
 </clause>
@@ -4586,13 +4847,13 @@ shall imply inclusion of all requirements in its class (as a dependency).</p>
 on the other) then they shall be in the same requirements class. If any two
 requirements classes are co-dependent, they shall be merged into a single class.</p>
 
-<ol id="_9ce91a79-1f4f-c307-bbf2-2a2d426bf6d3" type="arabic"><li id="_8b83ce6e-8233-43d6-946f-d321feca8786" label="1"><p id="_4212c09c-f06c-b0ac-bf15-8bfadbb257e3">Test Purpose: Verify that this requirement is satisfied.</p>
+<ol id="_9ce91a79-1f4f-c307-bbf2-2a2d426bf6d3" type="arabic"><li id="_5ac8f0ef-2c1c-42f5-af88-71c8f917f703" label="1"><p id="_4212c09c-f06c-b0ac-bf15-8bfadbb257e3">Test Purpose: Verify that this requirement is satisfied.</p>
 </li>
-<li id="_b9daaa14-24e7-462b-a3d8-025c4b01c4a6" label="2"><p id="_4d4c2d70-aec5-499d-4a6b-9f2f647523a2">Test Method: Inspect the document to verify the above.</p>
+<li id="_3829603b-8a09-44d0-9bfa-6e6eb957e3a5" label="2"><p id="_4d4c2d70-aec5-499d-4a6b-9f2f647523a2">Test Method: Inspect the document to verify the above.</p>
 </li>
-<li id="_3c607335-5455-4b7a-8668-22c1d001e1bc" label="3"><p id="_17543102-031f-0375-5b19-178c1093635f">Reference: <xref target="req-16">Table 26</xref></p>
+<li id="_2d1e83d8-32c7-425a-b61c-d7bdbb647eda" label="3"><p id="_17543102-031f-0375-5b19-178c1093635f">Reference: <xref target="req-16">[req-16]</xref></p>
 </li>
-<li id="_3daa3374-e2c5-4bec-962d-6f20953cbfeb" label="4"><p id="_9f70f719-79fe-0a4e-8a9d-0440d38b81ef">Test Type: Conformance.</p>
+<li id="_f2cdef2d-1fef-4e45-99fc-41066119cb61" label="4"><p id="_9f70f719-79fe-0a4e-8a9d-0440d38b81ef">Test Type: Conformance.</p>
 </li>
 </ol>
 </clause>
@@ -4605,13 +4866,13 @@ extensions.</p>
 
 <p id="_f67aeff2-4c68-abf5-b55b-b1022366ba5c">All general recommendations shall be in the core.</p>
 
-<ol id="_ed5513cf-c822-609f-18f4-58017c5f1db1" type="arabic"><li id="_f5770af7-c67b-43cc-a691-53e7a8d9f518" label="1"><p id="_480f108f-97ed-4899-6ce7-560f61256842">Test Purpose: Verify that this requirement is satisfied.</p>
+<ol id="_ed5513cf-c822-609f-18f4-58017c5f1db1" type="arabic"><li id="_e61c5789-1013-43bf-907a-44180a792fb2" label="1"><p id="_480f108f-97ed-4899-6ce7-560f61256842">Test Purpose: Verify that this requirement is satisfied.</p>
 </li>
-<li id="_31988901-2b25-4ae8-a63b-22648ef53177" label="2"><p id="_067d8085-fa21-2799-75df-fd1eac999526">Test Method: Inspect the document to verify the above.</p>
+<li id="_9f7af6dc-c96c-40e7-bb80-bb8a06fa1ab9" label="2"><p id="_067d8085-fa21-2799-75df-fd1eac999526">Test Method: Inspect the document to verify the above.</p>
 </li>
-<li id="_9f75026a-bed7-4578-b1a2-d25225eec19d" label="3"><p id="_c375d6b4-2946-26df-1b18-5e138e5a09cd">Reference: <xref target="req-17">Table 28</xref></p>
+<li id="_a3570147-a94f-4e73-8556-07f4e7abdb86" label="3"><p id="_c375d6b4-2946-26df-1b18-5e138e5a09cd">Reference: <xref target="req-17">[req-17]</xref></p>
 </li>
-<li id="_d36b490e-82ed-4279-968c-0505506c46af" label="4"><p id="_8d82b9e8-3f89-f0da-17da-0eeaea6cb47c">Test Type: Conformance.</p>
+<li id="_3404bb42-ad46-48a6-92d6-ce194ec5a7b7" label="4"><p id="_8d82b9e8-3f89-f0da-17da-0eeaea6cb47c">Test Type: Conformance.</p>
 </li>
 </ol>
 </clause>
@@ -4622,13 +4883,13 @@ extensions.</p>
 that redefinition is for an entity derived from but not contained in those
 dependencies.</p>
 
-<ol id="_db27f5af-5cea-4108-fc1e-9fa15b8d3322" type="arabic"><li id="_ea3e6648-e510-42d0-8a49-003883b26c30" label="1"><p id="_420537f2-6b20-5b27-5302-2e4a5cb054a0">Test Purpose: Verify that this requirement is satisfied.</p>
+<ol id="_db27f5af-5cea-4108-fc1e-9fa15b8d3322" type="arabic"><li id="_22b25791-9db8-44df-8028-4532be6871cb" label="1"><p id="_420537f2-6b20-5b27-5302-2e4a5cb054a0">Test Purpose: Verify that this requirement is satisfied.</p>
 </li>
-<li id="_f7b7930a-5e8a-45bc-9b24-e61c5e7e3b3f" label="2"><p id="_9a4c5c37-c650-5244-02f9-935d29b546a5">Test Method: Inspect the document to verify the above.</p>
+<li id="_c8a25139-ce79-43ba-9082-20f668ce7d05" label="2"><p id="_9a4c5c37-c650-5244-02f9-935d29b546a5">Test Method: Inspect the document to verify the above.</p>
 </li>
-<li id="_15ffbdb7-c9d1-4192-8ef8-a70bda6dc5f9" label="3"><p id="_24c6cf6d-33a3-af8f-36f7-377f4c1bcf59">Reference: <xref target="req-18">Table 29</xref></p>
+<li id="_8c500960-9dee-40ac-8f18-b3ac5f5a56b5" label="3"><p id="_24c6cf6d-33a3-af8f-36f7-377f4c1bcf59">Reference: <xref target="req-18">[req-18]</xref></p>
 </li>
-<li id="_9c51053c-8dd6-4599-9646-ccfd5c7c76fd" label="4"><p id="_dc063c7c-e9e2-ee1e-1b4e-373a9f50729f">Test Type: Conformance.</p>
+<li id="_c09d35fa-3d15-429b-adda-67ee0c2d70e8" label="4"><p id="_dc063c7c-e9e2-ee1e-1b4e-373a9f50729f">Test Type: Conformance.</p>
 </li>
 </ol>
 </clause>
@@ -4639,13 +4900,13 @@ dependencies.</p>
 of a list of conformance classes that are to be satisfied by that profile’s
 standardization targets.</p>
 
-<ol id="_f96c2c25-78e2-f2f3-f3b2-f870e942406c" type="arabic"><li id="_20762018-53c9-43bd-9088-4dd05433e055" label="1"><p id="_9d5a66ef-cf45-0fcd-3d42-9cd385818092">Test Purpose: Verify that this requirement is satisfied.</p>
+<ol id="_f96c2c25-78e2-f2f3-f3b2-f870e942406c" type="arabic"><li id="_fbe0594c-b3ce-4aa6-9e3f-76f91f8e0fde" label="1"><p id="_9d5a66ef-cf45-0fcd-3d42-9cd385818092">Test Purpose: Verify that this requirement is satisfied.</p>
 </li>
-<li id="_29a13f30-5104-4a1b-9782-670055f75dbd" label="2"><p id="_beb69b1e-0c17-c26e-2c1d-9b4d384a6686">Test Method: Inspect the document to verify the above.</p>
+<li id="_2ba7ef2f-e6c2-413b-825e-b7669a634f20" label="2"><p id="_beb69b1e-0c17-c26e-2c1d-9b4d384a6686">Test Method: Inspect the document to verify the above.</p>
 </li>
-<li id="_5ea848d3-54af-4687-8c23-251b0b7bbba1" label="3"><p id="_1193d6d7-3e1e-fb78-a750-b0448717f2b3">Reference: <xref target="req-19">Table 30</xref></p>
+<li id="_5e42d2b1-24f9-4647-8249-c0b998058bdd" label="3"><p id="_1193d6d7-3e1e-fb78-a750-b0448717f2b3">Reference: <xref target="req-19">[req-19]</xref></p>
 </li>
-<li id="_d97a1522-42ee-43f8-9f28-9833c9ff0181" label="4"><p id="_7fec38cb-8ed1-8baf-24cd-dc16e8c6219b">Test Type: Conformance.</p>
+<li id="_1bb02b92-9768-4551-8b62-ddc5b89a0bce" label="4"><p id="_7fec38cb-8ed1-8baf-24cd-dc16e8c6219b">Test Type: Conformance.</p>
 </li>
 </ol>
 </clause>
@@ -4655,13 +4916,13 @@ standardization targets.</p>
 <p id="_37bf2b25-cc65-dc3f-00b6-48f85bf5f594">Every standard shall define and identify a core set of requirements as a
 separate conformance class.</p>
 
-<ol id="_7da8d33d-2ed7-c7f8-9013-c2f52d81fefb" type="arabic"><li id="_21bf519c-5a5a-4403-9020-5aa931e2eb35" label="1"><p id="_a1a8bba9-18a7-a275-e58b-ce631e0b7495">Test Purpose: Verify that this requirement is satisfied.</p>
+<ol id="_7da8d33d-2ed7-c7f8-9013-c2f52d81fefb" type="arabic"><li id="_80065d76-f7f7-4834-9355-d934fb806043" label="1"><p id="_a1a8bba9-18a7-a275-e58b-ce631e0b7495">Test Purpose: Verify that this requirement is satisfied.</p>
 </li>
-<li id="_b376227c-11a1-4c35-a365-0b765c59ae20" label="2"><p id="_db8d6b25-1a96-a96b-9da9-51da91c3b65d">Test Method: Inspect the document to verify the above.</p>
+<li id="_aaf7723d-8df0-4765-80bd-820eb8c385fc" label="2"><p id="_db8d6b25-1a96-a96b-9da9-51da91c3b65d">Test Method: Inspect the document to verify the above.</p>
 </li>
-<li id="_e83bb211-7a21-46ce-a4e4-e528fc3637d1" label="3"><p id="_8d80ead6-fcda-9ca4-3af5-eb6a21d5ef72">Reference: <xref target="req-20">Table 31</xref></p>
+<li id="_f6dd8480-2c06-4326-a415-f6111e77c2a6" label="3"><p id="_8d80ead6-fcda-9ca4-3af5-eb6a21d5ef72">Reference: <xref target="req-20">[req-20]</xref></p>
 </li>
-<li id="_b539db02-6992-4e36-8adb-2fde9301bc3f" label="4"><p id="_7630cdc3-0227-2ee7-ddde-6ff4c2fce48c">Test Type: Conformance.</p>
+<li id="_036c10c1-87a2-4db7-9e0f-ea6dbe99fb6f" label="4"><p id="_7630cdc3-0227-2ee7-ddde-6ff4c2fce48c">Test Type: Conformance.</p>
 </li>
 </ol>
 </clause>
@@ -4672,13 +4933,13 @@ separate conformance class.</p>
 target type which is a subtype of that of the core and shall have the core as a
 direct dependency.</p>
 
-<ol id="_5dbbdcf6-4e6f-dc54-6985-59e527815f96" type="arabic"><li id="_839d77e9-c1af-48e2-a309-d02b90c45124" label="1"><p id="_4ad56425-2fdd-799e-4683-f026ada808f5">Test Purpose: Verify that this requirement is satisfied.</p>
+<ol id="_5dbbdcf6-4e6f-dc54-6985-59e527815f96" type="arabic"><li id="_bd8d7b1e-b8e1-4637-9f35-aa2510ab6a61" label="1"><p id="_4ad56425-2fdd-799e-4683-f026ada808f5">Test Purpose: Verify that this requirement is satisfied.</p>
 </li>
-<li id="_a6c07961-1551-41b6-8792-d98e3663b0b7" label="2"><p id="_d90929c8-5ea7-2f11-0094-da6ce2a27256">Test Method: Inspect the document to verify the above.</p>
+<li id="_9c04b244-e939-432b-80b0-0f28a523e686" label="2"><p id="_d90929c8-5ea7-2f11-0094-da6ce2a27256">Test Method: Inspect the document to verify the above.</p>
 </li>
-<li id="_a3f115cb-6d68-414e-818e-b3e8a276e1e3" label="3"><p id="_85880c27-fe3d-d229-6ca8-3639b33ceb68">Reference: <xref target="req-22">Table 33</xref></p>
+<li id="_4989ada2-c01c-42e6-bf96-a70e1046ff46" label="3"><p id="_85880c27-fe3d-d229-6ca8-3639b33ceb68">Reference: <xref target="req-22">[req-22]</xref></p>
 </li>
-<li id="_ed4cea61-2fd3-4e39-9093-d7b80e610e73" label="4"><p id="_4819738a-9b4f-f078-7719-449a57623672">Test Type: Conformance.</p>
+<li id="_260ecd65-2932-4c49-bf83-9904716795d7" label="4"><p id="_4819738a-9b4f-f078-7719-449a57623672">Test Type: Conformance.</p>
 </li>
 </ol>
 </clause>
@@ -4689,13 +4950,13 @@ direct dependency.</p>
 target type which is a subtype of that of the core and shall have the core as a
 direct dependency.</p>
 
-<ol id="_dabc0449-e867-f86a-f587-2e2b41f698dc" type="arabic"><li id="_71709094-f0f3-4c62-b26a-18cd59d3eb09" label="1"><p id="_40fe61e0-8947-8708-d7c5-5cb008a2142e">Test Purpose: Verify that this requirement is satisfied.</p>
+<ol id="_dabc0449-e867-f86a-f587-2e2b41f698dc" type="arabic"><li id="_cd77adc7-db10-4a98-8195-2471aaea3819" label="1"><p id="_40fe61e0-8947-8708-d7c5-5cb008a2142e">Test Purpose: Verify that this requirement is satisfied.</p>
 </li>
-<li id="_c7e459ea-151b-4f0b-b05c-c1cfc39261aa" label="2"><p id="_6df23644-e1d7-81ba-e8f0-bc29dcdc2511">Test Method: Inspect the document to verify the above.</p>
+<li id="_55e41587-88d5-4203-89d9-984592bf3335" label="2"><p id="_6df23644-e1d7-81ba-e8f0-bc29dcdc2511">Test Method: Inspect the document to verify the above.</p>
 </li>
-<li id="_ae46d753-dd02-4eb3-9a67-7735d9f57cfa" label="3"><p id="_24b08b0d-89b1-432b-4921-65d340df7697">Reference: <xref target="req-22">Table 33</xref></p>
+<li id="_c33a2652-3073-443d-aa16-da75e634434b" label="3"><p id="_24b08b0d-89b1-432b-4921-65d340df7697">Reference: <xref target="req-22">[req-22]</xref></p>
 </li>
-<li id="_635763d8-186b-4209-b213-58be9cfb7b86" label="4"><p id="_6331557f-b065-6be7-1b85-47900fc55f13">Test Type: Conformance.</p>
+<li id="_e67a65c8-b6b0-4c88-8c67-53bc67ebfbc8" label="4"><p id="_6331557f-b065-6be7-1b85-47900fc55f13">Test Type: Conformance.</p>
 </li>
 </ol>
 </clause>
@@ -4705,13 +4966,13 @@ direct dependency.</p>
 <p id="_197a1d64-d173-910a-a20a-38934e729c49">Each standard conformant to the ModSpec shall consist of the core and some
 number of requirements classes defined as extensions to that core.</p>
 
-<ol id="_bf647e84-b001-1d65-098d-bb1a92018867" type="arabic"><li id="_23c0d20d-756a-4399-bf7c-9708a91ab8a8" label="1"><p id="_cc819290-e76a-1ac3-6da1-49ccfdadb0e5">Test Purpose: Verify that this requirement is satisfied.</p>
+<ol id="_bf647e84-b001-1d65-098d-bb1a92018867" type="arabic"><li id="_40737370-8260-4fcb-b717-043761955500" label="1"><p id="_cc819290-e76a-1ac3-6da1-49ccfdadb0e5">Test Purpose: Verify that this requirement is satisfied.</p>
 </li>
-<li id="_10e81230-f041-40f3-a0bf-52f36c213a12" label="2"><p id="_51a15577-87a2-9aff-70c9-a85898d46979">Test Method: Inspect the document to verify the above.</p>
+<li id="_f3e8acba-7783-4b25-9a2b-3826b4aa3c62" label="2"><p id="_51a15577-87a2-9aff-70c9-a85898d46979">Test Method: Inspect the document to verify the above.</p>
 </li>
-<li id="_daa5056f-f415-445e-a877-cc01cd093121" label="3"><p id="_38bfbbc8-0876-b574-655a-8df96457debd">Reference: <xref target="req-23">Table 39</xref></p>
+<li id="_3bdd919f-841f-46e1-8f2f-6c1cc05d2324" label="3"><p id="_38bfbbc8-0876-b574-655a-8df96457debd">Reference: <xref target="req-23">[req-23]</xref></p>
 </li>
-<li id="_72fbd38b-a9d7-48ab-92b8-cf9e01e6aafe" label="4"><p id="_ed48ccf6-91bb-587f-27f3-1d86ddf544a0">Test Type: Conformance.</p>
+<li id="_86af6b0d-35c7-4693-b200-bc7f7c3adddf" label="4"><p id="_ed48ccf6-91bb-587f-27f3-1d86ddf544a0">Test Type: Conformance.</p>
 </li>
 </ol>
 </clause>
@@ -4721,13 +4982,13 @@ number of requirements classes defined as extensions to that core.</p>
 <p id="_e87b7355-b6dd-1f77-be35-dbf54d0dcfb0">A standard conformant to the ModSpec shall require all conformant extensions
 to itself to be conformant to the ModSpec.</p>
 
-<ol id="_edbfcf07-a603-9363-9561-92329c79bdc2" type="arabic"><li id="_68309503-e4ec-4d88-adf1-e4e13d28cab2" label="1"><p id="_d50bc726-965f-b712-55e4-8bd19f38a738">Test Purpose: Verify that this requirement is satisfied.</p>
+<ol id="_edbfcf07-a603-9363-9561-92329c79bdc2" type="arabic"><li id="_08cfaebf-32a6-4700-a9d8-485225a3368d" label="1"><p id="_d50bc726-965f-b712-55e4-8bd19f38a738">Test Purpose: Verify that this requirement is satisfied.</p>
 </li>
-<li id="_13e932d4-2b3d-4351-9e00-696c376894b1" label="2"><p id="_5f810b1f-0f9d-335c-6a17-a4d4a81372b8">Test Method: Inspect the document to verify the above.</p>
+<li id="_b11486f6-0b49-4606-862f-66bdac44ae78" label="2"><p id="_5f810b1f-0f9d-335c-6a17-a4d4a81372b8">Test Method: Inspect the document to verify the above.</p>
 </li>
-<li id="_ed34c872-4f16-4ccb-9004-e3a9af73edff" label="3"><p id="_bf8adc58-f86d-d836-3d86-e022af86c7c4">Reference: <xref target="req-24">Table 40</xref></p>
+<li id="_bea5c0b6-ad62-41b3-9b96-5761c93b1cf8" label="3"><p id="_bf8adc58-f86d-d836-3d86-e022af86c7c4">Reference: <xref target="req-24">[req-24]</xref></p>
 </li>
-<li id="_3722e217-62f3-4e79-8675-7847880b6dc6" label="4"><p id="_30a52168-021e-ab4b-1030-5833e1cab58e">Test Type: Conformance.</p>
+<li id="_d02f2ed0-36e4-4c1e-8e54-7a8ae7586b22" label="4"><p id="_30a52168-021e-ab4b-1030-5833e1cab58e">Test Type: Conformance.</p>
 </li>
 </ol>
 </clause>
@@ -4737,13 +4998,13 @@ to itself to be conformant to the ModSpec.</p>
 <p id="_557c2da7-a4b2-2d16-ada9-83617ad76320">A standard conformant to the ModSpec shall never restrict in any manner
 future, logically-valid extensions of its standardization targets.</p>
 
-<ol id="_128b4ceb-dd2e-72a7-9a58-6aa070c31cdf" type="arabic"><li id="_a0349319-4125-4402-991f-efc4b15f0ff5" label="1"><p id="_2ca63df9-401f-f193-f109-00ab6b464606">Test Purpose: Verify that this requirement is satisfied.</p>
+<ol id="_128b4ceb-dd2e-72a7-9a58-6aa070c31cdf" type="arabic"><li id="_8cd9e05c-0f05-405b-8b38-1c557484410b" label="1"><p id="_2ca63df9-401f-f193-f109-00ab6b464606">Test Purpose: Verify that this requirement is satisfied.</p>
 </li>
-<li id="_5ae8a6dc-314c-4258-9523-74ed480ca0b3" label="2"><p id="_f4429b0f-d3e5-87ee-5c32-38ccaaae6109">Test Method: Inspect the document to verify the above.</p>
+<li id="_8b2395ba-7110-4550-803e-dfb0c875cf84" label="2"><p id="_f4429b0f-d3e5-87ee-5c32-38ccaaae6109">Test Method: Inspect the document to verify the above.</p>
 </li>
-<li id="_d15afc9c-696a-4d1f-aabb-c0a260af5c0f" label="3"><p id="_7ec4559b-2e5e-f292-bda5-42295a1fca72">Reference: <xref target="req-25">Table 41</xref></p>
+<li id="_596badc6-f7a3-484f-8a57-956c01f3508e" label="3"><p id="_7ec4559b-2e5e-f292-bda5-42295a1fca72">Reference: <xref target="req-25">[req-25]</xref></p>
 </li>
-<li id="_41f53b4b-bfd1-46a5-95dd-5fc21d5e6382" label="4"><p id="_18bf3022-332f-fa18-52a7-2bd6c2521317">Test Type: Conformance.</p>
+<li id="_889469b4-e99f-4ad8-abdf-449ce21f5311" label="4"><p id="_18bf3022-332f-fa18-52a7-2bd6c2521317">Test Type: Conformance.</p>
 </li>
 </ol>
 </clause>
@@ -4753,13 +5014,13 @@ future, logically-valid extensions of its standardization targets.</p>
 <p id="_7eb06a8d-c0d0-1147-3709-646a92df4ba5">The only optional requirements acceptable in a standard conformant to this
 standard shall be expressible as a list of conformance classes to be passed.</p>
 
-<ol id="_30768c6a-4263-815f-b992-e85f5faabe4a" type="arabic"><li id="_17e31720-c7b3-4060-85c2-7b470195c25d" label="1"><p id="_c40cc316-d91a-17fe-99d0-8f144611c5e6">Test Purpose: Verify that this requirement is satisfied.</p>
+<ol id="_30768c6a-4263-815f-b992-e85f5faabe4a" type="arabic"><li id="_8b0c88f3-1b85-409a-9e81-c11a5a242977" label="1"><p id="_c40cc316-d91a-17fe-99d0-8f144611c5e6">Test Purpose: Verify that this requirement is satisfied.</p>
 </li>
-<li id="_541156c8-471f-4ead-b3a5-207a3d128cca" label="2"><p id="_adb8baca-47ac-6e02-0a21-121216168eeb">Test Method: Inspect the document to verify the above.</p>
+<li id="_c5311c6f-75b6-406e-a9ef-ae8196cc7a01" label="2"><p id="_adb8baca-47ac-6e02-0a21-121216168eeb">Test Method: Inspect the document to verify the above.</p>
 </li>
-<li id="_b99c9ad0-2199-4525-957f-5ad727569d91" label="3"><p id="_6e727955-0a3d-4499-c69c-7a58e7e5bf45">Reference: <xref target="req-26">Table 42</xref></p>
+<li id="_3efdb52c-46d5-4f36-be90-9dd88b45a897" label="3"><p id="_6e727955-0a3d-4499-c69c-7a58e7e5bf45">Reference: <xref target="req-26">[req-26]</xref></p>
 </li>
-<li id="_c49f8e9a-4b2a-46e5-9e90-856ed8abc4a3" label="4"><p id="_1c7671b5-fb4e-83a3-3641-b22065a9a767">Test Type: Conformance.</p>
+<li id="_c5e0d49d-62a3-4e73-aabd-1014585c42d2" label="4"><p id="_1c7671b5-fb4e-83a3-3641-b22065a9a767">Test Type: Conformance.</p>
 </li>
 </ol>
 </clause>
@@ -4769,13 +5030,13 @@ standard shall be expressible as a list of conformance classes to be passed.</p>
 <p id="_63d784ca-e595-463d-698e-09fdf4a3eec6">The common portion of any two requirements classes shall consist only of references
 to other requirements classes.</p>
 
-<ol id="_bf6a697a-7bf2-84a1-a00e-bd8022ffe733" type="arabic"><li id="_4ef3bc41-da2b-44b0-b200-a2e633e870c1" label="1"><p id="_16f947e0-bbdd-92e9-82ed-600e10f1c460">Test Purpose: Verify that this requirement is satisfied.</p>
+<ol id="_bf6a697a-7bf2-84a1-a00e-bd8022ffe733" type="arabic"><li id="_f24ab695-25f3-4077-85a7-9b1b8257604d" label="1"><p id="_16f947e0-bbdd-92e9-82ed-600e10f1c460">Test Purpose: Verify that this requirement is satisfied.</p>
 </li>
-<li id="_a31c6a5b-3537-4fc2-b027-96c5252ad780" label="2"><p id="_d9117e68-fea7-b5a5-8d83-b0a9ab979a89">Test Method: Inspect the document to verify the above.</p>
+<li id="_9ae69ae6-fbd3-4293-a33d-ca74b11b57a8" label="2"><p id="_d9117e68-fea7-b5a5-8d83-b0a9ab979a89">Test Method: Inspect the document to verify the above.</p>
 </li>
-<li id="_ee58a313-9ecf-4cb7-8ce7-bdf371d8ec5e" label="3"><p id="_e5367eb1-5d34-9194-86a2-00e7fd2d1538">Reference: <xref target="req-27">Table 43</xref></p>
+<li id="_aca603bd-1a49-4301-9dc4-10e3ffcd26f9" label="3"><p id="_e5367eb1-5d34-9194-86a2-00e7fd2d1538">Reference: <xref target="req-27">[req-27]</xref></p>
 </li>
-<li id="_3b1495da-1d40-48df-a428-eb9b9d4e371f" label="4"><p id="_00ea4426-949f-23d3-394b-913de9f7ec59">Test Type: Conformance.</p>
+<li id="_f7d3efba-c840-44ca-8a13-0b29418a6eac" label="4"><p id="_00ea4426-949f-23d3-394b-913de9f7ec59">Test Type: Conformance.</p>
 </li>
 </ol>
 </clause>
@@ -4811,45 +5072,45 @@ in any Policy and Procedure document used by this committee.</p>
 order. It may be easier to understand the more significant terms in the following
 less formal definitions arranged in a bottom-up order:</p>
 
-<ol id="_6f42ca70-64e9-33ac-eff9-7e1a81911e09" type="arabic"><li id="_360ae5bd-8435-4f81-abb9-1d5a1578ce40" label="1"><p id="_3031385e-478f-5244-3cbc-072135124eaa">a <em>standardization target type</em> (<xref target="term-standardization-target-type">Clause 4.27</xref>) is a type of entity about which a standard
+<ol id="_6f42ca70-64e9-33ac-eff9-7e1a81911e09" type="arabic"><li id="_1e9877a1-7f9c-480a-b3d5-6f9eac4aa1c0" label="1"><p id="_3031385e-478f-5244-3cbc-072135124eaa">a <em>standardization target type</em> (<xref target="term-standardization-target-type">Clause 4.27</xref>) is a type of entity about which a standard
 is written. An instance of a <em>standardization target type</em> (<xref target="term-standardization-target-type">Clause 4.27</xref>) is a
 <em>standardization target</em> (<xref target="term-standardization-target">Clause 4.26</xref>). A standard may address multiple targets in separate
 <xref target="conformance-class"><em>conformance classes</em></xref>.</p>
 </li>
-<li id="_ca51907b-ce8c-426d-ab03-9e8f5b6fbbb3" label="2"><p id="_99bb716f-b340-ae8c-a732-cf6e10bca95b">a <em>requirement</em> (<xref target="term-requirement">Clause 4.21</xref>) is a statement of a condition to be satisfied by a single
+<li id="_e76b9e1d-ccbf-43a5-b047-acdec0181dbc" label="2"><p id="_99bb716f-b340-ae8c-a732-cf6e10bca95b">a <em>requirement</em> (<xref target="term-requirement">Clause 4.21</xref>) is a statement of a condition to be satisfied by a single
 <em>standardization target type</em> (<xref target="term-standardization-target-type">Clause 4.27</xref>), and it must be stated in “normative” language.</p>
 </li>
-<li id="_f899c6be-b0d1-4987-855f-2e7f826e4c89" label="3"><p id="_e22a7979-7cdc-cfed-f288-fd5fa68fcdca">a <em>conformance test</em> (<xref target="term-conformance-test">Clause 4.3</xref>) checks if a set of
+<li id="_19eeff41-cdc3-4abf-80d3-eb1577c15e6c" label="3"><p id="_e22a7979-7cdc-cfed-f288-fd5fa68fcdca">a <em>conformance test</em> (<xref target="term-conformance-test">Clause 4.3</xref>) checks if a set of
 <em>requirements</em> (<xref target="term-requirement">Clause 4.21</xref>) are met (<strong>pass</strong>) or not met (<strong>fail</strong>) by a
 <em>standardization target</em> (<xref target="term-standardization-target">Clause 4.26</xref>). The relationship between <em> conformance tests</em> (<xref target="term-conformance-test">Clause 4.3</xref>) and <em>requirements</em> (<xref target="term-requirement">Clause 4.21</xref>) is many-to-many.</p>
 </li>
-<li id="_548caa3c-64cd-4ebb-8ea8-6975765fa814" label="4"><p id="_5d013705-0705-5381-9367-19c0726a0d37">all <em> conformance tests</em> (<xref target="term-conformance-test">Clause 4.3</xref>) are graded as <strong>pass</strong> or <strong>fail</strong>
+<li id="_e41d59f0-58e0-418f-b854-e548dd168e47" label="4"><p id="_5d013705-0705-5381-9367-19c0726a0d37">all <em> conformance tests</em> (<xref target="term-conformance-test">Clause 4.3</xref>) are graded as <strong>pass</strong> or <strong>fail</strong>
 against each instance of the <em>standardization target</em> (<xref target="term-standardization-target">Clause 4.26</xref>).</p>
 </li>
-<li id="_fee04eac-25c2-4b24-a07a-765bca3730c3" label="5"><p id="_d1e42df7-e955-37dd-f112-a68666e1a69d">a <em>requirement</em> (<xref target="term-requirement">Clause 4.21</xref>) is associated to one <em>conformance test</em> (<xref target="term-conformance-test">Clause 4.3</xref>).</p>
+<li id="_d2e12352-ecdd-43f1-af37-b535a1eaffbb" label="5"><p id="_d1e42df7-e955-37dd-f112-a68666e1a69d">a <em>requirement</em> (<xref target="term-requirement">Clause 4.21</xref>) is associated to one <em>conformance test</em> (<xref target="term-conformance-test">Clause 4.3</xref>).</p>
 </li>
-<li id="_ad69b195-489a-4abd-857a-2c71944ea81f" label="6"><p id="_3bcb3371-cfcf-1d2f-e5e7-e58360d12302">a <em>recommendation</em> (<xref target="term-recommendation">Clause 4.20</xref>) is a suggestion and is not associated to any
+<li id="_f2a83e83-a2cb-4446-a54e-7f9254ada99b" label="6"><p id="_3bcb3371-cfcf-1d2f-e5e7-e58360d12302">a <em>recommendation</em> (<xref target="term-recommendation">Clause 4.20</xref>) is a suggestion and is not associated to any
 <em>conformance test</em> (<xref target="term-conformance-test">Clause 4.3</xref>).</p>
 </li>
-<li id="_0ecd3821-e157-4235-a216-0ac5412471ff" label="7"><p id="_474d7972-823d-e90f-8473-e6e8a65965af">a <em>requirements class</em> (<xref target="term-requirements-class">Clause 4.22</xref>) is a set of one or more <em>requirements</em> (<xref target="term-requirement">Clause 4.21</xref>)
+<li id="_42cfd3f3-cc1c-495b-a458-d40ea65d8695" label="7"><p id="_474d7972-823d-e90f-8473-e6e8a65965af">a <em>requirements class</em> (<xref target="term-requirements-class">Clause 4.22</xref>) is a set of one or more <em>requirements</em> (<xref target="term-requirement">Clause 4.21</xref>)
 all with the same <em>standardization target type</em> (<xref target="term-standardization-target-type">Clause 4.27</xref>).</p>
 </li>
-<li id="_4f27984d-a242-4df3-93df-4eb0b002eeee" label="8"><p id="_217987ed-3e2a-8ecf-d484-8641b3b41805">a <em>conformance (test) class</em> (<xref target="term-conformance-test-class">Clause 4.6</xref>) is a collection of
+<li id="_b35eeb17-ade1-4997-b245-23a9bd49a614" label="8"><p id="_217987ed-3e2a-8ecf-d484-8641b3b41805">a <em>conformance (test) class</em> (<xref target="term-conformance-test-class">Clause 4.6</xref>) is a collection of
 <em>conformance tests</em> (<xref target="term-conformance-test">Clause 4.3</xref>) that are associated to and only to the
 requirements in a corresponding <em>requirements class</em> (<xref target="term-requirements-class">Clause 4.22</xref>).</p>
 </li>
-<li id="_74b7e2ae-ab70-4eae-8615-1c1f63c0383a" label="9"><p id="_46970d7f-b5cb-1b1c-1c03-c57bda73d57d">a <em>conformance (test) module</em> (<xref target="term-conformance-test-module">Clause 4.5</xref>) is also collection of
+<li id="_2d93e213-49d0-4563-9fa8-ecf873c11b1d" label="9"><p id="_46970d7f-b5cb-1b1c-1c03-c57bda73d57d">a <em>conformance (test) module</em> (<xref target="term-conformance-test-module">Clause 4.5</xref>) is also collection of
 <strong>term <tt>conformance test classes</tt> not resolved via ID <tt>conformance-test-classes</tt></strong> that group
 <em> conformance tests</em> (<xref target="term-conformance-test">Clause 4.3</xref>) on a single
 <em>standardization target type</em> (<xref target="term-standardization-target-type">Clause 4.27</xref>).</p>
 </li>
-<li id="_d078bbfd-eb60-46a2-9e77-d205111b4d8b" label="10"><p id="_bfda2562-9b75-988a-b748-6a9abed877d3">a <strong>conformant implementation</strong> is a <em>standardization target type</em> (<xref target="term-standardization-target-type">Clause 4.27</xref>) that has
+<li id="_d2dea284-f5a7-457d-9e29-d7ae8ed9624a" label="10"><p id="_bfda2562-9b75-988a-b748-6a9abed877d3">a <strong>conformant implementation</strong> is a <em>standardization target type</em> (<xref target="term-standardization-target-type">Clause 4.27</xref>) that has
 successfully passed all tests in a specified <em>conformance (test) class</em> (<xref target="term-conformance-test-class">Clause 4.6</xref>) and received a <em>certificate of conformance</em> (<xref target="term-certificate-of-conformance">Clause 4.2</xref>)</p>
 </li>
-<li id="_a54c371d-cd19-4b33-acf7-0901c0eee282" label="11"><p id="_7ba8cc9b-d39e-8cc9-1b70-b12e53626d5e">the <em>core requirements class</em> (<xref target="term-core-requirements-class">Clause 4.8</xref>) of a standard is the minimal set of
+<li id="_bd9186fa-29c1-48b7-8ce7-e66b55da12e1" label="11"><p id="_7ba8cc9b-d39e-8cc9-1b70-b12e53626d5e">the <em>core requirements class</em> (<xref target="term-core-requirements-class">Clause 4.8</xref>) of a standard is the minimal set of
 <em>requirements</em> (<xref target="term-requirement">Clause 4.21</xref>) which must be supported by all <strong>conformant implementations</strong>. If a standard addresses multiple <em>standardization target types</em> (<xref target="term-standardization-target-type">Clause 4.27</xref>), it may have a <strong>core</strong> for each <strong>target type</strong>.</p>
 </li>
-<li id="_7f26fdeb-36d3-4416-9902-5738e9046314" label="12"><p id="_a3c8125f-529f-8edf-d9db-00c289de0110">an <strong>extension</strong> of a <em>requirements class</em> (<xref target="term-requirements-class">Clause 4.22</xref>) is an additional <em>requirements class</em> (<xref target="term-requirements-class">Clause 4.22</xref>)
+<li id="_b3fc435f-6459-4904-a9ff-2f93102e1857" label="12"><p id="_a3c8125f-529f-8edf-d9db-00c289de0110">an <strong>extension</strong> of a <em>requirements class</em> (<xref target="term-requirements-class">Clause 4.22</xref>) is an additional <em>requirements class</em> (<xref target="term-requirements-class">Clause 4.22</xref>)
 (the extension) that adds additional <em>requirements</em> (<xref target="term-requirement">Clause 4.21</xref>) to the first
 <em>requirements class</em> (<xref target="term-requirements-class">Clause 4.22</xref>) (the <strong>base requirements class</strong> being extended). The
 extension is said to be dependent on the <strong>base</strong>. Any <em>conformance test class</em> (<xref target="term-conformance-test-class">Clause 4.6</xref>)

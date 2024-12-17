@@ -1,0 +1,9 @@
+[[req_ogc-compliance]]
+
+[requirement]
+====
+[%metadata]
+identifier:: /req/core/ogc-compliance
+part:: Any new OGC Standard or abstract specification SHALL comply with the requirements stated in this document.
+part:: Any major revision of an existing OGC Standard or abstract specification SHALL comply with the requirements stated in this document.
+====

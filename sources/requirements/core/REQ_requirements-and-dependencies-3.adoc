@@ -1,0 +1,9 @@
+[[req_requirements-and-dependencies-3]]
+
+[requirement]
+====
+[%metadata]
+identifier:: /req/core/requirements-and-dependencies-3
+part:: Every other requirements class in a standard SHALL a standardization target type which is a subtype of that of the core
+part:: And every requirement class SHALL have the core as a direct dependency.
+====

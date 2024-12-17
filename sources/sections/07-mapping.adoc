@@ -3,7 +3,7 @@
 
 === Semantics
 
-The previous section defines requirements for conformance to the ModSpec Hpwever,
+The previous section defines requirements for conformance to the ModSpec However,
 testing for that conformance may depend on how the various forms and parts of a
 conformant standard are viewed. Additional Parts to the ModSpec Standard specify how those views
 are to be defined. Standards that take an alternative
