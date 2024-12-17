@@ -11,7 +11,7 @@ The following requirement states that in OGC Standards development, the ModSpec 
 Any new OGC Standard, abstract specification that contains requirements, or major revision of an existing OGC Standard _SHALL_ comply with the requirements stated in the OGC ModSpec.
 |===
 
-Any OGC Standards document will specify the standardization goal.
+Any OGC Standards document must specify a standardization goal.
 
 [[req-02]]
 [requirement,model=ogc,type="general"]
@@ -19,4 +19,15 @@ Any OGC Standards document will specify the standardization goal.
 |===
 |*REQ002* | */req/policy/standardization-goal* +
 Any new OGC Standard, abstract specification that contains requirements, or major revision of an existing OGC Standard _SHALL_ clearly state the stanrdization goal for the standard or abstract specification. This statement _SHOULD_ be in the `Abstract` or `Scope` clauses of the standard.
+|===
+
+All OGC Standards documents must be written using an official OGC template
+
+[[req-03]]
+[requirement,model=ogc,type="general"]
+[width="90%",cols="2,6"]
+|===
+|*REQ003* | */req/policy/document-template* +
+^| A | All OGC Standards documents _SHALL_ be written using the OGC Member approved template 
+^| B | This template _SHALL_ be conformant with the requirements stated in the ModSpec
 |===
