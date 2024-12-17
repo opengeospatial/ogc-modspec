@@ -2621,6 +2621,17 @@ of normative reference in <xref target="cls-3"/>.</p><bibitem id="iso9075" type=
 <name>ISO/IEC</name>
       </organization>    </owner>  </copyright>  <relation type="obsoletes">    <bibitem type="standard">      <formattedref format="text/plain">ISO/IEC 13249-3:2003</formattedref>      <docidentifier type="ISO" primary="true">ISO/IEC 13249-3:2003</docidentifier>    </bibitem>
   </relation>  <relation type="updates">    <bibitem type="standard">      <formattedref format="text/plain">ISO/IEC 13249-3:2011</formattedref>      <docidentifier type="ISO" primary="true">ISO/IEC 13249-3:2011</docidentifier>      <date type="circulated">        <on>2011-04-07</on>      </date>    </bibitem>
+  </relation>  <place>Geneva</place></bibitem><bibitem id="iso19105_2022" type="standard" schema-version="v1.2.8">  <fetched>2024-12-17</fetched>  
+<title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
+  
+<title type="title-main" format="text/plain" language="en" script="Latn">Conformance and testing</title>
+  
+<title type="main" format="text/plain" language="en" script="Latn">Geographic information — Conformance and testing</title>
+  <uri type="src">https://www.iso.org/standard/76457.html</uri>  <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:76457:en</uri>  <uri type="rss">https://www.iso.org/contents/data/standard/07/64/76457.detail.rss</uri>  <docidentifier type="ISO" primary="true">ISO 19105:2022</docidentifier>  <docidentifier type="iso-reference">ISO 19105:2022(E)</docidentifier>  <docidentifier type="URN">urn:iso:std:iso:19105:stage-60.60</docidentifier>  <docnumber>19105</docnumber>  <date type="published">    <on>2022-07</on>  </date>  <contributor>    <role type="publisher"/>    <organization>      
+<name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>      <uri>www.iso.org</uri>    </organization>  </contributor>  <edition>2</edition>  <language>en</language>  <language>fr</language>  <script>Latn</script>  <abstract format="text/plain" language="en" script="Latn">This document specifies the framework, concepts and methodology for conformance testing and criteria to be achieved to claim conformance to the family of applicable standardization documents regarding geographic information and relevant application domains. This document provides a framework for specifying abstract test suites composed of abstract test cases grouped in conformance classes and for defining the procedures to be followed during conformance testing. Conformance can be claimed for data or software products or services or by specifications including any profile or functional standard. The structure of, and relationships between, conformance classes as defined in this document underly a systematic approach to configuration management involving managing dependencies within and between modules.</abstract>  <status>    <stage>60</stage>    <substage>60</substage>  </status>  <copyright>    <from>2022</from>    <owner>      <organization>        
+<name>ISO</name>
+      </organization>    </owner>  </copyright>  <relation type="obsoletes">    <bibitem type="standard">      <formattedref format="text/plain">ISO 19105:2000</formattedref>      <docidentifier type="ISO" primary="true">ISO 19105:2000</docidentifier>    </bibitem>
   </relation>  <place>Geneva</place></bibitem><bibitem id="w3c-xml-part1" type="standard" schema-version="v1.2.8">  <fetched>2024-11-21</fetched>  
 <title format="text/plain">W3C XML Schema Definition Language (XSD) 1.1 Part 1: Structures</title>
   <uri type="src">http://www.w3.org/TR/xmlschema11-1/</uri>  <docidentifier type="W3C" primary="true">W3C xmlschema11-1</docidentifier>  <docnumber>xmlschema11-1</docnumber>  <contributor>    <role type="publisher"/>    <organization>      
@@ -2654,6 +2665,7 @@ of normative reference in <xref target="cls-3"/>.</p><bibitem id="iso9075" type=
   </relation>  <series>    
 <title format="text/plain">W3C WD</title>
     <number>xmlschema11-2</number>  </series></bibitem>
+
 
 
 

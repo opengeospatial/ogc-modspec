@@ -1,0 +1,6 @@
+[[cls-2]]
+== Conformance
+
+Conformance to the ModSpec by technical implementation standards 
+can be tested by inspection. The ModSpec test suite is specified in annex-A of the ModSpec.
+

@@ -1,0 +1,22 @@
+[[modspec-policy]]
+== ModSpec Policy Requirements
+
+The following requirement states that in OGC Standards development, the ModSpec model will be used.
+
+[[req-01]]
+[requirement,model=ogc,type="general"]
+[width="90%",cols="2,6"]
+|===
+|*REQ001* | */req/policy/conformance-with-modspec* +
+Any new OGC Standard, abstract specification that contains requirements, or major revision of an existing OGC Standard _SHALL_ comply with the requirements stated in the OGC ModSpec.
+|===
+
+Any OGC Standards document will specify the standardization goal.
+
+[[req-02]]
+[requirement,model=ogc,type="general"]
+[width="90%",cols="2,6"]
+|===
+|*REQ002* | */req/policy/standardization-goal* +
+Any new OGC Standard, abstract specification that contains requirements, or major revision of an existing OGC Standard _SHALL_ clearly state the stanrdization goal for the standard or abstract specification. This statement _SHOULD_ be in the `Abstract` or `Scope` clauses of the standard.
+|===

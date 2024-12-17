@@ -20,9 +20,7 @@ These characteristics are slightly modified from the Open Group definitions to a
 
 === Standardization Context - Goals and Targets
 
-NOTE: Don't forget to add the requirements cited.
-
-Every OGC Standard document shall include a Standardization Goal (see requirement TBD). This is a concise statement of the problem that the Standard helps address and the strategy envisioned for achieving a solution.  This strategy typically identifies real-world entities that need to be modified or constrained.  At the abstract level, those entities are the Standardization Target Types.  These are the classes of entities to be standardized. A Standard defines the requirements levied on one or more Standardization Target Types. 
+Every standards document should include a Standardization Goal. This is a concise statement of the problem that the standard helps address and the strategy envisioned for achieving a solution.  This strategy typically identifies real-world entities that need to be modified or constrained.  At the abstract level, those entities are the Standardization Target Types.  These are the classes of entities to be standardized. A Standard defines the requirements levied on one or more Standardization Target Types. 
 
 Instances of a Standardization Target Type are the Standardization Targets.  These are the real-world manifestations of the Standardization Target Type.  In summary:
 
@@ -30,9 +28,9 @@ Instances of a Standardization Target Type are the Standardization Targets.  The
 * Standardization Target Type – An abstract representation of one of the actors or entities identified in the Standardization Goal
 * Standardization Target – an implementation of a Standardization Target Type. These are the real-world entities which can be tested for conformance with the requirements documented in the Standard.
 
-Standardization Target Types can be hierarchical.  The Conceptual, Logical, Physical hierarchy is one example where the Standardization Target Types are information models. Another example would be implementations of OGC API - Features Part 2 which support XML data exchange.
+Standardization Target Types can be hierarchical. The Conceptual, Logical, Physical hierarchy is one example where the Standardization Target Types are information models. Another example would be implementations of OGC API - Features Part 2 which support XML data exchange.
 
-Notice that the Standardization Targets and Standardization Target Types no longer form a simple taxonomy. The Standardization Target Types, Standardization Targets, and Standardization Goal provide a well-defined context for the standard.  This will help users of standards to quickly understand the scope of a Standard and to select those Standards appropriate for their needs. It also will help keep Standards developers focused on the intended use of their standards, avoiding standards which are overly broad and/or unfocused.
+Notice that the Standardization Targets and Standardization Target Types no longer form a simple taxonomy. The Standardization Target Types, Standardization Targets, and Standardization Goal provide a well-defined context for the standard.  This will help users of standards to quickly understand the scope of a standard and to select those standards appropriate for their needs. It also will help keep standards developers focused on the intended use of their standards, avoiding standards which are overly broad and/or unfocused.
 
 === Conformance, Requirements, and key information
 
@@ -84,7 +82,7 @@ single requirements class but included in others by reference to its "home"
 requirements class).
 
 In the ModSpec, each conformance requirement is separated in its own labeled
-paragraph, such as <<req-1>> above.
+paragraph, such as <<Requirement 1,req-1>> below.
 
 The distribution of the information in a standard is not restricted. The only
 requirement is that requirements be grouped in a manner
@@ -92,8 +90,9 @@ consistent with the conformance test classes, see <<req-6>> and <<req-7>>.
 
 === Documenting the Standard
 
-NOTE: For OGC Standards, the assumptions is that documents are in a commonly used
-logical form (template). 
+NOTE: OGC Standards are written using an OGC Member approved template that is conformant with the 
+requirements stated in the ModSpec
+ 
 
 This form should be specified by the following descriptions:
 

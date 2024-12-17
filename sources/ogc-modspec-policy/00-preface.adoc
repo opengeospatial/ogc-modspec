@@ -1,0 +1,42 @@
+[.preface]
+== Preface
+
+This OGC member Policy mandates the use if the ModSpec a model and related requirements and recommendations for writing and structuring modular OGC standards Further, this Policy mandates that every OGC Implementation Standard will provide an ABstract Test Suite (confomrance suite)  designed to enable the consistent and verifiable testing of implementations of an OGC Standard that claim conformance.
+
+The goal of this Policy is to ensure that a standard specifies requirements in a common and consistent manner and that these requirements are testable.
+
+Suggested additions, changes, and comments on this this document are welcome and
+encouraged. Such suggestions may be submitted through the OGC Change Request System
+(http://www.opengeospatial.org/standards/cr) or by creating an issue in the GitHub repository for this document (https://github.com/opengeospatial/ogc-modspec).
+
+[.preface]
+== Document terms and definitions
+
+This document uses the standard terms defined in Subclause 5.3 of [OGC 05-008], which
+is based on the ISO/IEC Directives, Part 2. Rules for the structure and drafting of
+International Standards. In particular, the word "shall" (not "must") is the
+imperative verb form used to indicate a requirement to be strictly followed to
+conform to this standard.
+
+[.preface]
+== Document editors
+
+The following OGC Members participated in editing this document:
+
+[%unnumbered]
+|===
+^h| Person ^h| Organization Represented
+| Carl Reed | Carl Reed & Associates
+|===
+
+[.preface]
+== Document Contributors
+
+The following OGC Members contributed and particpated in developing Version 2 of the ModSpec.
+
+[%unnumbered]
+|===
+^h| Person ^h| Organization Represented
+| Chuck Heazel | Heazeltech
+| Jeff Yutzler | ImageMatters
+|===

@@ -65,40 +65,39 @@ against a candidate {{standardization target}}.
 
 image::img02.png[]
 
-<<Figure 1,fig-C-1>> represents a UML model consistent with the model described
-in <<Clause 6.1,cls-6-1>> of this document. The following subclauses describe the classes shown in this UML
+<<fig-C-1,Figure 1>> represents a UML model consistent with the model described
+in <<cls-8-1,Clause 8>> of this document. The following subclauses describe the classes shown in this UML
 class diagram.
 
-=== Standard
+[[Standard]]
+[lutaml_uml_attributes_table,models/ogc-modspec.lutaml, Standard, skip]
 
-[lutaml_uml_attributes_table,models/ogc-modspec.lutaml, Specification, skip]
-
-=== Conformance Suite
+[[conformance-suite]]
+[lutaml_uml_attributes_table,models/ogc-modspec.lutaml, ConformanceSuite, skip]
 
 [[conformance-class]]
-=== Conformance Class
 [lutaml_uml_attributes_table,models/ogc-modspec.lutaml, ConformanceClass, skip]
 
-=== Requirements class
+[[requirements-class]]
 [lutaml_uml_attributes_table,models/ogc-modspec.lutaml, RequirementsClass, skip]
 
-=== Requirements module
+[[requirements-module]]
 [lutaml_uml_attributes_table,models/ogc-modspec.lutaml, RequirementsModule, skip]
 
-=== Normative Statement
+[[normative-statement]]
 [lutaml_uml_attributes_table,models/ogc-modspec.lutaml, NormativeStatement, skip]
 
-=== Requirement
+[[requirement]]
 [lutaml_uml_attributes_table,models/ogc-modspec.lutaml, Requirement, skip]
 
-=== Recommendation
+[[recommendation]]
 [lutaml_uml_attributes_table,models/ogc-modspec.lutaml, Recommendation, skip]
 
-=== Conformance test
+[[conformance-test]]
 [lutaml_uml_attributes_table,models/ogc-modspec.lutaml, ConformanceTest, skip]
 
-=== StandardizationTarget
+[[standardization-target]]
 [lutaml_uml_attributes_table,models/ogc-modspec.lutaml, StandardizationTarget, skip]
 
-=== StandardizationTargetType
+[[standardization-Target-Type]]
 [lutaml_uml_attributes_table,models/ogc-modspec.lutaml, StandardizationTargetType, skip]

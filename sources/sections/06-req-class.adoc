@@ -1,8 +1,10 @@
 [[cls-6]]
+[[cls-8-1]]
 == ModSpec Requirements Class: Core
 
 The following requirements specify the rules for the content and structure of a modular standard. These requirements are also known as the `core` of the ModSpec.
 
+NOTE: The following requirement is for OGC work only and will be moved to the OGC Policy statement regarding the use of the ModSpec. This move will happen once the policy is removed.
 [[req-0]]
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
@@ -10,6 +12,8 @@ The following requirements specify the rules for the content and structure of a 
 |*REQ000* | */req/core/ogc-compliance* +
 Any new OGC Standard, abstract specification that contains requirements, or major revision of an existing OGC Standard _SHALL_ comply with the requirements stated in this document.
 |===
+
+The following requirement states that every requirement is testable.
 
 [[req-1]]
 [requirement,model=ogc,type="general"]
