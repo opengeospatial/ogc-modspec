@@ -18,7 +18,7 @@ Any OGC Standards document must specify a standardization goal.
 [width="90%",cols="2,6"]
 |===
 |*REQ002* | */req/policy/standardization-goal* +
-Any new OGC Standard, abstract specification that contains requirements, or major revision of an existing OGC Standard _SHALL_ clearly state the stanrdization goal for the standard or abstract specification. This statement _SHOULD_ be in the `Abstract` or `Scope` clauses of the standard.
+Any new OGC Standard, abstract specification containing requirements, or major revision of an existing OGC Standard _SHALL_ clearly state the standardization goal for the standard or abstract specification. This statement _SHOULD_ be in the `Abstract` or `Scope` clauses of the standard.
 |===
 
 All OGC Standards documents must be written using an official OGC template
