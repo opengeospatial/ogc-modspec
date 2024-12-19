@@ -210,9 +210,8 @@ common alternative is to introduce a new "superclass".
 [width="90%",cols="2,6"]
 |===
 |*PER006* | */per/core/abstract-superclass* +
-The standard may introduce an abstract superclass of all affected standardization target types and
-use this for the requirements common to all of the affected target types. This is
-diagrammed in <<fig-6-1>>.
+The standard _MAY_ introduce an abstract superclass of all affected standardization target types and
+use this for the requirements common to all of the affected target types. This is diagrammed in <<fig-6-1>>.
 |===
 
 [[fig-6-1]]
@@ -236,7 +235,7 @@ Each standard document is comprised of a set of requirements and their associate
 [width="90%",cols="2,6"]
 |===
 |*REQ006* | */req/core/requirements-grouped* +
-Requirements SHALL be grouped together in clauses (numbered sections) of the
+Requirements _SHALL_ be grouped together in clauses (numbered sections) of the
 document in a strictly hierarchical manner, consistent with 
 requirements classes.
 |===
@@ -246,12 +245,11 @@ requirements classes.
 [width="90%",cols="2,6"]
 |===
 |*REQ007* | */req/core/requirements-test-suite-structure* +
-The requirements structure of the document SHALL be in a logical correspondence to
+The requirements structure of the document _SHALL_ be in a logical correspondence to
 the test suite structure.
 |===
 
-If two requirements are
-in the same requirments class, they should be tested in the same conformance
+If two requirements are in the same requirments class, they should be tested in the same conformance
 class in the conformance suite. Each requirement is separately identifiable
 either by a label as is done in the ModSpec.
 
@@ -284,7 +282,7 @@ requirements classes.
 [width="90%",cols="2,6"]
 |===
 |*REQ008* | */req/core/requirements-class-correspondence-to-conformance-classes* +
-The requirements classes shall be in a one-to-one correspondence to the conformance test classes, 
+The requirements classes _SHALL_ be in a one-to-one correspondence to the conformance test classes, 
 and thus to the various certificate of conformance types possible for a candidate implementation. 
 |===
 
@@ -300,7 +298,7 @@ Strict parallelism of implementation and governance is the essence of this stand
 [width="90%",cols="2,6"]
 |===
 |*REQ009* | */req/core/no-optional-tests* +
-A Conformance class SHALL not contain any optional conformance tests.
+A Conformance class _SHALL_ not contain any optional conformance tests.
 |===
 
 This requirement stops
@@ -315,7 +313,7 @@ recommendations.
 [width="90%",cols="2,6"]
 |===
 |*PER007* | */per/core/conf-class-paramterized* +
-A Conformance class may be parameterized.
+A Conformance class _MAY_ be parameterized.
 |===
 
 This means that the class's tests
@@ -338,7 +336,7 @@ the values of such parameters are very important.
 [width="90%",cols="2,6"]
 |===
 |*REQ010* | */req/core/all-parameters-expressed* +
-A certificate of conformance SHALL specify all parameter values used to pass the
+A certificate of conformance _SHALL_ specify all parameter values used to pass the
 tests in its conformance test class.
 |===
 
@@ -349,7 +347,7 @@ Conformance to a particular conformance class means exactly the same thing every
 [width="90%",cols="2,6"]
 |===
 |*REQ011* | */req/core/conf-class-single-req-class* +
-A Conformance class SHALL explicitly test only requirements from a single
+A Conformance class _SHALL_ explicitly test only requirements from a single
 requirements class.
 |===
 
@@ -363,7 +361,7 @@ but this is a result of an explicit requirement in the "home" requirements class
 [width="90%",cols="2,6"]
 |===
 |*REQ012* | */req/core/con-class-dependencies* +
-A Conformance class SHALL specify any other conformance class upon which it is
+A Conformance class _SHALL_ specify any other conformance class upon which it is
 dependent and that other conformance class shall be used to test the specified
 dependency.
 |===
@@ -442,7 +440,7 @@ both are related (as described) to the same set of requirements.
 ^| A | Each requirement in the standard _SHALL_ be contained in one and only one
 requirements class. 
 ^| B | Inclusion of any requirement in a requirements class by a
-conformance class _SHALL imply inclusion of all requirements in its class (as a
+conformance class _SHALL_ imply inclusion of all requirements in its class (as a
 dependency).
 |===
 
@@ -471,9 +469,9 @@ classes.
 |===
 ^|*REQ016* | */req/core/co-dependent-requirements* +
 ^| A | If any two requirements are co-dependent (each
-dependent on the other) then they shall be in the same requirements class. 
+dependent on the other) then they _SHALL_ be in the same requirements class. 
 ^| B | If any
-two requirements classes are co-dependent, they shall be merged into a single class.
+two requirements classes are co-dependent, they _SHALL_ be merged into a single class.
 |===
 
 Normally, circular dependencies between implementation components are signs of a
@@ -485,7 +483,7 @@ ownership for example).
 [width="90%",cols="2,6"]
 |===
 |*REC003* | */rec/core/circular-dependencies* +
-Circular dependencies of all types should be avoided whenever possible.
+Circular dependencies of all types _SHOULD_ be avoided whenever possible.
 |===
 
 [[req-17]]
@@ -500,8 +498,7 @@ extensions.
 
 [NOTE]
 ====
-The only certain manner to test this requirement maybe to create a reference
-implementation.
+The only certain manner to test this requirement maybe to create a reference implementation.
 ====
 
 This requirement is more important and may be more difficult than it seems. It
@@ -645,8 +642,7 @@ Features."
 A common mechanism to extend the functionality of a standard is to define
 extensions, which may be either local or encompass other standards. 
 
-*#Standards
-should use extensions as required and feasible, but should never hinder them.#*
+Standards should use extensions as required and feasible, but should never hinder them.
 
 [[req-23]]
 [requirement,model=ogc,type="general"]
@@ -710,8 +706,8 @@ data instances may use or not. However schema-aware processors claiming conforma
 to the standard should be able to handle all elements defined in the schema, whether
 they are required by the schema or not.
 
-*#Requirements of the form "if the implementation does this, it must do it this way"
-are considered to be options and should be in a separate requirements class.#*
+Requirements of the form "if the implementation does this, it must do it this way"
+are considered to be options and should be in a separate requirements class.
 
 [[cls-6-5-7]]
 ==== Requirements classes intersect overlap only by reference
