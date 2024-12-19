@@ -21,7 +21,7 @@ The following requirement states that every requirement is testable.
 |===
 |*REQ001* | */req/core/reqs-are-testable* +
 All the parts of a requirement, a requirements module, or requirements class _SHALL_ be
-testable. Failure to pass any part of any requirement shall be a failure to pass the
+testable. Failure to pass any part of any requirement _SHALL_ be a failure to pass the
 associated conformance test class.
 |===
 
@@ -39,7 +39,7 @@ failure to pass the requirement.
 Each component of the standard, including requirements, requirements modules,
 requirements classes, conformance test cases, conformance modules and conformance
 classes _SHALL_ be assigned a URI. 
-For OGC standards documents, these URIs SHALL be conformant with the https://www.ogc.org/about-ogc/policies/ogcna/[OGC Naming Authority policies].
+For OGC standards documents, these URIs _SHALL_ be conformant with the https://www.ogc.org/about-ogc/policies/ogcna/[OGC Naming Authority policies].
 |===
 
 NOTE: In the OGC, the enforcement of this requirement and its associated recommendation is the purview of
@@ -215,7 +215,7 @@ use this for the requirements common to all of the affected target types. This i
 
 [[fig-6-1]]
 .Abstract superclass example
-image::../../images/img01.png[]
+image::../images/img01.png[]
 
 [[example-6-1]]
 [example]
