@@ -182,8 +182,7 @@ standard _SHALL_ have the same standardization target.
 
 This means that all requirements are considered as targeting the same entity being
 tested for a particular certificate of conformance. The test may specify other types
-as intermediaries or indirect dependencies (see
-<<term-indirect-dependency-(of-a-requirements-class)>>).
+as intermediaries or indirect dependencies (see <<term-indirect-dependency-(of-a-requirements-class)>>).
 
 [[per-5]]
 [permission,model=ogc,type="general"]
@@ -216,7 +215,7 @@ use this for the requirements common to all of the affected target types. This i
 
 [[fig-6-1]]
 .Abstract superclass example
-image::img01.png[]
+image::../../images/img01.png[]
 
 [[example-6-1]]
 [example]
