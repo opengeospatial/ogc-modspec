@@ -16,7 +16,6 @@ Any new OGC Standard, abstract specification that contains requirements, or majo
 The following requirement states that every requirement is testable.
 
 [[req-1]]
-[requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
 |*REQ001* | */req/core/reqs-are-testable* +
