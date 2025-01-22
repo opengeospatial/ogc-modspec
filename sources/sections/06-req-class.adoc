@@ -1,4 +1,4 @@
-[[cls-6]]
+[[cls-8]]
 [[cls-8-1]]
 == ModSpec Requirements Class: Core
 
