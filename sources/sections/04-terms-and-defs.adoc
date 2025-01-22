@@ -9,7 +9,7 @@ Terms not defined here take their meaning from computer science or from their
 Standard English (common US and UK) meanings. The form of the definitions is
 defined by ISO Directives.
 
-Many of these definitions depend upon the model given in <<Annex C,annex-C>>.
+Many of these definitions depend upon the model given in <<annex-C,Annex C: ModSpec UML Model, Semantics, and Definitions>>.
 
 === building block
 
