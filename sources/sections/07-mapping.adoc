@@ -1,4 +1,4 @@
-[[cls-7]]
+[[cls-9]]
 == Mapping this standard to types of models
 
 === Semantics
