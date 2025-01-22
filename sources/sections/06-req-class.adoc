@@ -125,7 +125,7 @@ the title of a particular document or dataset will be specified in the requireme
 class in which the request-response pair is defined and set against requirements.
 ====
 
-[[cls-6-2]]
+[[cls-8-2]]
 ==== Using the model
 
 The primary difficulty in speaking about standards (or candidate
@@ -223,7 +223,7 @@ image::../images/img01.png[]
 
 ====
 
-[[cls-6-3]]
+[[cls-8-3]]
 ==== The "standards" document
 
 Each standard document is comprised of a set of requirements and their associated conformance tests.
@@ -255,7 +255,7 @@ In summary, the structure of the requirements and requirements classes of the mo
 should be reflected in the organization of the conformance tests and classes, and
 also in the structure of the normative clauses in the specification document.
 
-[[cls-6-4]]
+[[cls-8-4]]
 ==== Conformance Test Suite
 
 The requirements specified in this clause will be applied directly to the test suite, and in particular
@@ -526,7 +526,7 @@ of the original.
 In terms of generalization, subclassing, extension and restriction (into a new class
 or type) are all acceptable, redefinition (of an old class or type) is not.
 
-<<cls-6-3>> makes some pointed suggestion as to how to organize the conformance
+<<cls-8-3>> makes some pointed suggestion as to how to organize the conformance
 classes and normative clauses in parallel to make this requirement easier to verify.
 
 Most standards include examples, which are useful for illustrative or pedagogical
