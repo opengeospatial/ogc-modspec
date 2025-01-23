@@ -122,7 +122,7 @@ not requirements, but explain the consequence of requirements.
 The ModSpec defines a "requirement" of a standard as an atomic testable
 criterion. See the formal definition of requirement in <<term-requirement>>
 
-A UML representation of important properties of this model is given in <<annex-B-2>>.
+A UML representation of important properties of this model is given in <<annex-C-2,Annex C, Section 2>>.
 
 
 
