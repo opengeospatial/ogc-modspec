@@ -14,7 +14,7 @@ alternate mechanism.
 Standards are often structured about some form of modeling language, or
 implementation paradigm. Additional Parts to the ModSpec
 define a mechanism to map parts of the model (language, schema, etc.) to the
-conformance classes used as the model from <<Clause 6.1,cls-6-1>>.
+conformance classes used as the model from <<cls-6-1,Clause 6.1>>.
 
 As suggested in Clause <<req-22>>, the structure of the normative clauses in a
 standard should parallel the structure of the conformance test classes in
