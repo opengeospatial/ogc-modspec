@@ -57,7 +57,7 @@ standards, implementations of the conformance test suite, or certificates of
 conformance for implementations conformant to the standard in question.
 |===
 
-While a requirement may be referenced in more than one place in a standard, the normative definition of a requirement shall be its "*#home#*" (see <<cls-5-3>>) and
+While a requirement may be referenced in more than one place in a standard, the normative definition of a requirement shall be its "*#home#*" (see <<cls-6-3>>) and
 will be the only place where full normative language is used.
 
 The following permissions relate to possible content specified in the core of a standard.
@@ -405,7 +405,7 @@ standard conformant to the ModSpec, and if any imported requirement is
 "optional," then that requirement _SHALL_ be factored out as a separate requirements
 class in the profile of that imported standard used in the conformant standard.
 ^| B | Each such used requirements class _SHALL_ be a conformance class of the source
-standard or a combination of conformance classes of the source standard or standards.#
+standard or a combination of conformance classes of the source standard or standards.
 |===
 
 The tracking of the parallelism between requirements and tests should be easy if the
@@ -518,7 +518,7 @@ a "plug'n'play" fashion.
 ^|*REQ018* | */req/core/requirements-and-dependencies* +
 No requirements class _SHALL_ redefine the requirements of its dependencies, unless
 that redefinition is for an entity derived from but not contained in those
-dependencies.#
+dependencies.
 |===
 
 This means, for example, that a UML classifier cannot be redefined in a new
