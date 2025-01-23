@@ -86,7 +86,7 @@ paragraph, such as seen in <<Requirement 1,req-1>> below.
 
 The distribution of the information in a standard is not restricted. The only
 requirement is that requirements be grouped in a manner
-consistent with the conformance test classes, see <<req-6>> and <<req-7>>. 
+consistent with the conformance test classes, see <<Requirement 6,req-6>> and <<Requirement 7,req-7>>. 
 
 === Documenting the Standard
 
