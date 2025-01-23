@@ -121,6 +121,7 @@ requirements class.
 
 ==== Conformance class specifies all dependencies
 
+[[annex-2-1]]
 A Conformance class shall specify any other conformance class upon which it is
 dependent and that other conformance class shall be used to test the specified
 dependency.
