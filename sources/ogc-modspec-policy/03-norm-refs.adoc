@@ -1,0 +1,11 @@
+[[cls-3]]
+[bibliography]
+== Normative references
+
+// [.boilerplate]
+// === {blank}
+
+While the ModSpec references UML, SQL and XML, and their technical specifications,
+no requirements are derived from these documents. While this document
+may be applied to extensions of those standards, conformance to them is the purview
+of those standards, not the ModSpec.
