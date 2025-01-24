@@ -22,3 +22,13 @@
 include::sections/00-preface.adoc[]
 
 include::sections/clause-1-intro.adoc[]
+
+include::sections/clause-2-references.adoc[]
+
+include::sections/clause-3-terms.adoc[]
+
+include::sections/clause-4-change-log.adoc[]
+
+include::sections/clause-5-critical.adoc[]
+
+include::sections/clause-6-substantive.adoc[]
