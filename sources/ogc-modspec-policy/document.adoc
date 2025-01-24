@@ -1,4 +1,4 @@
-= The ModSpec Model OGC Policy
+= The ModSpec Model: OGC Policy
 :doctype: draft policy
 :docsubtype: policy
 :status: Draft
