@@ -22,17 +22,12 @@ There are numerous examples of requirements/conformance classes that can be used
 Reading the Terms and Definitions clause and Clause <<cls-4,Terms and Definitions>> will help understanding the content and
 requirements stated in this document.
 
-<<Annex C,annex-C>> defines the UML model upon which the ModSpec is
+<<annex-C,Annex C>> defines the UML model upon which the ModSpec is
 based. Annex C also contains informal and non-normative definitions ordered for ease
 of understanding. These two sections can be read first to aid in the understanding of
 the rest of the document.
 
-NOTE: For OGC Standards work, the word “standard” in the ModSpec applies to all OGC draft standards, approved standards, draft Abstract Specifications, and approved Abstract Specifications. The exceptions are OGC Abstract Specifications that originate in ISO or Community Standards that are developed external to the OGC and then submitted to the OGC.
-
 NOTE: Please note that the ModSpec has been approved by the OGC Membership as a policy directive for the development and revision of any OGC Standard or Abstract Specification that has requirements. However, the ModSpec is written to be non-OGC specific and can be used by any Standards Development Organization (SDO) as a formal guide for structuring a standards document.
-
-NOTE: In informative sections, the word "will" implies that something is an implication of a requirement. The "will" statements are
-not requirements, but explain the consequence of requirements.
 
 === ModSpec document structure
 
