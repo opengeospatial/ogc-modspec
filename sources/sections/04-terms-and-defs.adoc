@@ -336,3 +336,7 @@ NOTE: Includes all statements in a document not part of the normative
 
 [.source]
 <<iso-dp2>>
+
+=== will
+In informative sections, the word "will" implies that something is an implication of a requirement. The "will" statements are
+not requirements, but explain the consequence of requirements.
