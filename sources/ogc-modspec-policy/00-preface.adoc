@@ -1,7 +1,7 @@
 [.preface]
 == Abstract
 
-This OGC ModSpec Policy specifies requirements and guidance for using the OGC ModSpec Standard as the formal structure for all OGC standards documents. This OGC member Policy mandates using the ModSpec model and related requirements and recommendations for writing and structuring modular OGC standards Further, this Policy mandates that every OGC Implementation Standard will provide an Abstract Test Suite (conformance suite)  designed to enable the consistent and verifiable testing of implementations of an OGC Standard that claim conformance.
+This OGC ModSpec Policy specifies requirements and guidance for using the OGC ModSpec Standard as the formal structure for all OGC standards documents. This OGC member Policy mandates using the ModSpec model and related requirements and recommendations for writing and structuring modular OGC standards. Further, this Policy mandates that every OGC Implementation Standard will provide an Abstract Test Suite (conformance suite)  designed to enable the consistent and verifiable testing of implementations of an OGC Standard that claim conformance.
 
 For OGC Standards work, the word “standard” in the ModSpec applies to all OGC draft standards, approved standards, draft Abstract Specifications, and approved Abstract Specifications. The exceptions are OGC Abstract Specifications that originate in ISO or Community Standards that are developed external to the OGC and then submitted to the OGC.
 
