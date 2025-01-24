@@ -26,4 +26,8 @@ include::01-scope.adoc[]
 
 include::02-conformance.adoc[]
 
+include::03-norm-refs-adoc[]
+
+include::04-terms-and-defs.adoc[]
+
 include::06-policy.adoc[]
