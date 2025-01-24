@@ -34,10 +34,10 @@ All OGC Standards documents must be written using an official OGC template
 
 All OGC Implementation Standards mustl have an Abstract Test Suite. Please note that in the ModSpec, the correct terminology is Conformance Test Suite. However, to be consistent with OGC usage over the last 15 years and to be consistent with the template, the term used is Abstract Test Suite.
 
-[[req-03]]
+[[req-04]]
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ003* | */req/policy/document-template* +
+|*REQ004* | */req/policy/document-ats* +
 ^| A | All OGC Implementation Standards documents _SHALL_ have an Abstract Test Suite (Conformance Test Suite) 
 |===
