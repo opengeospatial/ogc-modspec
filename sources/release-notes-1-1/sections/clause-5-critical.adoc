@@ -1,7 +1,26 @@
 [[Clause_Critical]]
 == Description of critical changes
 
-=== <short name for the change>
+There are three (3) critical changes in the ModSpec: Core Standard. None of these chnages affect backwards compatibility.
 
-There is one critical change the ModSpec version 1.1
+=== ModSpec 1.1 is not OGC Policy. 
+
+The decision was made to not have the OGC ModSpec: Core as an OGC Policy Document. The reason is that the ModSpec should be useable by and Standards organization and not just the OGC. Instead:
+
+- The ModSpec document itself is now an OGC Standard.
+- A separate document titled, https://portal.ogc.org/files/?artifact_id=110275&version=1[The ModSpec Model: OGC Policy] was developed. This Policy will be reviewed, discussed, and approved as an OGC Policy document
+
+The impact was to modify the ModSpec 1.1 document to remove all references to the ModSpec being a Policy document. Most of the time the word `Policy` was changed to `Standard` or `standard`.
+
+=== ModSpec 1.1: Core and Parts
+
+To be consistent with itself, the ModSpec was restructured into a core and two Parts:
+
+- Core: contains all the core requirements and informational text that define the model and internal structure of a standard.
+- Part 1: UML Model requirements 
+- Part 2: XML and Schematron Model requirements 
+
+This is GitHub issue 36.
+
+
 
