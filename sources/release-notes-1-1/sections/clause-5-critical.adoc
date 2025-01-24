@@ -12,6 +12,8 @@ The decision was made to not have the OGC ModSpec: Core as an OGC Policy Documen
 
 The impact was to modify the ModSpec 1.1 document to remove all references to the ModSpec being a Policy document. Most of the time the word `Policy` was changed to `Standard` or `standard`.
 
+This is GitHub issue 9 and 37.
+
 === ModSpec 1.1: Core and Parts
 
 To be consistent with itself, the ModSpec was restructured into a core and two Parts:
