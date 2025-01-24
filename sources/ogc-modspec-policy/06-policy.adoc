@@ -1,6 +1,8 @@
 [[modspec-policy]]
 == ModSpec Policy Requirements
 
+This Clause states requirements for the use of the ModSpec in OGC Standards development work and in OGC Standards documents.
+
 The following states that for any OGC Standards development, the ModSpec model will be used.
 
 [[req-01]]
@@ -32,7 +34,7 @@ All OGC Standards documents must be written using an official OGC template
 ^| B | This template _SHALL_ be conformant with the requirements stated in the ModSpec
 |===
 
-All OGC Implementation Standards mustl have an Abstract Test Suite. Please note that in the ModSpec, the correct terminology is Conformance Test Suite. However, to be consistent with OGC usage over the last 15 years and to be consistent with the template, the term used is Abstract Test Suite.
+All OGC Implementation Standards must have an Abstract Test Suite. Please note that in the ModSpec, the correct terminology is Conformance Test Suite. However, to be consistent with OGC usage over the last 15 years and to be consistent with the template, the term used is Abstract Test Suite.
 
 [[req-04]]
 [requirement,model=ogc,type="general"]
