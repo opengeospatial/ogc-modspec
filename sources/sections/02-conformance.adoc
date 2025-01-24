@@ -4,11 +4,11 @@
 Conformance to the ModSpec by technical implementation standards 
 can be tested by inspection. The test suite is in <<annex-A>>.
 
-The ModSpec core has one conformance class:
+The core of the ModSpec (this document) has one requirements class and one related conformance class:
 
 . The Core: Common requirements for specifying standards documents. See <<cls-8>> and <<annex-A-1>>
 
-This document contains normative language and thus places requirements on
+The ModSpec contains normative language and thus places requirements on
 conformance, or mechanism for adoption, of candidate standards to which the ModSpec
 applies. In particular:
 
