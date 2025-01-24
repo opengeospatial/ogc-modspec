@@ -24,14 +24,3 @@ the requirements classes should follow the logical mechanism described in Part 1
 Part 2 of the ModSpec defines the requirements for using XML. The XML related requirements classes 
 cover any standard which has as one of its purposes the introduction of a new XML schema. 
 Such a standard would normally define the schema, all of its components, and its intended uses.
-
-[.preface]
-== Document editors
-
-The following OGC Members participated in editing this document:
-
-[%unnumbered]
-|===
-^h| Person ^h| Organization Represented
-| Carl Reed | Carl Reed & Associates
-|===
