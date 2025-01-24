@@ -7,10 +7,6 @@ For OGC Standards work, the word “standard” in the ModSpec applies to all OG
 
 The goal of this Policy is to ensure that a standard specifies requirements in a common and consistent manner and that these requirements are testable.
 
-Suggested additions, changes, and comments on this this document are welcome and
-encouraged. Such suggestions may be submitted through the OGC Change Request System
-(http://www.opengeospatial.org/standards/cr) or by creating an issue in the GitHub repository for this document (https://github.com/opengeospatial/ogc-modspec).
-
 [.preface]
 == Document editors
 
