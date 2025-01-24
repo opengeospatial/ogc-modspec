@@ -1,0 +1,24 @@
+= The ModSpec Model Version 1.1 Release Notes
+:doctype: draft release notes
+:docsubtype: notes
+:status: Draft
+:committee: technical
+:docnumber: 25-002
+:edition: 1.1.0
+:received-date: 2025-01-30
+:issued-date: 2025-xx-xx
+:published-date: 2025-xx-xx
+:copyright-year: 2025
+:fullname: Carl Reed
+:role: editor
+:language: en
+:submitting-organizations: Carl Reed
+:imagesdir: images
+:mn-document-class: ogc
+:mn-output-extensions: xml,html,doc,pdf,rxl
+:local-cache-only:
+:data-uri-image:
+
+include::sections/00-preface.adoc[]
+
+include::sections/00-foreword.adoc[]
