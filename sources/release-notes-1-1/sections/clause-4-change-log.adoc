@@ -46,5 +46,9 @@ See <<Clause_Critical>> for more information on critical changes and
 | Other | NA  | A | Scope 1.0 | Rewrote Scope | Clarity and shorten document
 | Other | NA  | A | New Clause 1.0 | Add Clause `Understanding the ModSpec` | Provide guidance to reader 
 | Other | NA  | A | New Clause 1.0 | Add Clause `ModSpec document structure` | Provide guidance to reader
-| GitHub| 12  | A | Preface | Rewrote Introduction | Clarity and shorten
+| GitHub| 13  | A | Introduction | Rewrote Introduction | Clarity and shorten
+| GitHub| 8, 12, 13  | A | Conformance | Rewrote and modified | Clarity, shorten and be consistent with Git issues 8, 12, and 13
+| Other | NA  | A | References | Updated dates | Provide references to most recent versions of each of thereferenced standards.
+| GitHub| 34  | A | Terms & Defs | Added `permission` | Was a note but should be a separate T&D
+| Other| NA  | A | Terms & Defs | Added `will` | Defined in old ModSpec body but should be a separate T&D
 |=======================================================================
