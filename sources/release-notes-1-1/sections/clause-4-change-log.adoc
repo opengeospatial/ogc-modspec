@@ -37,5 +37,5 @@ See <<Clause_Critical>> for more information on critical changes and
 [cols="1a,1a,1a,2a,6a,2a",options="header"]
 |=======================================================================
 |Source      |Identifier     |Type                 |Section |Description |Purpose
-| | | | | |
+| Other | NA  | A | Scope | Remove Conformance, Requirements, and key information | Duplicate other content. Shorten document
 |=======================================================================
