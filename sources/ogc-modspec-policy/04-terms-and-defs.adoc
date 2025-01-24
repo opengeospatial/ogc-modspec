@@ -1,0 +1,7 @@
+[[cls-4]]
+== Terms and definitions
+
+[.boilerplate]
+=== {blank}
+
+For the puposes of this OGC ModSpec Policy document, all of the terms and definitions in the ModSpec Core document apply to this Policy document.
