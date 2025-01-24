@@ -37,5 +37,14 @@ See <<Clause_Critical>> for more information on critical changes and
 [cols="1a,1a,1a,2a,6a,2a",options="header"]
 |=======================================================================
 |Source      |Identifier     |Type                 |Section |Description |Purpose
-| Other | NA  | A | Scope | Remove Conformance, Requirements, and key information | Duplicate other content. Shorten document
+| Other | NA  | A | Metanorma | Put document into Metanorma compatible AsciiDoc | Consistency for publication 
+| Other | NA  | A | Requirements list | Removed from table of contents | Shorten document.
+| Other | NA  | A | ATS list of classes | Removed from table of contents | Shorten document.
+| Other | NA  | A | All sections | Added bookmarks and anchors | SEase of navigation.
+| GitHub| 8  | A | Preface | Rewrote Preface  | Clarity and shorten document
+| GitHub| 12 | A | Preface | Rewrote Foreward | Clarity and shorten document
+| Other | NA  | A | Scope 1.0 | Rewrote Scope | Clarity and shorten document
+| Other | NA  | A | New Clause 1.0 | Add Clause `Understanding the ModSpec` | Provide guidance to reader 
+| Other | NA  | A | New Clause 1.0 | Add Clause `ModSpec document structure` | Provide guidance to reader
+| GitHub| 12  | A | Preface | Rewrote Introduction | Clarity and shorten
 |=======================================================================
