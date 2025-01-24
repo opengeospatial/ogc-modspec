@@ -1,0 +1,4 @@
+[bibliography]
+== References
+
+There are no new normative documents or updated references in the standard to which these Release Notes apply.
