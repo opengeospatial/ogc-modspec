@@ -7,6 +7,8 @@ For OGC Standards work, the word “standard” in the ModSpec applies to all OG
 
 The goal of this Policy is to ensure that a standard specifies requirements in a common and consistent manner and that these requirements are testable.
 
+NOTE: For the purposes of this OGC ModSpec Policy document, all the terms and definitions in the ModSpec Core document apply to this Policy document.
+
 [.preface]
 == Document editors
 
