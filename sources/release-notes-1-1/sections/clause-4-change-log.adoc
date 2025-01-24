@@ -40,7 +40,8 @@ See <<Clause_Critical>> for more information on critical changes and
 | Other | NA  | A | Metanorma | Put document into Metanorma compatible AsciiDoc | Consistency for publication 
 | Other | NA  | A | Requirements list | Removed from table of contents | Shorten document.
 | Other | NA  | A | ATS list of classes | Removed from table of contents | Shorten document.
-| Other | NA  | A | All sections | Added bookmarks and anchors | SEase of navigation.
+| Other | NA  | A | All sections | Use ModSpec as name | Backwards use, easy to use and say.
+| GitHub| 38  | A | All sections | Added bookmarks and anchors | Ease of navigation.
 | GitHub| 8  | A | Preface | Rewrote Preface  | Clarity and shorten document
 | GitHub| 12 | A | Preface | Rewrote Foreward | Clarity and shorten document
 | Other | NA  | A | Scope 1.0 | Rewrote Scope | Clarity and shorten document
@@ -51,4 +52,10 @@ See <<Clause_Critical>> for more information on critical changes and
 | Other | NA  | A | References | Updated dates | Provide references to most recent versions of each of thereferenced standards.
 | GitHub| 34  | A | Terms & Defs | Added `permission` | Was a note but should be a separate T&D
 | Other| NA  | A | Terms & Defs | Added `will` | Defined in old ModSpec body but should be a separate T&D
+| Other| NA  | A | Terms & Defs | Removed notes as appropriate | Removed Note from Abstract Model, Profile, and Standard. Not needed
+| Other | NA  | A | Conventions | 6.2. Identifiers | Updated for 1.1
+| Other | NA  | A | Conventions | 6.3. Abbreviated terms | Removed abbreviations not used in core.
+| GitHub| 16 | A | Conventions | Rewrote 6.4. Finding requirements and recommendations | Clarity and shorten document. Some content moved to new Fundamentals clause
+| GitHub| 14, 33, 45 | A | Fundamentals | Add new Clause 7 Fundamentals | Some content moved from original ModSpec, new content based on Git Issues for more info on some topics
+| GitHub| 45  | A | Fundamentals | Add description of concept Building Block | Clarity and required for OGC wide usage and Common understanding.
 |=======================================================================
