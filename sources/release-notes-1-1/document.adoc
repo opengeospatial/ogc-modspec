@@ -21,4 +21,4 @@
 
 include::sections/00-preface.adoc[]
 
-include::sections/00-foreword.adoc[]
+include::sections/clause-1-intro.adoc[]
