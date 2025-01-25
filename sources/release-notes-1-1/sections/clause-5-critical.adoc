@@ -24,5 +24,6 @@ To be consistent with itself, the ModSpec was restructured into a core and two P
 
 This is GitHub issue 36.
 
+=== ModSpec Permissions and Recommendations clearly identified
 
-
+This is GitHub issue 36.
