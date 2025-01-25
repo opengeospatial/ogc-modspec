@@ -1,7 +1,7 @@
 [[Clause_Critical]]
 == Description of critical changes
 
-There are three (3) critical changes in the ModSpec: Core Standard. None of these chnages affect backwards compatibility.
+There are four (3) critical changes in the ModSpec: Core Standard. None of these chnages affect backwards compatibility.
 
 === ModSpec 1.1 is not OGC Policy. 
 
@@ -26,4 +26,9 @@ This is GitHub issue 36.
 
 === ModSpec Permissions and Recommendations clearly identified
 
+In the ModSpec version 1.0, permissions and recommendations were embedded in the general text and were not specifically highlighted. Further. the concept permission was not defined. In the ModSpec version 1.1, the concept `permission` is defined. Further, all permissions and recommendation are extracted from the general text and placed in tablesas per the Metanorma template. Further, all permissions and recommendations are bookmarked for easier navigation.
+
 This is GitHub issue 34.
+
+=== Clarification and consistent use of `specification` and `standard`
+
