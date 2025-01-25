@@ -50,6 +50,7 @@ See <<Clause_Critical>> for more information on critical changes and
 | GitHub| 13  | A | Introduction | Rewrote Introduction | Clarity and shorten
 | GitHub| 8, 12, 13  | A | Conformance | Rewrote and modified | Clarity, shorten and be consistent with Git issues 8, 12, and 13
 | Other | NA  | A | References | Updated dates | Provide references to most recent versions of each of thereferenced standards.
+| GitHub| 45  | A | Terms & Defs | Added `building block` | Needed concept `building block` definition for OGC wide use.
 | GitHub| 34  | A | Terms & Defs | Added `permission` | Was a note but should be a separate T&D
 | Other| NA  | A | Terms & Defs | Added `will` | Defined in old ModSpec body but should be a separate T&D
 | Other| NA  | A | Terms & Defs | Removed notes as appropriate | Removed Note from Abstract Model, Profile, and Standard. Not needed
@@ -59,5 +60,6 @@ See <<Clause_Critical>> for more information on critical changes and
 | GitHub| 14, 33, 45 | A | Fundamentals | Add new Clause 7 Fundamentals | Some content moved from original ModSpec, new content based on Git Issues for more info on some topics
 | GitHub| 45  | A | Fundamentals | Add description of concept Building Block | Clarity and required for OGC wide usage and Common understanding.
 | GitHub| 14, 33  | A | Fundamentals | Add 7.2.  Standardization Context — Goals and Targets | Clarity and required for OGC wide usage and Common understanding.
+| GitHub| 14, 33  | A | Fundamentals | Added concept of a `standardization goal` | Need this requirement so every standard tells the reader what the goal or aim of the standard is.
 | Other | NA  | A | Fundamentals | 7.3. Conformance, Requirements, and key information  | Moved content from just after Requirement 2, ModSpec version 1 to new location.
 |=======================================================================
