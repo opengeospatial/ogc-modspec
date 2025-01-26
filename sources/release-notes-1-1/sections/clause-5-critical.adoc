@@ -44,4 +44,5 @@ There were two maun issues with this statement:
 In Version 1.1 of the ModSpec, by no longer referring to the ModSpec as a Policy, we can instead refer to the ModSpec as Standard for writing modular standards. Further, we can reference documents that will become standards as standards or draft standard. Finally, the ModSpec document itself is refered to as the ModSpec and not a policy or standard.
 
 This change, applied to the entire document, removes the ambiguity. The change was applied consistently throughout Version 1.1. 
-- 
+
+This is GitHub issue 10.
