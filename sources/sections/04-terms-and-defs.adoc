@@ -210,7 +210,7 @@ profiles necessary to accomplish a particular function.
 
 [NOTE]
 ====
-In the usage of this Policy, a profile will be a set of requirements classes
+In the usage of the ModSpec, a profile will be a set of requirements classes
 or conformance classes (either preexisting or locally defined) of the base
 standards.
 
