@@ -3,7 +3,7 @@
 
 There are five (5) critical changes in the ModSpec: Core Standard. None of these chnages affect backwards compatibility.
 
-=== Critcal Change 1: ModSpec 1.1 is not OGC Policy. 
+=== Critical Change 1: ModSpec 1.1 is not OGC Policy. 
 
 The decision was made to not have the OGC ModSpec: Core document itself as an OGC Policy Document. The reason is that the ModSpec should be useable by and Standards organization and not just the OGC. Instead:
 
