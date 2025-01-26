@@ -60,8 +60,8 @@ See <<Clause_Critical>> for more information on critical changes and
 | GitHub| 16 | A | Conventions | Rewrote 6.4. Finding requirements and recommendations | Clarity and shorten document. Some content moved to new Fundamentals clause
 | GitHub| 14, 33, 45 | A | Fundamentals | Add new Clause 7 Fundamentals | Some content moved from original ModSpec, new content based on Git Issues for more info on some topics
 | GitHub| 45  | A | Fundamentals | Add description of concept Building Block | Clarity and required for OGC wide usage and Common understanding.
-| GitHub| 14, 33, 44  | A | Fundamentals | Add 7.2.  Standardization Context — Goals and Targets | Clarity and required for OGC wide usage and Common understanding.
-| GitHub| 14, 33  | A | Fundamentals | Added concept of a `standardization goal` | Need this requirement so every standard tells the reader what the goal or aim of the standard is.
+| GitHub| 14, 33, 44  | A | Add 7.2. to Fundamentals Standardization Context — Goals and Targets | required for OGC wide usage and Common understanding. | Clarity and consistency
+| GitHub| 14, 33  | A | 7.0 Fundamentals Added concept of a `standardization goal`|  Need this requirement so every standard tells the reader what the goal or aim of the standard is. | Clarity and readability
 | Other | NA  | A | 7.3. Conformance, Requirements, and key information | Moved content from just after Requirement 2, ModSpec version 1 to new location  | Clarity
 | Other | NA  | A | 8.1. Using the model | Removed confusing paragraphs after Figure 1 - no impact. | Clarity
 | GitHub | 32 | A | 8.2.  The “standards” document | Removed confusing paragraphs after Req 7 and before Clause 8.3 | Clarity and shorten document.
