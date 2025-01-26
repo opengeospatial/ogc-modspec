@@ -2,7 +2,7 @@
 <ogc-standard xmlns="https://www.metanorma.org/ns/ogc" type="semantic" version="2.5.7" schema-version="v1.3.1">
 <bibdata type="standard">
 <title language="en" format="text/plain">The ModSpec Model - A Standard for Designing and Writing Modular Standards</title>
-<docidentifier type="ogc-internal" primary="true">08-131r3</docidentifier><docnumber>08-131r3</docnumber><date type="published"><on>2025-xx-xx</on></date><date type="issued"><on>2025-xx-xx</on></date><date type="received"><on>2024-12-10</on></date><contributor><role type="author"/><organization>
+<docidentifier type="ogc-internal" primary="true">08-131r3</docidentifier><docnumber>08-131r3</docnumber><date type="published"><on>2025-xx-xx</on></date><date type="issued"><on>2025-xx-xx</on></date><date type="received"><on>2024-12-25</on></date><contributor><role type="author"/><organization>
 <name>Carl Reed, Charles Heazel, ImageMatters</name>
 </organization></contributor><contributor><role type="editor"/><person>
 <name><completename>Carl Reed</completename></name>
@@ -14,7 +14,7 @@
 <name>Open Geospatial Consortium</name>
 <abbreviation>OGC</abbreviation></organization></contributor><edition>1.1.0</edition><language>en</language><script>Latn</script><status><stage>Draft</stage></status><copyright><from>2024</from><owner><organization>
 <name>Open Geospatial Consortium</name>
-<abbreviation>OGC</abbreviation></organization></owner></copyright><ext><doctype>draft-standard</doctype><subdoctype>logical-model</subdoctype><editorialgroup><committee>technical</committee></editorialgroup></ext></bibdata><metanorma-extension><table id="_misccontainer_anchor_aliases"><tbody><tr><th>req_standardization-goal</th><td>/req/core/standardization-goal</td></tr><tr><th>req_standardization-target-type</th><td>/req/core/standardization-target-type</td></tr><tr><th>req_ogc-compliance</th><td>/req/core/ogc-compliance</td></tr><tr><th>req_reqs-are-testable</th><td>/req/core/reqs-are-testable</td></tr><tr><th>req_all-components-assigned-uri</th><td>/req/core/all-components-assigned-uri</td></tr><tr><th>req_vocabulary-and-parent-req-class</th><td>/req/core/vocabulary-and-parent-req-class</td></tr><tr><th>req_single-standardization-target</th><td>/req/core/single-standardization-target</td></tr><tr><th>req_test-class-single-standardization-target</th><td>/req/core/test-class-single-standardization-target</td></tr><tr><th>req_requirements-grouped</th><td>/req/core/requirements-grouped</td></tr><tr><th>req_requirements-test-suite-structure</th><td>/req/core/requirements-test-suite-structure</td></tr><tr><th>req_requirements-class-correspondence-to-conformance-classes</th><td>/req/core/requirements-class-correspondence-to-conformance-classes</td></tr><tr><th>req_no-optional-tests</th><td>/req/core/no-optional-tests</td></tr><tr><th>req_all-parameters-expressed</th><td>/req/core/all-parameters-expressed</td></tr><tr><th>req_conf-class-single-req-class</th><td>/req/core/conf-class-single-req-class</td></tr><tr><th>req_con-class-dependencies</th><td>/req/core/con-class-dependencies</td></tr><tr><th>req_imported-requirements-class</th><td>/req/core/imported-requirements-class</td></tr><tr><th>req_all-classes-explicitly-named</th><td>/req/core/all-classes-explicitly-named</td></tr><tr><th>req_req-in-only-one-req-class</th><td>/req/core/req-in-only-one-req-class</td></tr><tr><th>req_co-dependent-requirements</th><td>/req/core/co-dependent-requirements</td></tr><tr><th>req_structure-requirements-classes</th><td>/req/core/structure-requirements-classes</td></tr><tr><th>req_requirements-and-dependencies</th><td>/req/core/requirements-and-dependencies</td></tr><tr><th>req_profile-conformance</th><td>/req/core/profile-conformance</td></tr><tr><th>req_core-requirements-separate</th><td>/req/core/core-requirements-separate</td></tr><tr><th>req_requirements-and-dependencies-2</th><td>/req/core/requirements-and-dependencies-2</td></tr><tr><th>req_requirements-and-dependencies-3</th><td>/req/core/requirements-and-dependencies-3</td></tr><tr><th>req_core-and-extensions</th><td>/req/core/core-and-extensions</td></tr><tr><th>req_extensions-conformant-to-the-modspec</th><td>/req/core/extensions-conformant-to-the-modspec</td></tr><tr><th>req_restriction-of-extensions</th><td>/req/core/restriction-of-extensions</td></tr><tr><th>req_optional-requirements</th><td>/req/core/optional-requirements</td></tr><tr><th>req_req-class-overlap-by-reference</th><td>/req/core/req-class-overlap-by-reference</td></tr></tbody></table><presentation-metadata><name>TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>HTML TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>DOC TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>PDF TOC Heading Levels</name><value>2</value></presentation-metadata></metanorma-extension>
+<abbreviation>OGC</abbreviation></organization></owner></copyright><ext><doctype>draft-standard</doctype><subdoctype>logical-model</subdoctype><editorialgroup><committee>technical</committee></editorialgroup></ext></bibdata><metanorma-extension><table id="_misccontainer_anchor_aliases"><tbody><tr><th>req_standardization-goal</th><td>/req/core/standardization-goal</td></tr><tr><th>req_standardization-target-type</th><td>/req/core/standardization-target-type</td></tr><tr><th>req_reqs-are-testable</th><td>/req/core/reqs-are-testable</td></tr><tr><th>req_all-components-assigned-uri</th><td>/req/core/all-components-assigned-uri</td></tr><tr><th>req_vocabulary-and-parent-req-class</th><td>/req/core/vocabulary-and-parent-req-class</td></tr><tr><th>req_single-standardization-target</th><td>/req/core/single-standardization-target</td></tr><tr><th>req_test-class-single-standardization-target</th><td>/req/core/test-class-single-standardization-target</td></tr><tr><th>req_requirements-grouped</th><td>/req/core/requirements-grouped</td></tr><tr><th>req_requirements-test-suite-structure</th><td>/req/core/requirements-test-suite-structure</td></tr><tr><th>req_requirements-class-correspondence-to-conformance-classes</th><td>/req/core/requirements-class-correspondence-to-conformance-classes</td></tr><tr><th>req_no-optional-tests</th><td>/req/core/no-optional-tests</td></tr><tr><th>req_all-parameters-expressed</th><td>/req/core/all-parameters-expressed</td></tr><tr><th>req_conf-class-single-req-class</th><td>/req/core/conf-class-single-req-class</td></tr><tr><th>req_con-class-dependencies</th><td>/req/core/con-class-dependencies</td></tr><tr><th>req_imported-requirements-class</th><td>/req/core/imported-requirements-class</td></tr><tr><th>req_all-classes-explicitly-named</th><td>/req/core/all-classes-explicitly-named</td></tr><tr><th>req_req-in-only-one-req-class</th><td>/req/core/req-in-only-one-req-class</td></tr><tr><th>req_co-dependent-requirements</th><td>/req/core/co-dependent-requirements</td></tr><tr><th>req_structure-requirements-classes</th><td>/req/core/structure-requirements-classes</td></tr><tr><th>req_requirements-and-dependencies</th><td>/req/core/requirements-and-dependencies</td></tr><tr><th>req_profile-conformance</th><td>/req/core/profile-conformance</td></tr><tr><th>req_core-requirements-separate</th><td>/req/core/core-requirements-separate</td></tr><tr><th>req_requirements-and-dependencies-2</th><td>/req/core/requirements-and-dependencies-2</td></tr><tr><th>req_requirements-and-dependencies-3</th><td>/req/core/requirements-and-dependencies-3</td></tr><tr><th>req_core-and-extensions</th><td>/req/core/core-and-extensions</td></tr><tr><th>req_extensions-conformant-to-the-modspec</th><td>/req/core/extensions-conformant-to-the-modspec</td></tr><tr><th>req_restriction-of-extensions</th><td>/req/core/restriction-of-extensions</td></tr><tr><th>req_optional-requirements</th><td>/req/core/optional-requirements</td></tr><tr><th>req_req-class-overlap-by-reference</th><td>/req/core/req-class-overlap-by-reference</td></tr></tbody></table><presentation-metadata><name>TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>HTML TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>DOC TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>PDF TOC Heading Levels</name><value>2</value></presentation-metadata></metanorma-extension>
 <boilerplate><copyright-statement>
 
 <clause id="_copyright_notice" obligation="normative">
@@ -114,7 +114,7 @@ conform to the ModSpec.</p>
 </ul>
 </clause><clause id="_foreword" obligation="informative">
 <title>Foreword</title>
-<p id="_5127019d-9703-94b2-2151-d392c6830cc0">The OGC ModSpec — A Standard for Designing and Writing Modular Standards specifies a formal structure and requirements for writing modular standards documents. However, the ModSpec does not supply specific content. Where possible, this document is conformant with itself (with respect to the core conformance test class, <xref target="cls-6"/>
+<p id="_203046d1-ee1b-1395-49e1-6fcd57df31f9">The OGC ModSpec — A Standard for Designing and Writing Modular Standards specifies a formal structure and requirements for writing modular standards documents. However, the ModSpec does not supply specific content. Where possible, this document is conformant with itself (with respect to the core requirements class and the conformance test class, <xref target="cls-8"/>
 and the Conformance Test Suite <xref target="annex-A-1"/>).</p>
 
 <p id="_b4b7638f-29e0-ddff-c03d-b0acc2b0e6b8"><em>Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. The Open Geospatial Consortium Inc. shall not be held responsible for identifying any or all such patent rights.</em></p>
@@ -157,25 +157,17 @@ interoperability. The ultimate goal of this approach is to enable interoperable 
 
 <p id="_9b602a87-c414-4200-8d1f-ed73309fd7f2">Therefore, a standard that follows the rules specified in the ModSpec presents requirements organized in requirements classes which must be satisfied by passing the tests defined in a conformance suite (also known as the Abstract Test Suite in an OGC Standard). These tests are organized into conformance classes, each of which represents a mechanism for partial satisfaction of the standard. This results in a standard having a modular structure, where each requirements class has a corresponding conformance (test) class. In a well written standard, the normative clauses and any model or schema are organized in a manner that parallels the requirements and conformance clauses. A goal of the design pattern is the ability to define requirements classes and associated conformance classes that can be used across multiple standards. The approach modelled in the ModSpec has been referred to as the “core and extension model” due to its insistence on a modular structure throughout all parts of a standard and its implementation.</p>
 
-<p id="_e26b8f0f-7648-e5e2-8e4f-ef0997db5fe1">There are numerous examples of requirements/conformance classes that can be used not only in OGC Standards, but for geospatially focused standards defined by other organizations and Standards Development Organizations (SDOs). Some OGC examples can be found in the <link target="https://docs.ogc.org/is/19-072/19-072.html">OGC API — Common Part 1: Core Standard</link> and in the <link target="https://github.com/opengeospatial/cdbswg/blob/master/cdb-2.0/cdb-core-crs-requirements-class.adoc">CDB 2.0 Standard CRS Requirements Module</link>. By formally implementing the requirements specified in the ModSpec, reusable, testable, modular standards can be developed.</p>
+<p id="_e26b8f0f-7648-e5e2-8e4f-ef0997db5fe1">There are numerous examples of requirements/conformance classes that can be used not only in OGC Standards, but for geospatially focused standards defined by other organizations and Standards Development Organizations (SDOs). Some OGC examples can be found in the <link target="https://docs.ogc.org/is/19-072/19-072.html">OGC API — Common Part 1: Core Standard</link> and in the <link target="https://github.com/opengeospatial/cdbswg/blob/master/cdb-2.0/23-034/sections/cdb-core-crs-requirements-module.adoc">CDB 2.0 Standard CRS Requirements Module</link>. By formally implementing the requirements specified in the ModSpec, reusable, testable, modular standards can be developed.</p>
 
 <clause id="things-to-know" obligation="normative">
 <title>Understanding the ModSpec</title>
-<p id="_c2c40101-dda5-399c-4569-ddfd58d282a6">Reading the Terms and Definitions clause and Clause <xref target="Terms_and_Definitions">cls-4</xref> will help understanding the content and
-requirements stated in this document.</p>
+<p id="_f56eea55-7ee6-e610-5395-240f3dd54e13">Reading the <xref target="cls-4">Terms and Definitions</xref> clause will help understanding the content and requirements stated in this document.</p>
 
-<p id="_67dd03fd-3dc2-a6f9-b5ac-8f17ccce22c5"><xref target="Annex_C">annex-C</xref> defines the UML model upon which the ModSpec is
+<p id="_4421969f-8cad-dc00-0310-0793922a0d34">Also read Annex C. <xref target="annex-C">Annex C</xref> defines the UML model upon which the ModSpec is
 based. Annex C also contains informal and non-normative definitions ordered for ease
 of understanding. These two sections can be read first to aid in the understanding of
-the rest of the document.<note id="_cffbeef8-28bb-e6dd-02f8-194ccfa8555e"><p id="_2b4b100e-271c-308d-1122-6df104572f70">For OGC Standards work, the word “standard” in the ModSpec applies to all OGC draft standards, approved standards, draft Abstract Specifications, and approved Abstract Specifications. The exceptions are OGC Abstract Specifications that originate in ISO or Community Standards that are developed external to the OGC and then submitted to the OGC.</p>
-</note><note id="_57fa235d-d704-3678-2edd-b6096bf9f1db"><p id="_fb590e3e-566c-edbb-1052-a28c40b014e3">Please note that the ModSpec has been approved by the OGC Membership as a policy directive for the development and revision of any OGC Standard or Abstract Specification that has requirements. However, the ModSpec is written to be non-OGC specific and can be used by any Standards Development Organization (SDO) as a formal guide for structuring a standards document.</p>
-</note><note id="_2d79f75a-de4d-8edb-4808-79f662cb2fb3"><p id="_fa8148f7-22c5-7b97-26b5-f90599b1dd5e">In informative sections, the word “will” implies that something is an implication of a requirement. The “will” statements are
-not requirements, but explain the consequence of requirements.</p>
+the rest of the document.<note id="_438516e7-18e3-78f6-f48b-f0fd9af2ea2b"><p id="_acf54706-2501-7ee7-ecea-f445a3ec94fd">Please note that the ModSpec has been approved by the OGC Membership as a policy directive for the development and revision of any OGC Standard or Abstract Specification that has requirements. However, the ModSpec is written to be non-OGC specific and can be used by any Standards Development Organization (SDO) as a formal guide for structuring a standards document.</p>
 </note></p>
-
-
-
-
 
 
 </clause>
@@ -207,20 +199,20 @@ not requirements, but explain the consequence of requirements.</p>
 <p id="_fc45c1e7-c9ae-0d2d-5e08-c7518a92ad8c">Conformance to the ModSpec by technical implementation standards
 can be tested by inspection. The test suite is in <xref target="annex-A"/>.</p>
 
-<p id="_690a8011-3eb8-197b-43b2-4e989e2c468e">There is one conformance class for this document:</p>
+<p id="_5e9a9a3d-d280-55f2-c58f-4ae21491fc0d">The core of the ModSpec (this document) has one requirements class and one related conformance class:</p>
 
-<ol id="_78ce1268-bfab-9285-0c1f-cb6ecbfad247" type="arabic"><li><p id="_81795308-85a8-d659-b8f2-ab49abbba286">The Core: Common requirements for standards documents in general. See <xref target="cls-6"/> and <xref target="annex-A-1"/></p>
+<ol id="_99ebe6f2-d132-d6e7-0622-9466bfc98156" type="arabic"><li><p id="_11ac5a31-abb8-a16b-4b09-ec20ba6bfccf">The Core: Common requirements for specifying standards documents. See <xref target="cls-8"/> and <xref target="annex-A-1"/></p>
 </li>
 </ol>
 
-<p id="_380b8e67-f1ab-dff0-1be0-f1d100d29579">This document contains normative language and thus places requirements on
+<p id="_63a59697-2a7b-b5e5-46e8-70a97d7b6702">The ModSpec contains normative language and thus places requirements on
 conformance, or mechanism for adoption, of candidate standards to which the ModSpec
 applies. In particular:</p>
 
-<ul id="_356f6f79-533c-503b-5a18-8b6b78303f36"><li><p id="_63225180-37d8-b5d0-dcbe-58b8788328c2"><xref target="cls-6"/> specifies the core requirements which shall be met by all conformant
-standards.</p>
+<ul id="_cde3e292-1296-a95c-a1a8-94565ad74a5c"><li><p id="_90a34134-5b67-413f-274f-9d3e368117e3"><xref target="cls-8">ModSpec Requirements Class: Core</xref> specifies the core requirements which shall be met by all
+standards claiming conformance to the ModSpec.</p>
 </li>
-<li><p id="_a15b547d-d8aa-2c60-4ae1-b8217d9b6b29"><xref target="cls-7"/> gives information on how the ModSpec is to be applied to extensions to the core model for requirements and
+<li><p id="_cce428ff-0d9f-3b94-48a2-34b18c61b77c"><xref target="cls-9">Mapping the ModSpec to types of models</xref> gives information on how the ModSpec is to be applied to extensions to the core model for requirements and
 conformance clauses.</p>
 </li>
 </ul>
@@ -238,7 +230,7 @@ Terms not defined here take their meaning from computer science or from their
 Standard English (common US and UK) meanings. The form of the definitions is
 defined by ISO Directives.</p>
 
-<p id="_def69548-3806-45ca-3bba-5c1da0e82ee3">Many of these definitions depend upon the model given in <xref target="Annex_C">annex-C</xref>.</p>
+<p id="_df2193f1-9f46-dbe8-85d6-bdb94302f5f0">Many of these definitions depend upon the model given in <xref target="annex-C">Annex C: ModSpec UML Model, Semantics, and Definitions</xref>.</p>
 
 
 <term id="term-building-block"><preferred><expression>
@@ -375,7 +367,7 @@ requirements class.</p>
 requirement(s) of this requirements class</p></verbal-definition></definition>
 
 
- <termnote id="_477223a9-850f-18c8-0cb6-545cc46c8024"><p id="_31530cc8-529d-dc36-0b3b-cd4a863b7e47">A direct dependency (of a requirements class) of the current <concept><refterm>requirements class</refterm><renderterm>requirements class</renderterm><xref target="term-requirements-class"/></concept> will have the same
+ <termnote id="_e93d475a-d9d6-3a0e-d530-a2dc71db8c15"><p id="_1f7f71d5-bcde-a188-1ac2-dbba84e03f9f">A direct dependency (of a requirements class) of the current requirements class will have the same
 <concept><refterm>standardization target</refterm><renderterm>standardization target</renderterm><xref target="term-standardization-target"/></concept> as the current requirements class. This is another way of saying that the current
 requirements class extends, or uses all the aspects of the direct dependency (of a requirements class).
 Any tests associated with this direct dependency (of a requirements class) can be applied to this requirements class.</p>
@@ -388,14 +380,14 @@ Any tests associated with this direct dependency (of a requirements class) can b
 <name>indirect dependency (of a requirements class)</name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_7691e7eb-30bc-e413-b80b-43dc3e8c50f2"><concept><refterm>requirements class</refterm><renderterm>requirements class</renderterm><xref target="term-requirements-class"/></concept> with a different
+<definition><verbal-definition><p id="_4b65a525-0c59-334d-e849-0eb3e6f8ff49"><concept><refterm>requirements class</refterm><renderterm>requirements class</renderterm><xref target="term-requirements-class"/></concept> with a different
 <concept><refterm>standardization target</refterm><renderterm>standardization target</renderterm><xref target="term-standardization-target"/></concept> which is used, produced or associated to by the
-implementation of this <concept><refterm>requirements class</refterm><renderterm>requirements class</renderterm><xref target="term-requirements-class"/></concept></p></verbal-definition></definition>
+implementation of this requirements class</p></verbal-definition></definition>
 
 
- <termnote id="_4ff365ee-945f-b9b0-0c6e-c52193c56312"><p id="_ea7062aa-d53f-f92c-356d-d8b91adc5194">In this instance, as opposed to the
+ <termnote id="_6193f860-f8b6-ea95-69c0-68dbba94700c"><p id="_d7afe722-a400-32ba-1e75-e30512d6c5c8">In this instance, as opposed to the
 direct dependency of a requirements class, the test against the consumable or product used
-or produced by the <concept><refterm>requirements class</refterm><renderterm>requirements class</renderterm><xref target="term-requirements-class"/></concept> does not directly test the
+or produced by the requirements class does not directly test the
 requirements class, but tests only its side effects. Hence, a particular
 type of feature service could be required to produce valid XML documents, but
 the test of validity for the XML document is not directly testing the service,
@@ -533,7 +525,7 @@ course of action is deprecated but not prohibited</p></verbal-definition></defin
 a <concept><refterm>requirement</refterm><renderterm>requirement</renderterm><xref target="term-requirement"/></concept>. The usual form replaces the “shall” (imperative or
 command) of a requirement with a “should” (suggestive or
 conditional).</p>
-</termnote><termnote id="_25802c8f-1598-0d20-289b-0cd891e71098"><p id="_b1e37126-06f1-8aaa-f669-521eca175e45">Recommendations are <strong>not</strong> tested and therefor have no related conformance test.</p>
+</termnote><termnote id="_51484afa-4b40-3e41-8cc4-74762fc2ec45"><p id="_b944ec70-dd59-feb4-a331-cb73829d566d">Recommendations are <strong>not</strong> tested and therefore have no related conformance test.</p>
 </termnote><termsource status="identical" type="authoritative"><origin bibitemid="iso-dp2" type="inline" citeas="ISO/IEC&amp;#xa0;DIR&amp;#xa0;2"/></termsource></term>
 
 <term id="term-requirement"><preferred><expression>
@@ -650,9 +642,17 @@ legitimate standards organization.</p>
 <concept><refterm>requirement</refterm><renderterm>requirements</renderterm><xref target="term-requirement"/></concept>, <concept><refterm>recommendation</refterm><renderterm>recommendations</renderterm><xref target="term-recommendation"/></concept> or
 <concept><refterm>conformance test</refterm><renderterm> conformance tests</renderterm><xref target="term-conformance-test"/></concept>. Included for completeness.</p>
 </termnote><termsource status="identical" type="authoritative"><origin bibitemid="iso-dp2" type="inline" citeas="ISO/IEC&amp;#xa0;DIR&amp;#xa0;2"/></termsource></term>
+
+<term id="term-will"><preferred><expression>
+<name>will</name>
+</expression>
+</preferred>
+<definition><verbal-definition><p id="_3ffc1538-4731-9b28-a112-967d883c54a1">In informative sections, the word “will” implies that something is an implication of a requirement. The “will” statements are
+not requirements, but explain the consequence of requirements.</p></verbal-definition></definition>
+ </term>
 </terms>
 
-<clause id="cls-5" obligation="normative">
+<clause id="cls-6" obligation="normative">
 <title>Conventions</title>
 <clause id="_symbols_and_abbreviated_terms" obligation="normative">
 <title>Symbols (and abbreviated terms)</title>
@@ -695,30 +695,24 @@ available standard (PAS) by ISO in its earlier 1.3 version.</p>
 <title>Abbreviated terms</title>
 <p id="_7a416614-9ff8-7c54-728b-a6b00d59fdfb">In this document the following abbreviations and acronyms are used or introduced:</p>
 
-<dl id="_5fdc5fa7-5e57-1b5d-88af-ac6597d4bc03"><dt id="symbol-ERA">ERA</dt><dd><p id="_df0667a5-63c6-5e86-ea81-0f33196d8a4b">Entity, Relation, Attribute (pre-object modeling technique)</p>
+<dl id="_cd1aa265-0a59-935e-e9ee-20e0fcc776dc"><dt id="symbol-ERA">ERA</dt><dd><p id="_df0667a5-63c6-5e86-ea81-0f33196d8a4b">Entity, Relation, Attribute (pre-object modeling technique)</p>
 </dd>
 <dt id="symbol-ISO">ISO</dt><dd><p id="_60c0c2eb-d7d0-ee93-3552-219656c95466">International Organization for Standardization (from Greek for “same”)</p>
 </dd>
-<dt id="symbol-OCL">OCL</dt><dd><p id="_f04534b6-c9ed-c648-aa41-1d413538fd29">Object Constraint Language (part of UML)</p>
+<dt id="symbol-OGC">OGC</dt><dd><p id="_3c547a30-4331-4ac2-2e89-37952ec0ab48">Open Geospatial Consortium (<link target="http://www.opengeospatial.org/"/>)</p>
 </dd>
-<dt id="symbol-OGC">OGC</dt><dd><p id="_54aadee4-95d5-0699-ad58-b386fabe738a">Open Geospatial Consortium (<link target="http://www.opengeospatial.org/"/>)</p>
+<dt id="symbol-OMG">OMG</dt><dd><p id="_d7314ec1-b773-ff0f-b47a-ac8071d8056d">Object Management Group (<link target="http://www.omg.org/"/>)</p>
 </dd>
-<dt id="symbol-OMG">OMG</dt><dd><p id="_133ee887-264f-ebe9-188a-a3f34d82668d">Object Management Group (<link target="http://www.omg.org/"/>)</p>
+<dt id="symbol-SQL">SQL</dt><dd><p id="_3a1f292f-0b4b-7c29-7ef2-0c11e183fd12">ISO/IEC 9075 query language for relational databases, not originally an acronym, but now often cited as “Structured Query Language”</p>
 </dd>
-<dt id="symbol-OOP">OOP</dt><dd><p id="_131ecae5-da78-bb08-0896-699fde34dd1c">Object Oriented Programming</p>
+<dt id="symbol-TC">TC</dt><dd><p id="_80230db0-5a3c-cc72-b138-220db1f8af6e">Technical Committee (usually either in ISO or OGC)</p>
 </dd>
-<dt id="symbol-OOPL">OOPL</dt><dd><p id="_dcbb93e6-958d-b2e3-349e-2f3092bc317b">OOP Language (such as C++ or Java)</p>
+<dt id="symbol-UML">UML</dt><dd><p id="_1c2e3d07-ee59-12a5-41cc-2761c4f46b97">Unified Modeling Language (an object modeling language)</p>
 </dd>
-<dt id="symbol-SQL">SQL</dt><dd><p id="_105fdfdc-c4ce-37e3-cce2-45efce6e3252">ISO/IEC 9075 query language for relational databases, not originally an acronym, but now often cited as “Structured Query Language”</p>
-</dd>
-<dt id="symbol-TC">TC</dt><dd><p id="_74a64e83-2054-698f-c562-7cf9a64fde4c">Technical Committee (usually either in ISO or OGC)</p>
-</dd>
-<dt id="symbol-UML">UML</dt><dd><p id="_d4fb2e58-883f-730b-ee6b-ccddc9997755">Unified Modeling Language (an object modeling language)</p>
-</dd>
-<dt id="symbol-XML">XML</dt><dd><p id="_5c47ed43-aa6f-a729-541f-edc438e0deba">eXtensible Markup Language</p>
+<dt id="symbol-XML">XML</dt><dd><p id="_a8088143-fb7b-a156-e371-e9613585292c">eXtensible Markup Language</p>
 </dd></dl>
 </definitions>
-<clause id="cls-5-3" obligation="normative">
+<clause id="cls-6-3" obligation="normative">
 <title>Finding requirements and recommendations</title>
 <p id="_f3d8e23c-e998-5950-ee38-0a85a25f2b58">Each normative statement in the ModSpec is stated in one and only one place,
 in a standard format, with an unique label, such as REQ001, REC001, or PER001. A requirement, recommendation, or permission may be repeated for clarification.
@@ -815,11 +809,11 @@ Each requirement within an optional requirements class is mandatory when that re
 implemented. When needed, a particular requirements class may contain only a single
 requirement.</p>
 
-<p id="_9e0867bd-1139-c763-611b-0716963bdb9d">However, care must be taken, since the requirements classes may not always in a one-to-one
+<p id="_32b2fc7f-1023-d5ab-16d2-51fd48e01539">However, care must be taken, since the requirements classes may not always in a one-to-one
 correspondence to conformance classes in other standards which may be the source of
 requirements for a standard conformant to the ModSpec. If other standards are
 used, their options shall be specified to be useable within a standard conformant to
-this policy, see <xref target="cls-6-5-1"/>.</p>
+the ModSpec, see <xref target="cls-6-5-1"/>.</p>
 
 <p id="_2a41c502-15b1-34e8-521c-133c33c47f0f">Conformance classes may contain dependencies on one another. These are represented by
 tests in one conformance class that state that another conformance class must be
@@ -833,12 +827,12 @@ this manner, requirements classes can be treated as sets of requirements (each i
 single requirements class but included in others by reference to its “home”
 requirements class).</p>
 
-<p id="_828c1575-f6ae-33c9-5055-82586b512f69">In the ModSpec, each conformance requirement is separated in its own labeled
-paragraph, such as <xref target="Requirement_1">req-1</xref> below.</p>
+<p id="_9cdef458-6c9b-9fd0-f1e4-d7d70c9125be">In the ModSpec, each conformance requirement is separated in its own labeled
+paragraph, such as seen in <xref target="req-1">Requirement 1</xref> below.</p>
 
-<p id="_6c376682-76de-3bab-c1b5-5b3f2ed4d44b">The distribution of the information in a standard is not restricted. The only
+<p id="_3fa1225e-3157-b911-63ca-3c4cf1bd9c06">The distribution of the information in a standard is not restricted. The only
 requirement is that requirements be grouped in a manner
-consistent with the conformance test classes, see <xref target="req-6"/> and <xref target="req-7"/>.</p>
+consistent with the conformance test classes, see <xref target="req-6">Requirement 6</xref> and <xref target="req-7">Requirement 7</xref>.</p>
 </clause>
 
 <clause id="_documenting_the_standard" obligation="normative">
@@ -849,7 +843,7 @@ requirements stated in the ModSpec</p>
 
 <p id="_52054257-2f23-bcfd-2e5e-91e4987d2758">This form should be specified by the following descriptions:</p>
 
-<ol id="_87a85b52-d515-db8e-ea47-9fadfb0f2d78" type="arabic"><li><p id="_2055f9a7-bc44-4022-62a6-177d8b36d3f9">A standards document contains Clauses (corresponding to numbered sections as they might
+<ol id="_f6a8caea-ca57-f74b-a089-949ea42dd11b" type="arabic"><li><p id="_2055f9a7-bc44-4022-62a6-177d8b36d3f9">A standards document contains Clauses (corresponding to numbered sections as they might
 appear in a table of contents) which describe its standardization target and its requirements.</p>
 </li>
 <li><p id="_f745efaa-7561-175c-0ef3-dd21743cb54a">A standard contains Annexes or is associated to other documents (both a
@@ -873,8 +867,7 @@ implementation meets the requirements which the tests reference.</p>
 <li><p id="_f8d1d894-8c39-fa2e-1a7e-07f7e1df8f56">The tests are organized into some number of conformance “classes” where each conformance class has a one to one relationship with a requirements class. If a standard
 does not do this, it is has by default only one “conformance class”.</p>
 </li>
-<li><p id="_875f9b1a-e635-e726-a40f-00bce22dcd56">Certificates of conformance (see <xref target="term-all-components-schema-document"/>) are
-awarded by a testing entity based on these conformance classes.</p>
+<li><p id="_9d66d840-98e8-6ed8-5997-bce4048629f9">Certificates of conformance are awarded by a testing entity based on these conformance classes.</p>
 </li>
 <li><p id="_eb8b8d5e-e212-b672-db2c-fe4cca551c05">There is a clear distinction between normative and informative parts of the text.</p>
 </li>
@@ -889,11 +882,11 @@ not requirements, but explain the consequence of requirements.</p>
 <p id="_5f3f3708-96ef-b73c-e301-ae98ba13892e">The ModSpec defines a “requirement” of a standard as an atomic testable
 criterion. See the formal definition of requirement in <xref target="term-requirement"/></p>
 
-<p id="_72703e4f-47cf-189e-d14a-1116985cd140">A UML representation of important properties of this model is given in <xref target="annex-B-2"/>.</p>
+<p id="_f6bb6c2d-d9a3-dd8b-90c0-9f1ff5bfad20">A UML representation of important properties of this model is given in <xref target="annex-C-2">Annex C, Section 2</xref>.</p>
 </clause>
 </clause>
 
-<clause id="cls-8-1" obligation="normative">
+<clause id="cls-8" obligation="normative">
 <title>ModSpec Requirements Class: Core</title>
 <p id="_4e1f24e5-6a13-bc05-c478-2360e4a858df">The following requirements specify the rules for the content and structure of a modular standard. These requirements are also known as the <tt>core</tt> of the ModSpec.</p>
 
@@ -905,35 +898,30 @@ criterion. See the formal definition of requirement in <xref target="term-requir
 </component>
 </requirement>
 
-<note id="_99e28ebe-32b3-70f9-00dd-861b6adcd4d0"><p id="_c2b1d9a2-b291-5016-39fd-a394315f6818">These two requirements establish the context and scope of this Standard. Additional informative text would be useful.</p>
+<note id="_521a6453-0c41-08bc-6ab5-6e299d1d9281"><p id="_c313e168-2e49-af8a-929d-fae5b8f05362">These two requirements establish the context and scope of this Standard. Additional informative text would be useful.</p>
 </note>
 
-<requirement id="req_ogc-compliance" model="ogc"> <identifier>/req/core/ogc-compliance</identifier><component class="part"><p id="_dfc3f4ee-8e62-9e3c-59a0-e8127e151803">Any new OGC Standard or abstract specification SHALL comply with the requirements stated in this document.</p>
-</component><component class="part"><p id="_d3b5f90c-95d0-b511-f058-f6813207ece7">Any major revision of an existing OGC Standard or abstract specification SHALL comply with the requirements stated in this document.</p>
+<p id="_44f43ad6-e349-39cf-adcd-28d235f96500">The following requirement states that every requirement is testable.</p>
+
+<requirement id="req_reqs-are-testable" model="ogc"> <identifier>/req/core/reqs-are-testable</identifier><component class="part"><p id="_d50a0a50-21a8-193c-d76a-40912f8689ea">All the parts of a requirement, a requirements module, or requirements class SHALL be testable. Failure to pass any part of any requirement shall be a failure to pass the associated conformance test class.</p>
 </component>
 </requirement>
 
-<note id="_4b0a7032-d457-da51-0c3d-91e7ba6d98d8"><p id="_b8790c97-c065-c8e0-40db-4e9091856e45">This requirement is for OGC work only and will be moved to the OGC Policy statement regarding the use of the ModSpec. This move will happen once the policy is removed.</p>
-</note>
+<p id="_bde14a7e-73c0-2ade-61bb-eb4314cc1dc5">NOTE:This further means that failure to pass the test specified for a part of requirement is a failure to pass the requirement.</p>
 
-<requirement id="req_reqs-are-testable" model="ogc"> <identifier>/req/core/reqs-are-testable</identifier><component class="part"><p id="_2e4cf41f-6fde-88a2-ed9d-7866abe1fcf8">All the parts of a requirement, a requirements module, or requirements class SHALL be testable. Failure to pass any part of any requirement shall be a failure to pass the associated conformance test class.</p>
-</component>
-</requirement>
-
-<p id="_70ee5a62-85bc-9206-07ae-bf9092d6d55b">NOTE:This further means that failure to pass the test specified for a part of requirement is a failure to pass the requirement.</p>
-
-<p id="_452b2365-50d5-b5d2-9695-a8f1dd1a0932">This requirement states that every requirement is testable.<note id="_437acbaf-7054-2fc4-cd5e-0a7f7191d760"><p id="_b19a14a0-0c5a-c8de-e1e7-1ef81bb01705">This further means that failure to pass the test specified for a part of requirement is a
+<p id="_4db6b31d-985f-9e21-3ac8-ae2a2291ca33">This requirement states that every requirement is testable.<note id="_842082a7-6c56-528e-4f51-4ee8cfe557b1"><p id="_a85e2105-9cb7-00dd-0607-4afbcb196a1d">This further means that failure to pass the test specified for a part of requirement is a
 failure to pass the requirement.</p>
 </note></p>
 
 
 
-<requirement id="req_all-components-assigned-uri" model="ogc"> <identifier>/req/core/all-components-assigned-uri</identifier><component class="part"><p id="_68974f82-13c1-c4f8-fc73-d821e49b2817">Each component of the standard, including requirements, requirements modules, requirements classes, conformance test cases, conformance modules and conformance classes SHALL be assigned a URI.</p>
-</component><component class="part"><p id="_b84bdc8e-b818-f93d-b2fb-d161ee173cb1">For OGC standards documents, these URIs SHALL be conformant with the policies of the OGC Naming Authority.</p>
+<requirement id="req_all-components-assigned-uri" model="ogc"> <identifier>/req/core/all-components-assigned-uri</identifier><component class="part"><p id="_a73823f9-6920-4af9-5d53-de095dfc2453">Each component of the standard, including requirements, requirements modules, requirements classes, conformance test cases, conformance modules and conformance classes SHALL be assigned a URI.</p>
+</component><component class="part"><p id="_563a2448-37a7-d7fa-4573-ea6c61477b37">For OGC standards documents, these URIs SHALL be conformant with the policies of the OGC Naming Authority.</p>
 </component>
 </requirement>
 
-<p id="_93d596bd-c869-7629-2573-22a1dc7e97f5">NOTE:In the OGC, the enforcement of this requirement and its associated recommendation is the purview of the OGC Naming Authority or its equivalents.<note id="_e93bd4f0-5c06-fe9c-6f77-d6c1beb4f937"><p id="_4d817ec6-1e4a-2f8c-a8f3-4d72a6b95bf5">In the OGC, the enforcement of this requirement and its associated recommendation is the purview of the OGC Naming Authority or its equivalents.</p>
+<p id="_760d2b23-2c15-afe7-2fd2-4c2497da7110">NOTE:In the OGC, the enforcement of this requirement and its associated recommendation is the purview of the OGC Naming Authority or its equivalents.<note id="_531abc91-3cf3-352f-928f-e16285d510fc"><p id="_57686390-1399-d734-5349-65c4acf49cbc">In the OGC, the enforcement of this requirement and its associated recommendation is the purview of
+the OGC Naming Authority or its equivalents.</p>
 </note></p>
 
 
@@ -947,10 +935,10 @@ conformance for implementations conformant to the standard in question.</td>
 </tr></tbody>
 </table>
 
-<p id="_06651d2d-e86b-2f90-cab8-a3ad58099ae4">While a requirement may be referenced in more than one place in a standard, the normative definition of a requirement shall be its “<strong><hi>home</hi></strong>” (see <xref target="cls-5-3"/>) and
+<p id="_8f017383-3ad3-88e6-af19-b41fca13628a">While a requirement may be referenced in more than one place in a standard, the normative definition of a requirement shall be its “<strong><hi>home</hi></strong>” (see <xref target="cls-6-3"/>) and
 will be the only place where full normative language is used.</p>
 
-<p id="_d0a4831b-0a38-3bc9-d2e8-0908c5446aef">The following permissions relate to possible content specified in the core of a standard.</p>
+<p id="_0f619de9-90d1-cc30-ce23-9025c5927afd">The following permissions relate to possible content specified in the core of a standard.</p>
 
 <table id="per-1" width="90%"><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>PER001</strong></td>
 <td valign="middle" align="left"><strong>/per/core/informational-content-in-core</strong><br/>
@@ -961,7 +949,7 @@ included in the core.</td>
 </tr></tbody>
 </table>
 
-<p id="_f307b3b6-c2fb-8179-a8cb-37b390f2b873">In this manner, the core requirements class and its associated contents can be
+<p id="_a3e44b3b-c4dc-886b-c1d3-faa79a732a46">In this manner, the core requirements class and its associated contents can be
 thought of not only as the requirements of the core conformance class, but as a form
 of reference model for establishing core vocabularies and schemas for the entire
 standard.</p>
@@ -983,9 +971,9 @@ requested operation is part of a non-supported extension.</td>
 </tr></tbody>
 </table>
 
-<p id="_dc2d2853-55e9-5c7f-5781-dcfb24dbb4cc">The following states how and where vocabularies are specified in relation to a requirement or requirements class.</p>
+<p id="_affd79cf-98d5-956e-8007-a60c5d30e7b3">The following states how and where vocabularies are specified in relation to a requirement or requirements class.</p>
 
-<requirement id="req_vocabulary-and-parent-req-class" model="ogc"> <identifier>/req/core/vocabulary-and-parent-req-class</identifier><component class="part"><p id="_f6a348f2-8fb6-77ef-751d-eea18bc56a4a">Requirements on the use and interpretation of vocabulary SHALL be in the requirements class where that use or interpretation is used.</p>
+<requirement id="req_vocabulary-and-parent-req-class" model="ogc"> <identifier>/req/core/vocabulary-and-parent-req-class</identifier><component class="part"><p id="_15c22511-3959-3e1e-88f3-d8efc59d7fb9">Requirements on the use and interpretation of vocabulary SHALL be in the requirements class where that use or interpretation is used.</p>
 </component>
 </requirement>
 
@@ -1002,7 +990,7 @@ the title of a particular document or dataset will be specified in the requireme
 class in which the request-response pair is defined and set against requirements.</p>
 </example>
 
-<clause id="cls-6-2" obligation="normative">
+<clause id="cls-8-2" obligation="normative">
 <title>Using the model</title>
 <p id="_5d0de278-49a2-be6b-6c93-477f7870e680">The primary difficulty in speaking about standards (or candidate
 standards)<fn reference="1"><p id="_06b43164-92b2-3856-9eee-a48abdabe6b0">This is purposely written as “as not yet adopted” standards, since it is during the authoring process that the ModSpec must be considered, not <em>post facto</em>.</p>
@@ -1045,10 +1033,9 @@ target.</p>
 </component>
 </requirement>
 
-<p id="_02215dd1-098f-dce0-b10f-b8df3c92479c">This means that all requirements are considered as targeting the same entity being
+<p id="_ab8c593a-c4fb-5cd0-e6f4-584ffa4efc47">This means that all requirements are considered as targeting the same entity being
 tested for a particular certificate of conformance. The test may specify other types
-as intermediaries or indirect dependencies (see
-<xref target="term-indirect-dependency-_of-a-requirements-class_"/>).</p>
+as intermediaries or indirect dependencies (see <xref target="term-indirect-dependency-_of-a-requirements-class_"/>).</p>
 
 <table id="per-5" width="90%"><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>PER005</strong></td>
 <td valign="middle" align="left"><strong>/per/core/repeated-requirements</strong><br/>
@@ -1070,9 +1057,8 @@ common alternative is to introduce a new “superclass”.</p>
 
 <table id="per-6" width="90%"><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>PER006</strong></td>
 <td valign="middle" align="left"><strong>/per/core/abstract-superclass</strong><br/>
-The standard may introduce an abstract superclass of all affected standardization target types and
-use this for the requirements common to all of the affected target types. This is
-diagrammed in <xref target="fig-6-1"/>.</td>
+The standard <em>MAY</em> introduce an abstract superclass of all affected standardization target types and
+use this for the requirements common to all of the affected target types. This is diagrammed in <xref target="fig-6-1"/>.</td>
 </tr></tbody>
 </table>
 
@@ -1085,7 +1071,7 @@ diagrammed in <xref target="fig-6-1"/>.</td>
 </example>
 </clause>
 
-<clause id="cls-6-3" obligation="normative">
+<clause id="cls-8-3" obligation="normative">
 <title>The “standards” document</title>
 <p id="_3072f34a-49ad-4230-661f-3952bb1988b8">Each standard document is comprised of a set of requirements and their associated conformance tests.</p>
 
@@ -1097,8 +1083,7 @@ diagrammed in <xref target="fig-6-1"/>.</td>
 </component>
 </requirement>
 
-<p id="_593626cb-1a0d-b72f-baec-70252d829878">If two requirements are
-in the same requirments class, they should be tested in the same conformance
+<p id="_865c9f12-7eb2-8c0f-62bd-4bce14c6d0a5">If two requirements are in the same requirments class, they should be tested in the same conformance
 class in the conformance suite. Each requirement is separately identifiable
 either by a label as is done in the ModSpec.</p>
 
@@ -1107,7 +1092,7 @@ should be reflected in the organization of the conformance tests and classes, an
 also in the structure of the normative clauses in the specification document.</p>
 </clause>
 
-<clause id="cls-6-4" obligation="normative">
+<clause id="cls-8-4" obligation="normative">
 <title>Conformance Test Suite</title>
 <p id="_f3f72f56-fda6-3f4d-e199-40049422d141">The requirements specified in this clause will be applied directly to the test suite, and in particular
 to the conformance classes. By definition, a “test suite” is a collection of
@@ -1151,12 +1136,13 @@ recommendations.</p>
 
 <table id="per-7" width="90%"><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>PER007</strong></td>
 <td valign="middle" align="left"><strong>/per/core/conf-class-paramterized</strong><br/>
-A Conformance class may be parameterized.</td>
+A Conformance class <em>MAY</em> be parameterized.</td>
 </tr></tbody>
 </table>
 
-<p id="_9502843e-7100-aff8-0883-dc233253ee65">This means that the class’s tests
-depend on some parameter that must be defined before the tests can be executed. This can be thought of as an “if-then-else” decision tree.</p>
+<p id="_5dc8a52e-327c-850c-2fd5-5e3c75898fbf">This means that the class’s tests
+depend on some parameter that must be defined before the tests can be executed. This can
+be thought of as an “if-then-else” decision tree.</p>
 
 <p id="_c86849f5-3bce-2120-9043-49a5453ee309">For example, if a conformance class needs to apply tests against a specific data format, such as GML or
 KML, then XYZ(GML) is XYZ using GML, and XYZ(KML) is XYZ using KML.
@@ -1247,6 +1233,9 @@ both are related (as described) to the same set of requirements.</p>
 <p id="_e4b29802-6eba-4e91-d629-fcd994b35c4e">Unless a requirement is referenced in a conformance test and thus in a conformance
 class, it cannot be considered a requirement since no test has been defined for it.</p>
 
+<p id="_b9e8fd75-df3b-77b8-abfe-3538dab49cae">Unless a requirement is referenced in a conformance test and thus in a conformance
+class, it cannot be considered a requirement since no test has been defined for it.</p>
+
 <table id="rec-2" width="90%"><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REC002</strong></td>
 <td valign="middle" align="left"><strong>/rec/core/parallel-structure</strong><br/>
 If possible, the structure of the normative clauses of the standard <em>SHOULD</em>
@@ -1254,7 +1243,7 @@ parallel the structure of the conformance classes in the conformance clause.</td
 </tr></tbody>
 </table>
 
-<p id="_a7d3dade-e839-1f9b-6681-dde79bec7f65">The above requirement in conjunction with <xref target="req-9"/> means that all requirements in a conformant
+<p id="_89ede3a6-af57-0415-a93a-20f233482d1a">The above requirement in conjunction with <xref target="req-9"/> means that all requirements in a conformant
 standard will be tested in some conformance class. In the best example, a
 requirement should be contained explicitly in one and only one requirements class
 and tested in one and only one conformance class. This is not really a requirement
@@ -1266,13 +1255,13 @@ classes.</p>
 </component>
 </requirement>
 
-<p id="_f5b2d155-5ebb-d540-3107-d04645087dad">Normally, circular dependencies between implementation components are signs of a
+<p id="_027fb7b7-abde-17a7-f5f3-e58595ced67a">Normally, circular dependencies between implementation components are signs of a
 poor design, but they often cannot be avoided because of other considerations (code
 ownership for example).</p>
 
 <table id="rec-3" width="90%"><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REC003</strong></td>
 <td valign="middle" align="left"><strong>/rec/core/circular-dependencies</strong><br/>
-Circular dependencies of all types should be avoided whenever possible.</td>
+Circular dependencies of all types <em>SHOULD</em> be avoided whenever possible.</td>
 </tr></tbody>
 </table>
 
@@ -1280,11 +1269,10 @@ Circular dependencies of all types should be avoided whenever possible.</td>
 </component>
 </requirement>
 
-<note id="_ccc07113-c890-6f06-1347-88194c8e1db8"><p id="_faf80bb4-fcb0-527a-01ec-06a74c52a945">The only certain manner to test this requirement maybe to create a reference
-implementation.</p>
+<note id="_83c6cd8e-4551-705d-edb1-455f018bcb2c"><p id="_f380b66e-17c7-cdec-bbb0-23437bcb235d">The only certain manner to test this requirement maybe to create a reference implementation.</p>
 </note>
 
-<p id="_527cb27b-8b6e-8089-41f5-e3fda0ae2579">This requirement is more important and may be more difficult than it seems. It
+<p id="_1e1317ee-5066-16a1-203e-939505a58ff1">This requirement is more important and may be more difficult than it seems. It
 states simply that conformance classes and their associated requirements classes can
 be put in a one-to-one correspondence to a fully modular implementation of the
 complete standard (at least against a single
@@ -1297,17 +1285,17 @@ a “plug’n’play” fashion.</p>
 </component>
 </requirement>
 
-<p id="_20808106-af84-2723-e5b9-6b61b701a234">This means, for example, that a UML classifier cannot be redefined in a new
+<p id="_bbb80e71-17e2-01e1-f0aa-47b6e1f54557">This means, for example, that a UML classifier cannot be redefined in a new
 extension. If a new version of the classifier is needed it has to be a valid subtype
 of the original.</p>
 
-<p id="_3e9fb861-ec9c-7861-0b26-ec932e834ef5">In terms of generalization, subclassing, extension and restriction (into a new class
+<p id="_d7ed85b7-c2dc-1e08-f18a-7fed1e4ccbc6">In terms of generalization, subclassing, extension and restriction (into a new class
 or type) are all acceptable, redefinition (of an old class or type) is not.</p>
 
-<p id="_e68a2e14-eea4-acf4-f851-40043511f2ac"><xref target="cls-6-3"/> makes some pointed suggestion as to how to organize the conformance
+<p id="_f99991b8-1961-4a70-d3a4-bcea4d438b93"><xref target="cls-8-3"/> makes some pointed suggestion as to how to organize the conformance
 classes and normative clauses in parallel to make this requirement easier to verify.</p>
 
-<p id="_a4838130-7ae3-4b21-332e-0177c4ff0c27">Most standards include examples, which are useful for illustrative or pedagogical
+<p id="_72e3eb4e-6bcb-13f0-98dd-3400254f2759">Most standards include examples, which are useful for illustrative or pedagogical
 purposes. However, it is not possible to write a standard “by example” that
 leads to conformance tests. Examples are therefore non-normative, by definition.</p>
 </clause>
@@ -1388,7 +1376,7 @@ Features.”</p>
 <p id="_0bfbff66-b1d5-9577-1e7b-00d6d1a20349">A common mechanism to extend the functionality of a standard is to define
 extensions, which may be either local or encompass other standards.</p>
 
-<p id="_d54b8027-cdbc-8be0-818f-ce638a7bad49"><strong><hi>Standards should use extensions as required and feasible, but should never hinder them.</hi></strong></p>
+<p id="_d54b8027-cdbc-8be0-818f-ce638a7bad49">Standards should use extensions as required and feasible, but should never hinder them.</p>
 
 <requirement id="req_core-and-extensions" model="ogc"> <identifier>/req/core/core-and-extensions</identifier><component class="part"><p id="_40a32fa9-6fcc-de33-672c-946d86c75f5e">Each standard conformant to the ModSpec SHALL consist of the core and some number of requirements classes defined as extensions to that core.</p>
 </component>
@@ -1434,7 +1422,8 @@ to the standard should be able to handle all elements defined in the schema, whe
 they are required by the schema or not.</p>
 </note>
 
-<p id="_26e7186e-c806-beb7-e8b7-b351b7cc5c9e"><strong><hi>Requirements of the form “if the implementation does this, it must do it this way” are considered to be options and should be in a separate requirements class.</hi></strong></p>
+<p id="_3f7cf4f0-e380-8b30-4360-51bb34d6d214">Requirements of the form “if the implementation does this, it must do it this way”
+are considered to be options and should be in a separate requirements class.</p>
 </clause>
 
 <clause id="cls-6-5-7" obligation="normative">
@@ -1455,8 +1444,8 @@ conformance test class contains tests that all other conformance classes must pa
 </clause>
 </clause>
 
-<clause id="cls-7" obligation="normative">
-<title>Mapping this standard to types of models</title>
+<clause id="cls-9" obligation="normative">
+<title>Mapping the ModSpec to types of models</title>
 <clause id="_semantics" obligation="normative">
 <title>Semantics</title>
 <p id="_d6fd27c4-1a0c-7606-1e7e-8012cde57f69">The previous section defines requirements for conformance to the ModSpec However,
@@ -1467,10 +1456,10 @@ mechanism to the ones defined in the additional Parts must be tested solely on t
 conformance test suite until such times as an extension to the ModSpec is defined for that
 alternate mechanism.</p>
 
-<p id="_c9d15222-d5a6-8439-754b-15b0689d81d3">Standards are often structured about some form of modeling language, or
+<p id="_4932cf81-89ba-f4c2-dd56-aca42c92d084">Standards are often structured about some form of modeling language, or
 implementation paradigm. Additional Parts to the ModSpec
 define a mechanism to map parts of the model (language, schema, etc.) to the
-conformance classes used as the model from <xref target="Clause_6.1">cls-6-1</xref>.</p>
+conformance classes used as the model from <xref target="cls-6-1">Clause 6.1</xref>.</p>
 
 <p id="_c9e5b300-7ecf-e51d-bb14-ca043134b7dc">As suggested in Clause <xref target="req-22"/>, the structure of the normative clauses in a
 standard should parallel the structure of the conformance test classes in
@@ -1693,7 +1682,7 @@ requirements class.</p>
 
 <clause id="_conformance_class_specifies_all_dependencies" obligation="normative">
 <title>Conformance class specifies all dependencies</title>
-<p id="_71cd81e0-0891-fe1a-d777-d98d6197a7bc">A Conformance class shall specify any other conformance class upon which it is
+<p id="annex-2-1">A Conformance class shall specify any other conformance class upon which it is
 dependent and that other conformance class shall be used to test the specified
 dependency.</p>
 
@@ -1986,7 +1975,7 @@ procedure. In the OGC, a similar vote is required within the Executive Planning 
 in any Policy and Procedure document used by this committee.</p>
 </clause>
 </annex><annex id="annex-C" obligation="informative">
-<title>ModSpec UML Model, semantics, and Definitions</title>
+<title>ModSpec UML Model, Semantics, and Definitions</title>
 <clause id="_semantically_ordered_definitions" obligation="informative">
 <title>Semantically ordered definitions</title>
 <p id="_79b12c72-6485-6d5e-32f5-c36ad2e176e4"><xref target="cls-4">Clause 4</xref> formally defines the terms used in the conformance tests in alphabetical
@@ -2403,12 +2392,12 @@ class.</p>
 <title>Acknowledgements</title>
 <p id="_9d0c39ed-eb84-a441-763e-3af69f15eb59">The following OGC Members were key contributors to Version 1 of the ModSpec</p>
 
-<table id="_f13846da-3c06-cda0-02ad-cf27c2daf5e2" unnumbered="true"><tbody><tr><th valign="middle" align="center">Person</th>
+<table id="_cc9d0c36-a9b7-b396-3f24-da1a6c7ec112" unnumbered="true"><tbody><tr><th valign="middle" align="center">Person</th>
 <th valign="middle" align="center">Organization Represented</th>
 </tr><tr><td valign="middle" align="left">Simon Cox</td>
 <td valign="middle" align="left">CSIRO</td>
 </tr><tr><td valign="middle" align="left">David Danko</td>
-<td valign="middle" align="left">Eesi</td>
+<td valign="middle" align="left">Esri</td>
 </tr><tr><td valign="middle" align="left">James Greenwood</td>
 <td valign="middle" align="left">SeiCorp, Inc.</td>
 </tr><tr><td valign="middle" align="left">John R. Herring</td>
@@ -2439,13 +2428,13 @@ class.</p>
 </organization></contributor><contributor><role type="publisher"/><organization>
 <name>IEC</name>
 </organization></contributor></bibitem>
-<bibitem id="iso-dp2" type="standard" schema-version="v1.2.8">  <fetched>2024-11-21</fetched>  
+<bibitem id="iso-dp2" type="standard" schema-version="v1.2.8">  <fetched>2025-01-26</fetched>  
 <title type="title-main" format="text/plain" language="en" script="Latn">ISO/IEC Directives, Part 2</title>
   
 <title type="title-part" format="text/plain" language="en" script="Latn">Principles and rules for the structure and drafting of ISO and IEC documents</title>
   <uri type="src">https://www.iso.org/sites/directives/current/part2/index.xhtml</uri>  <docidentifier type="ISO" primary="true">ISO/IEC DIR 2</docidentifier>  <edition>9</edition>  <language>en</language>  <script>Latn</script>  <copyright>    <from>2021</from>    <owner>      <organization>        
 <name>International Organization for Standardization</name>
-        <abbreviation>ISO</abbreviation>        <uri>www.iso.org</uri>      </organization>    </owner>  </copyright>  <relation type="instanceOf">    <bibitem type="standard">      <fetched>2024-11-21</fetched>      
+        <abbreviation>ISO</abbreviation>        <uri>www.iso.org</uri>      </organization>    </owner>  </copyright>  <relation type="instanceOf">    <bibitem type="standard">      <fetched>2025-01-26</fetched>      
 <title type="title-main" format="text/plain" language="en" script="Latn">ISO/IEC Directives, Part 2</title>
       
 <title type="title-part" format="text/plain" language="en" script="Latn">Principles and rules for the structure and drafting of ISO and IEC documents</title>
@@ -2483,24 +2472,6 @@ class.</p>
 <name>ISO/IEC</name>
       </organization>    </owner>  </copyright>  <relation type="updates">    <bibitem type="standard">      <formattedref format="text/plain">ISO/IEC 19757-3:2016</formattedref>      <docidentifier type="ISO" primary="true">ISO/IEC 19757-3:2016</docidentifier>      <date type="circulated">        <on>2016-01-14</on>      </date>    </bibitem>
   </relation>  <place>Geneva</place></bibitem>
-<bibitem id="w3c-sp1" type="standard" schema-version="v1.2.8">  <fetched>2024-11-21</fetched>  
-<title format="text/plain">XML Schema Part 1: Structures Second Edition</title>
-  <uri type="src">https://www.w3.org/TR/xmlschema-1/</uri>  <docidentifier type="W3C" primary="true">W3C xmlschema-1</docidentifier>  <docnumber>xmlschema-1</docnumber>  <contributor>    <role type="publisher"/>    <organization>      
-<name>World Wide Web Consortium</name>
-      <abbreviation>W3C</abbreviation>      <uri>https://www.w3.org/</uri>    </organization>  </contributor>  <language>en</language>  <script>Latn</script>  <status>    <stage>Recommendation</stage>  </status>  <relation type="hasEdition">    <bibitem>      <formattedref format="text/plain">W3C REC-xmlschema-1-20010502</formattedref>      <uri type="src">https://www.w3.org/TR/2001/REC-xmlschema-1-20010502/</uri>      <docidentifier type="W3C" primary="true">W3C REC-xmlschema-1-20010502</docidentifier>    </bibitem>
-  </relation>  <relation type="instanceOf">    <bibitem>      <formattedref format="text/plain">W3C REC-xmlschema-1-20041028</formattedref>      <uri type="src">https://www.w3.org/TR/2004/REC-xmlschema-1-20041028/</uri>      <docidentifier type="W3C" primary="true">W3C REC-xmlschema-1-20041028</docidentifier>    </bibitem>
-  </relation>  <series>    
-<title format="text/plain">W3C REC</title>
-    <number>xmlschema-1</number>  </series></bibitem>
-<bibitem id="w3c-sp2" type="standard" schema-version="v1.2.8">  <fetched>2024-11-21</fetched>  
-<title format="text/plain">XML Schema Part 2: Datatypes Second Edition</title>
-  <uri type="src">https://www.w3.org/TR/xmlschema-2/</uri>  <docidentifier type="W3C" primary="true">W3C xmlschema-2</docidentifier>  <docnumber>xmlschema-2</docnumber>  <contributor>    <role type="publisher"/>    <organization>      
-<name>World Wide Web Consortium</name>
-      <abbreviation>W3C</abbreviation>      <uri>https://www.w3.org/</uri>    </organization>  </contributor>  <language>en</language>  <script>Latn</script>  <status>    <stage>Recommendation</stage>  </status>  <relation type="hasEdition">    <bibitem>      <formattedref format="text/plain">W3C REC-xmlschema-2-20010502</formattedref>      <uri type="src">https://www.w3.org/TR/2001/REC-xmlschema-2-20010502/</uri>      <docidentifier type="W3C" primary="true">W3C REC-xmlschema-2-20010502</docidentifier>    </bibitem>
-  </relation>  <relation type="instanceOf">    <bibitem>      <formattedref format="text/plain">W3C REC-xmlschema-2-20041028</formattedref>      <uri type="src">https://www.w3.org/TR/2004/REC-xmlschema-2-20041028/</uri>      <docidentifier type="W3C" primary="true">W3C REC-xmlschema-2-20041028</docidentifier>    </bibitem>
-  </relation>  <series>    
-<title format="text/plain">W3C REC</title>
-    <number>xmlschema-2</number>  </series></bibitem>
 </references><references id="annex-D" normative="false" obligation="informative">
 <title>Bibliography</title>
 <p id="_67c8d363-e36d-a5e0-bf2d-be223fd30e3c">To preserve a unique numeric identifier for all documents listed as references in
@@ -2533,7 +2504,7 @@ of normative reference in <xref target="cls-3"/>.</p><bibitem id="iso9075" type=
 <name>ISO/IEC</name>
       </organization>    </owner>  </copyright>  <relation type="obsoletes">    <bibitem type="standard">      <formattedref format="text/plain">ISO/IEC 13249-3:2003</formattedref>      <docidentifier type="ISO" primary="true">ISO/IEC 13249-3:2003</docidentifier>    </bibitem>
   </relation>  <relation type="updates">    <bibitem type="standard">      <formattedref format="text/plain">ISO/IEC 13249-3:2011</formattedref>      <docidentifier type="ISO" primary="true">ISO/IEC 13249-3:2011</docidentifier>      <date type="circulated">        <on>2011-04-07</on>      </date>    </bibitem>
-  </relation>  <place>Geneva</place></bibitem><bibitem id="w3c-xml-part1" type="standard" schema-version="v1.2.8">  <fetched>2024-11-21</fetched>  
+  </relation>  <place>Geneva</place></bibitem><bibitem id="w3c-xml-part1" type="standard" schema-version="v1.2.8">  <fetched>2025-01-26</fetched>  
 <title format="text/plain">W3C XML Schema Definition Language (XSD) 1.1 Part 1: Structures</title>
   <uri type="src">http://www.w3.org/TR/xmlschema11-1/</uri>  <docidentifier type="W3C" primary="true">W3C xmlschema11-1</docidentifier>  <docnumber>xmlschema11-1</docnumber>  <contributor>    <role type="publisher"/>    <organization>      
 <name>World Wide Web Consortium</name>
@@ -2550,7 +2521,7 @@ of normative reference in <xref target="cls-3"/>.</p><bibitem id="iso9075" type=
   </relation>  <relation type="instanceOf">    <bibitem>      <formattedref format="text/plain">W3C PR-xmlschema11-1-20120119</formattedref>      <uri type="src">http://www.w3.org/TR/2012/PR-xmlschema11-1-20120119/</uri>      <docidentifier type="W3C" primary="true">W3C PR-xmlschema11-1-20120119</docidentifier>    </bibitem>
   </relation>  <series>    
 <title format="text/plain">W3C WD</title>
-    <number>xmlschema11-1</number>  </series></bibitem><bibitem id="w3c-xml-part2" type="standard" schema-version="v1.2.8">  <fetched>2024-11-21</fetched>  
+    <number>xmlschema11-1</number>  </series></bibitem><bibitem id="w3c-xml-part2" type="standard" schema-version="v1.2.8">  <fetched>2025-01-26</fetched>  
 <title format="text/plain">W3C XML Schema Definition Language (XSD) 1.1 Part 2: Datatypes</title>
   <uri type="src">http://www.w3.org/TR/xmlschema11-2/</uri>  <docidentifier type="W3C" primary="true">W3C xmlschema11-2</docidentifier>  <docnumber>xmlschema11-2</docnumber>  <contributor>    <role type="publisher"/>    <organization>      
 <name>World Wide Web Consortium</name>

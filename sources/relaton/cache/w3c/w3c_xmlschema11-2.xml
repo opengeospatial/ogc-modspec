@@ -1,5 +1,5 @@
 <bibdata type="standard" schema-version="v1.2.8">
-  <fetched>2024-11-21</fetched>
+  <fetched>2025-01-26</fetched>
   <title format="text/plain">W3C XML Schema Definition Language (XSD) 1.1 Part 2: Datatypes</title>
   <uri type="src">http://www.w3.org/TR/xmlschema11-2/</uri>
   <docidentifier type="W3C" primary="true">W3C xmlschema11-2</docidentifier>
@@ -84,7 +84,4 @@
     <title format="text/plain">W3C WD</title>
     <number>xmlschema11-2</number>
   </series>
-  <ext schema-version="v1.0.0">
-    <doctype>technicalReport</doctype>
-  </ext>
 </bibdata>
