@@ -3,7 +3,7 @@
 
 There are four (3) critical changes in the ModSpec: Core Standard. None of these chnages affect backwards compatibility.
 
-=== ModSpec 1.1 is not OGC Policy. 
+=== Critcal Chnage 1: ModSpec 1.1 is not OGC Policy. 
 
 The decision was made to not have the OGC ModSpec: Core as an OGC Policy Document. The reason is that the ModSpec should be useable by and Standards organization and not just the OGC. Instead:
 
@@ -14,7 +14,7 @@ The impact was to modify the ModSpec 1.1 document to remove all references to th
 
 This is GitHub issue 9 and 37.
 
-=== ModSpec 1.1: Core and Parts
+=== Critical Change 2: ModSpec 1.1: Core and Parts
 
 To be consistent with itself, the ModSpec was restructured into a core and two Parts:
 
@@ -24,13 +24,13 @@ To be consistent with itself, the ModSpec was restructured into a core and two P
 
 This is GitHub issue 36.
 
-=== ModSpec Permissions and Recommendations clearly identified
+=== Critical Change 3: ModSpec Permissions and Recommendations clearly identified
 
 In the ModSpec version 1.0, permissions and recommendations were embedded in the general text and were not specifically highlighted. Further. the concept permission was not defined. In the ModSpec version 1.1, the concept `permission` is defined. Further, all permissions and recommendation are extracted from the general text and placed in tablesas per the Metanorma template. Further, all permissions and recommendations are bookmarked for easier navigation.
 
 This is GitHub issue 34.
 
-=== Clarification and consistent use of `specification` and `standard`
+=== Critical Change 4: Clarification and consistent use of `specification` and `standard`
 
 In the ModSpec Version 1.0 there is a short paragraph:
 
