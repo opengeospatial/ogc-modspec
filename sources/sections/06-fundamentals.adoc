@@ -55,7 +55,7 @@ all be passed to achieve a particular conformance class (see
 <<term-conformance-test-class>>). This document also includes a "middle" structure
 called a conformance test module. Requirements modules
 parallel the conformance test modules. A standard written to the ModSpec may
-use this "module" structure in any manner consistent with the rest of this Policy.
+use this "module" structure in any manner consistent with the rest of the ModSpec.
 
 A standard may have mandatory and optional requirements classes.  This allows the options
 in the testing procedure to be grouped into non-varying mandatory and optional conformance classes.
@@ -115,9 +115,6 @@ does not do this, it is has by default only one "conformance class".
 . There is a clear distinction between normative and informative parts of the text.
 . Examples and notes are informative, and do not use "normative"
 language.
-
-In informative sections, the use of the word "will" implies that something is an implication of a requirement. The "will" statements are
-not requirements, but explain the consequence of requirements.
 
 The ModSpec defines a "requirement" of a standard as an atomic testable
 criterion. See the formal definition of requirement in <<term-requirement>>
