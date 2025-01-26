@@ -1,6 +1,6 @@
 [[annex-C]]
 [appendix,obligation=informative]
-== ModSpec UML Model, semantics, and Definitions
+== ModSpec UML Model, Semantics, and Definitions
 
 === Semantically ordered definitions
 

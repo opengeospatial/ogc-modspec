@@ -8,7 +8,7 @@ The following OGC Members were key contributors to Version 1 of the ModSpec
 |===
 ^h| Person ^h| Organization Represented
 | Simon Cox | CSIRO
-| David Danko | Eesi
+| David Danko | Esri
 | James Greenwood | SeiCorp, Inc.
 | John R. Herring | Oracle USA
 | Andreas Matheus | University of the Bundeswehr -- ITS

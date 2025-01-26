@@ -1,14 +1,14 @@
-= The ModSpec Model OGC Policy
+= The ModSpec Model: OGC Policy
 :doctype: draft policy
-:docsubtype: logical-model
+:docsubtype: policy
 :status: Draft
 :committee: technical
 :docnumber: 24-xxx
 :edition: 1.1.0
-:received-date: 2025-01-01
+:received-date: 2025-01-27
 :issued-date: xxxx-xx-xx
 :published-date: xxxx-xx-xx
-:copyright-year: 2024
+:copyright-year: 2025
 :fullname: Carl Reed
 :role: editor
 :submitting-organizations: Carl Reed
@@ -19,11 +19,5 @@
 :data-uri-image:
 
 include::00-preface.adoc[]
-
-include::00-foreword.adoc[]
-
-include::01-scope.adoc[]
-
-include::02-conformance.adoc[]
 
 include::06-policy.adoc[]

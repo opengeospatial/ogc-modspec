@@ -1,22 +1,23 @@
 [[modspec-policy]]
 == ModSpec Policy Requirements
 
-The following requirement states that in OGC Standards development, the ModSpec model will be used.
+The following states requirements for the use of the ModSpec in OGC Standards development work and for structuring OGC Standards documents.
 
-[[req-01]]
-[requirement,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*REQ001* | */req/policy/conformance-with-modspec* +
-Any new OGC Standard, abstract specification that contains requirements, or major revision of an existing OGC Standard _SHALL_ comply with the requirements stated in the OGC ModSpec.
-|===
+The following states that for any OGC Standards development, the ModSpec model will be used.
 
-Any OGC Standards document will specify the standardization goal.
+- Any new OGC Standard, abstract specification containing requirements, or major revision of an existing OGC Standard _SHALL_ comply with the requirements stated in the OGC ModSpec Core Standard and relevent Parts.
 
-[[req-02]]
-[requirement,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*REQ002* | */req/policy/standardization-goal* +
-Any new OGC Standard, abstract specification that contains requirements, or major revision of an existing OGC Standard _SHALL_ clearly state the stanrdization goal for the standard or abstract specification. This statement _SHOULD_ be in the `Abstract` or `Scope` clauses of the standard.
-|===
+Any OGC Standards document must specify a standardization goal.
+
+- Any new OGC Standard, abstract specification containing requirements, or major revision of an existing OGC Standard _SHALL_ clearly state the standardization goal for the standard or abstract specification. This statement _SHOULD_ be in the `Abstract` or `Scope` clauses of the standard.
+
+OGC Standards documents must be written using an official OGC template
+
+- All OGC Standards documents _SHALL_ be written using the OGC Member approved template. This document template _SHALL_ be conformant with the requirements stated in the ModSpec
+
+All OGC Implementation Standards must have an Abstract Test Suite. Please note that in the ModSpec, the correct terminology is Conformance Test Suite. However, to be consistent with OGC usage over the last 15 years and to be consistent with the template, the term used is Abstract Test Suite.
+
+- All OGC Implementation Standards documents _SHALL_ have an Abstract Test Suite (Conformance Test Suite) document in Annex A of the stadnards document. This Annex _SHALL_ be designated as `normative`
+
+
+
