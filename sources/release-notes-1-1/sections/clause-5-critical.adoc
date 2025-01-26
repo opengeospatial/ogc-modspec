@@ -3,7 +3,7 @@
 
 There are four (3) critical changes in the ModSpec: Core Standard. None of these chnages affect backwards compatibility.
 
-=== Critcal Chnage 1: ModSpec 1.1 is not OGC Policy. 
+=== Critcal Change 1: ModSpec 1.1 is not OGC Policy. 
 
 The decision was made to not have the OGC ModSpec: Core as an OGC Policy Document. The reason is that the ModSpec should be useable by and Standards organization and not just the OGC. Instead:
 
@@ -46,3 +46,11 @@ In Version 1.1 of the ModSpec, by no longer referring to the ModSpec as a Policy
 This change, applied to the entire document, removes the ambiguity. The change was applied consistently throughout Version 1.1. 
 
 This is GitHub issue 10.
+
+=== Critical Change 5: What is a Requirements Module?
+
+In the ModSpec Version 1.0 there is a logical inconsistency related to the definitions, relationship, and modelling of requirements modules and requirements classes. In Version 1.0, a Requirements Class can be composed of one or more Requirements Modules and one or more Recommendations. However, multiple locations in the Vesion 1.0 document state that recommendations are not testable (Old Section 6.1 for example). This create a logical inconsistency as a Requirements Class is composed of requirements and recommendations but the wording of the conformance test class states that in order to be conformant that all elements of a requirements class must pass - but recommendations cannot be tested.
+
+So, given that most OGC Standards do not use Requirements Modules, then a straightforward solution is to swap Requirements Modules and Requirements classes in the hierarchy. As such, then a Requirements Module would consist of Requirements Classes, Recommendations, and Permissions. A Requirements Class would have no recommendations. Therefore, a Requirements Class would be testable.
+
+NOTE: CDB 2.0 does define Requirements Modules but based on the above proposed definition.
