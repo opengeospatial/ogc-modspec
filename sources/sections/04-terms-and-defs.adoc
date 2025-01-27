@@ -268,7 +268,7 @@ requirements that use "shall" imperatively.
 
 === requirements class
 
-aggregate of all {{requirements,requirement}} with a single standrdization target that
+aggregate of all {{requirement}} with a single standrdization target that
 must all be satisfied to pass a {{conformance test class}}
 
 NOTE: There is some confusion possible here, since the testing of indirect
@@ -279,15 +279,13 @@ relationship from the original target to something that has a property
 
 === requirements module
 
-collection of {{requirement class,requirements classes}}, 
-{{recommendation,recommendations}} and {{permission,permissions}} with a
+collection of {{requirement class}}, 
+{{recommendation}} and {{permission}} with a
 single {{standardization target}}
 
 === specification
 
-document containing {{recommendation,recommendations}},
-{{requirement,requirements}} and {{conformance test, conformance tests}} for
-those {{requirement,requirements}}
+document containing {{recommendation,recommendations}}, {{requirement,requirements}} and {{conformance test class,conformance tests}} 
 
 [NOTE]
 ====
@@ -322,7 +320,7 @@ NOTE: The standardization target is the entity which may receive a
 
 === standardization target type
 
-type of entity or set of entities to which the {{requirement,requirements}} of a {{standard}} apply
+type of entity or set of entities to which the {{requirement}} of a {{standard}} apply
 
 NOTE: For example, the standardization target type for The OGC API – Features Standard are Web APIs. The standardization target type for the CDB Standard is "datastore". It is important to understand that a standard's root standardization target type and can have sub-types and that there can be a hierarchy of target types. For example, a Web API can have sub types of client, server, security, and so forth. As such, each requirements class can have a standardization target type that is a sub-type of the root.
 
@@ -331,8 +329,8 @@ NOTE: For example, the standardization target type for The OGC API – Features 
 expression in a document conveying information
 
 NOTE: Includes all statements in a document not part of the normative
-{{requirement,requirements}}, {{recommendation,recommendations}} or
-{{conformance test, conformance tests}}. Included for completeness.
+{{requirement}}, {{recommendation}} or
+{{conformance test class,}}. Included for completeness.
 
 [.source]
 <<iso-dp2>>
