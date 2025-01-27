@@ -68,6 +68,7 @@ See <<Clause_Critical>> for more information on critical changes and
 | GitHub | 32 | A | 8.2.  The “standards” document | Removed confusing paragraphs after Req 7 and before Clause 8.3 | Clarity and shorten document.
 | Other | NA  | A | Requirement 14 | Removed Einstein reference - no impact. | Clarity
 | Other | NA  | A | Annex B | Re-wrote content to be consistent with Version 1.1 | Consistency
-| GitHub| 10  | A | Annex C - ogc-modspec.lutaml | Rewrote Specification/Standard description to be consistent with Critical Change 4
+| GitHub| 10  | A | Annex C - ogc-modspec.lutaml | Rewrote Specification/Standard description to be consistent with Critical Change 4 | Consistency
+| GitHub| 33  | A | Annex C - ogc-modspec.lutaml | Added examples of requirement, requirements class. | Clarity
 | Other | NA  | A | Bibliography | Update dates for documents | Consistency
 |=======================================================================
