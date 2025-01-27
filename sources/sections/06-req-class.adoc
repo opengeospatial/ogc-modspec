@@ -17,8 +17,6 @@ The following requirement states that every requirement is testable.
 [[req-1]]
 include::../requirements/core/REQ_testable.adoc[]
 
-This requirement states that every requirement is testable.
-
 [NOTE]
 ====
 This further means that failure to pass the test specified for a part of requirement is a
@@ -341,9 +339,6 @@ both are related (as described) to the same set of requirements.
 
 [[req-15]]
 include::../requirements/core/REQ_req-in-only-one-req-class.adoc[]
-
-Unless a requirement is referenced in a conformance test and thus in a conformance
-class, it cannot be considered a requirement since no test has been defined for it.
 
 Unless a requirement is referenced in a conformance test and thus in a conformance
 class, it cannot be considered a requirement since no test has been defined for it.
