@@ -26,7 +26,7 @@ This is GitHub issue 36.
 
 === Critical Change 3: ModSpec Permissions and Recommendations clearly identified
 
-In the ModSpec version 1.0, permissions and recommendations were embedded in the general text and were not specifically highlighted. Further. the concept permission was not defined. In the ModSpec version 1.1, the concept `permission` is defined. Further, all permissions and recommendation are extracted from the general text and placed in tables as per the Metanorma template. Further, all permissions and recommendations are bookmarked for easier navigation.
+In the ModSpec version 1.0, permissions and recommendations were embedded in the general text and were not specifically highlighted. In version 1.0 the concept permission was not defined. In the ModSpec version 1.1, the concept `permission` is defined. In version 1.1, all permissions and recommendation are extracted from the general text and placed in tables as per the Metanorma template. Finally, all permissions and recommendations are bookmarked for easier navigation.
 
 This is GitHub issue 34.
 
@@ -35,7 +35,6 @@ This is GitHub issue 34.
 In the ModSpec Version 1.0 there is a short paragraph:
 
 `In this standard, other documents which may be standards but are being tested for conformance to this standard are referred to as “specifications.” The purpose of this linguistic artifact is to prevent confusion between this standard and the standardization targets of its requirements.`However, this artifact is inconsistently implemented in the current document. Sometimes specification is used when the term should be standard and visa-versa
-
 
 There were two main issues with this statement:
 
