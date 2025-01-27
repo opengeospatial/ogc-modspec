@@ -53,14 +53,6 @@ So, given that most OGC Standards do not use Requirements Modules, then a straig
 
 NOTE: CDB 2.0 does define Requirements Modules but based on the above proposed definition.
 
-[[fig-1]]
-.ModSpec V 1.0 Model for class/module relationship 
-image::../../images/old-UML-model.jpg[]
-
-[[fig-2]]
-.ModSpec V 1.1 Model for module/class relationship 
-image::../../images/new-UML-model.jpg[]
-
 === Critical Change 6: Standardization Goal
 
 In considering the roles of `standardization target` and `standardization` target types`, the contribritors noticed 
@@ -68,6 +60,6 @@ that there is no requirement to state what the `goal` (problem to be addressed) 
 context for `standardization target` and `standardization` target types`. This is a concise statement of the problem that 
 the standard helps address and the strategy envisioned for achieving a solution.
 
-A clause stating this requirement is in the ModSpec v 1.1 in the Fundamentals clause. All new OGC Standards and revisions to exisitng OGC Standards _SHALL_
-contain a statement of the Standrdization Goal.
+A clause stating this requirement is in the ModSpec v 1.1 in the Fundamentals clause. All new OGC Standards and revisions to exisitng OGC Standards _SHOULD_
+contain a statement of the Standardization Goal.
 
