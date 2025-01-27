@@ -268,7 +268,7 @@ requirements that use "shall" imperatively.
 
 === requirements class
 
-aggregate of all {{requirement}} with a single standrdization target that
+aggregate of all {{requirement,requirements}} with a single standrdization target that
 must all be satisfied to pass a {{conformance test class}}
 
 NOTE: There is some confusion possible here, since the testing of indirect
@@ -279,8 +279,7 @@ relationship from the original target to something that has a property
 
 === requirements module
 
-collection of {{requirement class}}, 
-{{recommendation}} and {{permission}} with a
+collection of {{requirement class,requirements classes}},  {{recommendation,recommendations}} and {{permission.permissions}} with a
 single {{standardization target}}
 
 === specification
@@ -329,8 +328,8 @@ NOTE: For example, the standardization target type for The OGC API – Features 
 expression in a document conveying information
 
 NOTE: Includes all statements in a document not part of the normative
-{{requirement}}, {{recommendation}} or
-{{conformance test class,}}. Included for completeness.
+{{requirement,requirements}}, {{recommendation, recommendations}} or
+{{conformance test class,conformance tests}}. Included for completeness.
 
 [.source]
 <<iso-dp2>>
