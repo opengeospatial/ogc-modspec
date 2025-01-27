@@ -34,16 +34,15 @@ This is GitHub issue 34.
 
 In the ModSpec Version 1.0 there is a short paragraph:
 
-`In this standard, other documents which may be standards but are being tested for conformance to this standard are referred to as “specifications.” The purpose of this linguistic artifact is to prevent confusion between this standard and the standardization targets of its requirements.`
+`In this standard, other documents which may be standards but are being tested for conformance to this standard are referred to as “specifications.” The purpose of this linguistic artifact is to prevent confusion between this standard and the standardization targets of its requirements.`However, this artifact is inconsistently implemented in the current document. Sometimes specification is used when the term should be standard and visa-versa
+
 
 There were two main issues with this statement:
 
 - The statement is confusing and to an extent artificial;
-- This "artifact" was not consistently applied in Version 1. The editors went back and forth and often, despite the rule, intermixed the terms causes confusion.
+- Ihis artifact is inconsistently implemented in the ModSpec Version 1.0. Sometimes specification is used when the term should be standard and visa-versa, causing confusion.
 
-In Version 1.1 of the ModSpec, by no longer referring to the ModSpec as a Policy, we can instead refer to the ModSpec as Standard for writing modular standards. Further, we can reference documents that will become standards as standards or draft standard. Finally, the ModSpec document itself is referred to as the ModSpec and not a policy or standard.
-
-This change, applied to the entire document, removes the ambiguity. The change was applied consistently throughout Version 1.1. 
+For the ModSpec Version 1.1 revision, clearly states that the ModSpec is indeed a standard for writing/structuring standards. However, the wording “this document” or “the ModSpec” is used throughout the document to avoid confusion. As appropriate, all instances of “specification” are changed to “standard”. The change was applied consistently throughout Version 1.1.
 
 This is GitHub issue 10.
 
