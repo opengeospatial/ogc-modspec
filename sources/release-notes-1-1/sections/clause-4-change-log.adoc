@@ -53,6 +53,7 @@ See <<Clause_Critical>> for more information on critical changes and
 | GitHub | 15  | A | References | Updated dates | Provide references to most recent versions of each of the referenced standards.
 | GitHub| 45  | A | Terms & Defs | Added `building block` | Needed concept `building block` definition for OGC wide use.
 | GitHub| 34  | A | Terms & Defs | Added `permission` | Was a note but should be a separate T&D
+| Other| NA  | A | Terms & Defs | Added `module` | Never defined in ModSpec v 1.0!
 | Other| NA  | A | Terms & Defs | Added `will` | Defined in old ModSpec body but should be a separate T&D
 | Other| NA  | A | Terms & Defs | Removed notes as appropriate | Removed Note from Abstract Model, Profile, and Standard. Not needed
 | Other | NA  | A | Conventions | 6.2. Identifiers | Updated for 1.1
