@@ -15,3 +15,5 @@ of normative reference in <<cls-3>>.
 * [[[w3c-xml-part2,W3C xmlschema11-2]]], XML Schema 1.1 Part 2: Datatypes, April 2012, available from W3C at http://www.w3.org/TR/xmlschema11-2/
 
 * [[[iso10000,ISO/IEC TR 10000]]], ISO/IEC TR 10000: Information Technology -- Framework and taxonomy of International Standardized Profiles
+
+*	Pyle, I. C., Dictionary of Computing, 4th Edition, Oxford: Oxford University Press. Current edition 8th 2008
