@@ -53,3 +53,11 @@ In the ModSpec Version 1.0 there is a logical inconsistency related to the defin
 So, given that most OGC Standards do not use Requirements Modules, then a straightforward solution is to swap Requirements Modules and Requirements classes in the hierarchy. As such, then a Requirements Module would consist of Requirements Classes, Recommendations, and Permissions. A Requirements Class would have no recommendations. Therefore, a Requirements Class would be testable.
 
 NOTE: CDB 2.0 does define Requirements Modules but based on the above proposed definition.
+
+[[fig-1]]
+.ModSpec V 1.0 Model for class/module relationship 
+image::../images/old-UML-model.jpg[]
+
+[[fig-2]]
+.ModSpec V 1.1 Model for module/class relationship 
+image::../images/new-UML-model.jpg[]
