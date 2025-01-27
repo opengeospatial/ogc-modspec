@@ -1,7 +1,10 @@
 [.preface]
 == Preface
 
-This OGC member developed and approved document, referred to as the `ModSpec`, defines a model and related requirements and recommendations for writing and structuring modular standards documents. Further, this model is designed to enable the consistent and verifiable testing of implementations of a standard that claim conformance.
+This OGC member developed and approved document, referred to as the `ModSpec`, defines a model and related requirements 
+and recommendations for writing and structuring modular standards documents. Further, this model is designed to enable 
+the consistent and verifiable testing of implementations of a standard that claim conformance. The ModSpec is a meta-standard: 
+A standard specifying requirements for crafting and documenting testable standards. 
 
 The goal is to ensure that a standard specifies requirements in a common and consistent manner and that these requirements are testable.
 
