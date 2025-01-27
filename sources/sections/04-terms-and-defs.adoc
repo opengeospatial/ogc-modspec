@@ -279,7 +279,7 @@ relationship from the original target to something that has a property
 
 === requirements module
 
-collection of {{requirement class,requirements classes}},  {{recommendation,recommendations}} and {{permission.permissions}} with a
+collection of {{requirements class,requirements classes}},  {{recommendation,recommendations}} and {{permission,permissions}} with a
 single {{standardization target}}
 
 === specification
@@ -295,7 +295,7 @@ This definition is included for completeness.
 ====
 In the OGC, there are Abstract Specifications and Implementation Standards. Abstract Specifications may or may not be
 testable. Further, Abstract Specifications may not be directly implementable.
-Implementatins Standards are always testable and contain a {{conformance test suite}}.
+Implementation Standards are always testable and contain a {{conformance test suite}}.
 ====
 
 === standard
