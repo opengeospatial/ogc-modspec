@@ -183,10 +183,10 @@ set of logical and quantitative relationships between them.
 
 === module
 
-one of a set of separate parts that can be joined together to form a larger object
+each of a set of standardized parts or independent units that can be used to construct a more complex structure
 
 [.source]
-Cambridge Dictionary
+Dictionary of Computing, 4th Edition 2008
 
 === optional requirements class
 
