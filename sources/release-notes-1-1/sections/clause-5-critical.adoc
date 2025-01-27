@@ -56,7 +56,7 @@ NOTE: CDB 2.0 does define Requirements Modules but based on the above proposed d
 
 [[fig-1]]
 .ModSpec V 1.0 Model for class/module relationship 
-image::../../imagesold-UML-model.jpg[]
+image::../../images/old-UML-model.jpg[]
 
 [[fig-2]]
 .ModSpec V 1.1 Model for module/class relationship 
