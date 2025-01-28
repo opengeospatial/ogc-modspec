@@ -6,12 +6,6 @@ The following requirements specify the rules for the content and structure of a 
 
 [[cls-8-1]]
 
-include::../requirements/core/REQ_standardization-goal.adoc[]
-
-include::../requirements/core/REQ_standardization-target-type.adoc[]
-
-NOTE: These two requirements establish the context and scope of this Standard. Additional informative text would be useful.  
-
 The following requirement states that every requirement is testable.
 
 [[req-1]]
