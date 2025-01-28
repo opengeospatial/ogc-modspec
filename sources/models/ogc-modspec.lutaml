@@ -36,13 +36,12 @@ diagram OGCModSpec {
 
   class ConformanceSuite {
     definition {
-      The unique conformance suite of a standard lists the tests (possibly grouped
-      into conformance test modules consisting of some number of conformance
-      test classes, each containing some number of conformance tests) that allow
-      testing of an implementation of the standard for conformance with the
+      The unique conformance suite of a standard provides the tests grouped
+      into conformance test classes consisting of some number of conformance
+      tests that allow testing of an implementation of the standard for conformance with the
       requirements stated in the standard. Every standard needs one of these suites, or
-      conformance cannot be claimed with proof. In ISO and the OGC, the conformance
-      suite included in the standard is usually an abstract description of
+      conformance cannot be claimed with proof. In the OGC, the conformance
+      suite (knowns as the Abstract Test Suite) included in the standard is usually an abstract description of
       the tests which will be implemented. Other standards may use a more
       concrete description. For the purposes of the ModSpec, the precise
       nature of the conformance suite is not particularly important as long as
@@ -63,8 +62,8 @@ diagram OGCModSpec {
   class ConformanceClass {
     definition {
       The requirements in the requirements classes of a standard must be
-      tested and the conformance classes are the containers for these tests’
-      definition. The requirements classes may have interdependencies, and this
+      tested and the conformance classes are the containers for definition of these tests. 
+      The requirements classes may have interdependencies, and this
       is reflected in the explicit dependencies between the conformance classes.
       If class "a" is dependent on class "b", then to pass the test for "a" a
       standardization target must also pass the test for "b." The class name is
@@ -127,7 +126,7 @@ diagram OGCModSpec {
       A requirements module (usually realized as groups of one or more
       requirements classes in the standard) group the
       requirements and recommendations in the standard in a manner consistent with the
-      conformance test modules.
+      conformance test modules with a single standardization target.
     }
 
     name: String {
@@ -232,7 +231,7 @@ diagram OGCModSpec {
 
   class ConformanceTest {
     definition {
-      A conformance test aims to satisfy a requirement and can potentially
+      A conformance test aims to test a requirement and can potentially
       contain multiple test methods.
     }
     abstract: Boolean {
