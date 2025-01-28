@@ -9,7 +9,7 @@ The following states that for any OGC Standards development, the ModSpec model w
 
 Any OGC Standards document must specify a standardization goal.
 
-- Any new OGC Standard, abstract specification containing requirements, or major revision of an existing OGC Standard _SHALL_ clearly state the standardization goal for the standard or abstract specification. This statement _SHOULD_ be in the `Abstract` or `Scope` clauses of the standard.
+- Any new OGC Standard, abstract specification containing requirements, or major revision of an existing OGC Standard _SHALL_ clearly state the standardization goal for the standard or abstract specification. This statement _SHOULD_ be in the `Abstract` or `Scope` clauses of the standard. Please note that a Standard's stated goal drove the original development of the standard. However, other uses of a standard or elements of the standard are not precluded.
 
 OGC Standards documents must be written using an official OGC template
 
