@@ -1,0 +1,8 @@
+[[req_requirements-test-suite-structure]]
+
+[requirement]
+====
+[%metadata]
+identifier:: /req/core/requirements-test-suite-structure
+part:: The requirements structure of the document SHALL be in a logical correspondence to the test suite structure.
+====

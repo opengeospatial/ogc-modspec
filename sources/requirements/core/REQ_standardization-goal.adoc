@@ -1,0 +1,8 @@
+[[req_standardization-goal]]
+
+[requirement]
+====
+[%metadata]
+identifier:: /req/core/standardization-goal
+part:: A standard SHALL state the goal of this standardization effort.
+====

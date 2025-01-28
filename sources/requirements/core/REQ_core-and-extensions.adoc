@@ -1,0 +1,8 @@
+[[req_core-and-extensions]]
+
+[requirement]
+====
+[%metadata]
+identifier:: /req/core/core-and-extensions
+part:: Each standard conformant to the ModSpec SHALL consist of the core and some number of requirements classes defined as extensions to that core.
+====

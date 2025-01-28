@@ -1,0 +1,8 @@
+[[req_test-class-single-standardization-target]]
+
+[requirement]
+====
+[%metadata]
+identifier:: /req/core/test-class-single-standardization-target
+part:: All conformance tests in a single conformance test class in a conformant standard SHALL have the same standardization target.
+====

@@ -1,5 +1,5 @@
 <bibdata type="standard" schema-version="v1.2.8">
-  <fetched>2024-11-21</fetched>
+  <fetched>2025-01-27</fetched>
   <title format="text/plain">W3C XML Schema Definition Language (XSD) 1.1 Part 1: Structures</title>
   <uri type="src">http://www.w3.org/TR/xmlschema11-1/</uri>
   <docidentifier type="W3C" primary="true">W3C xmlschema11-1</docidentifier>
@@ -98,7 +98,4 @@
     <title format="text/plain">W3C WD</title>
     <number>xmlschema11-1</number>
   </series>
-  <ext schema-version="v1.0.0">
-    <doctype>technicalReport</doctype>
-  </ext>
 </bibdata>

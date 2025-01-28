@@ -1,5 +1,5 @@
 <bibdata type="standard" schema-version="v1.2.8">
-  <fetched>2024-11-21</fetched>
+  <fetched>2025-01-27</fetched>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
   <title type="title-main" format="text/plain" language="en" script="Latn">Database languages</title>
   <title type="title-part" format="text/plain" language="en" script="Latn">SQL multimedia and application packages -- Part 3: Spatial</title>
@@ -69,17 +69,4 @@ Implementations of ISO/IEC 13249-3:2006 may exist in environments that also supp
     </bibitem>
   </relation>
   <place>Geneva</place>
-  <ext schema-version="v1.0.0">
-    <doctype>international-standard</doctype>
-    <editorialgroup>
-      <technical-committee number="1" type="IEC" identifier="ISO/IEC JTC 1/SC 32">Data management and interchange</technical-committee>
-    </editorialgroup>
-    <ics>
-      <code>35.060</code>
-      <text>Languages used in information technology</text>
-    </ics>
-    <structuredidentifier type="ISO">
-      <project-number part="3">ISO 13249</project-number>
-    </structuredidentifier>
-  </ext>
 </bibdata>

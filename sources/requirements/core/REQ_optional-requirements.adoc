@@ -1,0 +1,8 @@
+[[req_optional-requirements]]
+
+[requirement]
+====
+[%metadata]
+identifier:: /req/core/optional-requirements
+part:: The only conditional requirements acceptable in a standard conformant with the ModSpec SHALL be expressible as a list of conformance classes to be passed.
+====

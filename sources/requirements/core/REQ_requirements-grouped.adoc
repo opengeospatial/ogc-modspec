@@ -1,0 +1,8 @@
+[[req_requirements-grouped]]
+
+[requirement]
+====
+[%metadata]
+identifier:: /req/core/requirements-grouped
+part:: Requirements SHALL be grouped together in clauses (numbered sections) of the document in a strictly hierarchical manner, consistent with requirements classes.
+====

@@ -1,0 +1,8 @@
+[[req_requirements-and-dependencies]]
+
+[requirement]
+====
+[%metadata]
+identifier:: /req/core/requirements-and-dependencies
+part:: No requirements class SHALL redefine the requirements of its dependencies, unless that redefinition is for an entity derived from but not contained in those dependencies.
+====

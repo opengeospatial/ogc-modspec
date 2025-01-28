@@ -1,0 +1,8 @@
+[[req_req-class-overlap-by-reference]]
+
+[requirement]
+====
+[%metadata]
+identifier:: /req/core/req-class-overlap-by-reference
+part:: The common portion of any two requirements classes SHALL consist only of references to other requirements classes.
+====

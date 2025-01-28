@@ -1,5 +1,5 @@
 <bibdata type="standard" schema-version="v1.2.8">
-  <fetched>2024-11-21</fetched>
+  <fetched>2025-01-27</fetched>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
   <title type="title-main" format="text/plain" language="en" script="Latn">Document Schema Definition Languages (DSDL)</title>
   <title type="title-part" format="text/plain" language="en" script="Latn">Part 3: Rule-based validation — Schematron</title>
@@ -63,17 +63,4 @@ ISO/IEC 19757-3:2006 specifies Schematron, a rules-based schema language for XML
     </bibitem>
   </relation>
   <place>Geneva</place>
-  <ext schema-version="v1.0.0">
-    <doctype>international-standard</doctype>
-    <editorialgroup>
-      <technical-committee number="1" type="IEC" identifier="ISO/IEC JTC 1/SC 34">Document description and processing languages</technical-committee>
-    </editorialgroup>
-    <ics>
-      <code>35.240.30</code>
-      <text>IT applications in information, documentation and publishing</text>
-    </ics>
-    <structuredidentifier type="ISO">
-      <project-number part="3">ISO 19757</project-number>
-    </structuredidentifier>
-  </ext>
 </bibdata>
