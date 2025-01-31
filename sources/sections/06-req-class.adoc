@@ -2,26 +2,37 @@
 
 == ModSpec Requirements Class: Core
 
-The following requirements specify the rules for the content and structure of a modular standard. These requirements are also known as the `core` of the ModSpec.
+The following requirements specify the rules for the content and structure of a modular standard. 
+These requirements are also known as the `core` of the ModSpec. All the requirements specified in the ModSpec core 
+comprise the ModSpec Core Requirements Class. 
+
+The following requirement states that every requirement in a standards document is associated with one or more requirements class(es).
+[[req-0]]
+[[/req/core/reqs-are-in-class]]
+[width="90%",cols="2,6a"]
+|===
+^|*Requirement 0* |*/req/core/reqs-are-in-class*
+^|A |Each requirement in a standard _SHALL_ be associated with a requirements class.
+|===
+
+There may be one or more requirements in a requirements class. 
 
 [[cls-8-1]]
-
-include::../requirements/core/REQ_standardization-goal.adoc[]
-
-include::../requirements/core/REQ_standardization-target-type.adoc[]
-
-NOTE: These two requirements establish the context and scope of this Standard. Additional informative text would be useful.  
 
 The following requirement states that every requirement is testable.
 
 [[req-1]]
-include::../requirements/core/REQ_testable.adoc[]
+[[/req/core/reqs-are-testable]]
+[width="90%",cols="2,6a"]
+|===
+^|*Requirement 1* |*/req/core/reqs-are-testable*
+^|A |All parts of a requirement _SHALL_ be testable. 
+^|B |Failure to pass any part of a requirement _SHALL_ be a failure to pass the associated conformance test.
+|===
 
-[NOTE]
-====
-This further means that failure to pass the test specified for a part of requirement is a
-failure to pass the requirement.
-====
+Therefore, by definition, any requirements class that contains the requirement that failed to pass also fails to pass.
+
+The following requirement states that every component of a standard will have a unique identifier
 
 [[req-2]]
 include::../requirements/core/REQ_assigned-uri.adoc[]
