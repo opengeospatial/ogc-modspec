@@ -3,7 +3,7 @@
 
 The following states requirements for the use of the ModSpec in OGC Standards development work and for structuring OGC Standards documents.
 
-The following states that for any OGC Standards development, the ModSpec model will be used.
+The following states that for any OGC Standards development, the ModSpec model shall be used.
 
 - Any new OGC Standard, revision to an existing OGC Standard, new abstract specification that has requirements, or revision to an existing abstract specification that has requirements _SHALL_ comply with the requirements stated in the OGC ModSpec Core Standard and relevant Parts.
 
@@ -21,6 +21,11 @@ OGC Standards documents must be written using an official OGC template
 All OGC Implementation Standards must have an Abstract Test Suite. Please note that in the ModSpec, the correct terminology is Conformance Test Suite. However, to be consistent with OGC usage over the last 15 years and to be consistent with the template, the term used is Abstract Test Suite.
 
 - All OGC Implementation Standards documents _SHALL_ have an Abstract Test Suite (Conformance Test Suite) document in Annex A of the standards document. This Annex _SHALL_ be designated as `normative`
+
+The following is a restricted profile of ModSpec Requirement 2 regarding uniquely identifying every component of a standard.
+
+- Each component of the standard, including requirements, requirements modules, requirements classes, conformance test, conformance modules, 
+and conformance test classes _SHALL_ be assigned a unique URI. These URIs _SHALL_ be conformant with the policies of the OGC Naming Authority.
 
 
 
