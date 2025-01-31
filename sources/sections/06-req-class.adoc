@@ -104,7 +104,7 @@ The following states how and where vocabularies are specified in relation to a r
 [width="90%",cols="2,6a"]
 |===
 ^|*Requirement 3* |*/req/core/vocabulary-and-parent-req-class*
-^|A |Requirements on the use and interpretation of vocabulary SHALL be in the requirements class where that use or interpretation is used.
+^|A |Requirements on the use and interpretation of vocabulary _SHALL_ be in the requirements class where that use or interpretation is used.
 |===
 
 [[per-4]]
