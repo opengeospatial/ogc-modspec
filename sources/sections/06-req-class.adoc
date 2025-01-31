@@ -141,12 +141,6 @@ completeness, they should also specify the conformance tests for these requireme
 that are to be run for validation of the implementations against those
 requirements.
 
-NOTE: This "test suite" specification is a requirement for
-ISO and for OGC, but is often ignored in less formal standardization efforts. In such
-cases, if there exists a "validation authority" for conformance, they must interpret
-the requirements to be tested possibly separated from the authors of the
-standard, leading to issues of separate interpretations of the same standard.
-
 The assumption is that each standard has a single
 (root) standardization target type from which all extensions inherit. If this is not
 true, then the standard can be logically factored into parts each corresponding
