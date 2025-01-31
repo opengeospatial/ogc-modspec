@@ -98,7 +98,7 @@ conformance claim, then the service may return an error message text stating tha
 requested operation is part of a non-supported extension.
 |===
 
-The following states how and where vocabularies are specified in relation to a requirement or requirements class.
+The following states how and where vocabularies are specified in relation to a requirements class.
 
 [[req-3]]
 [width="90%",cols="2,6a"]
