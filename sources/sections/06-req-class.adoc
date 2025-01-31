@@ -2,9 +2,12 @@
 
 == ModSpec Requirements Class: Core
 
-The following requirements specify the rules for the content and structure of a modular standard. 
-These requirements are also known as the `core` of the ModSpec. All the requirements specified in the ModSpec core 
-comprise the ModSpec Core Requirements Class. 
+This clause specifies the requirements and recommendations for the content and structure of a modular standard. 
+This collection of requirements, recommendations, and permissions are also known as the `core` of the ModSpec. 
+All the requirements specified in this ModSpec core comprise the ModSpec Core Requirements Class. 
+
+[[cls-8-1]]
+=== General Requirements
 
 The following requirement states that every requirement in a standards document is associated with one or more requirements class(es).
 
@@ -16,8 +19,6 @@ The following requirement states that every requirement in a standards document 
 |===
 
 There may be one or more requirements in a requirements class. 
-
-[[cls-8-1]]
 
 The following requirement states that every requirement is testable.
 
@@ -38,10 +39,10 @@ The following requirement states that every component of a standard will have a 
 |===
 ^|*Requirement 2* |*/req/core/all-components-assigned-unique-identifier*
 ^|A |Each component of the standard, including requirements, requirements modules, requirements classes, 
-conformance test, conformance modules, and conformance test classes _SHALL_ be assigned a unique identifer.
+conformance test, conformance modules, and conformance test classes _SHALL_ be assigned a unique identifer or label.
 |===
 
-The following recommendation encourages the consistent use of these unique identifiers in the standard 
+The following recommendation encourages the consistent use of these unique identifiers/labels in the standard 
 as well as any external documentation referencing that standard.
 
 [[rec-1]]
@@ -49,7 +50,7 @@ as well as any external documentation referencing that standard.
 [width="90%",cols="2,6"]
 |===
 |*REC001* | */req/core/uri-external-use* +
-These unique identifiers _SHOULD_ be used in any external documentation that reference
+These unique identifiers/labels _SHOULD_ be used in any external documentation that reference
 these component elements in a normative manner, including but not limited to other
 standards, implementations of the conformance test suite, or certificates of
 conformance for implementations conformant to the standard in question.
@@ -100,14 +101,18 @@ requested operation is part of a non-supported extension.
 The following states how and where vocabularies are specified in relation to a requirement or requirements class.
 
 [[req-3]]
-include::../requirements/core/REQ_vocabulary.adoc[]
+[width="90%",cols="2,6a"]
+|===
+^|*Requirement 3* |*/req/core/vocabulary-and-parent-req-class*
+^|A |Requirements on the use and interpretation of vocabulary SHALL be in the requirements class where that use or interpretation is used.
+|===
 
 [[per-4]]
 [permission,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
 |*PER004* | */per/core/external-vocabs-core* +
-Importation of external vocabularies and schemas _MAY_ be in the core.
+Importation of external vocabularies and schemas _MAY_ be in the core of a standard.
 |===
 
 [example]
