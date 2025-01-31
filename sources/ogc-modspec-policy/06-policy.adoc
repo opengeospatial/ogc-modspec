@@ -17,7 +17,7 @@ OGC Standards documents must be written using an official OGC template
 
 All OGC Implementation Standards must have an Abstract Test Suite. Please note that in the ModSpec, the correct terminology is Conformance Test Suite. However, to be consistent with OGC usage over the last 15 years and to be consistent with the template, the term used is Abstract Test Suite.
 
-- All OGC Implementation Standards documents _SHALL_ have an Abstract Test Suite (Conformance Test Suite) document in Annex A of the stadnards document. This Annex _SHALL_ be designated as `normative`
+- All OGC Implementation Standards documents _SHALL_ have an Abstract Test Suite (Conformance Test Suite) document in Annex A of the standards document. This Annex _SHALL_ be designated as `normative`
 
 
 
