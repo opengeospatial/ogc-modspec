@@ -86,18 +86,6 @@ The core _MAY_ contain the definition and schema of commonly used terms and data
 structures for use in other components and/or structures throughout the standard.
 |===
 
-[[per-3]]
-[permission,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*PER003* | */per/core/core-names-of-operations* +
-The core _MAY_ include the list of the names of all operations and operation parameters
-to be used in any request-response pairs defined in any conformance class of the
-standard. If a service receives a request that is not supported in its
-conformance claim, then the service may return an error message text stating that the
-requested operation is part of a non-supported extension.
-|===
-
 The following states how and where vocabularies are specified in relation to a requirements class.
 
 [[req-3]]
