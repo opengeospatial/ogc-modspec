@@ -9,17 +9,6 @@ All the requirements specified in this ModSpec core comprise the ModSpec Core Re
 [[cls-8-1]]
 === General Requirements
 
-The following requirement states that every requirement in a standards document is associated with one or more requirements class(es).
-
-[[req-0]]
-[width="90%",cols="2,6a"]
-|===
-^|*Requirement 0* |*/req/core/reqs-are-in-class*
-^|A |Each requirement in a standard _SHALL_ be associated with a requirements class.
-|===
-
-There may be one or more requirements in a requirements class. 
-
 The following requirement states that every requirement is testable.
 
 [[req-1]]
