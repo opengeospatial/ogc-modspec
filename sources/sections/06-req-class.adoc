@@ -2,33 +2,44 @@
 
 == ModSpec Requirements Class: Core
 
-The following requirements specify the rules for the content and structure of a modular standard. These requirements are also known as the `core` of the ModSpec.
+This clause specifies the requirements and recommendations for the content and structure of a modular standard. 
+This collection of requirements, recommendations, and permissions are also known as the `core` of the ModSpec. 
+All the requirements specified in this ModSpec core comprise the ModSpec Core Requirements Class. 
 
 [[cls-8-1]]
+=== General Requirements
 
 The following requirement states that every requirement is testable.
 
 [[req-1]]
-include::../requirements/core/REQ_testable.adoc[]
+[width="90%",cols="2,6a"]
+|===
+^|*Requirement 1* |*/req/core/reqs-are-testable*
+^|A |All parts of a requirement _SHALL_ be testable. 
+^|B |Failure to pass any part of a requirement _SHALL_ be a failure to pass the associated conformance test.
+|===
 
-[NOTE]
-====
-This further means that failure to pass the test specified for a part of requirement is a
-failure to pass the requirement.
-====
+Therefore, by definition, any requirements class that contains the requirement that failed to pass also fails to pass.
+
+The following requirement states that every component of a standard will have a unique identifier
 
 [[req-2]]
-include::../requirements/core/REQ_assigned-uri.adoc[]
+[width="90%",cols="2,6a"]
+|===
+^|*Requirement 2* |*/req/core/all-components-assigned-unique-identifier*
+^|A |Each component of the standard, including requirements, requirements modules, requirements classes, 
+conformance test, conformance modules, and conformance test classes _SHALL_ be assigned a unique identifer or label.
+|===
 
-NOTE: In the OGC, the enforcement of this requirement and its associated recommendation is the purview of
-the OGC Naming Authority or its equivalents.
+The following recommendation encourages the consistent use of these unique identifiers/labels in the standard 
+as well as any external documentation referencing that standard.
 
 [[rec-1]]
 [recommendation,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
 |*REC001* | */req/core/uri-external-use* +
-These URI identities _SHOULD_ be used in any external documentation that reference
+These unique identifiers/labels _SHOULD_ be used in any external documentation that reference
 these component elements in a normative manner, including but not limited to other
 standards, implementations of the conformance test suite, or certificates of
 conformance for implementations conformant to the standard in question.
@@ -45,12 +56,12 @@ The following permissions relate to possible content specified in the core of a 
 |===
 |*PER001* | */per/core/informational-content-in-core* +
 The informational and structural universals of the standard _MAY_ be included in the
-core text and its associated models without violations of the ModSpec. This is
+core text of the standard without violations of the ModSpec. This is
 true if the requirements of the extension are not implicit in what is
 included in the core.
 |===
 
-In this manner, the core requirements class and its associated contents can be
+In this manner, the core requirements class and its associated content can be
 thought of not only as the requirements of the core conformance class, but as a form
 of reference model for establishing core vocabularies and schemas for the entire
 standard.
@@ -61,32 +72,24 @@ standard.
 |===
 |*PER002* | */per/core/core-may-contain-schema-terms* +
 The core _MAY_ contain the definition and schema of commonly used terms and data
-structures for use in other structures throughout the standard.
+structures for use in other components and/or structures throughout the standard.
 |===
 
-[[per-3]]
-[permission,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*PER003* | */per/core/core-names-of-operations* +
-This may include the list of the names of all operations and operation parameters
-to be used in any request-response pairs defined in any conformance class of the
-standard. If a service receives a request that is not supported in its
-conformance claim, then the service may return an error message text stating that the
-requested operation is part of a non-supported extension.
-|===
-
-The following states how and where vocabularies are specified in relation to a requirement or requirements class.
+The following states how and where vocabularies are specified in relation to a requirements class.
 
 [[req-3]]
-include::../requirements/core/REQ_vocabulary.adoc[]
+[width="90%",cols="2,6a"]
+|===
+^|*Requirement 3* |*/req/core/vocabulary-and-parent-req-class*
+^|A |Requirements on the use and interpretation of vocabulary _SHALL_ be in the requirements class where that use or interpretation is used.
+|===
 
 [[per-4]]
 [permission,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
 |*PER004* | */per/core/external-vocabs-core* +
-Importation of external vocabularies and schemas _MAY_ be in the core.
+Importation of external vocabularies and schemas _MAY_ be in the core of a standard.
 |===
 
 [example]
@@ -114,12 +117,6 @@ model of an implementation of the standard (the standardization target). For
 completeness, they should also specify the conformance tests for these requirements
 that are to be run for validation of the implementations against those
 requirements.
-
-NOTE: This "test suite" specification is a requirement for
-ISO and for OGC, but is often ignored in less formal standardization efforts. In such
-cases, if there exists a "validation authority" for conformance, they must interpret
-the requirements to be tested possibly separated from the authors of the
-standard, leading to issues of separate interpretations of the same standard.
 
 The assumption is that each standard has a single
 (root) standardization target type from which all extensions inherit. If this is not
