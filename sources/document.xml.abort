@@ -656,72 +656,99 @@ legitimate standards organization.</p>
 not requirements, but explain the consequence of requirements.</p></verbal-definition></definition>
  </term>
 
-<terms id="_core_terms_and_definitions" obligation="normative">
-<title>Core Terms and Definitions</title>
-<term id="ConformanceClass-definition"><preferred><expression>
+<terms id="_core_terms" obligation="normative">
+<title>Core Terms</title>
+<term id="ConformanceClass-section"><preferred><expression>
 <name>ConformanceClass</name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_cad7236b-41cd-b4c9-66b6-c14d3abd0021">set of conformance tests that must be passed to receive a single certificate of conformance (Clause 4.2)
-NOTE:: When no ambiguity is possible, the word test may be left out, so conformance test class may be called a conformance class.<br/>
-In the ModSpec, the set of requirements tested by the conformance tests within a conformance class is a requirements class and its dependencies. Optional requirements will be in a separate requirements class with other requirements that are part of the same option. Each requirements class corresponds to a separate conformance class<br/>
-Each requirements class will be in a 1 to 1 correspondence to a similarly named conformance class that tests all of the requirements class’s requirements.<br/>
-All requirements in a conformance class will have the same standardization target type.</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_a98362c1-10f1-34c5-8d13-9c4702d333d6">set of conformance tests that must be passed to receive a single certificate of conformance (Clause 4.2)</p><p id="_b471dd5e-bfa3-f742-3118-1b2b58ccda8a">original</p><p id="_2a277ab1-0c2a-94cc-48ab-a27c6ee789f6">set of conformance test modules that must be applied to receive a single certificate of conformance</p><dl id="_02e01486-811d-f632-55a5-5eee5fb1cbd3"><dt>NOTE</dt>
+<dd><p id="_e5a4adf6-229f-9fe1-a3e9-442ef161c87f">When no ambiguity is possible, the word test may be left out, so conformance test class maybe called a conformance class.</p>
+</dd>
+</dl><p id="_7c174ea5-c3e5-3f73-6521-0a2c26796e52">In this standard, the set of requirements tested by the conformance tests within a conformance class is a requirements class and its dependencies. Each optional requirement will be in a separate requirements class with other requirements that are part of the same option. Each requirements class corresponds to a separate conformance class</p><p id="_ff49b564-2249-cb69-789f-9014da3e125b">In other words, the only options in a specification conformant to this standard will be if a particular requirements class is tested. Each requirements class will be in a 1 to 1 correspondence to a similarly named conformance class that tests all of the requirements class’s requirements.</p><p id="_1cc54e05-ee13-fd78-d983-02e459022d41">All requirements in a conformance class will have the same standardization target.</p><p id="_d371e888-6c30-63b6-b969-7da672a21998">The term level is a synonym for class and is part of the ISO nomenclature. Here the two terms are treated as equivalent but ISO usually has differences in the way they are named and how they related to one another level or class.</p></verbal-definition></definition>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  </term>
 
-<term id="ConformanceModule-definition"><preferred><expression>
+<term id="ConformanceModule-section"><preferred><expression>
 <name>ConformanceModule</name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_37113919-085b-6dd6-467f-55a851f57194">a set of related tests, all within a single conformance test class</p><dl id="_985b6caa-739b-5a50-caac-f899dc54361c"><dt>NOTE</dt>
-<dd><p id="_7afa1a7f-d7a4-e295-682c-36401fdbde64">When there is no ambiguity, the word test may be omitted, i.e. conformance test module is the same as conformance module. Conformance modules may be nested in a hierarchical way.<br/>
-This term and those associated with it are included here for consistency with ISO 19105.</p>
+<definition><verbal-definition><p id="_d20ec2a2-89c8-5583-791e-b258061bb006">set of related tests for a given requirements module all with the same standardization target</p><p id="_cfe5e1e1-1c9c-767b-7be8-adcc7b6ce2d2">original</p><p id="_7ff14a63-f2ca-d902-bd9a-aadfbb61cffb">set of related tests, all within a single conformance test class</p><dl id="_122be8b1-bf13-2304-5e6e-c96bd1db3714"><dt>NOTE</dt>
+<dd><p id="_ca691922-d700-2caf-a142-3cc2bdb3e793">When no ambiguity, the word test may be omitted. i.e. conformance test module is the same as conformance module. Conformance modules may be nested in a hierarchical way.
+This term and those associated to it are included here for consistency with ISO 19105.</p>
 </dd>
 </dl></verbal-definition></definition>
 
 
+
+
+
+
  </term>
 
-<term id="ConformanceSuite-definition"><preferred><expression>
+<term id="ConformanceSuite-section"><preferred><expression>
 <name>ConformanceSuite</name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_b3d795dc-4a7b-ef8b-d7fe-169e7be9ca95">set of conformance classes that define tests for all requirements of a standard or abstract specification</p><dl id="_90730847-ed32-f848-0f4b-d1b84cdb07f4"><dt>NOTE</dt>
+<definition><verbal-definition><p id="_b3d795dc-4a7b-ef8b-d7fe-169e7be9ca95">set of conformance classes that define tests for all requirements of a standard or abstract specification</p><p id="_a38222ea-3767-2dac-0edf-e6363ac18c8c">Original</p><p id="_c3ac674c-b721-966f-de8d-1ff6a377667a">set of conformance classes that define tests for all requirements of a standard</p><dl id="_90730847-ed32-f848-0f4b-d1b84cdb07f4"><dt>NOTE</dt>
 <dd><p id="_836526a8-de79-1744-bac7-d8e001eecfaa">The conformance suite is the union of all conformance classes. It is by definition the conformance class of the entire specification.</p>
 </dd>
-</dl><p id="_bcc80066-4865-9af4-d1c6-335ed450bed6">In this standard, each requirement is mandatory within its conformance class and each requirement is tested in at least one conformance test.</p></verbal-definition></definition>
+</dl><p id="_f793509f-f621-62c6-6cf6-aaf555f03717">In this standard, each requirement is mandatory within its conformance class and each requirement is tested in at least one conformance test.</p></verbal-definition></definition>
+
+
+
+
 
 
 
 
  </term>
 
-<term id="ConformanceTest-definition"><preferred><expression>
+<term id="ConformanceTest-section"><preferred><expression>
 <name>ConformanceTest</name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_0dd86151-c83c-2647-70cb-7cf539524bfd">test, abstract or real, of one or more requirements contained within a standard, or set of standards</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_9f3dcaf8-e806-8059-2156-030e017924ef">test, abstract or real, of a single requirements (Clause 4.21) contained within a standard, or set of standards</p><p id="_9470cc48-afaa-9198-5d43-637299d61a35">Original</p><p id="_a7b64518-d60a-418f-b0ef-518d3951fa5d">ttest, abstract or real, of one or more requirements contained within a standard, or set of standards</p></verbal-definition></definition>
+
+
+
+
  </term>
 
-<term id="ConformanceTestCase-definition"><preferred><expression>
+<term id="ConformanceTestCase-section"><preferred><expression>
 <name>ConformanceTestCase</name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_790ef646-6f7a-e5c4-2544-604d1982b805">test for a particular requirement or a set of related requirements</p><dl id="_97594a8f-5ea9-d5a1-2133-75dcdbd1ea45"><dt>NOTE</dt>
-<dd><p id="_0bc68560-ddbb-fc10-337d-05255ebf3eed">When there is no ambiguity, the word case may be omitted. i.e. conformance test is the same as conformance test case.</p>
+<definition><verbal-definition><p id="_3eca4ffd-adc1-3177-77ac-a0b07eafe3ac">Original</p><p id="_d7074409-410b-516c-6fea-8e832fd83423">test for a particular requirement or a set of related requirements</p><dl id="_625d64ae-0afb-f28d-a5fa-d47917803019"><dt>NOTE</dt>
+<dd><p id="_14b82003-a29b-9f2d-c328-0c3218cbef19">When no ambiguity, the word case may be omitted. i.e. conformance test is the same as conformance test case.</p>
 </dd>
 </dl></verbal-definition></definition>
 
 
+
+
  </term>
 
-<term id="ConformanceTestMethod-definition"><preferred><expression>
+<term id="ConformanceTestMethod-section"><preferred><expression>
 <name>ConformanceTestMethod</name>
 </expression>
 </preferred>
  </term>
 
-<term id="CoreRequirementsClass-definition"><preferred><expression>
+<term id="CoreRequirementsClass-section"><preferred><expression>
 <name>CoreRequirementsClass</name>
 </expression>
 </preferred>
@@ -737,7 +764,7 @@ This term and those associated with it are included here for consistency with IS
 
  </term>
 
-<term id="GeneralRecommendation-definition"><preferred><expression>
+<term id="GeneralRecommendation-section"><preferred><expression>
 <name>GeneralRecommendation</name>
 </expression>
 </preferred>
@@ -746,59 +773,61 @@ This term and those associated with it are included here for consistency with IS
 
  </term>
 
-<term id="InformativeStatement-definition"><preferred><expression>
+<term id="InformativeStatement-section"><preferred><expression>
 <name>InformativeStatement</name>
 </expression>
 </preferred>
 <definition><verbal-definition><p id="_023abe1a-0ebc-6096-6faf-f7eadf9fa8cf">expression in a document conveying information</p></verbal-definition></definition>
+ </term>
 
-
- <termnote id="_1bf25bde-9258-37ff-8e4f-0d61b49bed43"><p id="_8938d2ce-692d-a4c0-c554-584c7c548b02">Includes all statements in a document not part of the normative requirements, recommendations, or conformance tests. Included for completeness.</p>
-</termnote></term>
-
-<term id="NormativeStatement-definition"><preferred><expression>
+<term id="NormativeStatement-section"><preferred><expression>
 <name>NormativeStatement</name>
 </expression>
 </preferred>
 <definition><verbal-definition><p id="_7bf8b9b1-4650-dfff-6c0c-e62f6344f102">expression in a document conveying information</p></verbal-definition></definition>
+ </term>
 
-
- <termnote id="_25861a59-ba7b-db4e-080b-fd2448a93d8b"><p id="_e577a7f5-df08-785c-f70c-587def04175a">Includes all statements in a document not part of the normative requirements, recommendations, or conformance tests. Included for completeness.</p>
-</termnote></term>
-
-<term id="Permission-definition"><preferred><expression>
+<term id="Permission-section"><preferred><expression>
 <name>Permission</name>
 </expression>
 </preferred>
 <definition><verbal-definition><p id="_3c7e40a3-a8c2-5697-a409-74700bcebb07">uses “may” and is used to prevent a requirement from being “over interpreted” and as such is considered to be more of a “statement of fact” than a “normative” condition.</p></verbal-definition></definition>
  </term>
 
-<term id="Principal-definition"><preferred><expression>
+<term id="Principal-section"><preferred><expression>
 <name>Principal</name>
 </expression>
 </preferred>
  </term>
 
-<term id="Recommendation-definition"><preferred><expression>
+<term id="Recommendation-section"><preferred><expression>
 <name>Recommendation</name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_273651fa-bfc2-8804-c48a-8925fba3ffe2">expression in the content of a standard conveying that among several possibilities one is recommended as particularly suitable, without mentioning or excluding others, or that a certain course of action is preferred but not necessarily required, or that (in the negative form) a certain possibility or course of action is deprecated but not prohibited</p><dl id="_3eb1d04e-4d46-c3d1-a845-0c9de40335d5"><dt>NOTE</dt>
-<dd><p id="_b3fb4e89-49ef-3766-fb3e-002f7b1f6fa6">Although using normative language, a recommendation is not a requirement. The usual form replaces the shall (imperative or command) of a requirement with a should (suggestive or conditional).</p>
+<definition><verbal-definition><p id="_31299b5d-18d4-89cb-ffe0-cf1402da7406">expression in the content of a standard conveying that among several possibilities one is recommended as particularly suitable, without mentioning or excluding others, or that a certain course of action is preferred but not necessarily required, or that (in the negative form) a certain possibility or course of action is deprecated but not prohibited</p><p id="_22cf9315-b71d-6c27-0b06-f9942c308f7e">Original</p><p id="_72dd9e1f-f785-2b83-415d-c5d8a069fcaa">expression in the content of a document conveying that among several possibilities one is recommended as particularly suitable, without mentioning or excluding others, or that a certain course of action is preferred but not necessarily required, or that (in the negative form) a certain possibility or course of action is deprecated but not prohibited</p><dl id="_1bd8c21a-9155-d163-61e7-97f64ce6a954"><dt>NOTE</dt>
+<dd><p id="_18d35781-5ccb-3f50-706e-caa09bfc8137">Although using normative language, a recommendation is not a requirement. The usual form replaces the ―shall‖ (imperative or command) of a requirement with a ―should‖ (suggestive or conditional).</p>
 </dd>
 </dl></verbal-definition></definition>
 
 
+
+
+
+
  </term>
 
-<term id="Requirement-definition"><preferred><expression>
+<term id="Requirement-section"><preferred><expression>
 <name>Requirement</name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_1deeaea5-8780-aac4-c339-f1fa04968bab">expression in the content of a standard conveying criteria to be fulfilled if compliance with the standard is to be claimed and from which no deviation is permitted</p><dl id="_5fcb3341-dae1-f316-30ec-d7259ad3ff3d"><dt>NOTE</dt>
-<dd><p id="_fcdb2ab0-5049-9c3a-705b-2ea7c006faa4">Each requirement is a normative criterion for a single standardization target type. In this standard, requirements will be associated to conformance tests that can be used to prove compliance to the underlying criteria by the standardization target.</p>
+<definition><verbal-definition><p id="_1deeaea5-8780-aac4-c339-f1fa04968bab">expression in the content of a standard conveying criteria to be fulfilled if compliance with the standard is to be claimed and from which no deviation is permitted</p><p id="_c6fbf6de-2ac3-4419-ab5b-37b0dea0eeba">Original</p><p id="_18d183d9-cb37-da70-edb3-f5fc6c08bd15">expression in the content of a document conveying criteria to be fulfilled if compliance with the document is to be claimed and from which no deviation is permitted</p><dl id="_ed5d57c1-91d5-5bd8-0117-34f500fedefc"><dt>NOTE</dt>
+<dd><p id="_862e914f-d187-0e15-ebf8-fdff133a5be6">Each requirement is a normative criterion for a single type of standardization target. In this standard, requirements will be associated to conformance tests that can be used to prove compliance to the underlying criteria by the standardization target.</p>
 </dd>
-</dl><p id="_0fdec5e6-ce16-a323-bc00-2a226dbee17a">The implementation of a requirement is dependent on the type of specification being written. A data specification requires data structures, but a procedural specification requires software implementations. The view of a standard in terms of a set of testable requirements allows us to use set descriptions of both the standard and its implementations.</p><p id="_64d665a8-77a5-cacb-0edf-ee770aa9f507">The specification of a requirement is usually expressed in terms of a model of the standardization target type, such as a UML model, or an XML or SQL schema. Anything without a defined test is a priori not testable and thus would be better expressed as a recommendation.</p><p id="_2d7b8299-71f8-67fb-e7ac-5b2be0f47167">Requirements use normative language and in particular are commands and use the imperative shall or similar imperative constructs. Statements in standards which are not requirements and need to be either conditional or future tense normally use will and should not be confused with requirements that use shall imperatively</p></verbal-definition></definition>
+</dl><p id="_f9a6a62c-dc78-9623-a478-e8c7574c1010">The implementation of a requirement is dependent on the type of specification being written. A data specification requires data structures, but a procedural specification requires software implementations. The view of a standard in terms of a set of testable requirements allows us to use set descriptions of both the standard and its implementations.</p><p id="_0b3d42c4-ceb6-a2bc-dc8c-f358f11bbb49">The specification of a requirement is usually expressed in terms of a model of the standardization target, such as a UML model, or an XML or SQL schema. Anything without a defined test is a priori not testable and thus would be better expressed as a recommendation.</p><p id="_7dd42791-0d0f-d074-6b6b-8ee694b1c0a4">Requirements use normative language and in particular are commands and use the imperative ―shall‖ or similar imperative constructs. Statements in standards which are not requirements and need to be either conditional or future tense normally use ―will‖ and should not be confused with requirements that use ―shall‖ imperatively</p></verbal-definition></definition>
+
+
+
+
 
 
 
@@ -809,79 +838,102 @@ This term and those associated with it are included here for consistency with IS
 
  </term>
 
-<term id="RequirementsClass-definition"><preferred><expression>
+<term id="RequirementsClass-section"><preferred><expression>
 <name>RequirementsClass</name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_2c1b337a-87dd-bd77-1c30-e6d52ff8c0e5">aggregate of all requirements (Clause 4.21) that must all be satisfied to satisfy a conformance test Class</p><dl id="_db98cfc5-b9c6-d0ab-bd0d-4bd5baefde0d"><dt>NOTE</dt>
+<definition><verbal-definition><p id="_211515c5-8249-85fe-3a19-f1d3785421be">aggregate of all requirements (Clause 4.21) with a single standrdization target that must all be satisfied to pass a conformance test class (Clause 4.6)f</p><p id="_a20c047e-4065-a7dc-aa5f-3800f645d1bc">Original</p><p id="_cb5bbd32-3e5d-f1b1-a364-6305f2493037">aggregate of all requirement modules that must all be satisfied to satisfy a conformance test class</p><dl id="_db98cfc5-b9c6-d0ab-bd0d-4bd5baefde0d"><dt>NOTE</dt>
 <dd><p id="_02b5aae1-f840-522a-2d1b-76178d66a0b4">There is some confusion possible here, since the testing of indirect dependencies seems to violate this definition. But the existence of an indirect dependency implies that the test is actually a test of the existence of the relationship from the original target to something that has a property (satisfies a condition or requirement from another requirements class).</p>
 </dd>
 </dl></verbal-definition></definition>
 
 
+
+
+
+
  </term>
 
-<term id="RequirementsModule-definition"><preferred><expression>
+<term id="RequirementsModule-section"><preferred><expression>
 <name>RequirementsModule</name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_df02e879-0065-83dc-1734-ea8fbc9d525e">a set of related requirements (Clause 4.22), recommendations (Clause 4.20) and permissions (Clause 4.18) all with a single requirements class (Clause 4.26)</p><dl id="_c6ba2609-81e6-2e17-bd22-13af926b8ae0"><dt>NOTE</dt>
-<dd><p id="_7cbe8d07-b89d-f1d3-7d67-04a6f66468bc">This term is included to be consistent with the use of modules in ISO 19105.</p>
+<definition><verbal-definition><p id="_0e19409b-a27b-6b05-db90-f31d5e1da567">collection of requirements classes (Clause 4.22), recommendations (Clause 4.20) and permissions (Clause 4.18) with a single standardization target (Clause 4.26)</p><p id="_d68f32cf-2d07-c03e-285a-d3b92da017ee">Original</p><p id="_af93b451-bacf-8b95-5be3-6bde18fe8bcd">aggregate of requirements and recommendations of a specification against a single standardization target type</p><dl id="_316d81d9-cd76-6d7f-8b1f-946bae38e1f3"><dt>NOTE</dt>
+<dd><p id="_518da1ef-e89d-08b7-7253-b6fea004290b">This term is included to be consistent with the use of modules in ISO 19105. The third type of normative language, the ―permission‖ which uses ―may,‖ is not considered here mainly because it is usually used to prevent a requirement from being ―over interpreted‖ and as such is considered to be more of a ―statement of fact‖ than a ―normative‖ condition.</p>
 </dd>
 </dl></verbal-definition></definition>
 
 
+
+
+
+
  </term>
 
-<term id="Specification-definition"><preferred><expression>
+<term id="Specification-section"><preferred><expression>
 <name>Specification</name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_a5e4ed26-4985-4cfd-48b3-a7dfa1305cae">document containing recommendations, requirements and conformance tests for those requirements</p><dl id="_d040c70c-9a90-8323-06be-973567a1e521"><dt>NOTE</dt>
-<dd><p id="_68106855-eb51-b2a4-e0c2-d217d175b6c5">This definition is included for completeness. See Clause 5.3. This does not restrict what else a specification may contain, as long as it does contain the three types of element cited.</p>
+<definition><verbal-definition><p id="_63b0714e-4cc2-c837-abd1-6a5a3558096b">Original</p><p id="_40a0bbd4-9d42-bfb9-c724-ce63bf71bb3b">document containing recommendations, requirements and conformance tests for those requirements</p><dl id="_ac7250dd-9ede-0b9b-7c4e-da61480d7dfa"><dt>NOTE</dt>
+<dd><p id="_eb9d2758-dd98-6be7-8078-92527749b3f4">This definition is included for completeness. See Clause 5.3.
+This does not restrict what else a standard may contain, as long as it does contain the three types of element cited.</p>
 </dd>
 </dl></verbal-definition></definition>
 
 
+
+
  </term>
 
-<term id="Standard-definition"><preferred><expression>
+<term id="Standard-section"><preferred><expression>
 <name>Standard</name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_e8e0e74c-f4d4-fa4e-fc37-bc2bdbcaf82c">document containing recommendations (Clause 4.20), requirements (Clause 4.21) and conformance tests (Clause 4.6) that has been approved by a legitimate Standards Body</p><p id="_84ed04fd-f805-75fa-0b39-11558eb34b09">(original) specification that has been approved by a legitimate Standards Body</p><dl id="_73d0fb6c-def6-21dc-9985-38e3fcaaede4"><dt>NOTE</dt>
-<dd><p id="_d73aa8c4-addc-4b6b-4191-f8af0ab7a423">This definition is included for completeness. Standard and specification can apply to the same document. While specification is always valid, standard only applies after the adoption of the document by a legitimate standards organization.  The legitimate Standards Bodies for OGC consist of OGC, ISO and any of the other standards bodies accepted and used as a source of normative references by OGC or ISO in their standards. In the normal meaning of the word standard, there are other conditions that may be required, but this standard has chosen to ignore them in the process of abstraction.</p>
+<definition><verbal-definition><p id="_e8e0e74c-f4d4-fa4e-fc37-bc2bdbcaf82c">document containing recommendations (Clause 4.20), requirements (Clause 4.21) and conformance tests (Clause 4.6) that has been approved by a legitimate Standards Body</p><p id="_a80d7246-552c-e6d5-1b2d-5158ab29e287">Original</p><p id="_39db8d0d-1fa5-c5a4-8d11-613800b554ae">specification that has been approved by a legitimate Standards Body</p><dl id="_99cd1610-205f-5c38-276f-6da0c04da18a"><dt>NOTE</dt>
+<dd><p id="_0d4583a3-3030-bcc4-e9da-41deba007257">This definition is included for completeness. Standard and specification can apply to the same document. While specification is always valid, standard only applies after the adoption of the document by a legitimate standards organization.
+The legitimate Standards Bodies for OGC consist of OGC, ISO and any of the other standards bodies accepted and used as a source of normative references by OGC or ISO in their standards. In the normal meaning of the word ―standard‖, there are other conditions that may be required, but this standard has chosen to ignore them in the process of abstraction.</p>
 </dd>
 </dl></verbal-definition></definition>
 
 
 
 
+
+
  </term>
 
-<term id="StandardizationTarget-definition"><preferred><expression>
+<term id="StandardizationTarget-section"><preferred><expression>
 <name>StandardizationTarget</name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_0f0b95eb-f2bc-b983-576b-0e8ef81d7610">entity to which some requirements of a standard apply
+<definition><verbal-definition><p id="_c085c4ec-c034-e187-e67a-5cbf6a8df71d">entity to which some requirements (Clause 4.21) of a standard (Clause 4.25) apply</p><p id="_bab9e642-6d67-bebd-c0b6-affcb12a08a1">Original</p><p id="_8f10e390-480f-ee95-62e2-f6cd004067db">entity to which some requirements of a standard apply
 NOTE The standardization target is the entity which may receive a certificate of conformance for a requirements class.</p></verbal-definition></definition>
+
+
+
+
  </term>
 
-<term id="StandardizationTargetType-definition"><preferred><expression>
+<term id="StandardizationTargetType-section"><preferred><expression>
 <name>StandardizationTargetType</name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_bf68e004-aae4-1328-309b-ded203c63946">type of entity or set of entities to which the requirement (Clause 4.21) of a standard (Clause 4.25) apply</p><dl id="_bf6bb62f-eb25-7ae8-c1d3-f6ae8d4c4674"><dt>NOTE</dt>
-<dd><p id="_88f1c684-830c-1fd0-4920-e8ea0582c349">The standardization target types give the standardization targets a typing system similar to the UML classifiers. In general, the types inherit from one another in the same way that UML classes do. The same class/metaclass semantics apply, and two targets can be considered to have the same type (in a particular situation) if their instantiation types share the appropriate supertype, as is the case in UML. In OGC for example, all service types that must pass the OWS (Open Web Services) Common specification are some extension of the Open Web Service standardization target type. This makes OWS Common a default global core for all OGC Services.</p>
+<definition><verbal-definition><p id="_bf68e004-aae4-1328-309b-ded203c63946">type of entity or set of entities to which the requirement (Clause 4.21) of a standard (Clause 4.25) apply</p><p id="_d61ad620-e26a-2033-784e-e90381d78e38">Original</p><p id="_543b4192-0d46-73d2-d7d5-90c7999b7e06">type of entity or set of entities to which the requirements of a standard apply</p><dl id="_93f22df2-3234-0e47-38ba-278b7ef17772"><dt>NOTE</dt>
+<dd><p id="_98223e85-2874-f4ae-b368-e8208d76f0bd">The standardization target types give the standardization targets a typing system similar to the UML classifiers. In general, the types inherit from one another in the same way that UML classes do. The same class/metaclass semantics apply, and two targets can be considered to have the ―same type‖ (in a particular situation) if their instantiation types share the appropriate supertype, as is the case in UML.
+In OGC for example, all service types that must pass the OWS (Open Web Services) Common specification are some extension of the ―Open Web Service‖ standardization target type. This makes OWS Common a default ―global core‖ for all OGC Services.</p>
 </dd>
-</dl><p id="_07337dd9-63f2-9d12-6f55-9a2fee8dcfd4">In some cases, the standardization target type may be another specification. A GML application schema is a standardization target for the GML standard, but is in turn a specification of instances of that application schema.</p></verbal-definition></definition>
+</dl><p id="_b0ea4d8d-5586-d8ca-8738-67f26c3d1cfe">In some cases, the standardization target type may be another specification. A GML application schema is a standardization target for the GML standard, but is in turn a specification of instances of that application schema.</p></verbal-definition></definition>
+
+
+
+
 
 
 
 
  </term>
 
-<term id="Statement-definition"><preferred><expression>
+<term id="Statement-section"><preferred><expression>
 <name>Statement</name>
 </expression>
 </preferred>
@@ -895,16 +947,16 @@ NOTE The standardization target is the entity which may receive a certificate of
 
  </term>
 
-<term id="TestType-definition"><preferred><expression>
+<term id="TestType-section"><preferred><expression>
 <name>TestType</name>
 </expression>
 </preferred>
  </term>
 </terms>
 
-<terms id="_concepts_terms_and_definitions" obligation="normative">
-<title>Concepts Terms and Definitions</title>
-<term id="CertificateOfConformance-definition"><preferred><expression>
+<terms id="_concepts_data_dictionary" obligation="normative">
+<title>Concepts Data Dictionary</title>
+<term id="CertificateOfConformance-section"><preferred><expression>
 <name>CertificateOfConformance</name>
 </expression>
 </preferred>
@@ -917,7 +969,7 @@ Each certificate of conformance is awarded to a standardization target.</p>
 
  </term>
 
-<term id="DirectDependency-definition"><preferred><expression>
+<term id="DirectDependency-section"><preferred><expression>
 <name>DirectDependency</name>
 </expression>
 </preferred>
@@ -933,7 +985,7 @@ Each certificate of conformance is awarded to a standardization target.</p>
 
  </term>
 
-<term id="Extension-definition"><preferred><expression>
+<term id="Extension-section"><preferred><expression>
 <name>Extension</name>
 </expression>
 </preferred>
@@ -946,7 +998,7 @@ requirements class which has a direct dependency on another requirements class</
 
  </term>
 
-<term id="Home-definition"><preferred><expression>
+<term id="Home-section"><preferred><expression>
 <name>Home</name>
 </expression>
 </preferred>
@@ -961,7 +1013,7 @@ These alternative statements use non-normative language and are statements using
 
  </term>
 
-<term id="IndirectDependency-definition"><preferred><expression>
+<term id="IndirectDependency-section"><preferred><expression>
 <name>IndirectDependency</name>
 </expression>
 </preferred>
@@ -978,7 +1030,7 @@ The standardization target of the indirect dependency is different from the targ
 
  </term>
 
-<term id="LeafPackage-definition"><preferred><expression>
+<term id="LeafPackage-section"><preferred><expression>
 <name>LeafPackage</name>
 </expression>
 </preferred>
@@ -987,7 +1039,7 @@ The standardization target of the indirect dependency is different from the targ
 
  </term>
 
-<term id="Model-definition"><preferred><expression>
+<term id="Model-section"><preferred><expression>
 <name>Model</name>
 </expression>
 </preferred>
@@ -1005,7 +1057,7 @@ The abstract or conceptual is actually redundant and will often be dropped in th
 
  </term>
 
-<term id="Profile-definition"><preferred><expression>
+<term id="Profile-section"><preferred><expression>
 <name>Profile</name>
 </expression>
 </preferred>
@@ -1022,21 +1074,21 @@ This means that a standardization target being conformant to a profile implies t
  </term>
 </terms>
 
-<terms id="_types_terms_and_definitions" obligation="normative">
-<title>Types Terms and Definitions</title>
-<term id="RichText-definition"><preferred><expression>
-<name>RichText</name>
-</expression>
-</preferred>
- </term>
-
-<term id="DateTime-definition"><preferred><expression>
+<terms id="_types_data_dictionary" obligation="normative">
+<title>Types Data Dictionary</title>
+<term id="DateTime-section"><preferred><expression>
 <name>DateTime</name>
 </expression>
 </preferred>
  </term>
 
-<term id="String-definition"><preferred><expression>
+<term id="RichText-section"><preferred><expression>
+<name>RichText</name>
+</expression>
+</preferred>
+ </term>
+
+<term id="String-section"><preferred><expression>
 <name>String</name>
 </expression>
 </preferred>
@@ -2426,51 +2478,397 @@ in <xref target="cls-8-1">Clause 8</xref> of this document. The following subcla
 class diagram.</p>
 </clause>
 
+<clause id="Standard" obligation="informative">
+<title>Standard</title>
+<p id="_f6f36bc6-4bbb-4b2c-8b81-631d3ff3ef8a">For a draft standard (aka specification) to become an international standard, the document must be approved by an authority,
+such as ISO or the OGC. The attributes of a standard describe its local name, its authority, the date of publication
+and its current status (such as CD, DIS, IS in ISO, or Draft, Candidate Standard, or Standard in OGC).</p>
+
+<p id="_65e8aa18-d653-6b31-7990-f99838b8a65c">The attributes of a
+Standard describe its local name, its authority, the date of
+publication and its current status (such as Draft,
+Candidate Standard or Standard in the OGC).</p>
+
+<table id="_176d44d5-26ce-8a36-0f03-6a8a015e39b2">
+<name>Standard attributes</name>
+<thead><tr><th valign="middle" align="left">Name</th>
+<th valign="middle" align="left">Definition</th>
+<th valign="middle" align="left">Mandatory / Optional / Conditional</th>
+<th valign="middle" align="left">Max Occur</th>
+<th valign="middle" align="left">Data Type</th>
+</tr></thead>
+<tbody><tr><td valign="middle" align="left">name</td>
+<td valign="middle" align="left">Name of the standard.</td>
+<td valign="middle" align="left">M</td>
+<td valign="middle" align="left">1</td>
+<td valign="middle" align="left"><tt>String</tt></td>
+</tr><tr><td valign="middle" align="left">authority</td>
+<td valign="middle" align="left">Standards body or author of this standard.</td>
+<td valign="middle" align="left">M</td>
+<td valign="middle" align="left">1</td>
+<td valign="middle" align="left"><tt>Principal</tt></td>
+</tr><tr><td valign="middle" align="left">date</td>
+<td valign="middle" align="left">Publication date of the standard.</td>
+<td valign="middle" align="left">M</td>
+<td valign="middle" align="left">1</td>
+<td valign="middle" align="left"><tt>DateTime</tt></td>
+</tr><tr><td valign="middle" align="left">status</td>
+<td valign="middle" align="left">Publication status of this standard.</td>
+<td valign="middle" align="left">M</td>
+<td valign="middle" align="left">1</td>
+<td valign="middle" align="left"><tt>String</tt></td>
+</tr></tbody>
+</table>
+</clause>
+
+<clause id="conformance-suite" obligation="informative">
+<title>ConformanceSuite</title>
+<p id="_da673e85-7201-991a-a6cd-ff8d5540604e">The unique conformance suite of a standard provides the tests grouped
+into conformance test classes consisting of some number of conformance
+tests that allow testing of an implementation of the standard for conformance with the
+requirements stated in the standard. Every standard needs one of these suites, or
+conformance cannot be claimed with proof. In the OGC, the conformance
+suite (knowns as the Abstract Test Suite) included in the standard is usually an abstract description of
+the tests which will be implemented. Other standards may use a more
+concrete description. For the purposes of the ModSpec, the precise
+nature of the conformance suite is not particularly important as long as
+it is not ambiguously stated.</p>
+
+<p id="_a6b089f2-60c0-8027-60fa-eb14aa21ec28">Each conformance test within a conformance class should be against a
+single standardization target defined for that class. A conformance suite
+may contain several defined conformance classes for the same
+standardization target.</p>
+
+<table id="_f82fdfa1-0115-3007-8e7e-ae724a0169d3">
+<name>ConformanceSuite attributes</name>
+<thead><tr><th valign="middle" align="left">Name</th>
+<th valign="middle" align="left">Definition</th>
+<th valign="middle" align="left">Mandatory / Optional / Conditional</th>
+<th valign="middle" align="left">Max Occur</th>
+<th valign="middle" align="left">Data Type</th>
+</tr></thead>
+<tbody><tr><td valign="middle" align="left">classes</td>
+<td valign="middle" align="left">Conformance classes that this conformance suite contains.</td>
+<td valign="middle" align="left">M</td>
+<td valign="middle" align="left">N</td>
+<td valign="middle" align="left"><tt>ConformanceClass</tt></td>
+</tr></tbody>
+</table>
+</clause>
+
+<clause id="conformance-class" obligation="informative">
+<title>ConformanceClass</title>
+<p id="_7bc471fa-8958-90ca-c8bf-1531d8f7e8fd">The requirements in the requirements classes of a standard must be
+tested and the conformance classes are the containers for definition of these tests.
+The requirements classes may have interdependencies, and this
+is reflected in the explicit dependencies between the conformance classes.
+If class “a” is dependent on class “b”, then to pass the test for “a” a
+standardization target must also pass the test for “b.” The class name is
+shared with its corresponding requirements class.</p>
+
+<table id="_2681b911-410d-8da0-c0d0-6de90a146e63">
+<name>ConformanceClass attributes</name>
+<thead><tr><th valign="middle" align="left">Name</th>
+<th valign="middle" align="left">Definition</th>
+<th valign="middle" align="left">Mandatory / Optional / Conditional</th>
+<th valign="middle" align="left">Max Occur</th>
+<th valign="middle" align="left">Data Type</th>
+</tr></thead>
+<tbody><tr><td valign="middle" align="left">name</td>
+<td valign="middle" align="left">Name of the conformance class.</td>
+<td valign="middle" align="left">M</td>
+<td valign="middle" align="left">1</td>
+<td valign="middle" align="left"><tt>String</tt></td>
+</tr><tr><td valign="middle" align="left">dependencies</td>
+<td valign="middle" align="left">Conformance classes that this conformance class depends on.
+These dependent conformance classes must be passed if this one is to be
+passed.</td>
+<td valign="middle" align="left">O</td>
+<td valign="middle" align="left">N</td>
+<td valign="middle" align="left"><tt>ConformanceClass</tt></td>
+</tr><tr><td valign="middle" align="left">requirementsClass</td>
+<td valign="middle" align="left">The requirements class that this conformance class aims to test against.</td>
+<td valign="middle" align="left">M</td>
+<td valign="middle" align="left">1</td>
+<td valign="middle" align="left"><tt>RequirementsClass</tt></td>
+</tr></tbody>
+</table>
+</clause>
+
+<clause id="requirements-class" obligation="informative">
+<title>RequirementsClass</title>
+<p id="_8729b208-fcb8-9795-97f6-a0e5432578eb">Requirements classes (usually realized as clauses in the
+standard’s document) segment the requirements in the standard in a
+manner consistent with the conformance classes. Since the requirements
+class and the conformance class will eventually be referred to in a
+certification of conformance, they should have names, probably in the
+namespace defined by the standard’s name and authority.</p>
+
+<table id="_bbba6ca7-4d59-8eb1-0e76-61baabdccf7f">
+<name>RequirementsClass attributes</name>
+<thead><tr><th valign="middle" align="left">Name</th>
+<th valign="middle" align="left">Definition</th>
+<th valign="middle" align="left">Mandatory / Optional / Conditional</th>
+<th valign="middle" align="left">Max Occur</th>
+<th valign="middle" align="left">Data Type</th>
+</tr></thead>
+<tbody><tr><td valign="middle" align="left">name</td>
+<td valign="middle" align="left">Name of the requirements class.</td>
+<td valign="middle" align="left">M</td>
+<td valign="middle" align="left">1</td>
+<td valign="middle" align="left"><tt>String</tt></td>
+</tr><tr><td valign="middle" align="left">dependencies</td>
+<td valign="middle" align="left">Requirements classes that this requirements class depends on.
+These dependent requirements classes must be satisfied for this
+requirements class to be satisfied.</td>
+<td valign="middle" align="left">O</td>
+<td valign="middle" align="left">N</td>
+<td valign="middle" align="left"><tt>RequirementsClass</tt></td>
+</tr><tr><td valign="middle" align="left">modules</td>
+<td valign="middle" align="left">A set of one or more requirement(s) classes, recommendations, and permissions with the same standardization target.</td>
+<td valign="middle" align="left">M</td>
+<td valign="middle" align="left">N</td>
+<td valign="middle" align="left"><tt>RequirementsModule</tt></td>
+</tr><tr><td valign="middle" align="left">targetType</td>
+<td valign="middle" align="left">Type of standardization target.</td>
+<td valign="middle" align="left">M</td>
+<td valign="middle" align="left">1</td>
+<td valign="middle" align="left"><tt>StandardizationTargetType</tt></td>
+</tr></tbody>
+</table>
+</clause>
+
+<clause id="requirements-module" obligation="informative">
+<title>RequirementsModule</title>
+<p id="_f1f87a22-86df-d8b3-7cd7-576a84f42600">A requirements module (usually realized as groups of one or more
+requirements classes in the standard) group the
+requirements and recommendations in the standard in a manner consistent with the
+conformance test modules with a single standardization target.</p>
+
+<table id="_493867e9-2ac9-c8ce-484b-49dda5b69150">
+<name>RequirementsModule attributes</name>
+<thead><tr><th valign="middle" align="left">Name</th>
+<th valign="middle" align="left">Definition</th>
+<th valign="middle" align="left">Mandatory / Optional / Conditional</th>
+<th valign="middle" align="left">Max Occur</th>
+<th valign="middle" align="left">Data Type</th>
+</tr></thead>
+<tbody><tr><td valign="middle" align="left">name</td>
+<td valign="middle" align="left">Name of the requirements module.</td>
+<td valign="middle" align="left">M</td>
+<td valign="middle" align="left">1</td>
+<td valign="middle" align="left"><tt>String</tt></td>
+</tr><tr><td valign="middle" align="left">requirements</td>
+<td valign="middle" align="left">Requirements classes, recommendations, and permissions that this requirements module contains.</td>
+<td valign="middle" align="left">M</td>
+<td valign="middle" align="left">N</td>
+<td valign="middle" align="left"><tt>Requirement</tt></td>
+</tr></tbody>
+</table>
+</clause>
+
+<clause id="normative-statement" obligation="informative">
+<title>NormativeStatement</title>
+<p id="_f2152d3f-cfa9-0bfa-18d5-49d32077cf23">The normative statements, either requirements or recommendations of a
+standard, are organized into the requirements modules and classes, and may
+be tested by the conformance tests in their requirements class’s
+corresponding conformance class. If tested, the statement is a
+“Requirement”, and if not tested the statement is a “Recommendation”.</p>
+
+<table id="_6d00f10e-72e6-9301-6a49-89c061a562e4">
+<name>NormativeStatement attributes</name>
+<thead><tr><th valign="middle" align="left">Name</th>
+<th valign="middle" align="left">Definition</th>
+<th valign="middle" align="left">Mandatory / Optional / Conditional</th>
+<th valign="middle" align="left">Max Occur</th>
+<th valign="middle" align="left">Data Type</th>
+</tr></thead>
+<tbody><tr><td valign="middle" align="left">name</td>
+<td valign="middle" align="left">Name of the normative statement.</td>
+<td valign="middle" align="left">M</td>
+<td valign="middle" align="left">1</td>
+<td valign="middle" align="left"><tt>String</tt></td>
+</tr></tbody>
+</table>
+</clause>
+
+<clause id="requirement" obligation="informative">
+<title>Requirement</title>
+<p id="_f1fc7485-3bad-4dc4-82cd-f3612f49232c">Normative statement that constitutes a requirement.</p>
+
+<table id="_d19a8059-2fb1-e7f9-8388-3d15b3470e4f">
+<name>Requirement attributes</name>
+<thead><tr><th valign="middle" align="left">Name</th>
+<th valign="middle" align="left">Definition</th>
+<th valign="middle" align="left">Mandatory / Optional / Conditional</th>
+<th valign="middle" align="left">Max Occur</th>
+<th valign="middle" align="left">Data Type</th>
+</tr></thead>
+<tbody><tr><td valign="middle" align="left">tests</td>
+<td valign="middle" align="left">Conformance tests that when passed confirm the satisfaction of this
+requirement.
+
+NOTE: If this requirement is a requirement part, it may or may not have
+a corresponding conformance test.</td>
+<td valign="middle" align="left">M</td>
+<td valign="middle" align="left">N</td>
+<td valign="middle" align="left"><tt>ConformanceTest</tt></td>
+</tr><tr><td valign="middle" align="left">parts</td>
+<td valign="middle" align="left">Collection of requirements that are parts to this requirement.
+Satisfaction of all requirement parts are necessary for this requirement
+to be satisfied. Optional.</td>
+<td valign="middle" align="left">O</td>
+<td valign="middle" align="left">N</td>
+<td valign="middle" align="left"><tt>Requirement</tt></td>
+</tr></tbody>
+</table>
+</clause>
+
+<clause id="recommendation" obligation="informative">
+<title>Recommendation</title>
+<p id="_853d5cff-ea10-ca3a-18b0-c3e5f77a12f8">A normative suggestion which will not be directly tested is a
+“Recommendation.” Recommendations have a variety of uses, for example:</p>
+
+<ul id="_f742ea3a-e0ea-e200-47b2-b0d04bb2a2dd"><li><p id="_40f9064e-97c4-47f2-af25-cfaa7c74ae2c">Legal restriction, such as “not for commercial use” or “for planning
+purposes.” These allow the specification to restrict use of its
+implementation to standardization targets for which it was designed.</p>
+</li>
+<li><p id="_1939de9b-18bb-c60d-b140-ac6a87126c44">Statement of best practices. These are included as suggestions for
+logical designs that may implement the requirements in the same module.</p>
+</li>
+</ul>
+
+<p id="_06c56b45-0a8f-38b1-5c5b-def4bc980830">Regardless of their use, Recommendations are not tested since they are not
+required of all conformant implementations.</p>
+</clause>
+
+<clause id="conformance-test" obligation="informative">
+<title>ConformanceTest</title>
+<p id="_7bc8dbcb-d339-ba76-aacf-a9a3d6d9c977">A conformance test aims to test a requirement and can potentially
+contain multiple test methods.</p>
+
+<table id="_0489016f-0bea-b4b2-37c5-90aa3d86a413">
+<name>ConformanceTest attributes</name>
+<thead><tr><th valign="middle" align="left">Name</th>
+<th valign="middle" align="left">Definition</th>
+<th valign="middle" align="left">Mandatory / Optional / Conditional</th>
+<th valign="middle" align="left">Max Occur</th>
+<th valign="middle" align="left">Data Type</th>
+</tr></thead>
+<tbody><tr><td valign="middle" align="left">abstract</td>
+<td valign="middle" align="left">Whether this test is abstract or concrete. An abstract conformance test
+is commonly called an abstract test.</td>
+<td valign="middle" align="left">M</td>
+<td valign="middle" align="left">1</td>
+<td valign="middle" align="left"><tt>Boolean</tt></td>
+</tr><tr><td valign="middle" align="left">testPurpose</td>
+<td valign="middle" align="left">Purpose of the conformance test.</td>
+<td valign="middle" align="left">M</td>
+<td valign="middle" align="left">1</td>
+<td valign="middle" align="left"><tt>String</tt></td>
+</tr><tr><td valign="middle" align="left">testType</td>
+<td valign="middle" align="left">Type of the conformance test.</td>
+<td valign="middle" align="left">M</td>
+<td valign="middle" align="left">1</td>
+<td valign="middle" align="left"><tt>TestType</tt></td>
+</tr><tr><td valign="middle" align="left">testMethod</td>
+<td valign="middle" align="left">Method to perform this conformance test.
+A method is considered a “part” of the test if there are multiple of them.</td>
+<td valign="middle" align="left">O</td>
+<td valign="middle" align="left">N</td>
+<td valign="middle" align="left"><tt>ConformanceTestMethod</tt></td>
+</tr><tr><td valign="middle" align="left">references</td>
+<td valign="middle" align="left">References to the specification(s) of the conformance test.</td>
+<td valign="middle" align="left">O</td>
+<td valign="middle" align="left">N</td>
+<td valign="middle" align="left"><tt>RichText</tt></td>
+</tr><tr><td valign="middle" align="left">requirements</td>
+<td valign="middle" align="left">Corresponding requirement or requirement part that this conformance
+test is supposed to test against.</td>
+<td valign="middle" align="left">M</td>
+<td valign="middle" align="left">N</td>
+<td valign="middle" align="left"><tt>Requirement</tt></td>
+</tr></tbody>
+</table>
+</clause>
+
+<clause id="standardization-target" obligation="informative">
+<title>StandardizationTarget</title>
+<p id="_cae46807-2584-2922-cb9a-37c249c6c5eb">Each conformance class (and hence requirements class) is targeted to a
+particular type of implementation. An implementation testable by a
+conformance class is a StandardizationTarget of that class, and (once the
+appropriate test have been passed) can carry a certificate indicating its
+conformance to a requirements class proved by the tests in the conformance
+class.</p>
+
+<table id="_37274a81-5239-743f-8d95-884ffe8300bf">
+<name>StandardizationTarget attributes</name>
+<thead><tr><th valign="middle" align="left">Name</th>
+<th valign="middle" align="left">Definition</th>
+<th valign="middle" align="left">Mandatory / Optional / Conditional</th>
+<th valign="middle" align="left">Max Occur</th>
+<th valign="middle" align="left">Data Type</th>
+</tr></thead>
+<tbody><tr><td valign="middle" align="left">conformanceCertificates</td>
+<td valign="middle" align="left">conformance classes passed by this target</td>
+<td valign="middle" align="left">O</td>
+<td valign="middle" align="left">N</td>
+<td valign="middle" align="left"><tt>String</tt></td>
+</tr><tr><td valign="middle" align="left">type</td>
+<td valign="middle" align="left">Type of the standardization target type.</td>
+<td valign="middle" align="left">M</td>
+<td valign="middle" align="left">1</td>
+<td valign="middle" align="left"><tt>StandardizationTargetType</tt></td>
+</tr></tbody>
+</table>
+</clause>
+
+<clause id="standardization-Target-Type" obligation="informative">
+<title>StandardizationTargetType</title>
+</clause>
+
 <clause id="_core_data_dictionary" obligation="informative">
 <title>Core Data Dictionary</title>
 <clause id="ConformanceClass-section" obligation="informative">
 <title>ConformanceClass</title>
-<p id="_57c1aefb-5243-210a-860c-6e466cc33461">set of conformance tests that must be passed to receive a single certificate of conformance (Clause 4.2)
-NOTE:: When no ambiguity is possible, the word test may be left out, so conformance test class may be called a conformance class.<br/>
-In the ModSpec, the set of requirements tested by the conformance tests within a conformance class is a requirements class and its dependencies. Optional requirements will be in a separate requirements class with other requirements that are part of the same option. Each requirements class corresponds to a separate conformance class<br/>
-Each requirements class will be in a 1 to 1 correspondence to a similarly named conformance class that tests all of the requirements class’s requirements.<br/>
-All requirements in a conformance class will have the same standardization target type.</p>
+<p id="_3df64888-4429-ff6b-d041-e37f943c53cc">set of conformance tests that must be passed to receive a single certificate of conformance (Clause 4.2)</p>
 
-<table id="_8d6ad03e-d367-52f5-5c00-bdc7407db3cb"><tbody><tr><td valign="middle" align="left"><table id="_f1282e65-2376-13e3-60e5-ced66c299d00"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
-<th valign="middle" align="left"><strong>Target class</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<p id="_2ec03fb5-5b2f-a9e8-2ea5-f03b7454bee1">original</p>
+
+<p id="_40d07c2d-f65c-79b5-3e38-bbfb9ffea9e7">set of conformance test modules that must be applied to receive a single certificate of conformance</p>
+
+<dl id="_96bc268a-54b2-9e30-2ed6-55105b996185"><dt>NOTE</dt>
+<dd><p id="_05457fe3-b6a0-2bc3-bca3-9a6c4cfba84f">When no ambiguity is possible, the word test may be left out, so conformance test class maybe called a conformance class.</p>
+</dd>
+</dl>
+
+<p id="_30793d99-61ac-b584-f36d-77d0dd6da62e">In this standard, the set of requirements tested by the conformance tests within a conformance class is a requirements class and its dependencies. Each optional requirement will be in a separate requirements class with other requirements that are part of the same option. Each requirements class corresponds to a separate conformance class</p>
+
+<p id="_fbc2abe4-4200-32e1-092b-dc3af92e9c04">In other words, the only options in a specification conformant to this standard will be if a particular requirements class is tested. Each requirements class will be in a 1 to 1 correspondence to a similarly named conformance class that tests all of the requirements class’s requirements.</p>
+
+<p id="_1a6c6072-1ea3-d196-b17b-d7c4a97b4ef9">All requirements in a conformance class will have the same standardization target.</p>
+
+<p id="_5d16ab99-60b7-398b-73b5-7c09590cf6cc">The term level is a synonym for class and is part of the ISO nomenclature. Here the two terms are treated as equivalent but ISO usually has differences in the way they are named and how they related to one another level or class.</p>
+
+<table id="_820de9ef-e6ab-96c7-fd5a-0f912cae9ca2"><tbody><tr><td valign="middle" align="left"><table id="_5ce74df2-4da9-247e-66e2-3c3548eef0c6"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
+<th valign="middle" align="left"><strong>Target class and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
-<tbody><tr><td valign="middle" align="left"/><td valign="middle" align="left"><xref target="ConformanceClass-section">ConformanceClass</xref></td>
-<td valign="middle" align="left">[1]</td>
-<td valign="middle" align="left"/></tr><tr><td valign="middle" align="left">dependencies</td>
-<td valign="middle" align="left"><xref target="ConformanceClass-section">ConformanceClass</xref></td>
-<td valign="middle" align="left">[0..*]</td>
-<td valign="middle" align="left">Conformance classes that this conformance class depends on.  These dependent conformance classes must be passed if this one is to be passed.</td>
-</tr><tr><td valign="middle" align="left">classes</td>
-<td valign="middle" align="left"><xref target="ConformanceClass-section">ConformanceClass</xref></td>
-<td valign="middle" align="left">[1..*]</td>
-<td valign="middle" align="left">Conformance classes that this conformance suite contains.</td>
-</tr><tr><td valign="middle" align="left"/><td valign="middle" align="left"><xref target="ConformanceSuite-section">ConformanceSuite</xref></td>
-<td valign="middle" align="left">[1]</td>
-<td valign="middle" align="left"/></tr><tr><td valign="middle" align="left"/><td valign="middle" align="left"><xref target="ConformanceClass-section">ConformanceClass</xref></td>
-<td valign="middle" align="left">[1]</td>
-<td valign="middle" align="left"/></tr><tr><td valign="middle" align="left">requirementsClass</td>
-<td valign="middle" align="left"><xref target="RequirementsClass-section">RequirementsClass</xref></td>
-<td valign="middle" align="left">[1]</td>
-<td valign="middle" align="left">The requirements class that this conformance class aims to test against.</td>
-</tr></tbody>
+<tbody><tr><td valign="middle" align="left"> dependencies</td>
+<td valign="middle" align="left"><xref target="ConformanceClass-section">ConformanceClass</xref>  [0..*]</td>
+<td valign="middle" align="left"/></tr><tr><td valign="middle" align="left"> classes</td>
+<td valign="middle" align="left"><xref target="ConformanceClass-section">ConformanceClass</xref>  [1..*]</td>
+<td valign="middle" align="left"/></tr><tr><td valign="middle" align="left"/><td valign="middle" align="left"><xref target="ConformanceClass-section">ConformanceClass</xref>  [1]</td>
+<td valign="middle" align="left"/></tr></tbody>
 </table>
 
-<table id="_fca0ca1e-efeb-06ac-0534-c8bf9bd1ad05"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
-<th valign="middle" align="left"><strong>Value type</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_065c4bc8-10b7-d07d-3ff5-e77a48bddf27"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
+<th valign="middle" align="left"><strong>Value type and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 <tbody><tr><td valign="middle" align="left"> name</td>
 <td valign="middle" align="left"><xref target="String-section">String</xref></td>
-<td valign="middle" align="left"/><td valign="middle" align="left">Name of the conformance class</td>
-</tr></tbody>
+<td valign="middle" align="left"/></tr></tbody>
 </table>
 </td>
 </tr></tbody>
@@ -2479,30 +2877,29 @@ All requirements in a conformance class will have the same standardization targe
 
 <clause id="ConformanceModule-section" obligation="informative">
 <title>ConformanceModule</title>
-<p id="_91173774-848f-0f87-6a67-10f046d7be02">a set of related tests, all within a single conformance test class</p>
+<p id="_92627b62-f5c2-031c-8c53-c597397081e6">set of related tests for a given requirements module all with the same standardization target</p>
 
-<dl id="_a3f596a6-cd0a-31e8-cebf-7f73951b405b"><dt>NOTE</dt>
-<dd><p id="_4c2feeb7-87a7-d35a-b3ff-315fd0ee4859">When there is no ambiguity, the word test may be omitted, i.e. conformance test module is the same as conformance module. Conformance modules may be nested in a hierarchical way.<br/>
-This term and those associated with it are included here for consistency with ISO 19105.</p>
+<p id="_08cb2c77-7031-b406-9341-77d420ab57f0">original</p>
+
+<p id="_4f95dd35-4f58-c46f-7789-b09bb9c8bfde">set of related tests, all within a single conformance test class</p>
+
+<dl id="_8fc5831c-386a-7bed-f8a4-787642a3517e"><dt>NOTE</dt>
+<dd><p id="_875134f1-8b6f-34c7-b092-930994a36481">When no ambiguity, the word test may be omitted. i.e. conformance test module is the same as conformance module. Conformance modules may be nested in a hierarchical way.
+This term and those associated to it are included here for consistency with ISO 19105.</p>
 </dd>
 </dl>
 
-<table id="_3b96abf7-fc0b-616e-156a-ae30c5ff9ddc"><tbody><tr><td valign="middle" align="left"><table id="_1b874475-24fb-dc85-d5e5-3fe0d7bbb7d0"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
-<th valign="middle" align="left"><strong>Target class</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_22b09312-abf7-f268-880a-bd7cda283d27"><tbody><tr><td valign="middle" align="left"><table id="_935dddf4-3603-2fe0-0e56-2516810c3f9b"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
+<th valign="middle" align="left"><strong>Target class and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
-<tbody><tr><td valign="middle" align="left">modules</td>
-<td valign="middle" align="left"><xref target="ConformanceModule-section">ConformanceModule</xref></td>
-<td valign="middle" align="left">[1..*]</td>
-<td valign="middle" align="left"/></tr><tr><td valign="middle" align="left"/><td valign="middle" align="left"><xref target="ConformanceClass-section">ConformanceClass</xref></td>
-<td valign="middle" align="left">[1]</td>
+<tbody><tr><td valign="middle" align="left"> modules</td>
+<td valign="middle" align="left"><xref target="ConformanceModule-section">ConformanceModule</xref>  [1..*]</td>
 <td valign="middle" align="left"/></tr></tbody>
 </table>
 
-<table id="_8adfbcda-74b0-b458-23cc-70ab929d2adb"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
-<th valign="middle" align="left"><strong>Value type</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_8b60b3a2-3e4c-b8ff-0032-0b70330ad512"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
+<th valign="middle" align="left"><strong>Value type and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
@@ -2513,31 +2910,30 @@ This term and those associated with it are included here for consistency with IS
 
 <clause id="ConformanceSuite-section" obligation="informative">
 <title>ConformanceSuite</title>
-<p id="_d3bd2820-46cc-61c7-3077-2f5391dce075">set of conformance classes that define tests for all requirements of a standard or abstract specification</p>
+<p id="_500d1f30-4ae2-d379-26f8-667edc125a1a">set of conformance classes that define tests for all requirements of a standard or abstract specification</p>
 
-<dl id="_c823f2e5-448a-4a5a-623e-67acad7bb4b7"><dt>NOTE</dt>
-<dd><p id="_19d36fb4-ec73-3749-4681-69b7691e682e">The conformance suite is the union of all conformance classes. It is by definition the conformance class of the entire specification.</p>
+<p id="_e0e5e7db-2fa3-8a01-f6ad-6fe59d8abbd2">Original</p>
+
+<p id="_d95e3e20-963a-2050-f63c-d2d743800e6c">set of conformance classes that define tests for all requirements of a standard</p>
+
+<dl id="_56baf497-c0d7-81f0-a19a-5ca05de33b19"><dt>NOTE</dt>
+<dd><p id="_e46e1634-2bea-ba05-a326-39e04098b9f8">The conformance suite is the union of all conformance classes. It is by definition the conformance class of the entire specification.</p>
 </dd>
 </dl>
 
-<p id="_8c0a9455-5c19-54df-b044-d03878d64b45">In this standard, each requirement is mandatory within its conformance class and each requirement is tested in at least one conformance test.</p>
+<p id="_d29eeb8f-b267-f7fa-b954-e4afc107a8e5">In this standard, each requirement is mandatory within its conformance class and each requirement is tested in at least one conformance test.</p>
 
-<table id="_7372a8e1-c3c4-dc4c-87b1-faef88b68491"><tbody><tr><td valign="middle" align="left"><table id="_3291540b-e69d-3f06-ba0c-21a5af2fea66"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
-<th valign="middle" align="left"><strong>Target class</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_dca99501-207a-eaec-bb18-5ea54aced035"><tbody><tr><td valign="middle" align="left"><table id="_6a6cd980-ff2a-05bb-c7e0-5777015d7274"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
+<th valign="middle" align="left"><strong>Target class and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
-<tbody><tr><td valign="middle" align="left">testSuite</td>
-<td valign="middle" align="left"><xref target="ConformanceSuite-section">ConformanceSuite</xref></td>
-<td valign="middle" align="left">[1]</td>
-<td valign="middle" align="left"/></tr><tr><td valign="middle" align="left"/><td valign="middle" align="left"><xref target="Standard-section">Standard</xref></td>
-<td valign="middle" align="left">[]</td>
+<tbody><tr><td valign="middle" align="left"> testSuite</td>
+<td valign="middle" align="left"><xref target="ConformanceSuite-section">ConformanceSuite</xref>  [1]</td>
 <td valign="middle" align="left"/></tr></tbody>
 </table>
 
-<table id="_d6e55266-6ed6-0174-980d-8144ecf061bc"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
-<th valign="middle" align="left"><strong>Value type</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_fbaad36c-6a48-f73d-0ea0-de3213b49bb6"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
+<th valign="middle" align="left"><strong>Value type and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
@@ -2548,50 +2944,38 @@ This term and those associated with it are included here for consistency with IS
 
 <clause id="ConformanceTest-section" obligation="informative">
 <title>ConformanceTest</title>
-<p id="_1a81ea99-7fa1-1c1c-570e-647d7f8db2fe">test, abstract or real, of one or more requirements contained within a standard, or set of standards</p>
+<p id="_2aff7a14-6fcb-1e14-38f2-c7f6f483031e">test, abstract or real, of a single requirements (Clause 4.21) contained within a standard, or set of standards</p>
 
-<table id="_e7aaf8aa-3a70-d5ff-0275-134ed7761caa"><tbody><tr><td valign="middle" align="left"><table id="_54329eba-3bf2-2bcb-dacd-aefd44cf75c7"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
-<th valign="middle" align="left"><strong>Target class</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<p id="_79a2bbd2-4675-53ee-1e8d-d91655bd7cea">Original</p>
+
+<p id="_d971b6d3-afe5-31df-4d3a-324b852b1de7">ttest, abstract or real, of one or more requirements contained within a standard, or set of standards</p>
+
+<table id="_1923068c-8986-9f1e-2e6a-bb3a9dd49ad8"><tbody><tr><td valign="middle" align="left"><table id="_42b0e98a-da6e-b396-eb7f-9f8e1f9d96bf"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
+<th valign="middle" align="left"><strong>Target class and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
-<tbody><tr><td valign="middle" align="left">test</td>
-<td valign="middle" align="left"><xref target="ConformanceTest-section">ConformanceTest</xref></td>
-<td valign="middle" align="left">[1..*]</td>
-<td valign="middle" align="left"/></tr><tr><td valign="middle" align="left"/><td valign="middle" align="left"><xref target="ConformanceModule-section">ConformanceModule</xref></td>
-<td valign="middle" align="left">[]</td>
-<td valign="middle" align="left"/></tr><tr><td valign="middle" align="left">tests</td>
-<td valign="middle" align="left"><xref target="ConformanceTest-section">ConformanceTest</xref></td>
-<td valign="middle" align="left">[1..*]</td>
-<td valign="middle" align="left">Conformance tests that when passed confirm the satisfaction of this requriement. NOTE: If this requirment is a requirement part, it may or may not have a corresponding conformance test.</td>
-</tr><tr><td valign="middle" align="left"/><td valign="middle" align="left"><xref target="Requirement-section">Requirement</xref></td>
-<td valign="middle" align="left">[1]</td>
+<tbody><tr><td valign="middle" align="left"> test</td>
+<td valign="middle" align="left"><xref target="ConformanceTest-section">ConformanceTest</xref>  [1..*]</td>
+<td valign="middle" align="left"/></tr><tr><td valign="middle" align="left"> test</td>
+<td valign="middle" align="left"><xref target="ConformanceTest-section">ConformanceTest</xref>  [1..*]</td>
 <td valign="middle" align="left"/></tr></tbody>
 </table>
 
-<table id="_a39f5671-ee72-57c8-6a40-32aac714a0dd"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
-<th valign="middle" align="left"><strong>Value type</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_49deaa01-df78-4ecd-dd39-87631b25f2c4"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
+<th valign="middle" align="left"><strong>Value type and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 <tbody><tr><td valign="middle" align="left"> abstract</td>
 <td valign="middle" align="left"><xref target="boolean-section">boolean</xref></td>
-<td valign="middle" align="left"/><td valign="middle" align="left">Whether this test is abstract or concrete. An abstract conformance test is commonly called an abstract test.</td>
-</tr><tr><td valign="middle" align="left"> references</td>
-<td valign="middle" align="left"><xref target="RichText-section">RichText</xref></td>
-<td valign="middle" align="left">[0..*]</td>
-<td valign="middle" align="left">References to the specification(s) or the conformance test</td>
-</tr><tr><td valign="middle" align="left"> testMethod</td>
-<td valign="middle" align="left"><xref target="ConformanceTestMethod-section">ConformanceTestMethod</xref></td>
-<td valign="middle" align="left">[0..*]</td>
-<td valign="middle" align="left">Method to perform this conformance test. A method is considered a “part” of the test if there are multiple of them.</td>
-</tr><tr><td valign="middle" align="left"> testPurpose</td>
+<td valign="middle" align="left"/></tr><tr><td valign="middle" align="left"> references</td>
+<td valign="middle" align="left"><xref target="RichText-section">RichText</xref>  [0..*]</td>
+<td valign="middle" align="left"/></tr><tr><td valign="middle" align="left"> testMethod</td>
+<td valign="middle" align="left"><xref target="ConformanceTestMethod-section">ConformanceTestMethod</xref>  [0..*]</td>
+<td valign="middle" align="left"/></tr><tr><td valign="middle" align="left"> testPurpose</td>
 <td valign="middle" align="left"><xref target="String-section">String</xref></td>
-<td valign="middle" align="left"/><td valign="middle" align="left">Purpose of the conformance test</td>
-</tr><tr><td valign="middle" align="left"> testType</td>
-<td valign="middle" align="left"><xref target="TestType-section">TestType</xref></td>
-<td valign="middle" align="left"/><td valign="middle" align="left">Type of the conformance test</td>
-</tr></tbody>
+<td valign="middle" align="left"/></tr><tr><td valign="middle" align="left"> testType</td>
+<td valign="middle" align="left"><xref target="String-section">String</xref></td>
+<td valign="middle" align="left"/></tr></tbody>
 </table>
 </td>
 </tr></tbody>
@@ -2600,23 +2984,23 @@ This term and those associated with it are included here for consistency with IS
 
 <clause id="ConformanceTestCase-section" obligation="informative">
 <title>ConformanceTestCase</title>
-<p id="_afa7cb41-048e-814e-9409-d3fedce7a57a">test for a particular requirement or a set of related requirements</p>
+<p id="_ed3d7467-2a78-92fd-6c84-cd33aba3966d">Original</p>
 
-<dl id="_7ef63298-94b8-60e9-0b4f-b976d539ad4e"><dt>NOTE</dt>
-<dd><p id="_7c44175f-27dc-6651-bfe7-720d6f1665d7">When there is no ambiguity, the word case may be omitted. i.e. conformance test is the same as conformance test case.</p>
+<p id="_61d00b87-ec05-ae18-a9df-f8d09a06bed6">test for a particular requirement or a set of related requirements</p>
+
+<dl id="_46b28410-3a90-0b0f-fd4b-7a76f83c92d3"><dt>NOTE</dt>
+<dd><p id="_acf58e05-7bcf-cf2a-b287-c7406ca8805b">When no ambiguity, the word case may be omitted. i.e. conformance test is the same as conformance test case.</p>
 </dd>
 </dl>
 
-<table id="_dd3a6494-4f8b-6c19-7b59-fbc93bbe2acd"><tbody><tr><td valign="middle" align="left"><table id="_78c8b600-0ab1-c4df-6ab1-b5a27d9005ce"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
-<th valign="middle" align="left"><strong>Target class</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_f620453f-0670-8b98-beaa-8c08b17ef489"><tbody><tr><td valign="middle" align="left"><table id="_98595792-8930-4eba-2435-b86c279b327e"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
+<th valign="middle" align="left"><strong>Target class and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
 
-<table id="_1150272c-e020-72f0-daf6-b88608fde0fe"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
-<th valign="middle" align="left"><strong>Value type</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_ae138859-dc26-3a73-4d9b-7ddd6cbbc929"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
+<th valign="middle" align="left"><strong>Value type and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
@@ -2627,16 +3011,14 @@ This term and those associated with it are included here for consistency with IS
 
 <clause id="ConformanceTestMethod-section" obligation="informative">
 <title>ConformanceTestMethod</title>
-<table id="_ebaa2f03-9754-a831-ff72-9ef180981ea7"><tbody><tr><td valign="middle" align="left"><table id="_f8552cb8-7376-9222-6798-d7dcd360c81d"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
-<th valign="middle" align="left"><strong>Target class</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_85a917a8-3ed6-d71b-8877-1cf01cbbdafa"><tbody><tr><td valign="middle" align="left"><table id="_645514f1-1bf7-5f52-775c-8eae1655ae51"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
+<th valign="middle" align="left"><strong>Target class and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
 
-<table id="_8a0c3362-3c14-8547-5112-686e17261aff"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
-<th valign="middle" align="left"><strong>Value type</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_4d0a87ab-25cc-f6d9-f5f1-14334148c937"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
+<th valign="middle" align="left"><strong>Value type and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
@@ -2647,27 +3029,25 @@ This term and those associated with it are included here for consistency with IS
 
 <clause id="CoreRequirementsClass-section" obligation="informative">
 <title>CoreRequirementsClass</title>
-<p id="_037d2d0f-45db-3412-9535-81c9abf589ba">Original</p>
+<p id="_d5b44308-49a7-c024-0905-fd80e5c92f65">Original</p>
 
-<p id="_6dc6e6f0-e3ff-a1d4-b37c-924ceb8ac5a1">unique requirements class that must be satisfied by any conformant standardization targets associated to the specification</p>
+<p id="_a7dcdf75-79e7-e970-13a0-c363ad09f1bc">unique requirements class that must be satisfied by any conformant standardization targets associated to the specification</p>
 
-<dl id="_4847fe14-b191-c457-c58c-2e8ee975b3ff"><dt>NOTE</dt>
-<dd><p id="_2300071c-5b45-2265-1211-47572dc1cb3d">The core requirements class is unique because if it was possible to have more than one, then each core would have to be implemented to pass any conformance test class, and thus would have to be contained in any other core. The core may be empty, or all or part of another standard or related set of standards.</p>
+<dl id="_0702ad27-2337-197d-8e50-52ef5152b5c6"><dt>NOTE</dt>
+<dd><p id="_e9a2b031-5140-930b-8aef-0c3558d9a39e">The core requirements class is unique because if it was possible to have more than one, then each core would have to be implemented to pass any conformance test class, and thus would have to be contained in any other core. The core may be empty, or all or part of another standard or related set of standards.</p>
 </dd>
 </dl>
 
-<p id="_9de86042-6d18-2c54-f8ee-8b6267af35b3">The core can refer to this requirements class, its associated conformance test class or the software module that implements that requirements class.</p>
+<p id="_ccdc5a70-f0fc-a20c-86f4-027136671564">The core can refer to this requirements class, its associated conformance test class or the software module that implements that requirements class.</p>
 
-<table id="_ba90716e-3c70-6a2b-8316-3dd017b6ca4d"><tbody><tr><td valign="middle" align="left"><table id="_42e334d8-c9bd-373c-5d8f-dc32016f0558"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
-<th valign="middle" align="left"><strong>Target class</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_1f0985d2-3a58-a978-4bcc-c013da004393"><tbody><tr><td valign="middle" align="left"><table id="_701a96e7-3f35-1383-f187-8ca88323a3fa"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
+<th valign="middle" align="left"><strong>Target class and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
 
-<table id="_7bcb3d93-dd8f-c91e-211b-067f717758d3"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
-<th valign="middle" align="left"><strong>Value type</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_a5fe7bed-1bea-5cc1-dd51-2112e50d8afe"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
+<th valign="middle" align="left"><strong>Value type and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
@@ -2678,20 +3058,18 @@ This term and those associated with it are included here for consistency with IS
 
 <clause id="GeneralRecommendation-section" obligation="informative">
 <title>GeneralRecommendation</title>
-<p id="_45b34800-0426-3eaf-6feb-bbbf664d3b63">Original</p>
+<p id="_a26d1a97-679a-ab79-9ae3-963824b100ea">Original</p>
 
-<p id="_2d2a4420-cf0e-68ce-ec79-2cc63c7014aa">recommendation applying to all entities in a specification model</p>
+<p id="_7403acb8-9800-293c-0977-db969e7f1c45">recommendation applying to all entities in a specification model</p>
 
-<table id="_3072a46c-1f51-e02a-8b20-07bc8f1e956d"><tbody><tr><td valign="middle" align="left"><table id="_82d95c44-7192-5b29-93fa-3997402f9d94"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
-<th valign="middle" align="left"><strong>Target class</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_997c0ef8-c622-1f33-db02-4b678f130193"><tbody><tr><td valign="middle" align="left"><table id="_9971bb90-0f05-1166-7cfb-1f75b97f9036"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
+<th valign="middle" align="left"><strong>Target class and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
 
-<table id="_5453555e-c328-9a51-aaeb-272a9810b9ca"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
-<th valign="middle" align="left"><strong>Value type</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_4e5c6571-8b0d-1927-474a-2f3d53810ce3"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
+<th valign="middle" align="left"><strong>Value type and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
@@ -2702,32 +3080,24 @@ This term and those associated with it are included here for consistency with IS
 
 <clause id="InformativeStatement-section" obligation="informative">
 <title>InformativeStatement</title>
-<p id="_88beeeda-c844-fde8-bf06-4a622f6e3266">expression in a document conveying information<note id="_7617e4a7-ee1b-d54a-f290-2f12d8f78e01"><p id="_572c8792-e9a9-822e-85f3-fca7030f301e">Includes all statements in a document not part of the normative requirements, recommendations, or conformance tests. Included for completeness.</p>
-</note></p>
+<p id="_083a086e-2dfd-cd26-d996-ec1d35db3dd3">expression in a document conveying information</p>
 
-
-
-<table id="_2c5946e2-07ca-b3ec-868b-856cfebc0c8e"><tbody><tr><td valign="middle" align="left"><table id="_1149df48-bd08-28ad-098d-c4bc29917063"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
-<th valign="middle" align="left"><strong>Target class</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_c9e9c7bf-ffe4-8c26-5df3-312599043271"><tbody><tr><td valign="middle" align="left"><table id="_89bf2bde-0479-433b-699d-edb6e5afb046"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
+<th valign="middle" align="left"><strong>Target class and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
-<tbody><tr><td valign="middle" align="left">guidance</td>
-<td valign="middle" align="left"><xref target="InformativeStatement-section">InformativeStatement</xref></td>
-<td valign="middle" align="left">[0..*]</td>
-<td valign="middle" align="left"/></tr><tr><td valign="middle" align="left"/><td valign="middle" align="left"><xref target="RequirementsModule-section">RequirementsModule</xref></td>
-<td valign="middle" align="left">[]</td>
+<tbody><tr><td valign="middle" align="left"> guidance</td>
+<td valign="middle" align="left"><xref target="InformativeStatement-section">InformativeStatement</xref>  [0..*]</td>
 <td valign="middle" align="left"/></tr></tbody>
 </table>
 
-<table id="_d8dabb7d-f7f9-29db-17ae-aa8bb38dd15c"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
-<th valign="middle" align="left"><strong>Value type</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_89d33220-70e1-20a8-132d-cde666d3f8f9"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
+<th valign="middle" align="left"><strong>Value type and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 <tbody><tr><td valign="middle" align="left"> name</td>
 <td valign="middle" align="left"><xref target="String-section">String</xref></td>
-<td valign="middle" align="left"/><td valign="middle" align="left"/></tr></tbody>
+<td valign="middle" align="left"/></tr></tbody>
 </table>
 </td>
 </tr></tbody>
@@ -2736,34 +3106,24 @@ This term and those associated with it are included here for consistency with IS
 
 <clause id="NormativeStatement-section" obligation="informative">
 <title>NormativeStatement</title>
-<p id="_efc684a4-d9d7-f7c1-dbef-5fce00c91f1d">expression in a document conveying information<note id="_afe31815-9f7f-bf15-5297-f1db5d5b2c73"><p id="_9de13298-cbda-e525-d0d3-369e5a4360a7">Includes all statements in a document not part of the normative requirements, recommendations, or conformance tests. Included for completeness.</p>
-</note></p>
+<p id="_60f0312d-8e47-3fc4-1e4f-a7c7835c6a0c">expression in a document conveying information</p>
 
-
-
-<table id="_fe16f719-a68f-803c-a197-325f7aa9c3f0"><tbody><tr><td valign="middle" align="left"><table id="_868ca99c-001a-147a-2927-65035c98cc3a"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
-<th valign="middle" align="left"><strong>Target class</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_e1a606e9-8e38-ef52-e00d-f94672736cc8"><tbody><tr><td valign="middle" align="left"><table id="_a5b354cc-27b1-3851-57fc-387df5996716"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
+<th valign="middle" align="left"><strong>Target class and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
-<tbody><tr><td valign="middle" align="left">requirements</td>
-<td valign="middle" align="left"><xref target="NormativeStatement-section">NormativeStatement</xref></td>
-<td valign="middle" align="left">[1..*]</td>
-<td valign="middle" align="left">Requirements classes, recommendations, and permissions that this requirements module contains.</td>
-</tr><tr><td valign="middle" align="left"/><td valign="middle" align="left"><xref target="RequirementsModule-section">RequirementsModule</xref></td>
-<td valign="middle" align="left">[]</td>
+<tbody><tr><td valign="middle" align="left"> requirements</td>
+<td valign="middle" align="left"><xref target="NormativeStatement-section">NormativeStatement</xref>  [1..*]</td>
 <td valign="middle" align="left"/></tr></tbody>
 </table>
 
-<table id="_78985a27-e470-8843-9fa5-06e93a03d832"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
-<th valign="middle" align="left"><strong>Value type</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_53c08e30-74fa-2f27-fe00-e26ff9c64a4f"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
+<th valign="middle" align="left"><strong>Value type and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 <tbody><tr><td valign="middle" align="left"> name</td>
 <td valign="middle" align="left"><xref target="String-section">String</xref></td>
-<td valign="middle" align="left"/><td valign="middle" align="left">Name of the normative statement</td>
-</tr></tbody>
+<td valign="middle" align="left"/></tr></tbody>
 </table>
 </td>
 </tr></tbody>
@@ -2772,18 +3132,16 @@ This term and those associated with it are included here for consistency with IS
 
 <clause id="Permission-section" obligation="informative">
 <title>Permission</title>
-<p id="_db42127e-ea55-bf81-69cd-72c26ebc92a7">uses “may” and is used to prevent a requirement from being “over interpreted” and as such is considered to be more of a “statement of fact” than a “normative” condition.</p>
+<p id="_d4ae7f18-ecaa-120b-6137-90e24038c813">uses “may” and is used to prevent a requirement from being “over interpreted” and as such is considered to be more of a “statement of fact” than a “normative” condition.</p>
 
-<table id="_4e88f56d-be0b-047a-b795-93fd41033841"><tbody><tr><td valign="middle" align="left"><table id="_f394f5c0-d9ce-d45b-281a-414fb1edc170"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
-<th valign="middle" align="left"><strong>Target class</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_9d074766-af95-e1a7-9bfb-9477bf70f457"><tbody><tr><td valign="middle" align="left"><table id="_76af0073-99cc-01c2-2d0f-2078f51ee0cd"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
+<th valign="middle" align="left"><strong>Target class and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
 
-<table id="_7b24f77b-4124-10c5-3371-d4f5a75e2775"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
-<th valign="middle" align="left"><strong>Value type</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_c939ad9c-b2f8-3e72-6e75-d94854aff3d4"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
+<th valign="middle" align="left"><strong>Value type and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
@@ -2794,24 +3152,21 @@ This term and those associated with it are included here for consistency with IS
 
 <clause id="Principal-section" obligation="informative">
 <title>Principal</title>
-<table id="_eaf03284-bdc5-5655-96bc-536112626b56"><tbody><tr><td valign="middle" align="left"><table id="_346dd4ef-12a4-ed31-0390-19f299a5310b"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
-<th valign="middle" align="left"><strong>Target class</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_b23e772d-9bd3-ae94-8559-d5bc8311b801"><tbody><tr><td valign="middle" align="left"><table id="_239d5d13-9b49-6c83-21b9-1590e6bf03f0"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
+<th valign="middle" align="left"><strong>Target class and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
 
-<table id="_159974f9-6cc5-9e3c-7469-1b201020dda5"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
-<th valign="middle" align="left"><strong>Value type</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_352f0895-4ec5-c6bf-e392-42b8d0897f38"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
+<th valign="middle" align="left"><strong>Value type and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 <tbody><tr><td valign="middle" align="left"> contactInformation</td>
-<td valign="middle" align="left"><xref target="String-section">String</xref></td>
-<td valign="middle" align="left">[1..*]</td>
+<td valign="middle" align="left"><xref target="String-section">String</xref>  [1..*]</td>
 <td valign="middle" align="left"/></tr><tr><td valign="middle" align="left"> name</td>
 <td valign="middle" align="left"><xref target="String-section">String</xref></td>
-<td valign="middle" align="left"/><td valign="middle" align="left"/></tr></tbody>
+<td valign="middle" align="left"/></tr></tbody>
 </table>
 </td>
 </tr></tbody>
@@ -2820,23 +3175,25 @@ This term and those associated with it are included here for consistency with IS
 
 <clause id="Recommendation-section" obligation="informative">
 <title>Recommendation</title>
-<p id="_69cc5a7d-c060-2628-f6f9-271e5436422d">expression in the content of a standard conveying that among several possibilities one is recommended as particularly suitable, without mentioning or excluding others, or that a certain course of action is preferred but not necessarily required, or that (in the negative form) a certain possibility or course of action is deprecated but not prohibited</p>
+<p id="_66423739-d002-b594-e445-311b339ea222">expression in the content of a standard conveying that among several possibilities one is recommended as particularly suitable, without mentioning or excluding others, or that a certain course of action is preferred but not necessarily required, or that (in the negative form) a certain possibility or course of action is deprecated but not prohibited</p>
 
-<dl id="_fb81d450-d85e-e8c6-d56a-5232459ecd14"><dt>NOTE</dt>
-<dd><p id="_fd4a55a5-f42b-ac3b-0c69-53ef667adb4d">Although using normative language, a recommendation is not a requirement. The usual form replaces the shall (imperative or command) of a requirement with a should (suggestive or conditional).</p>
+<p id="_04540032-0a4e-b861-7a02-351f1667b5d5">Original</p>
+
+<p id="_7c83e018-2753-2bd1-aef5-89a97f5d9bb4">expression in the content of a document conveying that among several possibilities one is recommended as particularly suitable, without mentioning or excluding others, or that a certain course of action is preferred but not necessarily required, or that (in the negative form) a certain possibility or course of action is deprecated but not prohibited</p>
+
+<dl id="_8c655f35-7c96-fbc4-96a2-beebf550d4d5"><dt>NOTE</dt>
+<dd><p id="_c4a29a9c-4c94-8d78-e933-90de0631e39d">Although using normative language, a recommendation is not a requirement. The usual form replaces the ―shall‖ (imperative or command) of a requirement with a ―should‖ (suggestive or conditional).</p>
 </dd>
 </dl>
 
-<table id="_4e75c41a-dfed-98b1-d595-2f742efaa0f6"><tbody><tr><td valign="middle" align="left"><table id="_5b02f5f0-6f38-a9a4-6680-18043bc91c2d"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
-<th valign="middle" align="left"><strong>Target class</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_40e267d3-ccd3-2140-bf6d-6713345d6dba"><tbody><tr><td valign="middle" align="left"><table id="_b5b55734-8ab2-b209-d34f-dc6f84933a55"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
+<th valign="middle" align="left"><strong>Target class and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
 
-<table id="_611fe91c-d6cc-1bf8-0032-76f5e8c8f3ed"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
-<th valign="middle" align="left"><strong>Value type</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_11d6629c-20ac-f971-971f-c912105545d9"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
+<th valign="middle" align="left"><strong>Value type and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
@@ -2847,42 +3204,34 @@ This term and those associated with it are included here for consistency with IS
 
 <clause id="Requirement-section" obligation="informative">
 <title>Requirement</title>
-<p id="_61f355c4-5008-c322-ac5e-edc8e88d8342">expression in the content of a standard conveying criteria to be fulfilled if compliance with the standard is to be claimed and from which no deviation is permitted</p>
+<p id="_f27dd26c-61dc-fc8f-5fde-794b506e36a2">expression in the content of a standard conveying criteria to be fulfilled if compliance with the standard is to be claimed and from which no deviation is permitted</p>
 
-<dl id="_cfe6c7dc-a0b1-5c04-592b-7af3ca68f4c8"><dt>NOTE</dt>
-<dd><p id="_d863dcec-adfd-94b0-694f-0ee7af8f7a23">Each requirement is a normative criterion for a single standardization target type. In this standard, requirements will be associated to conformance tests that can be used to prove compliance to the underlying criteria by the standardization target.</p>
+<p id="_afb889f5-e0b8-f57c-abe1-cdb9e01f58a7">Original</p>
+
+<p id="_c435de7a-4e40-176b-709a-f263eb4b6ae9">expression in the content of a document conveying criteria to be fulfilled if compliance with the document is to be claimed and from which no deviation is permitted</p>
+
+<dl id="_9b2b9c93-caa6-ab58-2ddf-bc9fba503163"><dt>NOTE</dt>
+<dd><p id="_58636fde-a2d2-a3ec-28de-4eff32616aa1">Each requirement is a normative criterion for a single type of standardization target. In this standard, requirements will be associated to conformance tests that can be used to prove compliance to the underlying criteria by the standardization target.</p>
 </dd>
 </dl>
 
-<p id="_05ec0e1a-ba58-bfda-ca1a-0b214915725b">The implementation of a requirement is dependent on the type of specification being written. A data specification requires data structures, but a procedural specification requires software implementations. The view of a standard in terms of a set of testable requirements allows us to use set descriptions of both the standard and its implementations.</p>
+<p id="_6bd809c6-5b48-46ab-33e2-bc374d34948c">The implementation of a requirement is dependent on the type of specification being written. A data specification requires data structures, but a procedural specification requires software implementations. The view of a standard in terms of a set of testable requirements allows us to use set descriptions of both the standard and its implementations.</p>
 
-<p id="_4e115c94-a034-724d-6896-27a78e896b1b">The specification of a requirement is usually expressed in terms of a model of the standardization target type, such as a UML model, or an XML or SQL schema. Anything without a defined test is a priori not testable and thus would be better expressed as a recommendation.</p>
+<p id="_c78d6842-d5a0-5cc5-d3c4-ba00febcc1f4">The specification of a requirement is usually expressed in terms of a model of the standardization target, such as a UML model, or an XML or SQL schema. Anything without a defined test is a priori not testable and thus would be better expressed as a recommendation.</p>
 
-<p id="_d05ab83f-3ac0-26e9-749c-319e6cab9206">Requirements use normative language and in particular are commands and use the imperative shall or similar imperative constructs. Statements in standards which are not requirements and need to be either conditional or future tense normally use will and should not be confused with requirements that use shall imperatively</p>
+<p id="_243d24c7-b965-2126-bc1e-b0a85d044cd4">Requirements use normative language and in particular are commands and use the imperative ―shall‖ or similar imperative constructs. Statements in standards which are not requirements and need to be either conditional or future tense normally use ―will‖ and should not be confused with requirements that use ―shall‖ imperatively</p>
 
-<table id="_796308e8-715e-257d-9561-f76f912ea252"><tbody><tr><td valign="middle" align="left"><table id="_76b16a15-e724-0da0-9950-1687a867f029"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
-<th valign="middle" align="left"><strong>Target class</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_7dcc412b-2f4b-bafe-345d-295f93d944ba"><tbody><tr><td valign="middle" align="left"><table id="_dd582ceb-4530-4f24-af13-71ac7dd0692d"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
+<th valign="middle" align="left"><strong>Target class and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
-<tbody><tr><td valign="middle" align="left">requirements</td>
-<td valign="middle" align="left"><xref target="Requirement-section">Requirement</xref></td>
-<td valign="middle" align="left">[1..*]</td>
-<td valign="middle" align="left">Corresponding requirement of requirement part that this conformance test is supposed to test against.</td>
-</tr><tr><td valign="middle" align="left"/><td valign="middle" align="left"><xref target="ConformanceTest-section">ConformanceTest</xref></td>
-<td valign="middle" align="left">[1]</td>
-<td valign="middle" align="left"/></tr><tr><td valign="middle" align="left">parts</td>
-<td valign="middle" align="left"><xref target="Requirement-section">Requirement</xref></td>
-<td valign="middle" align="left">[0..*]</td>
-<td valign="middle" align="left">Collection of requirements that are parts to this requirement. Satisfaction of all requirement parts are necessary for this requriement to be satisfied.</td>
-</tr><tr><td valign="middle" align="left"/><td valign="middle" align="left"><xref target="Requirement-section">Requirement</xref></td>
-<td valign="middle" align="left">[]</td>
+<tbody><tr><td valign="middle" align="left"> parts</td>
+<td valign="middle" align="left"><xref target="Requirement-section">Requirement</xref>  [0..*]</td>
 <td valign="middle" align="left"/></tr></tbody>
 </table>
 
-<table id="_ca1da2a2-1ff0-84fe-fa50-9d6a793d79b5"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
-<th valign="middle" align="left"><strong>Value type</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_8345f6e8-fc4f-ad6a-b59b-554b0cdd6bc7"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
+<th valign="middle" align="left"><strong>Value type and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
@@ -2893,41 +3242,35 @@ This term and those associated with it are included here for consistency with IS
 
 <clause id="RequirementsClass-section" obligation="informative">
 <title>RequirementsClass</title>
-<p id="_91272798-f6de-6bbe-e420-a1b0ba861894">aggregate of all requirements (Clause 4.21) that must all be satisfied to satisfy a conformance test Class</p>
+<p id="_b88e8de2-9ba6-7e50-9bc6-9a7708293a07">aggregate of all requirements (Clause 4.21) with a single standrdization target that must all be satisfied to pass a conformance test class (Clause 4.6)f</p>
 
-<dl id="_99e61d82-410c-c9c5-d4eb-2bc1dd6c1171"><dt>NOTE</dt>
-<dd><p id="_3cf85ad1-1f06-55a7-2001-ed214fc173b2">There is some confusion possible here, since the testing of indirect dependencies seems to violate this definition. But the existence of an indirect dependency implies that the test is actually a test of the existence of the relationship from the original target to something that has a property (satisfies a condition or requirement from another requirements class).</p>
+<p id="_72526d53-cda2-334b-bb7c-e47c98e0528b">Original</p>
+
+<p id="_34980a9f-5904-9c6b-98fd-fb010d4d8625">aggregate of all requirement modules that must all be satisfied to satisfy a conformance test class</p>
+
+<dl id="_6065fde0-9b29-5078-0354-c8d8f511ffde"><dt>NOTE</dt>
+<dd><p id="_0ba812b8-93e4-ce05-5eaf-f901aaf9bd22">There is some confusion possible here, since the testing of indirect dependencies seems to violate this definition. But the existence of an indirect dependency implies that the test is actually a test of the existence of the relationship from the original target to something that has a property (satisfies a condition or requirement from another requirements class).</p>
 </dd>
 </dl>
 
-<table id="_8c742f4a-d454-5bc8-f57d-89153a1b368f"><tbody><tr><td valign="middle" align="left"><table id="_d342cc77-002b-2e6d-eb58-3d8653bc9c78"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
-<th valign="middle" align="left"><strong>Target class</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_b99e43d2-33aa-bbbd-3e7f-576b4afd7952"><tbody><tr><td valign="middle" align="left"><table id="_c14525eb-ab78-1cd1-8ed2-cc4c860adf0e"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
+<th valign="middle" align="left"><strong>Target class and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
-<tbody><tr><td valign="middle" align="left">classes</td>
-<td valign="middle" align="left"><xref target="RequirementsClass-section">RequirementsClass</xref></td>
-<td valign="middle" align="left">[1..*]</td>
-<td valign="middle" align="left"/></tr><tr><td valign="middle" align="left"/><td valign="middle" align="left"><xref target="Standard-section">Standard</xref></td>
-<td valign="middle" align="left">[]</td>
-<td valign="middle" align="left"/></tr><tr><td valign="middle" align="left">dependencies</td>
-<td valign="middle" align="left"><xref target="RequirementsClass-section">RequirementsClass</xref></td>
-<td valign="middle" align="left">[0..*]</td>
-<td valign="middle" align="left">Requirements classes that this requirements class depends on. These dependend reuqirments classes must be satisfied for this requirements class to be satisfied.</td>
-</tr><tr><td valign="middle" align="left"/><td valign="middle" align="left"><xref target="RequirementsClass-section">RequirementsClass</xref></td>
-<td valign="middle" align="left">[]</td>
+<tbody><tr><td valign="middle" align="left"> classes</td>
+<td valign="middle" align="left"><xref target="RequirementsClass-section">RequirementsClass</xref>  [1..*]</td>
+<td valign="middle" align="left"/></tr><tr><td valign="middle" align="left"> dependencies</td>
+<td valign="middle" align="left"><xref target="RequirementsClass-section">RequirementsClass</xref>  [0..*]</td>
 <td valign="middle" align="left"/></tr></tbody>
 </table>
 
-<table id="_fc4a798a-a44c-a08b-adf2-7ed62cdf0937"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
-<th valign="middle" align="left"><strong>Value type</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_79c0a3e0-c891-687f-c770-d4f5e5e03924"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
+<th valign="middle" align="left"><strong>Value type and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 <tbody><tr><td valign="middle" align="left"> name</td>
 <td valign="middle" align="left"><xref target="String-section">String</xref></td>
-<td valign="middle" align="left"/><td valign="middle" align="left">Name of the requirements class</td>
-</tr></tbody>
+<td valign="middle" align="left"/></tr></tbody>
 </table>
 </td>
 </tr></tbody>
@@ -2936,36 +3279,33 @@ This term and those associated with it are included here for consistency with IS
 
 <clause id="RequirementsModule-section" obligation="informative">
 <title>RequirementsModule</title>
-<p id="_7557846c-d8fc-61b6-04e1-6952aaeec2c3">a set of related requirements (Clause 4.22), recommendations (Clause 4.20) and permissions (Clause 4.18) all with a single requirements class (Clause 4.26)</p>
+<p id="_b7302b41-0225-57c2-1b43-5ad8a6bd85dc">collection of requirements classes (Clause 4.22), recommendations (Clause 4.20) and permissions (Clause 4.18) with a single standardization target (Clause 4.26)</p>
 
-<dl id="_5db370bc-e875-27db-071f-9a2466b07953"><dt>NOTE</dt>
-<dd><p id="_66b58712-eba1-4f7b-51d1-f444431526d9">This term is included to be consistent with the use of modules in ISO 19105.</p>
+<p id="_b07abed1-c904-4bb2-b5e8-9549d949d07a">Original</p>
+
+<p id="_e63e6b02-24a3-ecb5-50b1-cc7d3e2a1137">aggregate of requirements and recommendations of a specification against a single standardization target type</p>
+
+<dl id="_945317e4-d1eb-73f5-4d9c-dc484e0511f2"><dt>NOTE</dt>
+<dd><p id="_7330fff0-5c67-4518-1241-cbc9609e1e20">This term is included to be consistent with the use of modules in ISO 19105. The third type of normative language, the ―permission‖ which uses ―may,‖ is not considered here mainly because it is usually used to prevent a requirement from being ―over interpreted‖ and as such is considered to be more of a ―statement of fact‖ than a ―normative‖ condition.</p>
 </dd>
 </dl>
 
-<table id="_8d2dd34d-f2cd-c16b-9f41-b32d81bbff6c"><tbody><tr><td valign="middle" align="left"><table id="_86371546-da3a-50a3-b177-2885dabeb2c5"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
-<th valign="middle" align="left"><strong>Target class</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_e5486ba4-ee58-830d-eaf9-c0a2456659ac"><tbody><tr><td valign="middle" align="left"><table id="_a4002c88-cdc4-cdc1-3e0b-737326eca1d7"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
+<th valign="middle" align="left"><strong>Target class and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
-<tbody><tr><td valign="middle" align="left">modules</td>
-<td valign="middle" align="left"><xref target="RequirementsModule-section">RequirementsModule</xref></td>
-<td valign="middle" align="left">[1..*]</td>
-<td valign="middle" align="left">A set of one or more requirments classes, recommendations, and permissions with the same standardization target.</td>
-</tr><tr><td valign="middle" align="left"/><td valign="middle" align="left"><xref target="RequirementsClass-section">RequirementsClass</xref></td>
-<td valign="middle" align="left">[]</td>
+<tbody><tr><td valign="middle" align="left"> modules</td>
+<td valign="middle" align="left"><xref target="RequirementsModule-section">RequirementsModule</xref>  [1..*]</td>
 <td valign="middle" align="left"/></tr></tbody>
 </table>
 
-<table id="_07e15df2-1c65-9176-7f06-1b4c263b6396"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
-<th valign="middle" align="left"><strong>Value type</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_f2eaff2a-337c-0cae-1d20-204c104723f4"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
+<th valign="middle" align="left"><strong>Value type and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 <tbody><tr><td valign="middle" align="left"> name</td>
 <td valign="middle" align="left"><xref target="String-section">String</xref></td>
-<td valign="middle" align="left"/><td valign="middle" align="left">Name of the requirements module</td>
-</tr></tbody>
+<td valign="middle" align="left"/></tr></tbody>
 </table>
 </td>
 </tr></tbody>
@@ -2974,23 +3314,24 @@ This term and those associated with it are included here for consistency with IS
 
 <clause id="Specification-section" obligation="informative">
 <title>Specification</title>
-<p id="_b28ee181-ce04-312c-0572-ae2a93cd1f48">document containing recommendations, requirements and conformance tests for those requirements</p>
+<p id="_d9f02d92-5bae-44de-8cdb-93a2e519034e">Original</p>
 
-<dl id="_859ff9f3-530f-8369-cdca-27c4bb3c8ba0"><dt>NOTE</dt>
-<dd><p id="_7784851e-99a1-3385-d6bf-68e722668315">This definition is included for completeness. See Clause 5.3. This does not restrict what else a specification may contain, as long as it does contain the three types of element cited.</p>
+<p id="_f25640b7-7091-249c-1a21-e3e99254796a">document containing recommendations, requirements and conformance tests for those requirements</p>
+
+<dl id="_ecf158be-1da1-f877-fdd8-74c74e7517d1"><dt>NOTE</dt>
+<dd><p id="_d1f2231f-8722-07a3-ce41-9e9d8eb64e6b">This definition is included for completeness. See Clause 5.3.
+This does not restrict what else a standard may contain, as long as it does contain the three types of element cited.</p>
 </dd>
 </dl>
 
-<table id="_7118a3a1-897d-5db4-52bb-6f7976c3896e"><tbody><tr><td valign="middle" align="left"><table id="_6d320de7-0c0c-f3e9-5217-9c3ef8aa91c4"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
-<th valign="middle" align="left"><strong>Target class</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_d2fab782-9fa6-8f9a-88ea-f997addd41ac"><tbody><tr><td valign="middle" align="left"><table id="_e458c6fd-7922-d198-6bbf-6ddafc2b06b2"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
+<th valign="middle" align="left"><strong>Target class and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
 
-<table id="_1db71a5d-8898-8fc6-9f71-08c6abc4139b"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
-<th valign="middle" align="left"><strong>Value type</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_867a21a5-1add-261d-5b7f-14994b9797bb"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
+<th valign="middle" align="left"><strong>Value type and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
@@ -3001,46 +3342,40 @@ This term and those associated with it are included here for consistency with IS
 
 <clause id="Standard-section" obligation="informative">
 <title>Standard</title>
-<p id="_5c2c6a4f-d070-fb3f-32c0-5efc46f61627">document containing recommendations (Clause 4.20), requirements (Clause 4.21) and conformance tests (Clause 4.6) that has been approved by a legitimate Standards Body</p>
+<p id="_922e51c8-f732-5a4c-378f-663aa3163979">document containing recommendations (Clause 4.20), requirements (Clause 4.21) and conformance tests (Clause 4.6) that has been approved by a legitimate Standards Body</p>
 
-<p id="_a5b4e028-bf60-bfc2-a4c2-136e658e1513">(original) specification that has been approved by a legitimate Standards Body</p>
+<p id="_ccbd2876-6145-1f99-d152-04f70d4a4732">Original</p>
 
-<dl id="_0443e6a2-6264-22f8-7ee5-35f2640b2089"><dt>NOTE</dt>
-<dd><p id="_85486b0b-5f04-2a6c-baa3-e44586a5cb19">This definition is included for completeness. Standard and specification can apply to the same document. While specification is always valid, standard only applies after the adoption of the document by a legitimate standards organization.  The legitimate Standards Bodies for OGC consist of OGC, ISO and any of the other standards bodies accepted and used as a source of normative references by OGC or ISO in their standards. In the normal meaning of the word standard, there are other conditions that may be required, but this standard has chosen to ignore them in the process of abstraction.</p>
+<p id="_d201d022-0994-0a63-bbf9-e4ec78c9ef41">specification that has been approved by a legitimate Standards Body</p>
+
+<dl id="_d3a71a97-aed3-cc54-e641-228021ddff44"><dt>NOTE</dt>
+<dd><p id="_1e1f820f-b829-aa8f-d5d9-496124dc692a">This definition is included for completeness. Standard and specification can apply to the same document. While specification is always valid, standard only applies after the adoption of the document by a legitimate standards organization.
+The legitimate Standards Bodies for OGC consist of OGC, ISO and any of the other standards bodies accepted and used as a source of normative references by OGC or ISO in their standards. In the normal meaning of the word ―standard‖, there are other conditions that may be required, but this standard has chosen to ignore them in the process of abstraction.</p>
 </dd>
 </dl>
 
-<table id="_4d8b137f-8494-3ed1-92ff-50b2d02a49e9"><tbody><tr><td valign="middle" align="left"><table id="_c0e0703a-c262-2289-b9fb-c6ff01c0cf15"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
-<th valign="middle" align="left"><strong>Target class</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_69547de1-8419-a570-92e3-2f433ae7292a"><tbody><tr><td valign="middle" align="left"><table id="_c17f51c8-3ee7-e6ce-897c-d653f102b259"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
+<th valign="middle" align="left"><strong>Target class and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
-<tbody><tr><td valign="middle" align="left">references</td>
-<td valign="middle" align="left"><xref target="Standard-section">Standard</xref></td>
-<td valign="middle" align="left">[0..*]</td>
-<td valign="middle" align="left"/></tr><tr><td valign="middle" align="left"/><td valign="middle" align="left"><xref target="Standard-section">Standard</xref></td>
-<td valign="middle" align="left">[]</td>
+<tbody><tr><td valign="middle" align="left"> references</td>
+<td valign="middle" align="left"><xref target="Standard-section">Standard</xref>  [0..*]</td>
 <td valign="middle" align="left"/></tr></tbody>
 </table>
 
-<table id="_fde58461-76ee-f9f8-9482-468c13ad88f8"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
-<th valign="middle" align="left"><strong>Value type</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_12c47b7b-67ae-b8f7-4519-51ade7b91470"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
+<th valign="middle" align="left"><strong>Value type and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 <tbody><tr><td valign="middle" align="left"> authority</td>
 <td valign="middle" align="left"><xref target="Principal-section">Principal</xref></td>
-<td valign="middle" align="left"/><td valign="middle" align="left">Standards body or author of this standard</td>
-</tr><tr><td valign="middle" align="left"> date</td>
+<td valign="middle" align="left"/></tr><tr><td valign="middle" align="left"> date</td>
 <td valign="middle" align="left"><xref target="DateTime-section">DateTime</xref></td>
-<td valign="middle" align="left"/><td valign="middle" align="left">Publication date of the standard</td>
-</tr><tr><td valign="middle" align="left"> name</td>
+<td valign="middle" align="left"/></tr><tr><td valign="middle" align="left"> name</td>
 <td valign="middle" align="left"><xref target="String-section">String</xref></td>
-<td valign="middle" align="left"/><td valign="middle" align="left">Name of the standard</td>
-</tr><tr><td valign="middle" align="left"> status</td>
+<td valign="middle" align="left"/></tr><tr><td valign="middle" align="left"> status</td>
 <td valign="middle" align="left"><xref target="String-section">String</xref></td>
-<td valign="middle" align="left"/><td valign="middle" align="left">Publication status of this standard</td>
-</tr></tbody>
+<td valign="middle" align="left"/></tr></tbody>
 </table>
 </td>
 </tr></tbody>
@@ -3049,26 +3384,28 @@ This term and those associated with it are included here for consistency with IS
 
 <clause id="StandardizationTarget-section" obligation="informative">
 <title>StandardizationTarget</title>
-<p id="_1003f82a-5a9e-6ed1-167e-f95a83155d37">entity to which some requirements of a standard apply
+<p id="_9b8915c9-7893-42c8-af20-59fb1d4a4ed5">entity to which some requirements (Clause 4.21) of a standard (Clause 4.25) apply</p>
+
+<p id="_a54e0b7c-b45e-4870-ba96-749bceca6179">Original</p>
+
+<p id="_59facc28-c14b-a21e-64e0-26e0e8bfc1dd">entity to which some requirements of a standard apply
 NOTE The standardization target is the entity which may receive a certificate of conformance for a requirements class.</p>
 
-<table id="_d80af106-c7c9-cb51-3c15-c039cdd4e0db"><tbody><tr><td valign="middle" align="left"><table id="_9f5c37bd-08ed-615c-cc52-ed994b942deb"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
-<th valign="middle" align="left"><strong>Target class</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_9c5f4447-6116-39a4-98f9-522b21378464"><tbody><tr><td valign="middle" align="left"><table id="_4b8c96c4-9066-ced4-f77f-42f0c12443d4"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
+<th valign="middle" align="left"><strong>Target class and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
+<tbody><tr><td valign="middle" align="left"/><td valign="middle" align="left"><xref target="StandardizationTarget-section">StandardizationTarget</xref>  []</td>
+<td valign="middle" align="left"/></tr></tbody>
 </table>
 
-<table id="_ae99787b-8f9a-97ef-7357-a0733435ddff"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
-<th valign="middle" align="left"><strong>Value type</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_11aea5ce-12c4-64c0-7977-273288c1b24e"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
+<th valign="middle" align="left"><strong>Value type and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 <tbody><tr><td valign="middle" align="left"> conformanceCertificates</td>
-<td valign="middle" align="left"><xref target="String-section">String</xref></td>
-<td valign="middle" align="left">[0..*]</td>
-<td valign="middle" align="left">Conformance classes passed by this target</td>
-</tr></tbody>
+<td valign="middle" align="left"><xref target="String-section">String</xref>  [0..*]</td>
+<td valign="middle" align="left"/></tr></tbody>
 </table>
 </td>
 </tr></tbody>
@@ -3077,38 +3414,31 @@ NOTE The standardization target is the entity which may receive a certificate of
 
 <clause id="StandardizationTargetType-section" obligation="informative">
 <title>StandardizationTargetType</title>
-<p id="_552ac2c4-c10e-0772-8365-556c1ade18a5">type of entity or set of entities to which the requirement (Clause 4.21) of a standard (Clause 4.25) apply</p>
+<p id="_5d98df63-a7a8-e371-eced-078823735385">type of entity or set of entities to which the requirement (Clause 4.21) of a standard (Clause 4.25) apply</p>
 
-<dl id="_08121211-da20-0b9e-4bf2-a230e0fcab39"><dt>NOTE</dt>
-<dd><p id="_e9a97793-5368-04d7-d6d3-ca0a859dca27">The standardization target types give the standardization targets a typing system similar to the UML classifiers. In general, the types inherit from one another in the same way that UML classes do. The same class/metaclass semantics apply, and two targets can be considered to have the same type (in a particular situation) if their instantiation types share the appropriate supertype, as is the case in UML. In OGC for example, all service types that must pass the OWS (Open Web Services) Common specification are some extension of the Open Web Service standardization target type. This makes OWS Common a default global core for all OGC Services.</p>
+<p id="_6c71a512-ff67-1110-b58d-c5e795d86d51">Original</p>
+
+<p id="_1dc564e1-8b9a-44b9-8a34-4e7559f92a47">type of entity or set of entities to which the requirements of a standard apply</p>
+
+<dl id="_13701789-e2e6-aa69-ed90-7537cae4ca25"><dt>NOTE</dt>
+<dd><p id="_104d3106-aa3e-f072-483f-a821276c3fb3">The standardization target types give the standardization targets a typing system similar to the UML classifiers. In general, the types inherit from one another in the same way that UML classes do. The same class/metaclass semantics apply, and two targets can be considered to have the ―same type‖ (in a particular situation) if their instantiation types share the appropriate supertype, as is the case in UML.
+In OGC for example, all service types that must pass the OWS (Open Web Services) Common specification are some extension of the ―Open Web Service‖ standardization target type. This makes OWS Common a default ―global core‖ for all OGC Services.</p>
 </dd>
 </dl>
 
-<p id="_34a75a77-dab1-d817-4aa3-fa5442eb40e7">In some cases, the standardization target type may be another specification. A GML application schema is a standardization target for the GML standard, but is in turn a specification of instances of that application schema.</p>
+<p id="_63116fa5-c046-6d27-b671-3b3a0c853b73">In some cases, the standardization target type may be another specification. A GML application schema is a standardization target for the GML standard, but is in turn a specification of instances of that application schema.</p>
 
-<table id="_d185ec20-c923-caad-c848-afcc3a5e3365"><tbody><tr><td valign="middle" align="left"><table id="_06fc4b80-e668-1663-4c0e-cbb6cd57a7bf"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
-<th valign="middle" align="left"><strong>Target class</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_3e324708-d70a-fc91-c85c-9063b757c2eb"><tbody><tr><td valign="middle" align="left"><table id="_436cc7a3-5f1f-6ebb-836d-df4d2e75e0ff"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
+<th valign="middle" align="left"><strong>Target class and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
-<tbody><tr><td valign="middle" align="left">Type</td>
-<td valign="middle" align="left"><xref target="StandardizationTargetType-section">StandardizationTargetType</xref></td>
-<td valign="middle" align="left">[]</td>
-<td valign="middle" align="left">Type of the standardization target type</td>
-</tr><tr><td valign="middle" align="left"/><td valign="middle" align="left"><xref target="StandardizationTarget-section">StandardizationTarget</xref></td>
-<td valign="middle" align="left">[]</td>
-<td valign="middle" align="left"/></tr><tr><td valign="middle" align="left">targetType</td>
-<td valign="middle" align="left"><xref target="StandardizationTargetType-section">StandardizationTargetType</xref></td>
-<td valign="middle" align="left">[1]</td>
-<td valign="middle" align="left">Type of standardization target</td>
-</tr><tr><td valign="middle" align="left"/><td valign="middle" align="left"><xref target="RequirementsClass-section">RequirementsClass</xref></td>
-<td valign="middle" align="left">[0..*]</td>
+<tbody><tr><td valign="middle" align="left"> targetType</td>
+<td valign="middle" align="left"><xref target="StandardizationTargetType-section">StandardizationTargetType</xref>  [1]</td>
 <td valign="middle" align="left"/></tr></tbody>
 </table>
 
-<table id="_970c3c0c-fa08-a900-1442-ee9e1808af6b"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
-<th valign="middle" align="left"><strong>Value type</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_2d26c99b-4802-cae1-eb38-c92c061701ff"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
+<th valign="middle" align="left"><strong>Value type and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
@@ -3119,25 +3449,23 @@ NOTE The standardization target is the entity which may receive a certificate of
 
 <clause id="Statement-section" obligation="informative">
 <title>Statement</title>
-<p id="_34360286-2503-b6c3-3c05-554725372831">Original</p>
+<p id="_92ad743d-e079-8d0c-437e-4ffff69744fb">Original</p>
 
-<p id="_91f83a09-8859-5a77-09c4-09a35fc54683">expression in a document conveying information</p>
+<p id="_99e99059-1ba3-5350-e8d2-fcb8303715b3">expression in a document conveying information</p>
 
-<dl id="_5026843a-38dd-435d-4017-8f8cba0f8b4a"><dt>NOTE</dt>
-<dd><p id="_b4163729-6801-6512-9c6e-b216aa750441">Includes all statements in a document not part of the normative requirements, recommendations or conformance tests. Included for completeness.</p>
+<dl id="_79e90372-1d1e-67c8-3528-efddf835da15"><dt>NOTE</dt>
+<dd><p id="_4fc69b66-e6ac-92a3-9353-4cacc53809ae">Includes all statements in a document not part of the normative requirements, recommendations or conformance tests. Included for completeness.</p>
 </dd>
 </dl>
 
-<table id="_7a57f7b4-54e6-b88b-9090-3d597f86a39b"><tbody><tr><td valign="middle" align="left"><table id="_c8d4d95b-b877-bbd6-2de8-b3dc2bb8438c"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
-<th valign="middle" align="left"><strong>Target class</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_90156d9b-2006-5243-1196-9ae435d430cc"><tbody><tr><td valign="middle" align="left"><table id="_067ebcba-a3f4-3b9b-f18d-daa79faefcbf"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
+<th valign="middle" align="left"><strong>Target class and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
 
-<table id="_85612382-e1ac-df1f-df3b-67b3c2e007ae"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
-<th valign="middle" align="left"><strong>Value type</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_9a2f358c-7f12-3d68-5790-84116d2e1475"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
+<th valign="middle" align="left"><strong>Value type and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
@@ -3148,23 +3476,21 @@ NOTE The standardization target is the entity which may receive a certificate of
 
 <clause id="TestType-section" obligation="informative">
 <title>TestType</title>
-<table id="_d70cfc10-b4cc-47ae-cae6-1bb2d55aac72"><tbody><tr><td valign="middle" align="left"><table id="_bff39cc1-c728-8f59-059f-ec3e1904a35a"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
-<th valign="middle" align="left"><strong>Target class</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_dba14b74-57c2-bdaa-acc5-9406d0878b26"><tbody><tr><td valign="middle" align="left"><table id="_8b4065bc-7d18-c555-3fb5-fb0fff7be338"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
+<th valign="middle" align="left"><strong>Target class and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
 
-<table id="_1da89ac6-77ed-8a3f-fa13-c5ef2f6fa93f"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
-<th valign="middle" align="left"><strong>Value type</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_b4f14620-160f-afde-0d3b-a01fba7a9a0c"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
+<th valign="middle" align="left"><strong>Value type and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 <tbody><tr><td valign="middle" align="left"> basic «enum»</td>
 <td valign="middle" align="left">&lt;←section,&gt;&gt;</td>
-<td valign="middle" align="left"/><td valign="middle" align="left"/></tr><tr><td valign="middle" align="left"> capabilities «enum»</td>
+<td valign="middle" align="left"/></tr><tr><td valign="middle" align="left"> capabilities «enum»</td>
 <td valign="middle" align="left">&lt;←section,&gt;&gt;</td>
-<td valign="middle" align="left"/><td valign="middle" align="left"/></tr></tbody>
+<td valign="middle" align="left"/></tr></tbody>
 </table>
 </td>
 </tr></tbody>
@@ -3172,28 +3498,26 @@ NOTE The standardization target is the entity which may receive a certificate of
 </clause>
 </clause>
 
-<clause id="_concepts_data_dictionary" obligation="informative">
+<clause id="_concepts_data_dictionary_2" obligation="informative">
 <title>Concepts Data Dictionary</title>
 <clause id="CertificateOfConformance-section" obligation="informative">
 <title>CertificateOfConformance</title>
-<p id="_2120d2e3-67f0-1c79-c16e-5187d79ef7d5">evidence of conformance to all or part of a standard, awarded for passing one or more of the conformance test classes specified in that standard</p>
+<p id="_7d0fc1df-73b2-31e0-5ce6-1b98cb252fa1">evidence of conformance to all or part of a standard, awarded for passing one or more of the conformance test classes specified in that standard</p>
 
-<dl id="_668b7b95-6855-76d9-6c29-e9fc17789053"><dt>NOTE</dt>
-<dd><p id="_69d68ad7-c763-9bc6-96de-56a4e94365ba">Certificates‖ do not have to be instantiated documents; having proof of passing the conformance test class is sufficient. For example, the OGC currently keeps an online list of conformant applications at <link target="http://www.opengeospatial.org/resource/products"/>.
+<dl id="_2f306d29-d8cb-c753-82cd-0ee6de8d67e1"><dt>NOTE</dt>
+<dd><p id="_0b73118f-420c-bfe5-e2bd-8596047c0a85">Certificates‖ do not have to be instantiated documents; having proof of passing the conformance test class is sufficient. For example, the OGC currently keeps an online list of conformant applications at <link target="http://www.opengeospatial.org/resource/products"/>.
 Each certificate of conformance is awarded to a standardization target.</p>
 </dd>
 </dl>
 
-<table id="_94786942-25c8-c0b0-741f-7b4719d7a501"><tbody><tr><td valign="middle" align="left"><table id="_9ea159fe-bd38-df3c-9be1-03512752794e"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
-<th valign="middle" align="left"><strong>Target class</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_18678d1f-d37a-d728-823b-7556436b3908"><tbody><tr><td valign="middle" align="left"><table id="_e373aa03-8e29-7ec8-f6ff-e37c92a7c837"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
+<th valign="middle" align="left"><strong>Target class and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
 
-<table id="_10c2c32a-6ffb-2880-45cf-f614071c3eb6"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
-<th valign="middle" align="left"><strong>Value type</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_9103629f-9792-9dc2-d92b-6fc1e0e0fc83"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
+<th valign="middle" align="left"><strong>Value type and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
@@ -3204,27 +3528,25 @@ Each certificate of conformance is awarded to a standardization target.</p>
 
 <clause id="DirectDependency-section" obligation="informative">
 <title>DirectDependency</title>
-<p id="_853540fd-6a1a-c4c7-42b8-12935e675982">Original</p>
+<p id="_9640e72b-9b69-1948-8fa5-785f799b2094">Original</p>
 
-<p id="_1d3f3af5-aa79-6cc8-72c5-82def784aede">another requirements class (the dependency) whose requirements are defined to also be requirements of this requirements class</p>
+<p id="_4012fb2a-b7ca-7aa4-32e0-c47eb78b908c">another requirements class (the dependency) whose requirements are defined to also be requirements of this requirements class</p>
 
-<dl id="_614abf3d-10ec-9fcc-614b-d52623390710"><dt>NOTE</dt>
-<dd><p id="_24815a30-edf8-a177-f854-53fc3be67d29">A direct dependency of the current requirements class will have the same standardization target as the current requirements class. This is another ways of saying that the current requirements class extends, or uses all the aspects of the direct dependency. Any tests associated to this dependency can be applied to this requirements class.</p>
+<dl id="_ff6394cf-2d03-5704-ebbf-072c2342f1cb"><dt>NOTE</dt>
+<dd><p id="_4ed90b1b-f2e0-24bb-3c8c-b49108bca414">A direct dependency of the current requirements class will have the same standardization target as the current requirements class. This is another ways of saying that the current requirements class extends, or uses all the aspects of the direct dependency. Any tests associated to this dependency can be applied to this requirements class.</p>
 </dd>
 </dl>
 
-<p id="_09c0db33-4a0f-11ea-67f9-08f44c279a49">When testing a direct dependency, the standardization target is directly subject to the test in the specified conformance test class of the direct dependency.</p>
+<p id="_8540064a-3359-3c4b-6175-5aa76488186d">When testing a direct dependency, the standardization target is directly subject to the test in the specified conformance test class of the direct dependency.</p>
 
-<table id="_8134541b-6743-a5a3-ecb8-80ff0fbdc2fb"><tbody><tr><td valign="middle" align="left"><table id="_f7ef8f64-0b46-2ae9-4ed1-479c7d4a6445"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
-<th valign="middle" align="left"><strong>Target class</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_fe88d85b-bedc-ff61-73f5-2248ef34c73a"><tbody><tr><td valign="middle" align="left"><table id="_62e7951d-113e-093a-6783-6ff37b65d557"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
+<th valign="middle" align="left"><strong>Target class and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
 
-<table id="_4c614000-05c5-1fa4-7cb2-55f82b671099"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
-<th valign="middle" align="left"><strong>Value type</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_04f6ce1a-4c74-e5b5-971b-82c472ae6162"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
+<th valign="middle" align="left"><strong>Value type and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
@@ -3235,24 +3557,22 @@ Each certificate of conformance is awarded to a standardization target.</p>
 
 <clause id="Extension-section" obligation="informative">
 <title>Extension</title>
-<p id="_eb6a7db8-9c9e-1bd7-4edf-d660896ddc8c">Original
+<p id="_926105fa-e312-199c-4992-b175edcc3a9f">Original
 requirements class which has a direct dependency on another requirements class</p>
 
-<dl id="_05edf0a0-5b88-1c52-fd75-fc1f0000f37f"><dt>NOTE</dt>
-<dd><p id="_f2fb7ee7-0548-1271-158e-296d3b10890d">Here extension is defined on requirements class so that their implementation may be software extensions in a manner analogous to the extension relation between the requirements classes.</p>
+<dl id="_e231d996-ade4-8de0-7c63-fcda5fa2ccdf"><dt>NOTE</dt>
+<dd><p id="_38651ebc-5fe9-b250-1c69-ef94dc273fed">Here extension is defined on requirements class so that their implementation may be software extensions in a manner analogous to the extension relation between the requirements classes.</p>
 </dd>
 </dl>
 
-<table id="_cc14d33b-9c3f-349c-cfdc-70fb0a25547a"><tbody><tr><td valign="middle" align="left"><table id="_c8fbc217-bf78-a112-a305-27781410a340"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
-<th valign="middle" align="left"><strong>Target class</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_914bf7fe-d072-c1d0-b6a7-eb2b0b456143"><tbody><tr><td valign="middle" align="left"><table id="_03eb4ca3-e120-e647-1a8c-81b35e45e2ef"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
+<th valign="middle" align="left"><strong>Target class and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
 
-<table id="_d12e347e-e3b2-ef8a-a06d-ba3be0b2be4f"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
-<th valign="middle" align="left"><strong>Value type</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_de49bb6b-2975-4626-965b-e9dc869e9a9b"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
+<th valign="middle" align="left"><strong>Value type and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
@@ -3263,26 +3583,24 @@ requirements class which has a direct dependency on another requirements class</
 
 <clause id="Home-section" obligation="informative">
 <title>Home</title>
-<p id="_7f31c1f3-e515-1316-ee37-451839415b4f">Original</p>
+<p id="_b596361d-4bce-2b8b-360d-24d5ded9434d">Original</p>
 
-<p id="_6a1e3e4c-d9ed-1fd1-987b-05405a20dcec">official statement of a requirement or recommendation that is the precedent for any other version repeated or rephrased elsewhere</p>
+<p id="_f5328cbf-c2b2-15cb-0905-e068493e9847">official statement of a requirement or recommendation that is the precedent for any other version repeated or rephrased elsewhere</p>
 
-<dl id="_f9640ce8-b82e-7e04-a843-3d708ba0b449"><dt>NOTE</dt>
-<dd><p id="_b485ca1d-ff70-0284-20dc-3908028d3dc7">Explanatory text associated to normative language often repeats or rephrases the requirement to aid in the discussion and understanding of the official version of the normative language. Since such restatements are often less formal than the original source and potentially subject to alternate interpretation, it is important to know the location of the home official version of the language.
+<dl id="_5bc465f4-cbfa-ecf3-7a1e-0cbd3af78c98"><dt>NOTE</dt>
+<dd><p id="_99c6e5e7-3031-ce0e-23db-5427924c33d0">Explanatory text associated to normative language often repeats or rephrases the requirement to aid in the discussion and understanding of the official version of the normative language. Since such restatements are often less formal than the original source and potentially subject to alternate interpretation, it is important to know the location of the home official version of the language.
 These alternative statements use non-normative language and are statements using the definitions of the ISO Directives Part 2.</p>
 </dd>
 </dl>
 
-<table id="_22df6be7-11ab-3bad-05ea-3e5ae09460ab"><tbody><tr><td valign="middle" align="left"><table id="_a589d554-0dc9-92cd-9938-11b2e4b6621f"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
-<th valign="middle" align="left"><strong>Target class</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_73c691cf-2185-ea06-9743-458092faab60"><tbody><tr><td valign="middle" align="left"><table id="_8d09895b-9655-dcbb-a8c0-ed0470a473b6"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
+<th valign="middle" align="left"><strong>Target class and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
 
-<table id="_02973b8c-f1a0-cae1-0438-4a7f327a3f72"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
-<th valign="middle" align="left"><strong>Value type</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_9e10a9e0-3350-e1f9-1905-4a218cd3ac38"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
+<th valign="middle" align="left"><strong>Value type and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
@@ -3293,28 +3611,26 @@ These alternative statements use non-normative language and are statements using
 
 <clause id="IndirectDependency-section" obligation="informative">
 <title>IndirectDependency</title>
-<p id="_2aa9adbf-a0f0-cc4c-7286-e0fc4e1f40c4">Original</p>
+<p id="_5a3f5110-237a-8602-e0e0-73d91e6d564e">Original</p>
 
-<p id="_5c07d1bc-d0fe-30ab-dcc9-908aaf34dca9">requirements class with a different standardization target which is used, produced or associated to by the implementation of this requirements class</p>
+<p id="_df2e8e51-0b62-f908-e41c-e6c0f3d5da2a">requirements class with a different standardization target which is used, produced or associated to by the implementation of this requirements class</p>
 
-<dl id="_3cfe9f59-5366-3b93-8618-3568cbf9d6df"><dt>NOTE</dt>
-<dd><p id="_9420c04c-c65d-ac79-5c2c-f53cd8590ead">In this instance, as opposed to the direct dependency, the test against the consumable or product used or produced by the requirements class does not directly test the requirements class, but tests only its side effects. Hence, a particular type of feature service could be required to produce valid XML documents, but the test of validity for the XML document is not directly testing the service, but only indirectly testing</p>
+<dl id="_9d7f72f1-8ad0-17c3-c81f-c00f3911690d"><dt>NOTE</dt>
+<dd><p id="_5ccc9dff-1d7d-940c-a568-8d66256ef6d3">In this instance, as opposed to the direct dependency, the test against the consumable or product used or produced by the requirements class does not directly test the requirements class, but tests only its side effects. Hence, a particular type of feature service could be required to produce valid XML documents, but the test of validity for the XML document is not directly testing the service, but only indirectly testing</p>
 </dd>
 </dl>
 
-<p id="_8ade2c2c-a9ea-5a68-4dd7-28a774c9292c">the validity of its output. Direct dependencies test the same standardization target, but indirect dependencies test related but different standardization targets.
+<p id="_1e33ef3c-3b51-d82d-9a71-69bddfe4df93">the validity of its output. Direct dependencies test the same standardization target, but indirect dependencies test related but different standardization targets.
 The standardization target of the indirect dependency is different from the target of ―this requirements class‖ but it may be of the same or related standardization target type. For example, if one service is related to another second service, then a service requirement may be placed against the second associated service to assure that the first service has access to its functionality. For example, if a DRM-enabled service is required to have an association to a licensing service, then the requirements of a licensing service are indirect requirements for the DRM-enabled service. Such a requirement may be stated as the associated licensing service has a certificate of conformance of a particular kind.</p>
 
-<table id="_46f26b05-8ff6-8410-2552-064a3bf86b48"><tbody><tr><td valign="middle" align="left"><table id="_b7573cb5-f9f9-115d-e16e-e3867e3e8899"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
-<th valign="middle" align="left"><strong>Target class</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_a55676a0-2490-f19f-eafc-a34a7dd243a3"><tbody><tr><td valign="middle" align="left"><table id="_8517a92e-3485-aea9-c7b5-1c457d80140d"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
+<th valign="middle" align="left"><strong>Target class and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
 
-<table id="_491e605e-8bd8-ccfb-3225-c6c44ba5f102"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
-<th valign="middle" align="left"><strong>Value type</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_d8f43672-d373-cc92-c585-befd2bfc6994"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
+<th valign="middle" align="left"><strong>Value type and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
@@ -3325,20 +3641,18 @@ The standardization target of the indirect dependency is different from the targ
 
 <clause id="LeafPackage-section" obligation="informative">
 <title>LeafPackage</title>
-<p id="_e8963298-2141-cc29-8480-4f8a72d7fb2e">Original</p>
+<p id="_6f714dd2-f45a-ec91-e9cb-4318d94fb4b0">Original</p>
 
-<p id="_ed80af68-5bbc-6be1-4e0a-bbee30e07e53">UML model package that does not contain any subpackages, but contains classifiers</p>
+<p id="_ff188dcb-a7b6-80e1-e608-82db8a0047fb">UML model package that does not contain any subpackages, but contains classifiers</p>
 
-<table id="_a54f40c1-a168-41d2-b2fb-4b8a421f7c40"><tbody><tr><td valign="middle" align="left"><table id="_6a74a614-7488-59b9-05fd-2ba39ddb95f9"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
-<th valign="middle" align="left"><strong>Target class</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_3f388df6-2c41-e2f8-fab5-4290efb972d9"><tbody><tr><td valign="middle" align="left"><table id="_442c49c5-c23d-c2b4-b54e-cf6b224cfe67"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
+<th valign="middle" align="left"><strong>Target class and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
 
-<table id="_6fb8a121-0623-d2d3-fbd2-2b176b487800"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
-<th valign="middle" align="left"><strong>Value type</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_fd9146c7-bf5d-b5eb-394f-3e390f67d49d"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
+<th valign="middle" align="left"><strong>Value type and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
@@ -3349,29 +3663,27 @@ The standardization target of the indirect dependency is different from the targ
 
 <clause id="Model-section" obligation="informative">
 <title>Model</title>
-<p id="_1f592ace-52b3-6820-88d5-9ee0d54b3ff1">Original</p>
+<p id="_473dd2a6-b276-082b-c5eb-64e4063fd165">Original</p>
 
-<p id="_1718c1f8-1d97-34a6-7208-608eb1846b74">theoretical construct that represents something, with a set of variables and a set of logical and quantitative relationships between them.</p>
+<p id="_c203a754-6286-aa88-f42f-7b42a24bb0e5">theoretical construct that represents something, with a set of variables and a set of logical and quantitative relationships between them.</p>
 
-<p id="_5bf32264-a089-faa7-fbae-6d63b2c62c63">NOTE Derived from Wikipedia</p>
+<p id="_4a52195e-e99d-bda4-86f8-bf2b60c6170c">NOTE Derived from Wikipedia</p>
 
-<p id="_56b2cd28-fee5-9fc6-0461-a50d16a3ae2a">The “theoretical construct” is essentially a conceptual metaphor with the target of the metaphor as the thing being modeled, and the source of the metaphor as the model. The terms are almost interchangeable, with model being preferred when the source is a constructed entity, and metaphor being preferred when the source already exists, and the emphasis is the mapping between it and the target.</p>
+<p id="_271fb870-6bee-c191-ec12-4d34b41d78a2">The “theoretical construct” is essentially a conceptual metaphor with the target of the metaphor as the thing being modeled, and the source of the metaphor as the model. The terms are almost interchangeable, with model being preferred when the source is a constructed entity, and metaphor being preferred when the source already exists, and the emphasis is the mapping between it and the target.</p>
 
-<p id="_b1338b6b-60d3-a13b-cf87-171bcb5a2d61">The definition in ISO 19101, Clause 4.4 is conceptual model — model that defines concepts of a universe of discourse.
+<p id="_82d87d86-53cc-2a58-be30-a3c45e54b23f">The definition in ISO 19101, Clause 4.4 is conceptual model — model that defines concepts of a universe of discourse.
 While adequate in the context of a ―universe of discourse‖ as the something addressed by a standard, a model need not have any ―universality‖ property at all. Most often models are representative of only a relatively small portion of a larger universe, and part of the process of modeling is to factor out the
 properties and things to which no interest is directed within the present standard It also fails to define ―model‖ which is in fact the central issue within this discussion.
 The abstract or conceptual is actually redundant and will often be dropped in the text. Models are by their vary nature not the same as what they are describing, and thus must contain a conceptual metaphor to describe their relationship to the target (the thing being described) of the model. This inherently makes them abstractions.</p>
 
-<table id="_08fbff4c-4314-bbdb-58d1-2a1ca49df5f0"><tbody><tr><td valign="middle" align="left"><table id="_4690dfa4-3d6b-c75f-7750-bc8c611ede9f"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
-<th valign="middle" align="left"><strong>Target class</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_fa05aba2-ee19-babd-e62d-d2215c58b0ec"><tbody><tr><td valign="middle" align="left"><table id="_011c0fa8-a912-cc9a-9496-9bea2c3b1973"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
+<th valign="middle" align="left"><strong>Target class and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
 
-<table id="_630fdc90-585b-83e2-d8c0-c4af83f3f3a0"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
-<th valign="middle" align="left"><strong>Value type</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_f4615c61-f496-ba80-4163-a33bd39d41f4"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
+<th valign="middle" align="left"><strong>Value type and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
@@ -3382,27 +3694,25 @@ The abstract or conceptual is actually redundant and will often be dropped in th
 
 <clause id="Profile-section" obligation="informative">
 <title>Profile</title>
-<p id="_ba64aef1-5756-247e-3376-6a42f7692653">Original</p>
+<p id="_2b19ea97-c5b3-4e4e-d0e6-d2c6b808d4f5">Original</p>
 
-<p id="_7b0176e5-3895-aa94-83b2-c6df6094097f">specification or standard consisting of a set of references to one or more base standards and/or other profiles, and the identification of any chosen conformance test classes, conforming subsets, options and parameters of those base standards, or profiles necessary to accomplish a particular function.</p>
+<p id="_4facc2f1-2bd1-5279-4b97-3236e0e4cfc0">specification or standard consisting of a set of references to one or more base standards and/or other profiles, and the identification of any chosen conformance test classes, conforming subsets, options and parameters of those base standards, or profiles necessary to accomplish a particular function.</p>
 
-<dl id="_d866f676-ffa8-fbf4-1d0e-89cd6a8f0c5b"><dt>NOTE</dt>
-<dd><p id="_b560d837-606d-432c-33e0-58c7bf50f933">This definition has been adopted from ISO 10000: Part 1. The wording has been changed to accommodate the shared vocabulary of OGC and ISO TC 211 and for editorial reasons. The original text is ―A set of one or more base standards and/or ISPs, and, where applicable, the identification of chosen classes, conforming subsets, options and parameters of those base standards, or ISPs necessary to accomplish a particular function.‖
+<dl id="_82b8008e-f9a3-409a-2b26-7b84ad12f517"><dt>NOTE</dt>
+<dd><p id="_e8dda173-af7a-8655-b037-a800621ff113">This definition has been adopted from ISO 10000: Part 1. The wording has been changed to accommodate the shared vocabulary of OGC and ISO TC 211 and for editorial reasons. The original text is ―A set of one or more base standards and/or ISPs, and, where applicable, the identification of chosen classes, conforming subsets, options and parameters of those base standards, or ISPs necessary to accomplish a particular function.‖
 In the usage of this standard, a profile will be a set of requirements classes or conformance classes (either preexisting or locally defined) of the base standards.
 This means that a standardization target being conformant to a profile implies that the same target is conformant to the standards referenced in the profile.</p>
 </dd>
 </dl>
 
-<table id="_898fcbf7-a501-b84f-3b15-b98c574ebd52"><tbody><tr><td valign="middle" align="left"><table id="_90652938-70d9-1ae5-ce56-d4f7fcb40ff0"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
-<th valign="middle" align="left"><strong>Target class</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_c0f1d2e3-aaf9-ab65-1b9f-3106ce30ded1"><tbody><tr><td valign="middle" align="left"><table id="_6e75b6dc-231f-332c-a7d5-fc8ebc582884"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
+<th valign="middle" align="left"><strong>Target class and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
 
-<table id="_a8a789af-79f1-2cc9-9826-f8da6c7d0805"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
-<th valign="middle" align="left"><strong>Value type</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_1ef3a754-a40d-a999-52cc-dcb8a602a670"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
+<th valign="middle" align="left"><strong>Value type and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
@@ -3412,20 +3722,18 @@ This means that a standardization target being conformant to a profile implies t
 </clause>
 </clause>
 
-<clause id="_types_data_dictionary" obligation="informative">
+<clause id="_types_data_dictionary_2" obligation="informative">
 <title>Types Data Dictionary</title>
 <clause id="DateTime-section" obligation="informative">
 <title>DateTime</title>
-<table id="_bd4507d2-1ac2-f484-d365-8db731b28c48"><tbody><tr><td valign="middle" align="left"><table id="_9e9a62db-fc3e-4f79-14d5-e7ddb7be50b2"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
-<th valign="middle" align="left"><strong>Target class</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_1377e6d0-646b-28b7-abe5-ac379ac3de0e"><tbody><tr><td valign="middle" align="left"><table id="_ad6da6ca-292d-2193-d110-47bcd9f79e5c"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
+<th valign="middle" align="left"><strong>Target class and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
 
-<table id="_0ff03f3e-c3dc-0fb1-9069-6d665025ce84"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
-<th valign="middle" align="left"><strong>Value type</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_069e994d-82d2-1a18-433c-d5c148841024"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
+<th valign="middle" align="left"><strong>Value type and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
@@ -3436,16 +3744,14 @@ This means that a standardization target being conformant to a profile implies t
 
 <clause id="RichText-section" obligation="informative">
 <title>RichText</title>
-<table id="_fd1c06a3-8e49-4441-fa97-341e9bd2c38a"><tbody><tr><td valign="middle" align="left"><table id="_72ded0af-56b4-97de-d0cf-05c5b369a6e3"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
-<th valign="middle" align="left"><strong>Target class</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_0ed53b1a-0953-5fcd-a9c4-25cff91bc2c9"><tbody><tr><td valign="middle" align="left"><table id="_1d918a3a-e3c4-2e3f-6d74-26d953ea112e"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
+<th valign="middle" align="left"><strong>Target class and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
 
-<table id="_35cd1e7b-2f44-ee5c-c38e-51491b93d01f"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
-<th valign="middle" align="left"><strong>Value type</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_64c30263-af09-874b-6e13-e6f4eae9b8f3"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
+<th valign="middle" align="left"><strong>Value type and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
@@ -3456,16 +3762,14 @@ This means that a standardization target being conformant to a profile implies t
 
 <clause id="String-section" obligation="informative">
 <title>String</title>
-<table id="_2809e925-2802-17ab-6482-5d23bd3ba6a8"><tbody><tr><td valign="middle" align="left"><table id="_5a634b88-aaae-2c90-6dcd-7091da53ef7a"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
-<th valign="middle" align="left"><strong>Target class</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_37e3ca83-663d-05da-ab1f-c09a9d7330f8"><tbody><tr><td valign="middle" align="left"><table id="_62fa766e-7b45-33c5-a3cd-468bc5f1e83b"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Role name</strong></th>
+<th valign="middle" align="left"><strong>Target class and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>
 
-<table id="_78c74979-d36b-dbbb-5f98-f1797d113913"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="5.2631%"/><col width="57.8949%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
-<th valign="middle" align="left"><strong>Value type</strong></th>
-<th valign="middle" align="left"><strong>multiplicity</strong></th>
+<table id="_71bc7f19-e0b8-d82f-049e-24dcc405319c"><colgroup><col width="15.7894%"/><col width="21.0526%"/><col width="63.158%"/></colgroup><thead><tr><th valign="middle" align="left"> <strong>Attribute</strong></th>
+<th valign="middle" align="left"><strong>Value type and multiplicity</strong></th>
 <th valign="middle" align="left"><strong>Definition</strong></th>
 </tr></thead>
 </table>

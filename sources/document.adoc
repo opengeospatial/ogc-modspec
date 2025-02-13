@@ -5,7 +5,7 @@
 :committee: technical
 :docnumber: 08-131r3
 :edition: 1.1.0
-:received-date: 2024-12-25
+:received-date: 2025-02-12
 :issued-date: 2025-xx-xx
 :published-date: 2025-xx-xx
 :copyright-year: 2024
@@ -35,6 +35,8 @@ include::sections/03-norm-refs.adoc[]
 
 include::sections/04-terms-and-defs.adoc[]
 
+include::sections/definitions.adoc[]
+
 include::sections/05-conventions.adoc[]
 
 include::sections/06-fundamentals.adoc[]
@@ -48,6 +50,8 @@ include::sections/aa-abstract-conformance.adoc[]
 include::sections/ab-changes-required.adoc[]
 
 include::sections/ac-definitions.adoc[]
+
+include::sections/data-dictionary.adoc[]
 
 include::sections/ad-bibliography.adoc[]
 
