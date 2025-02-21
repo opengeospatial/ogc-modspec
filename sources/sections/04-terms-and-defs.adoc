@@ -1,5 +1,5 @@
 [[cls-4]]
-== Terms and definitions
+== Terms and definitions by category
 
 [.boilerplate]
 === {blank}
