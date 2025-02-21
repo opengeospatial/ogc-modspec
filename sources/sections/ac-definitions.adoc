@@ -69,35 +69,3 @@ image::img02.png[]
 in <<cls-8-1,Clause 8>> of this document. The following subclauses describe the classes shown in this UML
 class diagram.
 
-[[Standard]]
-[lutaml_uml_attributes_table,models/ogc-modspec.lutaml, Standard, skip]
-
-[[conformance-suite]]
-[lutaml_uml_attributes_table,models/ogc-modspec.lutaml, ConformanceSuite, skip]
-
-[[conformance-class]]
-[lutaml_uml_attributes_table,models/ogc-modspec.lutaml, ConformanceClass, skip]
-
-[[requirements-class]]
-[lutaml_uml_attributes_table,models/ogc-modspec.lutaml, RequirementsClass, skip]
-
-[[requirements-module]]
-[lutaml_uml_attributes_table,models/ogc-modspec.lutaml, RequirementsModule, skip]
-
-[[normative-statement]]
-[lutaml_uml_attributes_table,models/ogc-modspec.lutaml, NormativeStatement, skip]
-
-[[requirement]]
-[lutaml_uml_attributes_table,models/ogc-modspec.lutaml, Requirement, skip]
-
-[[recommendation]]
-[lutaml_uml_attributes_table,models/ogc-modspec.lutaml, Recommendation, skip]
-
-[[conformance-test]]
-[lutaml_uml_attributes_table,models/ogc-modspec.lutaml, ConformanceTest, skip]
-
-[[standardization-target]]
-[lutaml_uml_attributes_table,models/ogc-modspec.lutaml, StandardizationTarget, skip]
-
-[[standardization-Target-Type]]
-[lutaml_uml_attributes_table,models/ogc-modspec.lutaml, StandardizationTargetType, skip]
