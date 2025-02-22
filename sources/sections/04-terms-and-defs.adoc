@@ -32,7 +32,7 @@ a <<Specification-definition,specification>> that has been approved by a legitim
 
 expression in a document conveying non-normative information
 
-NOTE::  Includes all statements in a document not part of the normative requirements, recommendations, permissions, or conformance tests. Included for completeness. 
+NOTE:  Includes all statements in a document not part of the normative requirements, recommendations, permissions, or conformance tests. Included for completeness. 
 
 [[Module-definition]]
 
