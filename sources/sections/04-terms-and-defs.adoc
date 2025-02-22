@@ -11,9 +11,76 @@ defined by ISO Directives.
 
 Many of these definitions depend upon the model given in <<annex-C,Annex C: ModSpec UML Model, Semantics, and Definitions>>.
 
-=== building block
+=== Building Block Terms and Definitions
 
-a requirements class or a requirements module with no direct dependencies on other requirements classes or modules and their associated compliance test class or compliance test module.
+[[BuildingBlock-definition]]
+==== building block
+
+a <<RequirementsClass-definition,requirements class>> or a <<RequirementsModule-definition,requirements module>> with no direct dependencies on other requirements classes or modules and their associated <<ComplianceClass-definition,compliance test class>> or <<ComplianceModule-definition,compliance test module>>. 
+
+=== General Terms and Definitions
+
+[[BestPractice-definition]]
+
+==== BestPractice
+
+a <<Specification-definition,specification>> that has been approved by a legitimate Standards Body as a recommendation for implementation. 
+
+[[InformativeStatement-definition]]
+
+==== InformativeStatement
+
+expression in a document conveying non-normative information
+
+NOTE::  Includes all statements in a document not part of the normative requirements, recommendations, permissions, or conformance tests. Included for completeness. 
+
+[[Module-definition]]
+
+==== Module
+
+each of a set of standardized parts or independent units that can be used to construct a more complex structure
+
+Note: The concept ‘module’ is key to the ModSpec structure and model. Modules have a direct relationship to the concept of building blocks. The power of the concept is that modules can be reused in different systems (specify once, use many). Modules can be imported from other programs. Modules can be replaced without affecting the rest of the system. 
+
+[[NormativeStatement-definition]]
+
+==== NormativeStatement
+
+expression in a document conveying information required to define conformance
+
+NOTE:  Includes all normative statements in a document including requirements, recommendations, permissions, and conformance tests. Included for completeness. 
+
+[[Specification-definition]]
+
+==== Specification
+
+document containing recommendations, requirements, permissions, and conformance tests
+
+NOTE:  This definition is included for completeness. 
+
+NOTE:  In the OGC, there are Abstract Specifications and Implementation Standards. Abstract Specifications may of may not be testable. Further, Abstract Specifications may not be directly implementable. Implementation Standards are always testable and contain a conformance test suite. 
+
+[[Standard-definition]]
+
+==== Standard
+
+a <<Specification-definition,specification>> that has been approved by a legitimate Standards Body 
+
+NOTE:  This definition is included for completeness. Standard and specification can apply to the same document. While specification is always valid, standard only applies after the adoption of the document by a legitimate standards organization.  
+
+NOTE:  A standard should consist primarily of Normative Statements. The goal should be for the standard to be concise. Supporting information can be provided through a users guide. 
+
+[[Statement-definition]]
+
+==== Statement
+
+expression in a document conveying information 
+
+[[UsersGuide-definition]]
+
+==== UsersGuide
+
+Non-normative information that assists in understanding a standard but is not required to implement the standard.
 
 === will
 In informative sections, the word "will" implies that something is an implication of a requirement. The "will" statements are
