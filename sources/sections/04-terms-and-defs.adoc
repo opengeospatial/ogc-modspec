@@ -82,6 +82,6 @@ expression in a document conveying information
 
 Non-normative information that assists in understanding a standard but is not required to implement the standard.
 
-=== will
+==== will
 In informative sections, the word "will" implies that something is an implication of a requirement. The "will" statements are
 not requirements, but explain the consequence of requirements.
