@@ -187,7 +187,7 @@ NOTE:  The *conformance suite* is the union of all *conformance modules* and the
 
 [[ConformanceTest-definition]]
 
-==== ConformanceTest
+==== Conformance Test
 
 test, abstract or real, of one or more <<Requirement-definition,requirements>> contained within a standard, or set of standards  
 
@@ -240,9 +240,9 @@ NOTE:  Each requirement is a normative criterion for a single type of <<Standard
 
 NOTE: The implementation of a requirement is dependent on the type of standard being written. A data standard requires data structures, but a procedural standard requires software implementations. The view of a standard in terms of a set of testable requirements allows us to use set descriptions of both the standard and its implementations.
 
-NOTE: The specification of a requirement is usually expressed in terms of a model of the standardization target type, such as a UML model, or an XML or SQL schema. Anything without a defined test is a-priori not testable and thus would be better expressed as a recommendation. 
+NOTE: The specification of a requirement is usually expressed in terms of a model of the standardization target type, such as "Web API", a UML model, or an XML or JSON schema. Anything without a defined test is a-priori not testable and thus would be better expressed as a recommendation. 
 
-NOTE: Requirements use normative language and in particular are commands and use the imperative "shall" or similar imperative constructs. Statements in standards which are not requirements and need to be either conditional or future tense normally use "will" and should not be confused with requirements that use "shall" imperatively  
+NOTE: Requirements use normative language and in particular are commands and use the imperative "SHALL" or similar imperative constructs. Statements in standards which are not requirements and need to be either conditional or future tense normally use "<<will-definition,WILL>>" and should not be confused with requirements that use "SHALL" imperatively  
 
 [[RequirementsClass-definition]]
 
