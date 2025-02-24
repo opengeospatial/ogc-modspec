@@ -18,10 +18,8 @@ associated conformance test class.
 
 ==== All components have an assigned URI
 
-Each component of the standard, including requirements, requirements modules,
-requirements classes, conformance test cases, conformance modules and conformance
-classes shall be assigned a URI as specified by the OGC Naming Authority or its
-equivalent.
+Each component of the standard, including requirements, requirements modules, requirements classes, 
+conformance test, conformance modules, and conformance test classes _SHALL_ be assigned a unique identifer or label.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
