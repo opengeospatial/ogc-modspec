@@ -56,7 +56,7 @@ NOTE:  Includes all normative statements in a document including requirements, r
 
 document containing recommendations, requirements, permissions, and conformance tests
 
-NOTE:  This definition is included for completeness. 
+NOTE: This definition is included for completeness. 
 
 NOTE:  In the OGC, there are Abstract Specifications and Implementation Standards. Abstract Specifications may of may not be testable. Further, Abstract Specifications may not be directly implementable. Implementation Standards are always testable and contain a conformance test suite. 
 
@@ -196,7 +196,9 @@ test, abstract or real, of one or more <<Requirement-definition,requirements>> c
 
 ==== Conformance Test Method
 
-TBD 
+How an implementation of the standard is tested for conformance. Testing may be automated, manual, or a hybrid. 
+
+NOTE: Testing by a second party is recommended.
 
 [[Model-definition]]
 
