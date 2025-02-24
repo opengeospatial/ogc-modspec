@@ -129,7 +129,7 @@ When testing a direct dependency of a requirements class, the standardization ta
 
 requirements class which has a direct dependency on another requirements class 
 
-NOTE:: Here an extension of a requirements class is defined on requirements class so that their implementation may be software extensions in a manner analogous to the extension relation between the requirements classes.  
+NOTE: Here an extension of a requirements class is defined on requirements class so that their implementation may be software extensions in a manner analogous to the extension relation between the requirements classes.  
 
 [[IndirectDependency-definition]]
 
