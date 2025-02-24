@@ -157,3 +157,151 @@ NOTE:  In the usage of the ModSpec, a profile will be a set of requirements clas
 This means that a standardization target being conformant to a profile implies that the same target is conformant to the standards referenced in the profile.
 
 [ISO/IEC TR 10000-1]    
+
+=== Core Terms and Definitions
+
+[[ConformanceClass-definition]]
+
+==== Conformance Class
+
+a set of <<ConformanceTest-definition,conformance tests>> that must be passed to receive a single <<CertificateOfConformance-definition,certificate of conformance>>
+
+NOTE:  When no ambiguity is possible, the word test may be left out, so conformance test class may be called a conformance class. +
+In the ModSpec, the set of <<Requirement-definition,requirements>> tested by the conformance tests within a <<ConformanceClass-definition,conformance class>> is a <<RequirementsClass-definition,requirements class>> and its dependencies. Optional requirements will be in a separate requirements class with other requirements that are part of the same option. Each requirements class corresponds to a separate conformance class +
+Each requirements class will be in a 1 to 1 correspondence to a similarly named conformance class that tests all of the requirements in the requirements class. +
+All requirements in a conformance class will have the same standardization target type.  
+
+[[ConformanceModule-definition]]
+
+==== Conformance Module
+
+a set of related conformance classes and their associated components. 
+
+[[ConformanceSuite-definition]]
+
+==== Conformance Suite
+
+set of <<ConformanceModule-definition,conformance modules>> that define <<ConformanceTest-definition,tests>> for all <<Requirement-definition,requirements>> of a <<Standard-definition,standard>> or abstract specification
+
+NOTE:  The *conformance suite* is the union of all *conformance modules* and their associated <<ConformanceClass-definition,conformance classes>>. It is by definition the *conformance class* of the entire *standard* or *abstract specification*.  
+
+[[ConformanceTest-definition]]
+
+==== ConformanceTest
+
+test, abstract or real, of one or more <<Requirement-definition,requirements>> contained within a standard, or set of standards  
+
+[[ConformanceTestMethod-definition]]
+
+==== Conformance Test Method
+
+TBD 
+
+[[Model-definition]]
+
+==== Model
+
+A representation of those aspects of the standardization target type which are to be governed by a standard. The model captures both the conceptual and logical properties of the standardization target type. The requirements promulgated by a standard should be expressed in terms of those conceptual and logical properties.
+
+In short, the model provides the vocabulary for expressing requirements. 
+
+[[Permission-definition]]
+
+==== Permission
+
+uses “may” and is used to prevent a requirement from being “over interpreted” and as such is considered to be more of a “statement of fact” than a “normative” condition. 
+
+[[Principal-definition]]
+
+==== Principal
+
+TBD - Undefined in 08-131r3. 
+
+[[Recommendation-definition]]
+
+==== Recommendation
+
+expression in the content of a standard conveying that among several possibilities one is recommended as particularly suitable, without mentioning or excluding others, or that a certain course of action is preferred but not necessarily required, or that (in the negative form) a certain possibility or course of action is deprecated but not prohibited 
+
+NOTE:  Although using normative language, a recommendation is not a requirement. The usual form replaces the shall (imperative or command) of a requirement with a should (suggestive or conditional). 
+
+NOTE:  Recommendations are not tested and therefore have no related conformance test.
+
+[ISO Directives Part 2] 
+
+[[Requirement-definition]]
+
+==== Requirement
+
+expression in the content of a <<Standard-definition,standard>> conveying criteria to be fulfilled if compliance with the standard is to be claimed and from which no deviation is permitted
+[ISO Directives Part 2] 
+
+NOTE:  Each requirement is a normative criterion for a single type of <<StandardizationTarget-definition,standardization target>>. In the ModSpec, requirements are associated to <<ConformanceTest-definition,conformance tests>> that can be used to prove compliance to the underlying criteria by the standardization target. 
+
+NOTE: The implementation of a requirement is dependent on the type of standard being written. A data standard requires data structures, but a procedural standard requires software implementations. The view of a standard in terms of a set of testable requirements allows us to use set descriptions of both the standard and its implementations.
+
+NOTE: The specification of a requirement is usually expressed in terms of a model of the standardization target type, such as a UML model, or an XML or SQL schema. Anything without a defined test is a-priori not testable and thus would be better expressed as a recommendation. 
+
+NOTE: Requirements use normative language and in particular are commands and use the imperative "shall" or similar imperative constructs. Statements in standards which are not requirements and need to be either conditional or future tense normally use "will" and should not be confused with requirements that use "shall" imperatively  
+
+[[RequirementsClass-definition]]
+
+==== Requirements Class
+
+aggregate of all <<Requirement-definition,requirements>> with a single <<StandardicationTargetType-definition,standardization target type>> that must all be satisfied to pass a <<ConformanceClass-definition,conformance test Class>>.
+
+NOTE:  There is some confusion possible here, since the testing of <<IndirectDependency-definition,indirect dependencies>> seems to violate this definition. But the existence of an indirect dependency implies that the test is actually a test of the existence of the relationship from the original target to something that has a property (satisfies a condition or requirement from another requirements class).  
+
+[[RequirementsModule-definition]]
+
+==== Requirements Module
+
+a set of related requirement classes and their associated components. 
+
+[[StandardizationGoal-definition]]
+
+==== Standardization Goal
+
+a concise statement of the problem that the standard helps address and the strategy envisioned for achieving a solution. This strategy typically identifies real-world entities that need to be modified or constrained. At the abstract level, those entities are the <<StandardizationTargetType-definition,Standardization Target Types>>.  
+
+[[StandardizationTarget-definition]]
+
+==== Standardization Target
+
+entity to which some <<Requirement-definition,requirements>> of a <<Standard-definition,standard>> apply
+
+NOTE:   The standardization target is the entity which may receive a certificate of conformance for a requirements class.  
+
+[[StandardizationTargetType-definition]]
+
+==== Standardization Target Type
+
+type of entity or set of entities to which the <<Requirement-definition,requirement>> of a <<Standard-definition,standard>> apply
+
+NOTE:  For example, the standardization target type for The OGC API – Features Standard are Web APIs. The standardization target type for the CDB Standard is “datastore”. It is important to understand that a standard’s root standardization target type can have sub-types, and that there can be a hierarchy of target types. For example, a Web API can have sub types of client, server, security, and so forth. As such, each requirements class can have a standardization target type that is a sub-type of the root. 
+
+[[TestType-definition]]
+
+==== TestType
+
+TBD - undefined in 08-131r3   
+
+=== Types Terms and Definitions
+
+[[DateTime-definition]]
+
+==== DateTime
+
+ 
+
+[[RichText-definition]]
+
+==== RichText
+
+ 
+
+[[String-definition]]
+
+==== String
+
+     
