@@ -198,7 +198,7 @@ test, abstract or real, of one or more <<Requirement-definition,requirements>> c
 
 How an implementation of the standard is tested for conformance. Testing may be automated, manual, or a hybrid. 
 
-NOTE: Testing by a second party is recommended.
+NOTE: Testing by an independent second party is recommended.
 
 [[Model-definition]]
 
