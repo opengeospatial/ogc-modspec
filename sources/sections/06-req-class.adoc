@@ -14,7 +14,7 @@ The following requirement states that every requirement in a standards document 
 [[req-0]]
 [width="90%",cols="2,6a"]
 |===
-^|*Requirement 0* |*/req/core/reqs-are-in-class*
+^|*Req000* |*/req/core/reqs-are-in-class*
 ^|A |Each requirement in a standard _SHALL_ be associated with a requirements class.
 |===
 
@@ -25,7 +25,7 @@ The following requirement states that every requirement is testable.
 [[req-1]]
 [width="90%",cols="2,6a"]
 |===
-^|*Requirement 1* |*/req/core/reqs-are-testable*
+^|*Req001* |*/req/core/reqs-are-testable*
 ^|A |All parts of a requirement _SHALL_ be testable. 
 ^|B |Failure to pass any part of a requirement _SHALL_ be a failure to pass the associated conformance test.
 |===
@@ -37,7 +37,7 @@ The following requirement states that every component of a standard will have a 
 [[req-2]]
 [width="90%",cols="2,6a"]
 |===
-^|*Requirement 2* |*/req/core/all-components-assigned-unique-identifier*
+^|*Req002* |*/req/core/all-components-assigned-unique-identifier*
 ^|A |Each component of the standard, including requirements, requirements modules, requirements classes, 
 conformance test, conformance modules, and conformance test classes _SHALL_ be assigned a unique identifer or label.
 |===
@@ -91,7 +91,7 @@ The following states how and where vocabularies are specified in relation to a r
 [[req-3]]
 [width="90%",cols="2,6a"]
 |===
-^|*Requirement 3* |*/req/core/vocabulary-and-parent-req-class*
+^|*Req003* |*/req/core/vocabulary-and-parent-req-class*
 ^|A |Requirements on the use and interpretation of vocabulary _SHALL_ be in the requirements class where that use or interpretation is used.
 |===
 
@@ -107,7 +107,7 @@ Importation of external vocabularies and schemas _MAY_ be in the core of a stand
 ====
 In the specification of a metadata service, the Dublin Core concept of a "Title" and
 the XML schema structure used for its specification can be in the core of the service
-specification. How a particular request-response pair uses the data structure to mean
+standard. How a particular request-response pair uses the data structure to mean
 the title of a particular document or dataset will be specified in the requirements
 class in which the request-response pair is defined and set against requirements.
 ====
