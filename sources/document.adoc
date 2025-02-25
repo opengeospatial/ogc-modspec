@@ -5,7 +5,7 @@
 :committee: technical
 :docnumber: 08-131r3
 :edition: 1.1.0
-:received-date: 2025-02-20
+:received-date: 2025-02-25
 :issued-date: 2025-xx-xx
 :published-date: 2025-xx-xx
 :copyright-year: 2024
@@ -34,8 +34,6 @@ include::sections/02-conformance.adoc[]
 include::sections/03-norm-refs.adoc[]
 
 include::sections/04-terms-and-defs.adoc[]
-
-include::sections/definitions.adoc[]
 
 include::sections/05-conventions.adoc[]
 
