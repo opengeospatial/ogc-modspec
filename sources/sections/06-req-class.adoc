@@ -119,7 +119,7 @@ The primary difficulty in speaking about standards (or candidate
 standards){blank}footnote:[This is purposely written as "as not yet adopted"
 standards, since it is during the authoring process that the ModSpec must be
 considered, not _post facto_.] as a group is their diverse
-nature. Some standards use UML to define behavior, others use XML to define data
+nature. Some standards use UML to define behavior, others use XML or JSON to define data
 structures, and others use no specific modeling language at all. However, they all
 must model the standardization target to which they apply since they need to use
 unambiguous language to specify requirements. Thus, the only thing they have in
@@ -134,11 +134,15 @@ The assumption is that each standard has a single
 true, then the standard can be logically factored into parts each corresponding
 to a "root" standardization target type, and that the standard addresses each
 such part separately (see the definition of requirements class in
-<<term-requirements-class>>). In this sense, the next requirement divides
+<<RequirementsClass-definition>>). In this sense, the next requirement divides
 standard into parts more than restricting their content.
 
 [[req-4]]
-include::../requirements/core/REQ_single-standardization-target.adoc[]
+[width="90%",cols="2,6a"]
+|===
+^|*Req004* |*/req/core/single-standardization-target*
+^|A |Each requirement in a conformant standard _SHALL_ have a single standardization target type.
+|===
 
 In practice, the standardization target of the core requirements class is the root
 of an inheritance tree where extensions all have the core's target as an ancestor,
