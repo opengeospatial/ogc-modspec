@@ -23,24 +23,14 @@ There may be one or more requirements in a requirements class.
 The following requirement states that every requirement is testable.
 
 [[req-1]]
-[width="90%",cols="2,6a"]
-|===
-^|*Requirement 1* |*/req/core/reqs-are-testable*
-^|A |All parts of a requirement _SHALL_ be testable. 
-^|B |Failure to pass any part of a requirement _SHALL_ be a failure to pass the associated conformance test.
-|===
+include::../requirements/core/REQ_testable.adoc[]
 
 Therefore, by definition, any requirements class that contains the requirement that failed to pass also fails to pass.
 
 The following requirement states that every component of a standard will have a unique identifier
 
 [[req-2]]
-[width="90%",cols="2,6a"]
-|===
-^|*Requirement 2* |*/req/core/all-components-assigned-unique-identifier*
-^|A |Each component of the standard, including requirements, requirements modules, requirements classes, 
-conformance test, conformance modules, and conformance test classes _SHALL_ be assigned a unique identifer or label.
-|===
+include::../requirements/core/REQ_assigned-uri.adoc[]
 
 The following recommendation encourages the consistent use of these unique identifiers/labels in the standard 
 as well as any external documentation referencing that standard.
