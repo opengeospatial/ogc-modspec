@@ -4,8 +4,8 @@
 ====
 [%metadata]
 identifier:: /req/core/all-components-assigned-uri
-part:: Each component of the standard, including requirements, requirements modules, requirements classes, conformance test cases, conformance modules and conformance classes SHALL be assigned a URI. 
-part:: For OGC standards documents, these URIs SHALL be conformant with the policies of the OGC Naming Authority.
+part:: Each component of a standard, including requirements, requirements modules, requirements classes, 
+conformance test, conformance modules, and conformance test classes _SHALL_ be assigned a unique identifer or label. 
 ====
 
-NOTE:In the OGC, the enforcement of this requirement and its associated recommendation is the purview of the OGC Naming Authority or its equivalents.
+NOTE: In the OGC, the enforcement of this requirement and its associated recommendation is the purview of the OGC Naming Authority or its equivalents.
