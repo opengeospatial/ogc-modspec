@@ -79,11 +79,7 @@ structures for use in other components and/or structures throughout the standard
 The following states how and where vocabularies are specified in relation to a requirements class.
 
 [[req-3]]
-[width="90%",cols="2,6a"]
-|===
-^|*Requirement 3* |*/req/core/vocabulary-and-parent-req-class*
-^|A |Requirements on the use and interpretation of vocabulary _SHALL_ be in the requirements class where that use or interpretation is used.
-|===
+include::../requirements/core/REQ_vocabulary.adoc[]
 
 [[per-4]]
 [permission,model=ogc,type="general"]
