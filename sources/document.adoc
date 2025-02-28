@@ -3,12 +3,12 @@
 :docsubtype: logical-model
 :status: Draft
 :committee: technical
-:docnumber: 08-131r3
+:docnumber: 08-131r4
 :edition: 1.1.0
 :received-date: 2025-02-25
 :issued-date: 2025-xx-xx
 :published-date: 2025-xx-xx
-:copyright-year: 2024
+:copyright-year: 2025
 :fullname: Carl Reed
 :role: editor
 :fullname_2: John Herring
