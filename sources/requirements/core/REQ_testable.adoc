@@ -4,7 +4,8 @@
 ====
 [%metadata]
 identifier:: /req/core/reqs-are-testable
-part:: All the parts of a requirement, a requirements module, or requirements class SHALL be testable. Failure to pass any part of any requirement shall be a failure to pass the associated conformance test class.
+part:: All the parts of a requirement _SHALL_ be testable. 
+part:: Failure to pass any part of a requirement _SHALL_ be a failure to pass the associated conformance test.
 ====
 
-NOTE:This further means that failure to pass the test specified for a part of requirement is a failure to pass the requirement.
+NOTE: This further means that failure to pass the test specified for a part of requirement is a failure to pass the requirement.
