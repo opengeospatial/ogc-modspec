@@ -11,27 +11,29 @@ defined by ISO Directives.
 
 Many of these definitions depend upon the model given in <<annex-C,Annex C: ModSpec UML Model, Semantics, and Definitions>>.
 
-=== BuildingBlocks Terms and Definitions
-
-[[BestPractice-definition]]
-
-==== BestPractice
-
-a <<Specification-definition,specification>> that has been approved by a legitimate Standards Body as a recommendation for implementation.  
+=== Building Blocks Terms and Definitions
 
 [[BuildingBlock-definition]]
 
-==== BuildingBlock
+==== Building Block
 
 a <<RequirementsClass-definition,requirements class>> or a <<RequirementsModule-definition,requirements module>> with no direct dependencies on other requirements classes or modules and their associated <<ComplianceClass-definition,compliance test class>> or <<ComplianceModule-definition,compliance test module>>. 
 
+=== General Terms and Definitions
+
+[[BestPractice-definition]]
+
+==== Best Practice
+
+a <<Specification-definition,specification>> that has been approved by a legitimate Standards Body as a recommendation for implementation.  
+
 [[InformativeStatement-definition]]
 
-==== InformativeStatement
+==== Informative Statement
 
 expression in a document conveying non-normative information
 
-NOTE::  Includes all statements in a document not part of the normative requirements, recommendations, permissions, or conformance tests. Included for completeness. 
+NOTE: Includes all statements in a document not part of the normative requirements, recommendations, permissions, or conformance tests. Included for completeness. 
 
 [[Module-definition]]
 
@@ -43,7 +45,7 @@ Note: The concept ‘module’ is key to the ModSpec structure and model. Module
 
 [[NormativeStatement-definition]]
 
-==== NormativeStatement
+==== Normative Statement
 
 expression in a document conveying information required to define conformance
 
@@ -77,7 +79,7 @@ expression in a document conveying information
 
 [[UsersGuide-definition]]
 
-==== UsersGuide
+==== Users Guide
 
 Non-normative information that assists in understanding a standard but is not required to implement the standard.   
 
@@ -85,7 +87,7 @@ Non-normative information that assists in understanding a standard but is not re
 
 [[CertificateOfConformance-definition]]
 
-==== CertificateOfConformance
+==== Certificate Of Conformance
 
 evidence of conformance to all or part of a standard, awarded for passing one or more of the conformance test classes specified in that standard 
 
@@ -94,7 +96,7 @@ Each certificate of conformance is awarded to a standardization target.
 
 [[CoreRequirementsClass-definition]]
 
-==== CoreRequirementsClass
+==== Core Requirements Class
 
 unique requirements class that must be satisfied by any conformant standardization targets associated to the standard
 
@@ -110,7 +112,7 @@ a module (the target) which is used, produced or associated to by an implementat
 
 [[DirectDependency-definition]]
 
-==== DirectDependency
+==== Direct Dependency
 
 another requirements class (the dependency) whose requirements are defined to also be requirements of this requirements class
 
@@ -124,11 +126,11 @@ When testing a direct dependency of a requirements class, the standardization ta
 
 requirements class which has a direct dependency on another requirements class 
 
-NOTE:: Here an extension of a requirements class is defined on requirements class so that their implementation may be software extensions in a manner analogous to the extension relation between the requirements classes.  
+NOTE: Here an extension of a requirements class is defined on requirements class so that their implementation may be software extensions in a manner analogous to the extension relation between the requirements classes.  
 
 [[IndirectDependency-definition]]
 
-==== IndirectDependency
+==== Indirect Dependency
 
 requirements class with a different standardization target which is used, produced or associated to by the implementation of this requirements class 
 
@@ -137,7 +139,7 @@ For example, if a DRM-enabled service is required to have an association to a li
 
 [[LeafPackage-definition]]
 
-==== LeafPackage
+==== Leaf Package
 
 UML model package that does not contain any subpackages, but contains classifiers 
 [UML]  
@@ -158,7 +160,7 @@ This means that a standardization target being conformant to a profile implies t
 
 [[ConformanceClass-definition]]
 
-==== ConformanceClass
+==== Conformance Class
 
 a set of <<ConformanceTest-definition,conformance tests>> that must be passed to receive a single <<CertificateOfConformance-definition,certificate of conformance>>
 
@@ -175,7 +177,7 @@ a set of related conformance classes and their associated components.
 
 [[ConformanceSuite-definition]]
 
-==== ConformanceSuite
+==== Conformance Suite
 
 set of <<ConformanceModule-definition,conformance modules>> that define <<ConformanceTest-definition,tests>> for all <<Requirement-definition,requirements>> of a <<Standard-definition,standard>> or abstract specification
 
@@ -183,13 +185,13 @@ NOTE:  The *conformance suite* is the union of all *conformance modules* and the
 
 [[ConformanceTest-definition]]
 
-==== ConformanceTest
+==== Conformance Test
 
 test, abstract or real, of one or more <<Requirement-definition,requirements>> contained within a standard, or set of standards  
 
 [[ConformanceTestMethod-definition]]
 
-==== ConformanceTestMethod
+==== Conformance Test Method
 
 How an implementation of the standard is tested for conformance. Testing may be automated, manual, or a hybrid.
 
@@ -244,7 +246,7 @@ NOTE: Requirements use normative language and in particular are commands and use
 
 [[RequirementsClass-definition]]
 
-==== RequirementsClass
+==== Requirements Class
 
 aggregate of all <<Requirement-definition,requirements>> with a single <<StandardicationTargetType-definition,standardization target type>> that must all be satisfied to pass a <<ConformanceClass-definition,conformance test Class>>.
 
@@ -252,19 +254,19 @@ NOTE:  There is some confusion possible here, since the testing of <<IndirectDep
 
 [[RequirementsModule-definition]]
 
-==== RequirementsModule
+==== Requirements Module
 
 a set of related requirement classes and their associated components. 
 
 [[StandardizationGoal-definition]]
 
-==== StandardizationGoal
+==== Standardization Goal
 
 a concise statement of the problem that the standard helps address and the strategy envisioned for achieving a solution. This strategy typically identifies real-world entities that need to be modified or constrained. At the abstract level, those entities are the <<StandardizationTargetType-definition,Standardization Target Types>>.  
 
 [[StandardizationTarget-definition]]
 
-==== StandardizationTarget
+==== Standardization Target
 
 entity to which some <<Requirement-definition,requirements>> of a <<Standard-definition,standard>> apply
 
@@ -272,7 +274,7 @@ NOTE:   The standardization target is the entity which may receive a certificate
 
 [[StandardizationTargetType-definition]]
 
-==== StandardizationTargetType
+==== Standardization Target Type
 
 type of entity or set of entities to which the <<Requirement-definition,requirement>> of a <<Standard-definition,standard>> apply
 
@@ -290,8 +292,6 @@ TBD - undefined in 08-131r3
 
 ==== DateTime
 
- 
-
 [[RichText-definition]]
 
 ==== RichText
@@ -302,6 +302,6 @@ TBD - undefined in 08-131r3
 
 ==== String
 
-=== will
+==== will
 In informative sections, the word "will" implies that something is an implication of a requirement. The "will" statements are
 not requirements, but explain the consequence of requirements.
