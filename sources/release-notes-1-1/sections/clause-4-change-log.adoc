@@ -35,40 +35,43 @@ See <<Clause_Critical>> for more information on critical changes and
 [[table_change_log]]
 .Change Log
 [cols="1a,1a,1a,2a,6a,2a",options="header"]
-|=======================================================================
+|===
 |Source      |Identifier     |Type                 |Section |Description |Purpose
 | Other | NA  | A | Metanorma | Put document into Metanorma compatible AsciiDoc | Consistency for publication 
 | Other | NA  | A | Requirements list | Removed from table of contents | Shorten document.
 | Other | NA  | A | ATS list of classes | Removed from table of contents | Shorten document.
-| Other | NA  | A | All sections | Use ModSpec as name | Backwards use, easy to use and say.
+| Other | NA  | A | All sections | Use ModSpec as name. Backwards use, easy to use and say| Clarity and consistency
 | GitHub| 38  | A | All sections | Added bookmarks and anchors | Ease of navigation.
 | GitHub| 8  | A | Preface | Rewrote Preface  | Clarity and shorten document
-| GitHub| 17, 18, 20  | A | Future Work | Update Future Work based on Git issues  | Added new future work items for JSON and RDFS, SHACL, and OWL to state requirements.
+| GitHub| 17, 18, 20  | A | Future Work | Added new future work items for JSON and RDFS, SHACL, and OWL to state requirements.  | Completeness for submitted issue resolution
 | GitHub| 12 | A | Preface | Rewrote Forward | Clarity and shorten document
 | Other | NA  | A | Scope 1.0 | Rewrote Scope | Clarity and shorten document
 | Other | NA  | A | New Clause 1.0 | Add Clause `Understanding the ModSpec` | Provide guidance to reader 
 | Other | NA  | A | New Clause 1.0 | Add Clause `ModSpec document structure` | Provide guidance to reader
 | GitHub| 13  | A | Introduction | Rewrote Introduction | Clarity and shorten
-| GitHub| 8, 12, 13  | A | Conformance | Rewrote and modified | Clarity, shorten and be consistent with Git issues 8, 12, and 13
-| GitHub | 15  | A | References | Updated dates | Provide references to most recent versions of each of the referenced standards.
-| GitHub| 45  | A | Terms & Defs | Added `building block` | Needed concept `building block` definition for OGC wide use.
-| GitHub| 34  | A | Terms & Defs | Added `permission` | Was a note but should be a separate T&D
-| Other| NA  | A | Terms & Defs | Added `module` | Never defined in ModSpec v 1.0!
-| Other| NA  | A | Terms & Defs | Added `will` | Defined in old ModSpec body but should be a separate T&D
-| Other| NA  | A | Terms & Defs | Removed notes as appropriate | Removed Note from Abstract Model, Profile, and Standard. Not needed
+| GitHub| 8, 12, 13  | A | Conformance | Rewrote and modified. Shorten and be consistent with Git issues 8, 12, and 13 | Clarity
+| GitHub | 15  | A | References | Updated dates and provide references to most recent versions of each of the referenced standards. | Completeness and accuracy
+| Other| NA  | A | Terms & Defs | Reorganized T&Ds into logical groupings | Clarity
+| GitHub| 45, 59  | A | Terms & Defs | Added concept `building block` definition for OGC wide use. | Completeness
+| GitHub| 34  | A | Terms & Defs | Added `permission` because was a note but should be a separate T&D entry | Clarity
+| Other| NA  | A | Terms & Defs | Added `module` because was never defined in ModSpec v 1.0!| Clarity and completeness 
+| Other| NA  | A | Terms & Defs | `will` defined in old ModSpec body but now a separate T&D entry | Completeness and clarity
+| Other| NA  | A | Terms & Defs | Removed notes as appropriate. | Clarity and readability
 | Other | NA  | A | Conventions | 6.2. Identifiers | Updated for 1.1
-| Other | NA  | A | Conventions | 6.3. Abbreviated terms | Removed abbreviations not used in core.
-| GitHub| 16 | A | Conventions | Rewrote 6.4. Finding requirements and recommendations | Clarity and shorten document. Some content moved to new Fundamentals clause
-| GitHub| 14, 33, 45 | A | Fundamentals | Add new Clause 7 Fundamentals | Some content moved from original ModSpec, new content based on Git Issues for more info on some topics
-| GitHub| 45  | A | Fundamentals | Add description of concept Building Block | Clarity and required for OGC wide usage and Common understanding.
+| Other | NA  | A | Conventions | 6.3. Abbreviated terms. Removed abbreviations not used in core. | Clarity
+| GitHub| 16 | A | Conventions | Rewrote 6.4. Finding requirements and recommendations. Some content moved to new Fundamentals clause | Clarity and shorten document. 
+| GitHub| 14, 33, 45 | A | Fundamentals | Add new Clause 7 Fundamentals. Some content moved from original ModSpec, new content based on Git Issues for more info on some topics. | Clarity and readability
+| GitHub| 45  | A | Fundamentals | Add description of concept Building Block. Required for OGC wide usage and Common understanding | Clarity and consistency
 | GitHub| 14, 33, 44  | A | Add 7.2. to Fundamentals Standardization Context — Goals and Targets | required for OGC wide usage and Common understanding. | Clarity and consistency
 | GitHub| 14, 33  | A | 7.0 Fundamentals Added concept of a `standardization goal`|  Need this requirement so every standard tells the reader what the goal or aim of the standard is. | Clarity and readability
 | Other | NA  | A | 7.3. Conformance, Requirements, and key information | Moved content from just after Requirement 2, ModSpec version 1 to new location  | Clarity
 | Other | NA  | A | 8.1. Using the model | Removed confusing paragraphs after Figure 1 - no impact. | Clarity
 | GitHub | 32 | A | 8.2.  The “standards” document | Removed confusing paragraphs after Req 7 and before Clause 8.3 | Clarity and shorten document.
+| Other | NA  | A | Requirement 1 Testable | Broke into two parts and made wording consistent | Clarity and consistency
+| Other | NA  | A | Requirement 2 URI | Removed OGC specific content and made general | Clarity and consistency
 | Other | NA  | A | Requirement 14 | Removed Einstein reference - no impact. | Clarity
 | Other | NA  | A | Annex B | Re-wrote content to be consistent with Version 1.1 | Consistency
 | GitHub| 10  | A | Annex C - ogc-modspec.lutaml | Rewrote Specification/Standard description to be consistent with Critical Change 4 | Consistency
 | GitHub| 33  | A | Annex C - ogc-modspec.lutaml | Added examples of requirement, requirements class. | Clarity
 | Other | NA  | A | Bibliography | Update dates for documents | Consistency
-|=======================================================================
+|===
