@@ -284,7 +284,14 @@ NOTE:  For example, the standardization target type for The OGC API – Features
 
 ==== TestType
 
-TBD - undefined in 08-131r3   
+TBD - undefined in 08-131r3
+
+[[will-definition]]
+
+==== will
+
+In informative sections, the word "will" implies that something is an implication of a requirement. The "will" statements are
+not requirements, but explain the consequence of requirements.
 
 === Types Terms and Definitions
 
@@ -296,12 +303,8 @@ TBD - undefined in 08-131r3
 
 ==== RichText
 
- 
 
 [[String-definition]]
 
 ==== String
 
-==== will
-In informative sections, the word "will" implies that something is an implication of a requirement. The "will" statements are
-not requirements, but explain the consequence of requirements.
