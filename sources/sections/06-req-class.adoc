@@ -120,7 +120,7 @@ The assumption is that each standard has a single
 true, then the standard can be logically factored into parts each corresponding
 to a "root" standardization target type, and that the standard addresses each
 such part separately (see the definition of requirements class in
-<<term-requirements-class>>). In this sense, the next requirement divides
+<<RequirementsClass-definition,requirements class>>). In this sense, the next requirement divides
 standard into parts more than restricting their content.
 
 [[req-4]]
@@ -136,7 +136,7 @@ include::../requirements/core/REQ_test-class-single-standardization-target.adoc[
 
 This means that all requirements are considered as targeting the same entity being
 tested for a particular certificate of conformance. The test may specify other types
-as intermediaries or indirect dependencies (see <<term-indirect-dependency-(of-a-requirements-class)>>).
+as intermediaries or indirect dependencies (see <<IndirectDependency-definition,indirect dependency>> of-a-requirements-class).
 
 [[per-5]]
 [permission,model=ogc,type="general"]
