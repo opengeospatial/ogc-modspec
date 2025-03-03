@@ -1,4 +1,4 @@
-[[req_all-components-assigned-uri]]
+[[req-2]]
 
 [requirement]
 ====
