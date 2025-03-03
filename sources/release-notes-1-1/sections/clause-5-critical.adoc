@@ -1,7 +1,7 @@
 [[Clause_Critical]]
 == Description of critical changes
 
-There are six (7) critical changes in the ModSpec: Core Standard. None of these changes affect backwards compatibility.
+There are seven (7) critical changes in the ModSpec: Core Standard. None of these changes affect backwards compatibility.
 
 === Critical Change 1: ModSpec 1.1 is not OGC Policy. 
 
