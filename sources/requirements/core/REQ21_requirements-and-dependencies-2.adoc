@@ -1,8 +1,9 @@
 [[req_requirements-and-dependencies-2]]
+[[req-21]]
 
 [requirement]
 ====
 [%metadata]
 identifier:: /req/core/requirements-and-dependencies-2
-part:: All general recommendations SHALL be in the core.
+part:: All general recommendations for a standard _SHALL_ be in the core.
 ====
