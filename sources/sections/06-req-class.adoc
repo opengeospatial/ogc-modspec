@@ -36,7 +36,7 @@ The following recommendation encourages the consistent use of these unique ident
 as well as any external documentation referencing that standard.
 
 [[rec-1]]
-include::../recommendations/core/REC1_uri-external-use.adoc[]
+include::../recommendations/core/REC001_uri-external-use.adoc[]
 
 While a requirement may be referenced in more than one place in a standard, the normative definition of a requirement shall be its "*#home#*" (see <<cls-6-3>>) and
 will be the only place where full normative language is used.
@@ -326,13 +326,7 @@ Unless a requirement is referenced in a conformance test and thus in a conforman
 class, it cannot be considered a requirement since no test has been defined for it.
 
 [[rec-2]]
-[recommendation,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*REC002* | */rec/core/parallel-structure* +
-If possible, the structure of the normative clauses of the standard _SHOULD_
-parallel the structure of the conformance classes in the conformance clause.
-|===
+include::../recommendations/core/REC002-parallel-structure.adoc[]
 
 The above requirement in conjunction with <<req-9>> means that all requirements in a conformant
 standard will be tested in some conformance class. In the best example, a
@@ -349,20 +343,12 @@ poor design, but they often cannot be avoided because of other considerations (c
 ownership for example). 
 
 [[rec-3]]
-[recommendation,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*REC003* | */rec/core/circular-dependencies* +
-Circular dependencies of all types _SHOULD_ be avoided whenever possible.
-|===
+include::../recommendations/core/REC003-circular-dependencies.adoc[]
 
 [[req-17]]
 include::../requirements/core/REQ17_structure-requirements-classes.adoc[]
 
-[NOTE]
-====
-The only certain manner to test this requirement maybe to create a reference implementation.
-====
+NOTE: The only certain manner to test this requirement maybe to create a reference implementation.
 
 This requirement is more important and may be more difficult than it seems. It
 states simply that conformance classes and their associated requirements classes can
@@ -418,12 +404,7 @@ include::../requirements/core/REQ21_requirements-and-dependencies-2.adoc[]
 include::../requirements/core/REQ22_requirements-and-dependencies-3.adoc[]
 
 [[rec-4]]
-[recommendation,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*REC004* | */rec/core/simple-core* +
-The core _SHOULD_ be as simple as possible.
-|===
+include::../recommendations/core/REC004-simple-core.adoc[]
 
 [[per-8]]
 [permission,model=ogc,type="general"]
@@ -442,13 +423,7 @@ The core requirements class _MAY_ be a conformance class in another standard.
 |===
 
 [[rec-5]]
-[recommendation,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*REC005* | */rec/core/optional-tests* +
-If a requirements class is from another standard, the current standard _SHOULD_ identify any optional tests
-in that conformance class that are required by the current standard's core requirements class. See <<req-13>>.
-|===
+include::../recommendations/core/REC005-optional-tests.adoc[]
 
 Since the core requirements class is contained (as a direct dependency) in each
 other requirements class with a similar standardization target type, the general
