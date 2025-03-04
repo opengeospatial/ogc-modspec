@@ -3,7 +3,7 @@
 [recommendation]
 ====
 [%metadata]
-identifier:: /req/core/uri-external-use
+identifier:: /rec/core/uri-external-use
 part:: These unique identifiers/labels _SHOULD_ be used in any external documentation that reference
 component elements of a standard in a normative manner, including but not limited to other
 standards, implementations of the conformance test suite, or certificates of
