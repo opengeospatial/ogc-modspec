@@ -7,9 +7,13 @@ The following states that for any OGC Standards development, the ModSpec model s
 
 - Any new OGC Standard, revision to an existing OGC Standard, new abstract specification that has requirements, or revision to an existing abstract specification that has requirements _SHALL_ comply with the requirements stated in the OGC ModSpec Core Standard and relevant Parts.
 
+The following states that any OGC normative document use the terminology as defined in https://www.iso.org/sites/directives/current/part2/index.xhtml#_idTextAnchor078[ISO/IEC Dirctives Part 2 Clause 7]
+
+- Any OGC standard, best practice that states requirements, or abstract specification _SHALL_ use the verbal forms for expressions of provisions as defined in ISO/IEC Dirctives Part 2 Clause 7.
+
 Any OGC Standards document must specify a standardization goal.
 
-- Any new OGC Standard, new abstract specification, or major revision of an existing OGC Standard pr abstract specification _SHALL_ 
+- Any new OGC Standard, new abstract specification, or major revision of an existing OGC Standard or abstract specification _SHALL_ 
 clearly state the standardization goal for the standard or abstract specification. This statement _SHOULD_ be in the `Abstract` or 
 `Scope` clauses of the standard or abstract specification. Please note that a Standard's stated goal drove the original development of the standard. 
 However, other uses of a standard or elements of the standard are not precluded.
