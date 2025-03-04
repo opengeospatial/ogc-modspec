@@ -1,8 +1,0 @@
-[[req_con-class-dependencies]]
-
-[requirement]
-====
-[%metadata]
-identifier:: /req/core/con-class-dependencies
-part:: A Conformance class SHALL specify any other conformance class upon which it is dependent and that other conformance class shall be used to test the specified dependency.
-====
