@@ -1,8 +1,0 @@
-[[req_all-parameters-expressed]]
-
-[requirement]
-====
-[%metadata]
-identifier:: /req/core/all-parameters-expressed
-part:: A certificate of conformance SHALL specify all parameter values used to pass the tests in its conformance test class.
-====
