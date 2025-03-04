@@ -1,8 +1,10 @@
 [[req_single-standardization-target]]
 
+[[req-4]]
+
 [requirement]
 ====
 [%metadata]
 identifier:: /req/core/single-standardization-target
-part:: Each requirement class in a conformant standard SHALL have a single standardization target type.
+part:: Each requirement class in a conformant standard SHALL have a single standardization target.
 ====
