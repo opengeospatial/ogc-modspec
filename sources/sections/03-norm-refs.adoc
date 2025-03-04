@@ -15,7 +15,7 @@ supplied definitions used in this document.
 
 * [[[iso10000-1,ISO/IEC 10000-1]]]
 
-* [[[iso-dp2,ISO/IEC DIR 2]]], available at https://isotc.iso.org/livelink/livelink?func=ll&objId=4230456&objAction=browse&sort=subtype[ISO/IEC Directives, Part 2: Rules for the structure and drafting of International Standards]
+* [[[iso-dp2,ISO/IEC DIR 2]]], available at https://www.iso.org/sites/directives/current/part2/index.xhtml[ISO/IEC Directives, Part 2: Rules for the structure and drafting of International Standards]
 
 * [[[iso19105:2022,ISO 19105:2022]]], Geographic information — Conformance and testing
 
