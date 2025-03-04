@@ -1,0 +1,8 @@
+[[rec-4]]
+
+[recommendation]
+====
+[%metadata]
+identifier:: /rec/core/simple-core
+part:: The core _SHOULD_ be as simple as possible.
+====
