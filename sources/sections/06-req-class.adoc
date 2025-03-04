@@ -36,15 +36,7 @@ The following recommendation encourages the consistent use of these unique ident
 as well as any external documentation referencing that standard.
 
 [[rec-1]]
-[recommendation,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*REC001* | */req/core/uri-external-use* +
-These unique identifiers/labels _SHOULD_ be used in any external documentation that reference
-these component elements in a normative manner, including but not limited to other
-standards, implementations of the conformance test suite, or certificates of
-conformance for implementations conformant to the standard in question.
-|===
+include::../recommendations/core/REC1_uri-external-use.adoc[]
 
 While a requirement may be referenced in more than one place in a standard, the normative definition of a requirement shall be its "*#home#*" (see <<cls-6-3>>) and
 will be the only place where full normative language is used.
@@ -79,7 +71,7 @@ structures for use in other components and/or structures throughout the standard
 The following states how and where vocabularies are specified in relation to a requirements class.
 
 [[req-3]]
-include::../requirements/core/REQ_vocabulary.adoc[]
+include::../requirements/core/REQ3_vocabulary.adoc[]
 
 [[per-4]]
 [permission,model=ogc,type="general"]
@@ -124,7 +116,7 @@ such part separately (see the definition of requirements class in
 standard into parts more than restricting their content.
 
 [[req-4]]
-include::../requirements/core/REQ_single-standardization-target.adoc[]
+include::../requirements/core/REQ4_single-standardization-target.adoc[]
 
 In practice, the standardization target of the core requirements class is the root
 of an inheritance tree where extensions all have the core's target as an ancestor,
@@ -132,7 +124,7 @@ and thus can be considered as belonging to the same "class" or type as the core'
 target.
 
 [[req-5]]
-include::../requirements/core/REQ_test-class-single-standardization-target.adoc[]
+include::../requirements/core/REQ5_test-class-single-standardization-target.adoc[]
 
 This means that all requirements are considered as targeting the same entity being
 tested for a particular certificate of conformance. The test may specify other types
@@ -181,13 +173,17 @@ image::../images/img01.png[]
 [[cls-8-3]]
 ==== The "standards" document
 
-Each standard document is comprised of a set of requirements and their associated conformance tests.
+Each standard document is comprised of a set of requirements and their associated conformance tests. 
+Requirements are grouped into requirements classes. Each requirements class is contained within one section/clause in a standards document.
 
 [[req-6]]
-include::../requirements/core/REQ_requirements-grouped.adoc[]
+include::../requirements/core/REQ6_requirements-grouped.adoc[]
+
+The following requirement states that the sequence of requirements and requirements classes 
+is the same as the sequence of conformance tests and conformance classes is the conformance suite.
 
 [[req-7]]
-include::../requirements/core/REQ_requirements-test-suite-structure.adoc[]
+include::../requirements/core/REQ7_requirements-test-suite-structure.adoc[]
 
 If two requirements are in the same requirments class, they should be tested in the same conformance
 class in the conformance suite. Each requirement is separately identifiable
@@ -218,7 +214,7 @@ types, elements, or objects are defined and segregated into implementation
 requirements classes.
 
 [[req-8]]
-include::../requirements/core/REQ_requirements-correspondence.adoc[]
+include::../requirements/core/REQ8_requirements-correspondence.adoc[]
 
 Strict parallelism of implementation and governance is the essence of this standard.
 
