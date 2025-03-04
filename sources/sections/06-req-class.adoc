@@ -94,9 +94,7 @@ class in which the request-response pair is defined and set against requirements
 ==== Using the model
 
 The primary difficulty in speaking about standards (or candidate
-standards){blank}footnote:[This is purposely written as "as not yet adopted"
-standards, since it is during the authoring process that the ModSpec must be
-considered, not _post facto_.] as a group is their diverse
+standards) as a group is their diverse
 nature. Some standards use UML to define behavior, others use XML to define data
 structures, and others use no specific modeling language at all. However, they all
 must model the standardization target to which they apply since they need to use
@@ -116,12 +114,12 @@ such part separately (see the definition of requirements class in
 standard into parts more than restricting their content.
 
 [[req-4]]
-include::../requirements/core/REQ4_single-standardization-target.adoc[]
+include::../requirements/core/REQ4_single-standardization-target-type.adoc[]
 
-In practice, the standardization target of the core requirements class is the root
-of an inheritance tree where extensions all have the core's target as an ancestor,
+In practice, the standardization target type of the core requirements class is the root
+of an inheritance tree where extensions all have the core's target type as an ancestor,
 and thus can be considered as belonging to the same "class" or type as the core's
-target.
+target type.
 
 [[req-5]]
 include::../requirements/core/REQ5_test-class-single-standardization-target.adoc[]
