@@ -13,7 +13,7 @@ of those standards, not the ModSpec.
 The following are normative references for this document in the sense that they
 supplied definitions used in this document.
 
-* [[[iso10000-1,ISO/IEC 10000-1]]]
+* [[[iso10000-1,ISO/IEC 10000-1:1998]]] https://www.iso.org/standard/30726.html[Information technology — Framework and taxonomy of International Standardized Profiles Part 1: General principles and documentation framework]
 
 * [[[iso-dp2,ISO/IEC DIR 2]]], available at https://isotc.iso.org/livelink/livelink?func=ll&objId=4230456&objAction=browse&sort=subtype[ISO/IEC Directives, Part 2: Rules for the structure and drafting of International Standards]
 
@@ -23,5 +23,4 @@ supplied definitions used in this document.
 
 * [[[omg-superstructure,OMG UML/2.4.1/Superstructure]]], OMG Unified Modeling Language (OMG UML), Superstructure, V2.4.1, OMG Document Number: formal/2012-05-07; Standard document URL: https://www.omg.org/spec/UML/ISO/19505-2/PDF
 
-* [[[iso19757-3,ISO/IEC 19757-3:2006]]]
 
