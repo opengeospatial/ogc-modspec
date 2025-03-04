@@ -17,7 +17,7 @@ testing for that conformance may depend on how the various forms and parts of a
 conformant standard are viewed. The ModSpec Part 1 Standard specifies how those views
 are to be defined as UML. 
 
-As suggested in Clause <<req-22>> of the Core, the structure of the normative clauses in a
+As suggested in Clause Requirement 8 of the ModSpec Core, the structure of the normative clauses in a
 standard should parallel the structure of the conformance test classes in
 that standard. The structure of the normative clauses in a well written
 standard will follow the structure of its model. This means that all three are
