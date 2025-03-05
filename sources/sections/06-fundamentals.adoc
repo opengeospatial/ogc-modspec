@@ -3,7 +3,7 @@
 
 === Building Blocks
 
-In software development technology, there is a concept called _building block_. In software development, building blocks are used to support the software build process where source code files/libraries can be accessed from multiple sources, converted into executable code, and linked together in the proper order until a complete set of executable files is generated. The same concept can be applied to OGC Standards development: Requirements classes and/or modules can be linked together from one or more standards to create a new standard not originally envisioned when the requirements were originally defined.
+In software development technology, there is a concept called _building block_. In software development, building blocks are used to support the software build process where source code files/libraries can be accessed from multiple sources, converted into executable code, and linked together in the proper order until a complete set of executable files is generated. The same concept can be applied to OGC Standards development: Requirements classes can be linked together from one or more standards to create a new standard not originally envisioned when the requirements were originally defined.
 
 The https://pubs.opengroup.org/architecture/togaf8-doc/arch/chap32.html[Open Group] suggests that building blocks have the following characteristics:
 
@@ -52,9 +52,7 @@ declared once and is uniquely identified as such, each requirement will be in a 
 
 Therefore, the ModSpec defines a "requirements class" as a set of requirements that must
 all be passed to achieve a particular conformance class (see
-<<term-conformance-test-class>>). This document also includes a "middle" structure
-called a conformance test module. Requirements modules
-parallel the conformance test modules. A standard written to the ModSpec may
+<<term-conformance-test-class>>). Each requirements class has a one-to-one correspondence with a conformance class. A standard written to the ModSpec may
 use this "module" structure in any manner consistent with the rest of the ModSpec.
 
 A standard may have mandatory and optional requirements classes.  This allows the options
@@ -94,10 +92,10 @@ NOTE: OGC Standards are written using an OGC Member approved template that is co
 requirements stated in the ModSpec
  
 
-This form should be specified by the following descriptions:
+This template should be specified by the following descriptions:
 
 . A standards document contains Clauses (corresponding to numbered sections as they might
-appear in a table of contents) which describe its standardization target and its requirements.
+appear in a table of contents) which describe its standardization target type and its requirements.
 . A standard contains Annexes or is associated to other documents (both a
 logical type of Clause), one of which is the Conformance Test Suite (which may be an
 abstract description of the test suites to be implemented separately). In OGC Documents, this is Annex A – Abstract Test Suite.
@@ -115,9 +113,6 @@ does not do this, it is has by default only one "conformance class".
 . There is a clear distinction between normative and informative parts of the text.
 . Examples and notes are informative, and do not use "normative"
 language.
-
-The ModSpec defines a "requirement" of a standard as an atomic testable
-criterion. See the formal definition of requirement in <<term-requirement>>
 
 A UML representation of important properties of this model is given in <<annex-C-2,Annex C, Section 2>>.
 

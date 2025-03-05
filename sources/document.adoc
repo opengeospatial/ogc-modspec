@@ -1,11 +1,11 @@
-= The ModSpec Model - A Standard for Designing and Writing Modular Standards
+= The ModSpec Model - Part 1:Core - A Standard for Designing and Writing Modular Standards
 :doctype: draft standard
 :docsubtype: logical-model
 :status: Draft
 :committee: technical
 :docnumber: 08-131r4
 :edition: 1.1.0
-:received-date: 2025-02-25
+:received-date: 2025-03-05
 :issued-date: 2025-xx-xx
 :published-date: 2025-xx-xx
 :copyright-year: 2025
@@ -48,8 +48,6 @@ include::sections/aa-abstract-conformance.adoc[]
 include::sections/ab-changes-required.adoc[]
 
 include::sections/ac-definitions.adoc[]
-
-include::sections/data-dictionary.adoc[]
 
 include::sections/ad-bibliography.adoc[]
 

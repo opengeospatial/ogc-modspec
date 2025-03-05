@@ -2,14 +2,14 @@
 
 == ModSpec Requirements Class: Core
 
-This clause specifies the requirements and recommendations for the content and structure of a modular standard. 
+This clause specifies the requirements, recommendations, and permissions for the content and structure of a modular standard. 
 This collection of requirements, recommendations, and permissions are also known as the `core` of the ModSpec. 
 All the requirements specified in this ModSpec core comprise the ModSpec Core Requirements Class. 
 
 [[cls-8-1]]
 === General Requirements
 
-The following requirement states that every requirement in a standards document is associated with one or more requirements class(es).
+The following requirement states that every requirement in a standards document is associated with one and only one requirements class(es).
 
 [[req-0]]
 [width="90%",cols="2,6a"]
@@ -97,10 +97,10 @@ The primary difficulty in speaking about standards (or candidate
 standards) as a group is their diverse
 nature. Some standards use UML to define behavior, others use XML to define data
 structures, and others use no specific modeling language at all. However, they all
-must model the standardization target to which they apply since they need to use
+must model the standardization target type to which they apply since they need to use
 unambiguous language to specify requirements. Thus, the only thing they have in
 common is that they define testable requirements against some
-model of an implementation of the standard (the standardization target). For
+model of an implementation of the standard (the standardization target type). For
 completeness, they should also specify the conformance tests for these requirements
 that are to be run for validation of the implementations against those
 requirements.

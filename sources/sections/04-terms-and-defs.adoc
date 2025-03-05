@@ -2,7 +2,6 @@
 == Terms and definitions by category
 
 [.boilerplate]
-=== {blank}
 
 For the purposes of this document, the following terms and definitions shall apply.
 Terms not defined here take their meaning from computer science or from their
@@ -243,7 +242,7 @@ The specification of a requirement is usually expressed in terms of a model of t
 
 ==== Requirements Class
 
-aggregate of all <<Requirement-definition,requirements>> with a single <<StandardicationTargetType-definition,standardization target type>> that must all be satisfied to pass a <<ConformanceClass-definition,conformance test Class>>.
+an aggregate of <<Requirement-definition,requirements>> with a single <<StandardicationTargetType-definition,standardization target type>> that must all be satisfied to pass a <<ConformanceClass-definition,conformance test Class>>.
 
 NOTE:  There is some confusion possible here, since the testing of <<IndirectDependency-definition,indirect dependencies>> seems to violate this definition. But the existence of an indirect dependency implies that the test is actually a test of the existence of the relationship from the original target to something that has a property (satisfies a condition or requirement from another requirements class).  
 
