@@ -1,7 +1,5 @@
 [[req_vocabulary-and-parent-req-class]]
 
-[[req-3]]
-
 [requirement]
 ====
 [%metadata]
