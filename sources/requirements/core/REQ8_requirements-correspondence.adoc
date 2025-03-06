@@ -1,0 +1,10 @@
+[[req_requirements-class-correspondence-to-conformance-classes]]
+
+[[req-8]]
+
+[requirement]
+====
+[%metadata]
+identifier:: /req/core/requirements-class-correspondence-to-conformance-classes
+part:: The requirements classes _SHALL_ be in a one-to-one correspondence to the conformance test classes, and thus to the various certificate of conformance types possible for a candidate implementation.
+====

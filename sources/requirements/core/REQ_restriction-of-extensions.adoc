@@ -1,8 +1,0 @@
-[[req_restriction-of-extensions]]
-
-[requirement]
-====
-[%metadata]
-identifier:: /req/core/restriction-of-extensions
-part:: A standard conformant to the ModSpec SHALL never restrict in any manner future, logically valid extensions of its standardization target types
-====

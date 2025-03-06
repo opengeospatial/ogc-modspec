@@ -2,14 +2,14 @@
 
 == ModSpec Requirements Class: Core
 
-This clause specifies the requirements and recommendations for the content and structure of a modular standard. 
+This clause specifies the requirements, recommendations, and permissions for the content and structure of a modular standard. 
 This collection of requirements, recommendations, and permissions are also known as the `core` of the ModSpec. 
 All the requirements specified in this ModSpec core comprise the ModSpec Core Requirements Class. 
 
 [[cls-8-1]]
 === General Requirements
 
-The following requirement states that every requirement in a standards document is associated with one or more requirements class(es).
+The following requirement states that every requirement in a standards document is associated with one and only one requirements class(es).
 
 [[req-0]]
 [width="90%",cols="2,6a"]
@@ -36,15 +36,7 @@ The following recommendation encourages the consistent use of these unique ident
 as well as any external documentation referencing that standard.
 
 [[rec-1]]
-[recommendation,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*REC001* | */req/core/uri-external-use* +
-These unique identifiers/labels _SHOULD_ be used in any external documentation that reference
-these component elements in a normative manner, including but not limited to other
-standards, implementations of the conformance test suite, or certificates of
-conformance for implementations conformant to the standard in question.
-|===
+include::../recommendations/core/REC001_uri-external-use.adoc[]
 
 While a requirement may be referenced in more than one place in a standard, the normative definition of a requirement shall be its "*#home#*" (see <<cls-6-3>>) and
 will be the only place where full normative language is used.
@@ -79,7 +71,7 @@ structures for use in other components and/or structures throughout the standard
 The following states how and where vocabularies are specified in relation to a requirements class.
 
 [[req-3]]
-include::../requirements/core/REQ_vocabulary.adoc[]
+include::../requirements/core/REQ3_vocabulary.adoc[]
 
 [[per-4]]
 [permission,model=ogc,type="general"]
@@ -102,15 +94,13 @@ class in which the request-response pair is defined and set against requirements
 ==== Using the model
 
 The primary difficulty in speaking about standards (or candidate
-standards){blank}footnote:[This is purposely written as "as not yet adopted"
-standards, since it is during the authoring process that the ModSpec must be
-considered, not _post facto_.] as a group is their diverse
+standards) as a group is their diverse
 nature. Some standards use UML to define behavior, others use XML to define data
 structures, and others use no specific modeling language at all. However, they all
-must model the standardization target to which they apply since they need to use
+must model the standardization target type to which they apply since they need to use
 unambiguous language to specify requirements. Thus, the only thing they have in
 common is that they define testable requirements against some
-model of an implementation of the standard (the standardization target). For
+model of an implementation of the standard (the standardization target type). For
 completeness, they should also specify the conformance tests for these requirements
 that are to be run for validation of the implementations against those
 requirements.
@@ -124,15 +114,15 @@ such part separately (see the definition of requirements class in
 standard into parts more than restricting their content.
 
 [[req-4]]
-include::../requirements/core/REQ_single-standardization-target.adoc[]
+include::../requirements/core/REQ4_single-standardization-target-type.adoc[]
 
-In practice, the standardization target of the core requirements class is the root
-of an inheritance tree where extensions all have the core's target as an ancestor,
+In practice, the standardization target type of the core requirements class is the root
+of an inheritance tree where extensions all have the core's target type as an ancestor,
 and thus can be considered as belonging to the same "class" or type as the core's
-target.
+target type.
 
 [[req-5]]
-include::../requirements/core/REQ_test-class-single-standardization-target.adoc[]
+include::../requirements/core/REQ5_test-class-single-standardization-target.adoc[]
 
 This means that all requirements are considered as targeting the same entity being
 tested for a particular certificate of conformance. The test may specify other types
@@ -181,13 +171,17 @@ image::../images/img01.png[]
 [[cls-8-3]]
 ==== The "standards" document
 
-Each standard document is comprised of a set of requirements and their associated conformance tests.
+Each standard document is comprised of a set of requirements and their associated conformance tests. 
+Requirements are grouped into requirements classes. Each requirements class is contained within one section/clause in a standards document.
 
 [[req-6]]
-include::../requirements/core/REQ_requirements-grouped.adoc[]
+include::../requirements/core/REQ6_requirements-grouped.adoc[]
+
+The following requirement states that the sequence of requirements and requirements classes 
+is the same as the sequence of conformance tests and conformance classes is the conformance suite.
 
 [[req-7]]
-include::../requirements/core/REQ_requirements-test-suite-structure.adoc[]
+include::../requirements/core/REQ7_requirements-test-suite-structure.adoc[]
 
 If two requirements are in the same requirments class, they should be tested in the same conformance
 class in the conformance suite. Each requirement is separately identifiable
@@ -218,7 +212,7 @@ types, elements, or objects are defined and segregated into implementation
 requirements classes.
 
 [[req-8]]
-include::../requirements/core/REQ_requirements-correspondence.adoc[]
+include::../requirements/core/REQ8_requirements-correspondence.adoc[]
 
 Strict parallelism of implementation and governance is the essence of this standard.
 
@@ -228,7 +222,7 @@ Strict parallelism of implementation and governance is the essence of this stand
 ===== Each Conformance class tests a complete requirements class
 
 [[req-9]]
-include::../requirements/core/REQ_no-optional-tests.adoc[]
+include::../requirements/core/REQ9_no-optional-tests.adoc[]
 
 This requirement stops
 conformance classes from containing optional requirements and tests, and, at least
@@ -261,12 +255,12 @@ parameter, such as GML, KML or GeoJSON. When reading a certificate of conformanc
 the values of such parameters are very important.
 
 [[req-10]]
-include::../requirements/core/REQ_all-parameters-expressed.adoc[]
+include::../requirements/core/REQ10_all-parameters-expressed.adoc[]
 
 Conformance to a particular conformance class means exactly the same thing everywhere.
 
 [[req-11]]
-include::../requirements/core/REQ_conf-class-single-req-class.adoc[]
+include::../requirements/core/REQ11_conf-class-single-req-class.adoc[]
 
 This means that there is a strict correspondence between the requirements classes
 and the conformance test classes in the test suite. Recall that a conformance test
@@ -274,7 +268,7 @@ class may specify dependencies causing other conformance test classes to be used
 but this is a result of an explicit requirement in the "home" requirements class.
 
 [[req-12]]
-include::../requirements/core/REQ_con-class-dependencies.adoc[]
+include::../requirements/core/REQ12_con-class-dependencies.adoc[]
 
 Such referenced conformance classes may be in the same standard or may be a
 conformance class of another standard.
@@ -306,14 +300,14 @@ and testing, so for use within a standard compliant to the ModSpec, special
 care must be taken in importing conformance test classes from other standards.
 
 [[req-13]]
-include::../requirements/core/REQ_imported-requirements-class.adoc[]
+include::../requirements/core/REQ13_imported-requirements-class.adoc[]
 
 The tracking of the parallelism between requirements and tests should be easy if the
 standards document is non-ambiguous. To insure this, by utilizing the names of the two types of classes the following requirement places a
 default mapping between the two.
 
 [[req-14]]
-include::../requirements/core/REQ_all-classes-explicitly-named.adoc[]
+include::../requirements/core/REQ14_all-classes-explicitly-named.adoc[]
 
 Logically, a requirements class (set of requirements) and a conformance class (set
 of tests) are not comparable. This can be remedied by noting that both have a
@@ -326,19 +320,13 @@ both are related (as described) to the same set of requirements.
 ==== Requirements classes contain all requirements tested by a conformance test case
 
 [[req-15]]
-include::../requirements/core/REQ_req-in-only-one-req-class.adoc[]
+include::../requirements/core/REQ15_req-in-only-one-req-class.adoc[]
 
 Unless a requirement is referenced in a conformance test and thus in a conformance
 class, it cannot be considered a requirement since no test has been defined for it.
 
 [[rec-2]]
-[recommendation,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*REC002* | */rec/core/parallel-structure* +
-If possible, the structure of the normative clauses of the standard _SHOULD_
-parallel the structure of the conformance classes in the conformance clause.
-|===
+include::../recommendations/core/REC002-parallel-structure.adoc[]
 
 The above requirement in conjunction with <<req-9>> means that all requirements in a conformant
 standard will be tested in some conformance class. In the best example, a
@@ -348,27 +336,19 @@ here, since a single requirement can be stated twice in different requirements
 classes.
 
 [[req-16]]
-include::../requirements/core/REQ_co-dependent-requirements.adoc[]
+include::../requirements/core/REQ16_co-dependent-requirements.adoc[]
 
 Normally, circular dependencies between implementation components are signs of a
 poor design, but they often cannot be avoided because of other considerations (code
 ownership for example). 
 
 [[rec-3]]
-[recommendation,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*REC003* | */rec/core/circular-dependencies* +
-Circular dependencies of all types _SHOULD_ be avoided whenever possible.
-|===
+include::../recommendations/core/REC003-circular-dependencies.adoc[]
 
 [[req-17]]
-include::../requirements/core/REQ_structure-requirements-classes.adoc[]
+include::../requirements/core/REQ17_structure-requirements-classes.adoc[]
 
-[NOTE]
-====
-The only certain manner to test this requirement maybe to create a reference implementation.
-====
+NOTE: The only certain manner to test this requirement maybe to create a reference implementation.
 
 This requirement is more important and may be more difficult than it seems. It
 states simply that conformance classes and their associated requirements classes can
@@ -381,7 +361,7 @@ a "plug'n'play" fashion.
 
 
 [[req-18]]
-include::../requirements/core/REQ_requirements-and-dependencies.adoc[]
+include::../requirements/core/REQ18_requirements-and-dependencies.adoc[]
 
 This means, for example, that a UML classifier cannot be redefined in a new
 extension. If a new version of the classifier is needed it has to be a valid subtype
@@ -407,27 +387,24 @@ of all conformance classes) for defining profiles as defined in ISO/IEC 10000 (s
 requirements classes.
 
 [[req-19]]
-include::../requirements/core/REQ_profile-conformance.adoc[]
+include::../requirements/core/REQ19_profile-conformance.adoc[]
 
 [[cls-6-5-4]]
 ==== There is a Defined Core
 
+The following requirements define the content of the core.
+
 [[req-20]]
-include::../requirements/core/REQ_core-requirements-separate.adoc[]
+include::../requirements/core/REQ20_core-requirements-separate.adoc[]
 
 [[req-21]]
-include::../requirements/core/REQ_requirements-and-dependencies-2.adoc[]
+include::../requirements/core/REQ21_requirements-and-dependencies-2.adoc[]
 
 [[req-22]]
-include::../requirements/core/REQ_requirements-and-dependencies-3.adoc[]
+include::../requirements/core/REQ22_requirements-and-dependencies-3.adoc[]
 
 [[rec-4]]
-[recommendation,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*REC004* | */rec/core/simple-core* +
-The core _SHOULD_ be as simple as possible.
-|===
+include::../recommendations/core/REC004-simple-core.adoc[]
 
 [[per-8]]
 [permission,model=ogc,type="general"]
@@ -446,13 +423,7 @@ The core requirements class _MAY_ be a conformance class in another standard.
 |===
 
 [[rec-5]]
-[recommendation,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*REC005* | */rec/core/optional-tests* +
-If a requirements class is from another standard, the current standard _SHOULD_ identify any optional tests
-in that conformance class that are required by the current standard's core requirements class. See <<req-13>>.
-|===
+include::../recommendations/core/REC005-optional-tests.adoc[]
 
 Since the core requirements class is contained (as a direct dependency) in each
 other requirements class with a similar standardization target type, the general
@@ -482,10 +453,10 @@ extensions, which may be either local or encompass other standards.
 Standards should use extensions as required and feasible, but should never hinder them.
 
 [[req-23]]
-include::../requirements/core/REQ_core-and-extensions.adoc[]
+include::../requirements/core/REQ23_core-and-extensions.adoc[]
 
 [[req-24]]
-include::../requirements/core/REQ_extensions-conformant-to-modspec.adoc[]
+include::../requirements/core/REQ24_extensions-conformant-to-modspec.adoc[]
 
 Since software is evolutionary at its best, it would not be wise to restrict that
 evolutionary tendency by restricting the specification of extensions. A
@@ -494,7 +465,7 @@ will never list things that a standardization target might want to do above and
 beyond the current design requirements.
 
 [[req-25]]
-include::../requirements/core/REQ_restriction-of-extensions.adoc[]
+include::../requirements/core/REQ25_restriction-of-extensions.adoc[]
 
 The above requirement should not be interpreted as a restriction on quality
 control. Any efforts by a standard to enforce a level of quality on its
@@ -509,16 +480,12 @@ GeoJSON, as long at that alternative can carry viable information consistent wit
 the fundamental intent of the standard.
 
 [[cls-6-5-6]]
-==== Optional requirements are organized as requirements classes
+==== Optional requirements are organized as optional requirements classes
 
 [[req-26]]
-include::../requirements/core/REQ_optional-requirements.adoc[]
+include::../requirements/core/REQ26_optional-requirements.adoc[]
 
-NOTE: Standards and implementations are restricted by this, but not instances of
-schemas. For example, a XML schema standard can specify an optional element, which
-data instances may use or not. However schema-aware processors claiming conformance
-to the standard should be able to handle all elements defined in the schema, whether
-they are required by the schema or not.
+A standard and implementations of that standard are restricted by this requirement.
 
 Requirements of the form "if the implementation does this, it must do it this way"
 are considered to be options and should be in a separate requirements class.
@@ -527,7 +494,7 @@ are considered to be options and should be in a separate requirements class.
 ==== Requirements classes intersect overlap only by reference
 
 [[req-27]]
-include::../requirements/core/REQ_req-class-overlap-by-reference.adoc[]
+include::../requirements/core/REQ27_req-class-overlap-by-reference.adoc[]
 
 This implies that each requirement is directly in exactly one requirements class and
 all references to that requirement from another requirements class must include its

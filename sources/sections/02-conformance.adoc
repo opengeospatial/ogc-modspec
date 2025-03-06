@@ -1,12 +1,12 @@
 [[cls-2]]
 == Conformance
 
-Conformance to the ModSpec by technical implementation standards 
+Conformance to the ModSpec by a modular standard 
 can be tested by inspection. The test suite is in <<annex-A>>.
 
-The core of the ModSpec (this document) has one requirements class and one related conformance class:
+Part 1 of the ModSpec (this document) has one requirements class and one related conformance class:
 
-. The Core: Common requirements for specifying standards documents. See <<cls-8>> and <<annex-A-1>>
+* The Core: Common requirements for specifying standards documents. See <<cls-8>> and <<annex-A-1>>
 
 The ModSpec contains normative language and thus places requirements on
 conformance, or mechanism for adoption, of candidate standards to which the ModSpec
@@ -17,4 +17,4 @@ standards claiming conformance to the ModSpec.
 * <<cls-9,Mapping the ModSpec to types of models>> gives information on how the ModSpec is to be applied to extensions to the core model for requirements and
 conformance clauses.
 
-Such extensions are defined in additional Parts (volumes) to the Core.
+Such extensions are defined in additional Parts (volumes) to the ModSpec Standard.

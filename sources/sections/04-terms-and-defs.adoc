@@ -2,7 +2,6 @@
 == Terms and definitions by category
 
 [.boilerplate]
-=== {blank}
 
 For the purposes of this document, the following terms and definitions shall apply.
 Terms not defined here take their meaning from computer science or from their
@@ -236,19 +235,14 @@ NOTE:  Recommendations are not tested and therefore have no related conformance 
 expression in the content of a <<Standard-definition,standard>> conveying criteria to be fulfilled if compliance with the standard is to be claimed and from which no deviation is permitted
 [ISO Directives Part 2] 
 
-NOTE:  Each requirement is a normative criterion for a single type of <<StandardizationTarget-definition,standardization target>>. In the ModSpec, requirements are associated to <<ConformanceTest-definition,conformance tests>> that can be used to prove compliance to the underlying criteria by the standardization target. 
-
-NOTE: The implementation of a requirement is dependent on the type of standard being written. A data standard requires data structures, but a procedural standard requires software implementations. The view of a standard in terms of a set of testable requirements allows us to use set descriptions of both the standard and its implementations.
-
-NOTE: The specification of a requirement is usually expressed in terms of a model of the standardization target type, such as a UML model, or an XML or SQL schema. Anything without a defined test is a-priori not testable and thus would be better expressed as a recommendation. 
-
-NOTE: Requirements use normative language and in particular are commands and use the imperative "shall" or similar imperative constructs. Statements in standards which are not requirements and need to be either conditional or future tense normally use "will" and should not be confused with requirements that use "shall" imperatively  
+NOTE:  Each requirement is a normative criterion for a single type of <<StandardizationTarget-definition,standardization target>>. In the ModSpec, requirements are associated to <<ConformanceTest-definition,conformance tests>> that can be used to prove compliance to the underlying criteria by the standardization target. The implementation of a requirement is dependent on the type of standard being written. A data standard requires data structures, but a procedural standard requires software implementations. The view of a standard in terms of a set of testable requirements allows us to use set descriptions of both the standard and its implementations.
+The specification of a requirement is usually expressed in terms of a model of the standardization target type, such as a UML model, or an XML or SQL schema. Anything without a defined test is a-priori not testable and thus would be better expressed as a recommendation. Requirements use normative language and in particular are commands and use the imperative "shall" or similar imperative constructs. Statements in standards which are not requirements and need to be either conditional or future tense normally use "will" and should not be confused with requirements that use "shall" imperatively  
 
 [[RequirementsClass-definition]]
 
 ==== Requirements Class
 
-aggregate of all <<Requirement-definition,requirements>> with a single <<StandardicationTargetType-definition,standardization target type>> that must all be satisfied to pass a <<ConformanceClass-definition,conformance test Class>>.
+an aggregate of <<Requirement-definition,requirements>> with a single <<StandardicationTargetType-definition,standardization target type>> that must all be satisfied to pass a <<ConformanceClass-definition,conformance test Class>>.
 
 NOTE:  There is some confusion possible here, since the testing of <<IndirectDependency-definition,indirect dependencies>> seems to violate this definition. But the existence of an indirect dependency implies that the test is actually a test of the existence of the relationship from the original target to something that has a property (satisfies a condition or requirement from another requirements class).  
 

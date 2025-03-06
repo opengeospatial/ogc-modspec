@@ -1,0 +1,9 @@
+[[req_profile-conformance]]
+[[req-19]]
+
+[requirement]
+====
+[%metadata]
+identifier:: /req/core/profile-conformance
+part:: The conformance tests for a profile of a standard _SHALL_ be defined as the union of a list of conformance classes that are to be satisfied by that profile’s standardization targets.
+====

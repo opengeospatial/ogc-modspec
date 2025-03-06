@@ -1,0 +1,9 @@
+[[rec-3]]
+
+[recommendation]
+====
+[%metadata]
+identifier:: /rec/core/circular-dependencies
+part:: Circular dependencies of all types _SHOULD_ be avoided whenever possible.
+====
+

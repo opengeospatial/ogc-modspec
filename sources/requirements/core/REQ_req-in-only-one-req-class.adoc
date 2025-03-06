@@ -1,9 +1,0 @@
-[[req_req-in-only-one-req-class]]
-
-[requirement]
-====
-[%metadata]
-identifier:: /req/core/req-in-only-one-req-class
-part:: Each requirement in the standard SHALL be contained in one and only one requirements class.
-part:: Inclusion of any requirement in a requirements class by a conformance class SHALL imply inclusion of all requirements in its class (as a dependency).
-====

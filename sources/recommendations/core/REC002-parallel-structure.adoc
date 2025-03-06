@@ -1,0 +1,9 @@
+[[rec-2]]
+
+[recommendation]
+====
+[%metadata]
+identifier:: /rec/core/parallel-structure
+part:: If possible, the structure of the normative clauses of the standard _SHOULD_
+parallel the structure of the conformance classes in the conformance clause.
+====

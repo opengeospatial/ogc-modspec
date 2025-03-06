@@ -1,8 +1,0 @@
-[[req_core-requirements-separate]]
-
-[requirement]
-====
-[%metadata]
-identifier:: /req/core/core-requirements-separate
-part:: Every standard SHALL define and identify a core set of requirements as a separate requirements class with a corresponding conformance class.
-====

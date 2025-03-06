@@ -1,8 +1,10 @@
 [[req_test-class-single-standardization-target]]
 
+[[req-5]]
+
 [requirement]
 ====
 [%metadata]
 identifier:: /req/core/test-class-single-standardization-target
-part:: All conformance tests in a single conformance test class in a conformant standard SHALL have the same standardization target type.
+part:: All conformance tests in a single conformance test class in a conformant standard _SHALL_ have the same standardization target.
 ====

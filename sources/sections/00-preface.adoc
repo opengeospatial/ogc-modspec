@@ -57,7 +57,9 @@ This is the second normative version of this document.
 [.preface]
 == Future work
 
-Improvements to this document will be made based on implementation and changing technical requirements. Planned extensions include:
+This second version converts the ModSpec into a multi-part standard. This document is Part 1 - the core. It provides a technology agnostic model for modular standards. Future "parts" will be spefic for different technologies. Planned extensions include:
 
 - ModSpec Part providing requirements and recommendations for specifying requirements and conformance tests using RDFS, SHACL, and OWL.
 - ModSpec Part providing requirements and recommendations for specifying requirements and conformance tests using JSON.
+
+In addition, improvements to this document will be made based on implementation and changing technical requirements. 
