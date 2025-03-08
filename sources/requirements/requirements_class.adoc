@@ -8,6 +8,60 @@ identifier:: http://www.opengis.net/spec/ABCD/m.n/req/req-class-a
 subject:: Web API
 requirement:: /req/req-class-a/req-name-1
 requirement:: /req/req-class-a/req-name-2
+
 ====
+include::../core/REQ1_reqs-are-in-class.adoc[]
 
+include::../core/REQ1_testable.adoc[]
 
+include::../core/REQ2_assigned-uri.adoc[]
+
+include::../core/REQ3_vocabulary.adoc[]
+
+include::../core/REQ4_single-standardization-target-type.adoc[]
+
+include::../core/REQ5_test-class-single-standardization-target.adoc[]
+
+include::../core/REQ6_requirements-grouped.adoc[]
+
+include::../core/REQ7_requirements-test-suite-structure.adoc[]
+
+include::../core/REQ8_requirements-correspondence.adoc[]
+
+include::../core/REQ9_no-optional-tests.adoc[]
+
+include::../core/REQ10_all-parameters-expressed.adoc[]
+
+include::../core/REQ11_conf-class-single-req-class.adoc[]
+
+include::../core/REQ12_con-class-dependencies.adoc[]
+
+include::../core/REQ13_imported-requirements-class.adoc[]
+
+include::../core/REQ14_all-classes-explicitly-named.adoc[]
+
+include::../core/REQ15_req-in-only-one-req-class.adoc[]
+
+include::../core/REQ16_co-dependent-requirements.adoc[]
+
+include::../core/REQ17_structure-requirements-classes.adoc[]
+
+include::../core/REQ18_requirements-and-dependencies.adoc[]
+
+include::../core/REQ19_profile-conformance.adoc[]
+
+include::../core/REQ20_core-requirements-separate.adoc[]
+
+include::../core/REQ21_requirements-and-dependencies-2.adoc[]
+
+include::../core/REQ22_requirements-and-dependencies-3.adoc[]
+
+include::../core/REQ23_core-and-extensions.adoc[]
+
+include::../core/REQ24_extensions-conformant-to-modspec.adoc[]
+
+include::../core/REQ25_restriction-of-extensions.adoc[]
+
+include::../core/REQ26_optional-requirements.adoc[]
+
+include::../core/REQ27_req-class-overlap-by-reference.adoc[]

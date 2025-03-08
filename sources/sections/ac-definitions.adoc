@@ -18,7 +18,7 @@ is written. An instance of a <<StandardizationTargetType-definition,_standardiza
 
 . a <<ConformanceTest-definition,_conformance test_>> checks if a set of
 <<Requirement-definition,_requirements_>> are met (*pass*) or not met (*fail*) by a
-<<StandardizationTarget-definition,_standardization target_>>. The relationship between <<ConformanceTest-definition,_conformance tests_>> and <<Requirement-definition,_requirements_>> is many-to-many.
+<<StandardizationTarget-definition,_standardization target_>>. 
 
 . all <<ConformanceTest-definition,_conformance tests_>> are graded as *pass* or *fail*
 against each instance of the <<StandardizationTargetType-definition,_standardization target type_>>.
@@ -35,12 +35,10 @@ all with the same <<StandardizationTargetType-definition,_standardization target
 <<ConformanceTest-definition,_conformance tests_>> that are associated to and only to the
 requirements in a corresponding <<RequirementsClass-definition,_requirements class_>>.
 
-. a <<ConformanceTestModule-definition,_conformance (test) module_>> is also collection of
-<<ConformanceClass-definition,_conformance test classes_>> that group
-<<ConformanceTest-definition,_conformance tests_>> on a single
-<<StandardizationTargetType-definition,_standardization target type_>>.
+. a <<ConformanceTestModule-definition,_conformance (test) module_>> is a reusable collection of related
+<<ConformanceClass-definition,_conformance test classes_>>.
 
-. a *conformant implementation* is a <<StandardizationTargetType-definition,_standardization target type_>> that has
+. a *conformant implementation* is a <<StandardizationTarget-definition,_standardization target_>> that has
 successfully passed all tests in a specified <<ConformanceClass-definition,_conformance (test) class_>> and received a <<CertificateOfConformance-definition,_certificate of conformance_>>.
 
 . the <<CoreRequirementsClass-definition,_Core requirements class_>> of a standard is the minimal set of

@@ -12,11 +12,7 @@ All the requirements specified in this ModSpec core comprise the ModSpec Core Re
 The following requirement states that every requirement in a standards document is associated with one and only one requirements class(es).
 
 [[req-0]]
-[width="90%",cols="2,6a"]
-|===
-^|*Requirement 0* |*/req/core/reqs-are-in-class*
-^|A |Each requirement in a standard _SHALL_ be associated with a requirements class.
-|===
+include::../requirements/core/REQ1_reqs-are-in-class.adoc[]
 
 There may be one or more requirements in a requirements class. 
 
@@ -24,8 +20,6 @@ The following requirement states that every requirement is testable.
 
 [[req-1]]
 include::../requirements/core/REQ1_testable.adoc[]
-
-Therefore, by definition, any requirements class that contains the requirement that failed to pass also fails to pass.
 
 The following requirement states that every component of a standard will have a unique identifier
 
@@ -109,8 +103,7 @@ The assumption is that each standard has a single
 (root) standardization target type from which all extensions inherit. If this is not
 true, then the standard can be logically factored into parts each corresponding
 to a "root" standardization target type, and that the standard addresses each
-such part separately (see the definition of requirements class in
-<<RequirementsClass-definition,requirements class>>). In this sense, the next requirement divides
+such part separately (see the definition of <<RequirementsClass-definition,requirements class>>). In this sense, the next requirement divides
 standard into parts more than restricting their content.
 
 [[req-4]]
@@ -138,7 +131,7 @@ to but not including the identification of the standardization target type.
 |===
 
 This second statement will be in a separate requirements class, since it will have a
-separate standardization target and thus belong to the requirements to be tested by
+separate standardization target type and thus belong to the requirements to be tested by
 a separate conformance class. For example, in a service interface, a standard
 may be written that requires both the client and server to use a particular language
 for data transmission. Since the client and server are different standardization
@@ -178,7 +171,7 @@ Requirements are grouped into requirements classes. Each requirements class is c
 include::../requirements/core/REQ6_requirements-grouped.adoc[]
 
 The following requirement states that the sequence of requirements and requirements classes 
-is the same as the sequence of conformance tests and conformance classes is the conformance suite.
+is the same as the sequence of conformance tests and conformance classes in the conformance suite.
 
 [[req-7]]
 include::../requirements/core/REQ7_requirements-test-suite-structure.adoc[]
@@ -206,10 +199,6 @@ NOTE: The Test Suite is normative in the sense that it describes the tests to be
 performed to pass conformance, but it specifies no requirements in any other sense.
 The requirements are specified in the body of the standard. The test suite
 only describes in detail how those requirements should be tested.
-
-In each of the profiles defined in the Clauses to follow, some set of entities,
-types, elements, or objects are defined and segregated into implementation
-requirements classes.
 
 [[req-8]]
 include::../requirements/core/REQ8_requirements-correspondence.adoc[]
@@ -246,7 +235,7 @@ be thought of as an "if-then-else" decision tree.
 For example, if a conformance class needs to apply tests against a specific data format, such as GML or
 KML, then XYZ(GML) is XYZ using GML, and XYZ(KML) is XYZ using KML.
 Because the parameters choose which requirements will be tested, two conformance
-classes with distinct parameters should be considered as distinct conformance
+tests with distinct parameters should be considered as distinct conformance
 classes.
 
 The most common parameters are the identities of indirect dependencies. For example,
@@ -354,7 +343,7 @@ This requirement is more important and may be more difficult than it seems. It
 states simply that conformance classes and their associated requirements classes can
 be put in a one-to-one correspondence to a fully modular implementation of the
 complete standard (at least against a single
-standardization target). Implementors who wish to sacrifice modularity for some
+standardization target type). Implementors who wish to sacrifice modularity for some
 other benefit can still do what they want; the requirement here only states that if
 the software requirements classes are properly separated, they can be implemented in
 a "plug'n'play" fashion.

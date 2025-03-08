@@ -1,3 +1,4 @@
+[[req_requirements-are-testable]]
 [[req-1]]
 
 [requirement]
@@ -9,3 +10,4 @@ part:: Failure to pass any part of a requirement _SHALL_ be a failure to pass th
 ====
 
 NOTE: This further means that failure to pass the test specified for a part of requirement is a failure to pass the requirement.
+Therefore, by definition, any requirements class that contains the requirement that failed to pass also fails to pass.
