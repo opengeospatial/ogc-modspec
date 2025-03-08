@@ -5,6 +5,6 @@
 ====
 [%metadata]
 identifier:: /req/core/requirements-and-dependencies-3
-part:: Every requirements class in a standard, with the exception of the core, _SHALL_ have a standardization target hich is a subtype of that of the core.
+part:: Every requirements class in a standard, with the exception of the core, _SHALL_ have a standardization target type which is a subtype of that of the core.
 part:: Every requirement class, with the exception of the core, _SHALL_ have the core as a direct dependency.
 ====

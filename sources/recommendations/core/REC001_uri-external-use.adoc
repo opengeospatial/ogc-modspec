@@ -4,7 +4,7 @@
 ====
 [%metadata]
 identifier:: /rec/core/uri-external-use
-part:: These unique identifiers/labels _SHOULD_ be used in any external documentation that reference
+part:: These unique identifiers/labels _SHOULD_ be used in any external documentation that references
 component elements of a standard in a normative manner, including but not limited to other
 standards, implementations of the conformance test suite, or certificates of
 conformance for implementations conformant to the standard in question.

@@ -5,11 +5,15 @@
 [[annex-A-1]]
 === Conformance Test Class: The Core
 
-==== Requirements are atomic and tests cover all the parts of each of the requirement
+==== Requirements are in class
 
-All the parts of a requirement, a requirement module, or requirements class shall be
-tested. Failure to meet any part of any requirement shall be a failure to pass the
-associated conformance test class.
+include::../abstract_tests/core/ATS1_reqs-are-in-class.adoc[]
+
+==== Requirements are testable
+
+All the parts of a requirement _SHALL_ be testable. 
+
+Failure to pass any part of a requirement _SHALL_ be a failure to pass the associated conformance test.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
@@ -18,10 +22,7 @@ associated conformance test class.
 
 ==== All components have an assigned URI
 
-Each component of the standard, including requirements, requirements modules,
-requirements classes, conformance test cases, conformance modules and conformance
-classes shall be assigned a URI as specified by the OGC Naming Authority or its
-equivalent.
+Each component of a standard, including requirements, requirements modules, requirements classes, conformance test, conformance modules, and conformance test classes _SHALL_ be assigned a unique identifer or label.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
@@ -38,20 +39,18 @@ requirements class where that use or interpretation is used.
 . Reference: <<req-3>>
 . Test Type: Conformance.
 
-==== Requirements have a single target
+==== Requirements have a single target type
 
-Each requirement in a conformant standard shall have a single standardization
-target type.
+Each requirement class in a conformant standard _SHALL_ have a single standardization target type.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
 . Reference: <<req-4>>
 . Test Type: Conformance.
 
-==== Conformance test classes have a single target
+==== Conformance test classes have a single target type
 
-All conformance tests in a single conformance test class in a conformant
-standard shall have the same standardization target.
+All conformance tests in a single conformance test class in a conformant standard _SHALL_ have the same standardization target type.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
@@ -60,9 +59,7 @@ standard shall have the same standardization target.
 
 ==== Requirements are organized by clauses
 
-The requirements shall be grouped together in clauses (numbered sections) of the
-document in a strictly hierarchical manner, consistent with requirements modules and
-requirements classes.
+Requirements _SHALL_ be grouped together in clauses (numbered sections) of the document in a strictly hierarchical manner, consistent with requirements classes.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
@@ -71,8 +68,7 @@ requirements classes.
 
 ==== Conformance test classes are consistent with requirements classes
 
-The requirements structure of the document shall be in a logical correspondence to
-the test suite structure.
+The requirements structure of the document _SHALL_ be in a logical correspondence with the test suite structure.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
@@ -81,9 +77,7 @@ the test suite structure.
 
 ==== Requirement classes and the Conformance Test classes in correspondence
 
-The requirements classes shall be in a one-to-one correspondence to the conformance
-test classes, and thus to the various certificate of conformance types possible for
-a candidate implementation.
+The requirements classes _SHALL_ be in a one-to-one correspondence to the conformance test classes, and thus to the various certificate of conformance types possible for a candidate implementation.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
@@ -92,7 +86,7 @@ a candidate implementation.
 
 ==== No Optional Elements in Requirements classes
 
-A Conformance class shall not contain any optional conformance tests.
+A Conformance class _SHALL_ not contain any optional conformance tests.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
@@ -101,8 +95,7 @@ A Conformance class shall not contain any optional conformance tests.
 
 ==== Certificate of conformance specifies all parameters used
 
-A certificate of conformance shall specify all parameter values used to pass the
-tests in its conformance test class.
+A certificate of conformance _SHALL_ specify all parameter values used to pass the tests in its conformance test class.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
@@ -111,8 +104,7 @@ tests in its conformance test class.
 
 ==== Conformance class tests only one requirements class
 
-A Conformance class shall explicitly test only requirements from a single
-requirements class.
+A Conformance class _SHALL_ explicitly test only requirements from a single requirements class.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
@@ -122,9 +114,7 @@ requirements class.
 ==== Conformance class specifies all dependencies
 
 [[annex-2-1]]
-A Conformance class shall specify any other conformance class upon which it is
-dependent and that other conformance class shall be used to test the specified
-dependency.
+A Conformance class _SHALL_ specify any other conformance class upon which it is dependent and that other conformance class shall be used to test the specified dependency.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
@@ -133,12 +123,9 @@ dependency.
 
 ==== Imported Conformance class tests are consistent with the specification
 
-If a requirements class is imported from another standard for use within a
-standard conformant to this standard, and if any imported requirement is
-"optional," then that requirement shall be factored out as a separate requirements
-class in the profile of that imported standard used in the conformant standard.
-Each such used requirements class shall be a conformance class of the source
-standard or a combination of conformance classes of the source standard or standards.
+If a requirements class is imported from another standard for use within a standard conformant to the ModSpec, and if any imported requirement is “optional,” then that requirement _SHALL_ be factored out as a separate requirements class in the profile of that imported standard used in the conformant standard.
+
+Each such used requirements class _SHALL_ be a conformance class of the source standard or a combination of conformance classes of the source standard or standards.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
@@ -147,9 +134,7 @@ standard or a combination of conformance classes of the source standard or stand
 
 ==== Naming consistency
 
-For the sake of consistency and readability, all requirements classes and all
-conformance test classes shall be explicitly named, with corresponding requirements
-classes and conformance test classes having similar names.
+For the sake of consistency and readability, all requirements classes and all conformance test classes _SHALL_ be explicitly named, with corresponding requirements classes and conformance test classes having similar names.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
@@ -158,9 +143,9 @@ classes and conformance test classes having similar names.
 
 ==== Requirements in one and only one requirements class
 
-Each requirement in the standard shall be contained in one and only one requirements
-class. Inclusion of any requirement in a requirements class by a conformance class
-shall imply inclusion of all requirements in its class (as a dependency).
+Each requirement in the standard _SHALL_ be contained in one and only one requirements class.
+
+Inclusion of any requirement in a requirements class by a conformance class _SHALL_ imply inclusion of all requirements in its class (as a dependency).
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
@@ -169,9 +154,9 @@ shall imply inclusion of all requirements in its class (as a dependency).
 
 ==== Co-dependent Requirements are in the same requirements class
 
-If any two requirements or two requirements modules are co-dependent (each dependent
-on the other) then they shall be in the same requirements class. If any two
-requirements classes are co-dependent, they shall be merged into a single class.
+If any two requirements are co-dependent (each dependent on the other) then they _SHALL_ be in the same requirements class.
+
+If any two requirements classes are co-dependent, they _SHALL_ be merged into a single class.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
@@ -180,9 +165,7 @@ requirements classes are co-dependent, they shall be merged into a single class.
 
 ==== Modularity in implementation is possible
 
-There shall be a natural structure on the requirements classes so that each may be
-implemented on top of any implementations of its dependencies and independent of its
-extensions.
+There _SHALL_ be a natural structure to the requirements classes so that each may be implemented on top of any implementations of its dependencies and independent of its extensions.
 
 All general recommendations shall be in the core.
 
@@ -193,9 +176,7 @@ All general recommendations shall be in the core.
 
 ==== Requirements follow rules of inheritance
 
-No requirements class shall redefine the requirements of its dependencies, unless
-that redefinition is for an entity derived from but not contained in those
-dependencies.
+No requirements class _SHALL_ redefine the requirements of its dependencies, unless that redefinition is for an entity derived from but not contained in those dependencies.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
@@ -204,9 +185,7 @@ dependencies.
 
 ==== Profiles are expressed as sets of conformance classes
 
-The conformance tests for a profile of a standard shall be defined as the union
-of a list of conformance classes that are to be satisfied by that profile's
-standardization targets.
+The conformance tests for a profile of a standard _SHALL_ be defined as the union of a list of conformance classes that are to be satisfied by that profile’s standardization targets.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
@@ -215,8 +194,7 @@ standardization targets.
 
 ==== There is a named Core requirements class
 
-Every standard shall define and identify a core set of requirements as a
-separate conformance class.
+Every standard _SHALL_ define and identify a core set of requirements as a separate requirements class with a corresponding conformance class.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
@@ -225,20 +203,17 @@ separate conformance class.
 
 ==== General conditions are in the core
 
-Every other requirements class in a standard shall have a standardization
-target type which is a subtype of that of the core and shall have the core as a
-direct dependency.
+All general recommendations for a standard _SHALL_ be in the core.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
-. Reference: <<req-22>>
+. Reference: <<req-21>>
 . Test Type: Conformance.
 
 ==== Every extension has a consistent target type
 
-Every other requirements class in a standard shall have a standardization
-target type which is a subtype of that of the core and shall have the core as a
-direct dependency.
+Every requirements class in a standard, with the exception of the core, _SHALL_ have a standardization target type which is a subtype of that of the core.
+part:: Every requirement class, with the exception of the core, _SHALL_ have the core as a direct dependency.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
@@ -247,8 +222,7 @@ direct dependency.
 
 ==== A standard is a core plus some number of extensions
 
-Each standard conformant to the ModSpec shall consist of the core and some
-number of requirements classes defined as extensions to that core.
+Each standard conformant to the ModSpec _SHALL_ consist of a core and some number of requirements classes defined as extensions to that core.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
@@ -257,8 +231,7 @@ number of requirements classes defined as extensions to that core.
 
 ==== Conformance to this ModSpec is required for any extensions
 
-A standard conformant to the ModSpec shall require all conformant extensions
-to itself to be conformant to the ModSpec.
+A standard conformant to the ModSpec _SHALL_ require all conformant extensions to be conformant to the ModSpec.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
@@ -267,8 +240,7 @@ to itself to be conformant to the ModSpec.
 
 ==== Future extensions cannot be restricted
 
-A standard conformant to the ModSpec shall never restrict in any manner
-future, logically-valid extensions of its standardization targets.
+A standard conformant to the ModSpec _SHALL_ never restrict in any manner future, logically valid extensions of its standardization target types.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
@@ -277,8 +249,7 @@ future, logically-valid extensions of its standardization targets.
 
 ==== Optional requirements are organized as requirements classes
 
-The only optional requirements acceptable in a standard conformant to this
-standard shall be expressible as a list of conformance classes to be passed.
+The only conditional (optional) requirements acceptable in a standard conformant with the ModSpec _SHALL_ be expressible as a list of conformance classes to be passed.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
@@ -287,8 +258,7 @@ standard shall be expressible as a list of conformance classes to be passed.
 
 ==== Requirements classes intersect overlap only by reference
 
-The common portion of any two requirements classes shall consist only of references
-to other requirements classes.
+The common portion of any two requirements classes _SHALL_ consist only of references to other requirements classes.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.

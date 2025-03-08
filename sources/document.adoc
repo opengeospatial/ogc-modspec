@@ -4,8 +4,8 @@
 :status: Draft
 :committee: technical
 :docnumber: 08-131r4
-:edition: 1.1.0
-:received-date: 2025-03-05
+:edition: 2.0.0
+:received-date: 2025-03-07
 :issued-date: 2025-xx-xx
 :published-date: 2025-xx-xx
 :copyright-year: 2025
