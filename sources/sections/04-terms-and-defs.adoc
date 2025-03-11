@@ -78,13 +78,22 @@ This means that a standardization target being conformant to a profile implies t
 
 [ISO/IEC TR 10000-1]    
 
-=== General Terms and Definitions
+=== Document Terms and Definitions
 
 [[BestPractice-definition]]
 
 ==== Best Practice
 
 a <<Specification-definition,specification>> that has been approved by a legitimate Standards Body as a recommendation for implementation.  
+
+[[CertificateOfConformance-definition]]
+
+==== Certificate Of Conformance
+
+evidence of conformance to all or part of a standard, awarded for passing one or more of the conformance test classes specified in that standard 
+
+NOTE:  Certificates‖ do not have to be instantiated documents; having proof of passing the conformance test class is sufficient. For example, the OGC currently keeps an online list of conformant applications at http://www.opengeospatial.org/resource/products. 
+Each certificate of conformance is awarded to a standardization target.
 
 [[InformativeStatement-definition]]
 
@@ -136,30 +145,7 @@ expression in a document conveying information
 
 Non-normative information that assists in understanding a standard but is not required to implement the standard.   
 
-=== Concepts Terms and Definitions
-
-[[CertificateOfConformance-definition]]
-
-==== Certificate Of Conformance
-
-evidence of conformance to all or part of a standard, awarded for passing one or more of the conformance test classes specified in that standard 
-
-NOTE:  Certificates‖ do not have to be instantiated documents; having proof of passing the conformance test class is sufficient. For example, the OGC currently keeps an online list of conformant applications at http://www.opengeospatial.org/resource/products. 
-Each certificate of conformance is awarded to a standardization target.  
-
-[[CoreRequirementsClass-definition]]
-
-==== Core Requirements Class
-
-unique requirements class that must be satisfied by any conformant standardization targets associated to the standard
-
-NOTE:  The core requirements class is unique because if it was possible to have more than one, then each core would have to be implemented to pass any conformance test class, and thus would have to be contained in any other core. The core may be empty, or all or part of another standard or related set of standards. 
-
-The core can refer to this requirements class, its associated conformance test class or the software module that implements that requirements class.  
-
 === Core Terms and Definitions
-
-[[ConformanceClass-definition]]
 
 ==== Conformance Class
 
@@ -198,7 +184,15 @@ How an implementation of the standard is tested for conformance. Testing may be 
 
 NOTE: Testing by an independent second party is recommended.
 
-[[Model-definition]]
+[[CoreRequirementsClass-definition]]
+
+==== Core Requirements Class
+
+unique requirements class that must be satisfied by any conformant standardization targets associated to the standard
+
+NOTE:  The core requirements class is unique because if it was possible to have more than one, then each core would have to be implemented to pass any conformance test class, and thus would have to be contained in any other core. The core may be empty, or all or part of another standard or related set of standards. 
+
+The core can refer to this requirements class, its associated conformance test class or the software module that implements that requirements class.  
 
 ==== Model
 
@@ -213,10 +207,6 @@ In short, the model provides the vocabulary for expressing requirements.
 uses “may” and is used to prevent a requirement from being “over interpreted” and as such is considered to be more of a “statement of fact” than a “normative” condition. 
 
 [[Principal-definition]]
-
-==== Principal
-
-TBD - Undefined in 08-131r3. 
 
 [[Recommendation-definition]]
 
@@ -288,19 +278,3 @@ TBD - undefined in 08-131r3
 
 In informative sections, the word "will" implies that something is an implication of a requirement. The "will" statements are
 not requirements, but explain the consequence of requirements.
-
-=== Types Terms and Definitions
-
-[[DateTime-definition]]
-
-==== DateTime
-
-[[RichText-definition]]
-
-==== RichText
-
-
-[[String-definition]]
-
-==== String
-
