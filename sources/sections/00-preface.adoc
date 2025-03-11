@@ -3,22 +3,25 @@
 
 This OGC member developed and approved document, referred to as the `ModSpec`, defines a model and related requirements 
 and recommendations for writing and structuring modular standards documents. Further, this model is designed to enable 
-the consistent and verifiable testing of implementations of a standard that claim conformance. The ModSpec is a meta-standard: 
-A standard specifying requirements for crafting and documenting testable standards. 
+consistent and verifiable testing of implementations of a standard that claim conformance. The ModSpec is a meta-standard: 
+A standard specifying requirements for crafting and documenting modular and testable standards. 
 
-The goal is to ensure that a standard specifies requirements in a common and consistent manner and that these requirements are testable.
+The goals of using the ModSpec are:
 
-NOTE: Historically, this document has been known and abbreviated as the "ModSpec". For continuity and ease of understanding this document may also be refered to as the "OGC ModSpec".
+- To define characteristics and a structure for the development of modular standards which will minimize the difficulty in writing testable standards while maximizing usability and interoperability.
+- Toensure that a standard specifies requirements in a common and consistent manner and that these requirements are testable.
 
-Suggested additions, changes, and comments on this this document are welcome and
-encouraged. Such suggestions may be submitted through the OGC Change Request System
-(http://ogc.standardstracker.org/) or by creating an issue in the OGC ModSpec GitHub repository (https://github.com/opengeospatial/ogc-modspec).
+NOTE: Historically, this document has been known and abbreviated as the "ModSpec". For continuity and ease of understanding this document may also be referred to as the "OGC ModSpec".
+
+Suggested additions, changes, and comments on this document are welcome and
+encouraged. Such suggestions may be submitted by creating an issue in the 
+OGC ModSpec GitHub repository (https://github.com/opengeospatial/ogc-modspec).
 
 [.preface]
 == Document terms and definitions
 
-This document uses the standard terms defined in Subclause 5.3 of [OGC 05-008], which
-is based on the ISO/IEC Directives, Part 2. Rules for the structure and drafting of
+This document uses the standard terms defined in Subclause 5.3 of the OGC Web Services Common Standard [OGC 06-121r9], which
+is based on the ISO/IEC Directives, Part 2: 2021. Rules for the structure and drafting of
 International Standards. In particular, the word "shall" (not "must") is the
 imperative verb form used to indicate a requirement to be strictly followed to
 conform to the ModSpec.
@@ -38,14 +41,13 @@ The following OGC Members participated in editing this document:
 [.preface]
 == Document Contributors
 
-The following OGC Members contributed and particpated in developing Version 2 of the ModSpec.
+The following OGC Members contributed and particpated in developing Version 1.1 of the ModSpec.
 
 [%unnumbered]
 |===
 ^h| Person ^h| Organization Represented
-| Simon Cox | CSIRO and OGC Fellow
+| Carl Reed | Carl Reed
 | Chuck Heazel | Charles Heazel
-| Clemens Portele | interactive instruments GmbH
 | Jeff Yutzler | ImageMatters
 |===
 
@@ -57,7 +59,8 @@ This is the second normative version of this document.
 [.preface]
 == Future work
 
-This second version converts the ModSpec into a multi-part standard. This document is Part 1 - the core. It provides a technology agnostic model for modular standards. Future "parts" will be spefic for different technologies. Planned extensions include:
+This version of the ModSpec restructures the document into a multi-part standard. This document is Part 1 - the core. 
+It provides a technology agnostic model for modular standards. Future "parts" will be specific for different technologies. Planned extensions include:
 
 - ModSpec Part providing requirements and recommendations for specifying requirements and conformance tests using RDFS, SHACL, and OWL.
 - ModSpec Part providing requirements and recommendations for specifying requirements and conformance tests using JSON.
