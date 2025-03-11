@@ -109,8 +109,8 @@ The assumption is that each standard has a single
 (root) standardization target type from which all extensions inherit. If this is not
 true, then the standard can be logically factored into parts each corresponding
 to a "root" standardization target type, and that the standard addresses each
-such part separately (see the definition of requirements class in
-<<RequirementsClass-definition,requirements class>>). In this sense, the next requirement divides
+such part separately (see the definition of 
+<<RequirementsClass-definition,requirements class>>). In this sense, the next requirement divides the
 standard into parts more than restricting their content.
 
 [[req-4]]
@@ -178,7 +178,7 @@ Requirements are grouped into requirements classes. Each requirements class is c
 include::../requirements/core/REQ6_requirements-grouped.adoc[]
 
 The following requirement states that the sequence of requirements and requirements classes 
-is the same as the sequence of conformance tests and conformance classes is the conformance suite.
+is the same as the sequence of conformance tests and conformance classes in the conformance suite.
 
 [[req-7]]
 include::../requirements/core/REQ7_requirements-test-suite-structure.adoc[]
