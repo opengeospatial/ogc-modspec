@@ -5,10 +5,19 @@
 [[annex-A-1]]
 === Conformance Test Class: The Core
 
+==== Every requirement is referenced in one requirements class
+
+Each requirement in a standard _SHALL_ be associated with exactly one requirements class.
+
+. Test Purpose: Validate that each requirement in a standard is associated with exactly one requirements class.
+. Test Method: Inspect the document to verify the above.
+. Reference: <<req-0>>
+. Test Type:: Conformance
+
 ==== Requirements are atomic and tests cover all the parts of each of the requirement
 
-All the parts of a requirement, a requirement module, or requirements class shall be
-tested. Failure to meet any part of any requirement shall be a failure to pass the
+All the parts of a requirement, a requirement module, or requirements class _SHALL_ be
+tested. Failure to meet any part of any requirement _SHALL_ be a failure to pass the
 associated conformance test class.
 
 . Test Purpose: Verify that this requirement is satisfied.
