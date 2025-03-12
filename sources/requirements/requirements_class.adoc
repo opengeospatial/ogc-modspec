@@ -52,7 +52,7 @@ include::../core/REQ19_profile-conformance.adoc[]
 
 include::../core/REQ20_core-requirements-separate.adoc[]
 
-include::../core/REQ21_requirements-and-dependencies-2.adoc[]
+include::../core/REQ21_general-recommendations-core.adoc[]
 
 include::../core/REQ22_requirements-and-dependencies-3.adoc[]
 
