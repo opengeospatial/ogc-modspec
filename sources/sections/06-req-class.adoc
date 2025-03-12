@@ -405,10 +405,13 @@ include::../requirements/core/REQ21_general-recommendations-core.adoc[]
 [[req-22]]
 include::../requirements/core/REQ22_requirements-and-dependencies-3.adoc[]
 
-The following recommendation is guidance to the group developing a standrd to keep the core as simple as possible.
+The following recommendation is guidance to the group developing a standard to keep the core as simple as possible.
 
 [[rec-4]]
 include::../recommendations/core/REC004-simple-core.adoc[]
+
+The following enables the development and documentation of anstract standards. Examples of such standards are the OGC Abstract Specification.
+Typically, an abstract standard cannot be directly implemented.
 
 [[per-8]]
 [permission,model=ogc,type="general"]
