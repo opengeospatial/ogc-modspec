@@ -281,7 +281,7 @@ Requirements classes may be optional as a whole, but not piecemeal. This means t
 every implementation that passed a particular conformance class satisfies exactly
 the same requirements and passes exactly the same conformance tests. Differences
 between implementations will be determined by which conformance test classes are
-passed, not by listing of which options within a class were tested. If a
+passed, not by a listing of which options within a class were tested. If a
 standard's authors wish to make a particular requirement optional, <<req-9>>
 forces them to include it in a separate requirements class (and therefore in a
 separate conformance test class) which can be left untested.
@@ -294,7 +294,7 @@ care must be taken in importing conformance test classes from other standards.
 include::../requirements/core/REQ13_imported-requirements-class.adoc[]
 
 The tracking of the parallelism between requirements and tests should be easy if the
-standards document is non-ambiguous. To insure this, by utilizing the names of the two types of classes the following requirement places a
+standards document is non-ambiguous. To ensure this, by utilizing the names of the two types of classes, the following requirement places a
 default mapping between the two.
 
 [[req-14]]
@@ -324,7 +324,7 @@ standard will be tested in some conformance class. In the best example, a
 requirement should be contained explicitly in one and only one requirements class
 and tested in one and only one conformance class. This is not really a requirement
 here, since a single requirement can be stated twice in different requirements
-classes.
+classes with different standardization target types.
 
 [[req-16]]
 include::../requirements/core/REQ16_co-dependent-requirements.adoc[]
