@@ -1,0 +1,9 @@
+[[req_requirements-are-in-class]]
+[[req-28]]
+
+[requirement]
+====
+[%metadata]
+identifier:: /req/core/reqs-are-in-class
+part:: Each requirement in a standard _SHALL_ be associated with exactly one requirements class.
+====
