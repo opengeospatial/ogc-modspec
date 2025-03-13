@@ -148,6 +148,8 @@ Non-normative information that assists in understanding a standard but is not re
 
 === Core Terms and Definitions
 
+[[ConformanceClass-definition]]
+
 ==== Conformance Class
 
 a set of <<ConformanceTest-definition,conformance tests>> that must be passed to receive a single <<CertificateOfConformance-definition,certificate of conformance>>
