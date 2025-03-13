@@ -1,9 +1,9 @@
-= The ModSpec Model - Part 1:Core - A Standard for Designing and Writing Modular Standards
+= The ModSpec Model - Part 1: Core - A Standard for Designing and Writing Modular Standards
 :doctype: draft standard
 :docsubtype: logical-model
 :status: Draft
 :committee: technical
-:docnumber: 08-131r4
+:docnumber: 08-131r5
 :edition: 1.1.0
 :received-date: 2025-03-13
 :issued-date: 2025-xx-xx
