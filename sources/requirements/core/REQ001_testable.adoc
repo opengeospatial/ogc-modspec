@@ -1,3 +1,5 @@
+[[reqs-are-testable]]
+
 [[req-1]]
 
 [requirement]
