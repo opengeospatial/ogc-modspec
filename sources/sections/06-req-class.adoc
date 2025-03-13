@@ -178,9 +178,9 @@ is the same as the sequence of conformance tests and conformance classes in the 
 [[req-7]]
 include::../requirements/core/REQ7_requirements-test-suite-structure.adoc[]
 
-If two requirements are in the same requirments class, they should be tested in the same conformance
+If two requirements are in the same requirements class, they should be tested in the same conformance
 class in the conformance suite. Each requirement is separately identifiable
-either by a label as is done in the ModSpec.
+either by a unique label and/or identifier as is done in the ModSpec.
 
 In summary, the structure of the requirements and requirements classes of the model
 should be reflected in the organization of the conformance tests and classes, and
@@ -197,14 +197,10 @@ type of suite) description of a test to be performed on each candidate conforman
 implementation, to determine if it meets a well-defined set of requirements as
 stated in the normative clauses of the standards document.
 
-NOTE: The Test Suite is normative in the sense that it describes the tests to be
+NOTE: The Conformance Test Suite is normative in the sense that it describes the tests to be
 performed to pass conformance, but it specifies no requirements in any other sense.
 The requirements are specified in the body of the standard. The test suite
 only describes in detail how those requirements should be tested.
-
-In each of the profiles defined in the Clauses to follow, some set of entities,
-types, elements, or objects are defined and segregated into implementation
-requirements classes.
 
 [[req-8]]
 include::../requirements/core/REQ8_requirements-correspondence.adoc[]
@@ -241,7 +237,7 @@ be thought of as an "if-then-else" decision tree.
 For example, if a conformance class needs to apply tests against a specific data format, such as GML or
 KML, then XYZ(GML) is XYZ using GML, and XYZ(KML) is XYZ using KML.
 Because the parameters choose which requirements will be tested, two conformance
-classes with distinct parameters should be considered as distinct conformance
+tests with distinct parameters should be considered as distinct conformance
 classes.
 
 The most common parameters are the identities of indirect dependencies. For example,
