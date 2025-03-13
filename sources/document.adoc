@@ -5,15 +5,15 @@
 :committee: technical
 :docnumber: 08-131r4
 :edition: 1.1.0
-:received-date: 2025-03-05
+:received-date: 2025-03-13
 :issued-date: 2025-xx-xx
 :published-date: 2025-xx-xx
 :copyright-year: 2025
-:fullname: Carl Reed
+:fullname: Carl Reed, PhD
 :role: editor
-:fullname_2: John Herring
+:fullname_2: Chuck Heazel
 :role_2: editor
-:fullname_3: Chuck Heazel
+:fullname_3: John Herring, PhD
 :role_3: editor
 :language: en
 :submitting-organizations: Carl Reed, Charles Heazel, ImageMatters
