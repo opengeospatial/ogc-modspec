@@ -25,7 +25,7 @@ Therefore, by definition, any requirements class that contains the requirement t
 The following requirement states that every component of a standard will have a unique identifier
 
 [[req-2]]
-include::../requirements/core/REQ2_assigned-uri.adoc[]
+include::../requirements/core/REQ002_assigned-uri.adoc[]
 
 The following recommendation encourages the consistent use of these unique identifiers/labels in the standard 
 as well as any external documentation referencing that standard.
@@ -33,7 +33,7 @@ as well as any external documentation referencing that standard.
 [[rec-1]]
 include::../recommendations/core/REC001_uri-external-use.adoc[]
 
-While a requirement may be referenced in more than one place in a standard, the normative definition of a requirement shall be its "*#home#*" (see <<cls-6-3>>) and
+While a requirement may be referenced in more than one place in a standard, the normative definition of a requirement is its "*#home#*" (see <<cls-6-3>>) and
 will be the only place where full normative language is used.
 
 The following permissions relate to possible content specified in the core of a standard.
@@ -90,7 +90,7 @@ class in which the request-response pair is defined and set against requirements
 
 The primary difficulty in speaking about standards (or candidate
 standards) as a group is their diverse
-nature. Some standards use UML to define behavior, others use XML to define data
+nature. Some standards use UML to define behavior, others use XML or JSON to define data
 structures, and others use no specific modeling language at all. However, they all
 must model the standardization target type to which they apply since they need to use
 unambiguous language to specify requirements. Thus, the only thing they have in
@@ -132,7 +132,7 @@ If needed, a requirement _MAY_ be repeated word for word in another requirement 
 to but not including the identification of the standardization target type. 
 |===
 
-This second statement will be in a separate requirements class, since it will have a
+This repeated requirement will be in a separate requirements class. This is because it will have a
 separate standardization target and thus belong to the requirements to be tested by
 a separate conformance class. For example, in a service interface, a standard
 may be written that requires both the client and server to use a particular language
@@ -166,7 +166,7 @@ image::../images/img01.png[]
 [[cls-8-3]]
 ==== The "standards" document
 
-Each standard document is comprised of a set of requirements and their associated conformance tests. 
+Each standards document is comprised of a set of requirements and their associated conformance tests. 
 Requirements are grouped into requirements classes. Each requirements class is contained within one section/clause in a standards document.
 
 [[req-6]]
