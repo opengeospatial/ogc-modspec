@@ -30,7 +30,9 @@ Instances of a Standardization Target Type are the Standardization Targets.  The
 
 Standardization Target Types can be hierarchical. The Conceptual, Logical, Physical hierarchy is one example where the Standardization Target Types are information models. Another example would be implementations of OGC API - Features Part 2 that support XML data exchange.
 
-Notice that the Standardization Targets and Standardization Target Types no longer form a simple taxonomy. The Standardization Target Types, Standardization Targets, and Standardization Goal provide a well-defined context for the standard.  This will help users of standards to quickly understand the scope of a standard and to select those standards appropriate for their needs. It also will help keep standards developers focused on the intended use of their standards, avoiding standards which are overly broad and/or unfocused.
+The Standardization Target Types, Standardization Targets, and Standardization Goal provide a well-defined context for the standard.  
+This will help users of standards to quickly understand the scope of a standard and to select those standards appropriate for their needs. 
+It also will help keep standards developers focused on the intended use of their standards, avoiding standards which are overly broad and/or unfocused.
 
 === Conformance, Requirements, and key information
 
