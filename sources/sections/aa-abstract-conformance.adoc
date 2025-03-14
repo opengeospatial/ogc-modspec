@@ -28,7 +28,7 @@ associated conformance test class.
 ==== All components have an assigned URI
 
 Each component of the standard, including requirements, requirements modules,
-requirements classes, conformance test cases, conformance modules and conformance
+requirements classes, conformance test cases, conformance modules and conformance test
 classes _SHALL_ be assigned a unique identifier and/or label.
 
 . Test Purpose: Verify that this requirement is satisfied.
@@ -67,7 +67,7 @@ standard _SHALL_ have the same standardization target.
 
 ==== Requirements are organized by clauses
 
-Requirements _SHALL_ be grouped together in clauses (numbered sections) of the document in a strictly hierarchical manner, consistent with requirements classes.
+Requirements _SHALL_ be grouped together in clauses (numbered sections) of the document in a strictly hierarchical manner, consistent with the requirements classes.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
@@ -175,7 +175,7 @@ _SHALL_ imply inclusion of all requirements in its class (as a dependency).
 ==== Co-dependent Requirements are in the same requirements class
 
 If any two requirements or two requirements modules are co-dependent (each dependent
-on the other) then they _SHALL_ be in the same requirements class. If any two
+on the other) then they _SHALL_ be in the same requirements class or module. If any two
 requirements classes are co-dependent, they _SHALL_ be merged into a single class.
 
 . Test Purpose: Verify that this requirement is satisfied.
