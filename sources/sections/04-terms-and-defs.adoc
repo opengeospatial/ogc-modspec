@@ -65,7 +65,18 @@ UML model package that does not contain any subpackages, but contains classifier
 
 each of a set of standardized parts or independent units that can be used to construct a more complex structure
 
-Note: The concept ‘module’ is key to the ModSpec structure and model. Modules have a direct relationship to the concept of building blocks. The power of the concept is that modules can be reused in different systems (specify once, use many). Modules can be imported from other programs. Modules can be replaced without affecting the rest of the system. 
+Note: The concept ‘module’ is key to the ModSpec structure and model. Modules have a direct relationship to the concept of building blocks. 
+The power of the concept is that modules can be reused in different systems (specify once, use many). Modules can be imported from other programs. 
+Modules can be replaced without affecting the rest of the system. 
+
+[[Part-definition]]
+
+==== Part
+
+there are two cases for the concept `part` as used in this document:
+
+- The standards document is physically structured into a `core` and additional parts where each part is a separate document. These parts may be extensions to the core or have a different standardization target type/subtype.
+- For clarity, a requirement specifies more than one normative statement. The requirement parts are co-dependent. An example is <<req-1>> of this document.
 
 [[Profile-definition]]
 
