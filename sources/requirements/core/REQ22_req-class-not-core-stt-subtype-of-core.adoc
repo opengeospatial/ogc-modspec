@@ -6,5 +6,5 @@
 [%metadata]
 identifier:: /req/core/req-class-not-core-stt-subtype-of-core
 part:: Every requirements class in a standard, with the exception of the core, _SHALL_ have a standardization target type which is a subtype of that of the core.
-part:: Every requirement class, with the exception of the core, _SHALL_ have the core as a direct dependency.
+part:: Every requirement class in a standard, with the exception of the core, _SHALL_ have the core as a direct dependency.
 ====
