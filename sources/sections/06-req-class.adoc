@@ -36,32 +36,11 @@ include::../recommendations/core/REC001_uri-external-use.adoc[]
 While a requirement may be referenced in more than one place in a standard, the normative definition of a requirement is its "*#home#*" (see <<cls-6-3>>) and
 will be the only place where full normative language is used.
 
-The following permissions relate to possible content specified in the core of a standard.
-
-[[per-1]]
-[permission,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*PER001* | */per/core/informational-content-in-core* +
-The informational and structural universals of the standard _MAY_ be included in the
-core text of the standard without violations of the ModSpec. This is
-true if the requirements of the extension are not implicit in what is
-included in the core.
-|===
-
-In this manner, the core requirements class and its associated content can be
+The following permissions relate to possible content specified in the core of a standard. In this manner, the core requirements class and its associated content can be
 thought of not only as the requirements of the core conformance class, but as a form
-of reference model for establishing core vocabularies and schemas for the entire
-standard.
+of reference model for establishing core vocabularies and schemas for the entire standard.
 
-[[per-2]]
-[permission,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*PER002* | */per/core/core-may-contain-schema-terms* +
-The core _MAY_ contain the definition and schema of commonly used terms and data
-structures for use in other components and/or structures throughout the standard.
-|===
+include::../permissions/core/PER001_informrational-content.adoc[]
 
 The following states how and where vocabularies are specified in relation to a requirements class.
 
