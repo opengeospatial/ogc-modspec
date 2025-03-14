@@ -11,7 +11,7 @@ Each requirement in a standard _SHALL_ be associated with exactly one requiremen
 
 . Test Purpose: Validate that each requirement in a standard is associated with exactly one requirements class.
 . Test Method: Inspect the document to verify the above.
-. Reference: <<req-0>>
+. Reference: <<req-28>>
 . Test Type:: Conformance
 
 ==== Requirements are atomic and tests cover all the parts of each of the requirement
