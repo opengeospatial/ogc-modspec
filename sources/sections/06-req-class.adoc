@@ -346,9 +346,9 @@ states simply that conformance classes and their associated requirements classes
 be put in a one-to-one correspondence to a fully modular implementation of the
 complete standard (at least against a single
 standardization target). Implementors who wish to sacrifice modularity for some
-other benefit can still do what they want; the requirement here only states that if
+other benefit can still do what they want. The requirement here only states that if
 the software requirements classes are properly separated, they can be implemented in
-a "plug'n'play" fashion.
+a plug and play fashion.
 
 
 [[req-18]]
@@ -361,12 +361,12 @@ of the original.
 In terms of generalization, subclassing, extension and restriction (into a new class
 or type) are all acceptable, redefinition (of an old class or type) is not.
 
-<<cls-8-3>> makes some pointed suggestion as to how to organize the conformance
+<<cls-8-3>> makes suggestions as to how to organize the conformance
 classes and normative clauses in parallel to make this requirement easier to verify.
 
 Most standards include examples, which are useful for illustrative or pedagogical
 purposes. However, it is not possible to write a standard "by example" that
-leads to conformance tests. Examples are therefore non-normative, by definition.
+supports conformance testing. Examples are therefore non-normative, by definition.
 
 
 [[cls-6-5-3]]
