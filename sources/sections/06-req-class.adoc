@@ -96,16 +96,9 @@ This means that all requirements are considered as targeting the same entity bei
 tested for a particular certificate of conformance. The test may specify other types
 as intermediaries or indirect dependencies (see <<IndirectDependency-definition,indirect dependency>> of-a-requirements-class).
 
-[[per-5]]
-[permission,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*PER005* | */per/core/repeated-requirements* +
-If needed, a requirement _MAY_ be repeated word for word in another requirement up
-to but not including the identification of the standardization target type. 
-|===
+include::../permissions/core/PER003_repeated-requirements.adoc[]
 
-This repeated requirement will be in a separate requirements class. This is because it will have a
+A repeated requirement will be in a separate requirements class. This is because it will have a
 separate standardization target and thus belong to the requirements to be tested by
 a separate conformance class. For example, in a service interface, a standard
 may be written that requires both the client and server to use a particular language
@@ -113,17 +106,12 @@ for data transmission. Since the client and server are different standardization
 targets types (except in some special circumstances), they will have different
 conformance test classes.
 
-One solution is to state the requirement twice, once for each target. The most
-common alternative is to introduce a new "superclass". 
+One solution is to state the requirement twice, once for each target. An
+alternative is to introduce a new "superclass". 
 
-[[per-6]]
-[permission,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*PER006* | */per/core/abstract-superclass* +
-The standard _MAY_ introduce an abstract superclass of all affected standardization target types and
-use this for the requirements common to all of the affected target types. This is diagrammed in <<fig-6-1>>.
-|===
+include::../permissions/core/PER004_abstract-superclass.adoc[]
+
+An example is provided below.
 
 [[fig-6-1]]
 .Abstract superclass example
@@ -195,13 +183,7 @@ that exactly the same tests have been conducted. Standards documents may use
 recommendations for such options, but the conformance test classes do not test
 recommendations.
 
-[[per-7]]
-[permission,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*PER007* | */per/core/conf-class-paramterized* +
-A Conformance class _MAY_ be parameterized.
-|===
+include::../permissions/core/PER005_conf-class-paramterized.adoc[]
 
 This means that the class's tests
 depend on some parameter that must be defined before the tests can be executed. This can
@@ -379,21 +361,13 @@ include::../recommendations/core/REC004-simple-core.adoc[]
 The following enables the development and documentation of anstract standards. Examples of such standards are the OGC Abstract Specification.
 Typically, an abstract standard cannot be directly implemented.
 
-[[per-8]]
-[permission,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*PER008* | */per/core/core-type* +
-The core _MAY_ be partially or totally abstract.
-|===
+include::../permissions/core/PER006_core-type.adoc[]
 
-[[per-9]]
-[permission,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*PER009* | */per/core/req-class-another-standard* +
-The core requirements class _MAY_ be a conformance class in another standard.
-|===
+The following enables the ability of the standard being developed and then implemented to reference, as normative, conformance classes from another standard. 
+An example in the OGC would be OGC API - Records Standard core referencing conformance classes defined in the OGC API - Common Standard. By definition
+these externally defined conformance classes need to be passed in order to claim compliance.
+
+include::../permissions/core/PER007_req-class-another-standard.adoc[]
 
 [[rec-5]]
 include::../recommendations/core/REC005-optional-tests.adoc[]
@@ -402,14 +376,7 @@ Since the core requirements class is contained (as a direct dependency) in each
 other requirements class with a similar standardization target type, the general
 recommendations are thus universal to all requirements classes. 
 
-[[per-10]]
-[permission,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*PER010* | */per/core/core-maybe-recommendations* +
-Since the basic concept of some standards is mechanism not implementation, the core _MAY_ contain only
-recommendations, and include no requirements.
-|===
+include::../permissions/core/PER008_core-maybe-recommendations.adoc[]
 
 NOTE: In most cases, if someone feels the need to define a "simple" version of the
 standard, it is probably a good approximation of the best core. For example, the
