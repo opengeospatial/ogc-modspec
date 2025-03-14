@@ -1,0 +1,8 @@
+[[per-6]]
+
+[permission]
+====
+[%metadata]
+identifier:: /per/core/req-class-another-standard
+part:: The core requirements class in a standard _MAY_ be a conformance class defined in another standard.
+====
