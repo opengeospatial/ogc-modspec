@@ -1,4 +1,8 @@
 [[per-2]]
 
 [permission]
+====
+[%metadata]
 identifier:: /per/core/external-vocabs-core
+part:: Importation of external vocabularies and schemas _MAY_ be in the core of a standard.
+====
