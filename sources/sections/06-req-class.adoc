@@ -47,13 +47,7 @@ The following states how and where vocabularies are specified in relation to a r
 [[req-3]]
 include::../requirements/core/REQ3_vocabulary.adoc[]
 
-[[per-4]]
-[permission,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*PER004* | */per/core/external-vocabs-core* +
-Importation of external vocabularies and schemas _MAY_ be in the core of a standard.
-|===
+include::../permissions/core/PER002_external-vocabs-core.adoc[]
 
 [example]
 ====
