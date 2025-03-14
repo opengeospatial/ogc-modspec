@@ -1,0 +1,4 @@
+[[per-2]]
+
+[permission]
+identifier:: /per/core/external-vocabs-core
