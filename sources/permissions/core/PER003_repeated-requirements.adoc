@@ -1,0 +1,9 @@
+[[per-3]]
+
+[permission]
+====
+[%metadata]
+identifier:: /per/core/repeated-requirements
+part:: If needed, a requirement _MAY_ be repeated word for word in another requirement up
+to but not including the identification of the standardization target type.
+====
