@@ -9,7 +9,7 @@ The following states that for any OGC Standards development, the ModSpec model s
 
 The following states that any OGC normative document use the terminology as defined in https://www.iso.org/sites/directives/current/part2/index.xhtml#_idTextAnchor078[ISO/IEC Directives Part 2 Clause 7]
 
-- Any OGC standard, best practice that states requirements, or abstract specification _SHALL_ use the verbal forms for expressions of provisions as defined in ISO/IEC Dirctives Part 2 Clause 7.
+- Any OGC standard, best practice that states requirements, or abstract specification that states requirements _SHALL_ use the verbal forms for expressions of provisions as defined in ISO/IEC Dirctives Part 2 Clause 7.
 
 Any OGC Standards document must specify a standardization goal.
 
