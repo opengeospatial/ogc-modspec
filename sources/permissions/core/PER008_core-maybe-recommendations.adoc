@@ -1,0 +1,9 @@
+[[per-8]]
+
+[permission]
+====
+[%metadata]
+identifier:: /per/core/core-maybe-recommendations
+part:: Since the basic concept of some standards is mechanism not implementation, the core _MAY_ contain only
+recommendations and state no requirements.
+====
