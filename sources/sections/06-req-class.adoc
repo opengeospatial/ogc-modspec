@@ -40,7 +40,7 @@ The following permissions relate to possible content specified in the core of a 
 thought of not only as the requirements of the core conformance class, but as a form
 of reference model for establishing core vocabularies and schemas for the entire standard.
 
-include::../permissions/core/PER001_informrational-content.adoc[]
+include::../permissions/core/PER001_informational-content.adoc[]
 
 The following states how and where vocabularies are specified in relation to a requirements class.
 
