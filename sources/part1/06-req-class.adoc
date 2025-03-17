@@ -32,27 +32,27 @@ test class to the core will be made explicit.
 2+|/req/core/data-representation 
 |Target | ModSpec Conformant UML Model
 |Dependency |OGC ModSpec Version 2 (need proper title and document number)
-|REQ028 | /req/part1/uml/conformance-with-core 
-|REQ029 | /req/part1/uml/object-model 
-|REQ030 | /req/part1/uml/dependency-graph 
-|REQ031 | /req/part1/uml/leaf-package
-|REQ032 | /req/part1/uml/class-package
-|REQ033 | /req/part1/uml/to-leaf
-|REQ034 | /req/part1/uml/common-req-classes
-|REQ035 | /req/part1/uml/source-target
-|REQ036 | /req/part1/uml/leaf-package-dependency
-|REQ037 | /req/part1/uml/two-way-dependency
-|REQ038 | /req/part1/uml/segregate-into-leaf-packages
+|REQ001 | /req/part1/uml/conformance-with-core 
+|REQ002 | /req/part1/uml/object-model 
+|REQ003 | /req/part1/uml/dependency-graph 
+|REQ004 | /req/part1/uml/leaf-package
+|REQ005 | /req/part1/uml/class-package
+|REQ006 | /req/part1/uml/to-leaf
+|REQ007 | /req/part1/uml/common-req-classes
+|REQ008 | /req/part1/uml/source-target
+|REQ009 | /req/part1/uml/leaf-package-dependency
+|REQ010 | /req/part1/uml/two-way-dependency
+|REQ011 | /req/part1/uml/segregate-into-leaf-packages
 |===
 
 Any conformant UML extension will comply with the ModSpec Core requirements class.
 
-[[req-28]]
+[[req-01]]
 [requirement,model=ogc,type="general"]
 
 [width="90%",cols="2,6"]
 |===
-|*REQ028* | */req/part1/uml/conformance-with-core* +
+|*REQ001* | */req/part1/uml/conformance-with-core* +
 An implementation passing the UML conformance test class _SHALL_ first pass the ModSpec core
 conformance test class
 |===
@@ -66,23 +66,23 @@ dealt with as the conformance classes cascade.
 This clause uses UML terminology, but other object modeling languages and, if
 needed, the object code itself can be mapped to a UML model. 
 
-[[req-29]]
+[[req-02]]
 [requirement,model=ogc,type="general"]
 
 [width="90%",cols="2,6"]
 |===
-|*REQ029* | */req/part1/uml/object-model* +
+|*REQ002* | */req/part1/uml/object-model* +
 To be conformant to this UML requirements class, UML _SHALL_ be used to express the
 object model, either as the core mechanism of the standard or as a normative adjunct
 to formally explain the standard in a model
 |===
 
 
-[[req-30]]
+[[req-03]]
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ030* | */req/part1/uml/dependency-graph* +
+|*REQ003* | */req/part1/uml/dependency-graph* +
 A UML model _SHALL_ have an explicit dependency graph for the leaf packages and
 external packages used by the standard consistent with the way their classifiers use
 those of other packages
@@ -101,19 +101,19 @@ Since a package can consist solely of other packages, there is always the capabi
 to define in UML a single package that will correspond to a particular requirements
 class and its associated conformance class.
 
-[[req-31]]
+[[req-04]]
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ031* | */req/part1/uml/leaf-model* +
+|*REQ004* | */req/part1/uml/leaf-model* +
 A UML leaf package _SHALL_ be associated directly to only one requirements class.
 |===
 
-[[req-32]]
+[[req-05]]
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ032* | */req/part1/uml/class-package* +
+|*REQ005* | */req/part1/uml/class-package* +
 Each requirements class shall be associated to a unique package in the model and
 include either directly or by a dependency any requirement associated to any of its
 subpackages.
@@ -123,11 +123,11 @@ The class definitions are the "requirements" of a UML expressed standard. Theref
 logical consequence of the above is to organize requirements classes based on leaf
 packages.
 
-[[req-33]]
+[[req-06]]
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ033* | */req/part1/uml/to-leaf* +
+|*REQ006* | */req/part1/uml/to-leaf* +
 A requirements class _SHALL_ be associated to some number of complete leaf packages
 and all classes and constraints in those packages.
 |===
@@ -137,11 +137,11 @@ the packages will be called the source of the requirement, and the other targets
 The requirement with the same source package will always be associated to same
 requirements module and/or class.
 
-[[req-34]]
+[[req-07]]
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ034* | */req/part1/uml/common-req-classe* +
+|*REQ007* | */req/part1/uml/common-req-classe* +
 Classes that are common to all requirements classes _SHALL_ be in a package
 associated to the core requirements class.
 |===
@@ -156,11 +156,11 @@ requirement.
 In UML, source and target dependency relations are defined in such a way that the
 source of the relation is dependent on the target of the relation.
 
-[[req-35]]
+[[req-08]]
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ035* | */req/part1/uml/source-target* +
+|*REQ008* | */req/part1/uml/source-target* +
 ^| A | In the UML model, if a "source" package is dependent on a "target" package then
 their requirements class _SHALL_ be equal or 
 ^| B | The source package's class _SHALL_ be an extension of the target package's class.
@@ -177,21 +177,21 @@ associated to one and only one UML package (which may contain sub-packages for a
 finer level of structure). If the core requirements class contains only
 recommendations, it may be an exception to this.#*
 
-[[req-36]]
+[[req-09]]
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ036* | */req/part1/uml/leaf-package-dependency* +
+|*REQ009* | */req/part1/uml/leaf-package-dependency* +
 If one leaf package is dependent on another leaf package, then the requirements
 class of the first _SHALL_ be the same or an extension of the requirements class of
 the second.
 |===
 
-[[req-37]]
+[[req-10]]
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ037* | */req/part1/uml/two-way-dependency* +
+|*REQ010* | */req/part1/uml/two-way-dependency* +
 If two packages have a two-way dependency (a "co-dependency"), they _SHALL_ be
 associated to the same requirements class.
 |===
@@ -208,10 +208,10 @@ class can contain a locally defined class whose scope is the class itself. For o
 purposes, we will consider a class and its contained local classes to all be in the
 package of the original class.
 
-[[req-38]]
+[[req-11]]
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ038* | */req/part1/uml/segregate-into-leaf-packages* +
+|*REQ011* | */req/part1/uml/segregate-into-leaf-packages* +
 The UML model _SHALL_ segregate all classes into leaf packages.
 |===
