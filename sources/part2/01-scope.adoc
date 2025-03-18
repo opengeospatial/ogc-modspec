@@ -14,8 +14,8 @@ schema, all of its components, and its intended uses.
 
 The ModSpec Core Standard defines requirements for conformance to the ModSpec, but
 testing for that conformance may depend on how the various forms and parts of a
-conformant standard are viewed. The ModSpec Part 1 Standard specifies how those views
-are to be defined as UML. 
+conformant standard are viewed. The ModSpec Part 2 Standard specifies how those views
+are to be defined as XML. 
 
 As suggested in Clause Requirement 8 of the ModSpec Core, the structure of the normative clauses in a
 standard should parallel the structure of the conformance test classes in
