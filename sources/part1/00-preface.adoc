@@ -37,6 +37,7 @@ The following OGC Members participated in editing this document:
 |===
 ^h| Person ^h| Organization Represented
 | Carl Reed | Carl Reed & Associates
+| John Herring, PhD | Oracle
 |===
 
 [.preface]
