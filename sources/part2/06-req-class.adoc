@@ -1,7 +1,7 @@
 [[cls-6]]
 == Requirements Class: Part 2: XML
 
-This clause defines the key concepts and requirements that represent Part 2 of the ModSpec.
+This clause defines the key concepts and requirements that represent Part 2 XML schema extension to the ModSpec core.
 
 === The ModSpec and the "Form" of a standard
 
