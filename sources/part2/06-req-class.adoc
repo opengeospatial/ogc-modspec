@@ -16,7 +16,7 @@ criterion. See the formal definition of requirement in <<term-requirement>>
 [[cls-6-1]]
 ==== Requirements class: The XML schema extension to the core
 
-This requirements class covers any standard which has as one of its purposes
+The XML schema extension requirements class covers any standard which has as one of its purposes
 the introduction of a new XML schema. Such a standard would normally define the
 schema, all of its components, and its intended uses.
 
