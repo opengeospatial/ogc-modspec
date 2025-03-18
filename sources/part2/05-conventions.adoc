@@ -40,7 +40,7 @@ This document uses the same abbreviations and acronyms as defined in the ModSpec
 === Finding requirements and recommendations
 
 Each normative statement in the ModSpec Part 2 Standard is stated in one and only one place,
-in a standard format, and with an unique label, such as REQ001, REC001, or PER001. A requirement, recommendation, or permission may be repeated for clarification. 
+in a standard format, and with a unique label, such as REQ001, REC001, or PER001. A requirement, recommendation, or permission may be repeated for clarification. 
 The statement with the unique label is considered the official statement of the normative requirement or recommendation. 
 
 In this document, all requirements are associated with tests specified in the test suite
