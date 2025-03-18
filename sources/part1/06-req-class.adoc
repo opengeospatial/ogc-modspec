@@ -119,7 +119,7 @@ include either directly or by a dependency any requirement associated to any of 
 subpackages.
 |===
 
-The class definitions are the "requirements" of a UML expressed standard. Therefore the
+The class definitions are the "requirements" of a UML expressed standard. Therefore, the
 logical consequence of the above is to organize requirements classes based on leaf
 packages.
 
@@ -134,7 +134,7 @@ and all classes and constraints in those packages.
 
 If a requirement uses or refers to elements of more than one package, then one of
 the packages will be called the source of the requirement, and the other targets.
-The requirement with the same source package will always be associated to same
+The requirement with the same source package will always be associated with the same
 requirements module and/or class.
 
 [[req-07]]
