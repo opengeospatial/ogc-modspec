@@ -31,7 +31,7 @@ test class to the core will be made explicit.
 2+|*Requirements Class - UML extension to the core* 
 2+|/req/core/data-representation 
 |Target | ModSpec Conformant UML Model
-|Dependency |OGC ModSpec Version 2 (need proper title and document number)
+|Dependency |OGC ModSpec Version 1.1 [OGC 25-003r1]
 |REQ001 | /req/part1/uml/conformance-with-core 
 |REQ002 | /req/part1/uml/object-model 
 |REQ003 | /req/part1/uml/dependency-graph 
