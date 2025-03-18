@@ -145,7 +145,7 @@ the ModSpec Core conformance test class.
 === Each XML schema is conformant with the XML Schema class
 
 A standard passing the XML meta-schema conformance test class shall require
-that its standaridization targets (XML schema) pass the XML schema conformance class
+that its standardization targets (XML schema) pass the XML schema conformance class
 from this standard.
 
 . Test Purpose: Verify that this requirement is satisfied.
