@@ -34,18 +34,7 @@ The same convention is used for permissions (per) and recommendations (rec).
 
 === Abbreviations
 
-In this document the following abbreviations and acronyms are used or introduced:
-
-ERA:: Entity, Relation, Attribute (pre-object modeling technique)
-ISO:: International Organization for Standardization (from Greek for "same")
-OGC:: Open Geospatial Consortium (http://www.opengeospatial.org/)
-OOP:: Object Oriented Programming
-OOPL:: OOP Language (such as C++ or Java)
-TC:: Technical Committee (usually either in ISO or OGC)
-UML:: Unified Modeling Language (an object modeling language)
-XML:: eXtensible Markup Language
-OMG:: Object Management Group (http://www.omg.org/)
-OCL:: Object Constraint Language (part of UML)
+This document uses the same abbreviations and acronyms as defined in the ModSpec Core Standard
 
 [[cls-5-3]]
 === Finding requirements and recommendations
