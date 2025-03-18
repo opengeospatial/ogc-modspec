@@ -26,33 +26,33 @@ schema, all of its components, and its intended uses.
 2+|/req/core/data-representation 
 |Target | ModSpec Conformant XML Model
 |Dependency |OGC ModSpec Version 2 (need proper title and document number)
-|REQ039 | /req/part2/xml/conformance-with-core 
-|REQ040 | /req/part2/xml/w3c-xml 
-|REQ041 | /req/part2/xml/single-xml-space 
-|REQ042 | /req/part2/xml/all-components-uri
-|REQ043 | /req/part2/xml/direct-dependency
-|REQ044 | /req/part2/xml/no-element-modification
+|REQ001 | /req/part2/xml/conformance-with-core 
+|REQ002 | /req/part2/xml/w3c-xml 
+|REQ003 | /req/part2/xml/single-xml-space 
+|REQ004 | /req/part2/xml/all-components-uri
+|REQ005 | /req/part2/xml/direct-dependency
+|REQ006 | /req/part2/xml/no-element-modification
 |===
 
 
 First, by the requirements above, the extension relationship of this conformance
 test class to the core must be made explicit.
 
-[[req-39]]
+[[req-01]]
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ039* | */req/part1/xml/conformance-with-core* +
+|*REQ001* | */req/part2/xml/conformance-with-core* +
 An implementation passing the XML conformance test class _SHALL_ first pass the ModSpec Core
 conformance test class
 |===
 
 
-[[req-40]]
+[[req-02]]
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ040* | */req/part1/xml/w3c-xml* +
+|*REQ002* | */req/part2/xml/w3c-xml* +
 An implementation passing the XML schema conformance test class _SHALL_ first pass
 the W3C Recommendation for XML schema.
 |===
@@ -82,21 +82,21 @@ In defining a XML schema (either completely, or partially in a standard) the
 fundamental component or module of XML schema is always the namespace and its
 associated schema, which is designated by a URI.
 
-[[req-41]]
+[[req-03]]
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ041* | */req/part1/xml/single-xml-space* +
+|*REQ003* | */req/part2/xml/single-xml-space* +
 If a standard conformant to the XML schema conformance class defines a set of
 data schemas, all components (e.g. elements, attributes, types ...) associated with
 a single conformance test class _SHALL_ be scoped to a single XML namespace.
 |===
 
-[[req-42]]
+[[req-04]]
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ042* | */req/part1/xml/all-components-uri* +
+|*REQ004* | */req/part2/xml/all-components-uri* +
 The all-components schema document for an XML Schema _SHALL_ indicate the URI of the
 associated conformance test class in the schema/annotation/appinfo element.
 |===
@@ -116,11 +116,11 @@ This is a choice of design, and at the level of the ModSpec, the trade-off facto
 cannot be prejudged because the details of such cost-benefit trade-offs are not
 constant. Either of the above approaches may be used.
 
-[[req-43]]
+[[req-05]]
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ043* | */req/part1/xml/direct dependency* +
+|*REQ005* | */req/part2/xml/direct dependency* +
 If a standard conformant to the XML schema conformance class defines a direct
 dependency from one requirement class to another, then a standardization target of
 the corresponding conformance test class _SHALL_ import a schema that has passed the
@@ -131,11 +131,11 @@ conformance test class.
 NOTE: This implies that the value of the schemaLocation on the `<import>` element
 will refer to the all-components schema document.
 
-[[per-11]]
+[[per-01]]
 [permission,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*PER011* | */per/part1/xml/schema-assembly* +
+|*PER001* | */per/part2/xml/schema-assembly* +
 An all-components schema document _MAY_ be assembled by inclusion of documents that
 describe subsets of the components associated with the conformance test class.
 |===
@@ -149,20 +149,20 @@ class. For example, GML defines requirements for application schemas, but does n
 priori know the namespace of any application schema. The namespace for the
 application schema becomes a variable in the conformance test cases.
 
-[[req-44]]
+[[req-06]]
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ044* | */req/part1/xml/no-element-modification* +
+|*REQ006* | */req/part2/xml/no-element-modification* +
 The all-components schema document for an XML Schema _SHALL_ indicate the URI of the
 associated conformance test class in the schema/annotation/appinfo element.
 |===
 
-[[per-12]]
+[[per-02]]
 [permission,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*PER012* | */per/part1/xml/add-constraints* +
+|*PER002* | */per/part2/xml/add-constraints* +
 Requirements may add constraints.
 |===
 
