@@ -25,7 +25,7 @@ schema, all of its components, and its intended uses.
 2+|*Requirements Class - XML extension to the core* 
 2+|/req/core/data-representation 
 |Target | ModSpec Conformant XML Model
-|Dependency |OGC ModSpec Version 2 (need proper title and document number)
+|Dependency |OGC ModSpec Version 1.1 [25-003r1]
 |REQ001 | /req/part2/xml/conformance-with-core 
 |REQ002 | /req/part2/xml/w3c-xml 
 |REQ003 | /req/part2/xml/single-xml-space 
