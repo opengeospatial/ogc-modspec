@@ -1,0 +1,10 @@
+[[ats_con-class-dependencies]]
+[abstract_test]
+====
+[%metadata]
+identifier:: /conf/core/con-class-dependencies
+target:: /req/core/con-class-dependencies
+test-purpose:: Validate that a Conformance class _SHALL_ specify any other conformance class upon which it is dependent and that other conformance class shall be used to test the specified dependency.
+Test Method:: Inspect the document to verify the above.
+Test Type:: Conformance
+====

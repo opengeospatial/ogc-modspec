@@ -1,0 +1,10 @@
+[[ats_vocabulary-and-parent-req-class]]
+[abstract_test]
+====
+[%metadata]
+identifier:: /conf/core/vocabulary-and-parent-req-class
+target:: /req/core/vocabulary-and-parent-req-class
+test-purpose:: Validate that requirements on the use and interpretation of vocabulary _SHALL_ be in the requirements class where that use or interpretation is used.
+Test Method:: Inspect the document to verify the above.
+Test Type:: Conformance
+====

@@ -1,0 +1,10 @@
+[[ats_core-and-extensions]]
+[abstract_test]
+====
+[%metadata]
+identifier:: /conf/core/core-and-extensions
+target:: /req/core/core-and-extensions
+test-purpose:: Validate that each standard conformant to the ModSpec _SHALL_ consist of a core and some number of requirements classes defined as extensions to that core.
+Test Method:: Inspect the document to verify the above.
+Test Type:: Conformance
+====

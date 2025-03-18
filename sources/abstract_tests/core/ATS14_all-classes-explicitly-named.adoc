@@ -1,0 +1,10 @@
+[[ats_all-classes-explicitly-named]]
+[abstract_test]
+====
+[%metadata]
+identifier:: /conf/core/all-classes-explicitly-named
+target:: /req/core/all-classes-explicitly-named
+test-purpose:: Validate that all requirements classes and all conformance test classes _SHALL_ be explicitly named, with corresponding requirements classes and conformance test classes having similar names.
+Test Method:: Inspect the document to verify the above.
+Test Type:: Conformance
+====

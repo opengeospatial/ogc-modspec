@@ -1,0 +1,10 @@
+[[ats_core-requirements-separate]]
+[abstract_test]
+====
+[%metadata]
+identifier:: /conf/core/core-requirements-separate
+target:: /req/core/core-requirements-separate
+test-purpose:: Validate that every standard _SHALL_ define and identify a core set of requirements as a separate requirements class with a corresponding conformance class.
+Test Method:: Inspect the document to verify the above.
+Test Type:: Conformance
+====
