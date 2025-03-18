@@ -1,27 +1,27 @@
-[[annex-A-3]]
-=== Conformance test class: XML schema
+[[annex-A-1]]
+== Conformance test class: XML schema
 
-==== Dependency on Core
+=== Dependency on Core
 
 An implementation passing the XML schema conformance test class shall first pass the ModSpec
 Core Standard conformance test class.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
-. Reference: <<req-39>>
+. Reference: <<req-01>>
 . Test Type: Conformance.
 
-==== Dependency on W3C XML schema
+=== Dependency on W3C XML schema
 
 An implementation passing the XML schema conformance test class shall first pass the
 W3C Recommendation for XML schema.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
-. Reference: <<req-40>>
+. Reference: <<req-02>>
 . Test Type: Conformance.
 
-==== A requirements class corresponds to a single XML namespace
+=== A requirements class corresponds to a single XML namespace
 
 If a standard conformant to the XML schema conformance class defines a set of
 data schemas, all components (e.g. elements, attributes, types ...) associated with
@@ -29,20 +29,20 @@ a single conformance test class shall be scoped to a single XML namespace.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
-. Reference: <<req-41>>
+. Reference: <<req-03>>
 . Test Type: Conformance.
 
-==== A reference to the URI of the test suite in AppInfo
+=== A reference to the URI of the test suite in AppInfo
 
 The all-components schema document for an XML Schema shall indicate the URI of the
 associated conformance test class in the schema/annotation/appinfo element.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
-. Reference: <<req-42>>
+. Reference: <<req-04>>
 . Test Type: Conformance.
 
-==== Direct dependencies become schema imports
+=== Direct dependencies become schema imports
 
 If a standard conformant to the XML schema conformance class defines a direct
 dependency from one requirement class to another, then a standardization target of
@@ -52,10 +52,10 @@ conformance test class.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
-. Reference: <<req-43>>
+. Reference: <<req-05>>
 . Test Type: Conformance.
 
-==== No requirements class modifies or redefines elements in another namespace
+=== No requirements class modifies or redefines elements in another namespace
 
 No requirements class in a standard conformant to the XML schema conformance
 class shall modify elements, types or any other requirement from a namespace to
@@ -63,13 +63,13 @@ which it is not associated.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
-. Reference: <<req-44>>
+. Reference: <<req-06>>
 . Test Type: Conformance.
 
-[[annex-A-4]]
-=== Conformance test class: Schematron
+[[annex-A-2]]
+== Conformance test class: Schematron
 
-==== Dependency on XML Schema conformance test class
+=== Dependency on XML Schema conformance test class
 
 A standard passing the Schematron conformance test class shall also define or
 reference an XML schema that shall pass the XML schema conformance class from this
@@ -77,72 +77,72 @@ standard.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
-. Reference: <<req-45>>
+. Reference: <<req-07>>
 . Test Type: Conformance.
 
-==== Each schematron pattern element implements one requirement
+=== Each schematron pattern element implements one requirement
 
 Each sch:pattern element shall implement constraints described in no more than one
 requirement. Each requirement shall be implemented by no more than one sch:pattern.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
-. Reference: <<req-46>>
+. Reference: <<req-08>>
 . Test Type: Conformance.
 
-==== Each schematron pattern is in one schematron element
+=== Each schematron pattern is in one schematron element
 
 Each sch:pattern element shall be contained within one sch:schema element.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
-. Reference: <<req-47>>
+. Reference: <<req-09>>
 . Test Type: Conformance.
 
-==== Each schematron @fpi attribute is used only once
+=== Each schematron @fpi attribute is used only once
 
 The value of the sch:schema/@fpi attribute shall be used on only one Schematron
 schema.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
-. Reference: <<req-48>>
+. Reference: <<req-10>>
 . Test Type: Conformance.
 
-==== Each schematron @see attribute is used only once
+=== Each schematron @see attribute is used only once
 
 The value of the sch:schema/@see attribute shall be the identifier for the
 requirements class that contains the requirement(s) implemented by the schema
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
-. Reference: <<req-49>>
+. Reference: <<req-11>>
 . Test Type: Conformance.
 
-==== Each schematron fpi attribute is used only once
+=== Each schematron fpi attribute is used only once
 
 The value of the sch:schema/@fpi attribute shall be used on only one Schematron
 schema.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
-. Reference: <<req-50>>
+. Reference: <<req-12>>
 . Test Type: Conformance.
 
-[[annex-A-5]]
-=== Conformance Class: XML meta-schema
+[[annex-A-3]]
+== Conformance Class: XML meta-schema
 
-==== Supports the Specification class
+=== Supports the Specification class
 
 A standard passing the XML meta-schema conformance test class shall first pass
 the ModSpec Core conformance test class.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
-. Reference: <<req-51>>
+. Reference: <<req-13>>
 . Test Type: Conformance.
 
-==== Each XML schema is conformant with the XML Schema class
+=== Each XML schema is conformant with the XML Schema class
 
 A standard passing the XML meta-schema conformance test class shall require
 that its standaridization targets (XML schema) pass the XML schema conformance class
@@ -150,5 +150,5 @@ from this standard.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
-. Reference: <<req-52>>
+. Reference: <<req-14>>
 . Test Type: Conformance.
