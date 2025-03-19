@@ -1,0 +1,10 @@
+[[ats_requirements-test-suite-structure]]
+[abstract_test]
+====
+[%metadata]
+identifier:: /conf/core/requirements-test-suite-structure
+target:: /req/core/requirements-test-suite-structure
+test-purpose:: Validate that the requirements structure of the document _SHALL_ be in a logical correspondence with the test suite structure.
+Test Method:: Inspect the document to verify the above.
+Test Type:: Conformance
+====

@@ -1,0 +1,11 @@
+[[ats_all-components-assigned-uri]]
+[abstract_test]
+====
+[%metadata]
+identifier:: /conf/core/all-components-assigned-uri
+target:: /req/core/all-components-assigned-uri
+test-purpose:: Validate that each component of a standard, including requirements, requirements modules, requirements classes, 
+conformance test, conformance modules, and conformance test classes _SHALL_ be assigned a unique identifer or label.
+Test Method:: Inspect the document to verify the above.
+Test Type:: Conformance
+====

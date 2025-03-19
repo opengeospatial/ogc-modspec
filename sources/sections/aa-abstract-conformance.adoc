@@ -5,27 +5,26 @@
 [[annex-A-1]]
 === Conformance Test Class: The Core
 
-==== Every requirement is referenced in one requirements class
+include::../abstract_tests/ATS_class_core.adoc[]
 
-Each requirement in a standard _SHALL_ be associated with exactly one requirements class.
+==== Requirements are in class
 
 . Test Purpose: Validate that each requirement in a standard is associated with exactly one requirements class.
 . Test Method: Inspect the document to verify the above.
 . Reference: <<req-28>>
 . Test Type:: Conformance
 
-==== Requirements are atomic and tests cover all the parts of each of the requirement
 
-All the parts of a requirement, a requirement module, or requirements class _SHALL_ be
-tested. Failure to meet any part of any requirement _SHALL_ be a failure to pass the
-associated conformance test class.
+include::../abstract_tests/core/ATS1_reqs-are-in-class.adoc[]
 
-. Test Purpose: Verify that this requirement is satisfied.
-. Test Method: Inspect the document to verify the above.
-. Reference: <<req-1>>
-. Test Type: Conformance.
+==== Requirements are testable
+
+All the parts of a requirement _SHALL_ be testable. 
+
+include::../abstract_tests/core/ATS1_testable.adoc[]
 
 ==== All components have an assigned URI
+
 
 Each component of the standard, including requirements, requirements modules,
 requirements classes, conformance test cases, conformance modules and conformance test
@@ -36,34 +35,19 @@ classes _SHALL_ be assigned a unique identifier and/or label.
 . Reference: <<req-2>>
 . Test Type: Conformance.
 
+include::../abstract_tests/core/ATS2_assigned-uri.adoc[]
+
 ==== Requirements on vocabulary are appropriately placed
 
-Requirements on the use and interpretation of vocabulary _SHALL_ be in the requirements class where that use or interpretation is used.
+include::../abstract_tests/core/ATS3_vocabulary.adoc[]
 
-. Test Purpose: Verify that this requirement is satisfied.
-. Test Method: Inspect the document to verify the above.
-. Reference: <<req-3>>
-. Test Type: Conformance.
+==== Requirements have a single target type
 
-==== Requirements have a single target
+include::../abstract_tests/core/ATS4_single-standardization-target-type.adoc[]
 
-Each requirement in a conformant standard _SHALL_ have a single standardization
-target type.
+==== Conformance test classes have a single target type
 
-. Test Purpose: Verify that this requirement is satisfied.
-. Test Method: Inspect the document to verify the above.
-. Reference: <<req-4>>
-. Test Type: Conformance.
-
-==== Conformance test classes have a single target
-
-All conformance tests in a single conformance test class in a conformant
-standard _SHALL_ have the same standardization target.
-
-. Test Purpose: Verify that this requirement is satisfied.
-. Test Method: Inspect the document to verify the above.
-. Reference: <<req-5>>
-. Test Type: Conformance.
+include::../abstract_tests/core/ATS5_test-class-single-standardization-target.adoc[]
 
 ==== Requirements are organized by clauses
 
@@ -74,15 +58,11 @@ Requirements _SHALL_ be grouped together in clauses (numbered sections) of the d
 . Reference: <<cls-6-3>>, <<req-6>>
 . Test Type: Conformance.
 
+include::../abstract_tests/core/ATS6_requirements-grouped.adoc[]
+
 ==== Conformance test classes are consistent with requirements classes
 
-The requirements structure of the document _SHALL_ be in a logical correspondence to
-the test suite structure.
-
-. Test Purpose: Verify that this requirement is satisfied.
-. Test Method: Inspect the document to verify the above.
-. Reference: <<cls-6-3>>, <<req-7>>
-. Test Type: Conformance.
+include::../abstract_tests/core/ATS7_requirements-test-suite-structure.adoc[]
 
 ==== Requirement classes and the Conformance Test classes in correspondence
 
@@ -124,9 +104,24 @@ requirements class.
 . Reference: <<req-11>>
 . Test Type: Conformance.
 
+include::../abstract_tests/core/ATS8_requirements-correspondence.adoc[]
+
+==== No Optional Elements in Requirements classes
+
+include::../abstract_tests/core/ATS9_no-optional-tests.adoc[]
+
+==== Certificate of conformance specifies all parameters used
+
+include::../abstract_tests/core/ATS10_all-parameters-expressed.adoc[]
+
+==== Conformance class tests only one requirements class
+
+include::../abstract_tests/core/ATS11_conf-class-single-req-class.adoc[]
+
 ==== Conformance class specifies all dependencies
 
 [[annex-2-1]]
+
 A Conformance class _SHALL_ specify any other conformance class upon which it is
 dependent and that other conformance class shall be used to test the specified
 dependency.
@@ -183,18 +178,27 @@ requirements classes are co-dependent, they _SHALL_ be merged into a single clas
 . Reference: <<req-16>>
 . Test Type: Conformance.
 
+include::../abstract_tests/core/ATS12_con-class-dependencies.adoc[]
+
+==== Imported Conformance class tests are consistent with the specification
+
+include::../abstract_tests/core/ATS13_imported-requirements-class.adoc[]
+
+==== Naming consistency
+
+include::../abstract_tests/core/ATS14_all-classes-explicitly-named.adoc[]
+
+==== Requirements in one and only one requirements class
+
+include::../abstract_tests/core/ATS15_req-in-only-one-req-class.adoc[]
+
+==== Co-dependent Requirements are in the same requirements class
+
+include::../abstract_tests/core/ATS16_co-dependent-requirements.adoc[]
+
 ==== Modularity in implementation is possible
 
-There shall be a natural structure on the requirements classes so that each may be
-implemented on top of any implementations of its dependencies and independent of its
-extensions.
-
-All general recommendations shall be in the core.
-
-. Test Purpose: Verify that this requirement is satisfied.
-. Test Method: Inspect the document to verify the above.
-. Reference: <<req-17>>
-. Test Type: Conformance.
+include::../abstract_tests/core/ATS17_structure-requirements-classes.adoc[]
 
 ==== Requirements follow rules of inheritance
 
@@ -296,3 +300,42 @@ to other requirements classes.
 . Test Method: Inspect the document to verify the above.
 . Reference: <<req-27>>
 . Test Type: Conformance.
+
+include::../abstract_tests/core/ATS18_requirements-and-dependencies.adoc[]
+
+==== Profiles are expressed as sets of conformance classes
+
+include::../abstract_tests/core/ATS19_profile-conformance.adoc[]
+
+==== There is a named Core requirements class
+
+include::../abstract_tests/core/ATS20_core-requirements-separate.adoc[]
+
+==== General conditions are in the core
+
+include::../abstract_tests/core/ATS21_requirements-and-dependencies-2.adoc[]
+
+==== Every extension has a consistent target type
+
+include::../abstract_tests/core/ATS22_requirements-and-dependencies-3.adoc[]
+
+==== A standard is a core plus some number of extensions
+
+include::../abstract_tests/core/ATS23_core-and-extensions.adoc[]
+
+==== Conformance to this ModSpec is required for any extensions
+
+include::../abstract_tests/core/ATS24_extensions-conformant-to-modspec.adoc[]
+
+==== Future extensions cannot be restricted
+
+include::../abstract_tests/core/ATS25_restriction-of-extensions.adoc[]
+
+==== Optional requirements are organized as requirements classes
+
+include::../abstract_tests/core/ATS26_optional-requirements.adoc[]
+
+==== Requirements classes intersect overlap only by reference
+
+include::../abstract_tests/core/ATS27_req-class-overlap-by-reference.adoc[]
+

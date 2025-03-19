@@ -2,7 +2,7 @@
 <ogc-standard xmlns="https://www.metanorma.org/ns/ogc" type="semantic" version="2.5.7" schema-version="v1.3.1">
 <bibdata type="standard">
 <title language="en" format="text/plain">The ModSpec Model - Part 1:Core - A Standard for Designing and Writing Modular Standards</title>
-<docidentifier type="ogc-internal" primary="true">08-131r4</docidentifier><docnumber>08-131r4</docnumber><date type="published"><on>2025-xx-xx</on></date><date type="issued"><on>2025-xx-xx</on></date><date type="received"><on>2025-03-05</on></date><contributor><role type="author"/><organization>
+<docidentifier type="ogc-internal" primary="true">08-131r4</docidentifier><docnumber>08-131r4</docnumber><date type="published"><on>2025-xx-xx</on></date><date type="issued"><on>2025-xx-xx</on></date><date type="received"><on>2025-03-18</on></date><contributor><role type="author"/><organization>
 <name>Carl Reed, Charles Heazel, ImageMatters</name>
 </organization></contributor><contributor><role type="editor"/><person>
 <name><completename>Carl Reed</completename></name>
@@ -14,7 +14,7 @@
 <name>Open Geospatial Consortium</name>
 <abbreviation>OGC</abbreviation></organization></contributor><edition>1.1.0</edition><language>en</language><script>Latn</script><status><stage>Draft</stage></status><copyright><from>2025</from><owner><organization>
 <name>Open Geospatial Consortium</name>
-<abbreviation>OGC</abbreviation></organization></owner></copyright><ext><doctype>draft-standard</doctype><subdoctype>logical-model</subdoctype><editorialgroup><committee>technical</committee></editorialgroup></ext></bibdata><metanorma-extension><table id="_misccontainer_anchor_aliases"><tbody><tr><th>req-1</th><td>/req/core/reqs-are-testable</td></tr><tr><th>req-2</th><td>/req/core/all-components-assigned-uri</td></tr><tr><th>rec-1</th><td>/rec/core/uri-external-use</td></tr><tr><th>req-3</th><td>/req/core/vocabulary-and-parent-req-class</td></tr><tr><th>req-4</th><td>/req/core/single-standardization-target-type</td></tr><tr><th>req-5</th><td>/req/core/test-class-single-standardization-target</td></tr><tr><th>req-6</th><td>/req/core/requirements-grouped</td></tr><tr><th>req-7</th><td>/req/core/requirements-test-suite-structure</td></tr><tr><th>req-8</th><td>/req/core/requirements-class-correspondence-to-conformance-classes</td></tr><tr><th>req-9</th><td>/req/core/no-optional-tests</td></tr><tr><th>req-10</th><td>/req/core/all-parameters-expressed</td></tr><tr><th>req-11</th><td>/req/core/conf-class-single-req-class</td></tr><tr><th>req-12</th><td>/req/core/con-class-dependencies</td></tr><tr><th>req-13</th><td>/req/core/imported-requirements-class</td></tr><tr><th>req-14</th><td>/req/core/all-classes-explicitly-named</td></tr><tr><th>req-15</th><td>/req/core/req-in-only-one-req-class</td></tr><tr><th>rec-2</th><td>/rec/core/parallel-structure</td></tr><tr><th>req-16</th><td>/req/core/co-dependent-requirements</td></tr><tr><th>rec-3</th><td>/rec/core/circular-dependencies</td></tr><tr><th>req-17</th><td>/req/core/structure-requirements-classes</td></tr><tr><th>req-18</th><td>/req/core/requirements-and-dependencies</td></tr><tr><th>req-19</th><td>/req/core/profile-conformance</td></tr><tr><th>req-20</th><td>/req/core/core-requirements-separate</td></tr><tr><th>req-21</th><td>/req/core/requirements-and-dependencies-2</td></tr><tr><th>req-22</th><td>/req/core/requirements-and-dependencies-3</td></tr><tr><th>rec-4</th><td>/rec/core/simple-core</td></tr><tr><th>rec-5</th><td>/rec/core/optional-tests</td></tr><tr><th>req-23</th><td>/req/core/core-and-extensions</td></tr><tr><th>req-24</th><td>/req/core/extensions-conformant-to-the-modspec</td></tr><tr><th>req-25</th><td>/req/core/restriction-of-extensions</td></tr><tr><th>req-26</th><td>/req/core/optional-requirements</td></tr><tr><th>req-27</th><td>/req/core/req-class-overlap-by-reference</td></tr></tbody></table><presentation-metadata><name>TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>HTML TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>DOC TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>PDF TOC Heading Levels</name><value>2</value></presentation-metadata></metanorma-extension>
+<abbreviation>OGC</abbreviation></organization></owner></copyright><ext><doctype>draft-standard</doctype><subdoctype>logical-model</subdoctype><editorialgroup><committee>technical</committee></editorialgroup></ext></bibdata><metanorma-extension><table id="_misccontainer_anchor_aliases"><tbody><tr><th>req-1</th><td>/req/core/reqs-are-testable</td></tr><tr><th>req-2</th><td>/req/core/all-components-assigned-uri</td></tr><tr><th>rec-1</th><td>/rec/core/uri-external-use</td></tr><tr><th>req-3</th><td>/req/core/vocabulary-and-parent-req-class</td></tr><tr><th>req-4</th><td>/req/core/single-standardization-target-type</td></tr><tr><th>req-5</th><td>/req/core/test-class-single-standardization-target</td></tr><tr><th>req-6</th><td>/req/core/requirements-grouped</td></tr><tr><th>req-7</th><td>/req/core/requirements-test-suite-structure</td></tr><tr><th>req-8</th><td>/req/core/requirements-class-correspondence-to-conformance-classes</td></tr><tr><th>req-9</th><td>/req/core/no-optional-tests</td></tr><tr><th>req-10</th><td>/req/core/all-parameters-expressed</td></tr><tr><th>req-11</th><td>/req/core/conf-class-single-req-class</td></tr><tr><th>req-12</th><td>/req/core/con-class-dependencies</td></tr><tr><th>req-13</th><td>/req/core/imported-requirements-class</td></tr><tr><th>req-14</th><td>/req/core/all-classes-explicitly-named</td></tr><tr><th>req-15</th><td>/req/core/req-in-only-one-req-class</td></tr><tr><th>rec-2</th><td>/rec/core/parallel-structure</td></tr><tr><th>req-16</th><td>/req/core/co-dependent-requirements</td></tr><tr><th>rec-3</th><td>/rec/core/circular-dependencies</td></tr><tr><th>req-17</th><td>/req/core/structure-requirements-classes</td></tr><tr><th>req-18</th><td>/req/core/requirements-and-dependencies</td></tr><tr><th>req-19</th><td>/req/core/profile-conformance</td></tr><tr><th>req-20</th><td>/req/core/core-requirements-separate</td></tr><tr><th>req-21</th><td>/req/core/general-recommendations-core</td></tr><tr><th>req-22</th><td>/req/core/req-class-not-core-stt-subtype-of-core</td></tr><tr><th>rec-4</th><td>/rec/core/simple-core</td></tr><tr><th>rec-5</th><td>/rec/core/optional-tests</td></tr><tr><th>req-23</th><td>/req/core/core-and-extensions</td></tr><tr><th>req-24</th><td>/req/core/extensions-conformant-to-the-modspec</td></tr><tr><th>req-25</th><td>/req/core/restriction-of-extensions</td></tr><tr><th>req-26</th><td>/req/core/optional-requirements</td></tr><tr><th>req-27</th><td>/req/core/req-class-overlap-by-reference</td></tr><tr><th>ats_class-core</th><td>https://www.opengis.net/spec/modspec-1/2.0/conf/core</td></tr><tr><th>_1288fe80-ef32-49a4-a38b-422adbc941d2</th><td>/conf/core/reqs-are-in-class</td></tr><tr><th>_16ec6ff4-f966-4f75-b10a-e3e8ad7b0c3d</th><td>/conf/core/reqs-are-testable</td></tr><tr><th>_94be725d-2d1f-480e-90f7-40f1e9789ab0</th><td>/conf/core/all-components-assigned-uri</td></tr><tr><th>_1a5f4fed-bf55-41ae-a03c-2f77a92e867f</th><td>/conf/core/vocabulary-and-parent-req-class</td></tr><tr><th>_b69279bd-5d76-4d2f-976c-8c99540eb69f</th><td>/conf/core/single-standardization-target-type</td></tr><tr><th>_f43ea2d0-9ad1-490b-b088-75beafcb27fd</th><td>/conf/core/test-class-single-standardization-target-type</td></tr><tr><th>_c5908253-76b2-44bb-b450-111d15421c3d</th><td>/conf/core/requirements-grouped</td></tr><tr><th>_b63bc899-2160-4d85-946a-782485ac6ec5</th><td>/conf/core/requirements-test-suite-structure</td></tr><tr><th>_eccc294a-67f2-4653-8ab7-4728899aaf89</th><td>/conf/core/requirements-class-correspondence-to-conformance-classes</td></tr><tr><th>_ce929560-5fb9-4f26-8df6-2c60bc6f8417</th><td>/conf/core/no-optional-tests</td></tr><tr><th>_9a390569-d2c9-48bf-9e46-98f2d82f9e49</th><td>/conf/core/all-parameters-expressed</td></tr><tr><th>_406058bd-ccf7-4820-aada-3dded80eb7a1</th><td>/conf/core/conf-class-single-req-class</td></tr><tr><th>_4d05d755-fcd4-48d7-91be-67adc899cb64</th><td>/conf/core/con-class-dependencies</td></tr><tr><th>_82fc5609-d709-4a89-9b97-b6ff49cd54d7</th><td>/conf/core/imported-requirements-class</td></tr><tr><th>_c86025b9-6edf-4ce2-8cc8-43ee8337d93d</th><td>/conf/core/all-classes-explicitly-named</td></tr><tr><th>_b173b285-3ff2-49f6-8302-5c8a1be708e1</th><td>/conf/core/req-in-only-one-req-class</td></tr><tr><th>_488e244f-7e86-4ea5-b687-099a86b41573</th><td>/conf/core/co-dependent-requirements</td></tr><tr><th>_16133c8d-7a1c-4a2f-bb5b-db92fd212d63</th><td>/conf/core/structure-requirements-classes</td></tr><tr><th>_72b66b5b-7073-4b16-9797-bd3763b4327c</th><td>/conf/core/requirements-and-dependencies</td></tr><tr><th>_9e760e53-4735-43df-a7e5-da1d37bc5263</th><td>/conf/core/profile-conformance</td></tr><tr><th>_2c5b848c-0a7e-475b-80db-a627089beecd</th><td>/conf/core/core-requirements-separate</td></tr><tr><th>_5d699256-28ad-443a-b738-64a2b0393142</th><td>/conf/core/requirements-and-dependencies-2</td></tr><tr><th>_5babec00-5caf-421a-a8de-64974d7d2075</th><td>/conf/core/requirements-and-dependencies-3</td></tr><tr><th>_c50f7048-a37b-4613-91dc-2b1afb530739</th><td>/conf/core/core-and-extensions</td></tr><tr><th>_d74384d0-1125-48e6-b072-28cfe361cfc0</th><td>/conf/core/extensions-conformant-to-the-modspec</td></tr><tr><th>_7e1f0b12-20bd-4057-9f60-50cfe9bc8e0d</th><td>/conf/core/restriction-of-extensions</td></tr><tr><th>_f9799793-255c-4d92-8f12-3f0740930d4a</th><td>/conf/core/optional-requirements</td></tr><tr><th>_2f946438-d69d-4deb-809d-31378f478dfa</th><td>/conf/core/req-class-overlap-by-reference</td></tr><tr><th>ats_requirements-are-in-class</th><td>/conf/core/reqs-are-in-class</td></tr><tr><th>ats_requirements-are-testable</th><td>/conf/core/reqs-are-testable</td></tr><tr><th>ats_all-components-assigned-uri</th><td>/conf/core/all-components-assigned-uri</td></tr><tr><th>ats_vocabulary-and-parent-req-class</th><td>/conf/core/vocabulary-and-parent-req-class</td></tr><tr><th>ats_single-standardization-target-type</th><td>/conf/core/single-standardization-target-type</td></tr><tr><th>ats_test-class-single-standardization-target</th><td>/conf/core/test-class-single-standardization-target-type</td></tr><tr><th>ats_requirements-grouped</th><td>/conf/core/requirements-grouped</td></tr><tr><th>ats_requirements-test-suite-structure</th><td>/conf/core/requirements-test-suite-structure</td></tr><tr><th>ats_requirements-class-correspondence-to-conformance-classes</th><td>/conf/core/requirements-class-correspondence-to-conformance-classes</td></tr><tr><th>ats_no-optional-tests</th><td>/conf/core/no-optional-tests</td></tr><tr><th>ats_all-parameters-expressed</th><td>/conf/core/all-parameters-expressed</td></tr><tr><th>ats_conf-class-single-req-class</th><td>/conf/core/conf-class-single-req-class</td></tr><tr><th>ats_con-class-dependencies</th><td>/conf/core/con-class-dependencies</td></tr><tr><th>ats_imported-requirements-class</th><td>/conf/core/imported-requirements-class</td></tr><tr><th>ats_all-classes-explicitly-named</th><td>/conf/core/all-classes-explicitly-named</td></tr><tr><th>ats_req-in-only-one-req-class</th><td>/conf/core/req-in-only-one-req-class</td></tr><tr><th>ats_co-dependent-requirements</th><td>/conf/core/co-dependent-requirements</td></tr><tr><th>ats_structure-requirements-classes</th><td>/conf/core/structure-requirements-classes</td></tr><tr><th>ats_requirements-and-dependencies</th><td>/conf/core/requirements-and-dependencies</td></tr><tr><th>ats_profile-conformance</th><td>/conf/core/profile-conformance</td></tr><tr><th>ats_core-requirements-separate</th><td>/conf/core/core-requirements-separate</td></tr><tr><th>ats_requirements-and-dependencies-2</th><td>/conf/core/requirements-and-dependencies-2</td></tr><tr><th>ats_requirements-and-dependencies-3</th><td>/conf/core/requirements-and-dependencies-3</td></tr><tr><th>ats_core-and-extensions</th><td>/conf/core/core-and-extensions</td></tr><tr><th>ats_extensions-conformant-to-the-modspec</th><td>/conf/core/extensions-conformant-to-the-modspec</td></tr><tr><th>ats_restriction-of-extensions</th><td>/conf/core/restriction-of-extensions</td></tr><tr><th>ats_optional-requirements</th><td>/conf/core/optional-requirements</td></tr><tr><th>ats_req-class-overlap-by-reference</th><td>/conf/core/req-class-overlap-by-reference</td></tr></tbody></table><presentation-metadata><name>TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>HTML TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>DOC TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>PDF TOC Heading Levels</name><value>2</value></presentation-metadata></metanorma-extension>
 <boilerplate><copyright-statement>
 
 <clause id="_copyright_notice" obligation="normative">
@@ -55,23 +55,29 @@ To obtain additional rights of use, visit
 </feedback-statement>
 </boilerplate><preface><foreword id="_preface" obligation="informative">
 <title>Preface</title>
-<p id="_ae244999-f6e3-43df-55d8-32a0f77e43ab">This OGC member developed and approved document, referred to as the <tt>ModSpec</tt>, defines a model and related requirements
+<p id="_e26f447f-c640-c0dd-e3ca-91b4d06b0ddd">This OGC member developed and approved document, referred to as the <tt>ModSpec</tt>, defines a model and related requirements
 and recommendations for writing and structuring modular standards documents. Further, this model is designed to enable
-the consistent and verifiable testing of implementations of a standard that claim conformance. The ModSpec is a meta-standard:
-A standard specifying requirements for crafting and documenting testable standards.</p>
+consistent and verifiable testing of implementations of a standard that claim conformance. The ModSpec is a meta-standard:
+A standard specifying requirements for crafting and documenting modular and testable standards.</p>
 
-<p id="_572b38b0-87b8-eecb-de88-8d5f0b2ffb73">The goal is to ensure that a standard specifies requirements in a common and consistent manner and that these requirements are testable.<note id="_252d79f4-9d78-6086-3085-b632be0bd720"><p id="_5f14362c-88d8-9204-fad5-0221b14cc328">Historically, this document has been known and abbreviated as the “ModSpec”. For continuity and ease of understanding this document may also be refered to as the “OGC ModSpec”.</p>
-</note></p>
+<p id="_4a02122d-893d-a24d-9168-5e3f843576ee">The goals of using the ModSpec are:</p>
+
+<ul id="_13c027c2-1c12-18e6-16d6-f53ca786553d"><li><p id="_c16f920a-c76f-f333-0066-e3955c68afd1">To define characteristics and a structure for the development of modular standards which will minimize the difficulty in writing testable standards while maximizing usability and interoperability.</p>
+</li>
+<li><p id="_ae4bd888-bb33-b18e-3e1b-20dd846befb2">To ensure that a standard specifies requirements in a common and consistent manner and that these requirements are testable.</p>
+</li>
+<note id="_a2ed80ca-2c31-6a4e-2307-b5f40f2faef7"><p id="_32bd631c-4ddd-ec45-382c-25808843a781">Historically, this document has been known and abbreviated as the “ModSpec”. For continuity and ease of understanding this document may also be referred to as the “OGC ModSpec”.</p>
+</note></ul>
 
 
 
-<p id="_011dd2e7-da15-6d7b-4c96-6e1f07105d3b">Suggested additions, changes, and comments on this this document are welcome and
-encouraged. Such suggestions may be submitted through the OGC Change Request System
-(<link target="http://ogc.standardstracker.org/"/>) or by creating an issue in the OGC ModSpec GitHub repository (<link target="https://github.com/opengeospatial/ogc-modspec"/>).</p>
+<p id="_d496ebbc-94b6-99b3-789c-4decb9cb4ee0">Suggested additions, changes, and comments on this document are welcome and
+encouraged. Such suggestions may be submitted by creating an issue in the
+OGC ModSpec GitHub repository (<link target="https://github.com/opengeospatial/ogc-modspec"/>).</p>
 </foreword><clause id="_document_terms_and_definitions" obligation="informative">
 <title>Document terms and definitions</title>
-<p id="_47eacff9-c600-acbb-114c-211b0d76de99">This document uses the standard terms defined in Subclause 5.3 of [OGC 05-008], which
-is based on the ISO/IEC Directives, Part 2. Rules for the structure and drafting of
+<p id="_620d0f7c-bb3a-b785-d568-804b5de44437">This document uses the standard terms defined in Subclause 5.3 of the OGC Web Services Common Standard [OGC 06-121r9], which
+is based on the ISO/IEC Directives, Part 2: 2021. Rules for the structure and drafting of
 International Standards. In particular, the word “shall” (not “must”) is the
 imperative verb form used to indicate a requirement to be strictly followed to
 conform to the ModSpec.</p>
@@ -89,16 +95,14 @@ conform to the ModSpec.</p>
 </table>
 </clause><clause id="_document_contributors" obligation="informative">
 <title>Document Contributors</title>
-<p id="_ec886cdb-2d31-0e6b-05cf-0537fb5c0695">The following OGC Members contributed and particpated in developing Version 2 of the ModSpec.</p>
+<p id="_9508f7ff-d0f6-1aba-aff0-6819e63a77a2">The following OGC Members contributed and particpated in developing Version 1.1 of the ModSpec.</p>
 
-<table id="_18f1cff9-c268-fc8f-944c-0d82334b6180" unnumbered="true"><tbody><tr><th valign="middle" align="center">Person</th>
+<table id="_418da5d8-26e9-5511-ecc7-554b9b8ccd46" unnumbered="true"><tbody><tr><th valign="middle" align="center">Person</th>
 <th valign="middle" align="center">Organization Represented</th>
-</tr><tr><td valign="middle" align="left">Simon Cox</td>
-<td valign="middle" align="left">CSIRO and OGC Fellow</td>
+</tr><tr><td valign="middle" align="left">Carl Reed</td>
+<td valign="middle" align="left">Carl Reed</td>
 </tr><tr><td valign="middle" align="left">Chuck Heazel</td>
 <td valign="middle" align="left">Charles Heazel</td>
-</tr><tr><td valign="middle" align="left">Clemens Portele</td>
-<td valign="middle" align="left">interactive instruments GmbH</td>
 </tr><tr><td valign="middle" align="left">Jeff Yutzler</td>
 <td valign="middle" align="left">ImageMatters</td>
 </tr></tbody>
@@ -108,7 +112,8 @@ conform to the ModSpec.</p>
 <p id="_6ab22a42-1c22-04d9-d0d3-1009164e362c">This is the second normative version of this document.</p>
 </clause><clause id="_future_work" obligation="informative">
 <title>Future work</title>
-<p id="_3733eab6-800d-d2bb-f244-a001756bcc13">This second version converts the ModSpec into a multi-part standard. This document is Part 1 — the core. It provides a technology agnostic model for modular standards. Future “parts” will be spefic for different technologies. Planned extensions include:</p>
+<p id="_ffeccddb-eab6-3368-db4a-4dcfcacec123">This version of the ModSpec restructures the document into a multi-part standard. This document is Part 1 — the core.
+It provides a technology agnostic model for modular standards. Future “parts” will be specific for different technologies. Planned extensions include:</p>
 
 <ul id="_dbb16c0e-d4e1-8511-029f-8eb97dc77a4f"><li><p id="_e445657f-a9ea-bbd1-6472-f22962656fde">ModSpec Part providing requirements and recommendations for specifying requirements and conformance tests using RDFS, SHACL, and OWL.</p>
 </li>
@@ -240,30 +245,86 @@ defined by ISO Directives.</p>
 <title>Building Blocks Terms and Definitions</title>
 <clause id="BuildingBlock-definition" obligation="normative">
 <title>Building Block</title>
-<p id="_ee231dc6-894d-d6db-ce92-6fcd2799b66d">a <xref target="RequirementsClass-definition">requirements class</xref> or a <xref target="RequirementsModule-definition">requirements module</xref> with no direct dependencies on other requirements classes or modules and their associated <xref target="ComplianceClass-definition">compliance test class</xref> or <xref target="ComplianceModule-definition">compliance test module</xref>.</p>
-</clause>
-</clause>
-
-<clause id="_general_terms_and_definitions" obligation="normative">
-<title>General Terms and Definitions</title>
-<clause id="BestPractice-definition" obligation="normative">
-<title>Best Practice</title>
-<p id="_adad7328-7e94-61ce-c417-29b15db0517a">a <xref target="Specification-definition">specification</xref> that has been approved by a legitimate Standards Body as a recommendation for implementation.</p>
+<p id="_27adccd7-6f03-c299-8c74-cf1a7e1456c5">a <xref target="RequirementsClass-definition">requirements class</xref> or a <xref target="RequirementsModule-definition">requirements module</xref> with no direct dependencies on other requirements classes or modules and their associated <xref target="ComplianceClass-definition">compliance test class</xref> or <xref target="ComplianceModule-definition">compliance test module</xref>.</p>
 </clause>
 
-<clause id="InformativeStatement-definition" obligation="normative">
-<title>Informative Statement</title>
-<p id="_2876811f-c37f-1c6a-ecd8-2c98ffb7cf72">expression in a document conveying non-normative information<note id="_1320201d-88aa-6405-8859-4ff461fe6232"><p id="_f25933b1-9438-4ec9-24f9-4f72412d9170">Includes all statements in a document not part of the normative requirements, recommendations, permissions, or conformance tests. Included for completeness.</p>
+<clause id="Dependency-definition" obligation="normative">
+<title>Dependency</title>
+<p id="_1a4fb3cf-3247-0a54-9bd9-cfcc9d1716a2">a module (the target) which is used, produced or associated to by an implementation of the source module.</p>
+</clause>
+
+<clause id="DirectDependency-definition" obligation="normative">
+<title>Direct Dependency</title>
+<p id="_2a2edb38-96c7-dcfd-8282-f8c8533e16e1">another requirements class (the dependency) whose requirements are defined to also be requirements of this requirements class<note id="_d19ebc03-1a20-2028-b833-56f23a42803a"><p id="_cdea632e-d172-e66c-2773-0b694e1c691c">A direct dependency (of a requirements class) of the current requirements class will have the same standardization target as the current requirements class. This is another way of saying that the current requirements class extends, or uses all the aspects of the direct dependency (or a requirements class). Any tests associated to this dependency can be applied to this requirements class.</p>
+</note></p>
+
+
+
+<p id="_37b56f98-86ca-a6d0-c594-f4186de6c3c1">When testing a direct dependency of a requirements class, the standardization target is directly subject to the test in the specified conformance test class of the direct dependency of a requirements class.</p>
+</clause>
+
+<clause id="Extension-definition" obligation="normative">
+<title>Extension</title>
+<p id="_216e8a2c-eb3a-0c91-1c86-c6652f85998e">requirements class which has a direct dependency on another requirements class<note id="_9ff6e0e0-4435-3703-d879-cbe3e2518753"><p id="_67e9674e-9934-34c6-81e0-1f0871b9597e">Here an extension of a requirements class is defined on requirements class so that their implementation may be software extensions in a manner analogous to the extension relation between the requirements classes.</p>
 </note></p>
 
 
 </clause>
 
+<clause id="IndirectDependency-definition" obligation="normative">
+<title>Indirect Dependency</title>
+<p id="_227d8aae-9e46-77ae-4c18-ab43293807b8">requirements class with a different standardization target which is used, produced or associated to by the implementation of this requirements class<note id="_e9f05cfb-46ad-d553-b40b-5156bf298b2a"><p id="_bbfeeed9-75a8-794c-56e9-aef86193a106">In this instance, as opposed to the direct dependency of a requirements class, the test against the consumable or product used or produced by the requirements class does not directly test the requirements class, but tests only its side effects. Hence, a particular type of feature service could be required to produce valid XML documents, but the test of validity for the XML document is not directly testing the service, but only indirectly testing the validity of its output. Direct dependencies test the same standardization target, but indirect dependencies test related but different standardization targets.<br/>
+For example, if a DRM-enabled service is required to have an association to a licensing service, then the requirements of a licensing service are indirect requirements for the DRM-enabled service. Such a requirement may be stated as the associated licensing service has a certificate of conformance of a particular kind.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="LeafPackage-definition" obligation="normative">
+<title>Leaf Package</title>
+<p id="_831f95d1-4dcd-74dd-aa75-1b6fdac69eed">UML model package that does not contain any subpackages, but contains classifiers</p>
+</clause>
+
 <clause id="Module-definition" obligation="normative">
 <title>Module</title>
-<p id="_9ace261b-fffc-c06b-732a-7c9ea82250ae">each of a set of standardized parts or independent units that can be used to construct a more complex structure</p>
+<p id="_56037d6e-cdcf-693b-2cab-2b87a8371a18">each of a set of standardized parts or independent units that can be used to construct a more complex structure</p>
 
-<p id="_4fa69019-b1db-0761-db40-e24950e19908">Note: The concept ‘module’ is key to the ModSpec structure and model. Modules have a direct relationship to the concept of building blocks. The power of the concept is that modules can be reused in different systems (specify once, use many). Modules can be imported from other programs. Modules can be replaced without affecting the rest of the system.</p>
+<p id="_95570bdb-a273-71e8-5919-a59844e2bbed">Note: The concept ‘module’ is key to the ModSpec structure and model. Modules have a direct relationship to the concept of building blocks. The power of the concept is that modules can be reused in different systems (specify once, use many). Modules can be imported from other programs. Modules can be replaced without affecting the rest of the system.</p>
+</clause>
+
+<clause id="Profile-definition" obligation="normative">
+<title>Profile</title>
+<p id="_7aaa57cf-2d68-c7e3-7c75-81bfc588322b">specification or standard consisting of a set of references to one or more base standards and/or other profiles, and the identification of any chosen conformance test classes, conforming subsets, options and parameters of those base standards, or profiles necessary to accomplish a particular function.<note id="_d6cfaf17-0157-a211-d0d5-8b3521a9d833"><p id="_b22a722a-dcd9-1e23-9d31-b21c2ad20534">In the usage of the ModSpec, a profile will be a set of requirements classes or conformance classes (either preexisting or locally defined) of the base standards.</p>
+</note></p>
+
+
+
+<p id="_a0c3ddc8-5229-ed22-7c1c-bf7db3ba9aa2">This means that a standardization target being conformant to a profile implies that the same target is conformant to the standards referenced in the profile.</p>
+</clause>
+</clause>
+
+<clause id="_document_terms_and_definitions_2" obligation="normative">
+<title>Document Terms and Definitions</title>
+<clause id="BestPractice-definition" obligation="normative">
+<title>Best Practice</title>
+<p id="_adad7328-7e94-61ce-c417-29b15db0517a">a <xref target="Specification-definition">specification</xref> that has been approved by a legitimate Standards Body as a recommendation for implementation.</p>
+</clause>
+
+<clause id="CertificateOfConformance-definition" obligation="normative">
+<title>Certificate Of Conformance</title>
+<p id="_77b4a5cc-1ff4-c3ff-6fbf-d2fa6e70e08e">evidence of conformance to all or part of a standard, awarded for passing one or more of the conformance test classes specified in that standard<note id="_fd8201e0-42ff-1435-610e-b89e75e58296"><p id="_6015ac75-caf7-7bab-b4ae-6a526e51c72d">Certificates‖ do not have to be instantiated documents; having proof of passing the conformance test class is sufficient. For example, the OGC currently keeps an online list of conformant applications at <link target="http://www.opengeospatial.org/resource/products"/>.
+Each certificate of conformance is awarded to a standardization target.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="InformativeStatement-definition" obligation="normative">
+<title>Informative Statement</title>
+<p id="_c3ba2327-17a7-ac71-a661-707dc0b06de1">expression in a document conveying non-normative information<note id="_2e8b5d60-c9f8-fac3-82dc-2afba1dca055"><p id="_283dbf1f-f195-60b5-e820-259a8244079a">Includes all statements in a document not part of the normative requirements, recommendations, permissions, or conformance tests. Included for completeness.</p>
+</note></p>
+
+
 </clause>
 
 <clause id="NormativeStatement-definition" obligation="normative">
@@ -307,80 +368,11 @@ defined by ISO Directives.</p>
 </clause>
 </clause>
 
-<clause id="_concepts_terms_and_definitions" obligation="normative">
-<title>Concepts Terms and Definitions</title>
-<clause id="CertificateOfConformance-definition" obligation="normative">
-<title>Certificate Of Conformance</title>
-<p id="_ca6d4995-a642-ede9-a70a-e3779a5df574">evidence of conformance to all or part of a standard, awarded for passing one or more of the conformance test classes specified in that standard<note id="_a62c2203-de3d-235f-4aba-a431100e19d5"><p id="_475b0a1d-5a99-40a1-62f4-91b9a9445381">Certificates‖ do not have to be instantiated documents; having proof of passing the conformance test class is sufficient. For example, the OGC currently keeps an online list of conformant applications at <link target="http://www.opengeospatial.org/resource/products"/>.
-Each certificate of conformance is awarded to a standardization target.</p>
-</note></p>
-
-
-</clause>
-
-<clause id="CoreRequirementsClass-definition" obligation="normative">
-<title>Core Requirements Class</title>
-<p id="_093a3166-08d3-6e54-4ce0-0ef8205a1780">unique requirements class that must be satisfied by any conformant standardization targets associated to the standard<note id="_b0d8b26d-ec06-b8b1-0d47-6a299f2c07c7"><p id="_0597f7fb-f9bd-b726-8d95-fe99c70d1809">The core requirements class is unique because if it was possible to have more than one, then each core would have to be implemented to pass any conformance test class, and thus would have to be contained in any other core. The core may be empty, or all or part of another standard or related set of standards.</p>
-</note></p>
-
-
-
-<p id="_1deb9174-f512-6a86-0a24-2f620e0b1ef6">The core can refer to this requirements class, its associated conformance test class or the software module that implements that requirements class.</p>
-</clause>
-
-<clause id="Dependency-definition" obligation="normative">
-<title>Dependency</title>
-<p id="_8bbd7213-284f-9076-f983-6fecb6239e58">a module (the target) which is used, produced or associated to by an implementation of the source module.</p>
-</clause>
-
-<clause id="DirectDependency-definition" obligation="normative">
-<title>Direct Dependency</title>
-<p id="_bfb91820-6eed-658c-670f-22e46ed63010">another requirements class (the dependency) whose requirements are defined to also be requirements of this requirements class<note id="_7b2d263f-105b-5f58-38f5-4927f70d353d"><p id="_54dc2cc0-b474-4ee5-6d14-fa5a52e93624">A direct dependency (of a requirements class) of the current requirements class will have the same standardization target as the current requirements class. This is another ways of saying that the current requirements class extends, or uses all the aspects of the direct dependency (or a requirements class). Any tests associated to this dependency can be applied to this requirements class.</p>
-</note></p>
-
-
-
-<p id="_34eefd3b-b4ab-425f-06e0-0a7d67c3ca4c">When testing a direct dependency of a requirements class, the standardization target is directly subject to the test in the specified conformance test class of the direct dependency of a requirements class.</p>
-</clause>
-
-<clause id="Extension-definition" obligation="normative">
-<title>Extension</title>
-<p id="_7ecd3abf-b571-a46c-fea0-d88fd66c9d2a">requirements class which has a direct dependency on another requirements class<note id="_f54f4bd2-b78a-386d-42ff-6bdde8ccb8ee"><p id="_d2461f95-8cde-b8b8-7ec4-3ca6d85870aa">Here an extension of a requirements class is defined on requirements class so that their implementation may be software extensions in a manner analogous to the extension relation between the requirements classes.</p>
-</note></p>
-
-
-</clause>
-
-<clause id="IndirectDependency-definition" obligation="normative">
-<title>Indirect Dependency</title>
-<p id="_f1577383-a3ae-f9fb-03ee-ae2da23a9234">requirements class with a different standardization target which is used, produced or associated to by the implementation of this requirements class<note id="_7d3bfcb4-8cb4-897c-4ca4-0d710475afe3"><p id="_11e9a865-aa9a-6d05-6a99-58de6558d048">In this instance, as opposed to the direct dependency of a requirements class, the test against the consumable or product used or produced by the requirements class does not directly test the requirements class, but tests only its side effects. Hence, a particular type of feature service could be required to produce valid XML documents, but the test of validity for the XML document is not directly testing the service, but only indirectly testing the validity of its output. Direct dependencies test the same standardization target, but indirect dependencies test related but different standardization targets.<br/>
-For example, if a DRM-enabled service is required to have an association to a licensing service, then the requirements of a licensing service are indirect requirements for the DRM-enabled service. Such a requirement may be stated as the associated licensing service has a certificate of conformance of a particular kind.</p>
-</note></p>
-
-
-</clause>
-
-<clause id="LeafPackage-definition" obligation="normative">
-<title>Leaf Package</title>
-<p id="_008d3af0-5244-0a61-476e-0dfddc1ec042">UML model package that does not contain any subpackages, but contains classifiers</p>
-</clause>
-
-<clause id="Profile-definition" obligation="normative">
-<title>Profile</title>
-<p id="_48dce130-630d-a960-c08c-df08622ab158">specification or standard consisting of a set of references to one or more base standards and/or other profiles, and the identification of any chosen conformance test classes, conforming subsets, options and parameters of those base standards, or profiles necessary to accomplish a particular function.<note id="_071e5633-b4b4-9efc-a1ed-0e2ca66450f6"><p id="_d9d00bb3-e88e-4379-9c22-e322619bdadc">In the usage of the ModSpec, a profile will be a set of requirements classes or conformance classes (either preexisting or locally defined) of the base standards.</p>
-</note></p>
-
-
-
-<p id="_a11f31e5-cc0c-54e9-331c-9a96c50e497f">This means that a standardization target being conformant to a profile implies that the same target is conformant to the standards referenced in the profile.</p>
-</clause>
-</clause>
-
 <clause id="_core_terms_and_definitions" obligation="normative">
 <title>Core Terms and Definitions</title>
 <clause id="ConformanceClass-definition" obligation="normative">
 <title>Conformance Class</title>
-<p id="_8cfad552-5057-24fc-3a47-899582481c07">a set of <xref target="ConformanceTest-definition">conformance tests</xref> that must be passed to receive a single <xref target="CertificateOfConformance-definition">certificate of conformance</xref><note id="_cc9ca4f2-e86b-298f-3d10-7910dedacbce"><p id="_9970fd53-769f-298c-530c-3dd27c176acf">When no ambiguity is possible, the word test may be left out, so conformance test class may be called a conformance class.<br/>
+<p id="_85d07ad6-1eaf-7d17-a6ca-0b9f26f3010c">a set of <xref target="ConformanceTest-definition">conformance tests</xref> that must be passed to receive a single <xref target="CertificateOfConformance-definition">certificate of conformance</xref><note id="_217f18e7-a105-feae-40d4-8e62711c11a9"><p id="_1a98932d-4324-b2a9-3a4d-b0e982546933">When no ambiguity is possible, the word test may be left out, so conformance test class may be called a conformance class.<br/>
 In the ModSpec, the set of <xref target="Requirement-definition">requirements</xref> tested by the conformance tests within a <xref target="ConformanceClass-definition">conformance class</xref> is a <xref target="RequirementsClass-definition">requirements class</xref> and its dependencies. Optional requirements will be in a separate requirements class with other requirements that are part of the same option. Each requirements class corresponds to a separate conformance class<br/>
 Each requirements class will be in a 1 to 1 correspondence to a similarly named conformance class that tests all of the requirements in the requirements class.<br/>
 All requirements in a conformance class will have the same standardization target type.</p>
@@ -391,12 +383,12 @@ All requirements in a conformance class will have the same standardization targe
 
 <clause id="ConformanceModule-definition" obligation="normative">
 <title>ConformanceModule</title>
-<p id="_c379b2a4-1b92-1bf7-6b02-3f8679af0cfc">a set of related conformance classes and their associated components.</p>
+<p id="_26c4882f-bbab-2c5c-1a9a-a0e304d6b678">a set of related conformance classes and their associated components.</p>
 </clause>
 
 <clause id="ConformanceSuite-definition" obligation="normative">
 <title>Conformance Suite</title>
-<p id="_6749dcea-cd5d-7110-96eb-42ad64a18107">set of <xref target="ConformanceModule-definition">conformance modules</xref> that define <xref target="ConformanceTest-definition">tests</xref> for all <xref target="Requirement-definition">requirements</xref> of a <xref target="Standard-definition">standard</xref> or abstract specification<note id="_da2e58ab-8598-a6a0-7654-e4b3101dd4cb"><p id="_da8317f6-1848-9b76-bc5a-176f53175be7">The <strong>conformance suite</strong> is the union of all <strong>conformance modules</strong> and their associated <xref target="ConformanceClass-definition">conformance classes</xref>. It is by definition the <strong>conformance class</strong> of the entire <strong>standard</strong> or <strong>abstract specification</strong>.</p>
+<p id="_43bb5c9d-b95b-84a2-24e9-93ec46e39765">set of <xref target="ConformanceModule-definition">conformance modules</xref> that define <xref target="ConformanceTest-definition">tests</xref> for all <xref target="Requirement-definition">requirements</xref> of a <xref target="Standard-definition">standard</xref> or abstract specification<note id="_af2e47a7-3124-cc46-5efd-34901daeadfa"><p id="_7dbdfbc6-42ff-f600-7018-8580b1f0ab60">The <strong>conformance suite</strong> is the union of all <strong>conformance modules</strong> and their associated <xref target="ConformanceClass-definition">conformance classes</xref>. It is by definition the <strong>conformance class</strong> of the entire <strong>standard</strong> or <strong>abstract specification</strong>.</p>
 </note></p>
 
 
@@ -404,38 +396,43 @@ All requirements in a conformance class will have the same standardization targe
 
 <clause id="ConformanceTest-definition" obligation="normative">
 <title>Conformance Test</title>
-<p id="_23ccc5df-a621-3abf-aa7e-b3d75ec9b50a">test, abstract or real, of one or more <xref target="Requirement-definition">requirements</xref> contained within a standard, or set of standards</p>
+<p id="_3e3451a5-0590-3ada-f15d-27b9cad57966">test, abstract or real, of one or more <xref target="Requirement-definition">requirements</xref> contained within a standard, or set of standards</p>
 </clause>
 
 <clause id="ConformanceTestMethod-definition" obligation="normative">
 <title>Conformance Test Method</title>
-<p id="_3cc52d45-d6d3-3c71-2de4-64016917eaea">How an implementation of the standard is tested for conformance. Testing may be automated, manual, or a hybrid.<note id="_8fa74302-b252-bc5f-a2e9-c90c16832b66"><p id="_ecd7fb10-f4f7-5abd-2e5d-0bbfe35d6312">Testing by an independent second party is recommended.</p>
+<p id="_7c4dc36f-ea91-7a73-168b-2f44bd8b6d32">How an implementation of the standard is tested for conformance. Testing may be automated, manual, or a hybrid.<note id="_d46a0fa3-d4f4-6878-c46f-bd65b41ad4f8"><p id="_02d25772-992d-1a38-6c95-7283dba1e05c">Testing by an independent second party is recommended.</p>
 </note></p>
 
 
 </clause>
 
+<clause id="CoreRequirementsClass-definition" obligation="normative">
+<title>Core Requirements Class</title>
+<p id="_10afee44-0049-eb45-03a0-aadd4911f417">unique requirements class that must be satisfied by any conformant standardization targets associated to the standard<note id="_9b3992e3-a68b-2dfd-5b40-58f810b9b15b"><p id="_dbec7181-3b70-86a0-e02a-f85962d0f3fe">The core requirements class is unique because if it was possible to have more than one, then each core would have to be implemented to pass any conformance test class, and thus would have to be contained in any other core. The core may be empty, or all or part of another standard or related set of standards.</p>
+</note></p>
+
+
+
+<p id="_010cbb9e-27c7-e967-4e8a-48cc1552aa66">The core can refer to this requirements class, its associated conformance test class or the software module that implements that requirements class.</p>
+</clause>
+
 <clause id="Model-definition" obligation="normative">
 <title>Model</title>
-<p id="_d628c6da-2b6d-de5e-54d2-1a79d33e4acc">A representation of those aspects of the standardization target type which are to be governed by a standard. The model captures both the conceptual and logical properties of the standardization target type. The requirements promulgated by a standard should be expressed in terms of those conceptual and logical properties.</p>
+<p id="_b2d7fa8c-54ab-d244-ccfa-d33b981ce5ee">A representation of those aspects of the standardization target type which are to be governed by a standard. The model captures both the conceptual and logical properties of the standardization target type. The requirements promulgated by a standard should be expressed in terms of those conceptual and logical properties.</p>
 
-<p id="_510c2d38-1104-2fcf-af78-fbc2c395b4a6">In short, the model provides the vocabulary for expressing requirements.</p>
+<p id="_22f0cd55-5dfa-4d46-15c6-4265cd5af67e">In short, the model provides the vocabulary for expressing requirements.</p>
 </clause>
 
 <clause id="Permission-definition" obligation="normative">
 <title>Permission</title>
-<p id="_60465bbc-8bf1-b1b0-0ec2-830b43126933">uses “may” and is used to prevent a requirement from being “over interpreted” and as such is considered to be more of a “statement of fact” than a “normative” condition.</p>
-</clause>
-
-<clause id="Principal-definition" obligation="normative">
-<title>Principal</title>
-<p id="_a272b713-ad11-771d-c2ee-cf7cb3ba8ed6">TBD — Undefined in 08-131r3.</p>
+<p id="_49f804b1-4346-42ec-708a-6bea609bfe53">uses “may” and is used to prevent a requirement from being “over interpreted” and as such is considered to be more of a “statement of fact” than a “normative” condition.</p>
 </clause>
 
 <clause id="Recommendation-definition" obligation="normative">
 <title>Recommendation</title>
-<p id="_0d2557f1-e744-a73f-3d7e-4556bcf4e824">expression in the content of a standard conveying that among several possibilities one is recommended as particularly suitable, without mentioning or excluding others, or that a certain course of action is preferred but not necessarily required, or that (in the negative form) a certain possibility or course of action is deprecated but not prohibited<note id="_c1455112-99b8-e91f-8ddd-703031f74704"><p id="_84e55620-78a2-4dbb-1edb-26ddbd696ba2">Although using normative language, a recommendation is not a requirement. The usual form replaces the shall (imperative or command) of a requirement with a should (suggestive or conditional).</p>
-</note><note id="_3a387e73-f094-e1c3-62d8-f84032e8aa8b"><p id="_649032f8-a738-53b7-895d-54fa85eb7503">Recommendations are not tested and therefore have no related conformance test.</p>
+<p id="_1dfab229-6dea-2433-3b8f-1965e9cdc571">expression in the content of a standard conveying that among several possibilities one is recommended as particularly suitable, without mentioning or excluding others, or that a certain course of action is preferred but not necessarily required, or that (in the negative form) a certain possibility or course of action is deprecated but not prohibited<note id="_52a57934-fbe5-28d4-b1d8-25fda773352a"><p id="_6e850e92-c260-7ea2-060e-85655b1ee26d">Although using normative language, a recommendation is not a requirement. The usual form replaces the shall (imperative or command) of a requirement with a should (suggestive or conditional).</p>
+</note><note id="_aa4f7757-f6e0-4d9d-300d-840de1b4877f"><p id="_9d426f25-618e-ae75-13de-445f79aa8f5e">Recommendations are not tested and therefore have no related conformance test.</p>
 </note></p>
 
 
@@ -445,7 +442,7 @@ All requirements in a conformance class will have the same standardization targe
 
 <clause id="Requirement-definition" obligation="normative">
 <title>Requirement</title>
-<p id="_1f5e846a-2481-d2b8-833d-762d068fc889">expression in the content of a <xref target="Standard-definition">standard</xref> conveying criteria to be fulfilled if compliance with the standard is to be claimed and from which no deviation is permitted<note id="_fd360d20-e5a1-02c6-92ab-a78d2aa143d9"><p id="_e7798a0f-fd2c-5fae-8c04-0398816250ac">Each requirement is a normative criterion for a single type of <xref target="StandardizationTarget-definition">standardization target</xref>. In the ModSpec, requirements are associated to <xref target="ConformanceTest-definition">conformance tests</xref> that can be used to prove compliance to the underlying criteria by the standardization target. The implementation of a requirement is dependent on the type of standard being written. A data standard requires data structures, but a procedural standard requires software implementations. The view of a standard in terms of a set of testable requirements allows us to use set descriptions of both the standard and its implementations.
+<p id="_4f8b2612-afa2-5df8-a1c9-fb2e1e8c653b">expression in the content of a <xref target="Standard-definition">standard</xref> conveying criteria to be fulfilled if compliance with the standard is to be claimed and from which no deviation is permitted<note id="_c0201b37-fa03-96c0-9107-621e6fed8499"><p id="_716f8e3f-c20c-569e-e817-dfad1a569a89">Each requirement is a normative criterion for a single type of <xref target="StandardizationTarget-definition">standardization target</xref>. In the ModSpec, requirements are associated to <xref target="ConformanceTest-definition">conformance tests</xref> that can be used to prove compliance to the underlying criteria by the standardization target. The implementation of a requirement is dependent on the type of standard being written. A data standard requires data structures, but a procedural standard requires software implementations. The view of a standard in terms of a set of testable requirements allows us to use set descriptions of both the standard and its implementations.
 The specification of a requirement is usually expressed in terms of a model of the standardization target type, such as a UML model, or an XML or SQL schema. Anything without a defined test is a-priori not testable and thus would be better expressed as a recommendation. Requirements use normative language and in particular are commands and use the imperative “shall” or similar imperative constructs. Statements in standards which are not requirements and need to be either conditional or future tense normally use “will” and should not be confused with requirements that use “shall” imperatively</p>
 </note></p>
 
@@ -454,7 +451,7 @@ The specification of a requirement is usually expressed in terms of a model of t
 
 <clause id="RequirementsClass-definition" obligation="normative">
 <title>Requirements Class</title>
-<p id="_a80a33f0-0aa9-4b35-2a9b-d0f48ade6570">an aggregate of <xref target="Requirement-definition">requirements</xref> with a single <xref target="StandardicationTargetType-definition">standardization target type</xref> that must all be satisfied to pass a <xref target="ConformanceClass-definition">conformance test Class</xref>.<note id="_76aac7e9-2e66-eacb-20f9-4123f27f2430"><p id="_cebc1add-a9e5-b8a5-09dd-fd46230d9a83">There is some confusion possible here, since the testing of <xref target="IndirectDependency-definition">indirect dependencies</xref> seems to violate this definition. But the existence of an indirect dependency implies that the test is actually a test of the existence of the relationship from the original target to something that has a property (satisfies a condition or requirement from another requirements class).</p>
+<p id="_9c9543dc-2939-cbd1-0914-6f90edc737aa">an aggregate of <xref target="Requirement-definition">requirements</xref> with a single <xref target="StandardicationTargetType-definition">standardization target type</xref> that must all be satisfied to pass a <xref target="ConformanceClass-definition">conformance test Class</xref>.<note id="_9a63d7ea-bb17-4b17-b35e-e181c720acd3"><p id="_d41b2a88-53ca-b615-0c9b-4ddbc3f75378">There is some confusion possible here, since the testing of <xref target="IndirectDependency-definition">indirect dependencies</xref> seems to violate this definition. But the existence of an indirect dependency implies that the test is actually a test of the existence of the relationship from the original target to something that has a property (satisfies a condition or requirement from another requirements class).</p>
 </note></p>
 
 
@@ -462,17 +459,17 @@ The specification of a requirement is usually expressed in terms of a model of t
 
 <clause id="RequirementsModule-definition" obligation="normative">
 <title>Requirements Module</title>
-<p id="_710bb82e-1561-3444-4d99-ba5fd03f0052">a set of related requirement classes and their associated components.</p>
+<p id="_47b55735-e919-5fca-3182-8d0eebf7b693">a set of related requirement classes and their associated components.</p>
 </clause>
 
 <clause id="StandardizationGoal-definition" obligation="normative">
 <title>Standardization Goal</title>
-<p id="_8bc533b6-baa5-2dc5-6630-2b6aa0c51a49">a concise statement of the problem that the standard helps address and the strategy envisioned for achieving a solution. This strategy typically identifies real-world entities that need to be modified or constrained. At the abstract level, those entities are the <xref target="StandardizationTargetType-definition">Standardization Target Types</xref>.</p>
+<p id="_9a5083b7-078b-2560-a82e-9d5709092b82">a concise statement of the problem that the standard helps address and the strategy envisioned for achieving a solution. This strategy typically identifies real-world entities that need to be modified or constrained. At the abstract level, those entities are the <xref target="StandardizationTargetType-definition">Standardization Target Types</xref>.</p>
 </clause>
 
 <clause id="StandardizationTarget-definition" obligation="normative">
 <title>Standardization Target</title>
-<p id="_62f29dae-1e07-7707-2cc8-c6aae306e9c2">entity to which some <xref target="Requirement-definition">requirements</xref> of a <xref target="Standard-definition">standard</xref> apply<note id="_eca14e59-928a-a36d-9f91-05cba3320f81"><p id="_4eda73ac-6fb8-553c-5a27-c824ee86e44f">The standardization target is the entity which may receive a certificate of conformance for a requirements class.</p>
+<p id="_ac4b8d5e-5be0-aca4-21ca-8a9827729528">entity to which some <xref target="Requirement-definition">requirements</xref> of a <xref target="Standard-definition">standard</xref> apply<note id="_0c320cbf-d5db-b70c-6b2c-08edf232f796"><p id="_1dbdec31-f7d0-40e4-4dc0-d423c42078bb">The standardization target is the entity which may receive a certificate of conformance for a requirements class.</p>
 </note></p>
 
 
@@ -480,36 +477,16 @@ The specification of a requirement is usually expressed in terms of a model of t
 
 <clause id="StandardizationTargetType-definition" obligation="normative">
 <title>Standardization Target Type</title>
-<p id="_6cd57428-5ceb-2353-5400-de6eb5e54cba">type of entity or set of entities to which the <xref target="Requirement-definition">requirement</xref> of a <xref target="Standard-definition">standard</xref> apply<note id="_e83bfe08-3c8a-272f-cfc8-256eb446e2ad"><p id="_71acaa5b-762d-0dba-a535-ee8eb27be9e5">For example, the standardization target type for The OGC API – Features Standard are Web APIs. The standardization target type for the CDB Standard is “datastore”. It is important to understand that a standard’s root standardization target type can have sub-types, and that there can be a hierarchy of target types. For example, a Web API can have sub types of client, server, security, and so forth. As such, each requirements class can have a standardization target type that is a sub-type of the root.</p>
+<p id="_4da62a16-1b4c-7f7f-bd13-58edac22afdd">type of entity or set of entities to which the <xref target="Requirement-definition">requirement</xref> of a <xref target="Standard-definition">standard</xref> apply<note id="_8339b9ca-4190-3804-1a6d-6e8a70a025a6"><p id="_c203ee95-8d2b-0a66-7a60-e2c89e756263">For example, the standardization target type for The OGC API – Features Standard are Web APIs. The standardization target type for the CDB Standard is “datastore”. It is important to understand that a standard’s root standardization target type can have sub-types, and that there can be a hierarchy of target types. For example, a Web API can have sub types of client, server, security, and so forth. As such, each requirements class can have a standardization target type that is a sub-type of the root.</p>
 </note></p>
 
 
 </clause>
 
-<clause id="TestType-definition" obligation="normative">
-<title>TestType</title>
-<p id="_cd7384aa-bcdc-19e0-6bdf-157b5821e51e">TBD — undefined in 08-131r3</p>
-</clause>
-
 <clause id="will-definition" obligation="normative">
 <title>will</title>
-<p id="_a7a94e32-bc7c-09c8-e033-4d4222a8c4c5">In informative sections, the word “will” implies that something is an implication of a requirement. The “will” statements are
+<p id="_b554a45a-bf4c-fafb-5aa5-c82fdd143df9">In informative sections, the word “will” implies that something is an implication of a requirement. The “will” statements are
 not requirements, but explain the consequence of requirements.</p>
-</clause>
-</clause>
-
-<clause id="_types_terms_and_definitions" obligation="normative">
-<title>Types Terms and Definitions</title>
-<clause id="DateTime-definition" obligation="normative">
-<title>DateTime</title>
-</clause>
-
-<clause id="RichText-definition" obligation="normative">
-<title>RichText</title>
-</clause>
-
-<clause id="String-definition" obligation="normative">
-<title>String</title>
 </clause>
 </clause>
 </clause>
@@ -532,13 +509,13 @@ available standard (PAS) by ISO in its earlier 1.3 version.</p>
 <title>Identifiers</title>
 <p id="_9f08e93b-db7f-c52d-2c31-595016ecb927">The normative provisions in this standard are denoted by the URI namespace</p>
 
-<p id="_4d918a0a-1ed2-9525-3d34-550b7f7927f0"><link target="https://www.opengis.net/spec/modspec/1.1/"/></p>
+<p id="_4d918a0a-1ed2-9525-3d34-550b7f7927f0"><link target="https://www.opengis.net/spec/modspec-1/1.1/"/></p>
 
 <p id="_aed54672-5b4b-76e3-4150-8c97cdd43567">All requirements that appear in this document are denoted by partial URIs which are relative to the namespace shown above.</p>
 
 <p id="_abc35b62-82da-ca6e-b0e5-72440c60e91b">For the sake of brevity, the use of “req” in a requirement URI denotes:</p>
 
-<p id="_e9a375cf-b00d-4826-67ee-91d322f1b531"><link target="https://www.opengis.net/spec/modspec/1.1/"/></p>
+<p id="_e9a375cf-b00d-4826-67ee-91d322f1b531"><link target="https://www.opengis.net/spec/modspec-1/1.1/"/></p>
 
 <p id="_c5ae8198-35e6-0cf6-a38e-fd69df9a2b8e">An example might be:</p>
 
@@ -548,7 +525,7 @@ available standard (PAS) by ISO in its earlier 1.3 version.</p>
 
 <p id="_e8da1d52-68ea-d854-ba13-d8358c76bbbe">For the sake of brevity, the use of “conf” in a requirement URI denotes:</p>
 
-<p id="_03348ebf-5121-ceff-ff4a-ff739434e05b"><link target="https://www.opengis.net/spec/modspec/1.1/"/></p>
+<p id="_03348ebf-5121-ceff-ff4a-ff739434e05b"><link target="https://www.opengis.net/spec/modspec-1/1.1/"/></p>
 
 <p id="_cfd459d9-6e3e-5c54-9ee5-2ff9efa26483">The same convention is used for permissions (per) and recommendations (rec).</p>
 </clause>
@@ -580,9 +557,9 @@ available standard (PAS) by ISO in its earlier 1.3 version.</p>
 in a standard format, with an unique label, such as REQ001, REC001, or PER001. A requirement, recommendation, or permission may be repeated for clarification.
 The statement with the unique label is considered the official statement of the normative requirement or recommendation.</p>
 
-<p id="_f9ec77e5-ab59-6d8a-5135-141ff876a53b">In this document, all requirements are associated with tests specified in the test suite
+<p id="_5ce91a39-b121-02ee-533b-82cf9180717b">In this document, all requirements are associated with tests specified in the test suite
 in <xref target="annex-A"/>. The reference to the requirement in the test case is done by a
-requirements label Recommendations are not tested although they still are documented using a standard template and have unique identifiers.</p>
+requirements label. Recommendations and permissions are not tested although they still are documented using a standard template and have unique identifiers.</p>
 
 <p id="_20ec9f54-b9b8-662f-18f9-28e446e2053a">Requirements classes are separated into their own clauses and named, and specified
 according to inheritance (direct dependencies). The Conformance test classes in the
@@ -637,7 +614,9 @@ requirements classes and conformance test classes.</p>
 
 <p id="_072b8096-06b2-0302-793a-816243410903">Standardization Target Types can be hierarchical. The Conceptual, Logical, Physical hierarchy is one example where the Standardization Target Types are information models. Another example would be implementations of OGC API — Features Part 2 that support XML data exchange.</p>
 
-<p id="_40994ec6-f6e1-11fb-7cd1-f31e686838fa">Notice that the Standardization Targets and Standardization Target Types no longer form a simple taxonomy. The Standardization Target Types, Standardization Targets, and Standardization Goal provide a well-defined context for the standard.  This will help users of standards to quickly understand the scope of a standard and to select those standards appropriate for their needs. It also will help keep standards developers focused on the intended use of their standards, avoiding standards which are overly broad and/or unfocused.</p>
+<p id="_e3b15c1c-a0c2-6a63-b2b2-4319055c7132">The Standardization Target Types, Standardization Targets, and Standardization Goal provide a well-defined context for the standard.
+This will help users of standards to quickly understand the scope of a standard and to select those standards appropriate for their needs.
+It also will help keep standards developers focused on the intended use of their standards, avoiding standards which are overly broad and/or unfocused.</p>
 </clause>
 
 <clause id="_conformance_requirements_and_key_information" obligation="normative">
@@ -660,7 +639,7 @@ declared once and is uniquely identified as such, each requirement will be in a 
 
 <p id="_918372ef-3b8d-958e-4e03-4c49523ef8f7">Therefore, the ModSpec defines a “requirements class” as a set of requirements that must
 all be passed to achieve a particular conformance class (see
-<xref target="term-conformance-test-class"/>). Each requirements class has a one-to-one correspondence with a conformance class. A standard written to the ModSpec may
+<xref target="ConformanceClass-definition"/>). Each requirements class has a one-to-one correspondence with a conformance class. A standard written to the ModSpec may
 use this “module” structure in any manner consistent with the rest of the ModSpec.</p>
 
 <p id="_8b8ec455-4a75-83ed-6d20-df1d6e6e13bf">A standard may have mandatory and optional requirements classes.  This allows the options
@@ -768,7 +747,8 @@ All the requirements specified in this ModSpec core comprise the ModSpec Core Re
 </component>
 </requirement>
 
-<note id="_c45517a0-4d44-98b3-d742-5b0bc3f3a62e"><p id="_3a0ef703-d0a0-0201-6e96-93049401a1f6">This further means that failure to pass the test specified for a part of requirement is a failure to pass the requirement.</p>
+<note id="_7b428b81-9312-c77b-159e-2eff1c467dd2"><p id="_f94846f6-611f-e081-4a08-d139823d2c44">This further means that failure to pass the test specified for a part of requirement is a failure to pass the requirement.
+Therefore, by definition, any requirements class that contains the requirement that failed to pass also fails to pass.</p>
 </note>
 
 <p id="_3c79c280-90ad-1b10-eb31-b38c8fde0583">Therefore, by definition, any requirements class that contains the requirement that failed to pass also fails to pass.</p>
@@ -786,7 +766,7 @@ conformance test, conformance modules, and conformance test classes <em>SHALL</e
 <p id="_7d5cf03c-bd22-d081-4d0b-c2b33fe82b48">The following recommendation encourages the consistent use of these unique identifiers/labels in the standard
 as well as any external documentation referencing that standard.</p>
 
-<recommendation id="rec-1" model="ogc"> <identifier>/rec/core/uri-external-use</identifier><component class="part"><p id="_91038e4e-a46a-c99a-9534-c4c9f1d1a0e9">These unique identifiers/labels <em>SHOULD</em> be used in any external documentation that reference
+<recommendation id="rec-1" model="ogc"> <identifier>/rec/core/uri-external-use</identifier><component class="part"><p id="_78d8e7e3-1e6f-0a77-e672-7e8377071609">These unique identifiers/labels <em>SHOULD</em> be used in any external documentation that references
 component elements of a standard in a normative manner, including but not limited to other
 standards, implementations of the conformance test suite, or certificates of
 conformance for implementations conformant to the standard in question.</p>
@@ -852,12 +832,12 @@ completeness, they should also specify the conformance tests for these requireme
 that are to be run for validation of the implementations against those
 requirements.</p>
 
-<p id="_a4ff09b4-bb0e-e01f-f06a-ab4603d9a81c">The assumption is that each standard has a single
+<p id="_52e0afd2-14b7-c541-2deb-cf5ceff854d9">The assumption is that each standard has a single
 (root) standardization target type from which all extensions inherit. If this is not
 true, then the standard can be logically factored into parts each corresponding
 to a “root” standardization target type, and that the standard addresses each
-such part separately (see the definition of requirements class in
-<xref target="RequirementsClass-definition">requirements class</xref>). In this sense, the next requirement divides
+such part separately (see the definition of
+<xref target="RequirementsClass-definition">requirements class</xref>). In this sense, the next requirement divides the
 standard into parts more than restricting their content.</p>
 
 <requirement id="req-4" model="ogc"> <identifier>/req/core/single-standardization-target-type</identifier><component class="part"><p id="_36f5687a-52b7-28ac-976d-2e6a85ebc9dc">Each requirement class in a conformant standard <em>SHALL</em> have a single standardization target type.</p>
@@ -920,8 +900,8 @@ Requirements are grouped into requirements classes. Each requirements class is c
 </component>
 </requirement>
 
-<p id="_01433040-b363-2ecf-bf7c-6ab599022bec">The following requirement states that the sequence of requirements and requirements classes
-is the same as the sequence of conformance tests and conformance classes is the conformance suite.</p>
+<p id="_d405b3ff-b43d-c051-de81-8a1815bc025d">The following requirement states that the sequence of requirements and requirements classes
+is the same as the sequence of conformance tests and conformance classes in the conformance suite.</p>
 
 <requirement id="req-7" model="ogc"> <identifier>/req/core/requirements-test-suite-structure</identifier><component class="part"><p id="_27a41866-ec49-3d62-6899-dc11d375f7a2">The requirements structure of the document <em>SHALL</em> be in a logical correspondence with the test suite structure.</p>
 </component>
@@ -1157,18 +1137,27 @@ requirements classes.</p>
 </component>
 </requirement>
 
-<requirement id="req-21" model="ogc"> <identifier>/req/core/requirements-and-dependencies-2</identifier><component class="part"><p id="_62f28524-1572-ced6-6855-3cc10ec7fd93">All general recommendations for a standard <em>SHALL</em> be in the core.</p>
+<p id="_2c878080-9090-0489-4b30-ccc9e08d3f22">The following states that any recommendations applicable to the entire standard are in the core document.</p>
+
+<requirement id="req-21" model="ogc"> <identifier>/req/core/general-recommendations-core</identifier><component class="part"><p id="_62f28524-1572-ced6-6855-3cc10ec7fd93">All general recommendations for a standard <em>SHALL</em> be in the core.</p>
 </component>
 </requirement>
 
-<requirement id="req-22" model="ogc"> <identifier>/req/core/requirements-and-dependencies-3</identifier><component class="part"><p id="_732e6609-d16e-3442-2cce-ae9c6307edbc">Every requirements class in a standard, with the exception of the core, <em>SHALL</em> have a standardization target hich is a subtype of that of the core.</p>
+<p id="_be96426a-1221-0c21-e4ca-522d8cb942c0">The following states that all non-core requirements classes have a standardization target type that is a sub-type of the core.</p>
+
+<requirement id="req-22" model="ogc"> <identifier>/req/core/req-class-not-core-stt-subtype-of-core</identifier><component class="part"><p id="_37087730-cb3e-5a7f-46a9-fdfae105cd74">Every requirements class in a standard, with the exception of the core, <em>SHALL</em> have a standardization target type which is a subtype of that of the core.</p>
 </component><component class="part"><p id="_0e5c6c68-91e1-631d-5857-b8b7b3cc4464">Every requirement class, with the exception of the core, <em>SHALL</em> have the core as a direct dependency.</p>
 </component>
 </requirement>
 
+<p id="_245a715c-cf57-881b-c0bf-6e7425ae41b6">The following recommendation is guidance to the group developing a standard to keep the core as simple as possible.</p>
+
 <recommendation id="rec-4" model="ogc"> <identifier>/rec/core/simple-core</identifier><component class="part"><p id="_2013cb4c-12ac-67e1-11b7-980d7c85088c">The core <em>SHOULD</em> be as simple as possible.</p>
 </component>
 </recommendation>
+
+<p id="_0a894a9a-0b25-224b-d7f7-a1c4d4a9e979">The following enables the development and documentation of anstract standards. Examples of such standards are the OGC Abstract Specification.
+Typically, an abstract standard cannot be directly implemented.</p>
 
 <table id="per-8" width="90%"><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>PER008</strong></td>
 <td valign="middle" align="left"><strong>/per/core/core-type</strong><br/>
@@ -1187,7 +1176,7 @@ in that conformance class that are required by the current standard’s core req
 </component>
 </recommendation>
 
-<p id="_79ddf040-e936-5692-d96b-3084384d4411">Since the core requirements class is contained (as a direct dependency) in each
+<p id="_583ef72a-b44a-2f26-1534-bc2415f60b35">Since the core requirements class is contained (as a direct dependency) in each
 other requirements class with a similar standardization target type, the general
 recommendations are thus universal to all requirements classes.</p>
 
@@ -1331,455 +1320,237 @@ language.</p>
 <title>Abstract Conformance Test Suite</title>
 <clause id="annex-A-1" obligation="normative">
 <title>Conformance Test Class: The Core</title>
-<clause id="_requirements_are_atomic_and_tests_cover_all_the_parts_of_each_of_the_requirement" obligation="normative">
-<title>Requirements are atomic and tests cover all the parts of each of the requirement</title>
-<p id="_c90a2c84-adca-7aab-5324-808ca7a11018">All the parts of a requirement, a requirement module, or requirements class shall be
-tested. Failure to meet any part of any requirement shall be a failure to pass the
-associated conformance test class.</p>
+<requirement id="ats_class-core" model="ogc" type="conformanceclass"> <identifier>https://www.opengis.net/spec/modspec-1/2.0/conf/core</identifier><classification><tag>Target Type</tag><value>Modular Standard</value></classification><classification><tag>target</tag><value>https://www.opengis.net/spec/modspec-1/2.0/req/req-class-core</value></classification><requirement id="_a68b987b-0d37-c2ac-d4c6-31fd95a119f8" model="ogc" type="abstracttest"> <identifier>/conf/core/reqs-are-in-class</identifier></requirement><requirement id="_c5388d9c-e248-cb3c-8118-05efa81437f6" model="ogc" type="abstracttest"> <identifier>/conf/core/reqs-are-testable</identifier></requirement><requirement id="_634c0c0d-c788-b415-cb98-f85ab7bad34f" model="ogc" type="abstracttest"> <identifier>/conf/core/all-components-assigned-uri</identifier></requirement><requirement id="_d6c3ea12-edb6-8508-7c13-1615d46d599e" model="ogc" type="abstracttest"> <identifier>/conf/core/vocabulary-and-parent-req-class</identifier></requirement><requirement id="_c8721a9c-8363-f6d2-8dac-b87933768c05" model="ogc" type="abstracttest"> <identifier>/conf/core/single-standardization-target-type</identifier></requirement><requirement id="_ba2efa6e-efc2-0db4-a7a6-6a8d00dd5182" model="ogc" type="abstracttest"> <identifier>/conf/core/test-class-single-standardization-target-type</identifier></requirement><requirement id="_c1dfbbe5-d3a9-3dcf-e29f-aa367da2e17d" model="ogc" type="abstracttest"> <identifier>/conf/core/requirements-grouped</identifier></requirement><requirement id="_d929caf7-ef40-a961-6719-695b4c802710" model="ogc" type="abstracttest"> <identifier>/conf/core/requirements-test-suite-structure</identifier></requirement><requirement id="_9f725e87-2592-7f14-6700-bbd718f64c80" model="ogc" type="abstracttest"> <identifier>/conf/core/requirements-class-correspondence-to-conformance-classes</identifier></requirement><requirement id="_a1167f7a-3874-e9e2-4c26-cc5ec1389cae" model="ogc" type="abstracttest"> <identifier>/conf/core/no-optional-tests</identifier></requirement><requirement id="_7fa33660-7eae-6d7d-7eac-ce1baaa211ff" model="ogc" type="abstracttest"> <identifier>/conf/core/all-parameters-expressed</identifier></requirement><requirement id="_67abc1b5-db6c-ab82-0a51-fdb3b52cbee4" model="ogc" type="abstracttest"> <identifier>/conf/core/conf-class-single-req-class</identifier></requirement><requirement id="_e948c98a-9934-1e4e-159a-278b308dd818" model="ogc" type="abstracttest"> <identifier>/conf/core/con-class-dependencies</identifier></requirement><requirement id="_db50a3f1-c5b3-303b-da96-d9dda9f8c490" model="ogc" type="abstracttest"> <identifier>/conf/core/imported-requirements-class</identifier></requirement><requirement id="_32f0c09a-43c2-5317-ec90-c849af16eb93" model="ogc" type="abstracttest"> <identifier>/conf/core/all-classes-explicitly-named</identifier></requirement><requirement id="_aed5e06c-3339-5a62-5fa2-3dbebe9233ab" model="ogc" type="abstracttest"> <identifier>/conf/core/req-in-only-one-req-class</identifier></requirement><requirement id="_9b3fec82-9e01-add2-9cea-ed5a4fe74948" model="ogc" type="abstracttest"> <identifier>/conf/core/co-dependent-requirements</identifier></requirement><requirement id="_cd591bc2-3103-7450-88cc-d1db7198af56" model="ogc" type="abstracttest"> <identifier>/conf/core/structure-requirements-classes</identifier></requirement><requirement id="_8fc15ca4-f91e-51c3-2d73-c606f9a5d960" model="ogc" type="abstracttest"> <identifier>/conf/core/requirements-and-dependencies</identifier></requirement><requirement id="_cae1cb54-918d-cfa3-8595-0c9de49eda24" model="ogc" type="abstracttest"> <identifier>/conf/core/profile-conformance</identifier></requirement><requirement id="_65f98969-84c8-17d9-618a-a5448bf0f835" model="ogc" type="abstracttest"> <identifier>/conf/core/core-requirements-separate</identifier></requirement><requirement id="_171f3149-17cf-fd54-7c2c-42d6c73ea61e" model="ogc" type="abstracttest"> <identifier>/conf/core/requirements-and-dependencies-2</identifier></requirement><requirement id="_40050170-4c30-2c41-4cbb-8b487f2c5b5b" model="ogc" type="abstracttest"> <identifier>/conf/core/requirements-and-dependencies-3</identifier></requirement><requirement id="_cc436d5d-c055-0ca1-73ab-272dcb0ec569" model="ogc" type="abstracttest"> <identifier>/conf/core/core-and-extensions</identifier></requirement><requirement id="_c842b1a2-35ac-72a0-c1d0-8073c523a657" model="ogc" type="abstracttest"> <identifier>/conf/core/extensions-conformant-to-the-modspec</identifier></requirement><requirement id="_5f8b3b42-1ca0-d073-b194-c74dbcf3121c" model="ogc" type="abstracttest"> <identifier>/conf/core/restriction-of-extensions</identifier></requirement><requirement id="_0ede9285-440e-c535-8eb5-3f24aa676cb8" model="ogc" type="abstracttest"> <identifier>/conf/core/optional-requirements</identifier></requirement><requirement id="_e74a31a4-3e1b-6c13-8731-e63229f894ec" model="ogc" type="abstracttest"> <identifier>/conf/core/req-class-overlap-by-reference</identifier></requirement>
+</requirement>
 
-<ol id="_e30a06e8-edf3-faa1-5bbf-8ea390cc091d" type="arabic"><li><p id="_7a1be84c-ace3-1d9a-7a45-9749b4f466ce">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li><p id="_1ff7f9a0-52a3-6a92-3402-1da21b7d3dbe">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li><p id="_af4446ff-a6ab-2f9b-815b-5f365acaf0d3">Reference: <xref target="req-1"/></p>
-</li>
-<li><p id="_de6d8737-53cf-36b0-9534-4eb4798c53d9">Test Type: Conformance.</p>
-</li>
-</ol>
+<clause id="_requirements_are_in_class" obligation="normative">
+<title>Requirements are in class</title>
+<requirement id="ats_requirements-are-in-class" model="ogc" type="abstracttest"> <identifier>/conf/core/reqs-are-in-class</identifier><classification><tag>target</tag><value>/req/core/reqs-are-in-class</value></classification><classification><tag>Test Method</tag><value>Inspect the document to verify the above.</value></classification><classification><tag>Test Type</tag><value>Conformance</value></classification><component class="test-purpose"><p id="_3a34cf04-a377-63d4-0423-016dca0e9f60">Validate that each requirement in a standard <em>SHALL</em> be associated with exactly one requirements class.</p>
+</component><component class="test-method"><p id="_2b951f37-7989-d647-f750-b0a0daeaeb78">Inspect the document to verify the above.</p>
+</component>
+</requirement>
+</clause>
+
+<clause id="_requirements_are_testable" obligation="normative">
+<title>Requirements are testable</title>
+<p id="_df197c1e-d0f8-700c-a65c-c3a348b5dbc9">All the parts of a requirement <em>SHALL</em> be testable.</p>
+
+<requirement id="ats_requirements-are-testable" model="ogc" type="abstracttest"> <identifier>/conf/core/reqs-are-testable</identifier><classification><tag>target</tag><value>/req/core/reqs-are-testable</value></classification><classification><tag>Test Method</tag><value>Inspect the document to verify the above.</value></classification><classification><tag>Test Type</tag><value>Conformance</value></classification><component class="test-purpose"><p id="_a2e04b1a-c36f-d5a9-7a1e-2d818cfd44a5">Validate that all the parts of a requirement <em>SHALL</em> be testable and that Failure to pass any part of a requirement <em>SHALL</em> be a failure to pass the associated conformance test.</p>
+</component><component class="test-method"><p id="_c90d0e4e-ed07-316c-88b0-7f907d0e6c92">Inspect the document to verify the above.</p>
+</component>
+</requirement>
 </clause>
 
 <clause id="_all_components_have_an_assigned_uri" obligation="normative">
 <title>All components have an assigned URI</title>
-<p id="_e6c9c3d3-8396-00bb-daab-54855b5db0f3">Each component of the standard, including requirements, requirements modules,
-requirements classes, conformance test cases, conformance modules and conformance
-classes shall be assigned a URI as specified by the OGC Naming Authority or its
-equivalent.</p>
-
-<ol id="_59bd875e-d358-b94b-4279-25fe3db1d773" type="arabic"><li><p id="_dae6bfb2-df9e-8d91-298b-3fff8440da37">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li><p id="_9cf37895-6ece-5180-079c-8208da8ca8c0">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li><p id="_1fa8c208-b43d-7683-5bde-d61c4034c4be">Reference: <xref target="req-2"/></p>
-</li>
-<li><p id="_8e978bda-f652-4da3-abdd-c7cd9fd71e62">Test Type: Conformance.</p>
-</li>
-</ol>
+<requirement id="ats_all-components-assigned-uri" model="ogc" type="abstracttest"> <identifier>/conf/core/all-components-assigned-uri</identifier><classification><tag>target</tag><value>/req/core/all-components-assigned-uri</value></classification><classification><tag>Test Method</tag><value>Inspect the document to verify the above.</value></classification><classification><tag>Test Type</tag><value>Conformance</value></classification><component class="test-purpose"><p id="_d01a0b84-a672-f7a9-56b1-721f2625b99d">Validate that each component of a standard, including requirements, requirements modules, requirements classes,
+conformance test, conformance modules, and conformance test classes <em>SHALL</em> be assigned a unique identifer or label.</p>
+</component><component class="test-method"><p id="_0bec7c5a-dc07-4cf3-b5ff-9b58f1ba7611">Inspect the document to verify the above.</p>
+</component>
+</requirement>
 </clause>
 
 <clause id="_requirements_on_vocabulary_are_appropriately_placed" obligation="normative">
 <title>Requirements on vocabulary are appropriately placed</title>
-<p id="_b52b0ad9-6a05-2cec-bdd2-d770a60b740b">Requirements on the use and interpretation of vocabulary shall be in the
-requirements class where that use or interpretation is used.</p>
-
-<ol id="_76a31059-28ed-c5df-294a-da7ef2e9adb2" type="arabic"><li><p id="_d5de1abe-5617-2bda-a9d7-96994675c73f">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li><p id="_ca99d300-4e9a-9028-05d4-66f772b7e803">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li><p id="_70a72771-3e84-0a41-7374-8d21366e8501">Reference: <xref target="req-3"/></p>
-</li>
-<li><p id="_5c3d36c0-9cb4-5ed1-340c-d70a2d39dee6">Test Type: Conformance.</p>
-</li>
-</ol>
+<requirement id="ats_vocabulary-and-parent-req-class" model="ogc" type="abstracttest"> <identifier>/conf/core/vocabulary-and-parent-req-class</identifier><classification><tag>target</tag><value>/req/core/vocabulary-and-parent-req-class</value></classification><classification><tag>Test Method</tag><value>Inspect the document to verify the above.</value></classification><classification><tag>Test Type</tag><value>Conformance</value></classification><component class="test-purpose"><p id="_d1857c0e-929d-5193-aed2-06050d0c0d35">Validate that requirements on the use and interpretation of vocabulary <em>SHALL</em> be in the requirements class where that use or interpretation is used.</p>
+</component><component class="test-method"><p id="_615f0b63-72a0-c2e3-935c-2db304b1780b">Inspect the document to verify the above.</p>
+</component>
+</requirement>
 </clause>
 
-<clause id="_requirements_have_a_single_target" obligation="normative">
-<title>Requirements have a single target</title>
-<p id="_763bf5ac-6d53-451b-c186-9cd98d139b89">Each requirement in a conformant standard shall have a single standardization
-target type.</p>
-
-<ol id="_5744c61c-b1c5-04c6-2c45-be3660f9620c" type="arabic"><li><p id="_048cba70-7d16-f6d8-1dea-f351b20bbdda">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li><p id="_293f9c3a-f9b6-a2be-4114-093730f38ece">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li><p id="_8839717f-15f3-8a8c-f181-728f147baaf5">Reference: <xref target="req-4"/></p>
-</li>
-<li><p id="_aefa9122-075e-730b-9168-6f156414ae81">Test Type: Conformance.</p>
-</li>
-</ol>
+<clause id="_requirements_have_a_single_target_type" obligation="normative">
+<title>Requirements have a single target type</title>
+<requirement id="ats_single-standardization-target-type" model="ogc" type="abstracttest"> <identifier>/conf/core/single-standardization-target-type</identifier><classification><tag>target</tag><value>/req/core/single-standardization-target-type</value></classification><classification><tag>Test Method</tag><value>Inspect the document to verify the above.</value></classification><classification><tag>Test Type</tag><value>Conformance</value></classification><component class="test-purpose"><p id="_bcb2d470-b9ac-7631-5e46-fe7f2b21a1f7">Validate that each requirement class in a conformant standard <em>SHALL</em> have a single standardization target type.</p>
+</component><component class="test-method"><p id="_a3729389-93ee-e653-a56b-ccf9c718033c">Inspect the document to verify the above.</p>
+</component>
+</requirement>
 </clause>
 
-<clause id="_conformance_test_classes_have_a_single_target" obligation="normative">
-<title>Conformance test classes have a single target</title>
-<p id="_5eb4e119-dcab-fa12-189f-37f2ec4d2869">All conformance tests in a single conformance test class in a conformant
-standard shall have the same standardization target.</p>
-
-<ol id="_f29accde-a978-ebd9-87b1-8f3752c595ae" type="arabic"><li><p id="_1ae5578c-8c6d-0f99-6831-3437059db6c6">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li><p id="_3c58d217-54cf-9986-c234-95c448d50eaf">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li><p id="_44d3abdf-7c31-b0d9-797c-2375405e1708">Reference: <xref target="req-5"/></p>
-</li>
-<li><p id="_2abaddf1-7eb0-96af-f564-68a7a7da1dac">Test Type: Conformance.</p>
-</li>
-</ol>
+<clause id="_conformance_test_classes_have_a_single_target_type" obligation="normative">
+<title>Conformance test classes have a single target type</title>
+<requirement id="ats_test-class-single-standardization-target" model="ogc" type="abstracttest"> <identifier>/conf/core/test-class-single-standardization-target-type</identifier><classification><tag>target</tag><value>/req/core/test-class-single-standardization-target-type</value></classification><classification><tag>Test Method</tag><value>Inspect the document to verify the above.</value></classification><classification><tag>Test Type</tag><value>Conformance</value></classification><component class="test-purpose"><p id="_2a389404-b008-c10d-0737-44e0a09c10da">Validate that all conformance tests in a single conformance test class in a conformant standard <em>SHALL</em> have the same standardization target type.</p>
+</component><component class="test-method"><p id="_fe55e422-efad-1230-cf5a-d0e44a52b7e7">Inspect the document to verify the above.</p>
+</component>
+</requirement>
 </clause>
 
 <clause id="_requirements_are_organized_by_clauses" obligation="normative">
 <title>Requirements are organized by clauses</title>
-<p id="_6d889c39-2209-b967-1a1e-f380bf4d1715">The requirements shall be grouped together in clauses (numbered sections) of the
-document in a strictly hierarchical manner, consistent with requirements modules and
-requirements classes.</p>
-
-<ol id="_67440cad-58dc-185a-c2a4-b8ad37203430" type="arabic"><li><p id="_516993ad-aec9-88f1-2a10-e408c54dd9ba">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li><p id="_5ce507d8-7d95-00a2-6460-ceb16e16881c">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li><p id="_555300ab-e182-c8a6-3a4c-e14b3d23c954">Reference: <xref target="cls-6-3"/>, <xref target="req-6"/></p>
-</li>
-<li><p id="_59a6e8f3-f47d-b812-e995-16d034851433">Test Type: Conformance.</p>
-</li>
-</ol>
+<requirement id="ats_requirements-grouped" model="ogc" type="abstracttest"> <identifier>/conf/core/requirements-grouped</identifier><classification><tag>target</tag><value>/req/core/requirements-grouped</value></classification><classification><tag>Test Method</tag><value>Inspect the document to verify the above.</value></classification><classification><tag>Test Type</tag><value>Conformance</value></classification><component class="test-purpose"><p id="_6694fabf-f490-f154-8f44-5825d7f09b1f">Validate that requirements <em>SHALL</em> be grouped together in clauses (numbered sections) of the document in a strictly hierarchical manner, consistent with requirements classes.</p>
+</component><component class="test-method"><p id="_0f6282d4-cad7-221f-a827-b7fd2d548474">Inspect the document to verify the above.</p>
+</component>
+</requirement>
 </clause>
 
 <clause id="_conformance_test_classes_are_consistent_with_requirements_classes" obligation="normative">
 <title>Conformance test classes are consistent with requirements classes</title>
-<p id="_6ff8d5ea-7521-b9a6-ae1d-91e838cd6d52">The requirements structure of the document shall be in a logical correspondence to
-the test suite structure.</p>
-
-<ol id="_a24daa46-b349-cc67-2c10-28790689d951" type="arabic"><li><p id="_413a073c-1064-0d8b-ff85-05284e701d14">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li><p id="_99abe55c-f8a1-3418-70bb-4e6eafcb9986">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li><p id="_0e4e1073-3971-0822-4e65-c7f93ea36345">Reference: <xref target="cls-6-3"/>, <xref target="req-7"/></p>
-</li>
-<li><p id="_c12220bf-e18e-9a05-7a24-3072eee45bd7">Test Type: Conformance.</p>
-</li>
-</ol>
+<requirement id="ats_requirements-test-suite-structure" model="ogc" type="abstracttest"> <identifier>/conf/core/requirements-test-suite-structure</identifier><classification><tag>target</tag><value>/req/core/requirements-test-suite-structure</value></classification><classification><tag>Test Method</tag><value>Inspect the document to verify the above.</value></classification><classification><tag>Test Type</tag><value>Conformance</value></classification><component class="test-purpose"><p id="_ac6d842e-2962-df8b-a588-ff1d547b2f87">Validate that the requirements structure of the document <em>SHALL</em> be in a logical correspondence with the test suite structure.</p>
+</component><component class="test-method"><p id="_6e7907d6-26d2-7870-9fa2-656401d726a1">Inspect the document to verify the above.</p>
+</component>
+</requirement>
 </clause>
 
 <clause id="_requirement_classes_and_the_conformance_test_classes_in_correspondence" obligation="normative">
 <title>Requirement classes and the Conformance Test classes in correspondence</title>
-<p id="_b4cc87b1-ceae-ffd8-b836-15a41968b32f">The requirements classes shall be in a one-to-one correspondence to the conformance
-test classes, and thus to the various certificate of conformance types possible for
-a candidate implementation.</p>
-
-<ol id="_f133f774-d86d-29ac-578c-dcbe10b1f993" type="arabic"><li><p id="_fcc99145-c8ae-be7a-5276-42cc4f3734d3">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li><p id="_c6a96aad-6f07-32d3-5267-33859083f06b">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li><p id="_932c2fd9-6312-ce28-a379-d4633032a8fd">Reference: <xref target="req-8"/></p>
-</li>
-<li><p id="_a97e119f-c6fe-c106-5a51-6d4bedc765a2">Test Type: Conformance.</p>
-</li>
-</ol>
+<requirement id="ats_requirements-class-correspondence-to-conformance-classes" model="ogc" type="abstracttest"> <identifier>/conf/core/requirements-class-correspondence-to-conformance-classes</identifier><classification><tag>target</tag><value>/req/core/requirements-class-correspondence-to-conformance-classes</value></classification><classification><tag>Test Method</tag><value>Inspect the document to verify the above.</value></classification><classification><tag>Test Type</tag><value>Conformance</value></classification><component class="test-purpose"><p id="_6c3928ba-ba78-e26c-db92-006b690e021f">Validate that the requirements classes <em>SHALL</em> be in a one-to-one correspondence to the conformance test classes, and thus to the various certificate of conformance types possible for a candidate implementation.</p>
+</component><component class="test-method"><p id="_03d0a3b1-e716-4edd-074a-3b77915c8865">Inspect the document to verify the above.</p>
+</component>
+</requirement>
 </clause>
 
 <clause id="_no_optional_elements_in_requirements_classes" obligation="normative">
 <title>No Optional Elements in Requirements classes</title>
-<p id="_51a04e56-46b4-4db9-a58d-b3efaa356f4f">A Conformance class shall not contain any optional conformance tests.</p>
-
-<ol id="_e089f394-3f1f-c9d4-ba54-2d82cfc40717" type="arabic"><li><p id="_dde491b1-eac0-b157-bc3c-d6e622ae25cc">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li><p id="_06c319a9-9612-38d7-f9be-5025efabdd87">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li><p id="_24b241b8-667b-0156-0900-0e59e21e9383">Reference: <xref target="req-9"/></p>
-</li>
-<li><p id="_376e2253-6e3d-9890-dd71-af6af5894ac6">Test Type: Conformance.</p>
-</li>
-</ol>
+<requirement id="ats_no-optional-tests" model="ogc" type="abstracttest"> <identifier>/conf/core/no-optional-tests</identifier><classification><tag>target</tag><value>/req/core/no-optional-tests</value></classification><classification><tag>Test Method</tag><value>Inspect the document to verify the above.</value></classification><classification><tag>Test Type</tag><value>Conformance</value></classification><component class="test-purpose"><p id="_56eb9e1c-c5f2-4b13-8d33-b923aa772ab5">Validate that a conformance class <em>SHALL</em> not contain any optional conformance tests.</p>
+</component><component class="test-method"><p id="_bc1728ec-4033-d9b9-6ad5-c49a26947164">Inspect the document to verify the above.</p>
+</component>
+</requirement>
 </clause>
 
 <clause id="_certificate_of_conformance_specifies_all_parameters_used" obligation="normative">
 <title>Certificate of conformance specifies all parameters used</title>
-<p id="_03576f7c-095d-0f28-bc11-d21b92a67385">A certificate of conformance shall specify all parameter values used to pass the
-tests in its conformance test class.</p>
-
-<ol id="_e499b493-eeaa-c98e-9f32-148d3d213d53" type="arabic"><li><p id="_4482356e-eb68-48fe-a42e-3107dce69641">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li><p id="_659097e7-364f-714f-c0b5-d42e6b2a2e6a">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li><p id="_a11a6af0-f703-981a-e004-44362c376491">Reference: <xref target="req-10"/></p>
-</li>
-<li><p id="_49b3a178-2569-0064-2072-76b15e0c6dbd">Test Type: Conformance.</p>
-</li>
-</ol>
+<requirement id="ats_all-parameters-expressed" model="ogc" type="abstracttest"> <identifier>/conf/core/all-parameters-expressed</identifier><classification><tag>target</tag><value>/req/core/all-parameters-expressed</value></classification><classification><tag>Test Method</tag><value>Inspect the document to verify the above.</value></classification><classification><tag>Test Type</tag><value>Conformance</value></classification><component class="test-purpose"><p id="_932a3eea-0755-624a-a69e-9bbdec30fe8e">Validate that a certificate of conformance <em>SHALL</em> specify all parameter values used to pass the tests in its conformance test class.</p>
+</component><component class="test-method"><p id="_88460253-de33-64d3-887e-bc4ef92b7bed">Inspect the document to verify the above.</p>
+</component>
+</requirement>
 </clause>
 
 <clause id="_conformance_class_tests_only_one_requirements_class" obligation="normative">
 <title>Conformance class tests only one requirements class</title>
-<p id="_bae54c71-e0cc-c191-d0a9-8d4f04586c3d">A Conformance class shall explicitly test only requirements from a single
-requirements class.</p>
-
-<ol id="_e16122e0-4aa6-fb6b-fe53-979284bde735" type="arabic"><li><p id="_8ce2d96c-db28-3b0e-a70e-dc3ff1fb702d">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li><p id="_5e798c06-5e08-796d-cffa-d3b37f2cbb04">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li><p id="_9906392b-c187-5d69-627b-eae84b5cf164">Reference: <xref target="req-11"/></p>
-</li>
-<li><p id="_3381da6d-0c0a-b772-a360-0c04f0618ee7">Test Type: Conformance.</p>
-</li>
-</ol>
+<requirement id="ats_conf-class-single-req-class" model="ogc" type="abstracttest"> <identifier>/conf/core/conf-class-single-req-class</identifier><classification><tag>target</tag><value>/req/core/conf-class-single-req-class</value></classification><classification><tag>Test Method</tag><value>Inspect the document to verify the above.</value></classification><classification><tag>Test Type</tag><value>Conformance</value></classification><component class="test-purpose"><p id="_3a6e4b27-3d4b-96d5-f34f-a6fe1eb29f22">Validate that a Conformance class <em>SHALL</em> explicitly test only requirements from a single requirements class.</p>
+</component><component class="test-method"><p id="_3de06270-9438-ee89-5a57-065ecdc993c8">Inspect the document to verify the above.</p>
+</component>
+</requirement>
 </clause>
 
 <clause id="_conformance_class_specifies_all_dependencies" obligation="normative">
 <title>Conformance class specifies all dependencies</title>
-<p id="annex-2-1">A Conformance class shall specify any other conformance class upon which it is
-dependent and that other conformance class shall be used to test the specified
-dependency.</p>
-
-<ol id="_0e88ab43-c984-e8c6-3423-f724e30f5b45" type="arabic"><li><p id="_9e48a8b8-2b31-80fb-b891-9c237669160e">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li><p id="_b4f28644-57c9-e3de-12dc-208510e690d1">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li><p id="_6ebbce9f-3afd-d145-db4d-288ca8ba5dad">Reference: <xref target="req-12"/></p>
-</li>
-<li><p id="_5422ccfe-64b8-5a02-5b5e-d5f07429e0a1">Test Type: Conformance.</p>
-</li>
-</ol>
+<requirement id="ats_con-class-dependencies" model="ogc" type="abstracttest"> <identifier>/conf/core/con-class-dependencies</identifier><classification><tag>target</tag><value>/req/core/con-class-dependencies</value></classification><classification><tag>Test Method</tag><value>Inspect the document to verify the above.</value></classification><classification><tag>Test Type</tag><value>Conformance</value></classification><component class="test-purpose"><p id="_11ded2c0-dbbd-e39f-a39e-9d95f75adef1">Validate that a Conformance class <em>SHALL</em> specify any other conformance class upon which it is dependent and that other conformance class shall be used to test the specified dependency.</p>
+</component><component class="test-method"><p id="_304b7bde-c9d2-1fc2-c9bf-0bc1c8cda19f">Inspect the document to verify the above.</p>
+</component>
+</requirement>
 </clause>
 
 <clause id="_imported_conformance_class_tests_are_consistent_with_the_specification" obligation="normative">
 <title>Imported Conformance class tests are consistent with the specification</title>
-<p id="_2271252f-69ad-5063-c9d4-f91499c69da9">If a requirements class is imported from another standard for use within a
-standard conformant to this standard, and if any imported requirement is
-“optional,” then that requirement shall be factored out as a separate requirements
-class in the profile of that imported standard used in the conformant standard.
-Each such used requirements class shall be a conformance class of the source
-standard or a combination of conformance classes of the source standard or standards.</p>
+<requirement id="ats_imported-requirements-class" model="ogc" type="abstracttest"> <identifier>/conf/core/imported-requirements-class</identifier><classification><tag>target</tag><value>/req/core/imported-requirements-class</value></classification><component class="test-purpose"><p id="_ec1b89e4-0a95-dbfa-9951-8df9fd48cc3c">Validate that if a requirements class is imported from another standard for use within a standard conformant to the ModSpec, and if any imported requirement is “optional,” then that requirement SHALL be factored out as a separate requirements class in the profile of that imported standard used in the conformant standard.</p>
+</component>
 
-<ol id="_9de51546-5feb-c31a-3959-15e259d56690" type="arabic"><li><p id="_abf8bcdb-0599-a7ee-ac62-9526cbce99cd">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li><p id="_be6a2297-b775-4e66-551b-e7d71a3657f7">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li><p id="_ae117226-8386-e831-8216-0d064cbc4256">Reference: <xref target="req-13"/></p>
-</li>
-<li><p id="_81d0b321-3ba3-c684-66d7-f39615930206">Test Type: Conformance.</p>
-</li>
-</ol>
+<description><p id="_69e240a5-20ed-a0fd-95c0-682bd9bafa01">And that each such used requirements class SHALL be a conformance class of the source standard or a combination of conformance classes of the source standard or standards..
+Test Method:: Inspect the document to verify the above.
+Test Type:: Conformance</p></description>
+</requirement>
 </clause>
 
 <clause id="_naming_consistency" obligation="normative">
 <title>Naming consistency</title>
-<p id="_95143be3-4cb6-cc2a-ece3-e40ee72ed52a">For the sake of consistency and readability, all requirements classes and all
-conformance test classes shall be explicitly named, with corresponding requirements
-classes and conformance test classes having similar names.</p>
-
-<ol id="_1dbeaad3-9f5d-afd4-674f-6a4236cf9ca0" type="arabic"><li><p id="_4fd296ca-31a3-2789-d21c-6163739fffe2">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li><p id="_38fa114f-6511-3961-c39a-fa5cb640f315">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li><p id="_ec2f0f26-d11a-f395-9ee4-e8f4cb13e5a7">Reference: <xref target="req-14"/></p>
-</li>
-<li><p id="_8c7e4778-01ae-484b-963f-d2cec575368b">Test Type: Conformance.</p>
-</li>
-</ol>
+<requirement id="ats_all-classes-explicitly-named" model="ogc" type="abstracttest"> <identifier>/conf/core/all-classes-explicitly-named</identifier><classification><tag>target</tag><value>/req/core/all-classes-explicitly-named</value></classification><classification><tag>Test Method</tag><value>Inspect the document to verify the above.</value></classification><classification><tag>Test Type</tag><value>Conformance</value></classification><component class="test-purpose"><p id="_5f021210-127a-1f04-e1f7-be841f8ce802">Validate that all requirements classes and all conformance test classes <em>SHALL</em> be explicitly named, with corresponding requirements classes and conformance test classes having similar names.</p>
+</component><component class="test-method"><p id="_d27d3bf8-6c39-990d-c5c8-a9ecfc96b9ba">Inspect the document to verify the above.</p>
+</component>
+</requirement>
 </clause>
 
 <clause id="_requirements_in_one_and_only_one_requirements_class" obligation="normative">
 <title>Requirements in one and only one requirements class</title>
-<p id="_f1b59795-906a-a9ae-2a25-133db1eda5f8">Each requirement in the standard shall be contained in one and only one requirements
-class. Inclusion of any requirement in a requirements class by a conformance class
-shall imply inclusion of all requirements in its class (as a dependency).</p>
-
-<ol id="_9f61e549-2cb4-197c-3c74-5e7b88c51549" type="arabic"><li><p id="_b58eceff-e3e0-1ae1-5da6-10dfe6a21472">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li><p id="_c2f197ac-a46a-ab37-cf66-8f2ce3b3402a">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li><p id="_f81255cb-4880-8311-a4e0-16b5707f0d62">Reference: <xref target="req-15"/></p>
-</li>
-<li><p id="_1c184067-6e09-2c62-cffa-7d87ac802d9e">Test Type: Conformance.</p>
-</li>
-</ol>
+<requirement id="ats_req-in-only-one-req-class" model="ogc" type="abstracttest"> <identifier>/conf/core/req-in-only-one-req-class</identifier><classification><tag>target</tag><value>/req/core/req-in-only-one-req-class</value></classification><classification><tag>Test Method</tag><value>Inspect the document to verify the above.</value></classification><classification><tag>Test Type</tag><value>Conformance</value></classification><component class="test-purpose"><p id="_48d200b7-55bb-2bc9-94f5-b2d9a16366e6">Validate that each requirement in the standard <em>SHALL</em> be contained in one and only one requirements class. And that Inclusion of any requirement in a requirements class by a conformance class <em>SHALL</em> imply inclusion of all requirements in its class (as a dependency).</p>
+</component><component class="test-method"><p id="_3eba0077-c6a7-1a95-e12c-c2b1eb125d52">Inspect the document to verify the above.</p>
+</component>
+</requirement>
 </clause>
 
 <clause id="_co_dependent_requirements_are_in_the_same_requirements_class" obligation="normative">
 <title>Co-dependent Requirements are in the same requirements class</title>
-<p id="_4f11f9cf-13e9-0371-846d-87514ac33e6e">If any two requirements or two requirements modules are co-dependent (each dependent
-on the other) then they shall be in the same requirements class. If any two
-requirements classes are co-dependent, they shall be merged into a single class.</p>
-
-<ol id="_9ce91a79-1f4f-c307-bbf2-2a2d426bf6d3" type="arabic"><li><p id="_4212c09c-f06c-b0ac-bf15-8bfadbb257e3">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li><p id="_4d4c2d70-aec5-499d-4a6b-9f2f647523a2">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li><p id="_17543102-031f-0375-5b19-178c1093635f">Reference: <xref target="req-16"/></p>
-</li>
-<li><p id="_9f70f719-79fe-0a4e-8a9d-0440d38b81ef">Test Type: Conformance.</p>
-</li>
-</ol>
+<requirement id="ats_co-dependent-requirements" model="ogc" type="abstracttest"> <identifier>/conf/core/co-dependent-requirements</identifier><classification><tag>target</tag><value>/req/core/co-dependent-requirements</value></classification><classification><tag>Test Method</tag><value>Inspect the document to verify the above.</value></classification><classification><tag>Test Type</tag><value>Conformance</value></classification><component class="test-purpose"><p id="_1a484657-ec04-b304-f4e3-734cf4175720">Validate that if any two requirements are co-dependent (each dependent on the other) then they <em>SHALL</em> be in the same requirements class. And if any two requirements classes are co-dependent, they <em>SHALL</em> be merged into a single class.</p>
+</component><component class="test-method"><p id="_c40b044d-19a5-5856-2cab-ddb0d8952540">Inspect the document to verify the above.</p>
+</component>
+</requirement>
 </clause>
 
 <clause id="_modularity_in_implementation_is_possible" obligation="normative">
 <title>Modularity in implementation is possible</title>
-<p id="_8e920590-78b5-b68e-dc8d-e37319abd5ae">There shall be a natural structure on the requirements classes so that each may be
-implemented on top of any implementations of its dependencies and independent of its
-extensions.</p>
-
-<p id="_f67aeff2-4c68-abf5-b55b-b1022366ba5c">All general recommendations shall be in the core.</p>
-
-<ol id="_ed5513cf-c822-609f-18f4-58017c5f1db1" type="arabic"><li><p id="_480f108f-97ed-4899-6ce7-560f61256842">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li><p id="_067d8085-fa21-2799-75df-fd1eac999526">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li><p id="_c375d6b4-2946-26df-1b18-5e138e5a09cd">Reference: <xref target="req-17"/></p>
-</li>
-<li><p id="_8d82b9e8-3f89-f0da-17da-0eeaea6cb47c">Test Type: Conformance.</p>
-</li>
-</ol>
+<requirement id="ats_structure-requirements-classes" model="ogc" type="abstracttest"> <identifier>/conf/core/structure-requirements-classes</identifier><classification><tag>target</tag><value>/req/core/structure-requirements-classes</value></classification><classification><tag>Test Method</tag><value>Inspect the document to verify the above.</value></classification><classification><tag>Test Type</tag><value>Conformance</value></classification><component class="test-purpose"><p id="_51691221-013a-4e86-a63c-ac6f9fd78578">Validate that there <em>SHALL</em> be a natural structure to the requirements classes so that each may be implemented on top of any implementations of its dependencies and independent of its extensions.</p>
+</component><component class="test-method"><p id="_8246bbd4-9ade-460b-581f-d16740794a20">Inspect the document to verify the above.</p>
+</component>
+</requirement>
 </clause>
 
 <clause id="_requirements_follow_rules_of_inheritance" obligation="normative">
 <title>Requirements follow rules of inheritance</title>
-<p id="_24484b6b-c44f-7c21-7331-d13828b56ab3">No requirements class shall redefine the requirements of its dependencies, unless
-that redefinition is for an entity derived from but not contained in those
-dependencies.</p>
-
-<ol id="_db27f5af-5cea-4108-fc1e-9fa15b8d3322" type="arabic"><li><p id="_420537f2-6b20-5b27-5302-2e4a5cb054a0">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li><p id="_9a4c5c37-c650-5244-02f9-935d29b546a5">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li><p id="_24c6cf6d-33a3-af8f-36f7-377f4c1bcf59">Reference: <xref target="req-18"/></p>
-</li>
-<li><p id="_dc063c7c-e9e2-ee1e-1b4e-373a9f50729f">Test Type: Conformance.</p>
-</li>
-</ol>
+<requirement id="ats_requirements-and-dependencies" model="ogc" type="abstracttest"> <identifier>/conf/core/requirements-and-dependencies</identifier><classification><tag>target</tag><value>/req/core/requirements-and-dependencies</value></classification><classification><tag>Test Method</tag><value>Inspect the document to verify the above.</value></classification><classification><tag>Test Type</tag><value>Conformance</value></classification><component class="test-purpose"><p id="_73af5efd-6d18-ddb3-39a0-a57df280de35">Validate that no requirements class <em>SHALL</em> redefine the requirements of its dependencies, unless that redefinition is for an entity derived from but not contained in those dependencies.</p>
+</component><component class="test-method"><p id="_3183756c-ba21-9c94-7a21-ea88c031a6b4">Inspect the document to verify the above.</p>
+</component>
+</requirement>
 </clause>
 
 <clause id="_profiles_are_expressed_as_sets_of_conformance_classes" obligation="normative">
 <title>Profiles are expressed as sets of conformance classes</title>
-<p id="_b58b2344-d801-2157-31fc-62b803ae9b6c">The conformance tests for a profile of a standard shall be defined as the union
-of a list of conformance classes that are to be satisfied by that profile’s
-standardization targets.</p>
-
-<ol id="_f96c2c25-78e2-f2f3-f3b2-f870e942406c" type="arabic"><li><p id="_9d5a66ef-cf45-0fcd-3d42-9cd385818092">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li><p id="_beb69b1e-0c17-c26e-2c1d-9b4d384a6686">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li><p id="_1193d6d7-3e1e-fb78-a750-b0448717f2b3">Reference: <xref target="req-19"/></p>
-</li>
-<li><p id="_7fec38cb-8ed1-8baf-24cd-dc16e8c6219b">Test Type: Conformance.</p>
-</li>
-</ol>
+<requirement id="ats_profile-conformance" model="ogc" type="abstracttest"> <identifier>/conf/core/profile-conformance</identifier><classification><tag>target</tag><value>/req/core/profile-conformance</value></classification><classification><tag>Test Method</tag><value>Inspect the document to verify the above.</value></classification><classification><tag>Test Type</tag><value>Conformance</value></classification><component class="test-purpose"><p id="_0e010cac-9864-244d-3819-088822cd5dc6">Validate that the conformance tests for a profile of a standard <em>SHALL</em> be defined as the union of a list of conformance classes that are to be satisfied by that profile’s standardization targets.</p>
+</component><component class="test-method"><p id="_00b4d854-aa0e-cf15-25a8-c0bf939fe930">Inspect the document to verify the above.</p>
+</component>
+</requirement>
 </clause>
 
 <clause id="_there_is_a_named_core_requirements_class" obligation="normative">
 <title>There is a named Core requirements class</title>
-<p id="_37bf2b25-cc65-dc3f-00b6-48f85bf5f594">Every standard shall define and identify a core set of requirements as a
-separate conformance class.</p>
-
-<ol id="_7da8d33d-2ed7-c7f8-9013-c2f52d81fefb" type="arabic"><li><p id="_a1a8bba9-18a7-a275-e58b-ce631e0b7495">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li><p id="_db8d6b25-1a96-a96b-9da9-51da91c3b65d">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li><p id="_8d80ead6-fcda-9ca4-3af5-eb6a21d5ef72">Reference: <xref target="req-20"/></p>
-</li>
-<li><p id="_7630cdc3-0227-2ee7-ddde-6ff4c2fce48c">Test Type: Conformance.</p>
-</li>
-</ol>
+<requirement id="ats_core-requirements-separate" model="ogc" type="abstracttest"> <identifier>/conf/core/core-requirements-separate</identifier><classification><tag>target</tag><value>/req/core/core-requirements-separate</value></classification><classification><tag>Test Method</tag><value>Inspect the document to verify the above.</value></classification><classification><tag>Test Type</tag><value>Conformance</value></classification><component class="test-purpose"><p id="_f924ef3b-b03a-8c8d-38e9-d001f5d678ac">Validate that every standard <em>SHALL</em> define and identify a core set of requirements as a separate requirements class with a corresponding conformance class.</p>
+</component><component class="test-method"><p id="_90f89125-6587-7087-67af-acb6ac2eb984">Inspect the document to verify the above.</p>
+</component>
+</requirement>
 </clause>
 
 <clause id="_general_conditions_are_in_the_core" obligation="normative">
 <title>General conditions are in the core</title>
-<p id="_0fa448dd-a9fb-006c-f589-2034ed4331a2">Every other requirements class in a standard shall have a standardization
-target type which is a subtype of that of the core and shall have the core as a
-direct dependency.</p>
-
-<ol id="_5dbbdcf6-4e6f-dc54-6985-59e527815f96" type="arabic"><li><p id="_4ad56425-2fdd-799e-4683-f026ada808f5">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li><p id="_d90929c8-5ea7-2f11-0094-da6ce2a27256">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li><p id="_85880c27-fe3d-d229-6ca8-3639b33ceb68">Reference: <xref target="req-22"/></p>
-</li>
-<li><p id="_4819738a-9b4f-f078-7719-449a57623672">Test Type: Conformance.</p>
-</li>
-</ol>
+<requirement id="ats_requirements-and-dependencies-2" model="ogc" type="abstracttest"> <identifier>/conf/core/requirements-and-dependencies-2</identifier><classification><tag>target</tag><value>/req/core/requirements-and-dependencies-2</value></classification><classification><tag>Test Method</tag><value>Inspect the document to verify the above.</value></classification><classification><tag>Test Type</tag><value>Conformance</value></classification><component class="test-purpose"><p id="_9fefd1a3-9fd1-b659-9e36-c85f8e372591">Validate that all general recommendations for a standard <em>SHALL</em> be in the core.</p>
+</component><component class="test-method"><p id="_90841e0f-8dec-ddcc-3b45-023a0d3693db">Inspect the document to verify the above.</p>
+</component>
+</requirement>
 </clause>
 
 <clause id="_every_extension_has_a_consistent_target_type" obligation="normative">
 <title>Every extension has a consistent target type</title>
-<p id="_1183aabd-b7fc-74b1-7f9d-8ec54445c472">Every other requirements class in a standard shall have a standardization
-target type which is a subtype of that of the core and shall have the core as a
-direct dependency.</p>
-
-<ol id="_dabc0449-e867-f86a-f587-2e2b41f698dc" type="arabic"><li><p id="_40fe61e0-8947-8708-d7c5-5cb008a2142e">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li><p id="_6df23644-e1d7-81ba-e8f0-bc29dcdc2511">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li><p id="_24b08b0d-89b1-432b-4921-65d340df7697">Reference: <xref target="req-22"/></p>
-</li>
-<li><p id="_6331557f-b065-6be7-1b85-47900fc55f13">Test Type: Conformance.</p>
-</li>
-</ol>
+<requirement id="ats_requirements-and-dependencies-3" model="ogc" type="abstracttest"> <identifier>/conf/core/requirements-and-dependencies-3</identifier><classification><tag>target</tag><value>/req/core/requirements-and-dependencies-3</value></classification><classification><tag>Test Method</tag><value>Inspect the document to verify the above.</value></classification><classification><tag>Test Type</tag><value>Conformance</value></classification><component class="test-purpose"><p id="_dcc459e7-b147-5519-7224-432580ec4ee4">Validate that every requirements class in a standard, with the exception of the core, <em>SHALL</em> have a standardization target type which is a subtype of that of the core. And that every requirement class, with the exception of the core, <em>SHALL</em> have the core as a direct dependency.</p>
+</component><component class="test-method"><p id="_6ec2f315-1796-aaab-9476-dee0432c17b4">Inspect the document to verify the above.</p>
+</component>
+</requirement>
 </clause>
 
 <clause id="_a_standard_is_a_core_plus_some_number_of_extensions" obligation="normative">
 <title>A standard is a core plus some number of extensions</title>
-<p id="_197a1d64-d173-910a-a20a-38934e729c49">Each standard conformant to the ModSpec shall consist of the core and some
-number of requirements classes defined as extensions to that core.</p>
-
-<ol id="_bf647e84-b001-1d65-098d-bb1a92018867" type="arabic"><li><p id="_cc819290-e76a-1ac3-6da1-49ccfdadb0e5">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li><p id="_51a15577-87a2-9aff-70c9-a85898d46979">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li><p id="_38bfbbc8-0876-b574-655a-8df96457debd">Reference: <xref target="req-23"/></p>
-</li>
-<li><p id="_ed48ccf6-91bb-587f-27f3-1d86ddf544a0">Test Type: Conformance.</p>
-</li>
-</ol>
+<requirement id="ats_core-and-extensions" model="ogc" type="abstracttest"> <identifier>/conf/core/core-and-extensions</identifier><classification><tag>target</tag><value>/req/core/core-and-extensions</value></classification><classification><tag>Test Method</tag><value>Inspect the document to verify the above.</value></classification><classification><tag>Test Type</tag><value>Conformance</value></classification><component class="test-purpose"><p id="_b62bfa44-75cd-52a3-a01e-e5df41746362">Validate that each standard conformant to the ModSpec <em>SHALL</em> consist of a core and some number of requirements classes defined as extensions to that core.</p>
+</component><component class="test-method"><p id="_b0e2cca1-a020-d106-b184-0e8e826a992b">Inspect the document to verify the above.</p>
+</component>
+</requirement>
 </clause>
 
 <clause id="_conformance_to_this_modspec_is_required_for_any_extensions" obligation="normative">
 <title>Conformance to this ModSpec is required for any extensions</title>
-<p id="_e87b7355-b6dd-1f77-be35-dbf54d0dcfb0">A standard conformant to the ModSpec shall require all conformant extensions
-to itself to be conformant to the ModSpec.</p>
-
-<ol id="_edbfcf07-a603-9363-9561-92329c79bdc2" type="arabic"><li><p id="_d50bc726-965f-b712-55e4-8bd19f38a738">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li><p id="_5f810b1f-0f9d-335c-6a17-a4d4a81372b8">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li><p id="_bf8adc58-f86d-d836-3d86-e022af86c7c4">Reference: <xref target="req-24"/></p>
-</li>
-<li><p id="_30a52168-021e-ab4b-1030-5833e1cab58e">Test Type: Conformance.</p>
-</li>
-</ol>
+<requirement id="ats_extensions-conformant-to-the-modspec" model="ogc" type="abstracttest"> <identifier>/conf/core/extensions-conformant-to-the-modspec</identifier><classification><tag>target</tag><value>/req/core/extensions-conformant-to-the-modspec</value></classification><classification><tag>Test Method</tag><value>Inspect the document to verify the above.</value></classification><classification><tag>Test Type</tag><value>Conformance</value></classification><component class="test-purpose"><p id="_2d93ebd1-8de2-2b04-85c9-aa85be65f914">Validate that a standard conformant to the ModSpec <em>SHALL</em> require all conformant extensions to be conformant to the ModSpec.</p>
+</component><component class="test-method"><p id="_f0490cdb-aa29-4a89-c6cb-bf220af1a848">Inspect the document to verify the above.</p>
+</component>
+</requirement>
 </clause>
 
 <clause id="_future_extensions_cannot_be_restricted" obligation="normative">
 <title>Future extensions cannot be restricted</title>
-<p id="_557c2da7-a4b2-2d16-ada9-83617ad76320">A standard conformant to the ModSpec shall never restrict in any manner
-future, logically-valid extensions of its standardization targets.</p>
-
-<ol id="_128b4ceb-dd2e-72a7-9a58-6aa070c31cdf" type="arabic"><li><p id="_2ca63df9-401f-f193-f109-00ab6b464606">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li><p id="_f4429b0f-d3e5-87ee-5c32-38ccaaae6109">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li><p id="_7ec4559b-2e5e-f292-bda5-42295a1fca72">Reference: <xref target="req-25"/></p>
-</li>
-<li><p id="_18bf3022-332f-fa18-52a7-2bd6c2521317">Test Type: Conformance.</p>
-</li>
-</ol>
+<requirement id="ats_restriction-of-extensions" model="ogc" type="abstracttest"> <identifier>/conf/core/restriction-of-extensions</identifier><classification><tag>target</tag><value>/req/core/restriction-of-extensions</value></classification><classification><tag>Test Method</tag><value>Inspect the document to verify the above.</value></classification><classification><tag>Test Type</tag><value>Conformance</value></classification><component class="test-purpose"><p id="_778c42e3-c52b-b48f-ad04-29bda7fd1943">Validate that a standard conformant to the ModSpec <em>SHALL</em> never restrict in any manner future, logically valid extensions of its standardization target types.</p>
+</component><component class="test-method"><p id="_cfef9ce1-71af-a89c-eb57-ab3a483d4107">Inspect the document to verify the above.</p>
+</component>
+</requirement>
 </clause>
 
 <clause id="_optional_requirements_are_organized_as_requirements_classes" obligation="normative">
 <title>Optional requirements are organized as requirements classes</title>
-<p id="_7eb06a8d-c0d0-1147-3709-646a92df4ba5">The only optional requirements acceptable in a standard conformant to this
-standard shall be expressible as a list of conformance classes to be passed.</p>
-
-<ol id="_30768c6a-4263-815f-b992-e85f5faabe4a" type="arabic"><li><p id="_c40cc316-d91a-17fe-99d0-8f144611c5e6">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li><p id="_adb8baca-47ac-6e02-0a21-121216168eeb">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li><p id="_6e727955-0a3d-4499-c69c-7a58e7e5bf45">Reference: <xref target="req-26"/></p>
-</li>
-<li><p id="_1c7671b5-fb4e-83a3-3641-b22065a9a767">Test Type: Conformance.</p>
-</li>
-</ol>
+<requirement id="ats_optional-requirements" model="ogc" type="abstracttest"> <identifier>/conf/core/optional-requirements</identifier><classification><tag>target</tag><value>/req/core/optional-requirements</value></classification><classification><tag>Test Method</tag><value>Inspect the document to verify the above.</value></classification><classification><tag>Test Type</tag><value>Conformance</value></classification><component class="test-purpose"><p id="_43b21605-9a3f-1443-d7b7-b2a95a80aefe">Validate that the only conditional (optional) requirements acceptable in a standard conformant with the ModSpec <em>SHALL</em> be expressible as a list of conformance classes to be passed.</p>
+</component><component class="test-method"><p id="_bac2ec42-f9b0-6231-ccf6-87839dc74c8d">Inspect the document to verify the above.</p>
+</component>
+</requirement>
 </clause>
 
 <clause id="_requirements_classes_intersect_overlap_only_by_reference" obligation="normative">
 <title>Requirements classes intersect overlap only by reference</title>
-<p id="_63d784ca-e595-463d-698e-09fdf4a3eec6">The common portion of any two requirements classes shall consist only of references
-to other requirements classes.</p>
-
-<ol id="_bf6a697a-7bf2-84a1-a00e-bd8022ffe733" type="arabic"><li><p id="_16f947e0-bbdd-92e9-82ed-600e10f1c460">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li><p id="_d9117e68-fea7-b5a5-8d83-b0a9ab979a89">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li><p id="_e5367eb1-5d34-9194-86a2-00e7fd2d1538">Reference: <xref target="req-27"/></p>
-</li>
-<li><p id="_00ea4426-949f-23d3-394b-913de9f7ec59">Test Type: Conformance.</p>
-</li>
-</ol>
+<requirement id="ats_req-class-overlap-by-reference" model="ogc" type="abstracttest"> <identifier>/conf/core/req-class-overlap-by-reference</identifier><classification><tag>target</tag><value>/req/core/req-class-overlap-by-reference</value></classification><classification><tag>Test Method</tag><value>Inspect the document to verify the above.</value></classification><classification><tag>Test Type</tag><value>Conformance</value></classification><component class="test-purpose"><p id="_ccbf6cff-c15b-ffd3-1219-a1be66df1a49">Validate that the common portion of any two requirements classes <em>SHALL</em> consist only of references to other requirements classes.</p>
+</component><component class="test-method"><p id="_91820a24-9d40-ffe5-e753-6a9e9688dc30">Inspect the document to verify the above.</p>
+</component>
+</requirement>
 </clause>
 </clause>
 </annex><annex id="annex-B" obligation="normative">
@@ -1813,7 +1584,7 @@ in any Policy and Procedure document used by this committee.</p>
 order. It may be easier to understand the more significant terms in the following
 less formal definitions arranged in a bottom-up order:</p>
 
-<ol id="_632a328b-ac32-9c23-eae7-2d7266826235" type="arabic"><li><p id="_53e8e61b-4d39-6d3c-3e0a-6d565efb718c">a <xref target="StandardizationTargetType-definition"><em>standardization target type</em></xref> is a type of entity about which a standard
+<ol id="_b0084b46-4b5c-4b1b-b032-8326ecd277df" type="arabic"><li><p id="_53e8e61b-4d39-6d3c-3e0a-6d565efb718c">a <xref target="StandardizationTargetType-definition"><em>standardization target type</em></xref> is a type of entity about which a standard
 is written. An instance of a <xref target="StandardizationTargetType-definition"><em>standardization target type</em></xref> is a
 <xref target="StandardizationTarget-definition"><em>standardization target</em></xref>. A standard may address multiple targets in separate
 <xref target="ConformanceClass-definition"><em>conformance classes</em></xref>.</p>
@@ -1821,9 +1592,9 @@ is written. An instance of a <xref target="StandardizationTargetType-definition"
 <li><p id="_aa182360-a8da-5d2b-69d2-fd5247fa8061">a <xref target="Requirement-definition"><em>requirement</em></xref> is a statement of a condition to be satisfied by a single
 <xref target="StandardizationTargetType-definition"><em>standardization target type</em></xref>, and it must be stated in “normative” language.</p>
 </li>
-<li><p id="_d8789db1-88f0-9271-a7bf-96ab5a94492a">a <xref target="ConformanceTest-definition"><em>conformance test</em></xref> checks if a set of
+<li><p id="_8a6ad105-bd6b-9203-73e1-d402ff4cdce1">a <xref target="ConformanceTest-definition"><em>conformance test</em></xref> checks if a set of
 <xref target="Requirement-definition"><em>requirements</em></xref> are met (<strong>pass</strong>) or not met (<strong>fail</strong>) by a
-<xref target="StandardizationTarget-definition"><em>standardization target</em></xref>. The relationship between <xref target="ConformanceTest-definition"><em>conformance tests</em></xref> and <xref target="Requirement-definition"><em>requirements</em></xref> is many-to-many.</p>
+<xref target="StandardizationTarget-definition"><em>standardization target</em></xref>.</p>
 </li>
 <li><p id="_0f0d71fe-6958-04a1-f17e-d7b0448de477">all <xref target="ConformanceTest-definition"><em>conformance tests</em></xref> are graded as <strong>pass</strong> or <strong>fail</strong>
 against each instance of the <xref target="StandardizationTargetType-definition"><em>standardization target type</em></xref>.</p>
@@ -1840,12 +1611,9 @@ all with the same <xref target="StandardizationTargetType-definition"><em>standa
 <xref target="ConformanceTest-definition"><em>conformance tests</em></xref> that are associated to and only to the
 requirements in a corresponding <xref target="RequirementsClass-definition"><em>requirements class</em></xref>.</p>
 </li>
-<li><p id="_1e08d7e1-a82f-74e6-9e42-72d196bbc2b6">a <xref target="ConformanceTestModule-definition"><em>conformance (test) module</em></xref> is also collection of
-<xref target="ConformanceClass-definition"><em>conformance test classes</em></xref> that group
-<xref target="ConformanceTest-definition"><em>conformance tests</em></xref> on a single
-<xref target="StandardizationTargetType-definition"><em>standardization target type</em></xref>.</p>
+<li><p id="_3bfedc55-1ab5-1463-871d-3f0560cdfd4c">a <xref target="ConformanceTestModule-definition"><em>conformance (test) module</em></xref> is a reusable collection of related <xref target="ConformanceClass-definition"><em>conformance test classes</em></xref>.</p>
 </li>
-<li><p id="_138bbf73-1af1-c8c5-7f41-114c0ad5183d">a <strong>conformant implementation</strong> is a <xref target="StandardizationTargetType-definition"><em>standardization target type</em></xref> that has
+<li><p id="_b6269d00-f26f-6168-640d-9af289c9550a">a <strong>conformant implementation</strong> is a <xref target="StandardizationTarget-definition"><em>standardization target</em></xref> that has
 successfully passed all tests in a specified <xref target="ConformanceClass-definition"><em>conformance (test) class</em></xref> and received a <xref target="CertificateOfConformance-definition"><em>certificate of conformance</em></xref>.</p>
 </li>
 <li><p id="_cc8398d2-18aa-62df-0ca9-a1f91ac4bd1b">the <xref target="CoreRequirementsClass-definition"><em>Core requirements class</em></xref> of a standard is the minimal set of

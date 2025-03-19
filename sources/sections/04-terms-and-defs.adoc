@@ -115,8 +115,6 @@ expression in a document conveying non-normative information
 
 NOTE: Includes all statements in a document not part of the normative requirements, recommendations, permissions, or conformance tests. Included for completeness. 
 
-[[Module-definition]]
-
 [[NormativeStatement-definition]]
 
 ==== Normative Statement
@@ -208,6 +206,8 @@ NOTE:  The core requirements class is unique because if it were possible to have
 
 The core can refer to this requirements class, its associated conformance test class, or the software module that implements that requirements class.  
 
+[[Model-definition]]
+
 ==== Model
 
 A representation of those aspects of the standardization target type which are to be governed by a standard. The model captures both the conceptual and logical properties of the standardization target type. The requirements promulgated by a standard should be expressed in terms of those conceptual and logical properties.
@@ -277,8 +277,6 @@ NOTE:   The standardization target is the entity which may receive a certificate
 type of entity or set of entities to which the <<Requirement-definition,requirement>> of a <<Standard-definition,standard>> apply
 
 NOTE:  For example, the standardization target type for The OGC API – Features Standard are Web APIs. The standardization target type for the CDB Standard is “datastore”. It is important to understand that a standard’s root standardization target type can have sub-types, and that there can be a hierarchy of target types. For example, a Web API can have sub types of client, server, security, and so forth. As such, each requirements class can have a standardization target type that is a sub-type of the root. 
-
-[[TestType-definition]]
 
 [[will-definition]]
 

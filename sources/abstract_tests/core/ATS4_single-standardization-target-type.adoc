@@ -1,0 +1,10 @@
+[[ats_single-standardization-target-type]]
+[abstract_test]
+====
+[%metadata]
+identifier:: /conf/core/single-standardization-target-type
+target:: /req/core/single-standardization-target-type
+test-purpose:: Validate that each requirement class in a conformant standard _SHALL_ have a single standardization target type.
+Test Method:: Inspect the document to verify the above.
+Test Type:: Conformance
+====

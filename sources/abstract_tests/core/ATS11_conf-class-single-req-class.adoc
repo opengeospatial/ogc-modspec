@@ -1,0 +1,10 @@
+[[ats_conf-class-single-req-class]]
+[abstract_test]
+====
+[%metadata]
+identifier:: /conf/core/conf-class-single-req-class
+target:: /req/core/conf-class-single-req-class
+test-purpose:: Validate that a Conformance class _SHALL_ explicitly test only requirements from a single requirements class.
+Test Method:: Inspect the document to verify the above.
+Test Type:: Conformance
+====
