@@ -8,7 +8,7 @@ and verifiable testing of implementations of an OGC Standard that claim conforma
 
 For OGC Standards work, the word “standard” in the ModSpec applies to all OGC draft standards, approved standards, draft Abstract Specifications, and approved Abstract Specifications. The exceptions are OGC Abstract Specifications that originate in ISO or Community Standards that are developed external to the OGC process and then submitted to the OGC.
 
-The goal of this Policy is to ensure that a standard specifies requirements in a common and consistent manner and that these requirements are testable.
+The goal of this Policy is to ensure that an OGC standard specifies requirements in a common and consistent manner and that these requirements are testable.
 
 NOTE: For the purposes of this OGC ModSpec Policy document, all the terms and definitions in the ModSpec Core document apply to this Policy document.
 
