@@ -18,7 +18,7 @@ clearly state the standardization goal for the standard or abstract specificatio
 `Scope` clauses of the standard or abstract specification. Please note that a Standard's stated goal is what drove the original development of the standard. 
 However, other uses of a standard or elements of the standard are not precluded.
 
-OGC Standards documents must be written using an official OGC template
+=== OGC Standards documents must be written using an official OGC template
 
 - All OGC Standards documents _SHALL_ be written using the OGC Member approved template. This OGC document template _SHALL_ be conformant with the requirements stated in the ModSpec
 
@@ -29,7 +29,9 @@ and to be consistent with the template, the term used in the OGC is Abstract Tes
 
 - All OGC Implementation Standards documents _SHALL_ have an Abstract Test Suite (Conformance Test Suite) document in Annex A of the standards document. This Annex _SHALL_ be designated as `normative`
 
-The following is a restricted profile of ModSpec Requirement 2 regarding uniquely identifying every component of a standard.
+=== All elements specified in an OGC Standard must have a unique identifier
+
+NOTE: The following is a restricted profile of ModSpec Requirement 2 regarding uniquely identifying every component of a standard.
 
 - Each component of the standard, including requirements, requirements modules, requirements classes, conformance test, conformance modules, 
 and conformance test classes _SHALL_ be assigned a unique URI. These URIs _SHALL_ be conformant with the policies of the OGC Naming Authority.
