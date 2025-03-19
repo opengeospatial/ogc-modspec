@@ -1,0 +1,37 @@
+[[ats_class-core]]
+[conformance_class]
+====
+[%metadata]
+identifier:: https://www.opengis.net/spec/modspec-1/2.0/conf/core
+target:: https://www.opengis.net/spec/modspec-1/2.0/req/req-class-core
+classification:: Target Type: Modular Standard
+abstract-test:: /conf/core/reqs-are-in-class
+abstract-test:: /conf/core/reqs-are-testable
+abstract-test:: /conf/core/all-components-assigned-uri
+abstract-test:: /conf/core/vocabulary-and-parent-req-class
+abstract-test:: /conf/core/single-standardization-target-type
+abstract-test:: /conf/core/test-class-single-standardization-target-type
+abstract-test:: /conf/core/requirements-grouped
+abstract-test:: /conf/core/requirements-test-suite-structure
+abstract-test:: /conf/core/requirements-class-correspondence-to-conformance-classes
+abstract-test:: /conf/core/no-optional-tests
+abstract-test:: /conf/core/all-parameters-expressed
+abstract-test:: /conf/core/conf-class-single-req-class
+abstract-test:: /conf/core/con-class-dependencies
+abstract-test:: /conf/core/imported-requirements-class
+abstract-test:: /conf/core/all-classes-explicitly-named
+abstract-test:: /conf/core/req-in-only-one-req-class
+abstract-test:: /conf/core/co-dependent-requirements
+abstract-test:: /conf/core/structure-requirements-classes
+abstract-test:: /conf/core/requirements-and-dependencies
+abstract-test:: /conf/core/profile-conformance
+abstract-test:: /conf/core/core-requirements-separate
+abstract-test:: /conf/core/requirements-and-dependencies-2
+abstract-test:: /conf/core/requirements-and-dependencies-3
+abstract-test:: /conf/core/core-and-extensions
+abstract-test:: /conf/core/extensions-conformant-to-the-modspec
+abstract-test:: /conf/core/restriction-of-extensions
+abstract-test:: /conf/core/optional-requirements
+abstract-test:: /conf/core/req-class-overlap-by-reference
+====
+

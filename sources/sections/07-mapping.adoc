@@ -3,7 +3,7 @@
 
 === Semantics
 
-The previous section defines requirements for conformance to the ModSpec However,
+The previous section defines requirements for conformance to the ModSpec core requirements. However,
 testing for that conformance may depend on how the various forms and parts of a
 conformant standard are viewed. Additional Parts to the ModSpec Standard specify how those views
 are to be defined. Standards that take an alternative
@@ -11,7 +11,7 @@ mechanism to the ones defined in the additional Parts must be tested solely on t
 conformance test suite until such times as an extension to the ModSpec is defined for that
 alternate mechanism.
 
-Standards are often structured about some form of modeling language, or
+Standards are often structured and documented using some form of modeling language, or
 implementation paradigm. Additional Parts to the ModSpec
 define a mechanism to map parts of the model (language, schema, etc.) to the
 conformance classes used as the model from <<cls-6-1,Clause 6.1>>.

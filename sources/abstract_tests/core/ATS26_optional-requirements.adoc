@@ -1,0 +1,10 @@
+[[ats_optional-requirements]]
+[abstract_test]
+====
+[%metadata]
+identifier:: /conf/core/optional-requirements
+target:: /req/core/optional-requirements
+test-purpose:: Validate that the only conditional (optional) requirements acceptable in a standard conformant with the ModSpec _SHALL_ be expressible as a list of conformance classes to be passed.
+Test Method:: Inspect the document to verify the above.
+Test Type:: Conformance
+====

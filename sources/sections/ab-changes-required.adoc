@@ -17,7 +17,7 @@ new or new version of such candidate standards.
 The adoption of such documents not compliant with the ModSpec _SHALL_ be
 considered as an authorized exception to the requirements of the ModSpec by the
 approporiate authority, such as the OGC or ISO. An exception
-to the rules of the authority such as the OGC and will require a two-thirds (2/3) majority ("Robert's
+to the rules of the authority such as the OGC will require a two-thirds (2/3) majority ("Robert's
 Rules") or as specified in the authorities Policy and Procedures for an exception to
-procedure. In the OGC, a similar vote is required within the Executive Planning Committee or as specified
+procedure. In the OGC, a similar vote is required within the Planning Committee or as specified
 in any Policy and Procedure document used by this committee.

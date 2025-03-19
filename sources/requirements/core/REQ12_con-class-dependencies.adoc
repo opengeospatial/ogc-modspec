@@ -5,5 +5,6 @@
 ====
 [%metadata]
 identifier:: /req/core/con-class-dependencies
-part:: A Conformance class _SHALL_ specify any other conformance class upon which it is dependent and that other conformance class shall be used to test the specified dependency.
+part:: A Conformance class _SHALL_ specify any other conformance class upon which it is dependent and 
+part:: That other conformance class _SHALL_ be used to test the specified dependency.
 ====

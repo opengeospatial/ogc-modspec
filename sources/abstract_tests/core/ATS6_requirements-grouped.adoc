@@ -1,0 +1,10 @@
+[[ats_requirements-grouped]]
+[abstract_test]
+====
+[%metadata]
+identifier:: /conf/core/requirements-grouped
+target:: /req/core/requirements-grouped
+test-purpose:: Validate that requirements _SHALL_ be grouped together in clauses (numbered sections) of the document in a strictly hierarchical manner, consistent with requirements classes.
+Test Method:: Inspect the document to verify the above.
+Test Type:: Conformance
+====

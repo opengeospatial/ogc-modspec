@@ -6,5 +6,5 @@
 [%metadata]
 identifier:: /req/core/co-dependent-requirements
 part:: If any two requirements are co-dependent (each dependent on the other) then they _SHALL_ be in the same requirements class.
-part:: If any two requirements classes are co-dependent, they _SHALL_ be merged into a single class.
+part:: If any two requirements classes are co-dependent, they _SHALL_ be merged into a single requirements class.
 ====

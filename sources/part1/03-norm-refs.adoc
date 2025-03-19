@@ -17,4 +17,3 @@ supplied definitions used in this document.
 
 * [[[omg-superstructure,OMG UML/2.4.1/Superstructure]]], OMG Unified Modeling Language (OMG UML), Superstructure, V2.4.1, OMG Document Number: formal/2012-05-07; Standard document URL: https://www.omg.org/spec/UML/ISO/19505-2/PDF
 
-* [[[iso19757-3,ISO/IEC 19757-3:2006]]]

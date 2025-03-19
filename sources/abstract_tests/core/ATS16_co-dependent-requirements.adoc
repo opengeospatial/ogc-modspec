@@ -1,0 +1,10 @@
+[[ats_co-dependent-requirements]]
+[abstract_test]
+====
+[%metadata]
+identifier:: /conf/core/co-dependent-requirements
+target:: /req/core/co-dependent-requirements
+test-purpose:: Validate that if any two requirements are co-dependent (each dependent on the other) then they _SHALL_ be in the same requirements class. And if any two requirements classes are co-dependent, they _SHALL_ be merged into a single class.
+Test Method:: Inspect the document to verify the above.
+Test Type:: Conformance
+====

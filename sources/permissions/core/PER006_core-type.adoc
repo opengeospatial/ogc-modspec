@@ -1,0 +1,8 @@
+[[per-6]]
+
+[permission]
+====
+[%metadata]
+identifier:: /per/core/core-type
+part:: The core _MAY_ be partially or totally abstract.
+====
