@@ -103,14 +103,6 @@ expression in a document conveying non-normative information
 
 NOTE: Includes all statements in a document not part of the normative requirements, recommendations, permissions, or conformance tests. Included for completeness. 
 
-[[Module-definition]]
-
-==== Module
-
-each of a set of standardized parts or independent units that can be used to construct a more complex structure
-
-Note: The concept ‘module’ is key to the ModSpec structure and model. Modules have a direct relationship to the concept of building blocks. The power of the concept is that modules can be reused in different systems (specify once, use many). Modules can be imported from other programs. Modules can be replaced without affecting the rest of the system. 
-
 [[NormativeStatement-definition]]
 
 ==== Normative Statement
