@@ -10,9 +10,9 @@ This OGC Standard for Designing and Writing Modular Standards, also known as the
 The standardization goal of the ModSpec is to define characteristics and a structure for the specification of modular and testable Standards 
 that will encourage implementation by minimizing difficulty determining
 requirements, mimicking implementation structure, and maximizing usability and
-interoperability. The ultimate goal of this approach is to enable interoperable implementations of a standard to be tested and deemed _conformant_ or not.
+interoperability. The ultimate goal of this approach is to enable interoperable implementations of a standard that can be tested and deemed _conformant_ or not.
 
-The one standardization target type for the ModSpec is modular standards. While the primary focus is on modular OGC standards, this approach should prove applicable to standards for any domain.
+The ModSpec standardization target type is `modular standards`.
 
 [[things-to-know]]
 === Understanding the ModSpec
@@ -23,8 +23,8 @@ The <<fundamentals,Standards Fundamentals>> clause provides a more detailed intr
 
 Also read Annex C. <<annex-C,Annex C>> defines the UML model upon which the ModSpec is
 based. Annex C also contains informal and non-normative definitions ordered for ease
-of understanding. These two sections can be read first to aid in the understanding of
-the rest of the document.
+of understanding. The two sections contained in Annex C should be read first to aid in the understanding of
+the rest of the ModSpec.
 
 NOTE: Please note that the ModSpec has been approved by the OGC Membership as a policy directive for the development and revision of any OGC Standard or Abstract Specification that has requirements. However, the ModSpec is written to be non-OGC specific and can be used by any Standards Development Organization (SDO) as a formal guide for structuring a standards document.
 

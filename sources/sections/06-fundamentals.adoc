@@ -26,9 +26,9 @@ Instances of a Standardization Target Type are the Standardization Targets.  The
 
 * Standardization Goal – identifies the problem and identifies the actors and entities involved in solving that problem
 * Standardization Target Type – An abstract representation of one of the actors or entities identified in the Standardization Goal
-* Standardization Target – an implementation of a Standardization Target Type. These are the real-world entities which can be tested for conformance with the requirements documented in the Standard.
+* Standardization Target – an implementation of a Standardization Target Type. These are the real-world entities which can be tested for conformance with the requirements documented in the standard.
 
-Standardization Target Types can be hierarchical. The Conceptual, Logical, Physical hierarchy is one example where the Standardization Target Types are information models. Another example would be implementations of OGC API - Features Part 2 that support XML data exchange.
+Standardization Target Types can be hierarchical. The Conceptual, Logical, Physical model hierarchy is one example where the Standardization Target Types are information models. Another example would be implementations of OGC API - Features Part 2 that support XML data exchange.
 
 The Standardization Target Types, Standardization Targets, and Standardization Goal provide a well-defined context for the standard.  
 This will help users of standards to quickly understand the scope of a standard and to select those standards appropriate for their needs. 
@@ -53,8 +53,9 @@ has no optional components. Since the normative statement of each requirement is
 declared once and is uniquely identified as such, each requirement will be in a clause associated to its requirements class.
 
 Therefore, the ModSpec defines a "requirements class" as a set of requirements that must
-all be passed to achieve a particular conformance class (see
-<<ConformanceClass-definition>>). Each requirements class has a one-to-one correspondence with a conformance class. A standard written to the ModSpec may
+all be passed as per the tests defined in the related conformance class (see
+<<ConformanceClass-definition>>). Each requirements class has a one-to-one correspondence with a conformance class. A standard written to conform with the ModSpec may
+
 use this "module" structure in any manner consistent with the rest of the ModSpec.
 
 A standard may have mandatory and optional requirements classes.  This allows the options
@@ -62,12 +63,6 @@ in the testing procedure to be grouped into non-varying mandatory and optional c
 Each requirement within an optional requirements class is mandatory when that requirements class is
 implemented. When needed, a particular requirements class may contain only a single
 requirement.
-
-However, care must be taken, since the requirements classes may not always in a one-to-one
-correspondence to conformance classes in other standards which may be the source of
-requirements for a standard conformant to the ModSpec. If other standards are
-used, their options shall be specified to be useable within a standard conformant to
-the ModSpec, see <<cls-6-5-1>>.
 
 Conformance classes may contain dependencies on one another. These are represented by
 tests in one conformance class that state that another conformance class must be
@@ -106,7 +101,7 @@ the numbered Clauses.
 . All requirements are identifiable as requirements. 
 . All requirements in a document are uniquely numbered.
 . All tests for conformance to those requirements are defined in the Conformance Test Suite.
-. Tests are be grouped for convenience into conformance test classes and if desired the classes are grouped into conformance test modules.
+. Tests are grouped for convenience into conformance test classes and if desired the classes are grouped into conformance test modules.
 . The tests, if conducted, determine to some degree of certainty whether an
 implementation meets the requirements which the tests reference.
 . The tests are organized into some number of conformance "classes" where each conformance class has a one to one relationship with a requirements class. If a standard

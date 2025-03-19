@@ -53,6 +53,7 @@ See <<Clause_Critical>> for more information on critical changes and
 | GitHub | 15  | A | References | Updated dates and provide references to most recent versions of each of the referenced standards. | Completeness and accuracy
 | Other| NA  | A | Terms & Defs | Reorganized T&Ds into logical groupings | Clarity
 | GitHub| 45, 59  | A | Terms & Defs | Added concept `building block` definition for OGC wide use. | Completeness
+| Other| NA  | A | Terms & Defs | Added `part` because concept not defined | Completeness and Clarity
 | GitHub| 34  | A | Terms & Defs | Added `permission` because was a note but should be a separate T&D entry | Clarity
 | Other| NA  | A | Terms & Defs | Added `module` because was never defined in ModSpec v 1.0!| Clarity and completeness 
 | Other| NA  | A | Terms & Defs | `will` defined in old ModSpec body but now a separate T&D entry | Completeness and clarity

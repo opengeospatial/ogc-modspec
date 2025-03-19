@@ -1,11 +1,14 @@
 [.preface]
 == Abstract
 
-This OGC ModSpec Policy specifies requirements and guidance for using the OGC ModSpec Standard as the formal structure for all OGC standards documents. This OGC member Policy mandates using the ModSpec model and related requirements and recommendations for writing and structuring modular OGC standards. Further, this Policy mandates that every OGC Implementation Standard will provide an Abstract Test Suite (conformance suite)  designed to enable the consistent and verifiable testing of implementations of an OGC Standard that claim conformance.
+This OGC ModSpec Policy specifies requirements and guidance for using the OGC ModSpec Standard as the formal structure for all OGC standards documents. 
+This OGC member Policy mandates using the ModSpec model and related requirements and recommendations for writing and structuring modular OGC standards. 
+Further, this Policy mandates that every OGC Implementation Standard will provide an Abstract Test Suite (conformance suite)  designed to enable the consistent 
+and verifiable testing of implementations of an OGC Standard that claim conformance.
 
-For OGC Standards work, the word “standard” in the ModSpec applies to all OGC draft standards, approved standards, draft Abstract Specifications, and approved Abstract Specifications. The exceptions are OGC Abstract Specifications that originate in ISO or Community Standards that are developed external to the OGC and then submitted to the OGC.
+For OGC Standards work, the word “standard” in the ModSpec applies to all OGC draft standards, approved standards, draft Abstract Specifications, and approved Abstract Specifications. The exceptions are OGC Abstract Specifications that originate in ISO or Community Standards that are developed external to the OGC process and then submitted to the OGC.
 
-The goal of this Policy is to ensure that a standard specifies requirements in a common and consistent manner and that these requirements are testable.
+The goal of this Policy is to ensure that an OGC standard specifies requirements in a common and consistent manner and that these requirements are testable.
 
 NOTE: For the purposes of this OGC ModSpec Policy document, all the terms and definitions in the ModSpec Core document apply to this Policy document.
 
@@ -17,9 +20,8 @@ requirements, mimicking implementation structure and maximizing usability and
 interoperability. 
 
 Part 1 of the ModSpec defines the requirements for using UML. 
-The use case is if the organizing mechanism for the data model 
-used in a standard is an object model, then the mapping from parts of the model to 
-the requirements classes should follow the logical mechanism described in Part 1 of the ModSpec.
+The UML extension is if the organizing mechanism for the data model used in a standard is an object model. Then the mapping from parts of the 
+model to the requirements classes should follow the logical mechanism described in Part 1 of the ModSpec.
 
 Part 2 of the ModSpec defines the requirements for using XML. The XML related requirements classes 
 cover any standard which has as one of its purposes the introduction of a new XML schema. 

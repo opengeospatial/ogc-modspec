@@ -1,0 +1,10 @@
+[[per-1]]
+
+[permission]
+====
+[%metadata]
+identifier:: /per/core/informational-content-in-core
+part:: The informational and structural universals of the standard _MAY_ be included in the core text of the standard without violations of the ModSpec. 
+This is true if the requirements of the extension are not implicit in what is included in the core.
+Part:: The core _MAY_ contain the definition and schema of commonly used terms and data structures for use in other components and/or structures throughout the standard.
+====

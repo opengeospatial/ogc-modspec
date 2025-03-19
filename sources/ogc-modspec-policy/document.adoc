@@ -3,9 +3,9 @@
 :docsubtype: policy
 :status: Draft
 :committee: technical
-:docnumber: 24-xxx
+:docnumber: 25-001
 :edition: 1.1.0
-:received-date: 2025-01-27
+:received-date: 2025-03-17
 :issued-date: xxxx-xx-xx
 :published-date: xxxx-xx-xx
 :copyright-year: 2025

@@ -5,7 +5,7 @@
 // [.boilerplate]
 // === {blank}
 
-While the ModSpec references UML, SQL and XML, and their technical specifications,
+While the ModSpec references UML, SQL, JSON, and XML, and their technical specifications,
 no requirements are derived from these documents. While this document
 may be applied to extensions of those standards, conformance to them is the purview
 of those standards, not the ModSpec.
@@ -18,6 +18,8 @@ supplied definitions used in this document.
 * [[[iso-dp2,ISO/IEC DIR 2]]], available at https://www.iso.org/sites/directives/current/part2/index.xhtml[ISO/IEC Directives, Part 2: Rules for the structure and drafting of International Standards]
 
 * [[[iso19105:2022,ISO 19105:2022]]], Geographic information — Conformance and testing
+
+* [[[ogc-modspec,OGC 08-131r3]]], https://portal.ogc.org/files/?artifact_id=34762[The Specification Model — A Standard for Modular specifications]
 
 * [[[omg-infrastructure,OMG UML/2.5/Infrastructure]]], OMG Unified Modeling Language (OMG UML), Infrastructure, V2.5, OMG Document Number: formal/2015-03-01, Standard document URL: https://www.omg.org/spec/UML/2.5
 

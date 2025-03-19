@@ -11,7 +11,7 @@ The goals of using the ModSpec are:
 - To define characteristics and a structure for the development of modular standards which will minimize the difficulty in writing testable standards while maximizing usability and interoperability.
 - To ensure that a standard specifies requirements in a common and consistent manner and that these requirements are testable.
 
-NOTE: Historically, this document has been known and abbreviated as the "ModSpec". For continuity and ease of understanding this document may also be referred to as the "OGC ModSpec".
+NOTE: Historically, this document has been known and abbreviated as the "ModSpec". For continuity and ease of understanding this document is also be referred to as the "OGC ModSpec".
 
 Suggested additions, changes, and comments on this document are welcome and
 encouraged. Such suggestions may be submitted by creating an issue in the 
@@ -59,7 +59,7 @@ This is the second normative version of this document.
 [.preface]
 == Future work
 
-This version of the ModSpec restructures the document into a multi-part standard. This document is Part 1 - the core. 
+This version of the ModSpec restructures the document into a multi-part standard. This document is Part 1 - Core. 
 It provides a technology agnostic model for modular standards. Future "parts" will be specific for different technologies. Planned extensions include:
 
 - ModSpec Part providing requirements and recommendations for specifying requirements and conformance tests using RDFS, SHACL, and OWL.

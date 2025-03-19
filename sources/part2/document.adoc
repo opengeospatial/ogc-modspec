@@ -5,10 +5,10 @@
 :committee: technical
 :docnumber: 24-066
 :edition: 1.1.0
-:received-date: 2024-12-15
+:received-date: 2025-05-25
 :issued-date: xxxx-xx-xx
 :published-date: xxxx-xx-xx
-:copyright-year: 2024
+:copyright-year: 2026
 :fullname: Carl Reed
 :role: editor
 :fullname_2: John Herring

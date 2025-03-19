@@ -8,7 +8,7 @@ conformance test class.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
-. Reference: <<req-28>>
+. Reference: <<req-01>>
 . Test Type: Conformance.
 
 === The UML model is normative
@@ -19,7 +19,7 @@ to formally explain the standard in a model.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
-. Reference: <<req-29>>
+. Reference: <<req-02>>
 . Test Type: Conformance.
 
 === Dependency graph must be explicit
@@ -30,7 +30,7 @@ those of other packages.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
-. Reference: <<req-30>>
+. Reference: <<req-03>>
 . Test Type: Conformance.
 
 === Leaf packages in only one requirements class
@@ -39,7 +39,7 @@ A UML leaf package shall be associated directly to only one requirements class.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
-. Reference: <<req-31>>
+. Reference: <<req-04>>
 . Test Type: Conformance.
 
 === Requirements class associated to a unique package
@@ -50,7 +50,7 @@ subpackages.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
-. Reference: <<req-32>>
+. Reference: <<req-05>>
 . Test Type: Conformance.
 
 === A requirements class contains complete leaf packages
@@ -60,7 +60,7 @@ and all classes and constraints in those packages.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
-. Reference: <<req-33>>
+. Reference: <<req-06>>
 . Test Type: Conformance.
 
 === Classes common to all requirement classes are in the core
@@ -70,7 +70,7 @@ to the core conformance/requirements class.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
-. Reference: <<req-34>>.
+. Reference: <<req-07>>.
 . Test Type: Conformance.
 
 === Package dependencies become requirements class extensions
@@ -81,7 +81,7 @@ extension of the target package's class.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
-. Reference: <<req-35>>.
+. Reference: <<req-08>>.
 . Test Type: Conformance.
 
 === Dependencies in packages are reflected in dependencies in requirements classes
@@ -92,7 +92,7 @@ the second.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
-. Reference: <<req-36>>.
+. Reference: <<req-09>>.
 . Test Type: Conformance.
 
 === Co-dependent packages are in the same requirements class
@@ -102,7 +102,7 @@ associated to the same requirements class.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
-. Reference: <<req-37>>
+. Reference: <<req-10>>
 . Test Type: Conformance.
 
 === All classes are in leaf packages
@@ -111,5 +111,5 @@ The UML model shall segregate all classes into leaf packages.
 
 . Test Purpose: Verify that this requirement is satisfied.
 . Test Method: Inspect the document to verify the above.
-. Reference: <<req-38>>
+. Reference: <<req-11>>
 . Test Type: Conformance.

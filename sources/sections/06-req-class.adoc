@@ -11,26 +11,21 @@ All the requirements specified in this ModSpec core comprise the ModSpec Core Re
 
 The following requirement states that every requirement in a standards document is associated with one and only one requirements class(es).
 
-[[req-0]]
-[width="90%",cols="2,6a"]
-|===
-^|*Requirement 0* |*/req/core/reqs-are-in-class*
-^|A |Each requirement in a standard _SHALL_ be associated with a requirements class.
-|===
+include::../requirements/core/REQ028_reqs-are-in-class.adoc[]
 
 There may be one or more requirements in a requirements class. 
 
 The following requirement states that every requirement is testable.
 
 [[req-1]]
-include::../requirements/core/REQ1_testable.adoc[]
+include::../requirements/core/REQ001_testable.adoc[]
 
 Therefore, by definition, any requirements class that contains the requirement that failed to pass also fails to pass.
 
 The following requirement states that every component of a standard will have a unique identifier
 
 [[req-2]]
-include::../requirements/core/REQ2_assigned-uri.adoc[]
+include::../requirements/core/REQ002_assigned-uri.adoc[]
 
 The following recommendation encourages the consistent use of these unique identifiers/labels in the standard 
 as well as any external documentation referencing that standard.
@@ -38,48 +33,21 @@ as well as any external documentation referencing that standard.
 [[rec-1]]
 include::../recommendations/core/REC001_uri-external-use.adoc[]
 
-While a requirement may be referenced in more than one place in a standard, the normative definition of a requirement shall be its "*#home#*" (see <<cls-6-3>>) and
+While a requirement may be referenced in more than one place in a standard, the normative definition of a requirement is its "*#home#*" (see <<cls-6-3>>) and
 will be the only place where full normative language is used.
 
-The following permissions relate to possible content specified in the core of a standard.
-
-[[per-1]]
-[permission,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*PER001* | */per/core/informational-content-in-core* +
-The informational and structural universals of the standard _MAY_ be included in the
-core text of the standard without violations of the ModSpec. This is
-true if the requirements of the extension are not implicit in what is
-included in the core.
-|===
-
-In this manner, the core requirements class and its associated content can be
+The following permissions relate to possible content specified in the core of a standard. In this manner, the core requirements class and its associated content can be
 thought of not only as the requirements of the core conformance class, but as a form
-of reference model for establishing core vocabularies and schemas for the entire
-standard.
+of reference model for establishing core vocabularies and schemas for the entire standard.
 
-[[per-2]]
-[permission,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*PER002* | */per/core/core-may-contain-schema-terms* +
-The core _MAY_ contain the definition and schema of commonly used terms and data
-structures for use in other components and/or structures throughout the standard.
-|===
+include::../permissions/core/PER001_informational-content.adoc[]
 
 The following states how and where vocabularies are specified in relation to a requirements class.
 
 [[req-3]]
 include::../requirements/core/REQ3_vocabulary.adoc[]
 
-[[per-4]]
-[permission,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*PER004* | */per/core/external-vocabs-core* +
-Importation of external vocabularies and schemas _MAY_ be in the core of a standard.
-|===
+include::../permissions/core/PER002_external-vocabs-core.adoc[]
 
 [example]
 ====
@@ -95,7 +63,7 @@ class in which the request-response pair is defined and set against requirements
 
 The primary difficulty in speaking about standards (or candidate
 standards) as a group is their diverse
-nature. Some standards use UML to define behavior, others use XML to define data
+nature. Some standards use UML to define behavior, others use XML or JSON to define data
 structures, and others use no specific modeling language at all. However, they all
 must model the standardization target type to which they apply since they need to use
 unambiguous language to specify requirements. Thus, the only thing they have in
@@ -128,16 +96,9 @@ This means that all requirements are considered as targeting the same entity bei
 tested for a particular certificate of conformance. The test may specify other types
 as intermediaries or indirect dependencies (see <<IndirectDependency-definition,indirect dependency>> of-a-requirements-class).
 
-[[per-5]]
-[permission,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*PER005* | */per/core/repeated-requirements* +
-If needed, a requirement _MAY_ be repeated word for word in another requirement up
-to but not including the identification of the standardization target type. 
-|===
+include::../permissions/core/PER003_repeated-requirements.adoc[]
 
-This second statement will be in a separate requirements class, since it will have a
+A repeated requirement will be in a separate requirements class. This is because it will have a
 separate standardization target and thus belong to the requirements to be tested by
 a separate conformance class. For example, in a service interface, a standard
 may be written that requires both the client and server to use a particular language
@@ -145,17 +106,12 @@ for data transmission. Since the client and server are different standardization
 targets types (except in some special circumstances), they will have different
 conformance test classes.
 
-One solution is to state the requirement twice, once for each target. The most
-common alternative is to introduce a new "superclass". 
+One solution is to state the requirement twice, once for each target. An
+alternative is to introduce a new "superclass". 
 
-[[per-6]]
-[permission,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*PER006* | */per/core/abstract-superclass* +
-The standard _MAY_ introduce an abstract superclass of all affected standardization target types and
-use this for the requirements common to all of the affected target types. This is diagrammed in <<fig-6-1>>.
-|===
+include::../permissions/core/PER004_abstract-superclass.adoc[]
+
+An example is provided below.
 
 [[fig-6-1]]
 .Abstract superclass example
@@ -171,7 +127,7 @@ image::../images/img01.png[]
 [[cls-8-3]]
 ==== The "standards" document
 
-Each standard document is comprised of a set of requirements and their associated conformance tests. 
+Each standards document is comprised of a set of requirements and their associated conformance tests. 
 Requirements are grouped into requirements classes. Each requirements class is contained within one section/clause in a standards document.
 
 [[req-6]]
@@ -183,9 +139,9 @@ is the same as the sequence of conformance tests and conformance classes in the 
 [[req-7]]
 include::../requirements/core/REQ7_requirements-test-suite-structure.adoc[]
 
-If two requirements are in the same requirments class, they should be tested in the same conformance
+If two requirements are in the same requirements class, they should be tested in the same conformance
 class in the conformance suite. Each requirement is separately identifiable
-either by a label as is done in the ModSpec.
+either by a unique label and/or identifier as is done in the ModSpec.
 
 In summary, the structure of the requirements and requirements classes of the model
 should be reflected in the organization of the conformance tests and classes, and
@@ -202,14 +158,10 @@ type of suite) description of a test to be performed on each candidate conforman
 implementation, to determine if it meets a well-defined set of requirements as
 stated in the normative clauses of the standards document.
 
-NOTE: The Test Suite is normative in the sense that it describes the tests to be
+NOTE: The Conformance Test Suite is normative in the sense that it describes the tests to be
 performed to pass conformance, but it specifies no requirements in any other sense.
 The requirements are specified in the body of the standard. The test suite
 only describes in detail how those requirements should be tested.
-
-In each of the profiles defined in the Clauses to follow, some set of entities,
-types, elements, or objects are defined and segregated into implementation
-requirements classes.
 
 [[req-8]]
 include::../requirements/core/REQ8_requirements-correspondence.adoc[]
@@ -231,13 +183,7 @@ that exactly the same tests have been conducted. Standards documents may use
 recommendations for such options, but the conformance test classes do not test
 recommendations.
 
-[[per-7]]
-[permission,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*PER007* | */per/core/conf-class-paramterized* +
-A Conformance class _MAY_ be parameterized.
-|===
+include::../permissions/core/PER005_conf-class-paramterized.adoc[]
 
 This means that the class's tests
 depend on some parameter that must be defined before the tests can be executed. This can
@@ -246,7 +192,7 @@ be thought of as an "if-then-else" decision tree.
 For example, if a conformance class needs to apply tests against a specific data format, such as GML or
 KML, then XYZ(GML) is XYZ using GML, and XYZ(KML) is XYZ using KML.
 Because the parameters choose which requirements will be tested, two conformance
-classes with distinct parameters should be considered as distinct conformance
+tests with distinct parameters should be considered as distinct conformance
 classes.
 
 The most common parameters are the identities of indirect dependencies. For example,
@@ -290,7 +236,7 @@ Requirements classes may be optional as a whole, but not piecemeal. This means t
 every implementation that passed a particular conformance class satisfies exactly
 the same requirements and passes exactly the same conformance tests. Differences
 between implementations will be determined by which conformance test classes are
-passed, not by listing of which options within a class were tested. If a
+passed, not by a listing of which options within a class were tested. If a
 standard's authors wish to make a particular requirement optional, <<req-9>>
 forces them to include it in a separate requirements class (and therefore in a
 separate conformance test class) which can be left untested.
@@ -303,7 +249,7 @@ care must be taken in importing conformance test classes from other standards.
 include::../requirements/core/REQ13_imported-requirements-class.adoc[]
 
 The tracking of the parallelism between requirements and tests should be easy if the
-standards document is non-ambiguous. To insure this, by utilizing the names of the two types of classes the following requirement places a
+standards document is non-ambiguous. To ensure this, by utilizing the names of the two types of classes, the following requirement places a
 default mapping between the two.
 
 [[req-14]]
@@ -333,7 +279,7 @@ standard will be tested in some conformance class. In the best example, a
 requirement should be contained explicitly in one and only one requirements class
 and tested in one and only one conformance class. This is not really a requirement
 here, since a single requirement can be stated twice in different requirements
-classes.
+classes with different standardization target types.
 
 [[req-16]]
 include::../requirements/core/REQ16_co-dependent-requirements.adoc[]
@@ -355,9 +301,9 @@ states simply that conformance classes and their associated requirements classes
 be put in a one-to-one correspondence to a fully modular implementation of the
 complete standard (at least against a single
 standardization target). Implementors who wish to sacrifice modularity for some
-other benefit can still do what they want; the requirement here only states that if
+other benefit can still do what they want. The requirement here only states that if
 the software requirements classes are properly separated, they can be implemented in
-a "plug'n'play" fashion.
+a plug and play fashion.
 
 
 [[req-18]]
@@ -370,12 +316,12 @@ of the original.
 In terms of generalization, subclassing, extension and restriction (into a new class
 or type) are all acceptable, redefinition (of an old class or type) is not.
 
-<<cls-8-3>> makes some pointed suggestion as to how to organize the conformance
+<<cls-8-3>> makes suggestions as to how to organize the conformance
 classes and normative clauses in parallel to make this requirement easier to verify.
 
 Most standards include examples, which are useful for illustrative or pedagogical
 purposes. However, it is not possible to write a standard "by example" that
-leads to conformance tests. Examples are therefore non-normative, by definition.
+supports conformance testing. Examples are therefore non-normative, by definition.
 
 
 [[cls-6-5-3]]
@@ -415,21 +361,13 @@ include::../recommendations/core/REC004-simple-core.adoc[]
 The following enables the development and documentation of anstract standards. Examples of such standards are the OGC Abstract Specification.
 Typically, an abstract standard cannot be directly implemented.
 
-[[per-8]]
-[permission,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*PER008* | */per/core/core-type* +
-The core _MAY_ be partially or totally abstract.
-|===
+include::../permissions/core/PER006_core-type.adoc[]
 
-[[per-9]]
-[permission,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*PER009* | */per/core/req-class-another-standard* +
-The core requirements class _MAY_ be a conformance class in another standard.
-|===
+The following enables the ability of the standard being developed and then implemented to reference, as normative, conformance classes from another standard. 
+An example in the OGC would be OGC API - Records Standard core referencing conformance classes defined in the OGC API - Common Standard. By definition
+these externally defined conformance classes need to be passed in order to claim compliance.
+
+include::../permissions/core/PER007_req-class-another-standard.adoc[]
 
 [[rec-5]]
 include::../recommendations/core/REC005-optional-tests.adoc[]
@@ -438,14 +376,7 @@ Since the core requirements class is contained (as a direct dependency) in each
 other requirements class with a similar standardization target type, the general
 recommendations are thus universal to all requirements classes. 
 
-[[per-10]]
-[permission,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*PER010* | */per/core/core-maybe-recommendations* +
-Since the basic concept of some standards is mechanism not implementation, the core _MAY_ contain only
-recommendations, and include no requirements.
-|===
+include::../permissions/core/PER008_core-maybe-recommendations.adoc[]
 
 NOTE: In most cases, if someone feels the need to define a "simple" version of the
 standard, it is probably a good approximation of the best core. For example, the

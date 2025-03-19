@@ -50,14 +50,16 @@ OMG:: Object Management Group (http://www.omg.org/)
 === Finding requirements and recommendations
 
 Each normative statement in the ModSpec is stated in one and only one place,
-in a standard format, with an unique label, such as REQ001, REC001, or PER001. A requirement, recommendation, or permission may be repeated for clarification. 
+in a standard format, with a unique label, such as REQ001, REC001, or PER001. A requirement, recommendation, or permission may be repeated for clarification. 
 The statement with the unique label is considered the official statement of the normative requirement or recommendation. 
 
 In this document, all requirements are associated with tests specified in the test suite
-in <<annex-A>>. The reference to the requirement in the test case is done by a
-requirements label. Recommendations and permissions are not tested although they still are documented using a standard template and have unique identifiers.
 
-Requirements classes are separated into their own clauses and named, and specified
+in <<annex-A>>. The reference to the requirement in the conformance test is done by a
+requirements label and/or unique identifier. Recommendations and permissions are not tested although 
+they should still be documented using a standard template and have unique labels and/or identifiers.
+
+Requirements classes are separated into their own clauses and named and specified
 according to inheritance (direct dependencies). The Conformance test classes in the
 test suite are similarly named to establish an explicit and link between
 requirements classes and conformance test classes.

@@ -34,24 +34,13 @@ The same convention is used for permissions (per) and recommendations (rec).
 
 === Abbreviations
 
-In this document the following abbreviations and acronyms are used or introduced:
-
-ERA:: Entity, Relation, Attribute (pre-object modeling technique)
-ISO:: International Organization for Standardization (from Greek for "same")
-OGC:: Open Geospatial Consortium (http://www.opengeospatial.org/)
-OOP:: Object Oriented Programming
-OOPL:: OOP Language (such as C++ or Java)
-TC:: Technical Committee (usually either in ISO or OGC)
-UML:: Unified Modeling Language (an object modeling language)
-XML:: eXtensible Markup Language
-OMG:: Object Management Group (http://www.omg.org/)
-OCL:: Object Constraint Language (part of UML)
+This document uses the same abbreviations and acronyms as defined in the ModSpec Core Standard
 
 [[cls-5-3]]
 === Finding requirements and recommendations
 
 Each normative statement in the ModSpec Part 2 Standard is stated in one and only one place,
-in a standard format, and with an unique label, such as REQ001, REC001, or PER001. A requirement, recommendation, or permission may be repeated for clarification. 
+in a standard format, and with a unique label, such as REQ001, REC001, or PER001. A requirement, recommendation, or permission may be repeated for clarification. 
 The statement with the unique label is considered the official statement of the normative requirement or recommendation. 
 
 In this document, all requirements are associated with tests specified in the test suite

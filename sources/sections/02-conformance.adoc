@@ -2,9 +2,9 @@
 == Conformance
 
 Conformance to the ModSpec by a modular standard 
-can be tested by inspection. The test suite is in <<annex-A>>.
+can be tested by inspection. The test suite is provided in <<annex-A>>.
 
-Part 1 of the ModSpec (this document) has one requirements class and one related conformance class:
+Part 1: Core of the ModSpec (this document) defines one requirements class and one related conformance class:
 
 * The Core: Common requirements for specifying standards documents. See <<cls-8>> and <<annex-A-1>>
 
