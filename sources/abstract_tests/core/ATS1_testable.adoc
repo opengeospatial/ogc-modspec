@@ -4,7 +4,6 @@
 [%metadata]
 identifier:: /conf/core/reqs-are-testable
 target:: /req/core/reqs-are-testable
-test-purpose:: Validate that all the parts of a requirement _SHALL_ be testable and that Failure to pass any part of a requirement _SHALL_ be a failure to pass the associated conformance test.
-Test Method:: Inspect the document to verify the above.
-Test Type:: Conformance
+test-purpose:: Validate that all the parts of a requirement are testable and that Failure to pass any part of a requirement is also a failure to pass the associated conformance test.
+test-method:: Inspect the document to verify the above.
 ====

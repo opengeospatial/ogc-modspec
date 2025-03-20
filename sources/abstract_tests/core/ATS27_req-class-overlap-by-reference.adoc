@@ -4,7 +4,6 @@
 [%metadata]
 identifier:: /conf/core/req-class-overlap-by-reference
 target:: /req/core/req-class-overlap-by-reference
-test-purpose:: Validate that the common portion of any two requirements classes _SHALL_ consist only of references to other requirements classes.
-Test Method:: Inspect the document to verify the above.
-Test Type:: Conformance
+test-purpose:: Validate that the common portion of any two requirements classes consist only of references to other requirements classes.
+test-method:: Inspect the document to verify the above.
 ====

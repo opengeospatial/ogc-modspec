@@ -4,7 +4,6 @@
 [%metadata]
 identifier:: /conf/core/no-optional-tests
 target:: /req/core/no-optional-tests
-test-purpose:: Validate that a conformance class _SHALL_ not contain any optional conformance tests.
-Test Method:: Inspect the document to verify the above.
-Test Type:: Conformance
+test-purpose:: Validate that a conformance class does not contain any optional conformance tests.
+test-method:: Inspect the document to verify the above.
 ====

@@ -4,7 +4,6 @@
 [%metadata]
 identifier:: /conf/core/structure-requirements-classes
 target:: /req/core/structure-requirements-classes
-test-purpose:: Validate that there _SHALL_ be a natural structure to the requirements classes so that each may be implemented on top of any implementations of its dependencies and independent of its extensions.
-Test Method:: Inspect the document to verify the above.
-Test Type:: Conformance
+test-purpose:: Validate that there is a natural structure to the requirements classes so that each may be implemented on top of any implementations of its dependencies and independent of its extensions.
+test-method:: Inspect the document to verify the above.
 ====

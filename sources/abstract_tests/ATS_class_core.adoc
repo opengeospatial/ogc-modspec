@@ -2,10 +2,9 @@
 [conformance_class]
 ====
 [%metadata]
-identifier:: https://www.opengis.net/spec/modspec-1/2.0/conf/core
-target:: https://www.opengis.net/spec/modspec-1/2.0/req/req-class-core
+identifier:: https://www.opengis.net/spec/modspec-1/1.1/conf/conf-class-core
+target:: https://www.opengis.net/spec/modspec-1/1.1/req/req-class-core
 classification:: Target Type: Modular Standard
-abstract-test:: /conf/core/reqs-are-in-class
 abstract-test:: /conf/core/reqs-are-testable
 abstract-test:: /conf/core/all-components-assigned-uri
 abstract-test:: /conf/core/vocabulary-and-parent-req-class
@@ -26,12 +25,13 @@ abstract-test:: /conf/core/structure-requirements-classes
 abstract-test:: /conf/core/requirements-and-dependencies
 abstract-test:: /conf/core/profile-conformance
 abstract-test:: /conf/core/core-requirements-separate
-abstract-test:: /conf/core/requirements-and-dependencies-2
-abstract-test:: /conf/core/requirements-and-dependencies-3
+abstract-test:: /conf/core/general-recommendations-core
+abstract-test:: /conf/core/req-class-not-core-stt-subtype-of-core
 abstract-test:: /conf/core/core-and-extensions
 abstract-test:: /conf/core/extensions-conformant-to-the-modspec
 abstract-test:: /conf/core/restriction-of-extensions
 abstract-test:: /conf/core/optional-requirements
 abstract-test:: /conf/core/req-class-overlap-by-reference
+abstract-test:: /conf/core/reqs-are-in-class
 ====
 

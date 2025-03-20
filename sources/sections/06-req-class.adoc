@@ -6,6 +6,8 @@ This clause specifies the requirements, recommendations, and permissions for the
 This collection of requirements, recommendations, and permissions are also known as the `core` of the ModSpec. 
 All the requirements specified in this ModSpec core comprise the ModSpec Core Requirements Class. 
 
+include::../requirements/requirements_class_core.adoc[]
+
 [[cls-8-1]]
 === General Requirements
 
@@ -440,7 +442,6 @@ This implies that each requirement is directly in exactly one requirements class
 all references to that requirement from another requirements class must include its
 complete "home" requirements class. This means that requirements for dependencies
 will often result in conformance test cases which require the execution of the
-dependency conformance class. See for example <<annex-A-2-1>>.
 
 NOTE: All general recommendations are in the core requirements class. The core
 conformance test class contains tests that all other conformance classes must pass.

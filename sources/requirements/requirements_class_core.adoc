@@ -1,13 +1,38 @@
-[[req_class_a]]
-
+[[req_class-core]]
 [requirements_class]
-.Requirements Class 'A'
+.Requirements Class 'Core'
 ====
 [%metadata]
-identifier:: http://www.opengis.net/spec/ABCD/m.n/req/req-class-a
-subject:: Web API
-requirement:: /req/req-class-a/req-name-1
-requirement:: /req/req-class-a/req-name-2
+identifier:: http://www.opengis.net/spec/modspec-1/1.1/req/req-class-core
+subject:: Modular Standard
+requirement:: /req/core/reqs-are-testable
+requirement:: /req/core/all-components-assigned-uri
+requirement:: /req/core/vocabulary-and-parent-req-class
+requirement:: /req/core/single-standardization-target-type
+requirement:: /req/core/test-class-single-standardization-target-type
+requirement:: /req/core/requirements-grouped
+requirement:: /req/core/requirements-test-suite-structure
+requirement:: /req/core/requirements-class-correspondence-to-conformance-classes
+requirement:: /req/core/no-optional-tests
+requirement:: /req/core/all-parameters-expressed
+requirement:: /req/core/conf-class-single-req-class
+requirement:: /req/core/con-class-dependencies
+requirement:: /req/core/imported-requirements-class
+requirement:: /req/core/all-classes-explicitly-named
+requirement:: /req/core/req-in-only-one-req-class
+requirement:: /req/core/co-dependent-requirements
+requirement:: /req/core/structure-requirements-classes
+requirement:: /req/core/requirements-and-dependencies
+requirement:: /req/core/profile-conformance
+requirement:: /req/core/core-requirements-separate
+requirement:: /req/core/general-recommendations-core
+requirement:: /req/core/req-class-not-core-stt-subtype-of-core
+requirement:: /req/core/core-and-extensions
+requirement:: /req/core/extensions-conformant-to-the-modspec
+requirement:: /req/core/restriction-of-extensions
+requirement:: /req/core/optional-requirements
+requirement:: /req/core/req-class-overlap-by-reference
+requirement:: /req/core/reqs-are-in-class
 ====
 
 

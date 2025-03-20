@@ -1,0 +1,9 @@
+[[ats_req-class-not-core-stt-subtype-of-core]]
+[abstract_test]
+====
+[%metadata]
+identifier:: /conf/core/req-class-not-core-stt-subtype-of-core
+target:: /req/core/req-class-not-core-stt-subtype-of-core
+test-purpose:: Validate that every requirements class in a standard, with the exception of the core, has a standardization target type which is a subtype of that of the core. And that every requirement class, with the exception of the core, has the core as a direct dependency.
+test-method:: Inspect the document to verify the above.
+====

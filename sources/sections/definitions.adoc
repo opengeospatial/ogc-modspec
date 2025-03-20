@@ -10,7 +10,7 @@ a <<Specification-definition,specification>> that has been approved by a legitim
 
 ==== BuildingBlock
 
-a <<RequirementsClass-definition,requirements class>> or a <<RequirementsModule-definition,requirements module>> with no direct dependencies on other requirements classes or modules and their associated <<ComplianceClass-definition,compliance test class>> or <<ComplianceModule-definition,compliance test module>>. 
+a <<RequirementsClass-definition,requirements class>> or a <<RequirementsModule-definition,requirements module>> with no direct dependencies on other requirements classes or modules and their associated <<ConformanceClass-definition,conformance test class>> or <<ConformanceModule-definition,conformance test module>>. 
 
 [[InformativeStatement-definition]]
 

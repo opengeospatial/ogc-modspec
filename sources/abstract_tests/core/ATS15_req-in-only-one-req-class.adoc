@@ -4,7 +4,6 @@
 [%metadata]
 identifier:: /conf/core/req-in-only-one-req-class
 target:: /req/core/req-in-only-one-req-class
-test-purpose:: Validate that each requirement in the standard _SHALL_ be contained in one and only one requirements class. And that Inclusion of any requirement in a requirements class by a conformance class _SHALL_ imply inclusion of all requirements in its class (as a dependency).
-Test Method:: Inspect the document to verify the above.
-Test Type:: Conformance
+test-purpose:: Validate that each requirement in the standard is contained in one and only one requirements class. And that Inclusion of any requirement in a requirements class by a conformance class implies inclusion of all requirements in its class (as a dependency).
+test-method:: Inspect the document to verify the above.
 ====

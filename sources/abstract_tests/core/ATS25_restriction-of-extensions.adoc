@@ -4,7 +4,6 @@
 [%metadata]
 identifier:: /conf/core/restriction-of-extensions
 target:: /req/core/restriction-of-extensions
-test-purpose:: Validate that a standard conformant to the ModSpec _SHALL_ never restrict in any manner future, logically valid extensions of its standardization target types.
-Test Method:: Inspect the document to verify the above.
-Test Type:: Conformance
+test-purpose:: Validate that a standard conformant to the ModSpec never restricts in any manner future, logically valid extensions of its standardization target types.
+test-method:: Inspect the document to verify the above.
 ====
