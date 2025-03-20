@@ -41,7 +41,7 @@ The following OGC Members participated in editing this document:
 [.preface]
 == Document Contributors
 
-The following OGC Members contributed and particpated in developing Version 1.1 of the ModSpec.
+The following OGC Members contributed and particpated in developing ModSpec Version 1.1 
 
 [%unnumbered]
 |===
@@ -49,6 +49,20 @@ The following OGC Members contributed and particpated in developing Version 1.1 
 | Carl Reed | Carl Reed
 | Chuck Heazel | Charles Heazel
 | Jeff Yutzler | ImageMatters
+|===
+
+[.preface]
+== Document Contributors
+
+The following OGC Members support the ModSpec Version 1.1 submission
+
+[%unnumbered]
+|===
+^h| Organization
+| Carl Reed & Associates |
+| Heazeltech |
+| ImageMatters
+| UK Met Office |
 |===
 
 [.preface]
