@@ -18,7 +18,7 @@ clearly state the standardization goal for the standard or abstract specificatio
 `Scope` clauses of the standard or abstract specification. Please note that a Standard's stated goal is what drove the original development of the standard. 
 However, other uses of a standard or elements of the standard are not precluded.
 
-=== OGC Standards documents must be written using an official OGC template
+=== OGC Standards documents must be written using the official OGC template
 
 - All OGC Standards documents _SHALL_ be written using the OGC Member approved template. This OGC document template _SHALL_ be conformant with the requirements stated in the ModSpec
 
@@ -37,4 +37,15 @@ NOTE: The following is a restricted profile of ModSpec Requirement 2 regarding u
 and conformance test classes _SHALL_ be assigned a unique URI. These URIs _SHALL_ be conformant with the policies of the OGC Naming Authority.
 
 
+=== Additional information relevant to this Policy
+
+Failure of a candidate standard to comply with the OGC ModSpec Policy should be specifically
+noted and reasons given for such non-compliance in the conformance clauses of any
+new or new version of such candidate standards.
+
+The adoption of such documents not compliant with the ModSpec _SHALL_ be
+considered as an authorized exception to the requirements of the ModSpec. An exception
+to the ModSpec will require a Technical Committe vote as specified in the OGC's Policy and Procedures. 
+A similar Planning Committee vote is required as specified
+in any Policy and Procedure document used by this committee.
 
