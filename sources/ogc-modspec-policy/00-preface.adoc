@@ -19,10 +19,12 @@ that will encourage implementation by minimizing difficulty determining
 requirements, mimicking implementation structure and maximizing usability and
 interoperability. 
 
-Part 1 of the ModSpec defines the requirements for using UML. 
+Part 1 of the ModSpec defines the core requirements class and the related recommendations that define the ModSpec core.
+
+Part 2 of the ModSpec defines the requirements for using UML. 
 The UML extension is if the organizing mechanism for the data model used in a standard is an object model. Then the mapping from parts of the 
 model to the requirements classes should follow the logical mechanism described in Part 1 of the ModSpec.
 
-Part 2 of the ModSpec defines the requirements for using XML. The XML related requirements classes 
+Part 3 of the ModSpec defines the requirements for using XML. The XML related requirements classes 
 cover any standard which has as one of its purposes the introduction of a new XML schema. 
 Such a standard would normally define the schema, all of its components, and its intended uses.
