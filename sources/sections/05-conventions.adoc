@@ -54,7 +54,6 @@ in a standard format, with a unique label, such as REQ001, REC001, or PER001. A 
 The statement with the unique label is considered the official statement of the normative requirement or recommendation. 
 
 In this document, all requirements are associated with tests specified in the test suite
-
 in <<annex-A>>. The reference to the requirement in the conformance test is done by a
 requirements label and/or unique identifier. Recommendations and permissions are not tested although 
 they should still be documented using a standard template and have unique labels and/or identifiers.

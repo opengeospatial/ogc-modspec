@@ -61,7 +61,7 @@ class in which the request-response pair is defined and set against requirements
 ====
 
 [[cls-8-2]]
-==== Using the model
+=== Using the model
 
 The primary difficulty in speaking about standards (or candidate
 standards) as a group is their diverse
@@ -119,15 +119,8 @@ An example is provided below.
 .Abstract superclass example
 image::../images/img01.png[]
 
-[[example-6-1]]
-[example]
-.Abstract Superclass
-====
-
-====
-
 [[cls-8-3]]
-==== The "standards" document
+=== The "standards" document
 
 Each standards document is comprised of a set of requirements and their associated conformance tests. 
 Requirements are grouped into requirements classes. Each requirements class is contained within one section/clause in a standards document.
@@ -150,7 +143,7 @@ should be reflected in the organization of the conformance tests and classes, an
 also in the structure of the normative clauses in the specification document.
 
 [[cls-8-4]]
-==== Conformance Test Suite
+=== Conformance Test Suite
 
 The requirements specified in this clause will be applied directly to the test suite, and in particular
 to the conformance classes. By definition, a "test suite" is a collection of
@@ -170,10 +163,11 @@ include::../requirements/core/REQ8_requirements-correspondence.adoc[]
 
 Strict parallelism of implementation and governance is the essence of this standard.
 
-==== Requirements for Modularity
+[[cls-8-5]]
+=== Requirements for Modularity
 
 [[cls-6-5-1]]
-===== Each Conformance class tests a complete requirements class
+==== Each Conformance class tests a complete requirements class
 
 [[req-9]]
 include::../requirements/core/REQ9_no-optional-tests.adoc[]

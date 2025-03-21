@@ -7,7 +7,7 @@ This OGC Standard for Designing and Writing Modular Standards, also known as the
 - Is designed to enable the clear and concise specification of requirements (the _shalls_ or _musts_ in a standard) that fully supports the ability to define implementable conformance tests. 
 - Formalizes implementing the requirements specified in the ModSpec so that reusable, modular standards can be developed.
 
-The standardization goal of the ModSpec is to define characteristics and a structure for the specification of modular and testable Standards 
+The standardization goal of the ModSpec is to define characteristics and a structure for the specification of modular and testable standards 
 that will encourage implementation by minimizing difficulty determining
 requirements, mimicking implementation structure, and maximizing usability and
 interoperability. The ultimate goal of this approach is to enable interoperable implementations of a standard that can be tested and deemed _conformant_ or not.
@@ -21,7 +21,7 @@ Reading the <<cls-4,Terms and Definitions>> clause will help in understanding th
 
 The <<fundamentals,Standards Fundamentals>> clause provides a more detailed introduction to the fundamental concepts used in the creation of this document.  
 
-Also read Annex C. <<annex-C,Annex C>> defines the UML model upon which the ModSpec is
+<<annex-C,Annex C>> of this Standard defines the UML model upon which the ModSpec is
 based. Annex C also contains informal and non-normative definitions ordered for ease
 of understanding. The two sections contained in Annex C should be read first to aid in the understanding of
 the rest of the ModSpec.
@@ -30,14 +30,14 @@ NOTE: Please note that the ModSpec has been approved by the OGC Membership as a 
 
 === ModSpec document structure
 
-Version 2.0 of the ModSpec is split into a Core standard and multiple Parts. These are:
+Version 1.1 of the ModSpec is split into a Core standard and multiple Parts. These are:
 
-- Core: contains all the core requirements and informational text that define the model and internal structure of a standard.
-- Part 1: UML Model requirements 
-- Part 2: XML and Schematron Model requirements 
+- Part 1 - Core: contains all the core requirements and informational text that define the model and internal structure of a standard.
+- Part 2: UML Model requirements 
+- Part 3: XML and Schematron Model requirements 
 
 Future Parts to the ModSpec Standard may include:
 
-- Part 3: RDF/OWL requirements
-- Part 4: JSON Schema
+- Part 4: RDF/OWL requirements
+- Part 5: JSON Schema
 
