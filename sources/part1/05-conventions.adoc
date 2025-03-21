@@ -50,7 +50,7 @@ OCL:: Object Constraint Language (part of UML)
 [[cls-5-3]]
 === Finding requirements and recommendations
 
-Each normative statement in the ModSpec Part 1 Standard is stated in one and only one place,
+Each normative statement in the ModSpec Part 2 - UML Standard is stated in one and only one place,
 in a standard format, and with an unique label, such as REQ001, REC001, or PER001. A requirement, recommendation, or permission may be repeated for clarification. 
 The statement with the unique label is considered the official statement of the normative requirement or recommendation. 
 
