@@ -1,6 +1,6 @@
 == Conformance
 
-Conformance to the ModSpec Part 1: UML by technical implementation standards 
+Conformance to the ModSpec: Part 2 - UML Standard by technical implementation standards 
 can be tested by inspection. The test suite is in <<annex-A>>.
 
 There is one conformance class for this document for:
