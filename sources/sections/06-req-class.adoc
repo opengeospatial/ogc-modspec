@@ -49,16 +49,15 @@ The following states how and where vocabularies are specified in relation to a r
 [[req-3]]
 include::../requirements/core/REQ3_vocabulary.adoc[]
 
+
+[[per-2]]
 include::../permissions/core/PER002_external-vocabs-core.adoc[]
 
-[example]
-====
-In the specification of a metadata service, the Dublin Core concept of a "Title" and
+For example, consider the specification of a metadata service in which the Dublin Core concept of "Title" and
 the XML schema structure used for its specification can be in the core of the service
 specification. How a particular request-response pair uses the data structure to mean
 the title of a particular document or dataset will be specified in the requirements
 class in which the request-response pair is defined and set against requirements.
-====
 
 [[cls-8-2]]
 === Using the model
