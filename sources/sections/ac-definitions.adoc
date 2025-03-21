@@ -60,6 +60,5 @@ against a candidate <<StandardizationTarget-definition,_standardization target_>
 image::img02.png[]
 
 <<fig-C-1,Figure 1>> represents a UML model consistent with the model described
-in <<cls-8-1,Clause 8>> of this document. The following subclauses describe the classes shown in this UML
-class diagram.
+in <<cls-8-1,Clause 8>> of this document. 
 
