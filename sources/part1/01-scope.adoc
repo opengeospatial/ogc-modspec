@@ -3,8 +3,8 @@
 The ModSpec defines characteristics and structure for the specification of Standards 
 that will encourage implementation by minimizing difficulty determining
 requirements, mimicking implementation structure and maximizing usability and
-interoperability. Part 1 of the ModSpec defines the requirement class for using UML. The use case is if the organizing mechanism for the data model 
-used in a standard is an object model, then the mapping from parts of the model to the requirements classes should follow the logical mechanism described in Part 1 of the ModSpec.
+interoperability. This Part 2 of the ModSpec defines the requirement class for using UML. The use case is if the organizing mechanism for the data model 
+used in a standard is an object model, then the mapping from parts of the model to the requirements classes should follow the logical mechanism described in Part 2 of the ModSpec.
 
 [[introduction]]
 === Introduction
@@ -13,7 +13,7 @@ used in a standard is an object model, then the mapping from parts of the model 
 
 The ModSpec Core Standard defines requirements for conformance to the ModSpec, but
 testing for that conformance may depend on how the various forms and parts of a
-conformant standard are viewed. The ModSpec Part 1 Standard specifies how those views
+conformant standard are viewed. The ModSpec Part 2 Standard specifies how those views
 are to be defined as UML. 
 
 As suggested in Clause Requirement 8 of the ModSpec Core, the structure of the normative clauses in a
@@ -26,6 +26,6 @@ parallel.
 
 Version 1.1 of the ModSpec is split into a Core standard and multiple Parts. These are:
 
-- Core: Contains all the core requirements and informational text that define the model and internal structure of a standard.
-- Part 1: UML Model requirements 
-- Part 2: XML Model and Schematron requirements 
+- Part 1: Core: Contains all the core requirements and informational text that define the model and internal structure of a standard.
+- Part 2: UML Model requirements 
+- Part 3: XML Model and Schematron requirements 
