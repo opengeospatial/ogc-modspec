@@ -166,7 +166,7 @@ a set of <<ConformanceTest-definition,conformance tests>> that must be passed to
 NOTE:  When no ambiguity is possible, the word test may be left out, so conformance test class may be called a conformance class. +
 In the ModSpec, the set of <<Requirement-definition,requirements>> tested by the conformance tests within a <<ConformanceClass-definition,conformance class>> is a <<RequirementsClass-definition,requirements class>> and its dependencies. Optional requirements will be in a separate requirements class with other requirements that are part of the same option. Each requirements class corresponds to a separate conformance class +
 Each requirements class will be in a 1 to 1 correspondence to a similarly named conformance class that tests all of the requirements in the requirements class. +
-All requirements in a conformance class will have the same standardization target type.  
+All requirements in a requirements class will have the same standardization target type.  
 
 [[ConformanceModule-definition]]
 
