@@ -4,7 +4,6 @@
 [%metadata]
 identifier:: /conf/core/profile-conformance
 target:: /req/core/profile-conformance
-test-purpose:: Validate that the conformance tests for a profile of a standard _SHALL_ be defined as the union of a list of conformance classes that are to be satisfied by that profile’s standardization targets.
-Test Method:: Inspect the document to verify the above.
-Test Type:: Conformance
+test-purpose:: Validate that the conformance tests for a profile of a standard are defined as the union of a list of conformance classes that are to be satisfied by that profile’s standardization targets.
+test-method:: Inspect the document to verify the above.
 ====

@@ -4,7 +4,6 @@
 [%metadata]
 identifier:: /conf/core/con-class-dependencies
 target:: /req/core/con-class-dependencies
-test-purpose:: Validate that a Conformance class _SHALL_ specify any other conformance class upon which it is dependent and that other conformance class shall be used to test the specified dependency.
-Test Method:: Inspect the document to verify the above.
-Test Type:: Conformance
+test-purpose:: Validate that all conformance classes specify any other conformance class upon which they are dependent and that other conformance class shall be used to test the specified dependency.
+test-method:: Inspect the document to verify the above.
 ====

@@ -4,7 +4,6 @@
 [%metadata]
 identifier:: /conf/core/requirements-and-dependencies
 target:: /req/core/requirements-and-dependencies
-test-purpose:: Validate that no requirements class _SHALL_ redefine the requirements of its dependencies, unless that redefinition is for an entity derived from but not contained in those dependencies.
-Test Method:: Inspect the document to verify the above.
-Test Type:: Conformance
+test-purpose:: Validate that no requirements class redefines the requirements of its dependencies, unless that redefinition is for an entity derived from but not contained in those dependencies.
+test-method:: Inspect the document to verify the above.
 ====

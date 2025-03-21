@@ -4,7 +4,6 @@
 [%metadata]
 identifier:: /conf/core/requirements-class-correspondence-to-conformance-classes
 target:: /req/core/requirements-class-correspondence-to-conformance-classes
-test-purpose:: Validate that the requirements classes _SHALL_ be in a one-to-one correspondence to the conformance test classes, and thus to the various certificate of conformance types possible for a candidate implementation.
-Test Method:: Inspect the document to verify the above.
-Test Type:: Conformance
+test-purpose:: Validate that the requirements classes are in a one-to-one correspondence to the conformance test classes, and thus to the various certificate of conformance types possible for a candidate implementation.
+test-method:: Inspect the document to verify the above.
 ====

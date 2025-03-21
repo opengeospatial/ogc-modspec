@@ -16,11 +16,11 @@ Many of these definitions depend upon the model given in <<annex-C,Annex C: ModS
 
 ==== Building Block
 
-a <<RequirementsClass-definition,requirements class>> or a <<RequirementsModule-definition,requirements module>> with no direct dependencies on other requirements classes or modules and their associated <<ComplianceClass-definition,compliance test class>> or <<ComplianceModule-definition,compliance test module>>. 
+a <<RequirementsClass-definition,requirements class>> or a <<RequirementsModule-definition,requirements module>> with no direct dependencies on other requirements classes or modules and their associated <<ConformanceClass-definition,conformance test class>> or <<ConformanceModule-definition,conformance test module>>. 
 
 [[Dependency-definition]]
 
-==== Dependency
+==== Dependency 
 
 a module (the target) which is used by, produced by, or associated with an implementation of the source module. 
 
@@ -246,7 +246,7 @@ The specification of a requirement is usually expressed in terms of a model of t
 
 ==== Requirements Class
 
-an aggregate of <<Requirement-definition,requirements>> with a single <<StandardicationTargetType-definition,standardization target type>> that must all be satisfied to pass a <<ConformanceClass-definition,conformance test Class>>.
+an aggregate of <<Requirement-definition,requirements>> with a single <<StandardizationTargetType-definition,standardization target type>> that must all be satisfied to pass a <<ConformanceClass-definition,conformance test Class>>.
 
 NOTE:  There is some confusion possible here, since the testing of <<IndirectDependency-definition,indirect dependencies>> seems to violate this definition. But the existence of an indirect dependency implies that the test is actually a test of the existence of the relationship from the original target to something that has a property (satisfies a condition or requirement from another requirements class).  
 

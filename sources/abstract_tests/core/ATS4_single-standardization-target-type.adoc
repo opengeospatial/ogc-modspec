@@ -4,7 +4,6 @@
 [%metadata]
 identifier:: /conf/core/single-standardization-target-type
 target:: /req/core/single-standardization-target-type
-test-purpose:: Validate that each requirement class in a conformant standard _SHALL_ have a single standardization target type.
-Test Method:: Inspect the document to verify the above.
-Test Type:: Conformance
+test-purpose:: Validate that each requirement class in a conformant standard has a single standardization target type.
+test-method:: Inspect the document to verify the above.
 ====

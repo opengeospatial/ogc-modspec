@@ -4,7 +4,6 @@
 [%metadata]
 identifier:: /conf/core/requirements-grouped
 target:: /req/core/requirements-grouped
-test-purpose:: Validate that requirements _SHALL_ be grouped together in clauses (numbered sections) of the document in a strictly hierarchical manner, consistent with requirements classes.
-Test Method:: Inspect the document to verify the above.
-Test Type:: Conformance
+test-purpose:: Validate that requirements are grouped together in clauses (numbered sections) of the document in a strictly hierarchical manner, consistent with requirements classes.
+test-method:: Inspect the document to verify the above.
 ====

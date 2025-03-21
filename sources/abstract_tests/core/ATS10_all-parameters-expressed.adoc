@@ -4,7 +4,6 @@
 [%metadata]
 identifier:: /conf/core/all-parameters-expressed
 target:: /req/core/all-parameters-expressed
-test-purpose:: Validate that a certificate of conformance _SHALL_ specify all parameter values used to pass the tests in its conformance test class.
-Test Method:: Inspect the document to verify the above.
-Test Type:: Conformance
+test-purpose:: Validate that a certificate of conformance specifies all parameter values used to pass the tests in its conformance test class.
+test-method:: Inspect the document to verify the above.
 ====
