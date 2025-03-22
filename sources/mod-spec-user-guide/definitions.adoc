@@ -1,0 +1,32 @@
+ class Standard {
+    definition {
+      For a draft standard (aka specification) to become an international standard, the document must be approved by an authority, 
+      such as ISO or the OGC. The attributes of a standard describe its local name, its authority, the date of publication 
+      and its current status (such as CD, DIS, IS in ISO, or Draft, Candidate Standard, or Standard in OGC).
+
+      The attributes of a
+      Standard describe its local name, its authority, the date of
+      publication and its current status (such as Draft,
+      Candidate Standard or Standard in the OGC).
+    }
+    name: String {
+      definition {
+        Name of the standard.
+      }
+    }
+    authority: Principal {
+      definition {
+        Standards body or author of this standard.
+      }
+    }
+    date: DateTime {
+      definition {
+        Publication date of the standard.
+      }
+    }
+    status: String {
+      definition {
+        Publication status of this standard.
+      }
+    }
+  }
