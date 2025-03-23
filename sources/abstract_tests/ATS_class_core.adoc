@@ -1,10 +1,10 @@
 [[ats_class-core]]
 [conformance_class]
+.Conformance Class 'Core'
 ====
 [%metadata]
 identifier:: https://www.opengis.net/spec/modspec-1/1.1/conf/conf-class-core
 target:: https://www.opengis.net/spec/modspec-1/1.1/req/req-class-core
-classification:: Target Type: Modular Standard
 abstract-test:: /conf/core/reqs-are-testable
 abstract-test:: /conf/core/all-components-assigned-uri
 abstract-test:: /conf/core/vocabulary-and-parent-req-class
