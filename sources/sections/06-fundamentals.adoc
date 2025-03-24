@@ -18,7 +18,7 @@ The https://pubs.opengroup.org/architecture/togaf8-doc/arch/chap32.html[Open Gro
 
 These characteristics are slightly modified from the Open Group definitions to accommodate the use of the building block concept in standards work.
 
-=== Standardization Context - Goals and Targets
+=== Standardization Context - Goals, Target Types, and Targets
 
 Every standards document should include a Standardization Goal. This is a concise statement of the problem that the standard helps address and the strategy envisioned for achieving a solution.  This strategy typically identifies real-world entities that need to be modified or constrained.  At the abstract level, those entities are the Standardization Target Types.  These are the classes of entities to be standardized. A Standard defines the requirements levied on one or more Standardization Target Types. 
 
