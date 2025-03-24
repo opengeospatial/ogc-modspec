@@ -30,6 +30,18 @@ Instances of a Standardization Target Type are the Standardization Targets.  The
 
 Standardization Target Types can be hierarchical. The Conceptual, Logical, Physical model hierarchy is one example where the Standardization Target Types are information models. Another example would be implementations of OGC API - Features Part 2 that support XML data exchange.
 
+The following are two examples of Target Types and Targets as used in the OGC API suite of standards:
+
+. OGC API Standards
+
+.. Standardization target type: Web API
+.. Standardization target: Any API that is consistent with the web architecture (HTTP, web linking, etc) and implements a requirements class of an OGC API standard.
+
+. OGC JSON - Feature Geometry
+
+.. Standardization target type: JSON documents (or JSON objects, to be discussed by the SWG)
+.. Standardization target: Any JSON document (or object) that implements the Core requirements class of JSON-FG. The document can be a created by an API as a response document representing a features collection or by a tool like GDAL, FME, QGIS, etc.
+
 The Standardization Target Types, Standardization Targets, and Standardization Goal provide a well-defined context for the standard.  
 This will help users of standards to quickly understand the scope of a standard and to select those standards appropriate for their needs. 
 It also will help keep standards developers focused on the intended use of their standards, avoiding standards which are overly broad and/or unfocused.
