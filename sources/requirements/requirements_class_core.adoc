@@ -3,7 +3,7 @@
 .Requirements Class 'Core'
 ====
 [%metadata]
-identifier:: http://www.opengis.net/spec/modspec-1/1.1/req/req-class-core
+identifier:: https://www.opengis.net/spec/modspec-1/1.1/req/req-class-core
 subject:: Modular Standard
 requirement:: /req/core/reqs-are-testable
 requirement:: /req/core/all-components-assigned-uri
