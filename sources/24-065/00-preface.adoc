@@ -1,7 +1,7 @@
 [.preface]
 == Preface
 
-This OGC member developed and approved document, referred to as the `ModSpec: Part 1`, defines an optional requirements class for UML
+This OGC member developed and approved document, referred to as the `ModSpec: Part 2 - UML`, defines an optional requirements class for UML
 
 The ModSpec: Core Standard defines a model and related requirements 
 and recommendations for writing and structuring modular standards documents. Further, this model is designed to enable 

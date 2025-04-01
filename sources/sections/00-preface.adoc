@@ -20,11 +20,8 @@ OGC ModSpec GitHub repository (https://github.com/opengeospatial/ogc-modspec).
 [.preface]
 == Document terms and definitions
 
-This document uses the standard terms defined in Subclause 5.3 of the OGC Web Services Common Standard [OGC 06-121r9], which
-is based on the ISO/IEC Directives, Part 2: 2021. Rules for the structure and drafting of
-International Standards. In particular, the word "shall" (not "must") is the
-imperative verb form used to indicate a requirement to be strictly followed to
-conform to the ModSpec.
+This document uses the terms defined in OGC Policy Directive 49, which is based on the ISO/IEC Directives, Part 2, Rules for the structure and drafting of International Standards. 
+In particular, the word “shall” (not “must”) is the verb form used to indicate a requirement to be strictly followed to conform to this ModSPec standard.
 
 [.preface]
 == Document editors

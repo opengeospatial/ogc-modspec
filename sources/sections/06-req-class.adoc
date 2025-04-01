@@ -49,16 +49,15 @@ The following states how and where vocabularies are specified in relation to a r
 [[req-3]]
 include::../requirements/core/REQ3_vocabulary.adoc[]
 
+
+[[per-2]]
 include::../permissions/core/PER002_external-vocabs-core.adoc[]
 
-[example]
-====
-In the specification of a metadata service, the Dublin Core concept of a "Title" and
+For example, consider the specification of a metadata service in which the Dublin Core concept "Title" and
 the XML schema structure used for its specification can be in the core of the service
-specification. How a particular request-response pair uses the data structure to mean
+standard. How a particular request-response pair uses the data structure to mean
 the title of a particular document or dataset will be specified in the requirements
 class in which the request-response pair is defined and set against requirements.
-====
 
 [[cls-8-2]]
 === Using the model
@@ -167,7 +166,7 @@ Strict parallelism of implementation and governance is the essence of this stand
 === Requirements for Modularity
 
 [[cls-6-5-1]]
-==== Each Conformance class tests a complete requirements class
+The following states that each conformance class tests a complete requirements class
 
 [[req-9]]
 include::../requirements/core/REQ9_no-optional-tests.adoc[]
@@ -215,18 +214,13 @@ include::../requirements/core/REQ12_con-class-dependencies.adoc[]
 Such referenced conformance classes may be in the same standard or may be a
 conformance class of another standard.
 
-[[example-6-2]]
-[example]
-.Indirect dependency on schema
-====
-If a service specifies that a particular output is required to be conformant to a
+The following is an example of an indirect dependency. If a service specifies that a particular output is required to be conformant to a
 conformance test class in a specific standard (say a normatively referenced XML
 schema), then the conformance class of that normative reference will be used to test
 that output. For example, if an OGC Web Feature Service (WFS) implementation instance specifies that its feature collection output is
 compliant to a particular profile of GML, then that profile of GML will be used to
 validate that output. This means that the service is indirectly tested using the GML
 standard. In other words, GML is an indirect dependency of the original service.
-====
 
 Requirements classes may be optional as a whole, but not piecemeal. This means that
 every implementation that passed a particular conformance class satisfies exactly
@@ -259,7 +253,7 @@ both are related (as described) to the same set of requirements.
 
 
 [[cls-6-5-2]]
-==== Requirements classes contain all requirements tested by a conformance test case
+The following states that requirements classes contain all requirements tested by a conformance test case
 
 [[req-15]]
 include::../requirements/core/REQ15_req-in-only-one-req-class.adoc[]
@@ -332,7 +326,7 @@ requirements classes.
 include::../requirements/core/REQ19_profile-conformance.adoc[]
 
 [[cls-6-5-4]]
-==== There is a Defined Core
+=== There is a Defined Core
 
 The following requirements define the content of the core.
 
@@ -381,7 +375,7 @@ profile. The core for any SQL version of feature geometry is probably "Simple
 Features."
 
 [[cls-6-5-5]]
-==== Extensions are requirements classes
+=== Extensions are requirements classes
 
 A common mechanism to extend the functionality of a standard is to define
 extensions, which may be either local or encompass other standards. 
@@ -416,7 +410,7 @@ GeoJSON, as long at that alternative can carry viable information consistent wit
 the fundamental intent of the standard.
 
 [[cls-6-5-6]]
-==== Optional requirements are organized as optional requirements classes
+=== Optional requirements are organized as optional requirements classes
 
 [[req-26]]
 include::../requirements/core/REQ26_optional-requirements.adoc[]
