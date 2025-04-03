@@ -1,9 +1,9 @@
-[[Clause_Critical]]
-== Description of critical changes
+[[Clause_Substantive]]
+== Description of substantive changes
 
 There are seven (7) critical changes in the ModSpec: Core Standard. None of these changes affect backwards compatibility.
 
-=== Critical Change 1: ModSpec 1.1 is not OGC Policy. 
+=== Substantive Change 1: ModSpec 1.1 is not OGC Policy. 
 
 The decision was made to not have the OGC ModSpec: Core document itself as an OGC Policy Document. The reason is that the ModSpec should be useable by and Standards organization and not just the OGC. Instead:
 
@@ -14,23 +14,23 @@ The impact was to modify the ModSpec 1.1 document to remove all references to th
 
 This is GitHub issue 9 and 37.
 
-=== Critical Change 2: ModSpec 1.1: Core and Parts
+=== Substantive Change 2: ModSpec 1.1: Core and Parts
 
 To be consistent with itself, the ModSpec was restructured into a core and two Parts:
 
-- Core: contains all the core requirements and informational text that define the model and internal structure of a standard.
-- Part 1: UML Model requirements 
-- Part 2: XML and Schematron Model requirements 
+- Part 1: Core contains all the core requirements and informational text that define the model and internal structure of a standard.
+- Part 2: UML Model requirements 
+- Part 3: XML and Schematron Model requirements 
 
 This is GitHub issue 36.
 
-=== Critical Change 3: ModSpec Permissions and Recommendations clearly identified
+=== Substantive Change 3: ModSpec Permissions and Recommendations clearly identified
 
 In the ModSpec version 1.0, permissions and recommendations were embedded in the general text and were not specifically highlighted. In version 1.0 the concept permission was not defined. In the ModSpec version 1.1, the concept `permission` is defined. In version 1.1, all permissions and recommendation are extracted from the general text and placed in tables as per the Metanorma template. Finally, all permissions and recommendations are bookmarked for easier navigation.
 
 This is GitHub issue 34.
 
-=== Critical Change 4: Clarification and consistent use of `specification` and `standard`
+=== Substantive Change 4: Clarification and consistent use of `specification` and `standard`
 
 In the ModSpec Version 1.0 there is a short paragraph:
 
@@ -45,7 +45,7 @@ For the ModSpec Version 1.1 revision, clearly states that the ModSpec is indeed 
 
 This is GitHub issue 10.
 
-=== Critical Change 5: What is a Requirements Module?
+=== Substantive Change 5: What is a Requirements Module?
 
 In the ModSpec Version 1.0 there is a logical inconsistency related to the definitions, relationship, and modelling of requirements modules and requirements classes. In Version 1.0, a Requirements Class can be composed of one or more Requirements Modules and one or more Recommendations. However, multiple locations in the Vesion 1.0 document state that recommendations are not testable (Old Section 6.1 for example). This create a logical inconsistency as a Requirements Class is composed of requirements and recommendations but the wording of the conformance test class states that in order to be conformant that all elements of a requirements class must pass - but recommendations cannot be tested.
 
@@ -53,7 +53,7 @@ So, given that most OGC Standards do not use Requirements Modules, then a straig
 
 NOTE: CDB 2.0 does define Requirements Modules but based on the above proposed definition.
 
-=== Critical Change 6: Standardization Goal
+=== Substantive Change 6: Standardization Goal
 
 In considering the roles of `standardization target` and `standardization` target types`, the contribritors noticed 
 that there is no requirement to state what the `goal` (problem to be addressed) of the standard is. A goal provides the
@@ -63,7 +63,7 @@ the standard helps address and the strategy envisioned for achieving a solution.
 A clause stating this requirement is in the ModSpec v 1.1 in the Fundamentals clause. All new OGC Standards and revisions to exisitng OGC Standards _SHOULD_
 contain a statement of the Standardization Goal.
 
-=== Critical Change 7: Rework of UML Model
+=== Substantive Change 7: Rework of UML Model
 
 The ModSpec includes Annex C. Annex C provides a UML diagram that documents the ModSpec Model. The UML diagram was updated to reflect changes made based on submitted issues.
 
