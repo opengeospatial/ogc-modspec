@@ -48,6 +48,8 @@ The OGC has standardized on Metanorma for document publication.
 
 The following AsciiDoc examples both work in the OGC publication process. The first is the `traditional` OGC AsciiDoc template and the second is formatted specifically for the Metanorma publication process.
 
+==== OGC Traditional AsciiDoc encoding example
+
 ```
 [width="90%",cols="2,6"]
 |===
@@ -58,9 +60,10 @@ The following AsciiDoc examples both work in the OGC publication process. The fi
 |===
 ```
 
+==== Metanorma encoding example 
+
 ```
 [[req-1]]
-
 [requirement]
 ====
 [%metadata]
@@ -76,6 +79,8 @@ The label is generated during the Metanorma publication process. Also note that 
 
 Below is how these two examples would look after document publication:
 
+==== Traditional OGC AsciiDoc publication example
+
 [width="90%",cols="2,6"]
 |===
 ^|*Requirement 1* | */req/core/crs* +
@@ -83,6 +88,8 @@ Below is how these two examples would look after document publication:
 ^| B | An EPSG code SHALL be used to indentify the CRS. 
 ^| C | The CRS SHALL be referenced by a uniform resource identifier (i.e., a URI) such as http://www.opengis.net/def/crs/EPSG/0/4326
 |===
+
+==== Metanorma publication example
 
 [requirement]
 ====
