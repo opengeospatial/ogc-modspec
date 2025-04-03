@@ -23,7 +23,20 @@ indentify the CRS. The CRS SHALL be referenced by a uniform resource identifier 
 such as http://www.opengis.net/def/crs/EPSG/0/4326
 ```
 
-The ModSpec further states that any requirement `SHALL` be uniquely identified and/or labeled. 
+The above multi-part statement of the CRS requirement could be split into three separate requirements. However, for clarity and readability, a multipart requirement
+may be a better choice.
 
+The ModSpec further states that any requirement `SHALL` be uniquely identified and/or labeled. For example, the above 
+requirement could be labeled `Requirement 1`. The above requirement could also be idnetified by a URI such as http://www.opengis.net/spec/ogcapi-features-2/1.0/req/crs.
+In the OGC, requirements are  labeled and have a unique indentifier (URI). So the above CRS example could be written as below and be compliant with the requirements
+of the ModSpec
+
+```
+Label: *Requirement 1*
+Identifier: http://www.opengis.net/spec/ogcapi-features-2/1.0/req/crs
+An implementation SHALL specify a coordinate reference system (CRS). An EPSG code SHALL be used to 
+indentify the CRS. The CRS SHALL be referenced by a uniform resource identifier (i.e., a URI)  
+such as http://www.opengis.net/def/crs/EPSG/0/4326
+```
 
 image::../../images/2025_March_ModSpec_Diagram.png[ModSpec,640,480]
