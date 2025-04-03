@@ -2,7 +2,7 @@
 
 === Scope
 
-The ModSpec Core Standard defines characteristics and structure for the specification of Standards that will encourage implementation by minimizing difficulty determining requirements, mimicking implementation structure and maximizing usability and interoperability.
+The ModSpec Core Standard defines characteristics and structure for the specification of Standards that will encourage implementation by minimizing difficulty determining requirements, mimicking implementation structure, and maximizing usability and interoperability.
 
 Part 1 of the ModSpec defines the requirements for using UML. The use case is if the organizing mechanism for the data model used in a standard is an object model, then the mapping from parts of the model to the requirements classes should follow the logical mechanism described in Part 1 of the ModSpec.
 
@@ -17,4 +17,5 @@ All questions regarding this document should be directed to the contacts provide
 |====================
 |Name |Organization
 |Carl Reed | Carl Reed
+|Jeff Yutzler |Tepa / Image Matters
 |====================
