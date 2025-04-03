@@ -1,0 +1,22 @@
+= The ModSpec Model User Guide
+:doctype: draft user guide
+:docsubtype: user-guide
+:status: Draft
+:committee: technical
+:docnumber: 25-0xx
+:edition: 1.0.0
+:received-date: 2025-04-01
+:issued-date: 2025-xx-xx
+:published-date: 2025-xx-xx
+:copyright-year: 2025
+:fullname: Carl Reed, PhD
+:role: editor
+:language: en
+:submitting-organizations: Carl Reed
+:imagesdir: images
+:mn-document-class: ogc
+:mn-output-extensions: xml,html,doc,pdf,rxl
+:local-cache-only:
+:data-uri-image:
+
+include::sections/00-preface.adoc[]
