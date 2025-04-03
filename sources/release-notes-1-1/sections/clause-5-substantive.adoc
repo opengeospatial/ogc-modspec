@@ -34,33 +34,33 @@ This is GitHub issue 34.
 
 In the ModSpec Version 1.0 there is a short paragraph:
 
-`In this standard, other documents which may be standards but are being tested for conformance to this standard are referred to as “specifications.” The purpose of this linguistic artifact is to prevent confusion between this standard and the standardization targets of its requirements.`However, this artifact is inconsistently implemented in the current document. Sometimes specification is used when the term should be standard and visa-versa
+> In this standard, other documents which may be standards but are being tested for conformance to this standard are referred to as “specifications.” The purpose of this linguistic artifact is to prevent confusion between this standard and the standardization targets of its requirements. However, this artifact is inconsistently implemented in the current document. Sometimes specification is used when the term should be standard and visa-versa.
 
 There were two main issues with this statement:
 
 - The statement is confusing and to an extent artificial;
-- Ihis artifact is inconsistently implemented in the ModSpec Version 1.0. Sometimes specification is used when the term should be standard and visa-versa, causing confusion.
+- This artifact is inconsistently implemented in the ModSpec Version 1.0. Sometimes specification is used when the term should be standard and visa-versa, causing confusion.
 
-For the ModSpec Version 1.1 revision, clearly states that the ModSpec is indeed a standard for writing/structuring standards. However, the wording “this document” or “the ModSpec” is used throughout the document to avoid confusion. As appropriate, all instances of “specification” are changed to “standard”. The change was applied consistently throughout Version 1.1.
+The ModSpec Version 1.1 revision clearly states that the ModSpec is indeed a standard for writing/structuring standards. However, the wording “this document” or “the ModSpec” is used throughout the document to avoid confusion. As appropriate, all instances of “specification” are changed to “standard”. The change was applied consistently throughout Version 1.1.
 
 This is GitHub issue 10.
 
 === Substantive Change 5: What is a Requirements Module?
 
-In the ModSpec Version 1.0 there is a logical inconsistency related to the definitions, relationship, and modelling of requirements modules and requirements classes. In Version 1.0, a Requirements Class can be composed of one or more Requirements Modules and one or more Recommendations. However, multiple locations in the Vesion 1.0 document state that recommendations are not testable (Old Section 6.1 for example). This create a logical inconsistency as a Requirements Class is composed of requirements and recommendations but the wording of the conformance test class states that in order to be conformant that all elements of a requirements class must pass - but recommendations cannot be tested.
+In the ModSpec Version 1.0 there is a logical inconsistency related to the definitions, relationship, and modeling of requirements modules and requirements classes. In Version 1.0, a Requirements Class can be composed of one or more Requirements Modules and one or more Recommendations. However, multiple locations in the Version 1.0 document state that recommendations are not testable (Old Section 6.1 for example). This created a logical inconsistency as a Requirements Class is composed of requirements and recommendations. The wording of the conformance test class states that to be conformant, all elements of a requirements class must pass, but recommendations cannot be tested.
 
-So, given that most OGC Standards do not use Requirements Modules, then a straightforward solution is to swap Requirements Modules and Requirements classes in the hierarchy. As such, then a Requirements Module would consist of Requirements Classes, Recommendations, and Permissions. A Requirements Class then has no recommendations and is therefore testable.
+Given that most OGC Standards do not use Requirements Modules, a straightforward solution is to swap Requirements Modules and Requirements classes in the hierarchy. Therefore, a Requirements Module would consist of Requirements Classes, Recommendations, and Permissions. A Requirements Class then has no recommendations and is therefore testable.
 
-NOTE: CDB 2.0 does define Requirements Modules but based on the above proposed definition.
+NOTE: CDB 2.0 does define Requirements Modules based on the above proposed definition.
 
 === Substantive Change 6: Standardization Goal
 
-In considering the roles of `standardization target` and `standardization` target types`, the contribritors noticed 
+In considering the roles of the `standardization target` and `standardization` target types, the contributors noticed 
 that there is no requirement to state what the `goal` (problem to be addressed) of the standard is. A goal provides the
 context for `standardization target` and `standardization` target types`. This is a concise statement of the problem that 
 the standard helps address and the strategy envisioned for achieving a solution.
 
-A clause stating this requirement is in the ModSpec v 1.1 in the Fundamentals clause. All new OGC Standards and revisions to exisitng OGC Standards _SHOULD_
+A clause stating this requirement is in the ModSpec v 1.1 in the Fundamentals clause. All new OGC Standards and revisions to existing OGC Standards _SHOULD_
 contain a statement of the Standardization Goal.
 
 === Substantive Change 7: Rework of UML Model
