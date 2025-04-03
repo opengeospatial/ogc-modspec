@@ -18,8 +18,9 @@ Now, the above example is fairly nebulous and open to interpretation as to how t
 a requirement  `MAY` be stated as one or more `parts` where each part specified additional rules for that requirement. Expanding the above example:
 
 ```
-An implementation `SHALL` specify a coordinate reference system (CRS). An EPSG code `SHALL` be used to indentify the CRS. 
-The CRS `SHALL` be referenced by a uniform resource identifier (i.e., a URI)  such as http://www.opengis.net/def/crs/EPSG/0/4326
+An implementation SHALL specify a coordinate reference system (CRS). An EPSG code SHALL be used to 
+indentify the CRS. The CRS SHALL be referenced by a uniform resource identifier (i.e., a URI)  
+such as http://www.opengis.net/def/crs/EPSG/0/4326
 ```
 
 The ModSpec further states that any requirement `SHALL` be uniquely identified and/or labeled. 
