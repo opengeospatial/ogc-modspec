@@ -1,0 +1,41 @@
+[[preface]
+[.preface]
+
+== Preface
+This document is an informative user guide for undrstanding and implementing the requirements defined in the OGC ModSpec - A Standard for Designing and Writing Modular Standards
+
+The ModSpec is an OGC member developed and approved document that defines a model and related requirements 
+and recommendations for writing and structuring modular standards documents. Further, this model is designed to enable 
+consistent and verifiable testing of implementations of a standard that claim conformance. The ModSpec is a meta-standard: 
+A standard specifying requirements for crafting and documenting modular and testable standards. 
+
+The goals of using the ModSpec are:
+
+- To define characteristics and a structure for the development of modular standards which will minimize the difficulty in writing testable standards while maximizing usability and interoperability.
+- To ensure that a standard specifies requirements in a common and consistent manner and that these requirements are testable.
+
+Suggested additions, changes, and comments on this document are welcome and
+encouraged. Such suggestions may be submitted by creating an issue in the 
+OGC ModSpec GitHub repository (https://github.com/opengeospatial/ogc-modspec).
+
+[.preface]
+== Document terms and definitions
+
+This document uses the terms defined in OGC Policy Directive 49, which is based on the ISO/IEC Directives, Part 2, Rules for the structure and drafting of International Standards. 
+In particular, the word “shall” (not “must”) is the verb form used to indicate a requirement to be strictly followed to conform to this ModSPec standard.
+
+[.preface]
+== Document editors
+
+The following OGC Members participated in editing this document:
+
+[%unnumbered]
+|===
+^h| Person ^h| Organization Represented
+| Carl Reed | Carl Reed & Associates
+|===
+
+[.preface]
+== Revision history
+
+This is the first version of ModSpec User Guide.
