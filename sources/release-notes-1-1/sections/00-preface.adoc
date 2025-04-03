@@ -1,7 +1,7 @@
 [[preface]]
 .Preface
 
-This document provides the set of release notes for the OGC ModSpec: Core Standard (including Part1, and Part2), version 1.1 https://opengeospatial.github.io/ogc-modspec/documents/document.html,[OGC 25-003] and does not modify that Standard.
+This document provides the set of release notes for the OGC ModSpec: Core Standard (including Part1, and Part2), version 1.1 https://opengeospatial.github.io/ogc-modspec/documents/document.html[OGC 25-003] and does not modify that Standard.
 
 This document provides the details of edits, deficiency corrections, and enhancements of the above-referenced Standard. It also documents those items that have been deprecated. Finally, this document provides implementations details related to issues of backwards compatibility.
 
