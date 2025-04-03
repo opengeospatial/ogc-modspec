@@ -1,5 +1,7 @@
 [[introduction]]
 
+= Introduction to key ModSpec concepts with examples
+
 This section describes and provides examples of the key concepts of the ModSpec.
 
 `requirement` is a fundamental concept. A requirement clearly states a condition (rule) to be satisfied in any implementation of the standard. A requirement must be stated in “normative” language. In the OGC, the use of the word `SHALL` indicates that a requirement is being presented.
