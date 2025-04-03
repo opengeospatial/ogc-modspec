@@ -1,4 +1,4 @@
 [[Clause_Critical]]
-== Description of substantive changes
+== Description of Critical changes
 
 There are no critical changes in this revision of the ModSpec.
