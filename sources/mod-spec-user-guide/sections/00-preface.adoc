@@ -1,4 +1,4 @@
-[[preface]
+[[preface]]
 [.preface]
 
 == Preface
