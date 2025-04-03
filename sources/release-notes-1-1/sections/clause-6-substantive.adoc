@@ -1,4 +1,0 @@
-[[Clause_Substantive]]
-== Description of substantive changes
-
-There are no substantive changes in this release.
