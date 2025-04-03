@@ -32,11 +32,14 @@ In the OGC, requirements are  labeled and have a unique indentifier (URI). So th
 of the ModSpec
 
 ```
-Label: *Requirement 1*
+Label: Requirement 1
 Identifier: http://www.opengis.net/spec/ogcapi-features-2/1.0/req/crs
 An implementation SHALL specify a coordinate reference system (CRS). An EPSG code SHALL be used to 
 indentify the CRS. The CRS SHALL be referenced by a uniform resource identifier (i.e., a URI)  
 such as http://www.opengis.net/def/crs/EPSG/0/4326
 ```
+
+==== Template for a requirement
+
 
 image::../../images/2025_March_ModSpec_Diagram.png[ModSpec,640,480]
