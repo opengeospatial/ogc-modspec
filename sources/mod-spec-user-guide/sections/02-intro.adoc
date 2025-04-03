@@ -1,3 +1,3 @@
 [[introduction]]
 
-image::../../images/2025_March_ModSpec_Diagram.png.png[]
+image::../../images/2025_March_ModSpec_Diagram.png[]
