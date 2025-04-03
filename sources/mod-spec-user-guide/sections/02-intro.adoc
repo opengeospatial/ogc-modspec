@@ -72,7 +72,25 @@ part:: The CRS SHALL be referenced by a uniform resource identifier (i.e., a URI
 ```
 
 The above requirement example, formatted for Metanorma, does not have the requirement label such as Requirement 1. 
-The label is generated during the Metanorma publication process. Also note that [[req-1]] is a bookmark.
+The label is generated during the Metanorma publication process. Also note that `[[req-1]]` is a bookmark.
 
+Below is how these two examples would look after document publication:
+
+[width="90%",cols="2,6"]
+|===
+^|*Requirement 1* | */req/core/crs* +
+^| A | An implementation SHALL specify a coordinate reference system (CRS).
+^| B | An EPSG code SHALL be used to indentify the CRS. 
+^| C | The CRS SHALL be referenced by a uniform resource identifier (i.e., a URI) such as http://www.opengis.net/def/crs/EPSG/0/4326
+|===
+
+[requirement]
+====
+[%metadata]
+identifier:: /req/core/crs
+part:: An implementation SHALL specify a coordinate reference system (CRS).
+part:: An EPSG code SHALL be used to indentify the CRS.
+part:: The CRS SHALL be referenced by a uniform resource identifier (i.e., a URI) such as http://www.opengis.net/def/crs/EPSG/0/4326
+====
 
 image::../../images/2025_March_ModSpec_Diagram.png[ModSpec,640,480]
