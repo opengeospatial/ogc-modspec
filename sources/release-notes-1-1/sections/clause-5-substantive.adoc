@@ -1,7 +1,7 @@
 [[Clause_Substantive]]
 == Description of substantive changes
 
-There are seven (7) critical changes in the ModSpec: Core Standard. None of these changes affect backwards compatibility.
+There are seven (7) substantive changes in the ModSpec: Core Standard. None of these changes affect backwards compatibility.
 
 === Substantive Change 1: ModSpec 1.1 is not OGC Policy. 
 
