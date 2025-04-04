@@ -216,4 +216,25 @@ conformance test, conformance modules, and conformance test classes are assigned
 test-method:: Inspect the document to verify the above.
 ====
 
+==== Non-visual inspection test
+
+Obviously - and depending on the standard - not all implementations are visually inspected for conformance. Below 
+is an example of a conformance test that can be automated. The following test from OGC API - Records can be fully automated.
+
+====
+[%metadata]
+identifier:: /conf/local-resources-catalog/conformance
+target:: /req/local-resources-catalog/conformance
+test-purpose:: Validate conformance identification.
+test-method::
++
+--
+. Construct a path for a https://docs.ogc.org/is/17-069r4/17-069r4.html#_operation_3[conformance page].
+. Issue an HTTP GET request on that path.
+. Check that the `conformsTo` array contains the value `http://www.opengis.net/spec/ogcapi-records-1/1.0/conf/local-resources-catalog`.
+. If the server supports JSON responses, check that the `conformsTo` array contains the value `http://www.opengis.net/spec/ogcapi-records-1/1.0/conf/json`.
+. If the server supports HTML responses, check that the `conformsTo` array contains the value `http://www.opengis.net/spec/ogcapi-records-1/1.0/conf/html`.
+--
+====
+
 image::../../images/2025_March_ModSpec_Diagram.png[ModSpec,640,480]
