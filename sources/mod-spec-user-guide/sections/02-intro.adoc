@@ -4,7 +4,13 @@
 
 This section describes and provides examples of the key concepts of the ModSpec.
 
-== OGC Identifiers
+== Fundamentals
+
+=== Standardization goal
+
+Every new OGC Standards or revision to an OGC Standard must state a `standardization goal`.
+
+=== OGC Identifiers
 
 ModSpec Requirement 2 states, "Each component of a standard, including requirements, requirements modules, requirements classes, conformance tests 
 conformance modules, and conformance test classes SHALL be assigned a unique identifier and/or label." OGC Policy 
