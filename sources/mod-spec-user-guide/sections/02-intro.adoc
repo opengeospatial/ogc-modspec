@@ -11,8 +11,25 @@ conformance modules, and conformance test classes SHALL be assigned a unique ide
 Directive https://portal.ogc.org/public_ogc/directives/directives.php#33[33] specifies that such identifiers are URIs and `SHALL` 
 be structured per the rules specified in the OGC Naming Authority policy doucment https://docs.ogc.org/pol/10-103r1.html[OGC Name Type Specification - specification elements]
 
+Every OGC Standard has a subclause titled `Identifiers`. This subclause is included in the `Conventions` Clause. The purpose of the subclause is
+to specify the URI namespace for the standard and to define the rules for how partial URIs are related to that namespace. The following example is 
+from the OGC ModSpec version 1.1:
 
+```
+The normative provisions in this standard are denoted by the URI namespace
 
+https://www.opengis.net/spec/modspec-1/1.1/
+
+All requirements that appear in this document are denoted by partial URIs which are relative to the namespace shown above.
+
+For the sake of brevity, the use of “req” in a requirement URI denotes:
+
+https://www.opengis.net/spec/modspec-1/1.1/
+
+An example might be:
+
+/req/core/crs
+```
 
 == Requirement
 
