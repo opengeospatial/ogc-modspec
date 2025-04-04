@@ -33,7 +33,7 @@ An example might be:
 
 == Requirement
 
-`requirement` is a fundamental concept. A requirement clearly states a condition (rule) to be satisfied in any implementation of the standard. 
+`requirement` is a fundamental ModSpec concept. A requirement clearly states a condition (rule) to be satisfied in any implementation of the standard. 
 A requirement must be stated in “normative” language. In the OGC, the use of the word `SHALL` indicates that a requirement is being presented.
 Other standards organizations use the verb `MUST` to indicate a requirement is being stated. An example of a requirement is:
 
@@ -66,7 +66,7 @@ indentify the CRS. The CRS SHALL be referenced by a uniform resource identifier 
 such as http://www.opengis.net/def/crs/EPSG/0/4326
 ```
 
-=== Template for a requirement
+=== Template for a documenting a requirement
 
 To ensure that all standards documents have the same look and feel, a standard (consistent) template should be used for stating requirements.
 The ModSpec does not specify any templates for how a requirement is specified - only the what the content is. In the OGC, requirements are specified 
@@ -134,10 +134,60 @@ implementation of a requirement is valid: Passes or fails. The general rule is t
 (one to one) conformance test. The exception is if the requirement is so abstract that it cannot be tested. In this case, 
 the exception should be noted in the standard.
  
-The collection of all conformance tests for a standard is called a `conformance suite`
-In the OGC document template for a standard, the conformance suite specified in Annex A, Abstract Test Suite.
+The collection of all conformance tests for a standard is called a `conformance suite`.
+In the template for an OGC standards document, the conformance suite is specified in Annex A, Conformance Test Suite.
 
-As with a requirement, every conformance test `SHALL` have a unique identifier and/or label. 
-In the OGC, each conformance test has a unique identifier (URI).
+Please note that the ModSpec does not define how a conformance test is documented or structured. Further, 
+the ModSpec does not specify how conformance tests are executed.
+
+However, as with a requirement, every conformance test `SHALL` have a unique identifier and/or label. 
+In the OGC, each conformance test has a unique identifier (URI). 
+
+The ModSpec does provide a test suite for the ModSpec. The structure and content used in the ModSpec conformance test suite has 
+become the de-facto template for defining conformance tests in OGC Standards.
+
+=== Template for documenting a Conformance Test
+
+As with stating requirements, to ensure that all standards documents have the same look and feel, 
+a standard (consistent) template should be used for stating conformance tests. 
+
+The following AsciiDoc examples both work in the OGC publication process. The first is the `traditional` OGC AsciiDoc template 
+and the second is formatted specifically for the Metanorma publication process.
+
+==== Traditional OGC AsciiDoc encoding
+
+In the following AsciiDoc encoding, the `Test ID` is the ujique URI identifier for the test. The `Requirement` element is the
+requirement being tested. The test purpose specified the reason and intention to determine whether an implementation passes
+the test or not. The `Test Method` is how the test is performed. In the following example, the method is visial inspection. Any standard
+implementing the ModSpec model and structure is tested via visual inspection: Reading the document and ensuring all requirements 
+are implemented as specified in the ModSpec
+
+```
+[cols=">20h,<80d",width="100%"]
+|===
+|Test ID: |/conf/conf-class-a/requirements/REQ1_core.adoc
+|Requirement: |/req/req-class-a/core
+|Test purpose: | To verify that a tiling specification conforms to the tiling logical +
+core model for the 2D Euclidean plane use case.
+|Test method: | Inspect documentation.
+|===
+```
+
+==== Metanorma AsciiDoc encoding
+
+```
+[abstract_test]
+====
+[%metadata]
+identifier:: /conf/core/all-components-assigned-uri
+target:: /req/core/all-components-assigned-uri
+test-purpose:: Validate that each component of a standard, including requirements, requirements modules, requirements classes, 
+conformance test, conformance modules, and conformance test classes are assigned a unique identifer or label.
+test-method:: Inspect the document to verify the above.
+====
+```
+
+Notice that the element names are quite similar with the exception of "target" instead of "requirement". 
+The concepts of "target" and "target types" is provided later in this document.
 
 image::../../images/2025_March_ModSpec_Diagram.png[ModSpec,640,480]
