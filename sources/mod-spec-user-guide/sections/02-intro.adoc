@@ -4,7 +4,17 @@
 
 This section describes and provides examples of the key concepts of the ModSpec.
 
-=== Requirement
+== OGC Identifiers
+
+ModSpec Requirement 2 states, "Each component of a standard, including requirements, requirements modules, requirements classes, conformance tests 
+conformance modules, and conformance test classes SHALL be assigned a unique identifier and/or label." OGC Policy 
+Directive https://portal.ogc.org/public_ogc/directives/directives.php#33[33] specifies that such identifiers are URIs and `SHALL` 
+be structured per the rules specified in the OGC Naming Authority policy doucment https://docs.ogc.org/pol/10-103r1.html[OGC Name Type Specification - specification elements]
+
+
+
+
+== Requirement
 
 `requirement` is a fundamental concept. A requirement clearly states a condition (rule) to be satisfied in any implementation of the standard. 
 A requirement must be stated in “normative” language. In the OGC, the use of the word `SHALL` indicates that a requirement is being presented.
@@ -15,7 +25,7 @@ An implementation `SHALL` specify a coordinate reference system (CRS)
 ```
 
 Now, the above example is fairly nebulous and open to interpretation as to how the CRS is identified and expressed. Therefore, the ModSpec states that
-a requirement  `MAY` be stated as one or more `parts` where each part specified additional rules for that requirement. Expanding the above example:
+a requirement `MAY` be stated as one or more `parts` where each part specified additional rules for that requirement. Expanding the above example:
 
 ```
 An implementation SHALL specify a coordinate reference system (CRS). An EPSG code SHALL be used to 
@@ -27,7 +37,7 @@ The above multi-part statement of the CRS requirement could be split into three 
 may be a better choice.
 
 The ModSpec further states that any requirement `SHALL` be uniquely identified and/or labeled. For example, the above 
-requirement could be labeled `Requirement 1`. The above requirement could also be idnetified by a URI such as http://www.opengis.net/spec/ogcapi-features-2/1.0/req/crs.
+requirement could be labeled `Requirement 1`. The above requirement could also be identified by a URI such as http://www.opengis.net/spec/ogcapi-features-2/1.0/req/crs.
 In the OGC, requirements are  labeled and have a unique indentifier (URI). So the above CRS example could be written as below and be compliant with the requirements
 of the ModSpec
 
@@ -39,7 +49,7 @@ indentify the CRS. The CRS SHALL be referenced by a uniform resource identifier 
 such as http://www.opengis.net/def/crs/EPSG/0/4326
 ```
 
-==== Template for a requirement
+=== Template for a requirement
 
 To ensure that all standards documents have the same look and feel, a standard (consistent) template should be used for stating requirements.
 The ModSpec does not specify any templates for how a requirement is specified - only the what the content is. In the OGC, requirements are specified 
@@ -75,7 +85,7 @@ part:: The CRS SHALL be referenced by a uniform resource identifier (i.e., a URI
 ```
 
 The above requirement example, formatted for Metanorma, does not have the requirement label such as Requirement 1. 
-The label is generated during the Metanorma publication process. Also note that `[[req-1]]` is a bookmark.
+The label is generated during the Metanorma publication process. Also note that `req-1` is a bookmark.
 
 Below is how these two examples would look after document publication:
 
@@ -99,5 +109,18 @@ part:: An implementation SHALL specify a coordinate reference system (CRS).
 part:: An EPSG code SHALL be used to indentify the CRS.
 part:: The CRS SHALL be referenced by a uniform resource identifier (i.e., a URI) such as http://www.opengis.net/def/crs/EPSG/0/4326
 ====
+
+== Conformance Test
+
+In most cases, every requirement in a standard will have a corresponding `conformance test`. A conformance test checks if an 
+implementation of a requirement is valid: Passes or fails. The general rule is that every requirement has a corresponding 
+(one to one) conformance test. The exception is if the requirement is so abstract that it cannot be tested. In this case, 
+the exception should be noted in the standard.
+ 
+The collection of all conformance tests for a standard is called a `conformance suite`
+In the OGC document template for a standard, the conformance suite specified in Annex A, Abstract Test Suite.
+
+As with a requirement, every conformance test `SHALL` have a unique identifier and/or label. 
+In the OGC, each conformance test has a unique identifier (URI).
 
 image::../../images/2025_March_ModSpec_Diagram.png[ModSpec,640,480]
