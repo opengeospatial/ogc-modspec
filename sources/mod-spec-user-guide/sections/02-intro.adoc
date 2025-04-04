@@ -10,9 +10,14 @@ This section describes and provides examples of the key concepts of the ModSpec.
 
 Every new OGC Standards or revision to an OGC Standard must state a `standardization goal`. This is a concise statement of the 
 problem that the standard addresses and the strategy envisioned for achieving a solution. Also termed a `problem statement`, the goal clarifies the issue to be addressed, 
-ensuring that everyone involved understands the problem, its significance, and why its important to solve.
+ensuring that everyone involved understands the problem, its significance, and why its important to solve. For example:
 
-The goal of the is to define a simple conceptual model that can support any and all requirements for tiled data stores and applications including extensions for visualization, portrayal, analytics, filtering, levels of detail, and so forth.
+```
+The goal of the OGC Core Tiling Conceptual and Logical Models for 2D Euclidean Space Abstract Specification is to define a 
+simple conceptual model that can support any and all requirements for tiled data stores and applications including extensions 
+for visualization, portrayal, analytics, filtering, levels of detail, and so forth. Having a common conceptual model will 
+enhance interoperability by ensuring common semantics across logical models and physical implementations.
+```
 
 === OGC Identifiers
 
