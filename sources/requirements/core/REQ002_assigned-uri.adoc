@@ -5,7 +5,7 @@
 [%metadata]
 identifier:: /req/core/all-components-assigned-uri
 part:: Each component of a standard, including requirements, requirements modules, requirements classes, 
-conformance test, conformance modules, and conformance test classes _SHALL_ be assigned a unique identifier and/or label. 
+conformance tests, conformance modules, and conformance test classes _SHALL_ be assigned a unique identifier and/or label. 
 ====
 
 NOTE: In the OGC, the enforcement of this requirement and its associated recommendation is the purview of the OGC Naming Authority or its equivalent.
