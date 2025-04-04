@@ -190,4 +190,30 @@ test-method:: Inspect the document to verify the above.
 Notice that the element names are quite similar with the exception of "target" instead of "requirement". 
 The concepts of "target" and "target types" is provided later in this document.
 
+==== Traditional AsciiDoc publication example
+
+The above Traditional AsciiDoc example would appear as follows when published.
+
+[cols=">20h,<80d",width="100%"]
+|===
+|Test ID: |/conf/conf-class-a/requirements/REQ1_core.adoc
+|Requirement: |/req/req-class-a/core
+|Test purpose: | To verify that a tiling specification conforms to the tiling logical +
+core model for the 2D Euclidean plane use case.
+|Test method: | Inspect documentation.
+|===
+
+==== Metanorma AsciiDoc publication example
+
+The above Metanorma AsciiDoc example would appear as follows when published.
+
+====
+[%metadata]
+identifier:: /conf/core/all-components-assigned-uri
+target:: /req/core/all-components-assigned-uri
+test-purpose:: Validate that each component of a standard, including requirements, requirements modules, requirements classes, 
+conformance test, conformance modules, and conformance test classes are assigned a unique identifer or label.
+test-method:: Inspect the document to verify the above.
+====
+
 image::../../images/2025_March_ModSpec_Diagram.png[ModSpec,640,480]
