@@ -36,6 +36,23 @@ Implementations of a standard are the real world instantiation of requirements d
 perspective, the Standardization Target is an implementation of a Standardization Target Type. These are the real-world 
 entities which can be tested for conformance with the requirements documented in the standard.
 
+=== More examples of Standardization Target Types and Standardization Targets
+
+The following are two examples of Target Types and Targets as used in the OGC API suite of standards:
+```
+    OGC API Standards
+        Standardization target type: Web API
+        Standardization target: Any API that is consistent with the web architecture (HTTP, web linking, etc) 
+        and implements a requirements class of an OGC API standard.
+
+    OGC JSON - Feature Geometry
+        Standardization target type: JSON documents (or JSON objects)
+        Standardization target: Any JSON document (or object) that implements the Core requirements 
+        class of JSON-FG. The document can be a created by an API as a response document representing 
+        a features collection or by a tool like GDAL, FME, QGIS, etc.
+```
+
+
 === OGC Identifiers
 
 ModSpec Requirement 2 states, "Each component of a standard, including requirements, requirements modules, requirements classes, conformance tests 
