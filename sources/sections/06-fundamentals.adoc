@@ -39,7 +39,7 @@ The following are two examples of Target Types and Targets as used in the OGC AP
 
 . OGC JSON - Feature Geometry
 
-.. Standardization target type: JSON documents (or JSON objects, to be discussed by the SWG)
+.. Standardization target type: JSON documents (or JSON objects)
 .. Standardization target: Any JSON document (or object) that implements the Core requirements class of JSON-FG. The document can be a created by an API as a response document representing a features collection or by a tool like GDAL, FME, QGIS, etc.
 
 The Standardization Target Types, Standardization Targets, and Standardization Goal provide a well-defined context for the standard.  
