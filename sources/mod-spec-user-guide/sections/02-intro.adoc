@@ -19,6 +19,23 @@ for visualization, portrayal, analytics, filtering, levels of detail, and so for
 enhance interoperability by ensuring common semantics across logical models and physical implementations.
 ```
 
+=== Standardization Target Type
+
+Standardization Target Type is an abstract representation of one of the actors or entities identified in the Standardization Goal. 
+In the above standarization goal example, the target type is a `conceptual model`. 
+
+A standardization target type can be tstructured as a hierarchy. The root specifies the overarching target type for a standard. There can then be 
+target subtypes that derice from the root superclass. For example, the OGC API - Features Standard has a target type of `WebAPI`. There are then
+subtypes such as WebAPI/landing-page and WebAPI/crs. 
+
+Why the target type concept is important is shown below. 
+
+=== Standardization Target
+
+Implementations of a standard are the real world instantiation of requirements defined in the standard. From that
+perspective, the Standardization Target is an implementation of a Standardization Target Type. These are the real-world 
+entities which can be tested for conformance with the requirements documented in the standard.
+
 === OGC Identifiers
 
 ModSpec Requirement 2 states, "Each component of a standard, including requirements, requirements modules, requirements classes, conformance tests 
