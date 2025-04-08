@@ -16,8 +16,8 @@ is written. An instance of a <<StandardizationTargetType-definition,_standardiza
 . a <<Requirement-definition,_requirement_>> is a statement of a condition to be satisfied by a single
 <<StandardizationTargetType-definition,_standardization target type_>>, and it must be stated in "normative" language.
 
-. a <<ConformanceTest-definition,_conformance test_>> checks if a set of
-<<Requirement-definition,_requirements_>> are met (*pass*) or not met (*fail*) by a
+. a <<ConformanceTest-definition,_conformance test_>> checks if a 
+<<Requirement-definition,_requirement_>> including its parts are met (*pass*) or not met (*fail*) by a
 <<StandardizationTarget-definition,_standardization target_>>.
 
 . all <<ConformanceTest-definition,_conformance tests_>> are graded as *pass* or *fail*
