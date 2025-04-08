@@ -28,7 +28,7 @@ A standardization target type can be tstructured as a hierarchy. The root specif
 target subtypes that derice from the root superclass. For example, the OGC API - Features Standard has a target type of `WebAPI`. There are then
 subtypes such as WebAPI/landing-page and WebAPI/crs. 
 
-Why the target type concept is important is shown below. 
+Why the target type concept is important is shown below in the discussion on `requirement`. 
 
 === Standardization Target
 
@@ -115,6 +115,8 @@ indentify the CRS. The CRS SHALL be referenced by a uniform resource identifier 
 such as http://www.opengis.net/def/crs/EPSG/0/4326
 ```
 
+Finally, if a requirement is stated in multiple parts, all parts must have the same standardization target type.
+
 === Template for a documenting a requirement
 
 To ensure that all standards documents have the same look and feel, a standard (consistent) template should be used for stating requirements.
@@ -181,7 +183,8 @@ part:: The CRS SHALL be referenced by a uniform resource identifier (i.e., a URI
 In most cases, every requirement in a standard will have a corresponding `conformance test`. A conformance test checks if an 
 implementation of a requirement is valid: Passes or fails. The general rule is that every requirement has a corresponding 
 (one to one) conformance test. The exception is if the requirement is so abstract that it cannot be tested. In this case, 
-the exception should be noted in the standard.
+the exception should be noted in the standard. Please note that a standard that has a core and multiple parts (profiles/extensions), then each 
+part/profile/extension will have its own conformance suite composed of conformance tests. 
  
 The collection of all conformance tests for a standard is called a `conformance suite`.
 In the template for an OGC standards document, the conformance suite is specified in Annex A, Conformance Test Suite.
