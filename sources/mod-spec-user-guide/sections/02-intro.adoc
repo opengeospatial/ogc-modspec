@@ -323,3 +323,19 @@ requirement:: /req/req-class-a/req-name-1
 requirement:: /req/req-class-a/req-name-2
 ====
 ```
+
+The requirements class table can include information on direct dependencies. For example, a coordinate reference system requirements class could 
+state a dependency on ISO 19111:2019 Geographic information — Referencing by coordinates. In this case, the published requirements class table might 
+appear as:
+
+[cols="1,4",width="90%"]
+|===
+2+|*Requirements Class - Coordinate Reference System (CRS) Specification and Representation.* 
+2+|/req/core/data-representation 
+|Target type | Operations
+|Dependency |OGC Abstract Specification Topic 2: Referencing by coordinates (ISO 19111:2019)
+|Dependency |ISO 19115: Geographic Information - Metadata
+|Requirement CRS01  |/req/core/crs/crs-topic2 
+|Requirement CRS02  |/req/core/crs/crsStorage 
+|===
+
