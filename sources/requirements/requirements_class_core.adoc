@@ -4,7 +4,7 @@
 ====
 [%metadata]
 identifier:: https://www.opengis.net/spec/modspec-1/1.1/req/req-class-core
-subject:: Modular Standard
+target-type:: Modular Standard
 requirement:: /req/core/reqs-are-testable
 requirement:: /req/core/all-components-assigned-uri
 requirement:: /req/core/vocabulary-and-parent-req-class
