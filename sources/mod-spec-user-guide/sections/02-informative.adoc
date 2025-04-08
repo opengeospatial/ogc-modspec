@@ -118,6 +118,7 @@ In the OGC, requirements are  labeled and have a unique indentifier (URI). So th
 of the ModSpec
 
 ```
+
 Label: Requirement 1
 Identifier: http://www.opengis.net/spec/ogcapi-features-2/1.0/req/crs
 An implementation SHALL specify a coordinate reference system (CRS). An EPSG code SHALL be used to 
@@ -139,6 +140,7 @@ The following AsciiDoc examples both work in the OGC publication process. The fi
 ==== OGC Traditional AsciiDoc encoding example
 
 ```
+[[req-1]]
 [width="90%",cols="2,6"]
 |===
 ^|*Requirement 1* | */req/core/crs* +
@@ -163,7 +165,8 @@ part:: The CRS SHALL be referenced by a uniform resource identifier (i.e., a URI
 ```
 
 The above requirement example, formatted for Metanorma, does not have the requirement label such as Requirement 1. 
-The label is generated during the Metanorma publication process. Also note that `req-1` is a bookmark.
+The label is generated during the Metanorma publication process. Also note that `req-1` is a bookmark. Bookmarks can be used for
+quick navigation within and OGC standards document.
 
 Below is how these two examples would look after document publication:
 
@@ -338,4 +341,17 @@ appear as:
 |Requirement CRS01  |/req/core/crs/crs-topic2 
 |Requirement CRS02  |/req/core/crs/crsStorage 
 |===
+
+The above example is rendered using "traditional" OGC AsciiDoc encoding.
+
+== Conformance Class
+
+A `conformance class` a set of conformance tests that must be passed to receive a single certificate of conformance. The OGC ModSpec states
+that for each requirements class there is a corresponding conformance class. This one to one relationship is shown in Figure 1. This means 
+that for each requirement in a requirements class there is a corresponding (one to one) conformance test in the conformance class. Finally, all
+conformance tests in a conformance class have the same standardization target.
+
+
+
+
 
