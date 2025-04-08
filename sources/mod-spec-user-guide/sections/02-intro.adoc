@@ -331,7 +331,7 @@ appear as:
 [cols="1,4",width="90%"]
 |===
 2+|*Requirements Class - Coordinate Reference System (CRS) Specification and Representation.* 
-2+|/req/core/data-representation 
+2+|/req/core/crs-representation 
 |Target type | Operations
 |Dependency |OGC Abstract Specification Topic 2: Referencing by coordinates (ISO 19111:2019)
 |Dependency |ISO 19115: Geographic Information - Metadata
