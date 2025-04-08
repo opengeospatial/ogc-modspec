@@ -334,7 +334,6 @@ appear as:
 2+|/req/core/crs-representation 
 |Target type | Operations
 |Dependency |OGC Abstract Specification Topic 2: Referencing by coordinates (ISO 19111:2019)
-|Dependency |ISO 19115: Geographic Information - Metadata
 |Requirement CRS01  |/req/core/crs/crs-topic2 
 |Requirement CRS02  |/req/core/crs/crsStorage 
 |===
