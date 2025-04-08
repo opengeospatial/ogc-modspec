@@ -301,9 +301,9 @@ test-method::
 == Requirements class
 
 Requirements should be organized into `requirements classes`. A requirements class is an aggregate of requirements with a 
-single standardization target type that must all be satisfied to pass a <conformance test class. A requirements class is therefore comprised 
+single standardization target type that must all be satisfied to pass a conformance test class. A requirements class is therefore comprised 
 of one or more requirements with the same target type/subtype. Typically in an OGC Standard, all discussion of a given requirements
-class are associated requirements are in the same clause/subclause(s) in the standards document. This provides a logical modular 
+class and associated requirements are in the same clause/subclause(s) in the standards document. This provides a logical modular 
 structure to the standards document.
 
 Further, all elements of a requirements class are documented in a table. The structure and layout of this table is dictated by the OGC template.
