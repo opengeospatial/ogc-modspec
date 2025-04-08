@@ -10,7 +10,7 @@ The following is an abstract example of how the key concepts in the ModSpec mode
 
 image::../../images/2025_March_ModSpec_Diagram.png[ModSpec,640,480]
 
-The following sections describe each of the key concepts in more details and also provides detailed examples of how each concept
+The following sections describe each of the key concepts in more detail and provides detailed examples of how each concept
 is physically expressed in a standard.
 
 == Fundamentals
