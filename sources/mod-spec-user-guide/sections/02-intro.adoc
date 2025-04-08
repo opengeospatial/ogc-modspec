@@ -183,7 +183,7 @@ part:: The CRS SHALL be referenced by a uniform resource identifier (i.e., a URI
 In most cases, every requirement in a standard will have a corresponding `conformance test`. A conformance test checks if an 
 implementation of a requirement is valid: Passes or fails. The general rule is that every requirement has a corresponding 
 (one to one) conformance test. The exception is if the requirement is so abstract that it cannot be tested. In this case, 
-the exception should be noted in the standard. Please note that a standard that has a core and multiple parts (profiles/extensions), then each 
+the exception should be noted in the standard. Please note that if a standard has a core and multiple parts (profiles/extensions), then each 
 part/profile/extension will have its own conformance suite composed of conformance tests. 
  
 The collection of all conformance tests for a standard is called a `conformance suite`.
