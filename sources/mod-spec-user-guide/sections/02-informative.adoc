@@ -2,7 +2,8 @@
 
 = Introduction to key ModSpec concepts with examples
 
-This section describes and provides examples of the key concepts of the ModSpec.
+This document describes the key concepts defined in the OGC ModSpec <need reference>. Further, this document provides AsciiDoc examples of how to encode
+the various key concepts in an OGC normative document. 
 
 == An example 
 
