@@ -4,6 +4,15 @@
 
 This section describes and provides examples of the key concepts of the ModSpec.
 
+== An example 
+
+The following is an abstract example of how the key concepts in the ModSpec model can be structured and described in a (simple) standard.
+
+image::../../images/2025_March_ModSpec_Diagram.png[ModSpec,640,480]
+
+The following sections describe each of the key concepts in more details and also provides detailed examples of how each concept
+is physically expressed in a standard.
+
 == Fundamentals
 
 === Standardization goal
@@ -289,4 +298,4 @@ test-method::
 --
 ====
 
-image::../../images/2025_March_ModSpec_Diagram.png[ModSpec,640,480]
+
