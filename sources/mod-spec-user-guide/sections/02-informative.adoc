@@ -34,9 +34,9 @@ enhance interoperability by ensuring common semantics across logical models and 
 Standardization Target Type is an abstract representation of one of the actors or entities identified in the Standardization Goal. 
 In the above standarization goal example, the target type is a `conceptual model`. 
 
-A standardization target type can be tstructured as a hierarchy. The root specifies the overarching target type for a standard. There can then be 
-target subtypes that derice from the root superclass. For example, the OGC API - Features Standard has a target type of `WebAPI`. There are then
-subtypes such as WebAPI/landing-page and WebAPI/crs. 
+A standardization target type can be structured as a hierarchy. The root specifies the overarching target type for a standard. There can then be 
+target subtypes that derive from the root superclass. For example, the OGC API - Features Standard has a target type of `WebAPI`. There are then
+subtypes such as WebAPI/landing-page and WebAPI/crs or braches such as client abd server. 
 
 Why the target type concept is important is shown below in the discussion on `requirement`. 
 
