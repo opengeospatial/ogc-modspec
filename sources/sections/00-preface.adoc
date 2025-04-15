@@ -49,7 +49,7 @@ The following OGC Members contributed and particpated in developing ModSpec Vers
 |===
 
 [.preface]
-== Document Contributors
+== Submitting organizations
 
 The following OGC Members support the ModSpec Version 1.1 submission
 
@@ -58,7 +58,7 @@ The following OGC Members support the ModSpec Version 1.1 submission
 ^h| Organization
 | Carl Reed & Associates |
 | Heazeltech |
-| ImageMatters
+| ImageMatters/Tema
 | UK Met Office |
 |===
 
