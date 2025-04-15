@@ -1,7 +1,7 @@
 [.preface]
 == Preface
 
-This OGC member developed and approved document, referred to as the `ModSpec: Part 2`, defines an optional requirements class for the XML model extension the ModSpec core.
+This OGC member developed and approved document, referred to as the `ModSpec: Part 3`, defines an optional requirements class for the XML model extension the ModSpec core.
 
 The ModSpec: Core Standard defines a model and related requirements 
 and recommendations for writing and structuring modular standards documents. Further, this model is designed to enable 
@@ -10,10 +10,9 @@ A standard specifying requirements for crafting and documenting modular and test
 
 The goals of using the ModSpec are:
 
-- To define characteristics and a structure for the development of modular standards which will minimize the difficulty in writing testable standards while maximizing usability and interoperability.
+- To define characteristics and a structure for the development of modular standards which will minimize the difficulty 
+in writing testable standards while maximizing usability and interoperability.
 - To ensure that a standard specifies requirements in a common and consistent manner and that these requirements are testable.
-
-NOTE: Historically, this document has been known and abbreviated as the "ModSpec". For continuity and ease of understanding this document may also be referred to as the "OGC ModSpec".
 
 Suggested additions, changes, and comments on this document are welcome and
 encouraged. Such suggestions may be submitted by creating an issue in the GitHub 
@@ -53,6 +52,19 @@ The following OGC Members contributed and participated in developing Version 1.1
 | Jeff Yutzler | ImageMatters
 |===
 
+[.preface]
+== Submitting organizations
+
+The following OGC Members support the ModSpec Version 1.1 submission
+
+[%unnumbered]
+|===
+^h| Organization
+| Carl Reed & Associates |
+| Heazeltech |
+| ImageMatters/Tema
+| UK Met Office |
+|===
 
 [.preface]
 == Revision history
