@@ -1,4 +1,4 @@
-= The ModSpec Model - Part 1: UML
+= The ModSpec Model - Part 2: UML
 :doctype: draft standard
 :docsubtype: logical-model
 :status: Draft
