@@ -5,11 +5,13 @@ The following states requirements for the use of the ModSpec in OGC Standards de
 
 === For any OGC Standards development, the ModSpec model shall be used.
 
-- Any new OGC Standard, revision to an existing OGC Standard, new abstract specification that has requirements, or revision to an existing abstract specification that has requirements _SHALL_ comply with the requirements stated in the OGC ModSpec Core Standard and relevant Parts.
+- Any new OGC Standard, revision to an existing OGC Standard, new abstract specification that has requirements, or revision 
+to an existing abstract specification that has requirements _SHALL_ comply with the requirements stated in the OGC ModSpec Core Standard and relevant Parts.
 
 === Any OGC normative document must use the terminology as defined in https://www.iso.org/sites/directives/current/part2/index.xhtml#_idTextAnchor078[ISO/IEC Directives Part 2 Clause 7]
 
-- Any OGC standard, best practice that states requirements, or abstract specification that states requirements _SHALL_ use the verbal forms for expressions of provisions as defined in ISO/IEC Directives Part 2 Clause 7.
+- Any OGC standard, best practice that states requirements, or abstract specification that states requirements _SHALL_ use 
+the verbal forms for expressions of provisions as defined in ISO/IEC Directives Part 2 Clause 7.
 
 === Any OGC Standards document must specify a standardization goal.
 
@@ -49,3 +51,5 @@ to the ModSpec will require a Technical Committe vote as specified in the OGC's 
 A similar Planning Committee vote is required as specified
 in any Policy and Procedure document used by this committee.
 
+A Community Standard may or may not follow the model and requirements as specified in the ModSpec. Specific policies related to the OGC Community Standards process are defined in
+the OGC Technical Policies and Procedures.
