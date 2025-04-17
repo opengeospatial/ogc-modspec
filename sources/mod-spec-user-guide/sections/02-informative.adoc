@@ -349,7 +349,12 @@ The above example is rendered using "traditional" OGC AsciiDoc encoding.
 A `conformance class` a set of conformance tests that must be passed to receive a single certificate of conformance. The OGC ModSpec states
 that for each requirements class there is a corresponding conformance class. This one to one relationship is shown in Figure 1. This means 
 that for each requirement in a requirements class there is a corresponding (one to one) conformance test in the conformance class. Finally, all
-conformance tests in a conformance class have the same standardization target.
+conformance tests in a conformance class have the same standardization target. If the requirements class has one or more dependencies on another 
+requirements class then . . 
+
+== Dependencies
+
+
 
 
 
