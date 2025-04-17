@@ -1,0 +1,47 @@
+{
+        "0":  {
+                "OGC_doc_number": "24-065",
+                "urn":"https://www.opengis.net/doc/IS/ogc-modspec-part-2/1.1",
+                "title":"The ModSpec Model - Part 2: UML",
+                "path":"sources/24-065-part2-uml/document.adoc",
+                "options": ["--trace"],
+                "a":[
+                        "data-uri",
+                        "stylesdir=./resources/stylesheets",
+                        "dot=/usr/bin/dot"
+                ],
+                "r":[
+                        "asciidoctor-diagram"
+                ]
+              },
+        "1":  {
+               "OGC_doc_number": "24-066",
+                "urn":"https://www.opengis.net/doc/IS/ogc-modspec-part-2/1.1",
+                "title":"The ModSpec Model - Part 3: XML",
+                "path":"sources/24-066-part3-xml/document.adoc",
+                "options": ["--trace"],
+                "a":[
+                        "data-uri",
+                        "stylesdir=./resources/stylesheets",
+                        "dot=/usr/bin/dot"
+                ],
+                "r":[
+                        "asciidoctor-diagram"
+                ]
+              },
+        "2":  {
+               "OGC_doc_number": "25-002",
+                "urn":"https://www.opengis.net/doc/NOTES/ogc-modspec-release-notes/1.1",
+                "title":"The ModSpec Model Version 1.1 Release Notes",
+                "path":"sources/release-notes-1-1/document.adoc",
+                "options": ["--trace"],
+                "a":[
+                        "data-uri",
+                        "stylesdir=./resources/stylesheets",
+                        "dot=/usr/bin/dot"
+                ],
+                "r":[
+                        "asciidoctor-diagram"
+                ]
+               }
+}
