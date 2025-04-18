@@ -8,7 +8,7 @@ For the purposes of this document, the following additional terms and definition
 
 === administrative change
 
-change that does not alter the conformance abstract tests for any requirements
+change that does not alter the normative meaning of any requirement.
 
 NOTE: An administrative change includes typographical errors, changes in wording to improve clarity or consistency, and perfunctory changes such as changes in version numbers.
 

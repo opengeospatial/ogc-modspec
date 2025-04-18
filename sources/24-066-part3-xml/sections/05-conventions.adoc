@@ -16,13 +16,11 @@ https://www.opengis.net/spec/modspec/1.1/
 
 All requirements that appear in this document are denoted by partial URIs which are relative to the namespace shown above.
 
-For the sake of brevity, the use of “req” in a requirement URI denotes:
-
-https://www.opengis.net/spec/modspec/1.1/
+For the sake of brevity, the use of “req” in a requirement URI denotes https://www.opengis.net/spec/modspec/1.1/
 
 An example might be:
 
-/req/part2/xml
+/req/part3/xml
 
 All conformance tests that appear in this document are denoted by partial URIs which are relative to the namespace shown above.
 
@@ -39,7 +37,7 @@ This document uses the same abbreviations and acronyms as defined in the ModSpec
 [[cls-5-3]]
 === Finding requirements and recommendations
 
-Each normative statement in the ModSpec Part 2 Standard is stated in one and only one place,
+Each normative statement in the ModSpec Part 3 Standard is stated in one and only one place,
 in a standard format, and with a unique label, such as REQ001, REC001, or PER001. A requirement, recommendation, or permission may be repeated for clarification. 
 The statement with the unique label is considered the official statement of the normative requirement or recommendation. 
 

@@ -1,0 +1,69 @@
+[[Clause_Substantive]]
+== Description of substantive changes
+
+There are seven (7) substantive changes in the ModSpec: Core Standard. None of these changes affect backwards compatibility.
+
+=== Substantive Change 1: ModSpec 1.1 is not OGC Policy. 
+
+The decision was made to not have the OGC ModSpec: Core document itself as an OGC Policy Document. The reason is that the ModSpec should be useable by and Standards organization and not just the OGC. Instead:
+
+- The ModSpec document itself is now an OGC Standard.
+- A separate document titled, https://portal.ogc.org/files/?artifact_id=110275&version=1[The ModSpec Model: OGC Policy] was developed. This Policy will be reviewed, discussed, and approved as an OGC Policy document
+
+The impact was to modify the ModSpec 1.1 document to remove all references to the ModSpec being a Policy document. Most of the time the word `Policy` was changed to `Standard` or `standard`.
+
+This is GitHub issue 9 and 37.
+
+=== Substantive Change 2: ModSpec 1.1: Core and Parts
+
+To be consistent with itself, the ModSpec was restructured into a core and two Parts:
+
+- Part 1: Core contains all the core requirements and informational text that define the model and internal structure of a standard.
+- Part 2: UML Model requirements 
+- Part 3: XML and Schematron Model requirements 
+
+This is GitHub issue 36.
+
+=== Substantive Change 3: ModSpec Permissions and Recommendations clearly identified
+
+In the ModSpec version 1.0, permissions and recommendations were embedded in the general text and were not specifically highlighted. In version 1.0 the concept permission was not defined. In the ModSpec version 1.1, the concept `permission` is defined. In version 1.1, all permissions and recommendation are extracted from the general text and placed in tables as per the Metanorma template. Finally, all permissions and recommendations are bookmarked for easier navigation.
+
+This is GitHub issue 34.
+
+=== Substantive Change 4: Clarification and consistent use of `specification` and `standard`
+
+In the ModSpec Version 1.0 there is a short paragraph:
+
+> In this standard, other documents which may be standards but are being tested for conformance to this standard are referred to as “specifications.” The purpose of this linguistic artifact is to prevent confusion between this standard and the standardization targets of its requirements. However, this artifact is inconsistently implemented in the current document. Sometimes specification is used when the term should be standard and visa-versa.
+
+There were two main issues with this statement:
+
+- The statement is confusing and to an extent artificial;
+- This artifact is inconsistently implemented in the ModSpec Version 1.0. Sometimes specification is used when the term should be standard and visa-versa, causing confusion.
+
+The ModSpec Version 1.1 revision clearly states that the ModSpec is indeed a standard for writing/structuring standards. However, the wording “this document” or “the ModSpec” is used throughout the document to avoid confusion. As appropriate, all instances of “specification” are changed to “standard”. The change was applied consistently throughout Version 1.1.
+
+This is GitHub issue 10.
+
+=== Substantive Change 5: What is a Requirements Module?
+
+In the ModSpec Version 1.0 there is a logical inconsistency related to the definitions, relationship, and modeling of requirements modules and requirements classes. In Version 1.0, a Requirements Class can be composed of one or more Requirements Modules and one or more Recommendations. However, multiple locations in the Version 1.0 document state that recommendations are not testable (Old Section 6.1 for example). This created a logical inconsistency as a Requirements Class is composed of requirements and recommendations. The wording of the conformance test class states that to be conformant, all elements of a requirements class must pass, but recommendations cannot be tested.
+
+Given that most OGC Standards do not use Requirements Modules, a straightforward solution is to swap Requirements Modules and Requirements classes in the hierarchy. Therefore, a Requirements Module would consist of Requirements Classes, Recommendations, and Permissions. A Requirements Class then has no recommendations and is therefore testable.
+
+NOTE: CDB 2.0 does define Requirements Modules based on the above proposed definition.
+
+=== Substantive Change 6: Standardization Goal
+
+In considering the roles of the `standardization target` and `standardization` target types, the contributors noticed 
+that there is no requirement to state what the `goal` (problem to be addressed) of the standard is. A goal provides the
+context for `standardization target` and `standardization` target types`. This is a concise statement of the problem that 
+the standard helps address and the strategy envisioned for achieving a solution.
+
+A clause stating this requirement is in the ModSpec v 1.1 in the Fundamentals clause. All new OGC Standards and revisions to existing OGC Standards _SHOULD_
+contain a statement of the Standardization Goal.
+
+=== Substantive Change 7: Rework of UML Model
+
+The ModSpec includes Annex C. Annex C provides a UML diagram that documents the ModSpec Model. The UML diagram was updated to reflect changes made based on submitted issues.
+

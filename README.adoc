@@ -2,7 +2,9 @@
 
 image:https://github.com/opengeospatial/ogc-modspec/workflows/generate/badge.svg["Build Status", link="https://github.com/opengeospatial/ogc-modspec/actions/workflows/generate.yml"]
 
-*  https://opengeospatial.github.io/ogc-modspec/documents/document.html[OGC ModSpec (HTML)]
+*  https://opengeospatial.github.io/ogc-modspec/documents/document.html[OGC ModSpec Part 1: Core (HTML)]
+* https://docs.ogc.org/DRAFTS/24-065.html[OGC ModSpec Part2: UML (HTML)]
+* https://docs.ogc.org/DRAFTS/24-066.html[OGC ModSpec Part3: XML (HTML)]
 
 == General
 
@@ -11,7 +13,7 @@ This repository contains the revision to the ModSpec core standard and related p
 * The original 08-131r3 as approved in 2009. This is a Word document showing all the initial edits circa mid 2024 as well as comments used for discussion.
 * Issues for discussion and resolution related to the proposed changes
 * Version 1.1 release notes
-* The ModSpec content for the Core, Part 1, and Part 2 encoded using the OGC Metanorma template
+* The ModSpec content for the Part 1: Core, Part 2: UML, and Part 3: XML encoded using the OGC Metanorma template
 * The OGC ModSpec Policy document
 
 == Structure

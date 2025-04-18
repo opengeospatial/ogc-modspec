@@ -1,6 +1,6 @@
 [[annex-A]]
 [appendix,obligation=normative]
-== Abstract Conformance Test Suite
+== ModSpec Conformance Test Suite
 
 [[annex-A-1]]
 === Conformance Test Class: The Core

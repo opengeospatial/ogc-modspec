@@ -1,7 +1,10 @@
+[[preface]]
 [.preface]
-== Preface
 
-This OGC member developed and approved document, referred to as the `ModSpec`, defines a model and related requirements 
+== Preface
+This document is an informative user guide for understanding and implementing the requirements defined in the OGC ModSpec - A Standard for Designing and Writing Modular Standards
+
+The ModSpec is an OGC member developed and approved document that defines a model and related requirements 
 and recommendations for writing and structuring modular standards documents. Further, this model is designed to enable 
 consistent and verifiable testing of implementations of a standard that claim conformance. The ModSpec is a meta-standard: 
 A standard specifying requirements for crafting and documenting modular and testable standards. 
@@ -10,8 +13,6 @@ The goals of using the ModSpec are:
 
 - To define characteristics and a structure for the development of modular standards which will minimize the difficulty in writing testable standards while maximizing usability and interoperability.
 - To ensure that a standard specifies requirements in a common and consistent manner and that these requirements are testable.
-
-NOTE: Historically, this document has been known and abbreviated as the "ModSpec". For continuity and ease of understanding this document is also be referred to as the "OGC ModSpec".
 
 Suggested additions, changes, and comments on this document are welcome and
 encouraged. Such suggestions may be submitted by creating an issue in the 
@@ -32,48 +33,9 @@ The following OGC Members participated in editing this document:
 |===
 ^h| Person ^h| Organization Represented
 | Carl Reed | Carl Reed & Associates
-| Chuck Heazel | Charles Heazel
-|===
-
-[.preface]
-== Document Contributors
-
-The following OGC Members contributed and particpated in developing ModSpec Version 1.1 
-
-[%unnumbered]
-|===
-^h| Person ^h| Organization Represented
-| Carl Reed | Carl Reed
-| Chuck Heazel | Charles Heazel
-| Jeff Yutzler | ImageMatters
-|===
-
-[.preface]
-== Submitting organizations
-
-The following OGC Members support the ModSpec Version 1.1 submission
-
-[%unnumbered]
-|===
-^h| Organization
-| Carl Reed & Associates |
-| Heazeltech |
-| ImageMatters/Tema
-| UK Met Office |
 |===
 
 [.preface]
 == Revision history
 
-This is the second normative version of this document.
-
-[.preface]
-== Future work
-
-This version of the ModSpec restructures the document into a multi-part standard. This document is Part 1 - Core. 
-It provides a technology agnostic model for modular standards. Future "parts" will be specific for different technologies. Planned extensions include:
-
-- ModSpec Part providing requirements and recommendations for specifying requirements and conformance tests using RDFS, SHACL, and OWL.
-- ModSpec Part providing requirements and recommendations for specifying requirements and conformance tests using JSON.
-
-In addition, improvements to this document will be made based on implementation and changing technical requirements. 
+This is the first version of ModSpec User Guide.

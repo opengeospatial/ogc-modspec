@@ -1,17 +1,18 @@
 [[cls-6]]
 == Requirements Class: Part 2: XML
 
-This clause defines the key concepts and requirements that represent Part 2 XML schema extension to the ModSpec core.
+This clause defines the key concepts and requirements that represent Part 3 XML schema extension to the ModSpec Core.
 
 === The ModSpec and the "Form" of a standard
 
 NOTE: For OGC Standards, the assumption is that documents are in a commonly used
 logical form (template). 
 
-In informative sections, the use of the word "will" implies that something is an implication of a requirement. The "will" statements are not requirements but explain the consequence of requirements.
+In informative sections, the use of the word "will" implies that something is an implication of a requirement. 
+The "will" statements are not requirements but explain the consequence of requirements.
 
 The ModSpec defines a "requirement" of a standard as an atomic testable
-criterion. See the formal definition of requirement in <<term-requirement>>
+criterion. See the formal definition of requirement in the ModSpec Core document.
 
 [[cls-6-1]]
 ==== Requirements class: The XML schema extension to the core
@@ -27,12 +28,12 @@ schema, all of its components, and its intended uses.
 2+|/req/core/data-representation 
 |Target | ModSpec Conformant XML Model
 |Dependency |OGC ModSpec Version 1.1 [25-003r1]
-|REQ001 | /req/part2/xml/conformance-with-core 
-|REQ002 | /req/part2/xml/w3c-xml 
-|REQ003 | /req/part2/xml/single-xml-space 
-|REQ004 | /req/part2/xml/all-components-uri
-|REQ005 | /req/part2/xml/direct-dependency
-|REQ006 | /req/part2/xml/no-element-modification
+|REQ001 | /req/part3/xml/conformance-with-core 
+|REQ002 | /req/part3/xml/w3c-xml 
+|REQ003 | /req/part3/xml/single-xml-space 
+|REQ004 | /req/part3/xml/all-components-uri
+|REQ005 | /req/part3/xml/direct-dependency
+|REQ006 | /req/part3/xml/no-element-modification
 |===
 
 
@@ -43,7 +44,7 @@ test class to the core must be made explicit.
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ001* | */req/part2/xml/conformance-with-core* +
+|*REQ001* | */req/part3/xml/conformance-with-core* +
 An implementation passing the XML conformance test class _SHALL_ first pass the ModSpec Core
 conformance test class
 |===
@@ -53,7 +54,7 @@ conformance test class
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ002* | */req/part2/xml/w3c-xml* +
+|*REQ002* | */req/part3/xml/w3c-xml* +
 An implementation passing the XML schema conformance test class _SHALL_ first pass
 the W3C Recommendation for XML schema.
 |===
@@ -87,7 +88,7 @@ associated schema, which is designated by a URI.
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ003* | */req/part2/xml/single-xml-space* +
+|*REQ003* | */req/part3/xml/single-xml-space* +
 If a standard conformant to the XML schema conformance class defines a set of
 data schemas, all components (e.g. elements, attributes, types ...) associated with
 a single conformance test class _SHALL_ be scoped to a single XML namespace.
@@ -97,7 +98,7 @@ a single conformance test class _SHALL_ be scoped to a single XML namespace.
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ004* | */req/part2/xml/all-components-uri* +
+|*REQ004* | */req/part3/xml/all-components-uri* +
 The all-components schema document for an XML Schema _SHALL_ indicate the URI of the
 associated conformance test class in the schema/annotation/appinfo element.
 |===
@@ -121,7 +122,7 @@ constant. Either of the above approaches may be used.
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ005* | */req/part2/xml/direct dependency* +
+|*REQ005* | */req/part3/xml/direct dependency* +
 If a standard conformant to the XML schema conformance class defines a direct
 dependency from one requirement class to another, then a standardization target of
 the corresponding conformance test class _SHALL_ import a schema that has passed the
@@ -136,7 +137,7 @@ will refer to the all-components schema document.
 [permission,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*PER001* | */per/part2/xml/schema-assembly* +
+|*PER001* | */per/part3/xml/schema-assembly* +
 An all-components schema document _MAY_ be assembled by inclusion of documents that
 describe subsets of the components associated with the conformance test class.
 |===
@@ -154,7 +155,7 @@ application schema becomes a variable in the conformance test cases.
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ006* | */req/part2/xml/no-element-modification* +
+|*REQ006* | */req/part3/xml/no-element-modification* +
 The all-components schema document for an XML Schema _SHALL_ indicate the URI of the
 associated conformance test class in the schema/annotation/appinfo element.
 |===
@@ -163,7 +164,7 @@ associated conformance test class in the schema/annotation/appinfo element.
 [permission,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*PER002* | */per/part2/xml/add-constraints* +
+|*PER002* | */per/part3/xml/add-constraints* +
 Requirements may add constraints.
 |===
 
@@ -200,13 +201,13 @@ uses Schematron to create patterns or constrains for an XML Schema.
 2+|*Requirements Class - XML schmeatron extension to the core* 
 2+|/req/core/data-representation 
 |Target | ModSpec Conformant XML Model
-|Dependency |OGC ModSpec Version 2 (need proper title and document number)
-|REQ007 | /req/part2/xml/schematron-xml-schema 
-|REQ008 | /req/part2/xml/sch-pattern-constraints 
-|REQ009 | /req/part2/xml/pattern-to-element 
-|REQ010 | /req/part2/xml/fpi-attribute-is-uri
-|REQ011 | /req/part2/xml/see-attribute-is-identifier
-|REQ012 | /req/part2/xml/one-fpi-attribute-per-schema
+|Dependency |OGC ModSpec Version 1.1 (need proper title and document number)
+|REQ007 | /req/part3/xml/schematron-xml-schema 
+|REQ008 | /req/part3/xml/sch-pattern-constraints 
+|REQ009 | /req/part3/xml/pattern-to-element 
+|REQ010 | /req/part3/xml/fpi-attribute-is-uri
+|REQ011 | /req/part3/xml/see-attribute-is-identifier
+|REQ012 | /req/part3/xml/one-fpi-attribute-per-schema
 |===
 
 First the schema must be defined within the bounds of the XML schema requirements class.
@@ -215,7 +216,7 @@ First the schema must be defined within the bounds of the XML schema requirement
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ007* | */req/part2/xml/schematron-xml-schema* +
+|*REQ007* | */req/part3/xml/schematron-xml-schema* +
 A standard passing the Schematron conformance test class _SHALL_ also define or
 reference an XML schema that shall pass the XML schema conformance class from this
 standard.
@@ -228,7 +229,7 @@ that corresponds with conformance tests and a conformance test class as follows:
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ008* | */req/part2/xml/sch-pattern-constraints* +
+|*REQ008* | */req/part3/xml/sch-pattern-constraints* +
 ^| A |Each sch:pattern element _SHALL_ implement constraints described in no more than one
 requirement. 
 ^| B |Each requirement _SHALL_ be implemented by no more than one sch:pattern.
@@ -238,7 +239,7 @@ requirement.
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ009* | */req/part2/xml/pattern-to-element* +
+|*REQ009* | */req/part3/xml/pattern-to-element* +
 Each sch:pattern element _SHALL_ be contained within one sch:schema element.
 |===
 
@@ -248,7 +249,7 @@ The Formal Public Identifier (fpi) attribute names the Schematron schema. In the
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ010* | */req/part2/xml/fpi-attribute-is-uri* +
+|*REQ010* | */req/part3/xml/fpi-attribute-is-uri* +
 The value of the sch:schema/@fpi attribute _SHALL_ be a URI that identifies this
 implementation.
 |===
@@ -261,7 +262,7 @@ requirements class.
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ011* | */req/part2/xml/see-attribute-is-identifier* +
+|*REQ011* | */req/part3/xml/see-attribute-is-identifier* +
 The value of the sch:schema/@see attribute _SHALL_ be the identifier for the
 requirements class that contains the requirement(s) implemented by the schema
 |===
@@ -270,7 +271,7 @@ requirements class that contains the requirement(s) implemented by the schema
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ012* | */req/part2/xml/one-fpi-attribute-per-schema* +
+|*REQ012* | */req/part3/xml/one-fpi-attribute-per-schema* +
 The value of the sch:schema/@fpi attribute _SHALL_ be used on only one Schematron
 schema.
 |===
@@ -290,7 +291,7 @@ test class to the core must be made explicit.
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ013* | */req/part2/xml/first-pass-core-conformance* +
+|*REQ013* | */req/part3/xml/first-pass-core-conformance* +
 A standard passing the XML meta-schema conformance test class _SHALL_ first pass
 the ModSpec Core conformance test class.
 |===
@@ -301,7 +302,7 @@ Since the target is defining requirements for XML schemas, it will require that 
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]
 |===
-|*REQ014* | */req/part2/xml/pass-XML-schema-conformance-class*
+|*REQ014* | */req/part3/xml/pass-XML-schema-conformance-class*
 A standard passing the XML meta-schema conformance test class _SHALL_ require
 that its targets (XML schema) pass the <<xml-model-conformance-class,XML schema conformance class>>.
 |===

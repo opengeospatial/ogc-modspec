@@ -2,9 +2,6 @@
 [bibliography]
 == Normative references
 
-// [.boilerplate]
-// === {blank}
-
 While the ModSpec Part 1 Standard references UML and its technical specification,
 no requirements are derived from these documents. While this document
 may be applied to extensions of those standards, conformance to them is the purview

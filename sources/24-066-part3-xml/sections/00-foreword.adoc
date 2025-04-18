@@ -2,7 +2,7 @@
 == Foreword
 
 The ModSpec specifies a formal structure for standards documents but does not supply
-specific content. This Part 2 specifies the optional XML Requirements Class. 
+specific content. This Part 3 specifies the optional XML Requirements Class. 
 
 _Attention is drawn to the possibility that some of the elements of this document may
 be the subject of patent rights. The Open Geospatial Consortium Inc. shall not be

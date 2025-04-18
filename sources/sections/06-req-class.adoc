@@ -428,8 +428,10 @@ include::../requirements/core/REQ27_req-class-overlap-by-reference.adoc[]
 
 This implies that each requirement is directly in exactly one requirements class and
 all references to that requirement from another requirements class must include its
-complete "home" requirements class. This means that requirements for dependencies
-will often result in conformance test cases which require the execution of the
+complete "home" requirements class. This means that requirements for dependencies will often result in 
+conformance test cases which require the execution of the dependency conformance class. For example,
+using the ModSpec as an example: An implementation passing the UML conformance test class _SHALL_ first 
+pass the ModSpec core conformance test class.
 
 NOTE: All general recommendations are in the core requirements class. The core
 conformance test class contains tests that all other conformance classes must pass.
