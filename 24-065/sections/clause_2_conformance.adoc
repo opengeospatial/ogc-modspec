@@ -1,0 +1,19 @@
+== Conformance
+
+Conformance to the ModSpec: Part 2 - UML Standard by technical implementation standards 
+can be tested by inspection. The test suite is in <<annex-A>>.
+
+There is one conformance class for this document for:
+
+. Standards using UML to state requirements, extending the core.
+
+This document contains normative language and thus places requirements on
+conformance, or mechanism for adoption, of candidate standards to which the ModSpec
+applies. In particular:
+
+* The core requirements which shall be met by all conformant
+standards.
+* The various subclauses of <<cls-6>> list requirements partially derived from the
+core, but more specific to the conditions where the data model is expressed in UML. This requirements class is an
+extension of the Core presented in the ModSpec Core Standard <<cls-6>>.
+

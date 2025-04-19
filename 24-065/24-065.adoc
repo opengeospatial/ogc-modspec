@@ -1,0 +1,64 @@
+= The ModSpec Model - Part 2: UML
+:doctype: standard
+:docsubtype: logical-model
+:encoding: utf-8
+:lang: en
+:status: draft
+:committee: technical
+:draft: 1.1.0
+:external-id: http://www.opengis.net/doc/spec/modspec-2/1.1
+:docnumber: 24-065
+:received-date: 2025-04-15
+:issued-date: 2029-03-30
+:published-date: 2029-03-30
+:fullname: Carl Reed
+:role: editor
+:fullname_2: John Herring
+:role_2: editor
+:docsubtype: Interface
+:keywords: ogcdoc, OGC document, ModSpec, UML
+:submitting-organizations: Carl Reed, Heazeltech, ImageMatters
+:imagesdir: images
+:mn-document-class: ogc
+:mn-output-extensions: xml,html,doc,pdf
+:local-cache-only:
+:data-uri-image:
+:pdf-uri: ./24-065.pdf
+:xml-uri: ./24-065.xml
+:doc-uri: ./24-065.doc
+:edition: 1.1.0
+
+////
+Make sure to complete each included document
+////
+include::sections/clause_0_front_material.adoc[]
+
+include::sections/clause_1_scope.adoc[]
+
+include::sections/clause_2_conformance.adoc[]
+
+include::sections/clause_3_references.adoc[]
+
+include::sections/clause_4_terms_and_definitions.adoc[]
+
+include::sections/clause_5_conventions.adoc[]
+
+include::sections/clause_6_req_class.adoc[]
+
+////
+add or remove annexes after "A" as necessary
+////
+include::sections/aa-abstract-conformance.adoc[]
+
+////
+include::sections/annex-n.adoc[]
+////
+
+////
+Revision History should be the last annex before the Bibliography
+Bibliography should be the last annex
+
+include::sections/annex-history.adoc[]
+
+include::sections/annex-bibliography.adoc[]
+////

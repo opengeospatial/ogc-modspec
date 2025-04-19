@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ogc-standard xmlns="https://www.metanorma.org/ns/ogc" type="semantic" version="2.5.7" schema-version="v1.3.1">
+<bibdata type="standard">
+<title language="en" format="text/plain">The ModSpec Model - Part 2: UML</title>
+<uri type="xml">./24-065.xml</uri><uri type="pdf">./24-065.pdf</uri><uri type="doc">./24-065.doc</uri><docidentifier type="ogc-external">http://www.opengis.net/doc/spec/modspec-2/1.1</docidentifier><docidentifier type="ogc-internal" primary="true">24-065</docidentifier><docnumber>24-065</docnumber><date type="published"><on>2029-03-30</on></date><date type="issued"><on>2029-03-30</on></date><date type="received"><on>2025-04-15</on></date><contributor><role type="author"/><organization>
+<name>Carl Reed, Heazeltech, ImageMatters</name>
+</organization></contributor><contributor><role type="editor"/><person>
+<name><completename>Carl Reed</completename></name>
+</person></contributor><contributor><role type="editor"/><person>
+<name><completename>John Herring</completename></name>
+</person></contributor><contributor><role type="publisher"/><organization>
+<name>Open Geospatial Consortium</name>
+<abbreviation>OGC</abbreviation></organization></contributor><edition>1.1.0</edition><version><draft>1.1.0</draft></version><language>en</language><script>Latn</script><abstract><p>This OGC member developed and approved document, referred to as the <tt>ModSpec: Part 2 - UML</tt>, defines an optional requirements class for UML</p>
+
+<p>The ModSpec: Core Standard defines a model and related requirements
+and recommendations for writing and structuring modular standards documents. Further, this model is designed to enable
+consistent and verifiable testing of implementations of a standard that claim conformance. The ModSpec is a meta-standard:
+A standard specifying requirements for crafting and documenting modular and testable standards.</p>
+
+<p>The goals of using the ModSpec are:</p>
+
+<ul><li><p>To define characteristics and a structure for the development of modular standards which will minimize the difficulty in writing testable standards while maximizing usability and interoperability.</p>
+</li>
+<li><p>To ensure that a standard specifies requirements in a common and consistent manner and that these requirements are testable.</p>
+</li>
+<note><p>Historically, this document has been known and abbreviated as the "ModSpec". For continuity and ease of understanding this document may also be referred to as the "OGC ModSpec".</p>
+</note></ul>
+
+
+
+<p>Suggested additions, changes, and comments on this document are welcome and
+encouraged. Such suggestions may be submitted by creating an issue in the GitHub
+repository for this document (<link target="https://github.com/opengeospatial/ogc-modspec"/>).</p>
+</abstract><status><stage>draft</stage></status><copyright><from>2025</from><owner><organization>
+<name>Open Geospatial Consortium</name>
+<abbreviation>OGC</abbreviation></organization></owner></copyright><keyword>ogcdoc</keyword><keyword>OGC document</keyword><keyword>ModSpec</keyword><keyword>UML</keyword><ext><doctype>standard</doctype><subdoctype>implementation</subdoctype><editorialgroup><committee>technical</committee></editorialgroup></ext></bibdata><metanorma-extension><presentation-metadata><name>TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>HTML TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>DOC TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>PDF TOC Heading Levels</name><value>2</value></presentation-metadata></metanorma-extension>
+<boilerplate><copyright-statement>
+
+<clause id="_copyright_notice" obligation="normative">
+<title>Copyright notice</title>
+<p id="_57ad8640-3b0c-b487-62ff-22dc5568f09a" align="center">Copyright © 2025 Open Geospatial Consortium<br/>
+To obtain additional rights of use, visit
+<link target="https://www.ogc.org/legal"/></p>
+</clause>
+
+<clause id="_note" obligation="normative">
+<title>Note</title>
+<p id="_11e88dba-9912-1a89-a82d-7291bf232191" align="left">Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. The Open Geospatial Consortium shall not be held responsible for identifying any or all such patent rights.</p>
+
+<p id="_15067213-c07b-cba0-7e18-395ab2e00ab3" align="left">Recipients of this document are requested to submit, with their comments, notification of any relevant patent claims or other intellectual property rights of which they may be aware that might be infringed by any implementation of the standard set forth in this document, and to provide supporting documentation.</p>
+</clause>
+</copyright-statement>
+
+<license-statement>
+
+<clause id="_license_agreement" obligation="normative">
+<title>License Agreement</title>
+<p id="_f5fe34fd-12e2-2bb7-8cd6-9d4cffa96538">Use of this document is subject to the license agreement at <link target="https://www.ogc.org/license"/></p>
+</clause>
+</license-statement>
+
+<legal-statement>
+
+<clause id="_notice_for_drafts" obligation="normative">
+<title>Notice for Drafts</title>
+<p id="_09caafd2-d047-3050-9095-b3f182faf86f">This document is not an OGC Standard. This document is distributed for review and comment. This document is subject to change without notice and may not be referred to as an OGC Standard.</p>
+
+<p id="_d80fd0eb-fbfd-dec3-0ddb-92472f4d5fcf">Recipients of this document are invited to submit, with their comments, notification of any relevant patent rights of which they are aware and to provide supporting documentation.</p>
+</clause>
+</legal-statement>
+
+<feedback-statement>
+
+<clause id="boilerplate-standard-feedback" obligation="normative">
+<p id="_bb5602d2-6eb1-e557-e221-499759fe237f">Suggested additions, changes and comments on this document are welcome and encouraged. Such suggestions may be submitted using the online change request form on OGC web site: <link target="http://ogc.standardstracker.org/"/></p>
+</clause>
+</feedback-statement>
+</boilerplate><preface><abstract id="_abstract"><title>Abstract</title><p id="_40a6b536-46bd-f4b8-b487-0200afe45ee4">This OGC member developed and approved document, referred to as the <tt>ModSpec: Part 2 - UML</tt>, defines an optional requirements class for UML</p>
+
+<p id="_bc0ab912-78d9-630f-ef59-0d462156bb33">The ModSpec: Core Standard defines a model and related requirements
+and recommendations for writing and structuring modular standards documents. Further, this model is designed to enable
+consistent and verifiable testing of implementations of a standard that claim conformance. The ModSpec is a meta-standard:
+A standard specifying requirements for crafting and documenting modular and testable standards.</p>
+
+<p id="_86ad651b-d774-6053-495d-adc75f9a8c3d">The goals of using the ModSpec are:</p>
+
+<ul id="_c84d898f-5f79-a0bf-9469-2c350e6afea3"><li><p id="_2ba5a1e3-82ca-b7c0-d5d7-422e05f3359f">To define characteristics and a structure for the development of modular standards which will minimize the difficulty in writing testable standards while maximizing usability and interoperability.</p>
+</li>
+<li><p id="_a8873241-9825-130c-c7a2-8bc76562eb18">To ensure that a standard specifies requirements in a common and consistent manner and that these requirements are testable.</p>
+</li>
+<note id="_c6b5f5bc-f758-519d-72e6-21065ec55918"><p id="_fe6008e8-1c40-b774-84fd-c543eb9377a5">Historically, this document has been known and abbreviated as the “ModSpec”. For continuity and ease of understanding this document may also be referred to as the “OGC ModSpec”.</p>
+</note></ul>
+
+
+
+<p id="_f6c1d580-cf8d-d736-38db-f35008942847">Suggested additions, changes, and comments on this document are welcome and
+encouraged. Such suggestions may be submitted by creating an issue in the GitHub
+repository for this document (<link target="https://github.com/opengeospatial/ogc-modspec"/>).</p>
+</abstract><foreword id="_47c4aada-9d85-3029-89cd-c03fbd8e8f00" obligation="informative">
+<title>Preface</title>
+<p id="_474d320c-767b-625f-879a-f1f1436acc27">The ModSpec specifies a formal structure for standards documents but does not supply
+specific content. This Part 2 specifies the optional UML Requirements Class.</p>
+
+<p id="_1672ef82-930c-138c-0481-953514878191">Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. The Open Geospatial Consortium shall not be held responsible for identifying any or all such patent rights.</p>
+
+<p id="_0c62c3b3-5856-0347-1c13-3aecac513578">Recipients of this document are requested to submit, with their comments, notification of any relevant patent claims or other intellectual property rights of which they may be aware that might be infringed by any implementation of the standard set forth in this document, and to provide supporting documentation.</p>
+</foreword><clause id="_revision_history" obligation="informative">
+<title>Revision history</title>
+<p id="_63b912c2-b86e-1a2e-709d-42c27a5075b1">This is the second normative version of this document.</p>
+</clause><clause id="_future_work" obligation="informative">
+<title>Future work</title>
+<p id="_58c645be-9b49-67cc-5f30-d02a8d494afb">Improvements to this document will be made based on implementation and changing technical requirements.</p>
+</clause><acknowledgements id="_acknowledgements" obligation="informative">
+<title>Acknowledgements</title>
+<p id="_56ace8a9-d72c-b5da-ff14-fe43c41c56a3">The following OGC Members were key contributors to Version 1.0 of the ModSpec</p>
+
+<table id="_a7d5356c-b2bf-0b40-857d-22a384a77901"><tbody><tr><td valign="middle" align="left"><strong>Name</strong></td>
+<td valign="middle" align="left"><strong>Organization</strong></td>
+</tr><tr><td valign="middle" align="left">Simon Cox</td>
+<td valign="middle" align="left">CSIRO</td>
+</tr><tr><td valign="middle" align="left">David Danko</td>
+<td valign="middle" align="left">ESRI</td>
+</tr><tr><td valign="middle" align="left">James Greenwood</td>
+<td valign="middle" align="left">SeiCorp, Inc.</td>
+</tr><tr><td valign="middle" align="left">John R. Herring</td>
+<td valign="middle" align="left">Oracle USA</td>
+</tr><tr><td valign="middle" align="left">Andreas Matheus</td>
+<td valign="middle" align="left">University of the Bundeswehr — ITS</td>
+</tr><tr><td valign="middle" align="left">Richard Pearsall</td>
+<td valign="middle" align="left">US National Geospatial-Intelligence Agency (NGA)</td>
+</tr><tr><td valign="middle" align="left">Clemens Portele</td>
+<td valign="middle" align="left">interactive instruments GmbH</td>
+</tr><tr><td valign="middle" align="left">Barry Reff</td>
+<td valign="middle" align="left">US Department of Homeland Security (DHS)</td>
+</tr><tr><td valign="middle" align="left">Paul Scarponcini</td>
+<td valign="middle" align="left">Bentley Systems, Inc.</td>
+</tr><tr><td valign="middle" align="left">Arliss Whiteside</td>
+<td valign="middle" align="left">BAE Systems — C3I Systems</td>
+</tr></tbody>
+</table>
+</acknowledgements><clause id="_security_considerations" type="security" obligation="informative">
+<title>Security considerations</title>
+<p id="_271d6c77-7738-61f3-c819-7da69f4e7d10">No security considerations have been made for this Standard.</p>
+</clause><submitters id="_submitters">
+<title>Submitters</title>
+<p id="_c4485abb-cbc5-a7e8-5e00-c9c58a531cc9">All questions regarding this submission should be directed to the editor or the submitters:</p>
+
+<table id="_fbb745fb-dbef-c1f3-94d7-9cd3bd2b76ef" unnumbered="true"><tbody><tr><td valign="middle" align="left"><strong>Name</strong></td>
+<td valign="middle" align="left"><strong>Affiliation</strong></td>
+</tr><tr><td valign="middle" align="left">Carl Reed</td>
+<td valign="middle" align="left">Carl Reed &amp; Associates</td>
+</tr><tr><td valign="middle" align="left">John Herring, PhD</td>
+<td valign="middle" align="left">Oracle</td>
+</tr></tbody>
+</table>
+</submitters><submitters id="_contributors" type="contributors">
+<title>Contributors</title>
+<p id="_4cecf40f-0756-adac-facd-f72d08b2ca44">Additional contributors to this Standard include the following:</p>
+
+<table id="_f1677151-9e87-c5d0-66a7-bceb3456b3c8" unnumbered="true"><tbody><tr><td valign="middle" align="left"><strong>Name</strong></td>
+<td valign="middle" align="left"><strong>Organization</strong></td>
+</tr><tr><td valign="middle" align="left">Carl Reed, PhD</td>
+<td valign="middle" align="left">Carl Reed</td>
+</tr><tr><td valign="middle" align="left">Chuck Heazel</td>
+<td valign="middle" align="left">Heazeltech</td>
+</tr><tr><td valign="middle" align="left">Jeff Yutzler</td>
+<td valign="middle" align="left">ImageMatters</td>
+</tr></tbody>
+</table>
+</submitters></preface><sections>
+
+
+
+
+
+
+
+
+
+
+<clause id="scope" type="scope" obligation="normative">
+<title>Scope</title>
+<p id="_923c00fc-2b26-4c46-0522-b527ba723309">The ModSpec defines characteristics and structure for the specification of Standards
+that will encourage implementation by minimizing difficulty determining
+requirements, mimicking implementation structure and maximizing usability and
+interoperability. This Part 2 of the ModSpec defines the requirement class for using UML. The use case is if the organizing mechanism for the data model
+used in a standard is an object model, then the mapping from parts of the model to the requirements classes should follow the logical mechanism described in Part 2 of the ModSpec.</p>
+
+<clause id="introduction" obligation="normative">
+<title>Introduction</title>
+<clause id="_semantics" obligation="normative">
+<title>Semantics</title>
+<p id="_529d9d3f-3a30-6e3e-f467-afa72ca3c796">The ModSpec Core Standard defines requirements for conformance to the ModSpec, but
+testing for that conformance may depend on how the various forms and parts of a
+conformant standard are viewed. The ModSpec Part 2 Standard specifies how those views
+are to be defined as UML.</p>
+
+<p id="_1a3756dc-5312-0d24-21ae-d88b9eb23460">As suggested in Clause Requirement 8 of the ModSpec Core, the structure of the normative clauses in a
+standard should parallel the structure of the conformance test classes in
+that standard. The structure of the normative clauses in a well written
+standard will follow the structure of its model. This means that all three are
+parallel.</p>
+</clause>
+
+<clause id="_modspec_document_structure" obligation="normative">
+<title>ModSpec document structure</title>
+<p id="_4c4e65ed-7ca4-384a-c143-3e5dcd185806">Version 1.1 of the ModSpec is split into a Core standard and multiple Parts. These are:</p>
+
+<ul id="_75fc7060-4dc0-ce57-e2af-71907134bd3f"><li><p id="_468550ca-c679-1d97-1847-a42744763e18">Part 1: Core: Contains all the core requirements and informational text that define the model and internal structure of a standard.</p>
+</li>
+<li><p id="_fe437831-c779-a2c3-2cf5-1568e99a0435">Part 2: UML Model requirements</p>
+</li>
+<li><p id="_4142cb7d-42c3-63a5-d6a2-987f87c6a2ba">Part 3: XML Model and Schematron requirements</p>
+</li>
+</ul>
+</clause>
+</clause>
+</clause>
+
+<clause id="_conformance" type="conformance" obligation="normative">
+<title>Conformance</title>
+<p id="_8c1b1187-6ebc-c8eb-3647-2c234e933ba5">Conformance to the ModSpec: Part 2 — UML Standard by technical implementation standards
+can be tested by inspection. The test suite is in <xref target="annex-A"/>.</p>
+
+<p id="_daa8dfe2-0134-9ba9-96dd-eaa7dd81855d">There is one conformance class for this document for:</p>
+
+<ol id="_9fa68ea3-1d18-9f6e-c55d-68b08b9b66bf" type="arabic"><li><p id="_12e2af61-2f69-ca10-a19d-62ed188d4c7a">Standards using UML to state requirements, extending the core.</p>
+</li>
+</ol>
+
+<p id="_380b8e67-f1ab-dff0-1be0-f1d100d29579">This document contains normative language and thus places requirements on
+conformance, or mechanism for adoption, of candidate standards to which the ModSpec
+applies. In particular:</p>
+
+<ul id="_e98c0bd8-762c-3c63-f2ab-129302596bbd"><li><p id="_46093a66-633c-cd35-7ba9-c9ab042ed4b4">The core requirements which shall be met by all conformant
+standards.</p>
+</li>
+<li><p id="_6c7620be-1ffc-0402-e3dd-276a40795e66">The various subclauses of <xref target="cls-6"/> list requirements partially derived from the
+core, but more specific to the conditions where the data model is expressed in UML. This requirements class is an
+extension of the Core presented in the ModSpec Core Standard <xref target="cls-6"/>.</p>
+</li>
+</ul>
+</clause>
+
+
+
+<terms id="_terms_and_definitions" obligation="normative">
+<title>Terms and definitions</title>
+
+<p id="_5a7fa695-25b3-e3a8-80d4-9f72e0dbeb91">For the purposes of this document, the following terms and definitions shall apply.
+Terms not defined here take their meaning from computer science or from their
+Standard English (common US and UK) meanings. The form of the definitions is
+defined by ISO Directives.<note id="_8b3f7cd9-5665-b82e-8efc-d13e591a46ad"><p id="_11aa0006-94e1-b3e5-3674-2d3d0e4526b9">All terms and definitions in Clause 4 of the OGC ModSpec: Core are relevant and used in this Part.</p>
+</note></p>
+
+
+
+</terms>
+
+<clause id="_conventions" obligation="normative">
+<title>Conventions</title>
+<clause id="_symbols_and_abbreviated_terms" obligation="normative">
+<title>Symbols (and abbreviated terms)</title>
+<p id="_189b05f8-d8bd-86ff-6cae-0a71bf9b4a45">All symbols used in this document are either:</p>
+
+<ol id="_3219167d-2bf6-1257-507a-ad5a354eeb47" type="arabic"><li><p id="_e0b0922e-824c-1ca5-ce67-98d43a0dbc7e">Common mathematical symbols</p>
+</li>
+<li><p id="_b2dc0e0c-ea74-4888-09c2-075d49663fcd">UML 2 (Unified Modeling Language) as defined by OMG and accepted as a publicly
+available standard (PAS) by ISO in its earlier 1.3 version.</p>
+</li>
+</ol>
+</clause>
+
+<clause id="_identifiers" obligation="normative">
+<title>Identifiers</title>
+<p id="_5075e6a4-6326-ab37-30b5-9ef47e437e21">The normative provisions in this standard are denoted by the URI namespace</p>
+
+<p id="_118ae17c-18df-7c99-079a-e0eb768f0d1d"><link target="https://www.opengis.net/spec/modspec/1.1/"/></p>
+
+<p id="_433371c9-0e2f-5dcf-ec43-1fc8c46961f1">All requirements that appear in this document are denoted by partial URIs which are relative to the namespace shown above.</p>
+
+<p id="_03606907-e80f-bd1b-499a-1b9c102b19ed">For the sake of brevity, the use of “req” in a requirement URI denotes:</p>
+
+<p id="_c4237e13-f0de-c7dd-d5d3-4cf51c43d216"><link target="https://www.opengis.net/spec/modspec/1.1/"/></p>
+
+<p id="_0cfe9d69-2f5d-65f2-7113-b74b22ee2631">An example might be:</p>
+
+<p id="_64ee57fd-4a03-06b2-8ef1-b75e41709666">/req/core/crs</p>
+
+<p id="_5c86aa82-0a65-9cd1-e388-3afe6df92923">All conformance tests that appear in this document are denoted by partial URIs which are relative to the namespace shown above.</p>
+
+<p id="_8e194e0c-7f44-d6c7-f91a-e04dcc3295ed">For the sake of brevity, the use of “conf” in a requirement URI denotes:</p>
+
+<p id="_2a7cc7d7-f6a2-930e-c8fa-d9295aabe20c"><link target="https://www.opengis.net/spec/modspec/1.1/"/></p>
+
+<p id="_2640fd75-874e-1108-00c5-d053632a88b5">The same convention is used for permissions (per) and recommendations (rec).</p>
+</clause>
+
+<definitions id="_abbreviations" type="abbreviated_terms" obligation="normative">
+<title>Abbreviated terms</title>
+<p id="_7a416614-9ff8-7c54-728b-a6b00d59fdfb">In this document the following abbreviations and acronyms are used or introduced:</p>
+
+<dl id="_c603e4cc-73f3-7260-6cac-23b99c997966"><dt id="symbol-ERA">ERA</dt><dd><p id="_df0667a5-63c6-5e86-ea81-0f33196d8a4b">Entity, Relation, Attribute (pre-object modeling technique)</p>
+</dd>
+<dt id="symbol-ISO">ISO</dt><dd><p id="_60c0c2eb-d7d0-ee93-3552-219656c95466">International Organization for Standardization (from Greek for “same”)</p>
+</dd>
+<dt id="symbol-OCL">OCL</dt><dd><p id="_f04534b6-c9ed-c648-aa41-1d413538fd29">Object Constraint Language (part of UML)</p>
+</dd>
+<dt id="symbol-OGC">OGC</dt><dd><p id="_54aadee4-95d5-0699-ad58-b386fabe738a">Open Geospatial Consortium (<link target="http://www.opengeospatial.org/"/>)</p>
+</dd>
+<dt id="symbol-OMG">OMG</dt><dd><p id="_133ee887-264f-ebe9-188a-a3f34d82668d">Object Management Group (<link target="http://www.omg.org/"/>)</p>
+</dd>
+<dt id="symbol-OOP">OOP</dt><dd><p id="_131ecae5-da78-bb08-0896-699fde34dd1c">Object Oriented Programming</p>
+</dd>
+<dt id="symbol-OOPL">OOPL</dt><dd><p id="_dcbb93e6-958d-b2e3-349e-2f3092bc317b">OOP Language (such as C++ or Java)</p>
+</dd>
+<dt id="symbol-TC">TC</dt><dd><p id="_965d3c2e-691a-fdca-5053-fcf65382b8c5">Technical Committee (usually either in ISO or OGC)</p>
+</dd>
+<dt id="symbol-UML">UML</dt><dd><p id="_4cd705fd-fa01-3762-6cd3-af61d0c49b01">Unified Modeling Language (an object modeling language)</p>
+</dd>
+<dt id="symbol-XML">XML</dt><dd><p id="_08b58baa-46da-89a7-2d04-1d89d5c68381">eXtensible Markup Language</p>
+</dd></dl>
+</definitions>
+<clause id="cls-5-3" obligation="normative">
+<title>Finding requirements and recommendations</title>
+<p id="_3d7080e8-744a-0b43-1723-2a09af618b9f">Each normative statement in the ModSpec Part 2 — UML Standard is stated in one and only one place,
+in a standard format, and with an unique label, such as REQ001, REC001, or PER001. A requirement, recommendation, or permission may be repeated for clarification.
+The statement with the unique label is considered the official statement of the normative requirement or recommendation.</p>
+
+<p id="_72bf61e6-5fe0-a883-6034-c7fc24406579">In this document, all requirements are associated with tests specified in the test suite
+in <xref target="annex-A"/>. The reference to the requirement in the test case is done by a
+requirements label Recommendations are not tested although they still are documented using a standard template and have unique identifiers.</p>
+
+<p id="_30f396e5-bc33-774d-b33a-1f34b5263d31">Requirements classes are separated into their own clauses and named, and specified
+according to inheritance (direct dependencies). The Conformance test classes in the
+test suite are similarly named to establish an explicit and link between
+requirements classes and conformance test classes.</p>
+</clause>
+</clause>
+
+<clause id="cls-6" obligation="normative">
+<title>Requirements Class: Part 1 UML</title>
+<p id="_82d66d48-b098-e4de-fd57-4504185eb326">This clause defines the key concepts and requirements that represent Part 2 of the ModSpec.</p>
+
+<clause id="_the_modspec_and_the_form_of_a_standard" obligation="normative">
+<title>The ModSpec and the “Form” of a standard</title>
+<note id="_4f5f94fc-84c9-c3f8-1b36-513a3167644f"><p id="_bbdd7fcd-954f-66bc-30a8-7c324f497d47">For OGC Standards, the assumption is that documents are in a commonly used
+logical form (template).</p>
+</note>
+
+<p id="_1ed2cd8b-8626-344e-fc4b-1277725a4a27">In informative sections, the use of the word “will” implies that something is an implication of a requirement. The “will” statements are not requirements but explain the consequence of requirements.</p>
+
+<p id="_33906a5a-c3e0-c014-0615-e83697ca74f5">The ModSpec defines a “requirement” of a standard as an atomic testable
+criterion. See the formal definition of requirement in <xref target="term-requirement"/></p>
+</clause>
+
+<clause id="cls-6-1" obligation="normative">
+<title>Optional Requirements class: UML model extension to the core</title>
+<p id="_4b4390c0-839b-4736-1688-5fd329390d54">If the organizing mechanism for the data model used in the standard is an object model, then the
+mapping from parts of the model to the requirements classes should follow the
+logical mechanism described here.</p>
+
+<p id="_7179741f-c2f8-6d1e-7dd4-0e4c2ba427e6">The terminology used here is common to all versions of the UML standard, and may
+be applied to any such version.</p>
+
+<p id="_27367699-1a89-9a0b-2b23-59c6aa2d18d1">First, by the requirements above, the extension relationship of this conformance
+test class to the core will be made explicit.</p>
+
+<table id="_eea16a21-d4b7-2391-0997-facb025a3f3b" width="90%"><colgroup><col width="20%"/><col width="80%"/></colgroup><tbody><tr><td colspan="2" valign="middle" align="left"><strong>Requirements Class — UML extension to the core</strong></td>
+</tr><tr><td colspan="2" valign="middle" align="left">/req/core/data-representation</td>
+</tr><tr><td valign="middle" align="left">Target</td>
+<td valign="middle" align="left">ModSpec Conformant UML Model</td>
+</tr><tr><td valign="middle" align="left">Dependency</td>
+<td valign="middle" align="left">OGC ModSpec Version 1.1 [OGC 25-003r1]</td>
+</tr><tr><td valign="middle" align="left">REQ001</td>
+<td valign="middle" align="left">/req/part2/uml/conformance-with-core</td>
+</tr><tr><td valign="middle" align="left">REQ002</td>
+<td valign="middle" align="left">/req/part2/uml/object-model</td>
+</tr><tr><td valign="middle" align="left">REQ003</td>
+<td valign="middle" align="left">/req/part2/uml/dependency-graph</td>
+</tr><tr><td valign="middle" align="left">REQ004</td>
+<td valign="middle" align="left">/req/part2/uml/leaf-package</td>
+</tr><tr><td valign="middle" align="left">REQ005</td>
+<td valign="middle" align="left">/req/part2/uml/class-package</td>
+</tr><tr><td valign="middle" align="left">REQ006</td>
+<td valign="middle" align="left">/req/part2/uml/to-leaf</td>
+</tr><tr><td valign="middle" align="left">REQ007</td>
+<td valign="middle" align="left">/req/part2/uml/common-req-classes</td>
+</tr><tr><td valign="middle" align="left">REQ008</td>
+<td valign="middle" align="left">/req/part2/uml/source-target</td>
+</tr><tr><td valign="middle" align="left">REQ009</td>
+<td valign="middle" align="left">/req/part2/uml/leaf-package-dependency</td>
+</tr><tr><td valign="middle" align="left">REQ010</td>
+<td valign="middle" align="left">/req/part2/uml/two-way-dependency</td>
+</tr><tr><td valign="middle" align="left">REQ011</td>
+<td valign="middle" align="left">/req/part2/uml/segregate-into-leaf-packages</td>
+</tr></tbody>
+</table>
+
+<p id="_a9504214-207c-5a09-8ef2-6ab7c265da83">Any conformant UML extension will comply with the ModSpec Core requirements class.</p>
+
+<table id="req-01" width="90%"><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ001</strong></td>
+<td valign="middle" align="left"><strong>/req/part2/uml/conformance-with-core</strong><br/>
+An implementation passing the UML conformance test class <em>SHALL</em> first pass the ModSpec core
+conformance test class</td>
+</tr></tbody>
+</table>
+
+<p id="_9eff5a31-5e86-13fa-b569-24546c51f875">Assuming all legitimate direct package dependencies are included in the UML model,
+the conformance/requirements class associated to a package <stem type="MathML" block="false"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>A</mi>
+  </mstyle>
+</math>
+<asciimath>A</asciimath></stem> will directly
+reference the conformance/requirements class associated to another package <stem type="MathML" block="false"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>B</mi>
+  </mstyle>
+</math>
+<asciimath>B</asciimath></stem>,
+if and only if <stem type="MathML" block="false"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>A</mi>
+  </mstyle>
+</math>
+<asciimath>A</asciimath></stem> is dependent on <stem type="MathML" block="false"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>B</mi>
+  </mstyle>
+</math>
+<asciimath>B</asciimath></stem>. Indirect dependencies will be
+dealt with as the conformance classes cascade.</p>
+
+<p id="_0fed153e-c083-8544-877a-b5bc637b7dcc">This clause uses UML terminology, but other object modeling languages and, if
+needed, the object code itself can be mapped to a UML model.</p>
+
+<table id="req-02" width="90%"><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ002</strong></td>
+<td valign="middle" align="left"><strong>/req/part2/uml/object-model</strong><br/>
+To be conformant to this UML requirements class, UML <em>SHALL</em> be used to express the
+object model, either as the core mechanism of the standard or as a normative adjunct
+to formally explain the standard in a model</td>
+</tr></tbody>
+</table>
+
+<table id="req-03" width="90%"><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ003</strong></td>
+<td valign="middle" align="left"><strong>/req/part2/uml/dependency-graph</strong><br/>
+A UML model <em>SHALL</em> have an explicit dependency graph for the leaf packages and
+external packages used by the standard consistent with the way their classifiers use
+those of other packages</td>
+</tr></tbody>
+<note id="_34b83aa4-99f1-fe8f-7f4a-f8a0f9bdb83a"><p id="_c6d11d4e-a4c1-277d-08af-03945610462c">External packages having predated the current version of the standard will
+not normally have dependencies to packages within the standard.</p>
+</note></table>
+
+
+
+<p id="_ca04fd64-969f-4243-b55e-ad73e086dd35">Other dependencies (indirect) will arise from the transitive closure of the above
+direct dependencies. That means if <stem type="MathML" block="false"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>A</mi>
+  </mstyle>
+</math>
+<asciimath>A</asciimath></stem> depends on <stem type="MathML" block="false"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>B</mi>
+  </mstyle>
+</math>
+<asciimath>B</asciimath></stem>, and <stem type="MathML" block="false"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>B</mi>
+  </mstyle>
+</math>
+<asciimath>B</asciimath></stem>
+depends on <stem type="MathML" block="false"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>C</mi>
+  </mstyle>
+</math>
+<asciimath>C</asciimath></stem> then <stem type="MathML" block="false"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>A</mi>
+  </mstyle>
+</math>
+<asciimath>A</asciimath></stem> depends on <stem type="MathML" block="false"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>C</mi>
+  </mstyle>
+</math>
+<asciimath>C</asciimath></stem>. Since these indirect
+dependencies will show up in the cascade of included conformance tests based solely
+on the direct dependencies, we can ignore them for effects on structure.</p>
+
+<p id="_04ec77ab-03ad-bfc5-89ff-b10afdf383f3">Since a package can consist solely of other packages, there is always the capability
+to define in UML a single package that will correspond to a particular requirements
+class and its associated conformance class.</p>
+
+<table id="req-04" width="90%"><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ004</strong></td>
+<td valign="middle" align="left"><strong>/req/part2/uml/leaf-model</strong><br/>
+A UML leaf package <em>SHALL</em> be associated directly to only one requirements class.</td>
+</tr></tbody>
+</table>
+
+<table id="req-05" width="90%"><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ005</strong></td>
+<td valign="middle" align="left"><strong>/req/part2/uml/class-package</strong><br/>
+Each requirements class shall be associated to a unique package in the model and
+include either directly or by a dependency any requirement associated to any of its
+subpackages.</td>
+</tr></tbody>
+</table>
+
+<p id="_fd430124-f21f-58f6-210e-7a796f9ccdb2">The class definitions are the “requirements” of a UML expressed standard. Therefore, the
+logical consequence of the above is to organize requirements classes based on leaf
+packages.</p>
+
+<table id="req-06" width="90%"><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ006</strong></td>
+<td valign="middle" align="left"><strong>/req/part2/uml/to-leaf</strong><br/>
+A requirements class <em>SHALL</em> be associated to some number of complete leaf packages
+and all classes and constraints in those packages.</td>
+</tr></tbody>
+</table>
+
+<p id="_11c77d67-d4c2-3d7c-11cc-2123a090b2ca">If a requirement uses or refers to elements of more than one package, then one of
+the packages will be called the source of the requirement, and the other targets.
+The requirement with the same source package will always be associated with the same
+requirements module and/or class.</p>
+
+<table id="req-07" width="90%"><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ007</strong></td>
+<td valign="middle" align="left"><strong>/req/part2/uml/common-req-classe</strong><br/>
+Classes that are common to all requirements classes <em>SHALL</em> be in a package
+associated to the core requirements class.</td>
+</tr></tbody>
+</table>
+
+<p id="_ccdd8b5d-32dd-6479-fa8a-7f47deb4f468">This is actually a derived requirement and is repeated here for emphasis.</p>
+
+<p id="_a8e64c4f-6f83-b01e-f924-306c171f57a3">This dependency of requirements classes will be consistent with the usual mechanism
+for describing the source and target of dependencies between packages. By Clause
+<xref target="req-22"/> in the Core, only classes in the source requirements class will be affected by the
+requirement.</p>
+
+<p id="_f5d5f225-aeb9-b878-155d-bb1bca3bc907">In UML, source and target dependency relations are defined in such a way that the
+source of the relation is dependent on the target of the relation.</p>
+
+<table id="req-08" width="90%"><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ008</strong></td>
+<td valign="middle" align="left"><strong>/req/part2/uml/source-target</strong><br/></td>
+</tr><tr><td valign="middle" align="center">A</td>
+<td valign="middle" align="left">In the UML model, if a “source” package is dependent on a “target” package then
+their requirements class <em>SHALL</em> be equal or</td>
+</tr><tr><td valign="middle" align="center">B</td>
+<td valign="middle" align="left">The source package’s class <em>SHALL</em> be an extension of the target package’s class.</td>
+</tr></tbody>
+</table>
+
+<p id="_7dbdad38-7815-0e7a-fc0d-5dc3452fb8ac">This means that the dependency graph of the UML packages parallels in some sense the
+extension diagram of the requirements/conformance classes. If all leaf
+packages of the model are moved into “requirements class packages” containing their
+corresponding modeling packages the model then satisfies the following
+recommendation:</p>
+
+<p id="_b9b5176a-4b86-6ef8-d757-aca21944810c"><strong><hi>Each requirements class in a conformant standard should be associated to one and only one UML package (which may contain sub-packages for a finer level of structure). If the core requirements class contains only recommendations, it may be an exception to this.</hi></strong></p>
+
+<table id="req-09" width="90%"><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ009</strong></td>
+<td valign="middle" align="left"><strong>/req/part2/uml/leaf-package-dependency</strong><br/>
+If one leaf package is dependent on another leaf package, then the requirements
+class of the first <em>SHALL</em> be the same or an extension of the requirements class of
+the second.</td>
+</tr></tbody>
+</table>
+
+<table id="req-10" width="90%"><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ010</strong></td>
+<td valign="middle" align="left"><strong>/req/part2/uml/two-way-dependency</strong><br/>
+If two packages have a two-way dependency (a “co-dependency”), they <em>SHALL</em> be
+associated to the same requirements class.</td>
+</tr></tbody>
+</table>
+
+<p id="_e3f7cb34-19ab-fdb4-705f-6554066fbb34">For example, if two classes have a two-way navigable association, then these two
+classes must be (transitively) in the same conformance requirements class package.</p>
+
+<p id="_f1f36d82-aa5e-17f0-0275-c99d36e5e4e8">The hierarchical structure of a UML model is based on UML classes, residing in UML
+packages. UML packages can then reside in larger UML packages. Although there is
+nothing to demand it, it is a common practice to move all classes down the hierarchy
+to leaf packages. Leaf packages are those that contain only classes (that is,
+contain no smaller subpackages). Classes can act as packages in the sense that a UML
+class can contain a locally defined class whose scope is the class itself. For our
+purposes, we will consider a class and its contained local classes to all be in the
+package of the original class.</p>
+
+<table id="req-11" width="90%"><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ011</strong></td>
+<td valign="middle" align="left"><strong>/req/part2/uml/segregate-into-leaf-packages</strong><br/>
+The UML model <em>SHALL</em> segregate all classes into leaf packages.</td>
+</tr></tbody>
+</table>
+</clause>
+</clause>
+
+<clause id="annex-A-1" obligation="normative">
+<title>Conformance test class: UML model extends The Standard</title>
+<clause id="_dependency_on_core" obligation="normative">
+<title>Dependency on Core</title>
+<p id="_5643e02d-30f5-dd96-37a3-d47e54b1ab31">An implementation passing the UML conformance test class shall first pass the core
+conformance test class.</p>
+
+<ol id="_896413ef-5fae-cafa-708e-adece432c53f" type="arabic"><li><p id="_d7901ea9-59d1-58ef-c044-4d07b89f7e14">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li><p id="_20ea0bef-93e1-2a71-0e69-26187399a31f">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li><p id="_7f713636-dd14-7c57-56fb-11c7d57d51e7">Reference: <xref target="req-01"/></p>
+</li>
+<li><p id="_185b2049-935c-4eb3-21c7-3c83b0172a43">Test Type: Conformance.</p>
+</li>
+</ol>
+</clause>
+
+<clause id="_the_uml_model_is_normative" obligation="normative">
+<title>The UML model is normative</title>
+<p id="_22a4ab23-11e6-9e60-73d9-bb38d59e3736">To be conformant to this UML conformance class, UML shall be used to express the
+object model, either as the core mechanism of the standard or as a normative adjunct
+to formally explain the standard in a model.</p>
+
+<ol id="_2148b51f-3ec7-d2dc-324a-b201a3e3e3b3" type="arabic"><li><p id="_9e3db368-5147-3f86-ee66-bcd5947b6092">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li><p id="_474414cd-0f52-82ce-1cbf-3d34f220f2ab">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li><p id="_ebf1a34b-1e31-b3bd-83dc-be9b851bc445">Reference: <xref target="req-02"/></p>
+</li>
+<li><p id="_17ec568f-3e47-8a25-55ce-ed779e3487ba">Test Type: Conformance.</p>
+</li>
+</ol>
+</clause>
+
+<clause id="_dependency_graph_must_be_explicit" obligation="normative">
+<title>Dependency graph must be explicit</title>
+<p id="_82eed45c-1a62-2dd2-a997-fbe78c33f11f">A UML model shall have an explicit dependency graph for the leaf packages and
+external packages used by the standard consistent with the way their classifiers use
+those of other packages.</p>
+
+<ol id="_da27b96e-2654-ba24-08f6-9e0ef1fe4941" type="arabic"><li><p id="_568928c9-d213-0259-52a1-0224f2190fbe">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li><p id="_26839e23-32fb-c2ac-512c-e000e472aeab">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li><p id="_bd638bbd-920f-91e5-3bea-b9e29f4ddf59">Reference: <xref target="req-03"/></p>
+</li>
+<li><p id="_93268d44-0cc9-ef5f-83ea-19ad59f0d714">Test Type: Conformance.</p>
+</li>
+</ol>
+</clause>
+
+<clause id="_leaf_packages_in_only_one_requirements_class" obligation="normative">
+<title>Leaf packages in only one requirements class</title>
+<p id="_510463cf-e967-9d1f-f2b1-185aa14e624f">A UML leaf package shall be associated directly to only one requirements class.</p>
+
+<ol id="_e616afd4-0c19-991b-2910-141d0b0afd3b" type="arabic"><li><p id="_88aa4bf7-6198-4384-1b30-df7cdd383afc">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li><p id="_8000cb80-5732-2656-9653-30b38433bfdc">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li><p id="_90bbb9d6-05ec-0c25-b560-4e6f6d13db48">Reference: <xref target="req-04"/></p>
+</li>
+<li><p id="_f08a656a-d7c6-fc70-27fb-031d39a94948">Test Type: Conformance.</p>
+</li>
+</ol>
+</clause>
+
+<clause id="_requirements_class_associated_to_a_unique_package" obligation="normative">
+<title>Requirements class associated to a unique package</title>
+<p id="_d54ac045-ba42-b1d0-36af-25779b1656ca">Each requirements class shall be associated to a unique package in the model and
+include either directly or by a dependency any requirement associated to any of its
+subpackages.</p>
+
+<ol id="_c9e8d8ea-c394-72a1-b6b0-3d9e172eae67" type="arabic"><li><p id="_27a90c90-a7a9-be74-ff6a-803ba832df12">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li><p id="_90386364-eaac-703f-982c-39e48c21543d">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li><p id="_19629a47-ba89-fd13-0bcf-3359293160c5">Reference: <xref target="req-05"/></p>
+</li>
+<li><p id="_b09804e6-70d4-3ec5-0103-94e2bb166835">Test Type: Conformance.</p>
+</li>
+</ol>
+</clause>
+
+<clause id="_a_requirements_class_contains_complete_leaf_packages" obligation="normative">
+<title>A requirements class contains complete leaf packages</title>
+<p id="_dded850c-6bf2-4f64-3532-c9eb0d03451c">A requirements class shall be associated to some number of complete leaf packages
+and all classes and constraints in those packages.</p>
+
+<ol id="_ec503773-c994-b237-355b-698d8e32bfd1" type="arabic"><li><p id="_3fa0925e-336e-420a-b515-6b6fce911031">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li><p id="_094dd620-f203-0ff5-c500-66c6d71d1ff0">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li><p id="_ee70b793-f5cb-5594-7ab0-dc972256c963">Reference: <xref target="req-06"/></p>
+</li>
+<li><p id="_1f910e93-269b-93bb-767a-4dbddbd2d6db">Test Type: Conformance.</p>
+</li>
+</ol>
+</clause>
+
+<clause id="_classes_common_to_all_requirement_classes_are_in_the_core" obligation="normative">
+<title>Classes common to all requirement classes are in the core</title>
+<p id="_f6e13210-6787-ebf2-676f-b6d1af5aa08b">Classes that are common to all requirements classes shall be in a package associated
+to the core conformance/requirements class.</p>
+
+<ol id="_4cf18614-081f-b153-1d96-fb838f12dfda" type="arabic"><li><p id="_087d3f7c-1189-9da3-5837-c6caa03ddc28">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li><p id="_4fbad5dc-4e69-17ba-b4eb-28dd09e61943">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li><p id="_f1ef2adb-4c4a-3f31-618b-131fabb00622">Reference: <xref target="req-07"/>.</p>
+</li>
+<li><p id="_dfafa0f3-258e-d650-5b9c-39db28bceb22">Test Type: Conformance.</p>
+</li>
+</ol>
+</clause>
+
+<clause id="_package_dependencies_become_requirements_class_extensions" obligation="normative">
+<title>Package dependencies become requirements class extensions</title>
+<p id="_050c0e9c-ef72-5ab7-5bab-1b8b0f64e33b">In the UML model, if a “source” package is dependent on a “target” package then
+their requirements class shall be equal or the source package’s class shall be an
+extension of the target package’s class.</p>
+
+<ol id="_95595d9f-4693-6243-a00e-3f4f17c71315" type="arabic"><li><p id="_573c2929-972b-3a2d-67d9-89eb86fa65d3">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li><p id="_a86198d6-043e-12f1-7d05-8e9d00a10335">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li><p id="_9b7625f0-5cfd-4ae4-bb98-861e3b6fef21">Reference: <xref target="req-08"/>.</p>
+</li>
+<li><p id="_0c491664-a222-f12d-6cd9-87fa9f340fe6">Test Type: Conformance.</p>
+</li>
+</ol>
+</clause>
+
+<clause id="_dependencies_in_packages_are_reflected_in_dependencies_in_requirements_classes" obligation="normative">
+<title>Dependencies in packages are reflected in dependencies in requirements classes</title>
+<p id="_b71fee05-36d1-3315-83e9-46228e65bddb">If one leaf package is dependent on another leaf package, then the requirements
+class of the first shall be the same or an extension of the requirements class of
+the second.</p>
+
+<ol id="_8e2b61d0-d6bb-e1a2-51bb-e654929a7aab" type="arabic"><li><p id="_ddde0e6b-c2c6-4412-19a6-8cb9dd8fe4ac">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li><p id="_e5d70e3f-61e0-f825-13a0-d54567e9ba21">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li><p id="_748dcfa4-f35f-3b1c-6ae3-4903ad0f45bb">Reference: <xref target="req-09"/>.</p>
+</li>
+<li><p id="_2ba95ecb-f31d-a3aa-af7e-d5e29a6823f2">Test Type: Conformance.</p>
+</li>
+</ol>
+</clause>
+
+<clause id="_co_dependent_packages_are_in_the_same_requirements_class" obligation="normative">
+<title>Co-dependent packages are in the same requirements class</title>
+<p id="_2027a21a-4460-d645-2f22-febe089ad450">If two packages have a two-way dependency (a “co-dependency”), they shall be
+associated to the same requirements class.</p>
+
+<ol id="_3b81e163-fc4c-b139-1675-7fbfe0601bd3" type="arabic"><li><p id="_b76c7e44-515c-f6e0-8754-0a68c6dcf0c1">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li><p id="_eb498cae-7e78-684a-3d7d-401b52b465ff">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li><p id="_3e37c5d5-032a-a0cc-dba9-4c2282db337f">Reference: <xref target="req-10"/></p>
+</li>
+<li><p id="_072fcc42-2ffa-ff61-7598-5bc4d0b29218">Test Type: Conformance.</p>
+</li>
+</ol>
+</clause>
+
+<clause id="_all_classes_are_in_leaf_packages" obligation="normative">
+<title>All classes are in leaf packages</title>
+<p id="_ef7183fb-31e5-77dd-f805-b673d8d929fb">The UML model shall segregate all classes into leaf packages.</p>
+
+<ol id="_79e7b62c-2695-1707-8786-107cfe83cde8" type="arabic"><li><p id="_f72f3e93-9840-f98b-e0c2-05687b99df9d">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li><p id="_6f6b6a79-89a2-af7f-6b88-7f6ed5811712">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li><p id="_0413a0af-2e72-0270-9321-fafde07908a3">Reference: <xref target="req-11"/></p>
+</li>
+<li><p id="_750ee94d-18cb-bfda-d1b3-774f6b193675">Test Type: Conformance.</p>
+</li>
+</ol>
+</clause>
+</clause>
+</sections><bibliography><references id="_normative_references" normative="true" obligation="informative">
+<title>Normative references</title><p id="_cdc64d2a-a937-72f4-1261-c3b19cc626b1">The following documents are referred to in the text in such a way that some or all of their content constitutes requirements of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.</p>
+
+
+
+
+
+
+<bibitem id="omg-infrastructure"><formattedref format="application/x-isodoc+xml">OMG Unified Modeling Language (OMG UML), Infrastructure, V2.5, OMG Document Number: formal/2015-03-01, Standard document URL: <link target="https://www.omg.org/spec/UML/2.5"/></formattedref><docidentifier type="OMG">OMG UML/2.5/Infrastructure</docidentifier><docnumber>2.5/Infrastructure</docnumber></bibitem>
+<bibitem id="omg-superstructure"><formattedref format="application/x-isodoc+xml">OMG Unified Modeling Language (OMG UML), Superstructure, V2.4.1, OMG Document Number: formal/2012-05-07; Standard document URL: <link target="https://www.omg.org/spec/UML/ISO/19505-2/PDF"/></formattedref><docidentifier type="OMG">OMG UML/2.4.1/Superstructure</docidentifier><docnumber>2.4.1/Superstructure</docnumber></bibitem>
+</references></bibliography>
+</ogc-standard>

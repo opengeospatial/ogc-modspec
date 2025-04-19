@@ -1,0 +1,32 @@
+
+[[scope]]
+== Scope
+The ModSpec defines characteristics and structure for the specification of Standards 
+that will encourage implementation by minimizing difficulty determining
+requirements, mimicking implementation structure and maximizing usability and
+interoperability. This Part 2 of the ModSpec defines the requirement class for using UML. The use case is if the organizing mechanism for the data model 
+used in a standard is an object model, then the mapping from parts of the model to the requirements classes should follow the logical mechanism described in Part 2 of the ModSpec.
+
+[[introduction]]
+=== Introduction
+
+==== Semantics
+
+The ModSpec Core Standard defines requirements for conformance to the ModSpec, but
+testing for that conformance may depend on how the various forms and parts of a
+conformant standard are viewed. The ModSpec Part 2 Standard specifies how those views
+are to be defined as UML. 
+
+As suggested in Clause Requirement 8 of the ModSpec Core, the structure of the normative clauses in a
+standard should parallel the structure of the conformance test classes in
+that standard. The structure of the normative clauses in a well written
+standard will follow the structure of its model. This means that all three are
+parallel.
+
+==== ModSpec document structure
+
+Version 1.1 of the ModSpec is split into a Core standard and multiple Parts. These are:
+
+- Part 1: Core: Contains all the core requirements and informational text that define the model and internal structure of a standard.
+- Part 2: UML Model requirements 
+- Part 3: XML Model and Schematron requirements 
