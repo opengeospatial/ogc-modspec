@@ -1,0 +1,9 @@
+[[req_uml_source-target]]
+
+[requirement]
+====
+[%metadata]
+identifier:: /req/uml/source-target
+part:: In the UML model, if a “source” package is dependent on a “target” package then their requirements class SHALL be equal or
+part:: The source package’s class SHALL be an extension of the target package’s class.
+====

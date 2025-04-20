@@ -1,0 +1,22 @@
+[[req_class-uml]]
+[requirements_class]
+.Requirements Class 'UML'
+====
+[%metadata]
+identifier:: https://www.opengis.net/spec/modspec-2/1.1/req/req-class-uml
+target-type:: Modular UML Standard
+requirement:: /req/uml/conformance-with-core
+requirement:: /req/uml/object-model
+requirement:: /req/uml/dependency-graph
+requirement:: /req/uml/leaf-package
+requirement:: /req/uml/class-package
+requirement:: /req/uml/to-leaf
+requirement:: /req/uml/common-req-class
+requirement:: /req/uml/source-target
+requirement:: /req/uml/leaf-package-dependency
+requirement:: /req/uml/two-way-dependency
+requirement:: /req/uml/segregate-into-leaf-packages
+====
+
+
+

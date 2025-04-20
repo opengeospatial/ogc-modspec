@@ -1,0 +1,8 @@
+[[req_uml_class-package]]
+
+[requirement]
+====
+[%metadata]
+identifier:: /req/uml/class-package
+statement:: Each requirements class shall be associated to a unique package in the model and include either directly or by a dependency any requirement associated to any of its subpackages.
+====

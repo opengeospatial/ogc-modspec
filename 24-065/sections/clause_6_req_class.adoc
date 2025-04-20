@@ -26,36 +26,12 @@ be applied to any such version.
 First, by the requirements above, the extension relationship of this conformance
 test class to the core will be made explicit.
 
-[cols="1,4",width="90%"]
-|===
-2+|*Requirements Class - UML extension to the core* 
-2+|/req/core/data-representation 
-|Target | ModSpec Conformant UML Model
-|Dependency |OGC ModSpec Version 1.1 [OGC 25-003r1]
-|REQ001 | /req/part2/uml/conformance-with-core 
-|REQ002 | /req/part2/uml/object-model 
-|REQ003 | /req/part2/uml/dependency-graph 
-|REQ004 | /req/part2/uml/leaf-package
-|REQ005 | /req/part2/uml/class-package
-|REQ006 | /req/part2/uml/to-leaf
-|REQ007 | /req/part2/uml/common-req-classes
-|REQ008 | /req/part2/uml/source-target
-|REQ009 | /req/part2/uml/leaf-package-dependency
-|REQ010 | /req/part2/uml/two-way-dependency
-|REQ011 | /req/part2/uml/segregate-into-leaf-packages
-|===
+include::../requirements/requirements_class_uml.adoc[]
 
 Any conformant UML extension will comply with the ModSpec Core requirements class.
 
 [[req-01]]
-[requirement,model=ogc,type="general"]
-
-[width="90%",cols="2,6"]
-|===
-|*REQ001* | */req/part2/uml/conformance-with-core* +
-An implementation passing the UML conformance test class _SHALL_ first pass the ModSpec core
-conformance test class
-|===
+include::../requirements/uml/REQ001.adoc[]
 
 Assuming all legitimate direct package dependencies are included in the UML model,
 the conformance/requirements class associated to a package stem:[A] will directly
@@ -67,26 +43,10 @@ This clause uses UML terminology, but other object modeling languages and, if
 needed, the object code itself can be mapped to a UML model. 
 
 [[req-02]]
-[requirement,model=ogc,type="general"]
-
-[width="90%",cols="2,6"]
-|===
-|*REQ002* | */req/part2/uml/object-model* +
-To be conformant to this UML requirements class, UML _SHALL_ be used to express the
-object model, either as the core mechanism of the standard or as a normative adjunct
-to formally explain the standard in a model
-|===
-
+include::../requirements/uml/REQ002.adoc[]
 
 [[req-03]]
-[requirement,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*REQ003* | */req/part2/uml/dependency-graph* +
-A UML model _SHALL_ have an explicit dependency graph for the leaf packages and
-external packages used by the standard consistent with the way their classifiers use
-those of other packages
-|===
+include::../requirements/uml/REQ003.adoc[]
 
 NOTE: External packages having predated the current version of the standard will
 not normally have dependencies to packages within the standard.
@@ -102,35 +62,17 @@ to define in UML a single package that will correspond to a particular requireme
 class and its associated conformance class.
 
 [[req-04]]
-[requirement,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*REQ004* | */req/part2/uml/leaf-model* +
-A UML leaf package _SHALL_ be associated directly to only one requirements class.
-|===
+include::../requirements/uml/REQ004.adoc[]
 
 [[req-05]]
-[requirement,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*REQ005* | */req/part2/uml/class-package* +
-Each requirements class shall be associated to a unique package in the model and
-include either directly or by a dependency any requirement associated to any of its
-subpackages.
-|===
+include::../requirements/uml/REQ005.adoc[]
 
 The class definitions are the "requirements" of a UML expressed standard. Therefore, the
 logical consequence of the above is to organize requirements classes based on leaf
 packages.
 
 [[req-06]]
-[requirement,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*REQ006* | */req/part2/uml/to-leaf* +
-A requirements class _SHALL_ be associated to some number of complete leaf packages
-and all classes and constraints in those packages.
-|===
+include::../requirements/uml/REQ006.adoc[]
 
 If a requirement uses or refers to elements of more than one package, then one of
 the packages will be called the source of the requirement, and the other targets.
@@ -138,13 +80,7 @@ The requirement with the same source package will always be associated with the 
 requirements module and/or class.
 
 [[req-07]]
-[requirement,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*REQ007* | */req/part2/uml/common-req-classe* +
-Classes that are common to all requirements classes _SHALL_ be in a package
-associated to the core requirements class.
-|===
+include::../requirements/uml/REQ007.adoc[]
 
 This is actually a derived requirement and is repeated here for emphasis.
 
@@ -157,14 +93,7 @@ In UML, source and target dependency relations are defined in such a way that th
 source of the relation is dependent on the target of the relation.
 
 [[req-08]]
-[requirement,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*REQ008* | */req/part2/uml/source-target* +
-^| A | In the UML model, if a "source" package is dependent on a "target" package then
-their requirements class _SHALL_ be equal or 
-^| B | The source package's class _SHALL_ be an extension of the target package's class.
-|===
+include::../requirements/uml/REQ008.adoc[]
 
 This means that the dependency graph of the UML packages parallels in some sense the
 extension diagram of the requirements/conformance classes. If all leaf
@@ -178,23 +107,10 @@ finer level of structure). If the core requirements class contains only
 recommendations, it may be an exception to this.#*
 
 [[req-09]]
-[requirement,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*REQ009* | */req/part2/uml/leaf-package-dependency* +
-If one leaf package is dependent on another leaf package, then the requirements
-class of the first _SHALL_ be the same or an extension of the requirements class of
-the second.
-|===
+include::../requirements/uml/REQ009.adoc[]
 
 [[req-10]]
-[requirement,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*REQ010* | */req/part2/uml/two-way-dependency* +
-If two packages have a two-way dependency (a "co-dependency"), they _SHALL_ be
-associated to the same requirements class.
-|===
+include::../requirements/uml/REQ010.adoc[]
 
 For example, if two classes have a two-way navigable association, then these two
 classes must be (transitively) in the same conformance requirements class package.
@@ -209,9 +125,5 @@ purposes, we will consider a class and its contained local classes to all be in 
 package of the original class.
 
 [[req-11]]
-[requirement,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*REQ011* | */req/part2/uml/segregate-into-leaf-packages* +
-The UML model _SHALL_ segregate all classes into leaf packages.
-|===
+include::../requirements/uml/REQ011.adoc[]
+

@@ -1,0 +1,8 @@
+[[req_uml_leaf-package]]
+
+[requirement]
+====
+[%metadata]
+identifier:: /req/uml/leaf-package
+statement:: A UML leaf package SHALL be associated directly to only one requirements class.
+====

@@ -2,10 +2,12 @@
 <ogc-standard xmlns="https://www.metanorma.org/ns/ogc" type="presentation" version="2.5.7" schema-version="v1.3.1">
 <bibdata type="standard">
 <title language="en" format="text/plain">The ModSpec Model - Part 2: UML</title>
-<uri type="xml">./24-065.xml</uri><uri type="pdf">./24-065.pdf</uri><uri type="doc">./24-065.doc</uri><docidentifier type="ogc-external">http://www.opengis.net/doc/spec/modspec-2/1.1</docidentifier><docidentifier type="ogc-internal" primary="true">24-065</docidentifier><docnumber>24-065</docnumber><date type="published"><on>2029-03-30</on></date><date type="issued"><on>2029-03-30</on></date><date type="received"><on>2025-04-15</on></date><contributor><role type="author"/><organization>
+<uri type="xml">./24-065.xml</uri><uri type="pdf">./24-065.pdf</uri><uri type="doc">./24-065.doc</uri><docidentifier type="ogc-external">http://www.opengis.net/doc/spec/modspec-2/1.1</docidentifier><docidentifier type="ogc-internal" primary="true">24-065</docidentifier><docnumber>24-065</docnumber><date type="published"><on>2029-03-30</on></date><date type="issued"><on>2029-03-30</on></date><date type="received"><on>2025-04-20</on></date><contributor><role type="author"/><organization>
 <name>Carl Reed, Heazeltech, ImageMatters</name>
 </organization></contributor><contributor><role type="editor"/><person>
 <name><completename>Carl Reed</completename></name>
+</person></contributor><contributor><role type="editor"/><person>
+<name><completename>Chuck Heazel</completename></name>
 </person></contributor><contributor><role type="editor"/><person>
 <name><completename>John Herring</completename></name>
 </person></contributor><contributor><role type="publisher"/><organization>
@@ -43,13 +45,15 @@ repository for this document (<link target="https://github.com/opengeospatial/og
 </localized-string><localized-string key="internal_external_terms_boilerplate" language="en"><p>This document uses the terms defined in <link target="https://portal.ogc.org/public_ogc/directives/directives.php">OGC Policy Directive 49</link>, which is based on the ISO/IEC Directives, Part 2, Rules for the structure and drafting of International Standards. In particular, the word “shall” (not “must”) is the verb form used to indicate a requirement to be strictly followed to conform to this document and OGC documents do not use the equivalent phrases in the ISO/IEC Directives, Part 2.</p>
 <p>This document also uses terms defined in the OGC Standard for Modular specifications (<link target="https://portal.opengeospatial.org/files/?artifact_id=34762">OGC 08-131r3</link>), also known as the 'ModSpec'. The definitions of terms such as standard, specification, requirement, and conformance test are provided in the ModSpec.</p>
 <p>For the purposes of this document, the terms and definitions given in % and the following additionally apply.</p>
-</localized-string><localized-string key="no_information_available" language="en">[NO INFORMATION AVAILABLE]</localized-string><localized-string key="term_defined_in" language="en">(%)</localized-string><localized-string key="binary_and" language="en">%1 and %2</localized-string><localized-string key="multiple_and" language="en">%1, and %2</localized-string><localized-string key="binary_or" language="en">%1 or %2</localized-string><localized-string key="multiple_or" language="en">%1, or %2</localized-string><localized-string key="chain_and" language="en">%1 and %2</localized-string><localized-string key="chain_or" language="en">%1 or %2</localized-string><localized-string key="chain_from" language="en">%1 from %2</localized-string><localized-string key="chain_to" language="en">%1 to %2</localized-string><localized-string key="nested_xref" language="en">%1, %2</localized-string><localized-string key="list_nested_xref" language="en">%1 %2</localized-string><localized-string key="SpelloutRules" language="en">spellout-ordinal</localized-string><localized-string key="OrdinalRules" language="en">digits-ordinal</localized-string><localized-string key="note" language="en">NOTE</localized-string><localized-string key="note_xref" language="en">Note</localized-string><localized-string key="termnote" language="en">Note % to entry</localized-string><localized-string key="list" language="en">List</localized-string><localized-string key="deflist" language="en">Definition List</localized-string><localized-string key="figure" language="en">Figure</localized-string><localized-string key="diagram" language="en">Diagram</localized-string><localized-string key="formula" language="en">Formula</localized-string><localized-string key="inequality" language="en">Formula</localized-string><localized-string key="table" language="en">Table</localized-string><localized-string key="requirement" language="en">Requirement</localized-string><localized-string key="recommendation" language="en">Recommendation</localized-string><localized-string key="permission" language="en">Permission</localized-string><localized-string key="box" language="en">Box</localized-string><localized-string key="recommendationtest" language="en">Recommendation test</localized-string><localized-string key="requirementtest" language="en">Requirement test</localized-string><localized-string key="permissiontest" language="en">Permission test</localized-string><localized-string key="recommendationclass" language="en">Recommendations class</localized-string><localized-string key="requirementclass" language="en">Requirements class</localized-string><localized-string key="permissionclass" language="en">Permissions class</localized-string><localized-string key="abstracttest" language="en">Abstract test</localized-string><localized-string key="conformanceclass" language="en">Conformance class</localized-string><localized-string key="key" language="en">Key</localized-string><localized-string key="example" language="en">Example</localized-string><localized-string key="example_xref" language="en">Example</localized-string><localized-string key="where" language="en">where</localized-string><localized-string key="where_one" language="en">where</localized-string><localized-string key="wholeoftext" language="en">Whole of text</localized-string><localized-string key="draft_label" language="en">draft</localized-string><localized-string key="inform_annex" language="en">informative</localized-string><localized-string key="norm_annex" language="en">normative</localized-string><localized-string key="modified" language="en">modified</localized-string><localized-string key="adapted" language="en">adapted</localized-string><localized-string key="deprecated" language="en">DEPRECATED</localized-string><localized-string key="source" language="en">SOURCE</localized-string><localized-string key="and" language="en">and</localized-string><localized-string key="all_parts" language="en">All Parts</localized-string><localized-string key="edition_ordinal" language="en">{{ var1 | ordinal_word: '', '' }} edition</localized-string><localized-string key="edition" language="en">edition</localized-string><localized-string key="version" language="en">version</localized-string><localized-string key="toc_figures" language="en">List of Figures</localized-string><localized-string key="toc_tables" language="en">List of Tables</localized-string><localized-string key="toc_recommendations" language="en">List of Recommendations</localized-string><localized-string key="month_january" language="en">January</localized-string><localized-string key="month_february" language="en">February</localized-string><localized-string key="month_march" language="en">March</localized-string><localized-string key="month_april" language="en">April</localized-string><localized-string key="month_may" language="en">May</localized-string><localized-string key="month_june" language="en">June</localized-string><localized-string key="month_july" language="en">July</localized-string><localized-string key="month_august" language="en">August</localized-string><localized-string key="month_september" language="en">September</localized-string><localized-string key="month_october" language="en">October</localized-string><localized-string key="month_november" language="en">November</localized-string><localized-string key="month_december" language="en">December</localized-string><localized-string key="obligation" language="en">Obligation</localized-string><localized-string key="admonition.danger" language="en">Danger</localized-string><localized-string key="admonition.warning" language="en">Warning</localized-string><localized-string key="admonition.caution" language="en">Caution</localized-string><localized-string key="admonition.important" language="en">Important</localized-string><localized-string key="admonition.safety_precautions" language="en">Safety Precautions</localized-string><localized-string key="admonition.editorial" language="en">Editorial Note</localized-string><localized-string key="locality.section" language="en">Section</localized-string><localized-string key="locality.clause" language="en">Clause</localized-string><localized-string key="locality.part" language="en">Part</localized-string><localized-string key="locality.paragraph" language="en">Paragraph</localized-string><localized-string key="locality.chapter" language="en">Chapter</localized-string><localized-string key="locality.page" language="en">Page</localized-string><localized-string key="locality.table" language="en">Table</localized-string><localized-string key="locality.annex" language="en">Annex</localized-string><localized-string key="locality.figure" language="en">Figure</localized-string><localized-string key="locality.example" language="en">Example</localized-string><localized-string key="locality.note" language="en">Note</localized-string><localized-string key="locality.formula" language="en">Formula</localized-string><localized-string key="grammar_abbrevs.masculine" language="en">m</localized-string><localized-string key="grammar_abbrevs.feminine" language="en">f</localized-string><localized-string key="grammar_abbrevs.neuter" language="en">n</localized-string><localized-string key="grammar_abbrevs.common" language="en">common</localized-string><localized-string key="grammar_abbrevs.singular" language="en">sg</localized-string><localized-string key="grammar_abbrevs.dual" language="en">dual</localized-string><localized-string key="grammar_abbrevs.pl" language="en">pl</localized-string><localized-string key="grammar_abbrevs.isPreposition" language="en">prep</localized-string><localized-string key="grammar_abbrevs.isParticiple" language="en">part</localized-string><localized-string key="grammar_abbrevs.isAdjective" language="en">adj</localized-string><localized-string key="grammar_abbrevs.isAdverb" language="en">adv</localized-string><localized-string key="grammar_abbrevs.isNoun" language="en">noun</localized-string><localized-string key="grammar_abbrevs.isVerb" language="en">verb</localized-string><localized-string key="relatedterms.deprecates" language="en">deprecates</localized-string><localized-string key="relatedterms.supersedes" language="en">supersedes</localized-string><localized-string key="relatedterms.narrower" language="en">narrower</localized-string><localized-string key="relatedterms.broader" language="en">broader</localized-string><localized-string key="relatedterms.equivalent" language="en">equivalent</localized-string><localized-string key="relatedterms.compare" language="en">compare</localized-string><localized-string key="relatedterms.contrast" language="en">contrast</localized-string><localized-string key="relatedterms.see" language="en">see</localized-string><localized-string key="relatedterms.seealso" language="en">see also</localized-string><localized-string key="Clause.sg" language="en">Clause</localized-string><localized-string key="Clause.pl" language="en">Clauses</localized-string><localized-string key="Annex.sg" language="en">Annex</localized-string><localized-string key="Annex.pl" language="en">Annexes</localized-string><localized-string key="Appendix.sg" language="en">Appendix</localized-string><localized-string key="Appendix.pl" language="en">Appendixes</localized-string><localized-string key="Note.sg" language="en">Note</localized-string><localized-string key="Note.pl" language="en">Notes</localized-string><localized-string key="Note_%_to_entry.sg" language="en">Note % to entry</localized-string><localized-string key="Note_%_to_entry.pl" language="en">Notes % to entry</localized-string><localized-string key="List.sg" language="en">List</localized-string><localized-string key="List.pl" language="en">Lists</localized-string><localized-string key="Figure.sg" language="en">Figure</localized-string><localized-string key="Figure.pl" language="en">Figures</localized-string><localized-string key="Formula.sg" language="en">Formula</localized-string><localized-string key="Formula.pl" language="en">Formulas</localized-string><localized-string key="Table.sg" language="en">Table</localized-string><localized-string key="Table.pl" language="en">Tables</localized-string><localized-string key="Requirement.sg" language="en">Requirement</localized-string><localized-string key="Requirement.pl" language="en">Requirements</localized-string><localized-string key="Recommendation.sg" language="en">Recommendation</localized-string><localized-string key="Recommendation.pl" language="en">Recommendations</localized-string><localized-string key="Permission.sg" language="en">Permission</localized-string><localized-string key="Permission.pl" language="en">Permissions</localized-string><localized-string key="Example.sg" language="en">Example</localized-string><localized-string key="Example.pl" language="en">Examples</localized-string><localized-string key="Part.sg" language="en">Part</localized-string><localized-string key="Part.pl" language="en">Parts</localized-string><localized-string key="Section.sg" language="en">Section</localized-string><localized-string key="Section.pl" language="en">Sections</localized-string><localized-string key="Paragraph.sg" language="en">Paragraph</localized-string><localized-string key="Paragraph.pl" language="en">Paragraphs</localized-string><localized-string key="Chapter.sg" language="en">Chapter</localized-string><localized-string key="Chapter.pl" language="en">Chapters</localized-string><localized-string key="Page.sg" language="en">Page</localized-string><localized-string key="Page.pl" language="en">Pages</localized-string><localized-string key="admitted" language="en">ALTERNATIVE</localized-string><localized-string key="submitters" language="en">Submitters</localized-string><localized-string key="contributors_clause" language="en">Contributors</localized-string><localized-string key="dochistory" language="en">Revision history</localized-string><localized-string key="table_of_figures" language="en">Table of Figures</localized-string><localized-string key="security_empty" language="en">No security considerations have been made for this document.</localized-string><localized-string key="submission_date" language="en">Submission Date</localized-string><localized-string key="approval_date" language="en">Approval Date</localized-string><localized-string key="publication_date" language="en">Publication Date</localized-string><localized-string key="author" language="en">Author</localized-string><localized-string key="editor_full" language="en">Editor</localized-string><localized-string key="contributor" language="en">Contributor</localized-string><localized-string key="stage_dict.draft" language="en">Draft</localized-string><localized-string key="stage_dict.work-item-draft" language="en">Work Item Draft</localized-string><localized-string key="stage_dict.swg-draft" language="en">Candidate SWG Draft</localized-string><localized-string key="stage_dict.oab-review" language="en">Candidate OAB Review Draft</localized-string><localized-string key="stage_dict.public-rfc" language="en">Candidate Public RFC Draft</localized-string><localized-string key="stage_dict.tc-vote" language="en">Candidate TC Vote Draft</localized-string><localized-string key="stage_dict.approved" language="en">Approved</localized-string><localized-string key="stage_dict.published" language="en">Published</localized-string><localized-string key="stage_dict.deprecated" language="en">Deprecated</localized-string><localized-string key="stage_dict.rescinded" language="en">Rescinded</localized-string><localized-string key="stage_dict.retired" language="en">Retired</localized-string><localized-string key="language" language="en">en</localized-string><localized-string key="script" language="en">Latn</localized-string></localized-strings><metanorma-extension><presentation-metadata><name>TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>HTML TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>DOC TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>PDF TOC Heading Levels</name><value>2</value></presentation-metadata><metanorma><source><semantic__ogc-standard type="semantic" version="2.5.7" schema-version="v1.3.1">
+</localized-string><localized-string key="no_information_available" language="en">[NO INFORMATION AVAILABLE]</localized-string><localized-string key="term_defined_in" language="en">(%)</localized-string><localized-string key="binary_and" language="en">%1 and %2</localized-string><localized-string key="multiple_and" language="en">%1, and %2</localized-string><localized-string key="binary_or" language="en">%1 or %2</localized-string><localized-string key="multiple_or" language="en">%1, or %2</localized-string><localized-string key="chain_and" language="en">%1 and %2</localized-string><localized-string key="chain_or" language="en">%1 or %2</localized-string><localized-string key="chain_from" language="en">%1 from %2</localized-string><localized-string key="chain_to" language="en">%1 to %2</localized-string><localized-string key="nested_xref" language="en">%1, %2</localized-string><localized-string key="list_nested_xref" language="en">%1 %2</localized-string><localized-string key="SpelloutRules" language="en">spellout-ordinal</localized-string><localized-string key="OrdinalRules" language="en">digits-ordinal</localized-string><localized-string key="note" language="en">NOTE</localized-string><localized-string key="note_xref" language="en">Note</localized-string><localized-string key="termnote" language="en">Note % to entry</localized-string><localized-string key="list" language="en">List</localized-string><localized-string key="deflist" language="en">Definition List</localized-string><localized-string key="figure" language="en">Figure</localized-string><localized-string key="diagram" language="en">Diagram</localized-string><localized-string key="formula" language="en">Formula</localized-string><localized-string key="inequality" language="en">Formula</localized-string><localized-string key="table" language="en">Table</localized-string><localized-string key="requirement" language="en">Requirement</localized-string><localized-string key="recommendation" language="en">Recommendation</localized-string><localized-string key="permission" language="en">Permission</localized-string><localized-string key="box" language="en">Box</localized-string><localized-string key="recommendationtest" language="en">Recommendation test</localized-string><localized-string key="requirementtest" language="en">Requirement test</localized-string><localized-string key="permissiontest" language="en">Permission test</localized-string><localized-string key="recommendationclass" language="en">Recommendations class</localized-string><localized-string key="requirementclass" language="en">Requirements class</localized-string><localized-string key="permissionclass" language="en">Permissions class</localized-string><localized-string key="abstracttest" language="en">Abstract test</localized-string><localized-string key="conformanceclass" language="en">Conformance class</localized-string><localized-string key="key" language="en">Key</localized-string><localized-string key="example" language="en">Example</localized-string><localized-string key="example_xref" language="en">Example</localized-string><localized-string key="where" language="en">where</localized-string><localized-string key="where_one" language="en">where</localized-string><localized-string key="wholeoftext" language="en">Whole of text</localized-string><localized-string key="draft_label" language="en">draft</localized-string><localized-string key="inform_annex" language="en">informative</localized-string><localized-string key="norm_annex" language="en">normative</localized-string><localized-string key="modified" language="en">modified</localized-string><localized-string key="adapted" language="en">adapted</localized-string><localized-string key="deprecated" language="en">DEPRECATED</localized-string><localized-string key="source" language="en">SOURCE</localized-string><localized-string key="and" language="en">and</localized-string><localized-string key="all_parts" language="en">All Parts</localized-string><localized-string key="edition_ordinal" language="en">{{ var1 | ordinal_word: '', '' }} edition</localized-string><localized-string key="edition" language="en">edition</localized-string><localized-string key="version" language="en">version</localized-string><localized-string key="toc_figures" language="en">List of Figures</localized-string><localized-string key="toc_tables" language="en">List of Tables</localized-string><localized-string key="toc_recommendations" language="en">List of Recommendations</localized-string><localized-string key="month_january" language="en">January</localized-string><localized-string key="month_february" language="en">February</localized-string><localized-string key="month_march" language="en">March</localized-string><localized-string key="month_april" language="en">April</localized-string><localized-string key="month_may" language="en">May</localized-string><localized-string key="month_june" language="en">June</localized-string><localized-string key="month_july" language="en">July</localized-string><localized-string key="month_august" language="en">August</localized-string><localized-string key="month_september" language="en">September</localized-string><localized-string key="month_october" language="en">October</localized-string><localized-string key="month_november" language="en">November</localized-string><localized-string key="month_december" language="en">December</localized-string><localized-string key="obligation" language="en">Obligation</localized-string><localized-string key="admonition.danger" language="en">Danger</localized-string><localized-string key="admonition.warning" language="en">Warning</localized-string><localized-string key="admonition.caution" language="en">Caution</localized-string><localized-string key="admonition.important" language="en">Important</localized-string><localized-string key="admonition.safety_precautions" language="en">Safety Precautions</localized-string><localized-string key="admonition.editorial" language="en">Editorial Note</localized-string><localized-string key="locality.section" language="en">Section</localized-string><localized-string key="locality.clause" language="en">Clause</localized-string><localized-string key="locality.part" language="en">Part</localized-string><localized-string key="locality.paragraph" language="en">Paragraph</localized-string><localized-string key="locality.chapter" language="en">Chapter</localized-string><localized-string key="locality.page" language="en">Page</localized-string><localized-string key="locality.table" language="en">Table</localized-string><localized-string key="locality.annex" language="en">Annex</localized-string><localized-string key="locality.figure" language="en">Figure</localized-string><localized-string key="locality.example" language="en">Example</localized-string><localized-string key="locality.note" language="en">Note</localized-string><localized-string key="locality.formula" language="en">Formula</localized-string><localized-string key="grammar_abbrevs.masculine" language="en">m</localized-string><localized-string key="grammar_abbrevs.feminine" language="en">f</localized-string><localized-string key="grammar_abbrevs.neuter" language="en">n</localized-string><localized-string key="grammar_abbrevs.common" language="en">common</localized-string><localized-string key="grammar_abbrevs.singular" language="en">sg</localized-string><localized-string key="grammar_abbrevs.dual" language="en">dual</localized-string><localized-string key="grammar_abbrevs.pl" language="en">pl</localized-string><localized-string key="grammar_abbrevs.isPreposition" language="en">prep</localized-string><localized-string key="grammar_abbrevs.isParticiple" language="en">part</localized-string><localized-string key="grammar_abbrevs.isAdjective" language="en">adj</localized-string><localized-string key="grammar_abbrevs.isAdverb" language="en">adv</localized-string><localized-string key="grammar_abbrevs.isNoun" language="en">noun</localized-string><localized-string key="grammar_abbrevs.isVerb" language="en">verb</localized-string><localized-string key="relatedterms.deprecates" language="en">deprecates</localized-string><localized-string key="relatedterms.supersedes" language="en">supersedes</localized-string><localized-string key="relatedterms.narrower" language="en">narrower</localized-string><localized-string key="relatedterms.broader" language="en">broader</localized-string><localized-string key="relatedterms.equivalent" language="en">equivalent</localized-string><localized-string key="relatedterms.compare" language="en">compare</localized-string><localized-string key="relatedterms.contrast" language="en">contrast</localized-string><localized-string key="relatedterms.see" language="en">see</localized-string><localized-string key="relatedterms.seealso" language="en">see also</localized-string><localized-string key="Clause.sg" language="en">Clause</localized-string><localized-string key="Clause.pl" language="en">Clauses</localized-string><localized-string key="Annex.sg" language="en">Annex</localized-string><localized-string key="Annex.pl" language="en">Annexes</localized-string><localized-string key="Appendix.sg" language="en">Appendix</localized-string><localized-string key="Appendix.pl" language="en">Appendixes</localized-string><localized-string key="Note.sg" language="en">Note</localized-string><localized-string key="Note.pl" language="en">Notes</localized-string><localized-string key="Note_%_to_entry.sg" language="en">Note % to entry</localized-string><localized-string key="Note_%_to_entry.pl" language="en">Notes % to entry</localized-string><localized-string key="List.sg" language="en">List</localized-string><localized-string key="List.pl" language="en">Lists</localized-string><localized-string key="Figure.sg" language="en">Figure</localized-string><localized-string key="Figure.pl" language="en">Figures</localized-string><localized-string key="Formula.sg" language="en">Formula</localized-string><localized-string key="Formula.pl" language="en">Formulas</localized-string><localized-string key="Table.sg" language="en">Table</localized-string><localized-string key="Table.pl" language="en">Tables</localized-string><localized-string key="Requirement.sg" language="en">Requirement</localized-string><localized-string key="Requirement.pl" language="en">Requirements</localized-string><localized-string key="Recommendation.sg" language="en">Recommendation</localized-string><localized-string key="Recommendation.pl" language="en">Recommendations</localized-string><localized-string key="Permission.sg" language="en">Permission</localized-string><localized-string key="Permission.pl" language="en">Permissions</localized-string><localized-string key="Example.sg" language="en">Example</localized-string><localized-string key="Example.pl" language="en">Examples</localized-string><localized-string key="Part.sg" language="en">Part</localized-string><localized-string key="Part.pl" language="en">Parts</localized-string><localized-string key="Section.sg" language="en">Section</localized-string><localized-string key="Section.pl" language="en">Sections</localized-string><localized-string key="Paragraph.sg" language="en">Paragraph</localized-string><localized-string key="Paragraph.pl" language="en">Paragraphs</localized-string><localized-string key="Chapter.sg" language="en">Chapter</localized-string><localized-string key="Chapter.pl" language="en">Chapters</localized-string><localized-string key="Page.sg" language="en">Page</localized-string><localized-string key="Page.pl" language="en">Pages</localized-string><localized-string key="admitted" language="en">ALTERNATIVE</localized-string><localized-string key="submitters" language="en">Submitters</localized-string><localized-string key="contributors_clause" language="en">Contributors</localized-string><localized-string key="dochistory" language="en">Revision history</localized-string><localized-string key="table_of_figures" language="en">Table of Figures</localized-string><localized-string key="security_empty" language="en">No security considerations have been made for this document.</localized-string><localized-string key="submission_date" language="en">Submission Date</localized-string><localized-string key="approval_date" language="en">Approval Date</localized-string><localized-string key="publication_date" language="en">Publication Date</localized-string><localized-string key="author" language="en">Author</localized-string><localized-string key="editor_full" language="en">Editor</localized-string><localized-string key="contributor" language="en">Contributor</localized-string><localized-string key="stage_dict.draft" language="en">Draft</localized-string><localized-string key="stage_dict.work-item-draft" language="en">Work Item Draft</localized-string><localized-string key="stage_dict.swg-draft" language="en">Candidate SWG Draft</localized-string><localized-string key="stage_dict.oab-review" language="en">Candidate OAB Review Draft</localized-string><localized-string key="stage_dict.public-rfc" language="en">Candidate Public RFC Draft</localized-string><localized-string key="stage_dict.tc-vote" language="en">Candidate TC Vote Draft</localized-string><localized-string key="stage_dict.approved" language="en">Approved</localized-string><localized-string key="stage_dict.published" language="en">Published</localized-string><localized-string key="stage_dict.deprecated" language="en">Deprecated</localized-string><localized-string key="stage_dict.rescinded" language="en">Rescinded</localized-string><localized-string key="stage_dict.retired" language="en">Retired</localized-string><localized-string key="language" language="en">en</localized-string><localized-string key="script" language="en">Latn</localized-string></localized-strings><metanorma-extension><table id="_misccontainer_anchor_aliases"><name>Table</name><tbody><tr><th>req_class-uml</th><td>https://www.opengis.net/spec/modspec-2/1.1/req/req-class-uml</td></tr><tr><th>_3dc0688d-9d19-471b-a951-119df0814fb5</th><td>/req/uml/conformance-with-core</td></tr><tr><th>_155e7b03-fdce-47dc-8fea-3b6546dbcdcd</th><td>/req/uml/object-model</td></tr><tr><th>_e3620ac6-1f53-46ec-961b-20a580538fc9</th><td>/req/uml/dependency-graph</td></tr><tr><th>_bec2f8b6-7642-4453-9f5e-00872987e170</th><td>/req/uml/leaf-package</td></tr><tr><th>_8378543c-c899-4fd3-a139-ffa429ffc673</th><td>/req/uml/class-package</td></tr><tr><th>_a3a9f5c7-b0dc-4b50-8b0b-9b6284ea8d07</th><td>/req/uml/to-leaf</td></tr><tr><th>_d4b7f792-fbc7-4b50-9aad-2358af3c817e</th><td>/req/uml/common-req-class</td></tr><tr><th>_c92dcbee-4f79-4d06-9185-7eb117da5bb1</th><td>/req/uml/source-target</td></tr><tr><th>_395f7931-0a6e-4ab7-8ab0-a243a5b575f2</th><td>/req/uml/leaf-package-dependency</td></tr><tr><th>_faa7203a-5193-4975-bb5c-0339ed2a032c</th><td>/req/uml/two-way-dependency</td></tr><tr><th>_53bfdcfe-510f-42a9-ada2-45913055ab97</th><td>/req/uml/segregate-into-leaf-packages</td></tr><tr><th>req_uml_conformance-with-core</th><td>/req/uml/conformance-with-core</td></tr><tr><th>req_uml_object-model</th><td>/req/uml/object-model</td></tr><tr><th>req_uml_dependency-graph</th><td>/req/uml/dependency-graph</td></tr><tr><th>req_uml_leaf-package</th><td>/req/uml/leaf-package</td></tr><tr><th>req_uml_class-package</th><td>/req/uml/class-package</td></tr><tr><th>req_uml_to-leaf</th><td>/req/uml/to-leaf</td></tr><tr><th>req_uml_common-req-class</th><td>/req/uml/common-req-class</td></tr><tr><th>req_uml_source-target</th><td>/req/uml/source-target</td></tr><tr><th>req_uml_leaf-package-dependency</th><td>/req/uml/leaf-package-dependency</td></tr><tr><th>req_uml_two-way-dependency</th><td>/req/uml/two-way-dependency</td></tr><tr><th>req_uml_segregate-into-leaf-packages</th><td>/req/uml/segregate-into-leaf-packages</td></tr></tbody></table><presentation-metadata><name>TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>HTML TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>DOC TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>PDF TOC Heading Levels</name><value>2</value></presentation-metadata><metanorma><source><semantic__ogc-standard type="semantic" version="2.5.7" schema-version="v1.3.1">
 <semantic__bibdata type="standard">
 <semantic__title language="en" format="text/plain">The ModSpec Model - Part 2: UML</semantic__title>
-<semantic__uri type="xml">./24-065.xml</semantic__uri><semantic__uri type="pdf">./24-065.pdf</semantic__uri><semantic__uri type="doc">./24-065.doc</semantic__uri><semantic__docidentifier type="ogc-external">http://www.opengis.net/doc/spec/modspec-2/1.1</semantic__docidentifier><semantic__docidentifier type="ogc-internal" primary="true">24-065</semantic__docidentifier><semantic__docnumber>24-065</semantic__docnumber><semantic__date type="published"><semantic__on>2029-03-30</semantic__on></semantic__date><semantic__date type="issued"><semantic__on>2029-03-30</semantic__on></semantic__date><semantic__date type="received"><semantic__on>2025-04-15</semantic__on></semantic__date><semantic__contributor><semantic__role type="author"/><semantic__organization>
+<semantic__uri type="xml">./24-065.xml</semantic__uri><semantic__uri type="pdf">./24-065.pdf</semantic__uri><semantic__uri type="doc">./24-065.doc</semantic__uri><semantic__docidentifier type="ogc-external">http://www.opengis.net/doc/spec/modspec-2/1.1</semantic__docidentifier><semantic__docidentifier type="ogc-internal" primary="true">24-065</semantic__docidentifier><semantic__docnumber>24-065</semantic__docnumber><semantic__date type="published"><semantic__on>2029-03-30</semantic__on></semantic__date><semantic__date type="issued"><semantic__on>2029-03-30</semantic__on></semantic__date><semantic__date type="received"><semantic__on>2025-04-20</semantic__on></semantic__date><semantic__contributor><semantic__role type="author"/><semantic__organization>
 <semantic__name>Carl Reed, Heazeltech, ImageMatters</semantic__name>
 </semantic__organization></semantic__contributor><semantic__contributor><semantic__role type="editor"/><semantic__person>
 <semantic__name><semantic__completename>Carl Reed</semantic__completename></semantic__name>
+</semantic__person></semantic__contributor><semantic__contributor><semantic__role type="editor"/><semantic__person>
+<semantic__name><semantic__completename>Chuck Heazel</semantic__completename></semantic__name>
 </semantic__person></semantic__contributor><semantic__contributor><semantic__role type="editor"/><semantic__person>
 <semantic__name><semantic__completename>John Herring</semantic__completename></semantic__name>
 </semantic__person></semantic__contributor><semantic__contributor><semantic__role type="publisher"/><semantic__organization>
@@ -77,7 +81,7 @@ encouraged. Such suggestions may be submitted by creating an issue in the GitHub
 repository for this document (<semantic__link target="https://github.com/opengeospatial/ogc-modspec"/>).</semantic__p>
 </semantic__abstract><semantic__status><semantic__stage>draft</semantic__stage></semantic__status><semantic__copyright><semantic__from>2025</semantic__from><semantic__owner><semantic__organization>
 <semantic__name>Open Geospatial Consortium</semantic__name>
-<semantic__abbreviation>OGC</semantic__abbreviation></semantic__organization></semantic__owner></semantic__copyright><semantic__keyword>ogcdoc</semantic__keyword><semantic__keyword>OGC document</semantic__keyword><semantic__keyword>ModSpec</semantic__keyword><semantic__keyword>UML</semantic__keyword><semantic__ext><semantic__doctype>standard</semantic__doctype><semantic__subdoctype>implementation</semantic__subdoctype><semantic__editorialgroup><semantic__committee>technical</semantic__committee></semantic__editorialgroup></semantic__ext></semantic__bibdata><semantic__metanorma-extension><semantic__presentation-metadata><semantic__name>TOC Heading Levels</semantic__name><semantic__value>2</semantic__value></semantic__presentation-metadata><semantic__presentation-metadata><semantic__name>HTML TOC Heading Levels</semantic__name><semantic__value>2</semantic__value></semantic__presentation-metadata><semantic__presentation-metadata><semantic__name>DOC TOC Heading Levels</semantic__name><semantic__value>2</semantic__value></semantic__presentation-metadata><semantic__presentation-metadata><semantic__name>PDF TOC Heading Levels</semantic__name><semantic__value>2</semantic__value></semantic__presentation-metadata></semantic__metanorma-extension>
+<semantic__abbreviation>OGC</semantic__abbreviation></semantic__organization></semantic__owner></semantic__copyright><semantic__keyword>ogcdoc</semantic__keyword><semantic__keyword>OGC document</semantic__keyword><semantic__keyword>ModSpec</semantic__keyword><semantic__keyword>UML</semantic__keyword><semantic__ext><semantic__doctype>standard</semantic__doctype><semantic__subdoctype>implementation</semantic__subdoctype><semantic__editorialgroup><semantic__committee>technical</semantic__committee></semantic__editorialgroup></semantic__ext></semantic__bibdata><semantic__metanorma-extension><semantic__table id="semantic___misccontainer_anchor_aliases"><semantic__tbody><semantic__tr><semantic__th>req_class-uml</semantic__th><semantic__td>https://www.opengis.net/spec/modspec-2/1.1/req/req-class-uml</semantic__td></semantic__tr><semantic__tr><semantic__th>_3dc0688d-9d19-471b-a951-119df0814fb5</semantic__th><semantic__td>/req/uml/conformance-with-core</semantic__td></semantic__tr><semantic__tr><semantic__th>_155e7b03-fdce-47dc-8fea-3b6546dbcdcd</semantic__th><semantic__td>/req/uml/object-model</semantic__td></semantic__tr><semantic__tr><semantic__th>_e3620ac6-1f53-46ec-961b-20a580538fc9</semantic__th><semantic__td>/req/uml/dependency-graph</semantic__td></semantic__tr><semantic__tr><semantic__th>_bec2f8b6-7642-4453-9f5e-00872987e170</semantic__th><semantic__td>/req/uml/leaf-package</semantic__td></semantic__tr><semantic__tr><semantic__th>_8378543c-c899-4fd3-a139-ffa429ffc673</semantic__th><semantic__td>/req/uml/class-package</semantic__td></semantic__tr><semantic__tr><semantic__th>_a3a9f5c7-b0dc-4b50-8b0b-9b6284ea8d07</semantic__th><semantic__td>/req/uml/to-leaf</semantic__td></semantic__tr><semantic__tr><semantic__th>_d4b7f792-fbc7-4b50-9aad-2358af3c817e</semantic__th><semantic__td>/req/uml/common-req-class</semantic__td></semantic__tr><semantic__tr><semantic__th>_c92dcbee-4f79-4d06-9185-7eb117da5bb1</semantic__th><semantic__td>/req/uml/source-target</semantic__td></semantic__tr><semantic__tr><semantic__th>_395f7931-0a6e-4ab7-8ab0-a243a5b575f2</semantic__th><semantic__td>/req/uml/leaf-package-dependency</semantic__td></semantic__tr><semantic__tr><semantic__th>_faa7203a-5193-4975-bb5c-0339ed2a032c</semantic__th><semantic__td>/req/uml/two-way-dependency</semantic__td></semantic__tr><semantic__tr><semantic__th>_53bfdcfe-510f-42a9-ada2-45913055ab97</semantic__th><semantic__td>/req/uml/segregate-into-leaf-packages</semantic__td></semantic__tr><semantic__tr><semantic__th>req_uml_conformance-with-core</semantic__th><semantic__td>/req/uml/conformance-with-core</semantic__td></semantic__tr><semantic__tr><semantic__th>req_uml_object-model</semantic__th><semantic__td>/req/uml/object-model</semantic__td></semantic__tr><semantic__tr><semantic__th>req_uml_dependency-graph</semantic__th><semantic__td>/req/uml/dependency-graph</semantic__td></semantic__tr><semantic__tr><semantic__th>req_uml_leaf-package</semantic__th><semantic__td>/req/uml/leaf-package</semantic__td></semantic__tr><semantic__tr><semantic__th>req_uml_class-package</semantic__th><semantic__td>/req/uml/class-package</semantic__td></semantic__tr><semantic__tr><semantic__th>req_uml_to-leaf</semantic__th><semantic__td>/req/uml/to-leaf</semantic__td></semantic__tr><semantic__tr><semantic__th>req_uml_common-req-class</semantic__th><semantic__td>/req/uml/common-req-class</semantic__td></semantic__tr><semantic__tr><semantic__th>req_uml_source-target</semantic__th><semantic__td>/req/uml/source-target</semantic__td></semantic__tr><semantic__tr><semantic__th>req_uml_leaf-package-dependency</semantic__th><semantic__td>/req/uml/leaf-package-dependency</semantic__td></semantic__tr><semantic__tr><semantic__th>req_uml_two-way-dependency</semantic__th><semantic__td>/req/uml/two-way-dependency</semantic__td></semantic__tr><semantic__tr><semantic__th>req_uml_segregate-into-leaf-packages</semantic__th><semantic__td>/req/uml/segregate-into-leaf-packages</semantic__td></semantic__tr></semantic__tbody></semantic__table><semantic__presentation-metadata><semantic__name>TOC Heading Levels</semantic__name><semantic__value>2</semantic__value></semantic__presentation-metadata><semantic__presentation-metadata><semantic__name>HTML TOC Heading Levels</semantic__name><semantic__value>2</semantic__value></semantic__presentation-metadata><semantic__presentation-metadata><semantic__name>DOC TOC Heading Levels</semantic__name><semantic__value>2</semantic__value></semantic__presentation-metadata><semantic__presentation-metadata><semantic__name>PDF TOC Heading Levels</semantic__name><semantic__value>2</semantic__value></semantic__presentation-metadata></semantic__metanorma-extension>
 <semantic__boilerplate><semantic__copyright-statement>
 
 <semantic__clause id="semantic___copyright_notice" obligation="normative">
@@ -189,10 +193,12 @@ specific content. This Part 2 specifies the optional UML Requirements Class.</se
 <semantic__title>Submitters</semantic__title>
 <semantic__p id="semantic___c4485abb-cbc5-a7e8-5e00-c9c58a531cc9">All questions regarding this submission should be directed to the editor or the submitters:</semantic__p>
 
-<semantic__table id="semantic___fbb745fb-dbef-c1f3-94d7-9cd3bd2b76ef" unnumbered="true"><semantic__tbody><semantic__tr><semantic__td valign="middle" align="left"><semantic__strong>Name</semantic__strong></semantic__td>
+<semantic__table id="semantic___151a4bb3-05b2-e720-edeb-d69922530bde" unnumbered="true"><semantic__tbody><semantic__tr><semantic__td valign="middle" align="left"><semantic__strong>Name</semantic__strong></semantic__td>
 <semantic__td valign="middle" align="left"><semantic__strong>Affiliation</semantic__strong></semantic__td>
 </semantic__tr><semantic__tr><semantic__td valign="middle" align="left">Carl Reed</semantic__td>
 <semantic__td valign="middle" align="left">Carl Reed &amp; Associates</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="middle" align="left">Chuck Heazel</semantic__td>
+<semantic__td valign="middle" align="left">Heazeltech</semantic__td>
 </semantic__tr><semantic__tr><semantic__td valign="middle" align="left">John Herring, PhD</semantic__td>
 <semantic__td valign="middle" align="left">Oracle</semantic__td>
 </semantic__tr></semantic__tbody>
@@ -261,7 +267,7 @@ parallel.</semantic__p>
 </semantic__clause>
 </semantic__clause>
 
-<semantic__clause id="semantic___conformance" type="conformance" obligation="normative">
+<semantic__clause id="semantic__cls-2" type="conformance" obligation="normative">
 <semantic__title>Conformance</semantic__title>
 <semantic__p id="semantic___8c1b1187-6ebc-c8eb-3647-2c234e933ba5">Conformance to the ModSpec: Part 2 — UML Standard by technical implementation standards
 can be tested by inspection. The test suite is in <semantic__xref target="semantic__annex-A"/>.</semantic__p>
@@ -288,20 +294,19 @@ extension of the Core presented in the ModSpec Core Standard <semantic__xref tar
 
 
 
-<semantic__terms id="semantic___terms_and_definitions" obligation="normative">
-<semantic__title>Terms and definitions</semantic__title>
+<semantic__terms id="semantic__cls-4" obligation="normative">
+<semantic__title>Terms and definitions</semantic__title><semantic__p id="semantic___ee54798a-6d3c-92e7-3294-4b4b783213f1">No terms and definitions are listed in this document.</semantic__p>
 
-<semantic__p id="semantic___5a7fa695-25b3-e3a8-80d4-9f72e0dbeb91">For the purposes of this document, the following terms and definitions shall apply.
+<semantic__p id="semantic___f7e93087-a7a6-516e-cb4f-ea7947652659">For the purposes of this document, the following terms and definitions shall apply.
 Terms not defined here take their meaning from computer science or from their
 Standard English (common US and UK) meanings. The form of the definitions is
-defined by ISO Directives.<semantic__note id="semantic___8b3f7cd9-5665-b82e-8efc-d13e591a46ad"><semantic__p id="semantic___11aa0006-94e1-b3e5-3674-2d3d0e4526b9">All terms and definitions in Clause 4 of the OGC ModSpec: Core are relevant and used in this Part.</semantic__p>
-</semantic__note></semantic__p>
+defined by ISO Directives.</semantic__p>
 
-
-
+<semantic__note id="semantic___29725db2-352d-5739-6513-2310e80112ae"><semantic__p id="semantic___ec64b38c-0279-c4b2-2e85-882007f29fe9">All terms and definitions in Clause 4 of the OGC ModSpec: Core are relevant and used in this Part.</semantic__p>
+</semantic__note>
 </semantic__terms>
 
-<semantic__clause id="semantic___conventions" obligation="normative">
+<semantic__clause id="semantic__cls-5" obligation="normative">
 <semantic__title>Conventions</semantic__title>
 <semantic__clause id="semantic___symbols_and_abbreviated_terms" obligation="normative">
 <semantic__title>Symbols (and abbreviated terms)</semantic__title>
@@ -319,13 +324,13 @@ available standard (PAS) by ISO in its earlier 1.3 version.</semantic__p>
 <semantic__title>Identifiers</semantic__title>
 <semantic__p id="semantic___5075e6a4-6326-ab37-30b5-9ef47e437e21">The normative provisions in this standard are denoted by the URI namespace</semantic__p>
 
-<semantic__p id="semantic___118ae17c-18df-7c99-079a-e0eb768f0d1d"><semantic__link target="https://www.opengis.net/spec/modspec/1.1/"/></semantic__p>
+<semantic__p id="semantic___118ae17c-18df-7c99-079a-e0eb768f0d1d"><semantic__link target="https://www.opengis.net/spec/modspec-2/1.1/"/></semantic__p>
 
 <semantic__p id="semantic___433371c9-0e2f-5dcf-ec43-1fc8c46961f1">All requirements that appear in this document are denoted by partial URIs which are relative to the namespace shown above.</semantic__p>
 
 <semantic__p id="semantic___03606907-e80f-bd1b-499a-1b9c102b19ed">For the sake of brevity, the use of “req” in a requirement URI denotes:</semantic__p>
 
-<semantic__p id="semantic___c4237e13-f0de-c7dd-d5d3-4cf51c43d216"><semantic__link target="https://www.opengis.net/spec/modspec/1.1/"/></semantic__p>
+<semantic__p id="semantic___c4237e13-f0de-c7dd-d5d3-4cf51c43d216"><semantic__link target="https://www.opengis.net/spec/modspec-2/1.1/"/></semantic__p>
 
 <semantic__p id="semantic___0cfe9d69-2f5d-65f2-7113-b74b22ee2631">An example might be:</semantic__p>
 
@@ -335,7 +340,7 @@ available standard (PAS) by ISO in its earlier 1.3 version.</semantic__p>
 
 <semantic__p id="semantic___8e194e0c-7f44-d6c7-f91a-e04dcc3295ed">For the sake of brevity, the use of “conf” in a requirement URI denotes:</semantic__p>
 
-<semantic__p id="semantic___2a7cc7d7-f6a2-930e-c8fa-d9295aabe20c"><semantic__link target="https://www.opengis.net/spec/modspec/1.1/"/></semantic__p>
+<semantic__p id="semantic___2a7cc7d7-f6a2-930e-c8fa-d9295aabe20c"><semantic__link target="https://www.opengis.net/spec/modspec-2/1.1/"/></semantic__p>
 
 <semantic__p id="semantic___2640fd75-874e-1108-00c5-d053632a88b5">The same convention is used for permissions (per) and recommendations (rec).</semantic__p>
 </semantic__clause>
@@ -410,45 +415,16 @@ be applied to any such version.</semantic__p>
 <semantic__p id="semantic___27367699-1a89-9a0b-2b23-59c6aa2d18d1">First, by the requirements above, the extension relationship of this conformance
 test class to the core will be made explicit.</semantic__p>
 
-<semantic__table id="semantic___eea16a21-d4b7-2391-0997-facb025a3f3b" width="90%"><semantic__colgroup><semantic__col width="20%"/><semantic__col width="80%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td colspan="2" valign="middle" align="left"><semantic__strong>Requirements Class — UML extension to the core</semantic__strong></semantic__td>
-</semantic__tr><semantic__tr><semantic__td colspan="2" valign="middle" align="left">/req/core/data-representation</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="middle" align="left">Target</semantic__td>
-<semantic__td valign="middle" align="left">ModSpec Conformant UML Model</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="middle" align="left">Dependency</semantic__td>
-<semantic__td valign="middle" align="left">OGC ModSpec Version 1.1 [OGC 25-003r1]</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="middle" align="left">REQ001</semantic__td>
-<semantic__td valign="middle" align="left">/req/part2/uml/conformance-with-core</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="middle" align="left">REQ002</semantic__td>
-<semantic__td valign="middle" align="left">/req/part2/uml/object-model</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="middle" align="left">REQ003</semantic__td>
-<semantic__td valign="middle" align="left">/req/part2/uml/dependency-graph</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="middle" align="left">REQ004</semantic__td>
-<semantic__td valign="middle" align="left">/req/part2/uml/leaf-package</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="middle" align="left">REQ005</semantic__td>
-<semantic__td valign="middle" align="left">/req/part2/uml/class-package</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="middle" align="left">REQ006</semantic__td>
-<semantic__td valign="middle" align="left">/req/part2/uml/to-leaf</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="middle" align="left">REQ007</semantic__td>
-<semantic__td valign="middle" align="left">/req/part2/uml/common-req-classes</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="middle" align="left">REQ008</semantic__td>
-<semantic__td valign="middle" align="left">/req/part2/uml/source-target</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="middle" align="left">REQ009</semantic__td>
-<semantic__td valign="middle" align="left">/req/part2/uml/leaf-package-dependency</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="middle" align="left">REQ010</semantic__td>
-<semantic__td valign="middle" align="left">/req/part2/uml/two-way-dependency</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="middle" align="left">REQ011</semantic__td>
-<semantic__td valign="middle" align="left">/req/part2/uml/segregate-into-leaf-packages</semantic__td>
-</semantic__tr></semantic__tbody>
-</semantic__table>
+<semantic__requirement id="semantic__req_class-uml" model="ogc" type="class">
+<semantic__title>Requirements Class ‘UML’</semantic__title><semantic__identifier>https://www.opengis.net/spec/modspec-2/1.1/req/req-class-uml</semantic__identifier><semantic__classification><semantic__tag>target-type</semantic__tag><semantic__value>Modular UML Standard</semantic__value></semantic__classification><semantic__requirement id="semantic___50cbcee5-3f34-f3ad-2aff-542d1babf3b4" model="ogc" type="general"> <semantic__identifier>/req/uml/conformance-with-core</semantic__identifier></semantic__requirement><semantic__requirement id="semantic___52cd70b3-d4f7-0e50-8df5-7ec7b4810c55" model="ogc" type="general"> <semantic__identifier>/req/uml/object-model</semantic__identifier></semantic__requirement><semantic__requirement id="semantic___342f1f90-68c3-639a-af0a-b144c4f6d535" model="ogc" type="general"> <semantic__identifier>/req/uml/dependency-graph</semantic__identifier></semantic__requirement><semantic__requirement id="semantic___3808964f-60f7-d87a-cc23-38c0bc23b7da" model="ogc" type="general"> <semantic__identifier>/req/uml/leaf-package</semantic__identifier></semantic__requirement><semantic__requirement id="semantic___cf0b0f48-962f-7dff-2adc-f061fd6ab62b" model="ogc" type="general"> <semantic__identifier>/req/uml/class-package</semantic__identifier></semantic__requirement><semantic__requirement id="semantic___01f1a4c5-4b7b-5556-6632-29ac52356ce2" model="ogc" type="general"> <semantic__identifier>/req/uml/to-leaf</semantic__identifier></semantic__requirement><semantic__requirement id="semantic___f7cc34ea-d274-a5d8-dfe1-f4eca79e223f" model="ogc" type="general"> <semantic__identifier>/req/uml/common-req-class</semantic__identifier></semantic__requirement><semantic__requirement id="semantic___f1856dca-7de0-02e2-2c98-209243fed121" model="ogc" type="general"> <semantic__identifier>/req/uml/source-target</semantic__identifier></semantic__requirement><semantic__requirement id="semantic___71882115-685a-7d52-e175-bde900ed7397" model="ogc" type="general"> <semantic__identifier>/req/uml/leaf-package-dependency</semantic__identifier></semantic__requirement><semantic__requirement id="semantic___050f981a-312b-171f-3cb3-07dc6075cd55" model="ogc" type="general"> <semantic__identifier>/req/uml/two-way-dependency</semantic__identifier></semantic__requirement><semantic__requirement id="semantic___d15aa869-3dd8-1074-cf38-2e1de8bec3c8" model="ogc" type="general"> <semantic__identifier>/req/uml/segregate-into-leaf-packages</semantic__identifier></semantic__requirement>
+
+</semantic__requirement>
 
 <semantic__p id="semantic___a9504214-207c-5a09-8ef2-6ab7c265da83">Any conformant UML extension will comply with the ModSpec Core requirements class.</semantic__p>
 
-<semantic__table id="semantic__req-01" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="left"><semantic__strong>REQ001</semantic__strong></semantic__td>
-<semantic__td valign="middle" align="left"><semantic__strong>/req/part2/uml/conformance-with-core</semantic__strong><semantic__br/>
-An implementation passing the UML conformance test class <semantic__em>SHALL</semantic__em> first pass the ModSpec core
-conformance test class</semantic__td>
-</semantic__tr></semantic__tbody>
-</semantic__table>
+<semantic__requirement id="semantic__req_uml_conformance-with-core" model="ogc"> <semantic__identifier>/req/uml/conformance-with-core</semantic__identifier><semantic__description><semantic__p id="semantic___64d55fa5-2565-6a97-f818-a020d8c8b001">An implementation passing the UML conformance test class SHALL first pass the ModSpec core conformance test class.</semantic__p>
+</semantic__description>
+</semantic__requirement>
 
 <semantic__p id="semantic___9eff5a31-5e86-13fa-b569-24546c51f875">Assuming all legitimate direct package dependencies are included in the UML model,
 the conformance/requirements class associated to a package <semantic__stem type="MathML" block="false"><semantic__math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -479,25 +455,17 @@ dealt with as the conformance classes cascade.</semantic__p>
 <semantic__p id="semantic___0fed153e-c083-8544-877a-b5bc637b7dcc">This clause uses UML terminology, but other object modeling languages and, if
 needed, the object code itself can be mapped to a UML model.</semantic__p>
 
-<semantic__table id="semantic__req-02" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="left"><semantic__strong>REQ002</semantic__strong></semantic__td>
-<semantic__td valign="middle" align="left"><semantic__strong>/req/part2/uml/object-model</semantic__strong><semantic__br/>
-To be conformant to this UML requirements class, UML <semantic__em>SHALL</semantic__em> be used to express the
-object model, either as the core mechanism of the standard or as a normative adjunct
-to formally explain the standard in a model</semantic__td>
-</semantic__tr></semantic__tbody>
-</semantic__table>
+<semantic__requirement id="semantic__req_uml_object-model" model="ogc"> <semantic__identifier>/req/uml/object-model</semantic__identifier><semantic__description><semantic__p id="semantic___535e1828-38a8-bc40-dc61-c81b02d4263e">To be conformant to this UML requirements class, UML SHALL be used to express the object model, either as the core mechanism of the standard or as a normative adjunct to formally explain the standard in a model</semantic__p>
+</semantic__description>
+</semantic__requirement>
 
-<semantic__table id="semantic__req-03" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="left"><semantic__strong>REQ003</semantic__strong></semantic__td>
-<semantic__td valign="middle" align="left"><semantic__strong>/req/part2/uml/dependency-graph</semantic__strong><semantic__br/>
-A UML model <semantic__em>SHALL</semantic__em> have an explicit dependency graph for the leaf packages and
-external packages used by the standard consistent with the way their classifiers use
-those of other packages</semantic__td>
-</semantic__tr></semantic__tbody>
-<semantic__note id="semantic___34b83aa4-99f1-fe8f-7f4a-f8a0f9bdb83a"><semantic__p id="semantic___c6d11d4e-a4c1-277d-08af-03945610462c">External packages having predated the current version of the standard will
+<semantic__requirement id="semantic__req_uml_dependency-graph" model="ogc"> <semantic__identifier>/req/uml/dependency-graph</semantic__identifier><semantic__description><semantic__p id="semantic___4d6e14d4-1713-8f1d-3ccd-9b3c1ef4166e">A UML model SHALL have an explicit dependency graph for the leaf packages and external packages used by the standard consistent with the way their classifiers use those of other packages</semantic__p>
+</semantic__description>
+</semantic__requirement>
+
+<semantic__note id="semantic___e9e70165-0b6e-630b-57b2-567765526ce8"><semantic__p id="semantic___47eb6107-2a8c-0f50-d003-eb9a1d643d39">External packages having predated the current version of the standard will
 not normally have dependencies to packages within the standard.</semantic__p>
-</semantic__note></semantic__table>
-
-
+</semantic__note>
 
 <semantic__p id="semantic___ca04fd64-969f-4243-b55e-ad73e086dd35">Other dependencies (indirect) will arise from the transitive closure of the above
 direct dependencies. That means if <semantic__stem type="MathML" block="false"><semantic__math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -539,42 +507,30 @@ on the direct dependencies, we can ignore them for effects on structure.</semant
 to define in UML a single package that will correspond to a particular requirements
 class and its associated conformance class.</semantic__p>
 
-<semantic__table id="semantic__req-04" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="left"><semantic__strong>REQ004</semantic__strong></semantic__td>
-<semantic__td valign="middle" align="left"><semantic__strong>/req/part2/uml/leaf-model</semantic__strong><semantic__br/>
-A UML leaf package <semantic__em>SHALL</semantic__em> be associated directly to only one requirements class.</semantic__td>
-</semantic__tr></semantic__tbody>
-</semantic__table>
+<semantic__requirement id="semantic__req_uml_leaf-package" model="ogc"> <semantic__identifier>/req/uml/leaf-package</semantic__identifier><semantic__description><semantic__p id="semantic___e63deed9-a656-95ed-b859-7011e4dca138">A UML leaf package SHALL be associated directly to only one requirements class.</semantic__p>
+</semantic__description>
+</semantic__requirement>
 
-<semantic__table id="semantic__req-05" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="left"><semantic__strong>REQ005</semantic__strong></semantic__td>
-<semantic__td valign="middle" align="left"><semantic__strong>/req/part2/uml/class-package</semantic__strong><semantic__br/>
-Each requirements class shall be associated to a unique package in the model and
-include either directly or by a dependency any requirement associated to any of its
-subpackages.</semantic__td>
-</semantic__tr></semantic__tbody>
-</semantic__table>
+<semantic__requirement id="semantic__req_uml_class-package" model="ogc"> <semantic__identifier>/req/uml/class-package</semantic__identifier><semantic__description><semantic__p id="semantic___82870269-13b2-98cc-44f3-2a73a1347ed6">Each requirements class shall be associated to a unique package in the model and include either directly or by a dependency any requirement associated to any of its subpackages.</semantic__p>
+</semantic__description>
+</semantic__requirement>
 
 <semantic__p id="semantic___fd430124-f21f-58f6-210e-7a796f9ccdb2">The class definitions are the “requirements” of a UML expressed standard. Therefore, the
 logical consequence of the above is to organize requirements classes based on leaf
 packages.</semantic__p>
 
-<semantic__table id="semantic__req-06" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="left"><semantic__strong>REQ006</semantic__strong></semantic__td>
-<semantic__td valign="middle" align="left"><semantic__strong>/req/part2/uml/to-leaf</semantic__strong><semantic__br/>
-A requirements class <semantic__em>SHALL</semantic__em> be associated to some number of complete leaf packages
-and all classes and constraints in those packages.</semantic__td>
-</semantic__tr></semantic__tbody>
-</semantic__table>
+<semantic__requirement id="semantic__req_uml_to-leaf" model="ogc"> <semantic__identifier>/req/uml/to-leaf</semantic__identifier><semantic__description><semantic__p id="semantic___6ff4694b-7d73-bb6d-0927-278d21dada8e">A requirements class SHALL be associated to some number of complete leaf packages and all classes and constraints in those packages.</semantic__p>
+</semantic__description>
+</semantic__requirement>
 
 <semantic__p id="semantic___11c77d67-d4c2-3d7c-11cc-2123a090b2ca">If a requirement uses or refers to elements of more than one package, then one of
 the packages will be called the source of the requirement, and the other targets.
 The requirement with the same source package will always be associated with the same
 requirements module and/or class.</semantic__p>
 
-<semantic__table id="semantic__req-07" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="left"><semantic__strong>REQ007</semantic__strong></semantic__td>
-<semantic__td valign="middle" align="left"><semantic__strong>/req/part2/uml/common-req-classe</semantic__strong><semantic__br/>
-Classes that are common to all requirements classes <semantic__em>SHALL</semantic__em> be in a package
-associated to the core requirements class.</semantic__td>
-</semantic__tr></semantic__tbody>
-</semantic__table>
+<semantic__requirement id="semantic__req_uml_common-req-class" model="ogc"> <semantic__identifier>/req/uml/common-req-class</semantic__identifier><semantic__description><semantic__p id="semantic___d029e9ae-0b94-34fe-3045-8073cab3dc13">Classes that are common to all requirements classes SHALL be in a package associated to the core requirements class.</semantic__p>
+</semantic__description>
+</semantic__requirement>
 
 <semantic__p id="semantic___ccdd8b5d-32dd-6479-fa8a-7f47deb4f468">This is actually a derived requirement and is repeated here for emphasis.</semantic__p>
 
@@ -586,15 +542,10 @@ requirement.</semantic__p>
 <semantic__p id="semantic___f5d5f225-aeb9-b878-155d-bb1bca3bc907">In UML, source and target dependency relations are defined in such a way that the
 source of the relation is dependent on the target of the relation.</semantic__p>
 
-<semantic__table id="semantic__req-08" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="left"><semantic__strong>REQ008</semantic__strong></semantic__td>
-<semantic__td valign="middle" align="left"><semantic__strong>/req/part2/uml/source-target</semantic__strong><semantic__br/></semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="middle" align="center">A</semantic__td>
-<semantic__td valign="middle" align="left">In the UML model, if a “source” package is dependent on a “target” package then
-their requirements class <semantic__em>SHALL</semantic__em> be equal or</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="middle" align="center">B</semantic__td>
-<semantic__td valign="middle" align="left">The source package’s class <semantic__em>SHALL</semantic__em> be an extension of the target package’s class.</semantic__td>
-</semantic__tr></semantic__tbody>
-</semantic__table>
+<semantic__requirement id="semantic__req_uml_source-target" model="ogc"> <semantic__identifier>/req/uml/source-target</semantic__identifier><semantic__component class="part"><semantic__p id="semantic___f83ba14e-c7e9-e7b1-5560-0bfcaee22d84">In the UML model, if a “source” package is dependent on a “target” package then their requirements class SHALL be equal or</semantic__p>
+</semantic__component><semantic__component class="part"><semantic__p id="semantic___0c4af7df-5ef0-67fd-6d34-4f3ecbc08a7f">The source package’s class SHALL be an extension of the target package’s class.</semantic__p>
+</semantic__component>
+</semantic__requirement>
 
 <semantic__p id="semantic___7dbdad38-7815-0e7a-fc0d-5dc3452fb8ac">This means that the dependency graph of the UML packages parallels in some sense the
 extension diagram of the requirements/conformance classes. If all leaf
@@ -604,20 +555,13 @@ recommendation:</semantic__p>
 
 <semantic__p id="semantic___b9b5176a-4b86-6ef8-d757-aca21944810c"><semantic__strong><semantic__hi>Each requirements class in a conformant standard should be associated to one and only one UML package (which may contain sub-packages for a finer level of structure). If the core requirements class contains only recommendations, it may be an exception to this.</semantic__hi></semantic__strong></semantic__p>
 
-<semantic__table id="semantic__req-09" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="left"><semantic__strong>REQ009</semantic__strong></semantic__td>
-<semantic__td valign="middle" align="left"><semantic__strong>/req/part2/uml/leaf-package-dependency</semantic__strong><semantic__br/>
-If one leaf package is dependent on another leaf package, then the requirements
-class of the first <semantic__em>SHALL</semantic__em> be the same or an extension of the requirements class of
-the second.</semantic__td>
-</semantic__tr></semantic__tbody>
-</semantic__table>
+<semantic__requirement id="semantic__req_uml_leaf-package-dependency" model="ogc"> <semantic__identifier>/req/uml/leaf-package-dependency</semantic__identifier><semantic__description><semantic__p id="semantic___a1ab9aaa-0286-af67-7f49-21a986a1e956">If one leaf package is dependent on another leaf package, then the requirements class of the first SHALL be the same or an extension of the requirements class of the second.</semantic__p>
+</semantic__description>
+</semantic__requirement>
 
-<semantic__table id="semantic__req-10" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="left"><semantic__strong>REQ010</semantic__strong></semantic__td>
-<semantic__td valign="middle" align="left"><semantic__strong>/req/part2/uml/two-way-dependency</semantic__strong><semantic__br/>
-If two packages have a two-way dependency (a “co-dependency”), they <semantic__em>SHALL</semantic__em> be
-associated to the same requirements class.</semantic__td>
-</semantic__tr></semantic__tbody>
-</semantic__table>
+<semantic__requirement id="semantic__req_uml_two-way-dependency" model="ogc"> <semantic__identifier>/req/uml/two-way-dependency</semantic__identifier><semantic__description><semantic__p id="semantic___95c3d269-19e1-aeec-4be7-3ce87598b6f1">If two packages have a two-way dependency (a “co-dependency”), they SHALL be associated to the same requirements class.</semantic__p>
+</semantic__description>
+</semantic__requirement>
 
 <semantic__p id="semantic___e3f7cb34-19ab-fdb4-705f-6554066fbb34">For example, if two classes have a two-way navigable association, then these two
 classes must be (transitively) in the same conformance requirements class package.</semantic__p>
@@ -631,11 +575,9 @@ class can contain a locally defined class whose scope is the class itself. For o
 purposes, we will consider a class and its contained local classes to all be in the
 package of the original class.</semantic__p>
 
-<semantic__table id="semantic__req-11" width="90%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="75%"/></semantic__colgroup><semantic__tbody><semantic__tr><semantic__td valign="middle" align="left"><semantic__strong>REQ011</semantic__strong></semantic__td>
-<semantic__td valign="middle" align="left"><semantic__strong>/req/part2/uml/segregate-into-leaf-packages</semantic__strong><semantic__br/>
-The UML model <semantic__em>SHALL</semantic__em> segregate all classes into leaf packages.</semantic__td>
-</semantic__tr></semantic__tbody>
-</semantic__table>
+<semantic__requirement id="semantic__req_uml_segregate-into-leaf-packages" model="ogc"> <semantic__identifier>/req/uml/segregate-into-leaf-packages</semantic__identifier><semantic__description><semantic__p id="semantic___deca88c1-fd26-4d84-0e5c-61d67f2bb178">The UML model SHALL segregate all classes into leaf packages.</semantic__p>
+</semantic__description>
+</semantic__requirement>
 </semantic__clause>
 </semantic__clause>
 
@@ -820,7 +762,7 @@ associated to the same requirements class.</semantic__p>
 </semantic__ol>
 </semantic__clause>
 </semantic__clause>
-</semantic__sections><semantic__bibliography><semantic__references id="semantic___normative_references" normative="true" obligation="informative">
+</semantic__sections><semantic__bibliography><semantic__references id="semantic__cls-3" normative="true" obligation="informative">
 <semantic__title>Normative references</semantic__title><semantic__p id="semantic___cdc64d2a-a937-72f4-1261-c3b19cc626b1">The following documents are referred to in the text in such a way that some or all of their content constitutes requirements of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.</semantic__p>
 
 
@@ -1010,7 +952,7 @@ To obtain additional rights of use, visit
 <p id="_bb5602d2-6eb1-e557-e221-499759fe237f">Suggested additions, changes and comments on this document are welcome and encouraged. Such suggestions may be submitted using the online change request form on OGC web site: <link target="http://ogc.standardstracker.org/"/></p>
 </clause>
 </feedback-statement>
-</boilerplate><preface><clause type="toc" id="_f845414c-c66b-43e3-ab9b-53e50f0451e9" displayorder="1"><title depth="1">Contents</title></clause>
+</boilerplate><preface><clause type="toc" id="_5216283f-590f-41d6-bbd6-63f3b29259d6" displayorder="1"><title depth="1">Contents</title></clause>
 <abstract id="_abstract" displayorder="2"><title depth="1">I.<tab/>Abstract</title><p id="_40a6b536-46bd-f4b8-b487-0200afe45ee4">This OGC member developed and approved document, referred to as the <tt>ModSpec: Part 2 - UML</tt>, defines an optional requirements class for UML</p>
 
 <p id="_bc0ab912-78d9-630f-ef59-0d462156bb33">The ModSpec: Core Standard defines a model and related requirements
@@ -1032,7 +974,7 @@ A standard specifying requirements for crafting and documenting modular and test
 <p id="_f6c1d580-cf8d-d736-38db-f35008942847">Suggested additions, changes, and comments on this document are welcome and
 encouraged. Such suggestions may be submitted by creating an issue in the GitHub
 repository for this document (<link target="https://github.com/opengeospatial/ogc-modspec"/>).</p>
-</abstract><clause id="_f9045cd2-0d11-4c09-a72c-5d2dc8c467a6" type="keywords" displayorder="3">
+</abstract><clause id="_172f2153-38ab-4deb-90fa-3a7bcffea940" type="keywords" displayorder="3">
 <title depth="1">II.<tab/>Keywords</title>
 <p>The following are keywords to be used by search engines and document catalogues.</p>
 <p>ogcdoc, OGC document, ModSpec, UML</p></clause>
@@ -1047,7 +989,7 @@ specific content. This Part 2 specifies the optional UML Requirements Class.</p>
 </foreword><clause id="_security_considerations" type="security" obligation="informative" displayorder="5">
 <title depth="1">IV.<tab/>Security considerations</title>
 <p id="_271d6c77-7738-61f3-c819-7da69f4e7d10">No security considerations have been made for this Standard.</p>
-</clause><clause id="_c42cd603-7226-4984-be97-8be55de53e90" type="submitting_orgs" displayorder="6">
+</clause><clause id="_cefecf99-04cc-4509-82a7-487e5285e3c9" type="submitting_orgs" displayorder="6">
 <title depth="1">V.<tab/>Submitting Organizations</title>
 <p>The following organizations submitted this Document to the Open Geospatial Consortium (OGC):</p>
  <ul><li>Carl Reed, Heazeltech, ImageMatters</li></ul>
@@ -1056,10 +998,12 @@ specific content. This Part 2 specifies the optional UML Requirements Class.</p>
 <title depth="1">VI.<tab/>Submitters</title>
 <p id="_c4485abb-cbc5-a7e8-5e00-c9c58a531cc9">All questions regarding this submission should be directed to the editor or the submitters:</p>
 
-<table id="_fbb745fb-dbef-c1f3-94d7-9cd3bd2b76ef" unnumbered="true"><tbody><tr><td valign="middle" align="left"><strong>Name</strong></td>
+<table id="_151a4bb3-05b2-e720-edeb-d69922530bde" unnumbered="true"><tbody><tr><td valign="middle" align="left"><strong>Name</strong></td>
 <td valign="middle" align="left"><strong>Affiliation</strong></td>
 </tr><tr><td valign="middle" align="left">Carl Reed</td>
 <td valign="middle" align="left">Carl Reed &amp; Associates</td>
+</tr><tr><td valign="middle" align="left">Chuck Heazel</td>
+<td valign="middle" align="left">Heazeltech</td>
 </tr><tr><td valign="middle" align="left">John Herring, PhD</td>
 <td valign="middle" align="left">Oracle</td>
 </tr></tbody>
@@ -1162,14 +1106,14 @@ parallel.</p>
 </clause>
 </clause>
 
-<clause id="_conformance" type="conformance" obligation="normative" displayorder="13">
+<clause id="cls-2" type="conformance" obligation="normative" displayorder="13">
 <title depth="1">2.<tab/>Conformance</title>
 <p id="_8c1b1187-6ebc-c8eb-3647-2c234e933ba5">Conformance to the ModSpec: Part 2 — UML Standard by technical implementation standards
 can be tested by inspection. The test suite is in <xref target="annex-A">[annex-A]</xref>.</p>
 
 <p id="_daa8dfe2-0134-9ba9-96dd-eaa7dd81855d">There is one conformance class for this document for:</p>
 
-<ol id="_9fa68ea3-1d18-9f6e-c55d-68b08b9b66bf" type="arabic"><li id="_ea3b2a46-df22-4102-8825-48aeb2c3a534" label="1"><p id="_12e2af61-2f69-ca10-a19d-62ed188d4c7a">Standards using UML to state requirements, extending the core.</p>
+<ol id="_9fa68ea3-1d18-9f6e-c55d-68b08b9b66bf" type="arabic"><li id="_7241d689-c2c5-4e89-914e-1c7e44f040b1" label="1"><p id="_12e2af61-2f69-ca10-a19d-62ed188d4c7a">Standards using UML to state requirements, extending the core.</p>
 </li>
 </ol>
 
@@ -1189,28 +1133,27 @@ extension of the Core presented in the ModSpec Core Standard <xref target="cls-6
 
 
 
-<terms id="_terms_and_definitions" obligation="normative" displayorder="15">
-<title depth="1">4.<tab/>Terms and definitions</title>
+<terms id="cls-4" obligation="normative" displayorder="15">
+<title depth="1">4.<tab/>Terms and definitions</title><p id="_ee54798a-6d3c-92e7-3294-4b4b783213f1">No terms and definitions are listed in this document.</p>
 
-<p id="_5a7fa695-25b3-e3a8-80d4-9f72e0dbeb91">For the purposes of this document, the following terms and definitions shall apply.
+<p id="_f7e93087-a7a6-516e-cb4f-ea7947652659">For the purposes of this document, the following terms and definitions shall apply.
 Terms not defined here take their meaning from computer science or from their
 Standard English (common US and UK) meanings. The form of the definitions is
-defined by ISO Directives.<note id="_8b3f7cd9-5665-b82e-8efc-d13e591a46ad"><name>NOTE</name><p id="_11aa0006-94e1-b3e5-3674-2d3d0e4526b9">All terms and definitions in Clause 4 of the OGC ModSpec: Core are relevant and used in this Part.</p>
-</note></p>
+defined by ISO Directives.</p>
 
-
-
+<note id="_29725db2-352d-5739-6513-2310e80112ae"><name>NOTE</name><p id="_ec64b38c-0279-c4b2-2e85-882007f29fe9">All terms and definitions in Clause 4 of the OGC ModSpec: Core are relevant and used in this Part.</p>
+</note>
 </terms>
 
-<clause id="_conventions" obligation="normative" displayorder="17">
+<clause id="cls-5" obligation="normative" displayorder="17">
 <title depth="1">6.<tab/>Conventions</title>
 <clause id="_symbols_and_abbreviated_terms" obligation="normative">
 <title depth="2">6.1.<tab/>Symbols (and abbreviated terms)</title>
 <p id="_189b05f8-d8bd-86ff-6cae-0a71bf9b4a45">All symbols used in this document are either:</p>
 
-<ol id="_3219167d-2bf6-1257-507a-ad5a354eeb47" type="arabic"><li id="_56e4ff2f-565a-49f8-9f8b-0053ede8a8cf" label="1"><p id="_e0b0922e-824c-1ca5-ce67-98d43a0dbc7e">Common mathematical symbols</p>
+<ol id="_3219167d-2bf6-1257-507a-ad5a354eeb47" type="arabic"><li id="_8ed2cda6-0486-49d3-be47-7888754bb853" label="1"><p id="_e0b0922e-824c-1ca5-ce67-98d43a0dbc7e">Common mathematical symbols</p>
 </li>
-<li id="_b0dc31e3-484c-417b-a09c-893f6092bb2e" label="2"><p id="_b2dc0e0c-ea74-4888-09c2-075d49663fcd">UML 2 (Unified Modeling Language) as defined by OMG and accepted as a publicly
+<li id="_b40b5a92-e7d8-4e63-97a0-6264e05ec381" label="2"><p id="_b2dc0e0c-ea74-4888-09c2-075d49663fcd">UML 2 (Unified Modeling Language) as defined by OMG and accepted as a publicly
 available standard (PAS) by ISO in its earlier 1.3 version.</p>
 </li>
 </ol>
@@ -1220,13 +1163,13 @@ available standard (PAS) by ISO in its earlier 1.3 version.</p>
 <title depth="2">6.2.<tab/>Identifiers</title>
 <p id="_5075e6a4-6326-ab37-30b5-9ef47e437e21">The normative provisions in this standard are denoted by the URI namespace</p>
 
-<p id="_118ae17c-18df-7c99-079a-e0eb768f0d1d"><link target="https://www.opengis.net/spec/modspec/1.1/"/></p>
+<p id="_118ae17c-18df-7c99-079a-e0eb768f0d1d"><link target="https://www.opengis.net/spec/modspec-2/1.1/"/></p>
 
 <p id="_433371c9-0e2f-5dcf-ec43-1fc8c46961f1">All requirements that appear in this document are denoted by partial URIs which are relative to the namespace shown above.</p>
 
 <p id="_03606907-e80f-bd1b-499a-1b9c102b19ed">For the sake of brevity, the use of “req” in a requirement URI denotes:</p>
 
-<p id="_c4237e13-f0de-c7dd-d5d3-4cf51c43d216"><link target="https://www.opengis.net/spec/modspec/1.1/"/></p>
+<p id="_c4237e13-f0de-c7dd-d5d3-4cf51c43d216"><link target="https://www.opengis.net/spec/modspec-2/1.1/"/></p>
 
 <p id="_0cfe9d69-2f5d-65f2-7113-b74b22ee2631">An example might be:</p>
 
@@ -1236,7 +1179,7 @@ available standard (PAS) by ISO in its earlier 1.3 version.</p>
 
 <p id="_8e194e0c-7f44-d6c7-f91a-e04dcc3295ed">For the sake of brevity, the use of “conf” in a requirement URI denotes:</p>
 
-<p id="_2a7cc7d7-f6a2-930e-c8fa-d9295aabe20c"><link target="https://www.opengis.net/spec/modspec/1.1/"/></p>
+<p id="_2a7cc7d7-f6a2-930e-c8fa-d9295aabe20c"><link target="https://www.opengis.net/spec/modspec-2/1.1/"/></p>
 
 <p id="_2640fd75-874e-1108-00c5-d053632a88b5">The same convention is used for permissions (per) and recommendations (rec).</p>
 </clause>
@@ -1311,45 +1254,16 @@ be applied to any such version.</p>
 <p id="_27367699-1a89-9a0b-2b23-59c6aa2d18d1">First, by the requirements above, the extension relationship of this conformance
 test class to the core will be made explicit.</p>
 
-<table id="_eea16a21-d4b7-2391-0997-facb025a3f3b" width="90%"><name>Table 2</name><colgroup><col width="20%"/><col width="80%"/></colgroup><tbody><tr><td colspan="2" valign="middle" align="left"><strong>Requirements Class — UML extension to the core</strong></td>
-</tr><tr><td colspan="2" valign="middle" align="left">/req/core/data-representation</td>
-</tr><tr><td valign="middle" align="left">Target</td>
-<td valign="middle" align="left">ModSpec Conformant UML Model</td>
-</tr><tr><td valign="middle" align="left">Dependency</td>
-<td valign="middle" align="left">OGC ModSpec Version 1.1 [OGC 25-003r1]</td>
-</tr><tr><td valign="middle" align="left">REQ001</td>
-<td valign="middle" align="left">/req/part2/uml/conformance-with-core</td>
-</tr><tr><td valign="middle" align="left">REQ002</td>
-<td valign="middle" align="left">/req/part2/uml/object-model</td>
-</tr><tr><td valign="middle" align="left">REQ003</td>
-<td valign="middle" align="left">/req/part2/uml/dependency-graph</td>
-</tr><tr><td valign="middle" align="left">REQ004</td>
-<td valign="middle" align="left">/req/part2/uml/leaf-package</td>
-</tr><tr><td valign="middle" align="left">REQ005</td>
-<td valign="middle" align="left">/req/part2/uml/class-package</td>
-</tr><tr><td valign="middle" align="left">REQ006</td>
-<td valign="middle" align="left">/req/part2/uml/to-leaf</td>
-</tr><tr><td valign="middle" align="left">REQ007</td>
-<td valign="middle" align="left">/req/part2/uml/common-req-classes</td>
-</tr><tr><td valign="middle" align="left">REQ008</td>
-<td valign="middle" align="left">/req/part2/uml/source-target</td>
-</tr><tr><td valign="middle" align="left">REQ009</td>
-<td valign="middle" align="left">/req/part2/uml/leaf-package-dependency</td>
-</tr><tr><td valign="middle" align="left">REQ010</td>
-<td valign="middle" align="left">/req/part2/uml/two-way-dependency</td>
-</tr><tr><td valign="middle" align="left">REQ011</td>
-<td valign="middle" align="left">/req/part2/uml/segregate-into-leaf-packages</td>
-</tr></tbody>
-</table>
+<table id="req_class-uml" class="modspec" type="recommendclass"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTitle">Requirements class 1: Requirements Class ‘UML’</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>https://www.opengis.net/spec/modspec-2/1.1/req/req-class-uml</tt></td>
+</tr><tr><th>Target-type</th><td>Modular UML Standard</td></tr><tr><th>Normative statements</th><td><xref target="req_uml_conformance-with-core">Requirement 1: <tt>/req/uml/conformance-with-core</tt></xref><br/><xref target="req_uml_object-model">Requirement 2: <tt>/req/uml/object-model</tt></xref><br/><xref target="req_uml_dependency-graph">Requirement 3: <tt>/req/uml/dependency-graph</tt></xref><br/><xref target="req_uml_leaf-package">Requirement 4: <tt>/req/uml/leaf-package</tt></xref><br/><xref target="req_uml_class-package">Requirement 5: <tt>/req/uml/class-package</tt></xref><br/><xref target="req_uml_to-leaf">Requirement 6: <tt>/req/uml/to-leaf</tt></xref><br/><xref target="req_uml_common-req-class">Requirement 7: <tt>/req/uml/common-req-class</tt></xref><br/><xref target="req_uml_source-target">Requirement 8: <tt>/req/uml/source-target</tt></xref><br/><xref target="req_uml_leaf-package-dependency">Requirement 9: <tt>/req/uml/leaf-package-dependency</tt></xref><br/><xref target="req_uml_two-way-dependency">Requirement 10: <tt>/req/uml/two-way-dependency</tt></xref><br/><xref target="req_uml_segregate-into-leaf-packages">Requirement 11: <tt>/req/uml/segregate-into-leaf-packages</tt></xref></td></tr></tbody></table>
 
 <p id="_a9504214-207c-5a09-8ef2-6ab7c265da83">Any conformant UML extension will comply with the ModSpec Core requirements class.</p>
 
-<table id="req-01" width="90%"><name>Table 3</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ001</strong></td>
-<td valign="middle" align="left"><strong>/req/part2/uml/conformance-with-core</strong><br/>
-An implementation passing the UML conformance test class <em>SHALL</em> first pass the ModSpec core
-conformance test class</td>
-</tr></tbody>
-</table>
+<table id="req_uml_conformance-with-core" class="modspec" type="recommend"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTitle">Requirement 1</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/req/uml/conformance-with-core</tt></td>
+</tr><tr><th>Included in</th><td><xref target="req_class-uml">Requirements class 1: <tt>https://www.opengis.net/spec/modspec-2/1.1/req/req-class-uml</tt></xref></td></tr><tr><th>Statement</th><td><p id="_64d55fa5-2565-6a97-f818-a020d8c8b001">An implementation passing the UML conformance test class SHALL first pass the ModSpec core conformance test class.</p>
+</td></tr></tbody></table>
 
 <p id="_9eff5a31-5e86-13fa-b569-24546c51f875">Assuming all legitimate direct package dependencies are included in the UML model,
 the conformance/requirements class associated to a package <stem type="MathML" block="false"><math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -1380,25 +1294,19 @@ dealt with as the conformance classes cascade.</p>
 <p id="_0fed153e-c083-8544-877a-b5bc637b7dcc">This clause uses UML terminology, but other object modeling languages and, if
 needed, the object code itself can be mapped to a UML model.</p>
 
-<table id="req-02" width="90%"><name>Table 4</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ002</strong></td>
-<td valign="middle" align="left"><strong>/req/part2/uml/object-model</strong><br/>
-To be conformant to this UML requirements class, UML <em>SHALL</em> be used to express the
-object model, either as the core mechanism of the standard or as a normative adjunct
-to formally explain the standard in a model</td>
-</tr></tbody>
-</table>
+<table id="req_uml_object-model" class="modspec" type="recommend"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTitle">Requirement 2</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/req/uml/object-model</tt></td>
+</tr><tr><th>Included in</th><td><xref target="req_class-uml">Requirements class 1: <tt>https://www.opengis.net/spec/modspec-2/1.1/req/req-class-uml</tt></xref></td></tr><tr><th>Statement</th><td><p id="_535e1828-38a8-bc40-dc61-c81b02d4263e">To be conformant to this UML requirements class, UML SHALL be used to express the object model, either as the core mechanism of the standard or as a normative adjunct to formally explain the standard in a model</p>
+</td></tr></tbody></table>
 
-<table id="req-03" width="90%"><name>Table 5</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ003</strong></td>
-<td valign="middle" align="left"><strong>/req/part2/uml/dependency-graph</strong><br/>
-A UML model <em>SHALL</em> have an explicit dependency graph for the leaf packages and
-external packages used by the standard consistent with the way their classifiers use
-those of other packages</td>
-</tr></tbody>
-<note id="_34b83aa4-99f1-fe8f-7f4a-f8a0f9bdb83a"><name>NOTE</name><p id="_c6d11d4e-a4c1-277d-08af-03945610462c">External packages having predated the current version of the standard will
+<table id="req_uml_dependency-graph" class="modspec" type="recommend"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTitle">Requirement 3</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/req/uml/dependency-graph</tt></td>
+</tr><tr><th>Included in</th><td><xref target="req_class-uml">Requirements class 1: <tt>https://www.opengis.net/spec/modspec-2/1.1/req/req-class-uml</tt></xref></td></tr><tr><th>Statement</th><td><p id="_4d6e14d4-1713-8f1d-3ccd-9b3c1ef4166e">A UML model SHALL have an explicit dependency graph for the leaf packages and external packages used by the standard consistent with the way their classifiers use those of other packages</p>
+</td></tr></tbody></table>
+
+<note id="_e9e70165-0b6e-630b-57b2-567765526ce8"><name>NOTE</name><p id="_47eb6107-2a8c-0f50-d003-eb9a1d643d39">External packages having predated the current version of the standard will
 not normally have dependencies to packages within the standard.</p>
-</note></table>
-
-
+</note>
 
 <p id="_ca04fd64-969f-4243-b55e-ad73e086dd35">Other dependencies (indirect) will arise from the transitive closure of the above
 direct dependencies. That means if <stem type="MathML" block="false"><math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -1440,42 +1348,34 @@ on the direct dependencies, we can ignore them for effects on structure.</p>
 to define in UML a single package that will correspond to a particular requirements
 class and its associated conformance class.</p>
 
-<table id="req-04" width="90%"><name>Table 6</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ004</strong></td>
-<td valign="middle" align="left"><strong>/req/part2/uml/leaf-model</strong><br/>
-A UML leaf package <em>SHALL</em> be associated directly to only one requirements class.</td>
-</tr></tbody>
-</table>
+<table id="req_uml_leaf-package" class="modspec" type="recommend"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTitle">Requirement 4</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/req/uml/leaf-package</tt></td>
+</tr><tr><th>Included in</th><td><xref target="req_class-uml">Requirements class 1: <tt>https://www.opengis.net/spec/modspec-2/1.1/req/req-class-uml</tt></xref></td></tr><tr><th>Statement</th><td><p id="_e63deed9-a656-95ed-b859-7011e4dca138">A UML leaf package SHALL be associated directly to only one requirements class.</p>
+</td></tr></tbody></table>
 
-<table id="req-05" width="90%"><name>Table 7</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ005</strong></td>
-<td valign="middle" align="left"><strong>/req/part2/uml/class-package</strong><br/>
-Each requirements class shall be associated to a unique package in the model and
-include either directly or by a dependency any requirement associated to any of its
-subpackages.</td>
-</tr></tbody>
-</table>
+<table id="req_uml_class-package" class="modspec" type="recommend"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTitle">Requirement 5</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/req/uml/class-package</tt></td>
+</tr><tr><th>Included in</th><td><xref target="req_class-uml">Requirements class 1: <tt>https://www.opengis.net/spec/modspec-2/1.1/req/req-class-uml</tt></xref></td></tr><tr><th>Statement</th><td><p id="_82870269-13b2-98cc-44f3-2a73a1347ed6">Each requirements class shall be associated to a unique package in the model and include either directly or by a dependency any requirement associated to any of its subpackages.</p>
+</td></tr></tbody></table>
 
 <p id="_fd430124-f21f-58f6-210e-7a796f9ccdb2">The class definitions are the “requirements” of a UML expressed standard. Therefore, the
 logical consequence of the above is to organize requirements classes based on leaf
 packages.</p>
 
-<table id="req-06" width="90%"><name>Table 8</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ006</strong></td>
-<td valign="middle" align="left"><strong>/req/part2/uml/to-leaf</strong><br/>
-A requirements class <em>SHALL</em> be associated to some number of complete leaf packages
-and all classes and constraints in those packages.</td>
-</tr></tbody>
-</table>
+<table id="req_uml_to-leaf" class="modspec" type="recommend"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTitle">Requirement 6</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/req/uml/to-leaf</tt></td>
+</tr><tr><th>Included in</th><td><xref target="req_class-uml">Requirements class 1: <tt>https://www.opengis.net/spec/modspec-2/1.1/req/req-class-uml</tt></xref></td></tr><tr><th>Statement</th><td><p id="_6ff4694b-7d73-bb6d-0927-278d21dada8e">A requirements class SHALL be associated to some number of complete leaf packages and all classes and constraints in those packages.</p>
+</td></tr></tbody></table>
 
 <p id="_11c77d67-d4c2-3d7c-11cc-2123a090b2ca">If a requirement uses or refers to elements of more than one package, then one of
 the packages will be called the source of the requirement, and the other targets.
 The requirement with the same source package will always be associated with the same
 requirements module and/or class.</p>
 
-<table id="req-07" width="90%"><name>Table 9</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ007</strong></td>
-<td valign="middle" align="left"><strong>/req/part2/uml/common-req-classe</strong><br/>
-Classes that are common to all requirements classes <em>SHALL</em> be in a package
-associated to the core requirements class.</td>
-</tr></tbody>
-</table>
+<table id="req_uml_common-req-class" class="modspec" type="recommend"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTitle">Requirement 7</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/req/uml/common-req-class</tt></td>
+</tr><tr><th>Included in</th><td><xref target="req_class-uml">Requirements class 1: <tt>https://www.opengis.net/spec/modspec-2/1.1/req/req-class-uml</tt></xref></td></tr><tr><th>Statement</th><td><p id="_d029e9ae-0b94-34fe-3045-8073cab3dc13">Classes that are common to all requirements classes SHALL be in a package associated to the core requirements class.</p>
+</td></tr></tbody></table>
 
 <p id="_ccdd8b5d-32dd-6479-fa8a-7f47deb4f468">This is actually a derived requirement and is repeated here for emphasis.</p>
 
@@ -1487,15 +1387,11 @@ requirement.</p>
 <p id="_f5d5f225-aeb9-b878-155d-bb1bca3bc907">In UML, source and target dependency relations are defined in such a way that the
 source of the relation is dependent on the target of the relation.</p>
 
-<table id="req-08" width="90%"><name>Table 10</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ008</strong></td>
-<td valign="middle" align="left"><strong>/req/part2/uml/source-target</strong><br/></td>
-</tr><tr><td valign="middle" align="center">A</td>
-<td valign="middle" align="left">In the UML model, if a “source” package is dependent on a “target” package then
-their requirements class <em>SHALL</em> be equal or</td>
-</tr><tr><td valign="middle" align="center">B</td>
-<td valign="middle" align="left">The source package’s class <em>SHALL</em> be an extension of the target package’s class.</td>
-</tr></tbody>
-</table>
+<table id="req_uml_source-target" class="modspec" type="recommend"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTitle">Requirement 8</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/req/uml/source-target</tt></td>
+</tr><tr><th>Included in</th><td><xref target="req_class-uml">Requirements class 1: <tt>https://www.opengis.net/spec/modspec-2/1.1/req/req-class-uml</tt></xref></td></tr><tr><th>A</th><td><p id="_f83ba14e-c7e9-e7b1-5560-0bfcaee22d84">In the UML model, if a “source” package is dependent on a “target” package then their requirements class SHALL be equal or</p>
+</td></tr><tr><th>B</th><td><p id="_0c4af7df-5ef0-67fd-6d34-4f3ecbc08a7f">The source package’s class SHALL be an extension of the target package’s class.</p>
+</td></tr></tbody></table>
 
 <p id="_7dbdad38-7815-0e7a-fc0d-5dc3452fb8ac">This means that the dependency graph of the UML packages parallels in some sense the
 extension diagram of the requirements/conformance classes. If all leaf
@@ -1505,20 +1401,15 @@ recommendation:</p>
 
 <p id="_b9b5176a-4b86-6ef8-d757-aca21944810c"><strong><hi>Each requirements class in a conformant standard should be associated to one and only one UML package (which may contain sub-packages for a finer level of structure). If the core requirements class contains only recommendations, it may be an exception to this.</hi></strong></p>
 
-<table id="req-09" width="90%"><name>Table 11</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ009</strong></td>
-<td valign="middle" align="left"><strong>/req/part2/uml/leaf-package-dependency</strong><br/>
-If one leaf package is dependent on another leaf package, then the requirements
-class of the first <em>SHALL</em> be the same or an extension of the requirements class of
-the second.</td>
-</tr></tbody>
-</table>
+<table id="req_uml_leaf-package-dependency" class="modspec" type="recommend"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTitle">Requirement 9</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/req/uml/leaf-package-dependency</tt></td>
+</tr><tr><th>Included in</th><td><xref target="req_class-uml">Requirements class 1: <tt>https://www.opengis.net/spec/modspec-2/1.1/req/req-class-uml</tt></xref></td></tr><tr><th>Statement</th><td><p id="_a1ab9aaa-0286-af67-7f49-21a986a1e956">If one leaf package is dependent on another leaf package, then the requirements class of the first SHALL be the same or an extension of the requirements class of the second.</p>
+</td></tr></tbody></table>
 
-<table id="req-10" width="90%"><name>Table 12</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ010</strong></td>
-<td valign="middle" align="left"><strong>/req/part2/uml/two-way-dependency</strong><br/>
-If two packages have a two-way dependency (a “co-dependency”), they <em>SHALL</em> be
-associated to the same requirements class.</td>
-</tr></tbody>
-</table>
+<table id="req_uml_two-way-dependency" class="modspec" type="recommend"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTitle">Requirement 10</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/req/uml/two-way-dependency</tt></td>
+</tr><tr><th>Included in</th><td><xref target="req_class-uml">Requirements class 1: <tt>https://www.opengis.net/spec/modspec-2/1.1/req/req-class-uml</tt></xref></td></tr><tr><th>Statement</th><td><p id="_95c3d269-19e1-aeec-4be7-3ce87598b6f1">If two packages have a two-way dependency (a “co-dependency”), they SHALL be associated to the same requirements class.</p>
+</td></tr></tbody></table>
 
 <p id="_e3f7cb34-19ab-fdb4-705f-6554066fbb34">For example, if two classes have a two-way navigable association, then these two
 classes must be (transitively) in the same conformance requirements class package.</p>
@@ -1532,11 +1423,10 @@ class can contain a locally defined class whose scope is the class itself. For o
 purposes, we will consider a class and its contained local classes to all be in the
 package of the original class.</p>
 
-<table id="req-11" width="90%"><name>Table 13</name><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left"><strong>REQ011</strong></td>
-<td valign="middle" align="left"><strong>/req/part2/uml/segregate-into-leaf-packages</strong><br/>
-The UML model <em>SHALL</em> segregate all classes into leaf packages.</td>
-</tr></tbody>
-</table>
+<table id="req_uml_segregate-into-leaf-packages" class="modspec" type="recommend"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTitle">Requirement 11</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/req/uml/segregate-into-leaf-packages</tt></td>
+</tr><tr><th>Included in</th><td><xref target="req_class-uml">Requirements class 1: <tt>https://www.opengis.net/spec/modspec-2/1.1/req/req-class-uml</tt></xref></td></tr><tr><th>Statement</th><td><p id="_deca88c1-fd26-4d84-0e5c-61d67f2bb178">The UML model SHALL segregate all classes into leaf packages.</p>
+</td></tr></tbody></table>
 </clause>
 </clause>
 
@@ -1547,13 +1437,13 @@ The UML model <em>SHALL</em> segregate all classes into leaf packages.</td>
 <p id="_5643e02d-30f5-dd96-37a3-d47e54b1ab31">An implementation passing the UML conformance test class shall first pass the core
 conformance test class.</p>
 
-<ol id="_896413ef-5fae-cafa-708e-adece432c53f" type="arabic"><li id="_2182adfa-7bc7-4841-a038-ff88c1ab54a9" label="1"><p id="_d7901ea9-59d1-58ef-c044-4d07b89f7e14">Test Purpose: Verify that this requirement is satisfied.</p>
+<ol id="_896413ef-5fae-cafa-708e-adece432c53f" type="arabic"><li id="_598fd48f-068a-4cca-8417-bdac22890b3b" label="1"><p id="_d7901ea9-59d1-58ef-c044-4d07b89f7e14">Test Purpose: Verify that this requirement is satisfied.</p>
 </li>
-<li id="_94d35f38-2a50-4b45-8ea4-8ef7e18bd434" label="2"><p id="_20ea0bef-93e1-2a71-0e69-26187399a31f">Test Method: Inspect the document to verify the above.</p>
+<li id="_fdc112b6-7f03-4524-b27a-8a0decef4241" label="2"><p id="_20ea0bef-93e1-2a71-0e69-26187399a31f">Test Method: Inspect the document to verify the above.</p>
 </li>
-<li id="_c3ad9397-dbed-45f8-8f78-5a2f20ad043b" label="3"><p id="_7f713636-dd14-7c57-56fb-11c7d57d51e7">Reference: <xref target="req-01">Table 3</xref></p>
+<li id="_fe802dda-92cc-4b74-8cc0-c8919690bac2" label="3"><p id="_7f713636-dd14-7c57-56fb-11c7d57d51e7">Reference: <xref target="req-01">[req-01]</xref></p>
 </li>
-<li id="_07d3366d-5f8b-41bb-bf36-f2d903049b1f" label="4"><p id="_185b2049-935c-4eb3-21c7-3c83b0172a43">Test Type: Conformance.</p>
+<li id="_2536c604-a6b0-4901-8b1f-66780f3e3e6f" label="4"><p id="_185b2049-935c-4eb3-21c7-3c83b0172a43">Test Type: Conformance.</p>
 </li>
 </ol>
 </clause>
@@ -1564,13 +1454,13 @@ conformance test class.</p>
 object model, either as the core mechanism of the standard or as a normative adjunct
 to formally explain the standard in a model.</p>
 
-<ol id="_2148b51f-3ec7-d2dc-324a-b201a3e3e3b3" type="arabic"><li id="_1427d0d5-ea2d-4426-84cd-5a347fc79d1e" label="1"><p id="_9e3db368-5147-3f86-ee66-bcd5947b6092">Test Purpose: Verify that this requirement is satisfied.</p>
+<ol id="_2148b51f-3ec7-d2dc-324a-b201a3e3e3b3" type="arabic"><li id="_30680ab3-3035-45db-a024-a8e055058771" label="1"><p id="_9e3db368-5147-3f86-ee66-bcd5947b6092">Test Purpose: Verify that this requirement is satisfied.</p>
 </li>
-<li id="_e2efa061-400e-4f37-a140-d90143cbf44d" label="2"><p id="_474414cd-0f52-82ce-1cbf-3d34f220f2ab">Test Method: Inspect the document to verify the above.</p>
+<li id="_895e554e-c8b0-4e72-a852-0c93b0b68367" label="2"><p id="_474414cd-0f52-82ce-1cbf-3d34f220f2ab">Test Method: Inspect the document to verify the above.</p>
 </li>
-<li id="_5923b4c3-4d80-4236-8b13-b696723d693c" label="3"><p id="_ebf1a34b-1e31-b3bd-83dc-be9b851bc445">Reference: <xref target="req-02">Table 4</xref></p>
+<li id="_b9c28073-bf6f-49c4-a00f-c609656ff99a" label="3"><p id="_ebf1a34b-1e31-b3bd-83dc-be9b851bc445">Reference: <xref target="req-02">[req-02]</xref></p>
 </li>
-<li id="_14e3c071-692b-4aa8-b10c-5a0e03eb35da" label="4"><p id="_17ec568f-3e47-8a25-55ce-ed779e3487ba">Test Type: Conformance.</p>
+<li id="_cbe6336b-a4b2-4571-80d4-2bd6295b3a4e" label="4"><p id="_17ec568f-3e47-8a25-55ce-ed779e3487ba">Test Type: Conformance.</p>
 </li>
 </ol>
 </clause>
@@ -1581,13 +1471,13 @@ to formally explain the standard in a model.</p>
 external packages used by the standard consistent with the way their classifiers use
 those of other packages.</p>
 
-<ol id="_da27b96e-2654-ba24-08f6-9e0ef1fe4941" type="arabic"><li id="_addc0481-c55c-441d-8bc9-20dc120a776f" label="1"><p id="_568928c9-d213-0259-52a1-0224f2190fbe">Test Purpose: Verify that this requirement is satisfied.</p>
+<ol id="_da27b96e-2654-ba24-08f6-9e0ef1fe4941" type="arabic"><li id="_09f07318-98c0-47fd-a999-67efeae99080" label="1"><p id="_568928c9-d213-0259-52a1-0224f2190fbe">Test Purpose: Verify that this requirement is satisfied.</p>
 </li>
-<li id="_bf080a0e-ce71-4a62-9520-81c8c1ac6c25" label="2"><p id="_26839e23-32fb-c2ac-512c-e000e472aeab">Test Method: Inspect the document to verify the above.</p>
+<li id="_354527ea-3f59-413c-88b0-c298835fe34e" label="2"><p id="_26839e23-32fb-c2ac-512c-e000e472aeab">Test Method: Inspect the document to verify the above.</p>
 </li>
-<li id="_b5bca27f-ea8e-4726-b24e-3f8b02c12543" label="3"><p id="_bd638bbd-920f-91e5-3bea-b9e29f4ddf59">Reference: <xref target="req-03">Table 5</xref></p>
+<li id="_d626b9fd-faec-47a2-bab8-4f6489c34201" label="3"><p id="_bd638bbd-920f-91e5-3bea-b9e29f4ddf59">Reference: <xref target="req-03">[req-03]</xref></p>
 </li>
-<li id="_de7cb5c7-7295-454e-bbaa-169221b116e7" label="4"><p id="_93268d44-0cc9-ef5f-83ea-19ad59f0d714">Test Type: Conformance.</p>
+<li id="_af46d7cb-099e-4199-b9c4-cda57a1ebcc8" label="4"><p id="_93268d44-0cc9-ef5f-83ea-19ad59f0d714">Test Type: Conformance.</p>
 </li>
 </ol>
 </clause>
@@ -1596,13 +1486,13 @@ those of other packages.</p>
 <title depth="2">8.4.<tab/>Leaf packages in only one requirements class</title>
 <p id="_510463cf-e967-9d1f-f2b1-185aa14e624f">A UML leaf package shall be associated directly to only one requirements class.</p>
 
-<ol id="_e616afd4-0c19-991b-2910-141d0b0afd3b" type="arabic"><li id="_80a774d0-0360-4049-8b5d-03eefda8d949" label="1"><p id="_88aa4bf7-6198-4384-1b30-df7cdd383afc">Test Purpose: Verify that this requirement is satisfied.</p>
+<ol id="_e616afd4-0c19-991b-2910-141d0b0afd3b" type="arabic"><li id="_48232a72-0e00-41db-ac5e-8b93a4e7079c" label="1"><p id="_88aa4bf7-6198-4384-1b30-df7cdd383afc">Test Purpose: Verify that this requirement is satisfied.</p>
 </li>
-<li id="_ac39a5fc-312c-4ec7-b96c-679e740768d0" label="2"><p id="_8000cb80-5732-2656-9653-30b38433bfdc">Test Method: Inspect the document to verify the above.</p>
+<li id="_e3444a21-4b6e-4f27-bf8b-ad55b3b39000" label="2"><p id="_8000cb80-5732-2656-9653-30b38433bfdc">Test Method: Inspect the document to verify the above.</p>
 </li>
-<li id="_b267e07f-c01e-4712-849c-0960253cd575" label="3"><p id="_90bbb9d6-05ec-0c25-b560-4e6f6d13db48">Reference: <xref target="req-04">Table 6</xref></p>
+<li id="_d24db11d-02cd-4c63-94bc-489ebfd15f3f" label="3"><p id="_90bbb9d6-05ec-0c25-b560-4e6f6d13db48">Reference: <xref target="req-04">[req-04]</xref></p>
 </li>
-<li id="_84d57863-0b4a-4cd3-afe4-2007bad59985" label="4"><p id="_f08a656a-d7c6-fc70-27fb-031d39a94948">Test Type: Conformance.</p>
+<li id="_c197dd4b-def4-4a24-a145-a5a163d29f26" label="4"><p id="_f08a656a-d7c6-fc70-27fb-031d39a94948">Test Type: Conformance.</p>
 </li>
 </ol>
 </clause>
@@ -1613,13 +1503,13 @@ those of other packages.</p>
 include either directly or by a dependency any requirement associated to any of its
 subpackages.</p>
 
-<ol id="_c9e8d8ea-c394-72a1-b6b0-3d9e172eae67" type="arabic"><li id="_e77a6466-f710-472f-af2b-bcde255ab031" label="1"><p id="_27a90c90-a7a9-be74-ff6a-803ba832df12">Test Purpose: Verify that this requirement is satisfied.</p>
+<ol id="_c9e8d8ea-c394-72a1-b6b0-3d9e172eae67" type="arabic"><li id="_97976ae3-9ca1-4855-843b-8515fbdccfb3" label="1"><p id="_27a90c90-a7a9-be74-ff6a-803ba832df12">Test Purpose: Verify that this requirement is satisfied.</p>
 </li>
-<li id="_270e56f1-53d3-4b79-aa77-ee19806af448" label="2"><p id="_90386364-eaac-703f-982c-39e48c21543d">Test Method: Inspect the document to verify the above.</p>
+<li id="_503cfd75-702b-4bcf-b077-bd27d96b17fb" label="2"><p id="_90386364-eaac-703f-982c-39e48c21543d">Test Method: Inspect the document to verify the above.</p>
 </li>
-<li id="_9dcf4394-3e97-4092-9197-77ad10f2305a" label="3"><p id="_19629a47-ba89-fd13-0bcf-3359293160c5">Reference: <xref target="req-05">Table 7</xref></p>
+<li id="_3309a32d-cd1e-4c85-b8c2-e73ab23da62d" label="3"><p id="_19629a47-ba89-fd13-0bcf-3359293160c5">Reference: <xref target="req-05">[req-05]</xref></p>
 </li>
-<li id="_27744f97-9b6f-457d-b36b-8e6e1ceca711" label="4"><p id="_b09804e6-70d4-3ec5-0103-94e2bb166835">Test Type: Conformance.</p>
+<li id="_4254ea1e-c66d-446f-9e48-4169026cb8af" label="4"><p id="_b09804e6-70d4-3ec5-0103-94e2bb166835">Test Type: Conformance.</p>
 </li>
 </ol>
 </clause>
@@ -1629,13 +1519,13 @@ subpackages.</p>
 <p id="_dded850c-6bf2-4f64-3532-c9eb0d03451c">A requirements class shall be associated to some number of complete leaf packages
 and all classes and constraints in those packages.</p>
 
-<ol id="_ec503773-c994-b237-355b-698d8e32bfd1" type="arabic"><li id="_04b4d842-5583-4ac3-bb8e-c296f6c781ad" label="1"><p id="_3fa0925e-336e-420a-b515-6b6fce911031">Test Purpose: Verify that this requirement is satisfied.</p>
+<ol id="_ec503773-c994-b237-355b-698d8e32bfd1" type="arabic"><li id="_fb3fb2bc-e8ca-467c-aba6-8915e7e93827" label="1"><p id="_3fa0925e-336e-420a-b515-6b6fce911031">Test Purpose: Verify that this requirement is satisfied.</p>
 </li>
-<li id="_b61c71c3-c7b2-424a-aca3-b6ccbf3179af" label="2"><p id="_094dd620-f203-0ff5-c500-66c6d71d1ff0">Test Method: Inspect the document to verify the above.</p>
+<li id="_44f21b0d-6d74-4693-9567-dd1207eaac87" label="2"><p id="_094dd620-f203-0ff5-c500-66c6d71d1ff0">Test Method: Inspect the document to verify the above.</p>
 </li>
-<li id="_3cd5359a-e677-4fd2-aee6-664303ecbdd0" label="3"><p id="_ee70b793-f5cb-5594-7ab0-dc972256c963">Reference: <xref target="req-06">Table 8</xref></p>
+<li id="_c63b7bfc-b9e0-42a2-b301-5b882eeab551" label="3"><p id="_ee70b793-f5cb-5594-7ab0-dc972256c963">Reference: <xref target="req-06">[req-06]</xref></p>
 </li>
-<li id="_303c239a-aa91-415a-b996-787337e06af5" label="4"><p id="_1f910e93-269b-93bb-767a-4dbddbd2d6db">Test Type: Conformance.</p>
+<li id="_d61d2e30-5f25-44e2-835e-494a3969278c" label="4"><p id="_1f910e93-269b-93bb-767a-4dbddbd2d6db">Test Type: Conformance.</p>
 </li>
 </ol>
 </clause>
@@ -1645,13 +1535,13 @@ and all classes and constraints in those packages.</p>
 <p id="_f6e13210-6787-ebf2-676f-b6d1af5aa08b">Classes that are common to all requirements classes shall be in a package associated
 to the core conformance/requirements class.</p>
 
-<ol id="_4cf18614-081f-b153-1d96-fb838f12dfda" type="arabic"><li id="_21292dfb-e257-486e-85be-9060834c0480" label="1"><p id="_087d3f7c-1189-9da3-5837-c6caa03ddc28">Test Purpose: Verify that this requirement is satisfied.</p>
+<ol id="_4cf18614-081f-b153-1d96-fb838f12dfda" type="arabic"><li id="_bc26d6e7-b745-452d-ad71-2b7a632c8d6b" label="1"><p id="_087d3f7c-1189-9da3-5837-c6caa03ddc28">Test Purpose: Verify that this requirement is satisfied.</p>
 </li>
-<li id="_c4e1dec8-c4d4-42cf-85b6-103f3e6265a8" label="2"><p id="_4fbad5dc-4e69-17ba-b4eb-28dd09e61943">Test Method: Inspect the document to verify the above.</p>
+<li id="_ac89417a-e9bd-4f0a-b476-50a1197eed69" label="2"><p id="_4fbad5dc-4e69-17ba-b4eb-28dd09e61943">Test Method: Inspect the document to verify the above.</p>
 </li>
-<li id="_6695f71e-3033-4149-b8f3-73491128499b" label="3"><p id="_f1ef2adb-4c4a-3f31-618b-131fabb00622">Reference: <xref target="req-07">Table 9</xref>.</p>
+<li id="_4f925cc5-b018-4ef7-a322-3280a328e885" label="3"><p id="_f1ef2adb-4c4a-3f31-618b-131fabb00622">Reference: <xref target="req-07">[req-07]</xref>.</p>
 </li>
-<li id="_28dbd893-0093-4141-a4a2-063ce0d912dd" label="4"><p id="_dfafa0f3-258e-d650-5b9c-39db28bceb22">Test Type: Conformance.</p>
+<li id="_05ebbb60-2c43-4308-800e-e9ee3d9e9b30" label="4"><p id="_dfafa0f3-258e-d650-5b9c-39db28bceb22">Test Type: Conformance.</p>
 </li>
 </ol>
 </clause>
@@ -1662,13 +1552,13 @@ to the core conformance/requirements class.</p>
 their requirements class shall be equal or the source package’s class shall be an
 extension of the target package’s class.</p>
 
-<ol id="_95595d9f-4693-6243-a00e-3f4f17c71315" type="arabic"><li id="_7c6abec1-4df2-49a5-a276-42657b22b779" label="1"><p id="_573c2929-972b-3a2d-67d9-89eb86fa65d3">Test Purpose: Verify that this requirement is satisfied.</p>
+<ol id="_95595d9f-4693-6243-a00e-3f4f17c71315" type="arabic"><li id="_a2c4738b-21c0-40b0-9daf-6ca538e9c746" label="1"><p id="_573c2929-972b-3a2d-67d9-89eb86fa65d3">Test Purpose: Verify that this requirement is satisfied.</p>
 </li>
-<li id="_18afbcf3-e336-4a95-b008-3f2ee2b1895e" label="2"><p id="_a86198d6-043e-12f1-7d05-8e9d00a10335">Test Method: Inspect the document to verify the above.</p>
+<li id="_adb0cff6-d638-4c31-af87-4c325772c963" label="2"><p id="_a86198d6-043e-12f1-7d05-8e9d00a10335">Test Method: Inspect the document to verify the above.</p>
 </li>
-<li id="_37dac716-5dc7-4afb-9d1b-ed93efc26c47" label="3"><p id="_9b7625f0-5cfd-4ae4-bb98-861e3b6fef21">Reference: <xref target="req-08">Table 10</xref>.</p>
+<li id="_5ca719e1-3907-44b6-b41e-0dedcbb76d4f" label="3"><p id="_9b7625f0-5cfd-4ae4-bb98-861e3b6fef21">Reference: <xref target="req-08">[req-08]</xref>.</p>
 </li>
-<li id="_4309c4a5-40fa-4c9e-a4b6-2372aaac82a1" label="4"><p id="_0c491664-a222-f12d-6cd9-87fa9f340fe6">Test Type: Conformance.</p>
+<li id="_6f75be7f-506a-4f01-8bdc-ea612dfe6c4c" label="4"><p id="_0c491664-a222-f12d-6cd9-87fa9f340fe6">Test Type: Conformance.</p>
 </li>
 </ol>
 </clause>
@@ -1679,13 +1569,13 @@ extension of the target package’s class.</p>
 class of the first shall be the same or an extension of the requirements class of
 the second.</p>
 
-<ol id="_8e2b61d0-d6bb-e1a2-51bb-e654929a7aab" type="arabic"><li id="_8f92cef3-75a7-4d4b-80f6-a230e7c06e21" label="1"><p id="_ddde0e6b-c2c6-4412-19a6-8cb9dd8fe4ac">Test Purpose: Verify that this requirement is satisfied.</p>
+<ol id="_8e2b61d0-d6bb-e1a2-51bb-e654929a7aab" type="arabic"><li id="_491171e1-1b8b-4d1e-b0d8-e7bc29852b68" label="1"><p id="_ddde0e6b-c2c6-4412-19a6-8cb9dd8fe4ac">Test Purpose: Verify that this requirement is satisfied.</p>
 </li>
-<li id="_47da0810-b218-4a16-8908-91450c92ee72" label="2"><p id="_e5d70e3f-61e0-f825-13a0-d54567e9ba21">Test Method: Inspect the document to verify the above.</p>
+<li id="_4534aa3c-ffc6-4b00-8ada-f97762b1ca38" label="2"><p id="_e5d70e3f-61e0-f825-13a0-d54567e9ba21">Test Method: Inspect the document to verify the above.</p>
 </li>
-<li id="_1614dc91-abd6-41e4-aae1-3b2814088da7" label="3"><p id="_748dcfa4-f35f-3b1c-6ae3-4903ad0f45bb">Reference: <xref target="req-09">Table 11</xref>.</p>
+<li id="_30cd93b0-375a-4a63-b8ee-a43017300b85" label="3"><p id="_748dcfa4-f35f-3b1c-6ae3-4903ad0f45bb">Reference: <xref target="req-09">[req-09]</xref>.</p>
 </li>
-<li id="_b8ffbfd0-777d-452e-9c7b-1da6eba6e48a" label="4"><p id="_2ba95ecb-f31d-a3aa-af7e-d5e29a6823f2">Test Type: Conformance.</p>
+<li id="_27cda3d1-b2d9-4d17-8788-ec26b392d048" label="4"><p id="_2ba95ecb-f31d-a3aa-af7e-d5e29a6823f2">Test Type: Conformance.</p>
 </li>
 </ol>
 </clause>
@@ -1695,13 +1585,13 @@ the second.</p>
 <p id="_2027a21a-4460-d645-2f22-febe089ad450">If two packages have a two-way dependency (a “co-dependency”), they shall be
 associated to the same requirements class.</p>
 
-<ol id="_3b81e163-fc4c-b139-1675-7fbfe0601bd3" type="arabic"><li id="_973dd27b-2982-4b7d-ba10-6e08bb7d203b" label="1"><p id="_b76c7e44-515c-f6e0-8754-0a68c6dcf0c1">Test Purpose: Verify that this requirement is satisfied.</p>
+<ol id="_3b81e163-fc4c-b139-1675-7fbfe0601bd3" type="arabic"><li id="_7ab12190-6e12-438e-aa5e-f432bcaa5a7f" label="1"><p id="_b76c7e44-515c-f6e0-8754-0a68c6dcf0c1">Test Purpose: Verify that this requirement is satisfied.</p>
 </li>
-<li id="_c254bd0d-3f5e-460f-a2cd-d28d4cf992f7" label="2"><p id="_eb498cae-7e78-684a-3d7d-401b52b465ff">Test Method: Inspect the document to verify the above.</p>
+<li id="_859d96c6-f60a-4242-a003-103edf832f33" label="2"><p id="_eb498cae-7e78-684a-3d7d-401b52b465ff">Test Method: Inspect the document to verify the above.</p>
 </li>
-<li id="_6f526970-098c-4142-a05c-fa3ad5c9b6c0" label="3"><p id="_3e37c5d5-032a-a0cc-dba9-4c2282db337f">Reference: <xref target="req-10">Table 12</xref></p>
+<li id="_9cb1fc94-27cb-4caa-a3bb-1292c369aae3" label="3"><p id="_3e37c5d5-032a-a0cc-dba9-4c2282db337f">Reference: <xref target="req-10">[req-10]</xref></p>
 </li>
-<li id="_c030ab22-c8fa-4e37-bcf6-490204e8d8ed" label="4"><p id="_072fcc42-2ffa-ff61-7598-5bc4d0b29218">Test Type: Conformance.</p>
+<li id="_f9cdbf2f-9946-472c-be7f-57f6450155b1" label="4"><p id="_072fcc42-2ffa-ff61-7598-5bc4d0b29218">Test Type: Conformance.</p>
 </li>
 </ol>
 </clause>
@@ -1710,18 +1600,18 @@ associated to the same requirements class.</p>
 <title depth="2">8.11.<tab/>All classes are in leaf packages</title>
 <p id="_ef7183fb-31e5-77dd-f805-b673d8d929fb">The UML model shall segregate all classes into leaf packages.</p>
 
-<ol id="_79e7b62c-2695-1707-8786-107cfe83cde8" type="arabic"><li id="_62355d68-a4d1-42ea-aa79-15b0dfd68649" label="1"><p id="_f72f3e93-9840-f98b-e0c2-05687b99df9d">Test Purpose: Verify that this requirement is satisfied.</p>
+<ol id="_79e7b62c-2695-1707-8786-107cfe83cde8" type="arabic"><li id="_c8f5d185-6836-4998-b620-29eb4d80f3cc" label="1"><p id="_f72f3e93-9840-f98b-e0c2-05687b99df9d">Test Purpose: Verify that this requirement is satisfied.</p>
 </li>
-<li id="_215d96ed-ad33-43cf-b20d-90aec63ad5c7" label="2"><p id="_6f6b6a79-89a2-af7f-6b88-7f6ed5811712">Test Method: Inspect the document to verify the above.</p>
+<li id="_ad4cbf87-6da2-4e60-ab13-d8e331068643" label="2"><p id="_6f6b6a79-89a2-af7f-6b88-7f6ed5811712">Test Method: Inspect the document to verify the above.</p>
 </li>
-<li id="_29a8231e-9c27-4b9c-966c-24a2339da6c7" label="3"><p id="_0413a0af-2e72-0270-9321-fafde07908a3">Reference: <xref target="req-11">Table 13</xref></p>
+<li id="_8272b5b7-a4c7-4ed7-97e7-6b36dac2d757" label="3"><p id="_0413a0af-2e72-0270-9321-fafde07908a3">Reference: <xref target="req-11">[req-11]</xref></p>
 </li>
-<li id="_3f54eae1-08b2-437d-a9e1-59bf66c10064" label="4"><p id="_750ee94d-18cb-bfda-d1b3-774f6b193675">Test Type: Conformance.</p>
+<li id="_1fb25b2a-ca38-480a-99a5-3c828cd8859f" label="4"><p id="_750ee94d-18cb-bfda-d1b3-774f6b193675">Test Type: Conformance.</p>
 </li>
 </ol>
 </clause>
 </clause>
-<references id="_normative_references" normative="true" obligation="informative" displayorder="14">
+<references id="cls-3" normative="true" obligation="informative" displayorder="14">
 <title depth="1">3.<tab/>Normative references</title><p id="_cdc64d2a-a937-72f4-1261-c3b19cc626b1">The following documents are referred to in the text in such a way that some or all of their content constitutes requirements of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.</p>
 
 

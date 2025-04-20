@@ -1,0 +1,8 @@
+[[req_uml_two-way-dependency]]
+
+[requirement]
+====
+[%metadata]
+identifier:: /req/uml/two-way-dependency
+statement:: If two packages have a two-way dependency (a “co-dependency”), they SHALL be associated to the same requirements class.
+====

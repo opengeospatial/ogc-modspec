@@ -1,0 +1,8 @@
+[[req_uml_leaf-package-dependency]]
+
+[requirement]
+====
+[%metadata]
+identifier:: /req/uml/leaf-package-dependency
+statement:: If one leaf package is dependent on another leaf package, then the requirements class of the first SHALL be the same or an extension of the requirements class of the second.
+====

@@ -57,6 +57,7 @@ All questions regarding this submission should be directed to the editor or the 
 |===
 |*Name* |*Affiliation*
 | Carl Reed | Carl Reed & Associates
+| Chuck Heazel | Heazeltech
 | John Herring, PhD | Oracle |
 |===
 

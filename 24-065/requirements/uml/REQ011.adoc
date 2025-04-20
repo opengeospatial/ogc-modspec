@@ -1,0 +1,8 @@
+[[req_uml_segregate-into-leaf-packages]]
+
+[requirement]
+====
+[%metadata]
+identifier:: /req/uml/segregate-into-leaf-packages
+statement:: The UML model SHALL segregate all classes into leaf packages.
+====

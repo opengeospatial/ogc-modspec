@@ -1,0 +1,8 @@
+[[req_uml_object-model]]
+
+[requirement]
+====
+[%metadata]
+identifier:: /req/uml/object-model
+statement:: To be conformant to this UML requirements class, UML SHALL be used to express the object model, either as the core mechanism of the standard or as a normative adjunct to formally explain the standard in a model
+====

@@ -1,0 +1,8 @@
+[[req_uml_conformance-with-core]]
+
+[requirement]
+====
+[%metadata]
+identifier:: /req/uml/conformance-with-core
+statement:: An implementation passing the UML conformance test class SHALL first pass the ModSpec core conformance test class.
+====

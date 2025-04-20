@@ -1,0 +1,8 @@
+[[req_uml_to-leaf]]
+
+[requirement]
+====
+[%metadata]
+identifier:: /req/uml/to-leaf
+statement:: A requirements class SHALL be associated to some number of complete leaf packages and all classes and constraints in those packages. 
+====

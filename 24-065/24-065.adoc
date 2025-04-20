@@ -8,13 +8,15 @@
 :draft: 1.1.0
 :external-id: http://www.opengis.net/doc/spec/modspec-2/1.1
 :docnumber: 24-065
-:received-date: 2025-04-15
+:received-date: 2025-04-20
 :issued-date: 2029-03-30
 :published-date: 2029-03-30
 :fullname: Carl Reed
 :role: editor
-:fullname_2: John Herring
+:fullname_2: Chuck Heazel
 :role_2: editor
+:fullname_3: John Herring
+:role_3: editor
 :docsubtype: Interface
 :keywords: ogcdoc, OGC document, ModSpec, UML
 :submitting-organizations: Carl Reed, Heazeltech, ImageMatters

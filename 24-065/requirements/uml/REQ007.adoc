@@ -1,0 +1,8 @@
+[[req_uml_common-req-class]]
+
+[requirement]
+====
+[%metadata]
+identifier:: /req/uml/common-req-class
+statement:: Classes that are common to all requirements classes SHALL be in a package associated to the core requirements class.
+====

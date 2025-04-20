@@ -1,0 +1,8 @@
+[[req_uml_dependency-graph]]
+
+[requirement]
+====
+[%metadata]
+identifier:: /req/uml/dependency-graph
+statement:: A UML model SHALL have an explicit dependency graph for the leaf packages and external packages used by the standard consistent with the way their classifiers use those of other packages
+====
