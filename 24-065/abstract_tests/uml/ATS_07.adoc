@@ -1,0 +1,9 @@
+[[ats_uml_common-req-class]]
+[abstract_test]
+====
+[%metadata]
+identifier:: /conf/uml/common-req-class
+target:: /req/uml/common-req-class
+test-purpose:: Verify that any classes that are common to all requirements classes shall be in a package associated to the core conformance/requirements class.
+test-method:: Inspect the document to verify the above.
+====

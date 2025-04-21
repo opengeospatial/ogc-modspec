@@ -1,0 +1,9 @@
+[[ats_uml_to-leaf]]
+[abstract_test]
+====
+[%metadata]
+identifier:: /conf/uml/to-leaf
+target:: /req/uml/to-leaf
+test-purpose:: Verify that each requirements class has been associated to some number of complete leaf packages and all classes and constraints in those packages.
+test-method:: Inspect the document to verify the above.
+====

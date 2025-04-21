@@ -1,0 +1,63 @@
+[[ats_uml,/conf/uml]]
+[conformance_class]
+====
+[%metadata]
+identifier:: https://www.opengis.net/spec/modspec-2/1.1/conf/uml
+target:: https://www.opengis.net/spec/modspec-2/1.1/req/req-class-uml
+classification:: Target Type:Web API
+abstract-test:: /conf/uml/conformance-with-core
+abstract-test:: /conf/uml/object-model
+abstract-test:: /conf/uml/dependency-graph
+abstract-test:: /conf/uml/leaf-package
+abstract-test:: /conf/uml/class-package
+abstract-test:: /conf/uml/to-leaf
+abstract-test:: /conf/uml/common-req-class
+abstract-test:: /conf/uml/source-target
+abstract-test:: /conf/uml/leaf-package-dependency
+abstract-test:: /conf/uml/two-way-dependency
+abstract-test:: /conf/uml/segregate-into-leaf-packages
+====
+
+==== Dependency on Core
+
+include::./uml/ATS_01.adoc[]
+
+==== The UML model is normative
+
+include::./uml/ATS_02.adoc[]
+
+==== Dependency graph must be explicit
+
+include::./uml/ATS_03.adoc[]
+
+==== Leaf packages in only one requirements class
+
+include::./uml/ATS_04.adoc[]
+
+==== Requirements class associated to a unique package
+
+include::./uml/ATS_05.adoc[]
+
+==== A requirements class contains complete leaf packages
+
+include::./uml/ATS_06.adoc[]
+
+==== Classes common to all requirement classes are in the core
+
+include::./uml/ATS_07.adoc[]
+
+==== Package dependencies become requirements class extensions
+
+include::./uml/ATS_08.adoc[]
+
+==== Dependencies in packages are reflected in dependencies in req
+
+include::./uml/ATS_09.adoc[]
+
+==== Co-dependent packages are in the same requirements class
+
+include::./uml/ATS_10.adoc[]
+
+==== All classes are in leaf packages
+
+include::./uml/ATS_11.adoc[]

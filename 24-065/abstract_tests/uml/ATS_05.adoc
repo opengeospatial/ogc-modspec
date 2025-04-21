@@ -1,0 +1,9 @@
+[[ats_uml_class-package]]
+[abstract_test]
+====
+[%metadata]
+identifier:: /conf/uml/class-package
+target:: /req/uml/class-package
+test-purpose:: Verify that each requirements class has been associated to a unique package in the model and includes either directly or by a dependency any requirement associated to any of its subpackages.
+test-method:: Inspect the document to verify the above.
+====

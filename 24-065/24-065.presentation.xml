@@ -45,7 +45,7 @@ repository for this document (<link target="https://github.com/opengeospatial/og
 </localized-string><localized-string key="internal_external_terms_boilerplate" language="en"><p>This document uses the terms defined in <link target="https://portal.ogc.org/public_ogc/directives/directives.php">OGC Policy Directive 49</link>, which is based on the ISO/IEC Directives, Part 2, Rules for the structure and drafting of International Standards. In particular, the word “shall” (not “must”) is the verb form used to indicate a requirement to be strictly followed to conform to this document and OGC documents do not use the equivalent phrases in the ISO/IEC Directives, Part 2.</p>
 <p>This document also uses terms defined in the OGC Standard for Modular specifications (<link target="https://portal.opengeospatial.org/files/?artifact_id=34762">OGC 08-131r3</link>), also known as the 'ModSpec'. The definitions of terms such as standard, specification, requirement, and conformance test are provided in the ModSpec.</p>
 <p>For the purposes of this document, the terms and definitions given in % and the following additionally apply.</p>
-</localized-string><localized-string key="no_information_available" language="en">[NO INFORMATION AVAILABLE]</localized-string><localized-string key="term_defined_in" language="en">(%)</localized-string><localized-string key="binary_and" language="en">%1 and %2</localized-string><localized-string key="multiple_and" language="en">%1, and %2</localized-string><localized-string key="binary_or" language="en">%1 or %2</localized-string><localized-string key="multiple_or" language="en">%1, or %2</localized-string><localized-string key="chain_and" language="en">%1 and %2</localized-string><localized-string key="chain_or" language="en">%1 or %2</localized-string><localized-string key="chain_from" language="en">%1 from %2</localized-string><localized-string key="chain_to" language="en">%1 to %2</localized-string><localized-string key="nested_xref" language="en">%1, %2</localized-string><localized-string key="list_nested_xref" language="en">%1 %2</localized-string><localized-string key="SpelloutRules" language="en">spellout-ordinal</localized-string><localized-string key="OrdinalRules" language="en">digits-ordinal</localized-string><localized-string key="note" language="en">NOTE</localized-string><localized-string key="note_xref" language="en">Note</localized-string><localized-string key="termnote" language="en">Note % to entry</localized-string><localized-string key="list" language="en">List</localized-string><localized-string key="deflist" language="en">Definition List</localized-string><localized-string key="figure" language="en">Figure</localized-string><localized-string key="diagram" language="en">Diagram</localized-string><localized-string key="formula" language="en">Formula</localized-string><localized-string key="inequality" language="en">Formula</localized-string><localized-string key="table" language="en">Table</localized-string><localized-string key="requirement" language="en">Requirement</localized-string><localized-string key="recommendation" language="en">Recommendation</localized-string><localized-string key="permission" language="en">Permission</localized-string><localized-string key="box" language="en">Box</localized-string><localized-string key="recommendationtest" language="en">Recommendation test</localized-string><localized-string key="requirementtest" language="en">Requirement test</localized-string><localized-string key="permissiontest" language="en">Permission test</localized-string><localized-string key="recommendationclass" language="en">Recommendations class</localized-string><localized-string key="requirementclass" language="en">Requirements class</localized-string><localized-string key="permissionclass" language="en">Permissions class</localized-string><localized-string key="abstracttest" language="en">Abstract test</localized-string><localized-string key="conformanceclass" language="en">Conformance class</localized-string><localized-string key="key" language="en">Key</localized-string><localized-string key="example" language="en">Example</localized-string><localized-string key="example_xref" language="en">Example</localized-string><localized-string key="where" language="en">where</localized-string><localized-string key="where_one" language="en">where</localized-string><localized-string key="wholeoftext" language="en">Whole of text</localized-string><localized-string key="draft_label" language="en">draft</localized-string><localized-string key="inform_annex" language="en">informative</localized-string><localized-string key="norm_annex" language="en">normative</localized-string><localized-string key="modified" language="en">modified</localized-string><localized-string key="adapted" language="en">adapted</localized-string><localized-string key="deprecated" language="en">DEPRECATED</localized-string><localized-string key="source" language="en">SOURCE</localized-string><localized-string key="and" language="en">and</localized-string><localized-string key="all_parts" language="en">All Parts</localized-string><localized-string key="edition_ordinal" language="en">{{ var1 | ordinal_word: '', '' }} edition</localized-string><localized-string key="edition" language="en">edition</localized-string><localized-string key="version" language="en">version</localized-string><localized-string key="toc_figures" language="en">List of Figures</localized-string><localized-string key="toc_tables" language="en">List of Tables</localized-string><localized-string key="toc_recommendations" language="en">List of Recommendations</localized-string><localized-string key="month_january" language="en">January</localized-string><localized-string key="month_february" language="en">February</localized-string><localized-string key="month_march" language="en">March</localized-string><localized-string key="month_april" language="en">April</localized-string><localized-string key="month_may" language="en">May</localized-string><localized-string key="month_june" language="en">June</localized-string><localized-string key="month_july" language="en">July</localized-string><localized-string key="month_august" language="en">August</localized-string><localized-string key="month_september" language="en">September</localized-string><localized-string key="month_october" language="en">October</localized-string><localized-string key="month_november" language="en">November</localized-string><localized-string key="month_december" language="en">December</localized-string><localized-string key="obligation" language="en">Obligation</localized-string><localized-string key="admonition.danger" language="en">Danger</localized-string><localized-string key="admonition.warning" language="en">Warning</localized-string><localized-string key="admonition.caution" language="en">Caution</localized-string><localized-string key="admonition.important" language="en">Important</localized-string><localized-string key="admonition.safety_precautions" language="en">Safety Precautions</localized-string><localized-string key="admonition.editorial" language="en">Editorial Note</localized-string><localized-string key="locality.section" language="en">Section</localized-string><localized-string key="locality.clause" language="en">Clause</localized-string><localized-string key="locality.part" language="en">Part</localized-string><localized-string key="locality.paragraph" language="en">Paragraph</localized-string><localized-string key="locality.chapter" language="en">Chapter</localized-string><localized-string key="locality.page" language="en">Page</localized-string><localized-string key="locality.table" language="en">Table</localized-string><localized-string key="locality.annex" language="en">Annex</localized-string><localized-string key="locality.figure" language="en">Figure</localized-string><localized-string key="locality.example" language="en">Example</localized-string><localized-string key="locality.note" language="en">Note</localized-string><localized-string key="locality.formula" language="en">Formula</localized-string><localized-string key="grammar_abbrevs.masculine" language="en">m</localized-string><localized-string key="grammar_abbrevs.feminine" language="en">f</localized-string><localized-string key="grammar_abbrevs.neuter" language="en">n</localized-string><localized-string key="grammar_abbrevs.common" language="en">common</localized-string><localized-string key="grammar_abbrevs.singular" language="en">sg</localized-string><localized-string key="grammar_abbrevs.dual" language="en">dual</localized-string><localized-string key="grammar_abbrevs.pl" language="en">pl</localized-string><localized-string key="grammar_abbrevs.isPreposition" language="en">prep</localized-string><localized-string key="grammar_abbrevs.isParticiple" language="en">part</localized-string><localized-string key="grammar_abbrevs.isAdjective" language="en">adj</localized-string><localized-string key="grammar_abbrevs.isAdverb" language="en">adv</localized-string><localized-string key="grammar_abbrevs.isNoun" language="en">noun</localized-string><localized-string key="grammar_abbrevs.isVerb" language="en">verb</localized-string><localized-string key="relatedterms.deprecates" language="en">deprecates</localized-string><localized-string key="relatedterms.supersedes" language="en">supersedes</localized-string><localized-string key="relatedterms.narrower" language="en">narrower</localized-string><localized-string key="relatedterms.broader" language="en">broader</localized-string><localized-string key="relatedterms.equivalent" language="en">equivalent</localized-string><localized-string key="relatedterms.compare" language="en">compare</localized-string><localized-string key="relatedterms.contrast" language="en">contrast</localized-string><localized-string key="relatedterms.see" language="en">see</localized-string><localized-string key="relatedterms.seealso" language="en">see also</localized-string><localized-string key="Clause.sg" language="en">Clause</localized-string><localized-string key="Clause.pl" language="en">Clauses</localized-string><localized-string key="Annex.sg" language="en">Annex</localized-string><localized-string key="Annex.pl" language="en">Annexes</localized-string><localized-string key="Appendix.sg" language="en">Appendix</localized-string><localized-string key="Appendix.pl" language="en">Appendixes</localized-string><localized-string key="Note.sg" language="en">Note</localized-string><localized-string key="Note.pl" language="en">Notes</localized-string><localized-string key="Note_%_to_entry.sg" language="en">Note % to entry</localized-string><localized-string key="Note_%_to_entry.pl" language="en">Notes % to entry</localized-string><localized-string key="List.sg" language="en">List</localized-string><localized-string key="List.pl" language="en">Lists</localized-string><localized-string key="Figure.sg" language="en">Figure</localized-string><localized-string key="Figure.pl" language="en">Figures</localized-string><localized-string key="Formula.sg" language="en">Formula</localized-string><localized-string key="Formula.pl" language="en">Formulas</localized-string><localized-string key="Table.sg" language="en">Table</localized-string><localized-string key="Table.pl" language="en">Tables</localized-string><localized-string key="Requirement.sg" language="en">Requirement</localized-string><localized-string key="Requirement.pl" language="en">Requirements</localized-string><localized-string key="Recommendation.sg" language="en">Recommendation</localized-string><localized-string key="Recommendation.pl" language="en">Recommendations</localized-string><localized-string key="Permission.sg" language="en">Permission</localized-string><localized-string key="Permission.pl" language="en">Permissions</localized-string><localized-string key="Example.sg" language="en">Example</localized-string><localized-string key="Example.pl" language="en">Examples</localized-string><localized-string key="Part.sg" language="en">Part</localized-string><localized-string key="Part.pl" language="en">Parts</localized-string><localized-string key="Section.sg" language="en">Section</localized-string><localized-string key="Section.pl" language="en">Sections</localized-string><localized-string key="Paragraph.sg" language="en">Paragraph</localized-string><localized-string key="Paragraph.pl" language="en">Paragraphs</localized-string><localized-string key="Chapter.sg" language="en">Chapter</localized-string><localized-string key="Chapter.pl" language="en">Chapters</localized-string><localized-string key="Page.sg" language="en">Page</localized-string><localized-string key="Page.pl" language="en">Pages</localized-string><localized-string key="admitted" language="en">ALTERNATIVE</localized-string><localized-string key="submitters" language="en">Submitters</localized-string><localized-string key="contributors_clause" language="en">Contributors</localized-string><localized-string key="dochistory" language="en">Revision history</localized-string><localized-string key="table_of_figures" language="en">Table of Figures</localized-string><localized-string key="security_empty" language="en">No security considerations have been made for this document.</localized-string><localized-string key="submission_date" language="en">Submission Date</localized-string><localized-string key="approval_date" language="en">Approval Date</localized-string><localized-string key="publication_date" language="en">Publication Date</localized-string><localized-string key="author" language="en">Author</localized-string><localized-string key="editor_full" language="en">Editor</localized-string><localized-string key="contributor" language="en">Contributor</localized-string><localized-string key="stage_dict.draft" language="en">Draft</localized-string><localized-string key="stage_dict.work-item-draft" language="en">Work Item Draft</localized-string><localized-string key="stage_dict.swg-draft" language="en">Candidate SWG Draft</localized-string><localized-string key="stage_dict.oab-review" language="en">Candidate OAB Review Draft</localized-string><localized-string key="stage_dict.public-rfc" language="en">Candidate Public RFC Draft</localized-string><localized-string key="stage_dict.tc-vote" language="en">Candidate TC Vote Draft</localized-string><localized-string key="stage_dict.approved" language="en">Approved</localized-string><localized-string key="stage_dict.published" language="en">Published</localized-string><localized-string key="stage_dict.deprecated" language="en">Deprecated</localized-string><localized-string key="stage_dict.rescinded" language="en">Rescinded</localized-string><localized-string key="stage_dict.retired" language="en">Retired</localized-string><localized-string key="language" language="en">en</localized-string><localized-string key="script" language="en">Latn</localized-string></localized-strings><metanorma-extension><table id="_misccontainer_anchor_aliases"><name>Table</name><tbody><tr><th>req_class-uml</th><td>https://www.opengis.net/spec/modspec-2/1.1/req/req-class-uml</td></tr><tr><th>_3dc0688d-9d19-471b-a951-119df0814fb5</th><td>/req/uml/conformance-with-core</td></tr><tr><th>_155e7b03-fdce-47dc-8fea-3b6546dbcdcd</th><td>/req/uml/object-model</td></tr><tr><th>_e3620ac6-1f53-46ec-961b-20a580538fc9</th><td>/req/uml/dependency-graph</td></tr><tr><th>_bec2f8b6-7642-4453-9f5e-00872987e170</th><td>/req/uml/leaf-package</td></tr><tr><th>_8378543c-c899-4fd3-a139-ffa429ffc673</th><td>/req/uml/class-package</td></tr><tr><th>_a3a9f5c7-b0dc-4b50-8b0b-9b6284ea8d07</th><td>/req/uml/to-leaf</td></tr><tr><th>_d4b7f792-fbc7-4b50-9aad-2358af3c817e</th><td>/req/uml/common-req-class</td></tr><tr><th>_c92dcbee-4f79-4d06-9185-7eb117da5bb1</th><td>/req/uml/source-target</td></tr><tr><th>_395f7931-0a6e-4ab7-8ab0-a243a5b575f2</th><td>/req/uml/leaf-package-dependency</td></tr><tr><th>_faa7203a-5193-4975-bb5c-0339ed2a032c</th><td>/req/uml/two-way-dependency</td></tr><tr><th>_53bfdcfe-510f-42a9-ada2-45913055ab97</th><td>/req/uml/segregate-into-leaf-packages</td></tr><tr><th>req_uml_conformance-with-core</th><td>/req/uml/conformance-with-core</td></tr><tr><th>req_uml_object-model</th><td>/req/uml/object-model</td></tr><tr><th>req_uml_dependency-graph</th><td>/req/uml/dependency-graph</td></tr><tr><th>req_uml_leaf-package</th><td>/req/uml/leaf-package</td></tr><tr><th>req_uml_class-package</th><td>/req/uml/class-package</td></tr><tr><th>req_uml_to-leaf</th><td>/req/uml/to-leaf</td></tr><tr><th>req_uml_common-req-class</th><td>/req/uml/common-req-class</td></tr><tr><th>req_uml_source-target</th><td>/req/uml/source-target</td></tr><tr><th>req_uml_leaf-package-dependency</th><td>/req/uml/leaf-package-dependency</td></tr><tr><th>req_uml_two-way-dependency</th><td>/req/uml/two-way-dependency</td></tr><tr><th>req_uml_segregate-into-leaf-packages</th><td>/req/uml/segregate-into-leaf-packages</td></tr></tbody></table><presentation-metadata><name>TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>HTML TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>DOC TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>PDF TOC Heading Levels</name><value>2</value></presentation-metadata><metanorma><source><semantic__ogc-standard type="semantic" version="2.5.7" schema-version="v1.3.1">
+</localized-string><localized-string key="no_information_available" language="en">[NO INFORMATION AVAILABLE]</localized-string><localized-string key="term_defined_in" language="en">(%)</localized-string><localized-string key="binary_and" language="en">%1 and %2</localized-string><localized-string key="multiple_and" language="en">%1, and %2</localized-string><localized-string key="binary_or" language="en">%1 or %2</localized-string><localized-string key="multiple_or" language="en">%1, or %2</localized-string><localized-string key="chain_and" language="en">%1 and %2</localized-string><localized-string key="chain_or" language="en">%1 or %2</localized-string><localized-string key="chain_from" language="en">%1 from %2</localized-string><localized-string key="chain_to" language="en">%1 to %2</localized-string><localized-string key="nested_xref" language="en">%1, %2</localized-string><localized-string key="list_nested_xref" language="en">%1 %2</localized-string><localized-string key="SpelloutRules" language="en">spellout-ordinal</localized-string><localized-string key="OrdinalRules" language="en">digits-ordinal</localized-string><localized-string key="note" language="en">NOTE</localized-string><localized-string key="note_xref" language="en">Note</localized-string><localized-string key="termnote" language="en">Note % to entry</localized-string><localized-string key="list" language="en">List</localized-string><localized-string key="deflist" language="en">Definition List</localized-string><localized-string key="figure" language="en">Figure</localized-string><localized-string key="diagram" language="en">Diagram</localized-string><localized-string key="formula" language="en">Formula</localized-string><localized-string key="inequality" language="en">Formula</localized-string><localized-string key="table" language="en">Table</localized-string><localized-string key="requirement" language="en">Requirement</localized-string><localized-string key="recommendation" language="en">Recommendation</localized-string><localized-string key="permission" language="en">Permission</localized-string><localized-string key="box" language="en">Box</localized-string><localized-string key="recommendationtest" language="en">Recommendation test</localized-string><localized-string key="requirementtest" language="en">Requirement test</localized-string><localized-string key="permissiontest" language="en">Permission test</localized-string><localized-string key="recommendationclass" language="en">Recommendations class</localized-string><localized-string key="requirementclass" language="en">Requirements class</localized-string><localized-string key="permissionclass" language="en">Permissions class</localized-string><localized-string key="abstracttest" language="en">Abstract test</localized-string><localized-string key="conformanceclass" language="en">Conformance class</localized-string><localized-string key="key" language="en">Key</localized-string><localized-string key="example" language="en">Example</localized-string><localized-string key="example_xref" language="en">Example</localized-string><localized-string key="where" language="en">where</localized-string><localized-string key="where_one" language="en">where</localized-string><localized-string key="wholeoftext" language="en">Whole of text</localized-string><localized-string key="draft_label" language="en">draft</localized-string><localized-string key="inform_annex" language="en">informative</localized-string><localized-string key="norm_annex" language="en">normative</localized-string><localized-string key="modified" language="en">modified</localized-string><localized-string key="adapted" language="en">adapted</localized-string><localized-string key="deprecated" language="en">DEPRECATED</localized-string><localized-string key="source" language="en">SOURCE</localized-string><localized-string key="and" language="en">and</localized-string><localized-string key="all_parts" language="en">All Parts</localized-string><localized-string key="edition_ordinal" language="en">{{ var1 | ordinal_word: '', '' }} edition</localized-string><localized-string key="edition" language="en">edition</localized-string><localized-string key="version" language="en">version</localized-string><localized-string key="toc_figures" language="en">List of Figures</localized-string><localized-string key="toc_tables" language="en">List of Tables</localized-string><localized-string key="toc_recommendations" language="en">List of Recommendations</localized-string><localized-string key="month_january" language="en">January</localized-string><localized-string key="month_february" language="en">February</localized-string><localized-string key="month_march" language="en">March</localized-string><localized-string key="month_april" language="en">April</localized-string><localized-string key="month_may" language="en">May</localized-string><localized-string key="month_june" language="en">June</localized-string><localized-string key="month_july" language="en">July</localized-string><localized-string key="month_august" language="en">August</localized-string><localized-string key="month_september" language="en">September</localized-string><localized-string key="month_october" language="en">October</localized-string><localized-string key="month_november" language="en">November</localized-string><localized-string key="month_december" language="en">December</localized-string><localized-string key="obligation" language="en">Obligation</localized-string><localized-string key="admonition.danger" language="en">Danger</localized-string><localized-string key="admonition.warning" language="en">Warning</localized-string><localized-string key="admonition.caution" language="en">Caution</localized-string><localized-string key="admonition.important" language="en">Important</localized-string><localized-string key="admonition.safety_precautions" language="en">Safety Precautions</localized-string><localized-string key="admonition.editorial" language="en">Editorial Note</localized-string><localized-string key="locality.section" language="en">Section</localized-string><localized-string key="locality.clause" language="en">Clause</localized-string><localized-string key="locality.part" language="en">Part</localized-string><localized-string key="locality.paragraph" language="en">Paragraph</localized-string><localized-string key="locality.chapter" language="en">Chapter</localized-string><localized-string key="locality.page" language="en">Page</localized-string><localized-string key="locality.table" language="en">Table</localized-string><localized-string key="locality.annex" language="en">Annex</localized-string><localized-string key="locality.figure" language="en">Figure</localized-string><localized-string key="locality.example" language="en">Example</localized-string><localized-string key="locality.note" language="en">Note</localized-string><localized-string key="locality.formula" language="en">Formula</localized-string><localized-string key="grammar_abbrevs.masculine" language="en">m</localized-string><localized-string key="grammar_abbrevs.feminine" language="en">f</localized-string><localized-string key="grammar_abbrevs.neuter" language="en">n</localized-string><localized-string key="grammar_abbrevs.common" language="en">common</localized-string><localized-string key="grammar_abbrevs.singular" language="en">sg</localized-string><localized-string key="grammar_abbrevs.dual" language="en">dual</localized-string><localized-string key="grammar_abbrevs.pl" language="en">pl</localized-string><localized-string key="grammar_abbrevs.isPreposition" language="en">prep</localized-string><localized-string key="grammar_abbrevs.isParticiple" language="en">part</localized-string><localized-string key="grammar_abbrevs.isAdjective" language="en">adj</localized-string><localized-string key="grammar_abbrevs.isAdverb" language="en">adv</localized-string><localized-string key="grammar_abbrevs.isNoun" language="en">noun</localized-string><localized-string key="grammar_abbrevs.isVerb" language="en">verb</localized-string><localized-string key="relatedterms.deprecates" language="en">deprecates</localized-string><localized-string key="relatedterms.supersedes" language="en">supersedes</localized-string><localized-string key="relatedterms.narrower" language="en">narrower</localized-string><localized-string key="relatedterms.broader" language="en">broader</localized-string><localized-string key="relatedterms.equivalent" language="en">equivalent</localized-string><localized-string key="relatedterms.compare" language="en">compare</localized-string><localized-string key="relatedterms.contrast" language="en">contrast</localized-string><localized-string key="relatedterms.see" language="en">see</localized-string><localized-string key="relatedterms.seealso" language="en">see also</localized-string><localized-string key="Clause.sg" language="en">Clause</localized-string><localized-string key="Clause.pl" language="en">Clauses</localized-string><localized-string key="Annex.sg" language="en">Annex</localized-string><localized-string key="Annex.pl" language="en">Annexes</localized-string><localized-string key="Appendix.sg" language="en">Appendix</localized-string><localized-string key="Appendix.pl" language="en">Appendixes</localized-string><localized-string key="Note.sg" language="en">Note</localized-string><localized-string key="Note.pl" language="en">Notes</localized-string><localized-string key="Note_%_to_entry.sg" language="en">Note % to entry</localized-string><localized-string key="Note_%_to_entry.pl" language="en">Notes % to entry</localized-string><localized-string key="List.sg" language="en">List</localized-string><localized-string key="List.pl" language="en">Lists</localized-string><localized-string key="Figure.sg" language="en">Figure</localized-string><localized-string key="Figure.pl" language="en">Figures</localized-string><localized-string key="Formula.sg" language="en">Formula</localized-string><localized-string key="Formula.pl" language="en">Formulas</localized-string><localized-string key="Table.sg" language="en">Table</localized-string><localized-string key="Table.pl" language="en">Tables</localized-string><localized-string key="Requirement.sg" language="en">Requirement</localized-string><localized-string key="Requirement.pl" language="en">Requirements</localized-string><localized-string key="Recommendation.sg" language="en">Recommendation</localized-string><localized-string key="Recommendation.pl" language="en">Recommendations</localized-string><localized-string key="Permission.sg" language="en">Permission</localized-string><localized-string key="Permission.pl" language="en">Permissions</localized-string><localized-string key="Example.sg" language="en">Example</localized-string><localized-string key="Example.pl" language="en">Examples</localized-string><localized-string key="Part.sg" language="en">Part</localized-string><localized-string key="Part.pl" language="en">Parts</localized-string><localized-string key="Section.sg" language="en">Section</localized-string><localized-string key="Section.pl" language="en">Sections</localized-string><localized-string key="Paragraph.sg" language="en">Paragraph</localized-string><localized-string key="Paragraph.pl" language="en">Paragraphs</localized-string><localized-string key="Chapter.sg" language="en">Chapter</localized-string><localized-string key="Chapter.pl" language="en">Chapters</localized-string><localized-string key="Page.sg" language="en">Page</localized-string><localized-string key="Page.pl" language="en">Pages</localized-string><localized-string key="admitted" language="en">ALTERNATIVE</localized-string><localized-string key="submitters" language="en">Submitters</localized-string><localized-string key="contributors_clause" language="en">Contributors</localized-string><localized-string key="dochistory" language="en">Revision history</localized-string><localized-string key="table_of_figures" language="en">Table of Figures</localized-string><localized-string key="security_empty" language="en">No security considerations have been made for this document.</localized-string><localized-string key="submission_date" language="en">Submission Date</localized-string><localized-string key="approval_date" language="en">Approval Date</localized-string><localized-string key="publication_date" language="en">Publication Date</localized-string><localized-string key="author" language="en">Author</localized-string><localized-string key="editor_full" language="en">Editor</localized-string><localized-string key="contributor" language="en">Contributor</localized-string><localized-string key="stage_dict.draft" language="en">Draft</localized-string><localized-string key="stage_dict.work-item-draft" language="en">Work Item Draft</localized-string><localized-string key="stage_dict.swg-draft" language="en">Candidate SWG Draft</localized-string><localized-string key="stage_dict.oab-review" language="en">Candidate OAB Review Draft</localized-string><localized-string key="stage_dict.public-rfc" language="en">Candidate Public RFC Draft</localized-string><localized-string key="stage_dict.tc-vote" language="en">Candidate TC Vote Draft</localized-string><localized-string key="stage_dict.approved" language="en">Approved</localized-string><localized-string key="stage_dict.published" language="en">Published</localized-string><localized-string key="stage_dict.deprecated" language="en">Deprecated</localized-string><localized-string key="stage_dict.rescinded" language="en">Rescinded</localized-string><localized-string key="stage_dict.retired" language="en">Retired</localized-string><localized-string key="language" language="en">en</localized-string><localized-string key="script" language="en">Latn</localized-string></localized-strings><metanorma-extension><table id="_misccontainer_anchor_aliases"><name>Table</name><tbody><tr><th>req_class-uml</th><td>https://www.opengis.net/spec/modspec-2/1.1/req/req-class-uml</td></tr><tr><th>_4930069f-41f3-499d-affc-bcd7338c81fc</th><td>/req/uml/conformance-with-core</td></tr><tr><th>_c4d26577-1fdb-44af-ad60-aee9cc06d63b</th><td>/req/uml/object-model</td></tr><tr><th>_3d2e8c2d-fa5c-47a9-8639-056a8aac6179</th><td>/req/uml/dependency-graph</td></tr><tr><th>_4bd7142f-6080-4454-bf96-6a5e8c3764b4</th><td>/req/uml/leaf-package</td></tr><tr><th>_995897f3-1c0d-4ba0-b201-74e5f976c4f4</th><td>/req/uml/class-package</td></tr><tr><th>_101ba700-8f54-4576-8b88-75f5737affeb</th><td>/req/uml/to-leaf</td></tr><tr><th>_e2b739ac-095b-4a8b-a237-e9c98a8e15af</th><td>/req/uml/common-req-class</td></tr><tr><th>_963ee443-2961-4a9a-bbfa-eddea551a8db</th><td>/req/uml/source-target</td></tr><tr><th>_9c998e9a-1665-453c-9ee7-0b4d70bcaa39</th><td>/req/uml/leaf-package-dependency</td></tr><tr><th>_4cba4563-82a0-41d9-8e89-539319fe89a1</th><td>/req/uml/two-way-dependency</td></tr><tr><th>_a6fd1be0-4ac5-438a-bf9b-c55f476f41ef</th><td>/req/uml/segregate-into-leaf-packages</td></tr><tr><th>req_uml_conformance-with-core</th><td>/req/uml/conformance-with-core</td></tr><tr><th>req_uml_object-model</th><td>/req/uml/object-model</td></tr><tr><th>req_uml_dependency-graph</th><td>/req/uml/dependency-graph</td></tr><tr><th>req_uml_leaf-package</th><td>/req/uml/leaf-package</td></tr><tr><th>req_uml_class-package</th><td>/req/uml/class-package</td></tr><tr><th>req_uml_to-leaf</th><td>/req/uml/to-leaf</td></tr><tr><th>req_uml_common-req-class</th><td>/req/uml/common-req-class</td></tr><tr><th>req_uml_source-target</th><td>/req/uml/source-target</td></tr><tr><th>req_uml_leaf-package-dependency</th><td>/req/uml/leaf-package-dependency</td></tr><tr><th>req_uml_two-way-dependency</th><td>/req/uml/two-way-dependency</td></tr><tr><th>req_uml_segregate-into-leaf-packages</th><td>/req/uml/segregate-into-leaf-packages</td></tr><tr><th>ats_uml</th><td>https://www.opengis.net/spec/modspec-2/1.1/conf/uml</td></tr><tr><th>_644d2558-6571-4262-8739-6a694271820c</th><td>/conf/uml/conformance-with-core</td></tr><tr><th>_922f35d8-ce5b-489d-9295-533f1c6233ce</th><td>/conf/uml/object-model</td></tr><tr><th>_12e22e3c-42a6-443c-b4f2-3a9409cc4ef8</th><td>/conf/uml/dependency-graph</td></tr><tr><th>_7707035c-58fe-45bb-ad5e-14c22de859eb</th><td>/conf/uml/leaf-package</td></tr><tr><th>_37a1dd23-1e02-4326-a9a7-5636ba364ecd</th><td>/conf/uml/class-package</td></tr><tr><th>_86f07c37-5649-4a7c-80cf-74d0814ede52</th><td>/conf/uml/to-leaf</td></tr><tr><th>_4da433b5-fc8e-4aa2-8719-4f6f82140cba</th><td>/conf/uml/common-req-class</td></tr><tr><th>_b887bd3b-59e7-4a47-87b5-dffcb63ad94b</th><td>/conf/uml/source-target</td></tr><tr><th>_655b3485-c04c-4317-978d-3f487bc1aada</th><td>/conf/uml/leaf-package-dependency</td></tr><tr><th>_6cd12887-5822-45b6-97f6-a73d920e7d3b</th><td>/conf/uml/two-way-dependency</td></tr><tr><th>_a4b71b84-f116-49ec-a044-d2782da8a2d0</th><td>/conf/uml/segregate-into-leaf-packages</td></tr><tr><th>ats_uml_conformance-with-core</th><td>/conf/uml/conformance-with-core</td></tr><tr><th>ats_uml_object-model</th><td>/conf/uml/object-model</td></tr><tr><th>ats_uml_dependency-graph</th><td>/conf/uml/dependency-graph</td></tr><tr><th>ats_uml_leaf-package</th><td>/conf/uml/leaf-package</td></tr><tr><th>ats_uml_class-package</th><td>/conf/uml/class-package</td></tr><tr><th>ats_uml_to-leaf</th><td>/conf/uml/to-leaf</td></tr><tr><th>ats_uml_common-req-class</th><td>/conf/uml/common-req-class</td></tr><tr><th>ats_uml_source-target</th><td>/conf/uml/source-target</td></tr><tr><th>ats_uml_leaf-package-dependency</th><td>/conf/uml/leaf-package-dependency</td></tr><tr><th>ats_uml_two-way-dependency</th><td>/conf/uml/two-way-dependency</td></tr><tr><th>ats_uml_segregate-into-leaf-packages</th><td>/conf/uml/segregate-into-leaf-packages</td></tr></tbody></table><presentation-metadata><name>TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>HTML TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>DOC TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>PDF TOC Heading Levels</name><value>2</value></presentation-metadata><metanorma><source><semantic__ogc-standard type="semantic" version="2.5.7" schema-version="v1.3.1">
 <semantic__bibdata type="standard">
 <semantic__title language="en" format="text/plain">The ModSpec Model - Part 2: UML</semantic__title>
 <semantic__uri type="xml">./24-065.xml</semantic__uri><semantic__uri type="pdf">./24-065.pdf</semantic__uri><semantic__uri type="doc">./24-065.doc</semantic__uri><semantic__docidentifier type="ogc-external">http://www.opengis.net/doc/spec/modspec-2/1.1</semantic__docidentifier><semantic__docidentifier type="ogc-internal" primary="true">24-065</semantic__docidentifier><semantic__docnumber>24-065</semantic__docnumber><semantic__date type="published"><semantic__on>2029-03-30</semantic__on></semantic__date><semantic__date type="issued"><semantic__on>2029-03-30</semantic__on></semantic__date><semantic__date type="received"><semantic__on>2025-04-20</semantic__on></semantic__date><semantic__contributor><semantic__role type="author"/><semantic__organization>
@@ -81,7 +81,7 @@ encouraged. Such suggestions may be submitted by creating an issue in the GitHub
 repository for this document (<semantic__link target="https://github.com/opengeospatial/ogc-modspec"/>).</semantic__p>
 </semantic__abstract><semantic__status><semantic__stage>draft</semantic__stage></semantic__status><semantic__copyright><semantic__from>2025</semantic__from><semantic__owner><semantic__organization>
 <semantic__name>Open Geospatial Consortium</semantic__name>
-<semantic__abbreviation>OGC</semantic__abbreviation></semantic__organization></semantic__owner></semantic__copyright><semantic__keyword>ogcdoc</semantic__keyword><semantic__keyword>OGC document</semantic__keyword><semantic__keyword>ModSpec</semantic__keyword><semantic__keyword>UML</semantic__keyword><semantic__ext><semantic__doctype>standard</semantic__doctype><semantic__subdoctype>implementation</semantic__subdoctype><semantic__editorialgroup><semantic__committee>technical</semantic__committee></semantic__editorialgroup></semantic__ext></semantic__bibdata><semantic__metanorma-extension><semantic__table id="semantic___misccontainer_anchor_aliases"><semantic__tbody><semantic__tr><semantic__th>req_class-uml</semantic__th><semantic__td>https://www.opengis.net/spec/modspec-2/1.1/req/req-class-uml</semantic__td></semantic__tr><semantic__tr><semantic__th>_3dc0688d-9d19-471b-a951-119df0814fb5</semantic__th><semantic__td>/req/uml/conformance-with-core</semantic__td></semantic__tr><semantic__tr><semantic__th>_155e7b03-fdce-47dc-8fea-3b6546dbcdcd</semantic__th><semantic__td>/req/uml/object-model</semantic__td></semantic__tr><semantic__tr><semantic__th>_e3620ac6-1f53-46ec-961b-20a580538fc9</semantic__th><semantic__td>/req/uml/dependency-graph</semantic__td></semantic__tr><semantic__tr><semantic__th>_bec2f8b6-7642-4453-9f5e-00872987e170</semantic__th><semantic__td>/req/uml/leaf-package</semantic__td></semantic__tr><semantic__tr><semantic__th>_8378543c-c899-4fd3-a139-ffa429ffc673</semantic__th><semantic__td>/req/uml/class-package</semantic__td></semantic__tr><semantic__tr><semantic__th>_a3a9f5c7-b0dc-4b50-8b0b-9b6284ea8d07</semantic__th><semantic__td>/req/uml/to-leaf</semantic__td></semantic__tr><semantic__tr><semantic__th>_d4b7f792-fbc7-4b50-9aad-2358af3c817e</semantic__th><semantic__td>/req/uml/common-req-class</semantic__td></semantic__tr><semantic__tr><semantic__th>_c92dcbee-4f79-4d06-9185-7eb117da5bb1</semantic__th><semantic__td>/req/uml/source-target</semantic__td></semantic__tr><semantic__tr><semantic__th>_395f7931-0a6e-4ab7-8ab0-a243a5b575f2</semantic__th><semantic__td>/req/uml/leaf-package-dependency</semantic__td></semantic__tr><semantic__tr><semantic__th>_faa7203a-5193-4975-bb5c-0339ed2a032c</semantic__th><semantic__td>/req/uml/two-way-dependency</semantic__td></semantic__tr><semantic__tr><semantic__th>_53bfdcfe-510f-42a9-ada2-45913055ab97</semantic__th><semantic__td>/req/uml/segregate-into-leaf-packages</semantic__td></semantic__tr><semantic__tr><semantic__th>req_uml_conformance-with-core</semantic__th><semantic__td>/req/uml/conformance-with-core</semantic__td></semantic__tr><semantic__tr><semantic__th>req_uml_object-model</semantic__th><semantic__td>/req/uml/object-model</semantic__td></semantic__tr><semantic__tr><semantic__th>req_uml_dependency-graph</semantic__th><semantic__td>/req/uml/dependency-graph</semantic__td></semantic__tr><semantic__tr><semantic__th>req_uml_leaf-package</semantic__th><semantic__td>/req/uml/leaf-package</semantic__td></semantic__tr><semantic__tr><semantic__th>req_uml_class-package</semantic__th><semantic__td>/req/uml/class-package</semantic__td></semantic__tr><semantic__tr><semantic__th>req_uml_to-leaf</semantic__th><semantic__td>/req/uml/to-leaf</semantic__td></semantic__tr><semantic__tr><semantic__th>req_uml_common-req-class</semantic__th><semantic__td>/req/uml/common-req-class</semantic__td></semantic__tr><semantic__tr><semantic__th>req_uml_source-target</semantic__th><semantic__td>/req/uml/source-target</semantic__td></semantic__tr><semantic__tr><semantic__th>req_uml_leaf-package-dependency</semantic__th><semantic__td>/req/uml/leaf-package-dependency</semantic__td></semantic__tr><semantic__tr><semantic__th>req_uml_two-way-dependency</semantic__th><semantic__td>/req/uml/two-way-dependency</semantic__td></semantic__tr><semantic__tr><semantic__th>req_uml_segregate-into-leaf-packages</semantic__th><semantic__td>/req/uml/segregate-into-leaf-packages</semantic__td></semantic__tr></semantic__tbody></semantic__table><semantic__presentation-metadata><semantic__name>TOC Heading Levels</semantic__name><semantic__value>2</semantic__value></semantic__presentation-metadata><semantic__presentation-metadata><semantic__name>HTML TOC Heading Levels</semantic__name><semantic__value>2</semantic__value></semantic__presentation-metadata><semantic__presentation-metadata><semantic__name>DOC TOC Heading Levels</semantic__name><semantic__value>2</semantic__value></semantic__presentation-metadata><semantic__presentation-metadata><semantic__name>PDF TOC Heading Levels</semantic__name><semantic__value>2</semantic__value></semantic__presentation-metadata></semantic__metanorma-extension>
+<semantic__abbreviation>OGC</semantic__abbreviation></semantic__organization></semantic__owner></semantic__copyright><semantic__keyword>ogcdoc</semantic__keyword><semantic__keyword>OGC document</semantic__keyword><semantic__keyword>ModSpec</semantic__keyword><semantic__keyword>UML</semantic__keyword><semantic__ext><semantic__doctype>standard</semantic__doctype><semantic__subdoctype>implementation</semantic__subdoctype><semantic__editorialgroup><semantic__committee>technical</semantic__committee></semantic__editorialgroup></semantic__ext></semantic__bibdata><semantic__metanorma-extension><semantic__table id="semantic___misccontainer_anchor_aliases"><semantic__tbody><semantic__tr><semantic__th>req_class-uml</semantic__th><semantic__td>https://www.opengis.net/spec/modspec-2/1.1/req/req-class-uml</semantic__td></semantic__tr><semantic__tr><semantic__th>_4930069f-41f3-499d-affc-bcd7338c81fc</semantic__th><semantic__td>/req/uml/conformance-with-core</semantic__td></semantic__tr><semantic__tr><semantic__th>_c4d26577-1fdb-44af-ad60-aee9cc06d63b</semantic__th><semantic__td>/req/uml/object-model</semantic__td></semantic__tr><semantic__tr><semantic__th>_3d2e8c2d-fa5c-47a9-8639-056a8aac6179</semantic__th><semantic__td>/req/uml/dependency-graph</semantic__td></semantic__tr><semantic__tr><semantic__th>_4bd7142f-6080-4454-bf96-6a5e8c3764b4</semantic__th><semantic__td>/req/uml/leaf-package</semantic__td></semantic__tr><semantic__tr><semantic__th>_995897f3-1c0d-4ba0-b201-74e5f976c4f4</semantic__th><semantic__td>/req/uml/class-package</semantic__td></semantic__tr><semantic__tr><semantic__th>_101ba700-8f54-4576-8b88-75f5737affeb</semantic__th><semantic__td>/req/uml/to-leaf</semantic__td></semantic__tr><semantic__tr><semantic__th>_e2b739ac-095b-4a8b-a237-e9c98a8e15af</semantic__th><semantic__td>/req/uml/common-req-class</semantic__td></semantic__tr><semantic__tr><semantic__th>_963ee443-2961-4a9a-bbfa-eddea551a8db</semantic__th><semantic__td>/req/uml/source-target</semantic__td></semantic__tr><semantic__tr><semantic__th>_9c998e9a-1665-453c-9ee7-0b4d70bcaa39</semantic__th><semantic__td>/req/uml/leaf-package-dependency</semantic__td></semantic__tr><semantic__tr><semantic__th>_4cba4563-82a0-41d9-8e89-539319fe89a1</semantic__th><semantic__td>/req/uml/two-way-dependency</semantic__td></semantic__tr><semantic__tr><semantic__th>_a6fd1be0-4ac5-438a-bf9b-c55f476f41ef</semantic__th><semantic__td>/req/uml/segregate-into-leaf-packages</semantic__td></semantic__tr><semantic__tr><semantic__th>req_uml_conformance-with-core</semantic__th><semantic__td>/req/uml/conformance-with-core</semantic__td></semantic__tr><semantic__tr><semantic__th>req_uml_object-model</semantic__th><semantic__td>/req/uml/object-model</semantic__td></semantic__tr><semantic__tr><semantic__th>req_uml_dependency-graph</semantic__th><semantic__td>/req/uml/dependency-graph</semantic__td></semantic__tr><semantic__tr><semantic__th>req_uml_leaf-package</semantic__th><semantic__td>/req/uml/leaf-package</semantic__td></semantic__tr><semantic__tr><semantic__th>req_uml_class-package</semantic__th><semantic__td>/req/uml/class-package</semantic__td></semantic__tr><semantic__tr><semantic__th>req_uml_to-leaf</semantic__th><semantic__td>/req/uml/to-leaf</semantic__td></semantic__tr><semantic__tr><semantic__th>req_uml_common-req-class</semantic__th><semantic__td>/req/uml/common-req-class</semantic__td></semantic__tr><semantic__tr><semantic__th>req_uml_source-target</semantic__th><semantic__td>/req/uml/source-target</semantic__td></semantic__tr><semantic__tr><semantic__th>req_uml_leaf-package-dependency</semantic__th><semantic__td>/req/uml/leaf-package-dependency</semantic__td></semantic__tr><semantic__tr><semantic__th>req_uml_two-way-dependency</semantic__th><semantic__td>/req/uml/two-way-dependency</semantic__td></semantic__tr><semantic__tr><semantic__th>req_uml_segregate-into-leaf-packages</semantic__th><semantic__td>/req/uml/segregate-into-leaf-packages</semantic__td></semantic__tr><semantic__tr><semantic__th>ats_uml</semantic__th><semantic__td>https://www.opengis.net/spec/modspec-2/1.1/conf/uml</semantic__td></semantic__tr><semantic__tr><semantic__th>_644d2558-6571-4262-8739-6a694271820c</semantic__th><semantic__td>/conf/uml/conformance-with-core</semantic__td></semantic__tr><semantic__tr><semantic__th>_922f35d8-ce5b-489d-9295-533f1c6233ce</semantic__th><semantic__td>/conf/uml/object-model</semantic__td></semantic__tr><semantic__tr><semantic__th>_12e22e3c-42a6-443c-b4f2-3a9409cc4ef8</semantic__th><semantic__td>/conf/uml/dependency-graph</semantic__td></semantic__tr><semantic__tr><semantic__th>_7707035c-58fe-45bb-ad5e-14c22de859eb</semantic__th><semantic__td>/conf/uml/leaf-package</semantic__td></semantic__tr><semantic__tr><semantic__th>_37a1dd23-1e02-4326-a9a7-5636ba364ecd</semantic__th><semantic__td>/conf/uml/class-package</semantic__td></semantic__tr><semantic__tr><semantic__th>_86f07c37-5649-4a7c-80cf-74d0814ede52</semantic__th><semantic__td>/conf/uml/to-leaf</semantic__td></semantic__tr><semantic__tr><semantic__th>_4da433b5-fc8e-4aa2-8719-4f6f82140cba</semantic__th><semantic__td>/conf/uml/common-req-class</semantic__td></semantic__tr><semantic__tr><semantic__th>_b887bd3b-59e7-4a47-87b5-dffcb63ad94b</semantic__th><semantic__td>/conf/uml/source-target</semantic__td></semantic__tr><semantic__tr><semantic__th>_655b3485-c04c-4317-978d-3f487bc1aada</semantic__th><semantic__td>/conf/uml/leaf-package-dependency</semantic__td></semantic__tr><semantic__tr><semantic__th>_6cd12887-5822-45b6-97f6-a73d920e7d3b</semantic__th><semantic__td>/conf/uml/two-way-dependency</semantic__td></semantic__tr><semantic__tr><semantic__th>_a4b71b84-f116-49ec-a044-d2782da8a2d0</semantic__th><semantic__td>/conf/uml/segregate-into-leaf-packages</semantic__td></semantic__tr><semantic__tr><semantic__th>ats_uml_conformance-with-core</semantic__th><semantic__td>/conf/uml/conformance-with-core</semantic__td></semantic__tr><semantic__tr><semantic__th>ats_uml_object-model</semantic__th><semantic__td>/conf/uml/object-model</semantic__td></semantic__tr><semantic__tr><semantic__th>ats_uml_dependency-graph</semantic__th><semantic__td>/conf/uml/dependency-graph</semantic__td></semantic__tr><semantic__tr><semantic__th>ats_uml_leaf-package</semantic__th><semantic__td>/conf/uml/leaf-package</semantic__td></semantic__tr><semantic__tr><semantic__th>ats_uml_class-package</semantic__th><semantic__td>/conf/uml/class-package</semantic__td></semantic__tr><semantic__tr><semantic__th>ats_uml_to-leaf</semantic__th><semantic__td>/conf/uml/to-leaf</semantic__td></semantic__tr><semantic__tr><semantic__th>ats_uml_common-req-class</semantic__th><semantic__td>/conf/uml/common-req-class</semantic__td></semantic__tr><semantic__tr><semantic__th>ats_uml_source-target</semantic__th><semantic__td>/conf/uml/source-target</semantic__td></semantic__tr><semantic__tr><semantic__th>ats_uml_leaf-package-dependency</semantic__th><semantic__td>/conf/uml/leaf-package-dependency</semantic__td></semantic__tr><semantic__tr><semantic__th>ats_uml_two-way-dependency</semantic__th><semantic__td>/conf/uml/two-way-dependency</semantic__td></semantic__tr><semantic__tr><semantic__th>ats_uml_segregate-into-leaf-packages</semantic__th><semantic__td>/conf/uml/segregate-into-leaf-packages</semantic__td></semantic__tr></semantic__tbody></semantic__table><semantic__presentation-metadata><semantic__name>TOC Heading Levels</semantic__name><semantic__value>2</semantic__value></semantic__presentation-metadata><semantic__presentation-metadata><semantic__name>HTML TOC Heading Levels</semantic__name><semantic__value>2</semantic__value></semantic__presentation-metadata><semantic__presentation-metadata><semantic__name>DOC TOC Heading Levels</semantic__name><semantic__value>2</semantic__value></semantic__presentation-metadata><semantic__presentation-metadata><semantic__name>PDF TOC Heading Levels</semantic__name><semantic__value>2</semantic__value></semantic__presentation-metadata></semantic__metanorma-extension>
 <semantic__boilerplate><semantic__copyright-statement>
 
 <semantic__clause id="semantic___copyright_notice" obligation="normative">
@@ -581,185 +581,97 @@ package of the original class.</semantic__p>
 </semantic__clause>
 </semantic__clause>
 
-<semantic__clause id="semantic__annex-A-1" obligation="normative">
+<semantic__clause id="semantic__annex-A" obligation="normative">
 <semantic__title>Conformance test class: UML model extends The Standard</semantic__title>
+<semantic__requirement id="semantic__ats_uml" model="ogc" type="conformanceclass"> <semantic__identifier>https://www.opengis.net/spec/modspec-2/1.1/conf/uml</semantic__identifier><semantic__classification><semantic__tag>Target Type</semantic__tag><semantic__value>Web API</semantic__value></semantic__classification><semantic__classification><semantic__tag>target</semantic__tag><semantic__value>https://www.opengis.net/spec/modspec-2/1.1/req/req-class-uml</semantic__value></semantic__classification><semantic__requirement id="semantic___0402b720-9f53-10d4-8ed2-243a8af067bc" model="ogc" type="abstracttest"> <semantic__identifier>/conf/uml/conformance-with-core</semantic__identifier></semantic__requirement><semantic__requirement id="semantic___fa15dd60-3843-7201-6782-c8ac5a11a0e2" model="ogc" type="abstracttest"> <semantic__identifier>/conf/uml/object-model</semantic__identifier></semantic__requirement><semantic__requirement id="semantic___11e23565-1838-f979-9734-1517272c8ba9" model="ogc" type="abstracttest"> <semantic__identifier>/conf/uml/dependency-graph</semantic__identifier></semantic__requirement><semantic__requirement id="semantic___76094a45-e595-7f06-f672-0a0515049289" model="ogc" type="abstracttest"> <semantic__identifier>/conf/uml/leaf-package</semantic__identifier></semantic__requirement><semantic__requirement id="semantic___46fbd482-9b48-0833-2873-ebf047cb73cf" model="ogc" type="abstracttest"> <semantic__identifier>/conf/uml/class-package</semantic__identifier></semantic__requirement><semantic__requirement id="semantic___9770de7d-d40d-ae29-323d-7745eb96b644" model="ogc" type="abstracttest"> <semantic__identifier>/conf/uml/to-leaf</semantic__identifier></semantic__requirement><semantic__requirement id="semantic___76fad5e8-3748-c6e9-311c-fc9e70414786" model="ogc" type="abstracttest"> <semantic__identifier>/conf/uml/common-req-class</semantic__identifier></semantic__requirement><semantic__requirement id="semantic___2d43f2a2-9025-1940-8c80-9b1c5555558a" model="ogc" type="abstracttest"> <semantic__identifier>/conf/uml/source-target</semantic__identifier></semantic__requirement><semantic__requirement id="semantic___da4e516a-0549-f533-6e3a-f79d1131caef" model="ogc" type="abstracttest"> <semantic__identifier>/conf/uml/leaf-package-dependency</semantic__identifier></semantic__requirement><semantic__requirement id="semantic___769eb25b-4759-5f3c-9bd9-d09a42610a0b" model="ogc" type="abstracttest"> <semantic__identifier>/conf/uml/two-way-dependency</semantic__identifier></semantic__requirement><semantic__requirement id="semantic___b6b8fe7b-5225-b987-90cf-03222c342d84" model="ogc" type="abstracttest"> <semantic__identifier>/conf/uml/segregate-into-leaf-packages</semantic__identifier></semantic__requirement>
+</semantic__requirement>
+
 <semantic__clause id="semantic___dependency_on_core" obligation="normative">
 <semantic__title>Dependency on Core</semantic__title>
-<semantic__p id="semantic___5643e02d-30f5-dd96-37a3-d47e54b1ab31">An implementation passing the UML conformance test class shall first pass the core
-conformance test class.</semantic__p>
-
-<semantic__ol id="semantic___896413ef-5fae-cafa-708e-adece432c53f" type="arabic"><semantic__li><semantic__p id="semantic___d7901ea9-59d1-58ef-c044-4d07b89f7e14">Test Purpose: Verify that this requirement is satisfied.</semantic__p>
-</semantic__li>
-<semantic__li><semantic__p id="semantic___20ea0bef-93e1-2a71-0e69-26187399a31f">Test Method: Inspect the document to verify the above.</semantic__p>
-</semantic__li>
-<semantic__li><semantic__p id="semantic___7f713636-dd14-7c57-56fb-11c7d57d51e7">Reference: <semantic__xref target="semantic__req-01"/></semantic__p>
-</semantic__li>
-<semantic__li><semantic__p id="semantic___185b2049-935c-4eb3-21c7-3c83b0172a43">Test Type: Conformance.</semantic__p>
-</semantic__li>
-</semantic__ol>
+<semantic__requirement id="semantic__ats_uml_conformance-with-core" model="ogc" type="abstracttest"> <semantic__identifier>/conf/uml/conformance-with-core</semantic__identifier><semantic__classification><semantic__tag>target</semantic__tag><semantic__value>/req/uml/conformance-with-core</semantic__value></semantic__classification><semantic__component class="test-purpose"><semantic__p id="semantic___c52324e0-55f4-6ff6-03f5-c1e12e04ed1b">Verify that an implementation passing the UML conformance test class has first passed the core conformance test class.</semantic__p>
+</semantic__component><semantic__component class="test-method"><semantic__p id="semantic___71d9485e-1ffa-e7a7-90b7-88dbdb3f227e">Inspect the document to verify the above.</semantic__p>
+</semantic__component>
+</semantic__requirement>
 </semantic__clause>
 
 <semantic__clause id="semantic___the_uml_model_is_normative" obligation="normative">
 <semantic__title>The UML model is normative</semantic__title>
-<semantic__p id="semantic___22a4ab23-11e6-9e60-73d9-bb38d59e3736">To be conformant to this UML conformance class, UML shall be used to express the
-object model, either as the core mechanism of the standard or as a normative adjunct
-to formally explain the standard in a model.</semantic__p>
-
-<semantic__ol id="semantic___2148b51f-3ec7-d2dc-324a-b201a3e3e3b3" type="arabic"><semantic__li><semantic__p id="semantic___9e3db368-5147-3f86-ee66-bcd5947b6092">Test Purpose: Verify that this requirement is satisfied.</semantic__p>
-</semantic__li>
-<semantic__li><semantic__p id="semantic___474414cd-0f52-82ce-1cbf-3d34f220f2ab">Test Method: Inspect the document to verify the above.</semantic__p>
-</semantic__li>
-<semantic__li><semantic__p id="semantic___ebf1a34b-1e31-b3bd-83dc-be9b851bc445">Reference: <semantic__xref target="semantic__req-02"/></semantic__p>
-</semantic__li>
-<semantic__li><semantic__p id="semantic___17ec568f-3e47-8a25-55ce-ed779e3487ba">Test Type: Conformance.</semantic__p>
-</semantic__li>
-</semantic__ol>
+<semantic__requirement id="semantic__ats_uml_object-model" model="ogc" type="abstracttest"> <semantic__identifier>/conf/uml/object-model</semantic__identifier><semantic__classification><semantic__tag>target</semantic__tag><semantic__value>/req/uml/object-model</semantic__value></semantic__classification><semantic__component class="test-purpose"><semantic__p id="semantic___dbc39ba8-ed25-2380-017f-956595cea02e">Verify that UML was be used to express the object model, either as the core mechanism of the standard or as a normative adjunct to formally explain the standard in a model.</semantic__p>
+</semantic__component><semantic__component class="test-method"><semantic__p id="semantic___74c5d3c5-c389-265f-0e20-08394343b03e">Inspect the document to verify the above.</semantic__p>
+</semantic__component>
+</semantic__requirement>
 </semantic__clause>
 
 <semantic__clause id="semantic___dependency_graph_must_be_explicit" obligation="normative">
 <semantic__title>Dependency graph must be explicit</semantic__title>
-<semantic__p id="semantic___82eed45c-1a62-2dd2-a997-fbe78c33f11f">A UML model shall have an explicit dependency graph for the leaf packages and
-external packages used by the standard consistent with the way their classifiers use
-those of other packages.</semantic__p>
-
-<semantic__ol id="semantic___da27b96e-2654-ba24-08f6-9e0ef1fe4941" type="arabic"><semantic__li><semantic__p id="semantic___568928c9-d213-0259-52a1-0224f2190fbe">Test Purpose: Verify that this requirement is satisfied.</semantic__p>
-</semantic__li>
-<semantic__li><semantic__p id="semantic___26839e23-32fb-c2ac-512c-e000e472aeab">Test Method: Inspect the document to verify the above.</semantic__p>
-</semantic__li>
-<semantic__li><semantic__p id="semantic___bd638bbd-920f-91e5-3bea-b9e29f4ddf59">Reference: <semantic__xref target="semantic__req-03"/></semantic__p>
-</semantic__li>
-<semantic__li><semantic__p id="semantic___93268d44-0cc9-ef5f-83ea-19ad59f0d714">Test Type: Conformance.</semantic__p>
-</semantic__li>
-</semantic__ol>
+<semantic__requirement id="semantic__ats_uml_dependency-graph" model="ogc" type="abstracttest"> <semantic__identifier>/conf/uml/dependency-graph</semantic__identifier><semantic__classification><semantic__tag>target</semantic__tag><semantic__value>/req/uml/dependency-graph</semantic__value></semantic__classification><semantic__component class="test-purpose"><semantic__p id="semantic___3515c948-818d-0f75-fb07-c4eee2683ed1">Verify that the UML model has an explicit dependency graph for the leaf packages and external packages used by the standard consistent with the way their classifiers use those of other packages.</semantic__p>
+</semantic__component><semantic__component class="test-method"><semantic__p id="semantic___486cc87c-cce5-8f9e-79c4-eefd13140935">Inspect the document to verify the above.</semantic__p>
+</semantic__component>
+</semantic__requirement>
 </semantic__clause>
 
 <semantic__clause id="semantic___leaf_packages_in_only_one_requirements_class" obligation="normative">
 <semantic__title>Leaf packages in only one requirements class</semantic__title>
-<semantic__p id="semantic___510463cf-e967-9d1f-f2b1-185aa14e624f">A UML leaf package shall be associated directly to only one requirements class.</semantic__p>
-
-<semantic__ol id="semantic___e616afd4-0c19-991b-2910-141d0b0afd3b" type="arabic"><semantic__li><semantic__p id="semantic___88aa4bf7-6198-4384-1b30-df7cdd383afc">Test Purpose: Verify that this requirement is satisfied.</semantic__p>
-</semantic__li>
-<semantic__li><semantic__p id="semantic___8000cb80-5732-2656-9653-30b38433bfdc">Test Method: Inspect the document to verify the above.</semantic__p>
-</semantic__li>
-<semantic__li><semantic__p id="semantic___90bbb9d6-05ec-0c25-b560-4e6f6d13db48">Reference: <semantic__xref target="semantic__req-04"/></semantic__p>
-</semantic__li>
-<semantic__li><semantic__p id="semantic___f08a656a-d7c6-fc70-27fb-031d39a94948">Test Type: Conformance.</semantic__p>
-</semantic__li>
-</semantic__ol>
+<semantic__requirement id="semantic__ats_uml_leaf-package" model="ogc" type="abstracttest"> <semantic__identifier>/conf/uml/leaf-package</semantic__identifier><semantic__classification><semantic__tag>target</semantic__tag><semantic__value>/req/uml/leaf-package</semantic__value></semantic__classification><semantic__component class="test-purpose"><semantic__p id="semantic___d9289326-a261-90bd-3a69-df86ac507ad8">Verify that all UML leaf packages are each associated directly to only one requirements class.</semantic__p>
+</semantic__component><semantic__component class="test-method"><semantic__p id="semantic___5633c6c8-ad50-5352-4c3a-99664d84a779">Inspect the document to verify the above.</semantic__p>
+</semantic__component>
+</semantic__requirement>
 </semantic__clause>
 
 <semantic__clause id="semantic___requirements_class_associated_to_a_unique_package" obligation="normative">
 <semantic__title>Requirements class associated to a unique package</semantic__title>
-<semantic__p id="semantic___d54ac045-ba42-b1d0-36af-25779b1656ca">Each requirements class shall be associated to a unique package in the model and
-include either directly or by a dependency any requirement associated to any of its
-subpackages.</semantic__p>
-
-<semantic__ol id="semantic___c9e8d8ea-c394-72a1-b6b0-3d9e172eae67" type="arabic"><semantic__li><semantic__p id="semantic___27a90c90-a7a9-be74-ff6a-803ba832df12">Test Purpose: Verify that this requirement is satisfied.</semantic__p>
-</semantic__li>
-<semantic__li><semantic__p id="semantic___90386364-eaac-703f-982c-39e48c21543d">Test Method: Inspect the document to verify the above.</semantic__p>
-</semantic__li>
-<semantic__li><semantic__p id="semantic___19629a47-ba89-fd13-0bcf-3359293160c5">Reference: <semantic__xref target="semantic__req-05"/></semantic__p>
-</semantic__li>
-<semantic__li><semantic__p id="semantic___b09804e6-70d4-3ec5-0103-94e2bb166835">Test Type: Conformance.</semantic__p>
-</semantic__li>
-</semantic__ol>
+<semantic__requirement id="semantic__ats_uml_class-package" model="ogc" type="abstracttest"> <semantic__identifier>/conf/uml/class-package</semantic__identifier><semantic__classification><semantic__tag>target</semantic__tag><semantic__value>/req/uml/class-package</semantic__value></semantic__classification><semantic__component class="test-purpose"><semantic__p id="semantic___9246b6e6-d81e-a7c1-60c5-3f4a3f935baa">Verify that each requirements class has been associated to a unique package in the model and includes either directly or by a dependency any requirement associated to any of its subpackages.</semantic__p>
+</semantic__component><semantic__component class="test-method"><semantic__p id="semantic___7d998704-a659-f049-cf26-1db02aea06b5">Inspect the document to verify the above.</semantic__p>
+</semantic__component>
+</semantic__requirement>
 </semantic__clause>
 
 <semantic__clause id="semantic___a_requirements_class_contains_complete_leaf_packages" obligation="normative">
 <semantic__title>A requirements class contains complete leaf packages</semantic__title>
-<semantic__p id="semantic___dded850c-6bf2-4f64-3532-c9eb0d03451c">A requirements class shall be associated to some number of complete leaf packages
-and all classes and constraints in those packages.</semantic__p>
-
-<semantic__ol id="semantic___ec503773-c994-b237-355b-698d8e32bfd1" type="arabic"><semantic__li><semantic__p id="semantic___3fa0925e-336e-420a-b515-6b6fce911031">Test Purpose: Verify that this requirement is satisfied.</semantic__p>
-</semantic__li>
-<semantic__li><semantic__p id="semantic___094dd620-f203-0ff5-c500-66c6d71d1ff0">Test Method: Inspect the document to verify the above.</semantic__p>
-</semantic__li>
-<semantic__li><semantic__p id="semantic___ee70b793-f5cb-5594-7ab0-dc972256c963">Reference: <semantic__xref target="semantic__req-06"/></semantic__p>
-</semantic__li>
-<semantic__li><semantic__p id="semantic___1f910e93-269b-93bb-767a-4dbddbd2d6db">Test Type: Conformance.</semantic__p>
-</semantic__li>
-</semantic__ol>
+<semantic__requirement id="semantic__ats_uml_to-leaf" model="ogc" type="abstracttest"> <semantic__identifier>/conf/uml/to-leaf</semantic__identifier><semantic__classification><semantic__tag>target</semantic__tag><semantic__value>/req/uml/to-leaf</semantic__value></semantic__classification><semantic__component class="test-purpose"><semantic__p id="semantic___0a256c9b-d587-43bd-7f68-e9db13b6485e">Verify that each requirements class has been associated to some number of complete leaf packages and all classes and constraints in those packages.</semantic__p>
+</semantic__component><semantic__component class="test-method"><semantic__p id="semantic___8ab6e0f0-fa0e-fa5a-8bc1-89db183b74bf">Inspect the document to verify the above.</semantic__p>
+</semantic__component>
+</semantic__requirement>
 </semantic__clause>
 
 <semantic__clause id="semantic___classes_common_to_all_requirement_classes_are_in_the_core" obligation="normative">
 <semantic__title>Classes common to all requirement classes are in the core</semantic__title>
-<semantic__p id="semantic___f6e13210-6787-ebf2-676f-b6d1af5aa08b">Classes that are common to all requirements classes shall be in a package associated
-to the core conformance/requirements class.</semantic__p>
-
-<semantic__ol id="semantic___4cf18614-081f-b153-1d96-fb838f12dfda" type="arabic"><semantic__li><semantic__p id="semantic___087d3f7c-1189-9da3-5837-c6caa03ddc28">Test Purpose: Verify that this requirement is satisfied.</semantic__p>
-</semantic__li>
-<semantic__li><semantic__p id="semantic___4fbad5dc-4e69-17ba-b4eb-28dd09e61943">Test Method: Inspect the document to verify the above.</semantic__p>
-</semantic__li>
-<semantic__li><semantic__p id="semantic___f1ef2adb-4c4a-3f31-618b-131fabb00622">Reference: <semantic__xref target="semantic__req-07"/>.</semantic__p>
-</semantic__li>
-<semantic__li><semantic__p id="semantic___dfafa0f3-258e-d650-5b9c-39db28bceb22">Test Type: Conformance.</semantic__p>
-</semantic__li>
-</semantic__ol>
+<semantic__requirement id="semantic__ats_uml_common-req-class" model="ogc" type="abstracttest"> <semantic__identifier>/conf/uml/common-req-class</semantic__identifier><semantic__classification><semantic__tag>target</semantic__tag><semantic__value>/req/uml/common-req-class</semantic__value></semantic__classification><semantic__component class="test-purpose"><semantic__p id="semantic___20a3b881-060b-7834-1ab8-01bf0a55aaf4">Verify that any classes that are common to all requirements classes shall be in a package associated to the core conformance/requirements class.</semantic__p>
+</semantic__component><semantic__component class="test-method"><semantic__p id="semantic___cf8e1b72-c524-9217-4ed0-5adf7d892fb9">Inspect the document to verify the above.</semantic__p>
+</semantic__component>
+</semantic__requirement>
 </semantic__clause>
 
 <semantic__clause id="semantic___package_dependencies_become_requirements_class_extensions" obligation="normative">
 <semantic__title>Package dependencies become requirements class extensions</semantic__title>
-<semantic__p id="semantic___050c0e9c-ef72-5ab7-5bab-1b8b0f64e33b">In the UML model, if a “source” package is dependent on a “target” package then
-their requirements class shall be equal or the source package’s class shall be an
-extension of the target package’s class.</semantic__p>
-
-<semantic__ol id="semantic___95595d9f-4693-6243-a00e-3f4f17c71315" type="arabic"><semantic__li><semantic__p id="semantic___573c2929-972b-3a2d-67d9-89eb86fa65d3">Test Purpose: Verify that this requirement is satisfied.</semantic__p>
-</semantic__li>
-<semantic__li><semantic__p id="semantic___a86198d6-043e-12f1-7d05-8e9d00a10335">Test Method: Inspect the document to verify the above.</semantic__p>
-</semantic__li>
-<semantic__li><semantic__p id="semantic___9b7625f0-5cfd-4ae4-bb98-861e3b6fef21">Reference: <semantic__xref target="semantic__req-08"/>.</semantic__p>
-</semantic__li>
-<semantic__li><semantic__p id="semantic___0c491664-a222-f12d-6cd9-87fa9f340fe6">Test Type: Conformance.</semantic__p>
-</semantic__li>
-</semantic__ol>
+<semantic__requirement id="semantic__ats_uml_source-target" model="ogc" type="abstracttest"> <semantic__identifier>/conf/uml/source-target</semantic__identifier><semantic__classification><semantic__tag>target</semantic__tag><semantic__value>/req/uml/source-target</semantic__value></semantic__classification><semantic__component class="test-purpose"><semantic__p id="semantic___029debf0-18ab-ca7a-66df-8c70a317caf9">Verify that if a “source” package in the UML model is dependent on a “target” package then the requirements classes are equal or the source package’s class is an extension of the target package’s class.</semantic__p>
+</semantic__component><semantic__component class="test-method"><semantic__p id="semantic___2fcab0f6-2ef6-1866-dd6f-77f838d77cc4">Inspect the document to verify the above.</semantic__p>
+</semantic__component>
+</semantic__requirement>
 </semantic__clause>
 
-<semantic__clause id="semantic___dependencies_in_packages_are_reflected_in_dependencies_in_requirements_classes" obligation="normative">
-<semantic__title>Dependencies in packages are reflected in dependencies in requirements classes</semantic__title>
-<semantic__p id="semantic___b71fee05-36d1-3315-83e9-46228e65bddb">If one leaf package is dependent on another leaf package, then the requirements
-class of the first shall be the same or an extension of the requirements class of
-the second.</semantic__p>
-
-<semantic__ol id="semantic___8e2b61d0-d6bb-e1a2-51bb-e654929a7aab" type="arabic"><semantic__li><semantic__p id="semantic___ddde0e6b-c2c6-4412-19a6-8cb9dd8fe4ac">Test Purpose: Verify that this requirement is satisfied.</semantic__p>
-</semantic__li>
-<semantic__li><semantic__p id="semantic___e5d70e3f-61e0-f825-13a0-d54567e9ba21">Test Method: Inspect the document to verify the above.</semantic__p>
-</semantic__li>
-<semantic__li><semantic__p id="semantic___748dcfa4-f35f-3b1c-6ae3-4903ad0f45bb">Reference: <semantic__xref target="semantic__req-09"/>.</semantic__p>
-</semantic__li>
-<semantic__li><semantic__p id="semantic___2ba95ecb-f31d-a3aa-af7e-d5e29a6823f2">Test Type: Conformance.</semantic__p>
-</semantic__li>
-</semantic__ol>
+<semantic__clause id="semantic___dependencies_in_packages_are_reflected_in_dependencies_in_req" obligation="normative">
+<semantic__title>Dependencies in packages are reflected in dependencies in req</semantic__title>
+<semantic__requirement id="semantic__ats_uml_leaf-package-dependency" model="ogc" type="abstracttest"> <semantic__identifier>/conf/uml/leaf-package-dependency</semantic__identifier><semantic__classification><semantic__tag>target</semantic__tag><semantic__value>/req/uml/leaf-package-dependency</semantic__value></semantic__classification><semantic__component class="test-purpose"><semantic__p id="semantic___88c90c56-347d-872e-c5e8-7343971a7689">Verify that if one leaf package is dependent on another leaf package, then the requirements class of the first is the same or an extension of the requirements class of the second.</semantic__p>
+</semantic__component><semantic__component class="test-method"><semantic__p id="semantic___4ff3d269-5d18-1bd0-5b70-876d2b243289">Inspect the document to verify the above.</semantic__p>
+</semantic__component>
+</semantic__requirement>
 </semantic__clause>
 
 <semantic__clause id="semantic___co_dependent_packages_are_in_the_same_requirements_class" obligation="normative">
 <semantic__title>Co-dependent packages are in the same requirements class</semantic__title>
-<semantic__p id="semantic___2027a21a-4460-d645-2f22-febe089ad450">If two packages have a two-way dependency (a “co-dependency”), they shall be
-associated to the same requirements class.</semantic__p>
-
-<semantic__ol id="semantic___3b81e163-fc4c-b139-1675-7fbfe0601bd3" type="arabic"><semantic__li><semantic__p id="semantic___b76c7e44-515c-f6e0-8754-0a68c6dcf0c1">Test Purpose: Verify that this requirement is satisfied.</semantic__p>
-</semantic__li>
-<semantic__li><semantic__p id="semantic___eb498cae-7e78-684a-3d7d-401b52b465ff">Test Method: Inspect the document to verify the above.</semantic__p>
-</semantic__li>
-<semantic__li><semantic__p id="semantic___3e37c5d5-032a-a0cc-dba9-4c2282db337f">Reference: <semantic__xref target="semantic__req-10"/></semantic__p>
-</semantic__li>
-<semantic__li><semantic__p id="semantic___072fcc42-2ffa-ff61-7598-5bc4d0b29218">Test Type: Conformance.</semantic__p>
-</semantic__li>
-</semantic__ol>
+<semantic__requirement id="semantic__ats_uml_two-way-dependency" model="ogc" type="abstracttest"> <semantic__identifier>/conf/uml/two-way-dependency</semantic__identifier><semantic__classification><semantic__tag>target</semantic__tag><semantic__value>/req/uml/two-way-dependency</semantic__value></semantic__classification><semantic__component class="test-purpose"><semantic__p id="semantic___846b5bf0-c28d-005f-ddb6-a27b0c0b4036">Verify that if two packages have a two-way dependency (a “co-dependency”), then they are associated to the same requirements class.</semantic__p>
+</semantic__component><semantic__component class="test-method"><semantic__p id="semantic___3dc1d244-b556-c8c8-078f-df50228e3aef">Inspect the document to verify the above.</semantic__p>
+</semantic__component>
+</semantic__requirement>
 </semantic__clause>
 
 <semantic__clause id="semantic___all_classes_are_in_leaf_packages" obligation="normative">
 <semantic__title>All classes are in leaf packages</semantic__title>
-<semantic__p id="semantic___ef7183fb-31e5-77dd-f805-b673d8d929fb">The UML model shall segregate all classes into leaf packages.</semantic__p>
-
-<semantic__ol id="semantic___79e7b62c-2695-1707-8786-107cfe83cde8" type="arabic"><semantic__li><semantic__p id="semantic___f72f3e93-9840-f98b-e0c2-05687b99df9d">Test Purpose: Verify that this requirement is satisfied.</semantic__p>
-</semantic__li>
-<semantic__li><semantic__p id="semantic___6f6b6a79-89a2-af7f-6b88-7f6ed5811712">Test Method: Inspect the document to verify the above.</semantic__p>
-</semantic__li>
-<semantic__li><semantic__p id="semantic___0413a0af-2e72-0270-9321-fafde07908a3">Reference: <semantic__xref target="semantic__req-11"/></semantic__p>
-</semantic__li>
-<semantic__li><semantic__p id="semantic___750ee94d-18cb-bfda-d1b3-774f6b193675">Test Type: Conformance.</semantic__p>
-</semantic__li>
-</semantic__ol>
+<semantic__requirement id="semantic__ats_uml_segregate-into-leaf-packages" model="ogc" type="abstracttest"> <semantic__identifier>/conf/uml/segregate-into-leaf-packages</semantic__identifier><semantic__classification><semantic__tag>target</semantic__tag><semantic__value>/req/uml/segregate-into-leaf-packages</semantic__value></semantic__classification><semantic__component class="test-purpose"><semantic__p id="semantic___d7ee31a5-e5c1-d66d-74e8-6ccefe7076c5">Verify that the UML model has segregated all classes into leaf packages.</semantic__p>
+</semantic__component><semantic__component class="test-method"><semantic__p id="semantic___b26ba291-b624-2232-a3ae-87926633a56e">Inspect the document to verify the above.</semantic__p>
+</semantic__component>
+</semantic__requirement>
 </semantic__clause>
 </semantic__clause>
 </semantic__sections><semantic__bibliography><semantic__references id="semantic__cls-3" normative="true" obligation="informative">
@@ -952,7 +864,7 @@ To obtain additional rights of use, visit
 <p id="_bb5602d2-6eb1-e557-e221-499759fe237f">Suggested additions, changes and comments on this document are welcome and encouraged. Such suggestions may be submitted using the online change request form on OGC web site: <link target="http://ogc.standardstracker.org/"/></p>
 </clause>
 </feedback-statement>
-</boilerplate><preface><clause type="toc" id="_5216283f-590f-41d6-bbd6-63f3b29259d6" displayorder="1"><title depth="1">Contents</title></clause>
+</boilerplate><preface><clause type="toc" id="_49ba56ea-af7c-4410-bf1a-c35e5f09df0a" displayorder="1"><title depth="1">Contents</title></clause>
 <abstract id="_abstract" displayorder="2"><title depth="1">I.<tab/>Abstract</title><p id="_40a6b536-46bd-f4b8-b487-0200afe45ee4">This OGC member developed and approved document, referred to as the <tt>ModSpec: Part 2 - UML</tt>, defines an optional requirements class for UML</p>
 
 <p id="_bc0ab912-78d9-630f-ef59-0d462156bb33">The ModSpec: Core Standard defines a model and related requirements
@@ -974,7 +886,7 @@ A standard specifying requirements for crafting and documenting modular and test
 <p id="_f6c1d580-cf8d-d736-38db-f35008942847">Suggested additions, changes, and comments on this document are welcome and
 encouraged. Such suggestions may be submitted by creating an issue in the GitHub
 repository for this document (<link target="https://github.com/opengeospatial/ogc-modspec"/>).</p>
-</abstract><clause id="_172f2153-38ab-4deb-90fa-3a7bcffea940" type="keywords" displayorder="3">
+</abstract><clause id="_265940f0-f2be-44ec-92fa-f775e123ce21" type="keywords" displayorder="3">
 <title depth="1">II.<tab/>Keywords</title>
 <p>The following are keywords to be used by search engines and document catalogues.</p>
 <p>ogcdoc, OGC document, ModSpec, UML</p></clause>
@@ -989,7 +901,7 @@ specific content. This Part 2 specifies the optional UML Requirements Class.</p>
 </foreword><clause id="_security_considerations" type="security" obligation="informative" displayorder="5">
 <title depth="1">IV.<tab/>Security considerations</title>
 <p id="_271d6c77-7738-61f3-c819-7da69f4e7d10">No security considerations have been made for this Standard.</p>
-</clause><clause id="_cefecf99-04cc-4509-82a7-487e5285e3c9" type="submitting_orgs" displayorder="6">
+</clause><clause id="_37324e46-eb85-4394-b9cd-94864ef493ba" type="submitting_orgs" displayorder="6">
 <title depth="1">V.<tab/>Submitting Organizations</title>
 <p>The following organizations submitted this Document to the Open Geospatial Consortium (OGC):</p>
  <ul><li>Carl Reed, Heazeltech, ImageMatters</li></ul>
@@ -1109,11 +1021,11 @@ parallel.</p>
 <clause id="cls-2" type="conformance" obligation="normative" displayorder="13">
 <title depth="1">2.<tab/>Conformance</title>
 <p id="_8c1b1187-6ebc-c8eb-3647-2c234e933ba5">Conformance to the ModSpec: Part 2 — UML Standard by technical implementation standards
-can be tested by inspection. The test suite is in <xref target="annex-A">[annex-A]</xref>.</p>
+can be tested by inspection. The test suite is in <xref target="annex-A">Clause 8</xref>.</p>
 
 <p id="_daa8dfe2-0134-9ba9-96dd-eaa7dd81855d">There is one conformance class for this document for:</p>
 
-<ol id="_9fa68ea3-1d18-9f6e-c55d-68b08b9b66bf" type="arabic"><li id="_7241d689-c2c5-4e89-914e-1c7e44f040b1" label="1"><p id="_12e2af61-2f69-ca10-a19d-62ed188d4c7a">Standards using UML to state requirements, extending the core.</p>
+<ol id="_9fa68ea3-1d18-9f6e-c55d-68b08b9b66bf" type="arabic"><li id="_9b7d022c-1dd6-4f95-9310-5b18f8e94cfa" label="1"><p id="_12e2af61-2f69-ca10-a19d-62ed188d4c7a">Standards using UML to state requirements, extending the core.</p>
 </li>
 </ol>
 
@@ -1151,9 +1063,9 @@ defined by ISO Directives.</p>
 <title depth="2">6.1.<tab/>Symbols (and abbreviated terms)</title>
 <p id="_189b05f8-d8bd-86ff-6cae-0a71bf9b4a45">All symbols used in this document are either:</p>
 
-<ol id="_3219167d-2bf6-1257-507a-ad5a354eeb47" type="arabic"><li id="_8ed2cda6-0486-49d3-be47-7888754bb853" label="1"><p id="_e0b0922e-824c-1ca5-ce67-98d43a0dbc7e">Common mathematical symbols</p>
+<ol id="_3219167d-2bf6-1257-507a-ad5a354eeb47" type="arabic"><li id="_3e9bb9d8-1264-4580-9f33-a6239618194f" label="1"><p id="_e0b0922e-824c-1ca5-ce67-98d43a0dbc7e">Common mathematical symbols</p>
 </li>
-<li id="_b40b5a92-e7d8-4e63-97a0-6264e05ec381" label="2"><p id="_b2dc0e0c-ea74-4888-09c2-075d49663fcd">UML 2 (Unified Modeling Language) as defined by OMG and accepted as a publicly
+<li id="_b3ae78fb-dc2f-443c-bda0-adb66c8742af" label="2"><p id="_b2dc0e0c-ea74-4888-09c2-075d49663fcd">UML 2 (Unified Modeling Language) as defined by OMG and accepted as a publicly
 available standard (PAS) by ISO in its earlier 1.3 version.</p>
 </li>
 </ol>
@@ -1216,7 +1128,7 @@ in a standard format, and with an unique label, such as REQ001, REC001, or PER00
 The statement with the unique label is considered the official statement of the normative requirement or recommendation.</p>
 
 <p id="_72bf61e6-5fe0-a883-6034-c7fc24406579">In this document, all requirements are associated with tests specified in the test suite
-in <xref target="annex-A">[annex-A]</xref>. The reference to the requirement in the test case is done by a
+in <xref target="annex-A">Clause 8</xref>. The reference to the requirement in the test case is done by a
 requirements label Recommendations are not tested although they still are documented using a standard template and have unique identifiers.</p>
 
 <p id="_30f396e5-bc33-774d-b33a-1f34b5263d31">Requirements classes are separated into their own clauses and named, and specified
@@ -1256,7 +1168,7 @@ test class to the core will be made explicit.</p>
 
 <table id="req_class-uml" class="modspec" type="recommendclass"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTitle">Requirements class 1: Requirements Class ‘UML’</p></th></tr></thead><tbody><tr><th>Identifier</th>
 <td><tt>https://www.opengis.net/spec/modspec-2/1.1/req/req-class-uml</tt></td>
-</tr><tr><th>Target-type</th><td>Modular UML Standard</td></tr><tr><th>Normative statements</th><td><xref target="req_uml_conformance-with-core">Requirement 1: <tt>/req/uml/conformance-with-core</tt></xref><br/><xref target="req_uml_object-model">Requirement 2: <tt>/req/uml/object-model</tt></xref><br/><xref target="req_uml_dependency-graph">Requirement 3: <tt>/req/uml/dependency-graph</tt></xref><br/><xref target="req_uml_leaf-package">Requirement 4: <tt>/req/uml/leaf-package</tt></xref><br/><xref target="req_uml_class-package">Requirement 5: <tt>/req/uml/class-package</tt></xref><br/><xref target="req_uml_to-leaf">Requirement 6: <tt>/req/uml/to-leaf</tt></xref><br/><xref target="req_uml_common-req-class">Requirement 7: <tt>/req/uml/common-req-class</tt></xref><br/><xref target="req_uml_source-target">Requirement 8: <tt>/req/uml/source-target</tt></xref><br/><xref target="req_uml_leaf-package-dependency">Requirement 9: <tt>/req/uml/leaf-package-dependency</tt></xref><br/><xref target="req_uml_two-way-dependency">Requirement 10: <tt>/req/uml/two-way-dependency</tt></xref><br/><xref target="req_uml_segregate-into-leaf-packages">Requirement 11: <tt>/req/uml/segregate-into-leaf-packages</tt></xref></td></tr></tbody></table>
+</tr><tr><th>Conformance class</th><td><xref target="ats_uml">Conformance class 1: <tt>https://www.opengis.net/spec/modspec-2/1.1/conf/uml</tt></xref></td></tr><tr><th>Target-type</th><td>Modular UML Standard</td></tr><tr><th>Normative statements</th><td><xref target="req_uml_conformance-with-core">Requirement 1: <tt>/req/uml/conformance-with-core</tt></xref><br/><xref target="req_uml_object-model">Requirement 2: <tt>/req/uml/object-model</tt></xref><br/><xref target="req_uml_dependency-graph">Requirement 3: <tt>/req/uml/dependency-graph</tt></xref><br/><xref target="req_uml_leaf-package">Requirement 4: <tt>/req/uml/leaf-package</tt></xref><br/><xref target="req_uml_class-package">Requirement 5: <tt>/req/uml/class-package</tt></xref><br/><xref target="req_uml_to-leaf">Requirement 6: <tt>/req/uml/to-leaf</tt></xref><br/><xref target="req_uml_common-req-class">Requirement 7: <tt>/req/uml/common-req-class</tt></xref><br/><xref target="req_uml_source-target">Requirement 8: <tt>/req/uml/source-target</tt></xref><br/><xref target="req_uml_leaf-package-dependency">Requirement 9: <tt>/req/uml/leaf-package-dependency</tt></xref><br/><xref target="req_uml_two-way-dependency">Requirement 10: <tt>/req/uml/two-way-dependency</tt></xref><br/><xref target="req_uml_segregate-into-leaf-packages">Requirement 11: <tt>/req/uml/segregate-into-leaf-packages</tt></xref></td></tr></tbody></table>
 
 <p id="_a9504214-207c-5a09-8ef2-6ab7c265da83">Any conformant UML extension will comply with the ModSpec Core requirements class.</p>
 
@@ -1430,185 +1342,109 @@ package of the original class.</p>
 </clause>
 </clause>
 
-<clause id="annex-A-1" obligation="normative" displayorder="19">
+<clause id="annex-A" obligation="normative" displayorder="19">
 <title depth="1">8.<tab/>Conformance test class: UML model extends The Standard</title>
+<table id="ats_uml" class="modspec" type="recommendclass"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTitle">Conformance class 1</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>https://www.opengis.net/spec/modspec-2/1.1/conf/uml</tt></td>
+</tr><tr><th>Requirements class</th><td><xref target="req_class-uml">Requirements class 1: <tt>https://www.opengis.net/spec/modspec-2/1.1/req/req-class-uml</tt></xref></td></tr><tr><th>Target Type</th><td>Web API</td></tr><tr><th>Conformance tests</th><td><xref target="ats_uml_conformance-with-core">Abstract test 1: <tt>/conf/uml/conformance-with-core</tt></xref><br/><xref target="ats_uml_object-model">Abstract test 2: <tt>/conf/uml/object-model</tt></xref><br/><xref target="ats_uml_dependency-graph">Abstract test 3: <tt>/conf/uml/dependency-graph</tt></xref><br/><xref target="ats_uml_leaf-package">Abstract test 4: <tt>/conf/uml/leaf-package</tt></xref><br/><xref target="ats_uml_class-package">Abstract test 5: <tt>/conf/uml/class-package</tt></xref><br/><xref target="ats_uml_to-leaf">Abstract test 6: <tt>/conf/uml/to-leaf</tt></xref><br/><xref target="ats_uml_common-req-class">Abstract test 7: <tt>/conf/uml/common-req-class</tt></xref><br/><xref target="ats_uml_source-target">Abstract test 8: <tt>/conf/uml/source-target</tt></xref><br/><xref target="ats_uml_leaf-package-dependency">Abstract test 9: <tt>/conf/uml/leaf-package-dependency</tt></xref><br/><xref target="ats_uml_two-way-dependency">Abstract test 10: <tt>/conf/uml/two-way-dependency</tt></xref><br/><xref target="ats_uml_segregate-into-leaf-packages">Abstract test 11: <tt>/conf/uml/segregate-into-leaf-packages</tt></xref></td></tr></tbody></table>
+
 <clause id="_dependency_on_core" obligation="normative">
 <title depth="2">8.1.<tab/>Dependency on Core</title>
-<p id="_5643e02d-30f5-dd96-37a3-d47e54b1ab31">An implementation passing the UML conformance test class shall first pass the core
-conformance test class.</p>
-
-<ol id="_896413ef-5fae-cafa-708e-adece432c53f" type="arabic"><li id="_598fd48f-068a-4cca-8417-bdac22890b3b" label="1"><p id="_d7901ea9-59d1-58ef-c044-4d07b89f7e14">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li id="_fdc112b6-7f03-4524-b27a-8a0decef4241" label="2"><p id="_20ea0bef-93e1-2a71-0e69-26187399a31f">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li id="_fe802dda-92cc-4b74-8cc0-c8919690bac2" label="3"><p id="_7f713636-dd14-7c57-56fb-11c7d57d51e7">Reference: <xref target="req-01">[req-01]</xref></p>
-</li>
-<li id="_2536c604-a6b0-4901-8b1f-66780f3e3e6f" label="4"><p id="_185b2049-935c-4eb3-21c7-3c83b0172a43">Test Type: Conformance.</p>
-</li>
-</ol>
+<table id="ats_uml_conformance-with-core" class="modspec" type="recommendtest"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTestTitle">Abstract test 1</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/conf/uml/conformance-with-core</tt></td>
+</tr><tr><th>Requirement</th><td><xref target="req_uml_conformance-with-core">Requirement 1: <tt>/req/uml/conformance-with-core</tt></xref></td></tr><tr><th>Test purpose</th><td><p id="_c52324e0-55f4-6ff6-03f5-c1e12e04ed1b">Verify that an implementation passing the UML conformance test class has first passed the core conformance test class.</p>
+</td></tr><tr><th>Test method</th><td><p id="_71d9485e-1ffa-e7a7-90b7-88dbdb3f227e">Inspect the document to verify the above.</p>
+</td></tr></tbody></table>
 </clause>
 
 <clause id="_the_uml_model_is_normative" obligation="normative">
 <title depth="2">8.2.<tab/>The UML model is normative</title>
-<p id="_22a4ab23-11e6-9e60-73d9-bb38d59e3736">To be conformant to this UML conformance class, UML shall be used to express the
-object model, either as the core mechanism of the standard or as a normative adjunct
-to formally explain the standard in a model.</p>
-
-<ol id="_2148b51f-3ec7-d2dc-324a-b201a3e3e3b3" type="arabic"><li id="_30680ab3-3035-45db-a024-a8e055058771" label="1"><p id="_9e3db368-5147-3f86-ee66-bcd5947b6092">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li id="_895e554e-c8b0-4e72-a852-0c93b0b68367" label="2"><p id="_474414cd-0f52-82ce-1cbf-3d34f220f2ab">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li id="_b9c28073-bf6f-49c4-a00f-c609656ff99a" label="3"><p id="_ebf1a34b-1e31-b3bd-83dc-be9b851bc445">Reference: <xref target="req-02">[req-02]</xref></p>
-</li>
-<li id="_cbe6336b-a4b2-4571-80d4-2bd6295b3a4e" label="4"><p id="_17ec568f-3e47-8a25-55ce-ed779e3487ba">Test Type: Conformance.</p>
-</li>
-</ol>
+<table id="ats_uml_object-model" class="modspec" type="recommendtest"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTestTitle">Abstract test 2</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/conf/uml/object-model</tt></td>
+</tr><tr><th>Requirement</th><td><xref target="req_uml_object-model">Requirement 2: <tt>/req/uml/object-model</tt></xref></td></tr><tr><th>Test purpose</th><td><p id="_dbc39ba8-ed25-2380-017f-956595cea02e">Verify that UML was be used to express the object model, either as the core mechanism of the standard or as a normative adjunct to formally explain the standard in a model.</p>
+</td></tr><tr><th>Test method</th><td><p id="_74c5d3c5-c389-265f-0e20-08394343b03e">Inspect the document to verify the above.</p>
+</td></tr></tbody></table>
 </clause>
 
 <clause id="_dependency_graph_must_be_explicit" obligation="normative">
 <title depth="2">8.3.<tab/>Dependency graph must be explicit</title>
-<p id="_82eed45c-1a62-2dd2-a997-fbe78c33f11f">A UML model shall have an explicit dependency graph for the leaf packages and
-external packages used by the standard consistent with the way their classifiers use
-those of other packages.</p>
-
-<ol id="_da27b96e-2654-ba24-08f6-9e0ef1fe4941" type="arabic"><li id="_09f07318-98c0-47fd-a999-67efeae99080" label="1"><p id="_568928c9-d213-0259-52a1-0224f2190fbe">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li id="_354527ea-3f59-413c-88b0-c298835fe34e" label="2"><p id="_26839e23-32fb-c2ac-512c-e000e472aeab">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li id="_d626b9fd-faec-47a2-bab8-4f6489c34201" label="3"><p id="_bd638bbd-920f-91e5-3bea-b9e29f4ddf59">Reference: <xref target="req-03">[req-03]</xref></p>
-</li>
-<li id="_af46d7cb-099e-4199-b9c4-cda57a1ebcc8" label="4"><p id="_93268d44-0cc9-ef5f-83ea-19ad59f0d714">Test Type: Conformance.</p>
-</li>
-</ol>
+<table id="ats_uml_dependency-graph" class="modspec" type="recommendtest"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTestTitle">Abstract test 3</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/conf/uml/dependency-graph</tt></td>
+</tr><tr><th>Requirement</th><td><xref target="req_uml_dependency-graph">Requirement 3: <tt>/req/uml/dependency-graph</tt></xref></td></tr><tr><th>Test purpose</th><td><p id="_3515c948-818d-0f75-fb07-c4eee2683ed1">Verify that the UML model has an explicit dependency graph for the leaf packages and external packages used by the standard consistent with the way their classifiers use those of other packages.</p>
+</td></tr><tr><th>Test method</th><td><p id="_486cc87c-cce5-8f9e-79c4-eefd13140935">Inspect the document to verify the above.</p>
+</td></tr></tbody></table>
 </clause>
 
 <clause id="_leaf_packages_in_only_one_requirements_class" obligation="normative">
 <title depth="2">8.4.<tab/>Leaf packages in only one requirements class</title>
-<p id="_510463cf-e967-9d1f-f2b1-185aa14e624f">A UML leaf package shall be associated directly to only one requirements class.</p>
-
-<ol id="_e616afd4-0c19-991b-2910-141d0b0afd3b" type="arabic"><li id="_48232a72-0e00-41db-ac5e-8b93a4e7079c" label="1"><p id="_88aa4bf7-6198-4384-1b30-df7cdd383afc">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li id="_e3444a21-4b6e-4f27-bf8b-ad55b3b39000" label="2"><p id="_8000cb80-5732-2656-9653-30b38433bfdc">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li id="_d24db11d-02cd-4c63-94bc-489ebfd15f3f" label="3"><p id="_90bbb9d6-05ec-0c25-b560-4e6f6d13db48">Reference: <xref target="req-04">[req-04]</xref></p>
-</li>
-<li id="_c197dd4b-def4-4a24-a145-a5a163d29f26" label="4"><p id="_f08a656a-d7c6-fc70-27fb-031d39a94948">Test Type: Conformance.</p>
-</li>
-</ol>
+<table id="ats_uml_leaf-package" class="modspec" type="recommendtest"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTestTitle">Abstract test 4</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/conf/uml/leaf-package</tt></td>
+</tr><tr><th>Requirement</th><td><xref target="req_uml_leaf-package">Requirement 4: <tt>/req/uml/leaf-package</tt></xref></td></tr><tr><th>Test purpose</th><td><p id="_d9289326-a261-90bd-3a69-df86ac507ad8">Verify that all UML leaf packages are each associated directly to only one requirements class.</p>
+</td></tr><tr><th>Test method</th><td><p id="_5633c6c8-ad50-5352-4c3a-99664d84a779">Inspect the document to verify the above.</p>
+</td></tr></tbody></table>
 </clause>
 
 <clause id="_requirements_class_associated_to_a_unique_package" obligation="normative">
 <title depth="2">8.5.<tab/>Requirements class associated to a unique package</title>
-<p id="_d54ac045-ba42-b1d0-36af-25779b1656ca">Each requirements class shall be associated to a unique package in the model and
-include either directly or by a dependency any requirement associated to any of its
-subpackages.</p>
-
-<ol id="_c9e8d8ea-c394-72a1-b6b0-3d9e172eae67" type="arabic"><li id="_97976ae3-9ca1-4855-843b-8515fbdccfb3" label="1"><p id="_27a90c90-a7a9-be74-ff6a-803ba832df12">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li id="_503cfd75-702b-4bcf-b077-bd27d96b17fb" label="2"><p id="_90386364-eaac-703f-982c-39e48c21543d">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li id="_3309a32d-cd1e-4c85-b8c2-e73ab23da62d" label="3"><p id="_19629a47-ba89-fd13-0bcf-3359293160c5">Reference: <xref target="req-05">[req-05]</xref></p>
-</li>
-<li id="_4254ea1e-c66d-446f-9e48-4169026cb8af" label="4"><p id="_b09804e6-70d4-3ec5-0103-94e2bb166835">Test Type: Conformance.</p>
-</li>
-</ol>
+<table id="ats_uml_class-package" class="modspec" type="recommendtest"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTestTitle">Abstract test 5</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/conf/uml/class-package</tt></td>
+</tr><tr><th>Requirement</th><td><xref target="req_uml_class-package">Requirement 5: <tt>/req/uml/class-package</tt></xref></td></tr><tr><th>Test purpose</th><td><p id="_9246b6e6-d81e-a7c1-60c5-3f4a3f935baa">Verify that each requirements class has been associated to a unique package in the model and includes either directly or by a dependency any requirement associated to any of its subpackages.</p>
+</td></tr><tr><th>Test method</th><td><p id="_7d998704-a659-f049-cf26-1db02aea06b5">Inspect the document to verify the above.</p>
+</td></tr></tbody></table>
 </clause>
 
 <clause id="_a_requirements_class_contains_complete_leaf_packages" obligation="normative">
 <title depth="2">8.6.<tab/>A requirements class contains complete leaf packages</title>
-<p id="_dded850c-6bf2-4f64-3532-c9eb0d03451c">A requirements class shall be associated to some number of complete leaf packages
-and all classes and constraints in those packages.</p>
-
-<ol id="_ec503773-c994-b237-355b-698d8e32bfd1" type="arabic"><li id="_fb3fb2bc-e8ca-467c-aba6-8915e7e93827" label="1"><p id="_3fa0925e-336e-420a-b515-6b6fce911031">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li id="_44f21b0d-6d74-4693-9567-dd1207eaac87" label="2"><p id="_094dd620-f203-0ff5-c500-66c6d71d1ff0">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li id="_c63b7bfc-b9e0-42a2-b301-5b882eeab551" label="3"><p id="_ee70b793-f5cb-5594-7ab0-dc972256c963">Reference: <xref target="req-06">[req-06]</xref></p>
-</li>
-<li id="_d61d2e30-5f25-44e2-835e-494a3969278c" label="4"><p id="_1f910e93-269b-93bb-767a-4dbddbd2d6db">Test Type: Conformance.</p>
-</li>
-</ol>
+<table id="ats_uml_to-leaf" class="modspec" type="recommendtest"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTestTitle">Abstract test 6</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/conf/uml/to-leaf</tt></td>
+</tr><tr><th>Requirement</th><td><xref target="req_uml_to-leaf">Requirement 6: <tt>/req/uml/to-leaf</tt></xref></td></tr><tr><th>Test purpose</th><td><p id="_0a256c9b-d587-43bd-7f68-e9db13b6485e">Verify that each requirements class has been associated to some number of complete leaf packages and all classes and constraints in those packages.</p>
+</td></tr><tr><th>Test method</th><td><p id="_8ab6e0f0-fa0e-fa5a-8bc1-89db183b74bf">Inspect the document to verify the above.</p>
+</td></tr></tbody></table>
 </clause>
 
 <clause id="_classes_common_to_all_requirement_classes_are_in_the_core" obligation="normative">
 <title depth="2">8.7.<tab/>Classes common to all requirement classes are in the core</title>
-<p id="_f6e13210-6787-ebf2-676f-b6d1af5aa08b">Classes that are common to all requirements classes shall be in a package associated
-to the core conformance/requirements class.</p>
-
-<ol id="_4cf18614-081f-b153-1d96-fb838f12dfda" type="arabic"><li id="_bc26d6e7-b745-452d-ad71-2b7a632c8d6b" label="1"><p id="_087d3f7c-1189-9da3-5837-c6caa03ddc28">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li id="_ac89417a-e9bd-4f0a-b476-50a1197eed69" label="2"><p id="_4fbad5dc-4e69-17ba-b4eb-28dd09e61943">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li id="_4f925cc5-b018-4ef7-a322-3280a328e885" label="3"><p id="_f1ef2adb-4c4a-3f31-618b-131fabb00622">Reference: <xref target="req-07">[req-07]</xref>.</p>
-</li>
-<li id="_05ebbb60-2c43-4308-800e-e9ee3d9e9b30" label="4"><p id="_dfafa0f3-258e-d650-5b9c-39db28bceb22">Test Type: Conformance.</p>
-</li>
-</ol>
+<table id="ats_uml_common-req-class" class="modspec" type="recommendtest"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTestTitle">Abstract test 7</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/conf/uml/common-req-class</tt></td>
+</tr><tr><th>Requirement</th><td><xref target="req_uml_common-req-class">Requirement 7: <tt>/req/uml/common-req-class</tt></xref></td></tr><tr><th>Test purpose</th><td><p id="_20a3b881-060b-7834-1ab8-01bf0a55aaf4">Verify that any classes that are common to all requirements classes shall be in a package associated to the core conformance/requirements class.</p>
+</td></tr><tr><th>Test method</th><td><p id="_cf8e1b72-c524-9217-4ed0-5adf7d892fb9">Inspect the document to verify the above.</p>
+</td></tr></tbody></table>
 </clause>
 
 <clause id="_package_dependencies_become_requirements_class_extensions" obligation="normative">
 <title depth="2">8.8.<tab/>Package dependencies become requirements class extensions</title>
-<p id="_050c0e9c-ef72-5ab7-5bab-1b8b0f64e33b">In the UML model, if a “source” package is dependent on a “target” package then
-their requirements class shall be equal or the source package’s class shall be an
-extension of the target package’s class.</p>
-
-<ol id="_95595d9f-4693-6243-a00e-3f4f17c71315" type="arabic"><li id="_a2c4738b-21c0-40b0-9daf-6ca538e9c746" label="1"><p id="_573c2929-972b-3a2d-67d9-89eb86fa65d3">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li id="_adb0cff6-d638-4c31-af87-4c325772c963" label="2"><p id="_a86198d6-043e-12f1-7d05-8e9d00a10335">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li id="_5ca719e1-3907-44b6-b41e-0dedcbb76d4f" label="3"><p id="_9b7625f0-5cfd-4ae4-bb98-861e3b6fef21">Reference: <xref target="req-08">[req-08]</xref>.</p>
-</li>
-<li id="_6f75be7f-506a-4f01-8bdc-ea612dfe6c4c" label="4"><p id="_0c491664-a222-f12d-6cd9-87fa9f340fe6">Test Type: Conformance.</p>
-</li>
-</ol>
+<table id="ats_uml_source-target" class="modspec" type="recommendtest"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTestTitle">Abstract test 8</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/conf/uml/source-target</tt></td>
+</tr><tr><th>Requirement</th><td><xref target="req_uml_source-target">Requirement 8: <tt>/req/uml/source-target</tt></xref></td></tr><tr><th>Test purpose</th><td><p id="_029debf0-18ab-ca7a-66df-8c70a317caf9">Verify that if a “source” package in the UML model is dependent on a “target” package then the requirements classes are equal or the source package’s class is an extension of the target package’s class.</p>
+</td></tr><tr><th>Test method</th><td><p id="_2fcab0f6-2ef6-1866-dd6f-77f838d77cc4">Inspect the document to verify the above.</p>
+</td></tr></tbody></table>
 </clause>
 
-<clause id="_dependencies_in_packages_are_reflected_in_dependencies_in_requirements_classes" obligation="normative">
-<title depth="2">8.9.<tab/>Dependencies in packages are reflected in dependencies in requirements classes</title>
-<p id="_b71fee05-36d1-3315-83e9-46228e65bddb">If one leaf package is dependent on another leaf package, then the requirements
-class of the first shall be the same or an extension of the requirements class of
-the second.</p>
-
-<ol id="_8e2b61d0-d6bb-e1a2-51bb-e654929a7aab" type="arabic"><li id="_491171e1-1b8b-4d1e-b0d8-e7bc29852b68" label="1"><p id="_ddde0e6b-c2c6-4412-19a6-8cb9dd8fe4ac">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li id="_4534aa3c-ffc6-4b00-8ada-f97762b1ca38" label="2"><p id="_e5d70e3f-61e0-f825-13a0-d54567e9ba21">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li id="_30cd93b0-375a-4a63-b8ee-a43017300b85" label="3"><p id="_748dcfa4-f35f-3b1c-6ae3-4903ad0f45bb">Reference: <xref target="req-09">[req-09]</xref>.</p>
-</li>
-<li id="_27cda3d1-b2d9-4d17-8788-ec26b392d048" label="4"><p id="_2ba95ecb-f31d-a3aa-af7e-d5e29a6823f2">Test Type: Conformance.</p>
-</li>
-</ol>
+<clause id="_dependencies_in_packages_are_reflected_in_dependencies_in_req" obligation="normative">
+<title depth="2">8.9.<tab/>Dependencies in packages are reflected in dependencies in req</title>
+<table id="ats_uml_leaf-package-dependency" class="modspec" type="recommendtest"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTestTitle">Abstract test 9</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/conf/uml/leaf-package-dependency</tt></td>
+</tr><tr><th>Requirement</th><td><xref target="req_uml_leaf-package-dependency">Requirement 9: <tt>/req/uml/leaf-package-dependency</tt></xref></td></tr><tr><th>Test purpose</th><td><p id="_88c90c56-347d-872e-c5e8-7343971a7689">Verify that if one leaf package is dependent on another leaf package, then the requirements class of the first is the same or an extension of the requirements class of the second.</p>
+</td></tr><tr><th>Test method</th><td><p id="_4ff3d269-5d18-1bd0-5b70-876d2b243289">Inspect the document to verify the above.</p>
+</td></tr></tbody></table>
 </clause>
 
 <clause id="_co_dependent_packages_are_in_the_same_requirements_class" obligation="normative">
 <title depth="2">8.10.<tab/>Co-dependent packages are in the same requirements class</title>
-<p id="_2027a21a-4460-d645-2f22-febe089ad450">If two packages have a two-way dependency (a “co-dependency”), they shall be
-associated to the same requirements class.</p>
-
-<ol id="_3b81e163-fc4c-b139-1675-7fbfe0601bd3" type="arabic"><li id="_7ab12190-6e12-438e-aa5e-f432bcaa5a7f" label="1"><p id="_b76c7e44-515c-f6e0-8754-0a68c6dcf0c1">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li id="_859d96c6-f60a-4242-a003-103edf832f33" label="2"><p id="_eb498cae-7e78-684a-3d7d-401b52b465ff">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li id="_9cb1fc94-27cb-4caa-a3bb-1292c369aae3" label="3"><p id="_3e37c5d5-032a-a0cc-dba9-4c2282db337f">Reference: <xref target="req-10">[req-10]</xref></p>
-</li>
-<li id="_f9cdbf2f-9946-472c-be7f-57f6450155b1" label="4"><p id="_072fcc42-2ffa-ff61-7598-5bc4d0b29218">Test Type: Conformance.</p>
-</li>
-</ol>
+<table id="ats_uml_two-way-dependency" class="modspec" type="recommendtest"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTestTitle">Abstract test 10</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/conf/uml/two-way-dependency</tt></td>
+</tr><tr><th>Requirement</th><td><xref target="req_uml_two-way-dependency">Requirement 10: <tt>/req/uml/two-way-dependency</tt></xref></td></tr><tr><th>Test purpose</th><td><p id="_846b5bf0-c28d-005f-ddb6-a27b0c0b4036">Verify that if two packages have a two-way dependency (a “co-dependency”), then they are associated to the same requirements class.</p>
+</td></tr><tr><th>Test method</th><td><p id="_3dc1d244-b556-c8c8-078f-df50228e3aef">Inspect the document to verify the above.</p>
+</td></tr></tbody></table>
 </clause>
 
 <clause id="_all_classes_are_in_leaf_packages" obligation="normative">
 <title depth="2">8.11.<tab/>All classes are in leaf packages</title>
-<p id="_ef7183fb-31e5-77dd-f805-b673d8d929fb">The UML model shall segregate all classes into leaf packages.</p>
-
-<ol id="_79e7b62c-2695-1707-8786-107cfe83cde8" type="arabic"><li id="_c8f5d185-6836-4998-b620-29eb4d80f3cc" label="1"><p id="_f72f3e93-9840-f98b-e0c2-05687b99df9d">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li id="_ad4cbf87-6da2-4e60-ab13-d8e331068643" label="2"><p id="_6f6b6a79-89a2-af7f-6b88-7f6ed5811712">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li id="_8272b5b7-a4c7-4ed7-97e7-6b36dac2d757" label="3"><p id="_0413a0af-2e72-0270-9321-fafde07908a3">Reference: <xref target="req-11">[req-11]</xref></p>
-</li>
-<li id="_1fb25b2a-ca38-480a-99a5-3c828cd8859f" label="4"><p id="_750ee94d-18cb-bfda-d1b3-774f6b193675">Test Type: Conformance.</p>
-</li>
-</ol>
+<table id="ats_uml_segregate-into-leaf-packages" class="modspec" type="recommendtest"><thead><tr><th scope="colgroup" colspan="2"><p class="RecommendationTestTitle">Abstract test 11</p></th></tr></thead><tbody><tr><th>Identifier</th>
+<td><tt>/conf/uml/segregate-into-leaf-packages</tt></td>
+</tr><tr><th>Requirement</th><td><xref target="req_uml_segregate-into-leaf-packages">Requirement 11: <tt>/req/uml/segregate-into-leaf-packages</tt></xref></td></tr><tr><th>Test purpose</th><td><p id="_d7ee31a5-e5c1-d66d-74e8-6ccefe7076c5">Verify that the UML model has segregated all classes into leaf packages.</p>
+</td></tr><tr><th>Test method</th><td><p id="_b26ba291-b624-2232-a3ae-87926633a56e">Inspect the document to verify the above.</p>
+</td></tr></tbody></table>
 </clause>
 </clause>
 <references id="cls-3" normative="true" obligation="informative" displayorder="14">

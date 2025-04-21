@@ -1,0 +1,9 @@
+[[ats_uml_conformance-with-core]]
+[abstract_test]
+====
+[%metadata]
+identifier:: /conf/uml/conformance-with-core
+target:: /req/uml/conformance-with-core
+test-purpose:: Verify that an implementation passing the UML conformance test class has first passed the core conformance test class.
+test-method:: Inspect the document to verify the above.
+====

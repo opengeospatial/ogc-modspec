@@ -1,0 +1,9 @@
+[[ats_uml_two-way-dependency]]
+[abstract_test]
+====
+[%metadata]
+identifier:: /conf/uml/two-way-dependency
+target:: /req/uml/two-way-dependency
+test-purpose:: Verify that if two packages have a two-way dependency (a “co-dependency”), then they are associated to the same requirements class.
+test-method:: Inspect the document to verify the above.
+====

@@ -1,0 +1,9 @@
+[[ats_uml_segregate-into-leaf-packages]]
+[abstract_test]
+====
+[%metadata]
+identifier:: /conf/uml/segregate-into-leaf-packages
+target:: /req/uml/segregate-into-leaf-packages
+test-purpose:: Verify that the UML model has segregated all classes into leaf packages.
+test-method:: Inspect the document to verify the above.
+====

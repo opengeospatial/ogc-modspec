@@ -1,0 +1,9 @@
+[[ats_uml_leaf-package-dependency]]
+[abstract_test]
+====
+[%metadata]
+identifier:: /conf/uml/leaf-package-dependency
+target:: /req/uml/leaf-package-dependency
+test-purpose:: Verify that if one leaf package is dependent on another leaf package, then the requirements class of the first is the same or an extension of the requirements class of the second.
+test-method:: Inspect the document to verify the above.
+====

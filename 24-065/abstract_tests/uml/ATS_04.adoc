@@ -1,0 +1,9 @@
+[[ats_uml_leaf-package]]
+[abstract_test]
+====
+[%metadata]
+identifier:: /conf/uml/leaf-package
+target:: /req/uml/leaf-package
+test-purpose:: Verify that all UML leaf packages are each associated directly to only one requirements class.
+test-method:: Inspect the document to verify the above.
+====

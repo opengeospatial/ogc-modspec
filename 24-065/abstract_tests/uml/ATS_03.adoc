@@ -1,0 +1,9 @@
+[[ats_uml_dependency-graph]]
+[abstract_test]
+====
+[%metadata]
+identifier:: /conf/uml/dependency-graph
+target:: /req/uml/dependency-graph
+test-purpose:: Verify that the UML model has an explicit dependency graph for the leaf packages and external packages used by the standard consistent with the way their classifiers use those of other packages.
+test-method:: Inspect the document to verify the above.
+====

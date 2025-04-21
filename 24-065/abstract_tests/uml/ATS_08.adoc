@@ -1,0 +1,9 @@
+[[ats_uml_source-target]]
+[abstract_test]
+====
+[%metadata]
+identifier:: /conf/uml/source-target
+target:: /req/uml/source-target
+test-purpose:: Verify that if a “source” package in the UML model is dependent on a “target” package then the requirements classes are equal or the source package’s class is an extension of the target package’s class.
+test-method:: Inspect the document to verify the above.
+====

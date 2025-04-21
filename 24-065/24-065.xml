@@ -35,7 +35,7 @@ encouraged. Such suggestions may be submitted by creating an issue in the GitHub
 repository for this document (<link target="https://github.com/opengeospatial/ogc-modspec"/>).</p>
 </abstract><status><stage>draft</stage></status><copyright><from>2025</from><owner><organization>
 <name>Open Geospatial Consortium</name>
-<abbreviation>OGC</abbreviation></organization></owner></copyright><keyword>ogcdoc</keyword><keyword>OGC document</keyword><keyword>ModSpec</keyword><keyword>UML</keyword><ext><doctype>standard</doctype><subdoctype>implementation</subdoctype><editorialgroup><committee>technical</committee></editorialgroup></ext></bibdata><metanorma-extension><table id="_misccontainer_anchor_aliases"><tbody><tr><th>req_class-uml</th><td>https://www.opengis.net/spec/modspec-2/1.1/req/req-class-uml</td></tr><tr><th>_3dc0688d-9d19-471b-a951-119df0814fb5</th><td>/req/uml/conformance-with-core</td></tr><tr><th>_155e7b03-fdce-47dc-8fea-3b6546dbcdcd</th><td>/req/uml/object-model</td></tr><tr><th>_e3620ac6-1f53-46ec-961b-20a580538fc9</th><td>/req/uml/dependency-graph</td></tr><tr><th>_bec2f8b6-7642-4453-9f5e-00872987e170</th><td>/req/uml/leaf-package</td></tr><tr><th>_8378543c-c899-4fd3-a139-ffa429ffc673</th><td>/req/uml/class-package</td></tr><tr><th>_a3a9f5c7-b0dc-4b50-8b0b-9b6284ea8d07</th><td>/req/uml/to-leaf</td></tr><tr><th>_d4b7f792-fbc7-4b50-9aad-2358af3c817e</th><td>/req/uml/common-req-class</td></tr><tr><th>_c92dcbee-4f79-4d06-9185-7eb117da5bb1</th><td>/req/uml/source-target</td></tr><tr><th>_395f7931-0a6e-4ab7-8ab0-a243a5b575f2</th><td>/req/uml/leaf-package-dependency</td></tr><tr><th>_faa7203a-5193-4975-bb5c-0339ed2a032c</th><td>/req/uml/two-way-dependency</td></tr><tr><th>_53bfdcfe-510f-42a9-ada2-45913055ab97</th><td>/req/uml/segregate-into-leaf-packages</td></tr><tr><th>req_uml_conformance-with-core</th><td>/req/uml/conformance-with-core</td></tr><tr><th>req_uml_object-model</th><td>/req/uml/object-model</td></tr><tr><th>req_uml_dependency-graph</th><td>/req/uml/dependency-graph</td></tr><tr><th>req_uml_leaf-package</th><td>/req/uml/leaf-package</td></tr><tr><th>req_uml_class-package</th><td>/req/uml/class-package</td></tr><tr><th>req_uml_to-leaf</th><td>/req/uml/to-leaf</td></tr><tr><th>req_uml_common-req-class</th><td>/req/uml/common-req-class</td></tr><tr><th>req_uml_source-target</th><td>/req/uml/source-target</td></tr><tr><th>req_uml_leaf-package-dependency</th><td>/req/uml/leaf-package-dependency</td></tr><tr><th>req_uml_two-way-dependency</th><td>/req/uml/two-way-dependency</td></tr><tr><th>req_uml_segregate-into-leaf-packages</th><td>/req/uml/segregate-into-leaf-packages</td></tr></tbody></table><presentation-metadata><name>TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>HTML TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>DOC TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>PDF TOC Heading Levels</name><value>2</value></presentation-metadata></metanorma-extension>
+<abbreviation>OGC</abbreviation></organization></owner></copyright><keyword>ogcdoc</keyword><keyword>OGC document</keyword><keyword>ModSpec</keyword><keyword>UML</keyword><ext><doctype>standard</doctype><subdoctype>implementation</subdoctype><editorialgroup><committee>technical</committee></editorialgroup></ext></bibdata><metanorma-extension><table id="_misccontainer_anchor_aliases"><tbody><tr><th>req_class-uml</th><td>https://www.opengis.net/spec/modspec-2/1.1/req/req-class-uml</td></tr><tr><th>_4930069f-41f3-499d-affc-bcd7338c81fc</th><td>/req/uml/conformance-with-core</td></tr><tr><th>_c4d26577-1fdb-44af-ad60-aee9cc06d63b</th><td>/req/uml/object-model</td></tr><tr><th>_3d2e8c2d-fa5c-47a9-8639-056a8aac6179</th><td>/req/uml/dependency-graph</td></tr><tr><th>_4bd7142f-6080-4454-bf96-6a5e8c3764b4</th><td>/req/uml/leaf-package</td></tr><tr><th>_995897f3-1c0d-4ba0-b201-74e5f976c4f4</th><td>/req/uml/class-package</td></tr><tr><th>_101ba700-8f54-4576-8b88-75f5737affeb</th><td>/req/uml/to-leaf</td></tr><tr><th>_e2b739ac-095b-4a8b-a237-e9c98a8e15af</th><td>/req/uml/common-req-class</td></tr><tr><th>_963ee443-2961-4a9a-bbfa-eddea551a8db</th><td>/req/uml/source-target</td></tr><tr><th>_9c998e9a-1665-453c-9ee7-0b4d70bcaa39</th><td>/req/uml/leaf-package-dependency</td></tr><tr><th>_4cba4563-82a0-41d9-8e89-539319fe89a1</th><td>/req/uml/two-way-dependency</td></tr><tr><th>_a6fd1be0-4ac5-438a-bf9b-c55f476f41ef</th><td>/req/uml/segregate-into-leaf-packages</td></tr><tr><th>req_uml_conformance-with-core</th><td>/req/uml/conformance-with-core</td></tr><tr><th>req_uml_object-model</th><td>/req/uml/object-model</td></tr><tr><th>req_uml_dependency-graph</th><td>/req/uml/dependency-graph</td></tr><tr><th>req_uml_leaf-package</th><td>/req/uml/leaf-package</td></tr><tr><th>req_uml_class-package</th><td>/req/uml/class-package</td></tr><tr><th>req_uml_to-leaf</th><td>/req/uml/to-leaf</td></tr><tr><th>req_uml_common-req-class</th><td>/req/uml/common-req-class</td></tr><tr><th>req_uml_source-target</th><td>/req/uml/source-target</td></tr><tr><th>req_uml_leaf-package-dependency</th><td>/req/uml/leaf-package-dependency</td></tr><tr><th>req_uml_two-way-dependency</th><td>/req/uml/two-way-dependency</td></tr><tr><th>req_uml_segregate-into-leaf-packages</th><td>/req/uml/segregate-into-leaf-packages</td></tr><tr><th>ats_uml</th><td>https://www.opengis.net/spec/modspec-2/1.1/conf/uml</td></tr><tr><th>_644d2558-6571-4262-8739-6a694271820c</th><td>/conf/uml/conformance-with-core</td></tr><tr><th>_922f35d8-ce5b-489d-9295-533f1c6233ce</th><td>/conf/uml/object-model</td></tr><tr><th>_12e22e3c-42a6-443c-b4f2-3a9409cc4ef8</th><td>/conf/uml/dependency-graph</td></tr><tr><th>_7707035c-58fe-45bb-ad5e-14c22de859eb</th><td>/conf/uml/leaf-package</td></tr><tr><th>_37a1dd23-1e02-4326-a9a7-5636ba364ecd</th><td>/conf/uml/class-package</td></tr><tr><th>_86f07c37-5649-4a7c-80cf-74d0814ede52</th><td>/conf/uml/to-leaf</td></tr><tr><th>_4da433b5-fc8e-4aa2-8719-4f6f82140cba</th><td>/conf/uml/common-req-class</td></tr><tr><th>_b887bd3b-59e7-4a47-87b5-dffcb63ad94b</th><td>/conf/uml/source-target</td></tr><tr><th>_655b3485-c04c-4317-978d-3f487bc1aada</th><td>/conf/uml/leaf-package-dependency</td></tr><tr><th>_6cd12887-5822-45b6-97f6-a73d920e7d3b</th><td>/conf/uml/two-way-dependency</td></tr><tr><th>_a4b71b84-f116-49ec-a044-d2782da8a2d0</th><td>/conf/uml/segregate-into-leaf-packages</td></tr><tr><th>ats_uml_conformance-with-core</th><td>/conf/uml/conformance-with-core</td></tr><tr><th>ats_uml_object-model</th><td>/conf/uml/object-model</td></tr><tr><th>ats_uml_dependency-graph</th><td>/conf/uml/dependency-graph</td></tr><tr><th>ats_uml_leaf-package</th><td>/conf/uml/leaf-package</td></tr><tr><th>ats_uml_class-package</th><td>/conf/uml/class-package</td></tr><tr><th>ats_uml_to-leaf</th><td>/conf/uml/to-leaf</td></tr><tr><th>ats_uml_common-req-class</th><td>/conf/uml/common-req-class</td></tr><tr><th>ats_uml_source-target</th><td>/conf/uml/source-target</td></tr><tr><th>ats_uml_leaf-package-dependency</th><td>/conf/uml/leaf-package-dependency</td></tr><tr><th>ats_uml_two-way-dependency</th><td>/conf/uml/two-way-dependency</td></tr><tr><th>ats_uml_segregate-into-leaf-packages</th><td>/conf/uml/segregate-into-leaf-packages</td></tr></tbody></table><presentation-metadata><name>TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>HTML TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>DOC TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>PDF TOC Heading Levels</name><value>2</value></presentation-metadata></metanorma-extension>
 <boilerplate><copyright-statement>
 
 <clause id="_copyright_notice" obligation="normative">
@@ -535,185 +535,97 @@ package of the original class.</p>
 </clause>
 </clause>
 
-<clause id="annex-A-1" obligation="normative">
+<clause id="annex-A" obligation="normative">
 <title>Conformance test class: UML model extends The Standard</title>
+<requirement id="ats_uml" model="ogc" type="conformanceclass"> <identifier>https://www.opengis.net/spec/modspec-2/1.1/conf/uml</identifier><classification><tag>Target Type</tag><value>Web API</value></classification><classification><tag>target</tag><value>https://www.opengis.net/spec/modspec-2/1.1/req/req-class-uml</value></classification><requirement id="_0402b720-9f53-10d4-8ed2-243a8af067bc" model="ogc" type="abstracttest"> <identifier>/conf/uml/conformance-with-core</identifier></requirement><requirement id="_fa15dd60-3843-7201-6782-c8ac5a11a0e2" model="ogc" type="abstracttest"> <identifier>/conf/uml/object-model</identifier></requirement><requirement id="_11e23565-1838-f979-9734-1517272c8ba9" model="ogc" type="abstracttest"> <identifier>/conf/uml/dependency-graph</identifier></requirement><requirement id="_76094a45-e595-7f06-f672-0a0515049289" model="ogc" type="abstracttest"> <identifier>/conf/uml/leaf-package</identifier></requirement><requirement id="_46fbd482-9b48-0833-2873-ebf047cb73cf" model="ogc" type="abstracttest"> <identifier>/conf/uml/class-package</identifier></requirement><requirement id="_9770de7d-d40d-ae29-323d-7745eb96b644" model="ogc" type="abstracttest"> <identifier>/conf/uml/to-leaf</identifier></requirement><requirement id="_76fad5e8-3748-c6e9-311c-fc9e70414786" model="ogc" type="abstracttest"> <identifier>/conf/uml/common-req-class</identifier></requirement><requirement id="_2d43f2a2-9025-1940-8c80-9b1c5555558a" model="ogc" type="abstracttest"> <identifier>/conf/uml/source-target</identifier></requirement><requirement id="_da4e516a-0549-f533-6e3a-f79d1131caef" model="ogc" type="abstracttest"> <identifier>/conf/uml/leaf-package-dependency</identifier></requirement><requirement id="_769eb25b-4759-5f3c-9bd9-d09a42610a0b" model="ogc" type="abstracttest"> <identifier>/conf/uml/two-way-dependency</identifier></requirement><requirement id="_b6b8fe7b-5225-b987-90cf-03222c342d84" model="ogc" type="abstracttest"> <identifier>/conf/uml/segregate-into-leaf-packages</identifier></requirement>
+</requirement>
+
 <clause id="_dependency_on_core" obligation="normative">
 <title>Dependency on Core</title>
-<p id="_5643e02d-30f5-dd96-37a3-d47e54b1ab31">An implementation passing the UML conformance test class shall first pass the core
-conformance test class.</p>
-
-<ol id="_896413ef-5fae-cafa-708e-adece432c53f" type="arabic"><li><p id="_d7901ea9-59d1-58ef-c044-4d07b89f7e14">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li><p id="_20ea0bef-93e1-2a71-0e69-26187399a31f">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li><p id="_7f713636-dd14-7c57-56fb-11c7d57d51e7">Reference: <xref target="req-01"/></p>
-</li>
-<li><p id="_185b2049-935c-4eb3-21c7-3c83b0172a43">Test Type: Conformance.</p>
-</li>
-</ol>
+<requirement id="ats_uml_conformance-with-core" model="ogc" type="abstracttest"> <identifier>/conf/uml/conformance-with-core</identifier><classification><tag>target</tag><value>/req/uml/conformance-with-core</value></classification><component class="test-purpose"><p id="_c52324e0-55f4-6ff6-03f5-c1e12e04ed1b">Verify that an implementation passing the UML conformance test class has first passed the core conformance test class.</p>
+</component><component class="test-method"><p id="_71d9485e-1ffa-e7a7-90b7-88dbdb3f227e">Inspect the document to verify the above.</p>
+</component>
+</requirement>
 </clause>
 
 <clause id="_the_uml_model_is_normative" obligation="normative">
 <title>The UML model is normative</title>
-<p id="_22a4ab23-11e6-9e60-73d9-bb38d59e3736">To be conformant to this UML conformance class, UML shall be used to express the
-object model, either as the core mechanism of the standard or as a normative adjunct
-to formally explain the standard in a model.</p>
-
-<ol id="_2148b51f-3ec7-d2dc-324a-b201a3e3e3b3" type="arabic"><li><p id="_9e3db368-5147-3f86-ee66-bcd5947b6092">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li><p id="_474414cd-0f52-82ce-1cbf-3d34f220f2ab">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li><p id="_ebf1a34b-1e31-b3bd-83dc-be9b851bc445">Reference: <xref target="req-02"/></p>
-</li>
-<li><p id="_17ec568f-3e47-8a25-55ce-ed779e3487ba">Test Type: Conformance.</p>
-</li>
-</ol>
+<requirement id="ats_uml_object-model" model="ogc" type="abstracttest"> <identifier>/conf/uml/object-model</identifier><classification><tag>target</tag><value>/req/uml/object-model</value></classification><component class="test-purpose"><p id="_dbc39ba8-ed25-2380-017f-956595cea02e">Verify that UML was be used to express the object model, either as the core mechanism of the standard or as a normative adjunct to formally explain the standard in a model.</p>
+</component><component class="test-method"><p id="_74c5d3c5-c389-265f-0e20-08394343b03e">Inspect the document to verify the above.</p>
+</component>
+</requirement>
 </clause>
 
 <clause id="_dependency_graph_must_be_explicit" obligation="normative">
 <title>Dependency graph must be explicit</title>
-<p id="_82eed45c-1a62-2dd2-a997-fbe78c33f11f">A UML model shall have an explicit dependency graph for the leaf packages and
-external packages used by the standard consistent with the way their classifiers use
-those of other packages.</p>
-
-<ol id="_da27b96e-2654-ba24-08f6-9e0ef1fe4941" type="arabic"><li><p id="_568928c9-d213-0259-52a1-0224f2190fbe">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li><p id="_26839e23-32fb-c2ac-512c-e000e472aeab">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li><p id="_bd638bbd-920f-91e5-3bea-b9e29f4ddf59">Reference: <xref target="req-03"/></p>
-</li>
-<li><p id="_93268d44-0cc9-ef5f-83ea-19ad59f0d714">Test Type: Conformance.</p>
-</li>
-</ol>
+<requirement id="ats_uml_dependency-graph" model="ogc" type="abstracttest"> <identifier>/conf/uml/dependency-graph</identifier><classification><tag>target</tag><value>/req/uml/dependency-graph</value></classification><component class="test-purpose"><p id="_3515c948-818d-0f75-fb07-c4eee2683ed1">Verify that the UML model has an explicit dependency graph for the leaf packages and external packages used by the standard consistent with the way their classifiers use those of other packages.</p>
+</component><component class="test-method"><p id="_486cc87c-cce5-8f9e-79c4-eefd13140935">Inspect the document to verify the above.</p>
+</component>
+</requirement>
 </clause>
 
 <clause id="_leaf_packages_in_only_one_requirements_class" obligation="normative">
 <title>Leaf packages in only one requirements class</title>
-<p id="_510463cf-e967-9d1f-f2b1-185aa14e624f">A UML leaf package shall be associated directly to only one requirements class.</p>
-
-<ol id="_e616afd4-0c19-991b-2910-141d0b0afd3b" type="arabic"><li><p id="_88aa4bf7-6198-4384-1b30-df7cdd383afc">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li><p id="_8000cb80-5732-2656-9653-30b38433bfdc">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li><p id="_90bbb9d6-05ec-0c25-b560-4e6f6d13db48">Reference: <xref target="req-04"/></p>
-</li>
-<li><p id="_f08a656a-d7c6-fc70-27fb-031d39a94948">Test Type: Conformance.</p>
-</li>
-</ol>
+<requirement id="ats_uml_leaf-package" model="ogc" type="abstracttest"> <identifier>/conf/uml/leaf-package</identifier><classification><tag>target</tag><value>/req/uml/leaf-package</value></classification><component class="test-purpose"><p id="_d9289326-a261-90bd-3a69-df86ac507ad8">Verify that all UML leaf packages are each associated directly to only one requirements class.</p>
+</component><component class="test-method"><p id="_5633c6c8-ad50-5352-4c3a-99664d84a779">Inspect the document to verify the above.</p>
+</component>
+</requirement>
 </clause>
 
 <clause id="_requirements_class_associated_to_a_unique_package" obligation="normative">
 <title>Requirements class associated to a unique package</title>
-<p id="_d54ac045-ba42-b1d0-36af-25779b1656ca">Each requirements class shall be associated to a unique package in the model and
-include either directly or by a dependency any requirement associated to any of its
-subpackages.</p>
-
-<ol id="_c9e8d8ea-c394-72a1-b6b0-3d9e172eae67" type="arabic"><li><p id="_27a90c90-a7a9-be74-ff6a-803ba832df12">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li><p id="_90386364-eaac-703f-982c-39e48c21543d">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li><p id="_19629a47-ba89-fd13-0bcf-3359293160c5">Reference: <xref target="req-05"/></p>
-</li>
-<li><p id="_b09804e6-70d4-3ec5-0103-94e2bb166835">Test Type: Conformance.</p>
-</li>
-</ol>
+<requirement id="ats_uml_class-package" model="ogc" type="abstracttest"> <identifier>/conf/uml/class-package</identifier><classification><tag>target</tag><value>/req/uml/class-package</value></classification><component class="test-purpose"><p id="_9246b6e6-d81e-a7c1-60c5-3f4a3f935baa">Verify that each requirements class has been associated to a unique package in the model and includes either directly or by a dependency any requirement associated to any of its subpackages.</p>
+</component><component class="test-method"><p id="_7d998704-a659-f049-cf26-1db02aea06b5">Inspect the document to verify the above.</p>
+</component>
+</requirement>
 </clause>
 
 <clause id="_a_requirements_class_contains_complete_leaf_packages" obligation="normative">
 <title>A requirements class contains complete leaf packages</title>
-<p id="_dded850c-6bf2-4f64-3532-c9eb0d03451c">A requirements class shall be associated to some number of complete leaf packages
-and all classes and constraints in those packages.</p>
-
-<ol id="_ec503773-c994-b237-355b-698d8e32bfd1" type="arabic"><li><p id="_3fa0925e-336e-420a-b515-6b6fce911031">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li><p id="_094dd620-f203-0ff5-c500-66c6d71d1ff0">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li><p id="_ee70b793-f5cb-5594-7ab0-dc972256c963">Reference: <xref target="req-06"/></p>
-</li>
-<li><p id="_1f910e93-269b-93bb-767a-4dbddbd2d6db">Test Type: Conformance.</p>
-</li>
-</ol>
+<requirement id="ats_uml_to-leaf" model="ogc" type="abstracttest"> <identifier>/conf/uml/to-leaf</identifier><classification><tag>target</tag><value>/req/uml/to-leaf</value></classification><component class="test-purpose"><p id="_0a256c9b-d587-43bd-7f68-e9db13b6485e">Verify that each requirements class has been associated to some number of complete leaf packages and all classes and constraints in those packages.</p>
+</component><component class="test-method"><p id="_8ab6e0f0-fa0e-fa5a-8bc1-89db183b74bf">Inspect the document to verify the above.</p>
+</component>
+</requirement>
 </clause>
 
 <clause id="_classes_common_to_all_requirement_classes_are_in_the_core" obligation="normative">
 <title>Classes common to all requirement classes are in the core</title>
-<p id="_f6e13210-6787-ebf2-676f-b6d1af5aa08b">Classes that are common to all requirements classes shall be in a package associated
-to the core conformance/requirements class.</p>
-
-<ol id="_4cf18614-081f-b153-1d96-fb838f12dfda" type="arabic"><li><p id="_087d3f7c-1189-9da3-5837-c6caa03ddc28">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li><p id="_4fbad5dc-4e69-17ba-b4eb-28dd09e61943">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li><p id="_f1ef2adb-4c4a-3f31-618b-131fabb00622">Reference: <xref target="req-07"/>.</p>
-</li>
-<li><p id="_dfafa0f3-258e-d650-5b9c-39db28bceb22">Test Type: Conformance.</p>
-</li>
-</ol>
+<requirement id="ats_uml_common-req-class" model="ogc" type="abstracttest"> <identifier>/conf/uml/common-req-class</identifier><classification><tag>target</tag><value>/req/uml/common-req-class</value></classification><component class="test-purpose"><p id="_20a3b881-060b-7834-1ab8-01bf0a55aaf4">Verify that any classes that are common to all requirements classes shall be in a package associated to the core conformance/requirements class.</p>
+</component><component class="test-method"><p id="_cf8e1b72-c524-9217-4ed0-5adf7d892fb9">Inspect the document to verify the above.</p>
+</component>
+</requirement>
 </clause>
 
 <clause id="_package_dependencies_become_requirements_class_extensions" obligation="normative">
 <title>Package dependencies become requirements class extensions</title>
-<p id="_050c0e9c-ef72-5ab7-5bab-1b8b0f64e33b">In the UML model, if a “source” package is dependent on a “target” package then
-their requirements class shall be equal or the source package’s class shall be an
-extension of the target package’s class.</p>
-
-<ol id="_95595d9f-4693-6243-a00e-3f4f17c71315" type="arabic"><li><p id="_573c2929-972b-3a2d-67d9-89eb86fa65d3">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li><p id="_a86198d6-043e-12f1-7d05-8e9d00a10335">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li><p id="_9b7625f0-5cfd-4ae4-bb98-861e3b6fef21">Reference: <xref target="req-08"/>.</p>
-</li>
-<li><p id="_0c491664-a222-f12d-6cd9-87fa9f340fe6">Test Type: Conformance.</p>
-</li>
-</ol>
+<requirement id="ats_uml_source-target" model="ogc" type="abstracttest"> <identifier>/conf/uml/source-target</identifier><classification><tag>target</tag><value>/req/uml/source-target</value></classification><component class="test-purpose"><p id="_029debf0-18ab-ca7a-66df-8c70a317caf9">Verify that if a “source” package in the UML model is dependent on a “target” package then the requirements classes are equal or the source package’s class is an extension of the target package’s class.</p>
+</component><component class="test-method"><p id="_2fcab0f6-2ef6-1866-dd6f-77f838d77cc4">Inspect the document to verify the above.</p>
+</component>
+</requirement>
 </clause>
 
-<clause id="_dependencies_in_packages_are_reflected_in_dependencies_in_requirements_classes" obligation="normative">
-<title>Dependencies in packages are reflected in dependencies in requirements classes</title>
-<p id="_b71fee05-36d1-3315-83e9-46228e65bddb">If one leaf package is dependent on another leaf package, then the requirements
-class of the first shall be the same or an extension of the requirements class of
-the second.</p>
-
-<ol id="_8e2b61d0-d6bb-e1a2-51bb-e654929a7aab" type="arabic"><li><p id="_ddde0e6b-c2c6-4412-19a6-8cb9dd8fe4ac">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li><p id="_e5d70e3f-61e0-f825-13a0-d54567e9ba21">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li><p id="_748dcfa4-f35f-3b1c-6ae3-4903ad0f45bb">Reference: <xref target="req-09"/>.</p>
-</li>
-<li><p id="_2ba95ecb-f31d-a3aa-af7e-d5e29a6823f2">Test Type: Conformance.</p>
-</li>
-</ol>
+<clause id="_dependencies_in_packages_are_reflected_in_dependencies_in_req" obligation="normative">
+<title>Dependencies in packages are reflected in dependencies in req</title>
+<requirement id="ats_uml_leaf-package-dependency" model="ogc" type="abstracttest"> <identifier>/conf/uml/leaf-package-dependency</identifier><classification><tag>target</tag><value>/req/uml/leaf-package-dependency</value></classification><component class="test-purpose"><p id="_88c90c56-347d-872e-c5e8-7343971a7689">Verify that if one leaf package is dependent on another leaf package, then the requirements class of the first is the same or an extension of the requirements class of the second.</p>
+</component><component class="test-method"><p id="_4ff3d269-5d18-1bd0-5b70-876d2b243289">Inspect the document to verify the above.</p>
+</component>
+</requirement>
 </clause>
 
 <clause id="_co_dependent_packages_are_in_the_same_requirements_class" obligation="normative">
 <title>Co-dependent packages are in the same requirements class</title>
-<p id="_2027a21a-4460-d645-2f22-febe089ad450">If two packages have a two-way dependency (a “co-dependency”), they shall be
-associated to the same requirements class.</p>
-
-<ol id="_3b81e163-fc4c-b139-1675-7fbfe0601bd3" type="arabic"><li><p id="_b76c7e44-515c-f6e0-8754-0a68c6dcf0c1">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li><p id="_eb498cae-7e78-684a-3d7d-401b52b465ff">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li><p id="_3e37c5d5-032a-a0cc-dba9-4c2282db337f">Reference: <xref target="req-10"/></p>
-</li>
-<li><p id="_072fcc42-2ffa-ff61-7598-5bc4d0b29218">Test Type: Conformance.</p>
-</li>
-</ol>
+<requirement id="ats_uml_two-way-dependency" model="ogc" type="abstracttest"> <identifier>/conf/uml/two-way-dependency</identifier><classification><tag>target</tag><value>/req/uml/two-way-dependency</value></classification><component class="test-purpose"><p id="_846b5bf0-c28d-005f-ddb6-a27b0c0b4036">Verify that if two packages have a two-way dependency (a “co-dependency”), then they are associated to the same requirements class.</p>
+</component><component class="test-method"><p id="_3dc1d244-b556-c8c8-078f-df50228e3aef">Inspect the document to verify the above.</p>
+</component>
+</requirement>
 </clause>
 
 <clause id="_all_classes_are_in_leaf_packages" obligation="normative">
 <title>All classes are in leaf packages</title>
-<p id="_ef7183fb-31e5-77dd-f805-b673d8d929fb">The UML model shall segregate all classes into leaf packages.</p>
-
-<ol id="_79e7b62c-2695-1707-8786-107cfe83cde8" type="arabic"><li><p id="_f72f3e93-9840-f98b-e0c2-05687b99df9d">Test Purpose: Verify that this requirement is satisfied.</p>
-</li>
-<li><p id="_6f6b6a79-89a2-af7f-6b88-7f6ed5811712">Test Method: Inspect the document to verify the above.</p>
-</li>
-<li><p id="_0413a0af-2e72-0270-9321-fafde07908a3">Reference: <xref target="req-11"/></p>
-</li>
-<li><p id="_750ee94d-18cb-bfda-d1b3-774f6b193675">Test Type: Conformance.</p>
-</li>
-</ol>
+<requirement id="ats_uml_segregate-into-leaf-packages" model="ogc" type="abstracttest"> <identifier>/conf/uml/segregate-into-leaf-packages</identifier><classification><tag>target</tag><value>/req/uml/segregate-into-leaf-packages</value></classification><component class="test-purpose"><p id="_d7ee31a5-e5c1-d66d-74e8-6ccefe7076c5">Verify that the UML model has segregated all classes into leaf packages.</p>
+</component><component class="test-method"><p id="_b26ba291-b624-2232-a3ae-87926633a56e">Inspect the document to verify the above.</p>
+</component>
+</requirement>
 </clause>
 </clause>
 </sections><bibliography><references id="cls-3" normative="true" obligation="informative">

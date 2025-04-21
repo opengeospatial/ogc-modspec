@@ -1,0 +1,9 @@
+[[ats_uml_object-model]]
+[abstract_test]
+====
+[%metadata]
+identifier:: /conf/uml/object-model
+target:: /req/uml/object-model
+test-purpose:: Verify that UML was be used to express the object model, either as the core mechanism of the standard or as a normative adjunct to formally explain the standard in a model.
+test-method:: Inspect the document to verify the above.
+====
