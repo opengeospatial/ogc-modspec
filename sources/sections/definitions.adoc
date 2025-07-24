@@ -44,7 +44,7 @@ document containing recommendations, requirements, permissions, and conformance 
 
 NOTE:  This definition is included for completeness. 
 
-NOTE:  In the OGC, there are Abstract Specifications and Implementation Standards. Abstract Specifications may of may not be testable. Further, Abstract Specifications may not be directly implementable. Implementation Standards are always testable and contain a conformance test suite. 
+NOTE:  In the OGC, there are Abstract Specifications and Implementation Standards. Abstract Specifications may or may not be testable. Further, Abstract Specifications may not be directly implementable. Implementation Standards are always testable and contain a conformance test suite. 
 
 [[Standard-definition]]
 
