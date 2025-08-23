@@ -52,13 +52,6 @@ requirements class with a different standardization target which is used by, pro
 NOTE: In this instance, as opposed to the direct dependency of a requirements class, the test against the consumable or product used or produced by the requirements class does not directly test the requirements class, but tests only its side effects. Hence, a particular type of feature service could be required to produce valid XML documents, but the test of validity for the XML document is not directly testing the service, but only indirectly testing the validity of its output. Direct dependencies test the same standardization target, but indirect dependencies test related but different standardization targets. +
 For example, if a DRM-enabled service is required to have an association to a licensing service, then the requirements of a licensing service are indirect requirements for the DRM-enabled service. Such a requirement may be stated as the associated licensing service has a certificate of conformance of a particular kind.  
 
-[[LeafPackage-definition]]
-
-==== Leaf Package
-
-UML model package that does not contain any subpackages, but contains classifiers 
-[UML]  
-
 [[Module-definition]]
 
 ==== Module
