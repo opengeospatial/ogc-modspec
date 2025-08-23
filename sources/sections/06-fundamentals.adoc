@@ -66,7 +66,7 @@ declared once and is uniquely identified as such, each requirement will be in a 
 
 Therefore, the ModSpec defines a "requirements class" as a set of requirements that must
 all be passed as per the tests defined in the related conformance class (see
-<<ConformanceClass-definition>>). Each requirements class has a one-to-one correspondence with a conformance class. A standard written to conform with the ModSpec mayuse this "module" structure in any manner consistent with the rest of the ModSpec.
+<<conformanceclass-definition>>). Each requirements class has a one-to-one correspondence with a conformance class. A standard written to conform with the ModSpec mayuse this "module" structure in any manner consistent with the rest of the ModSpec.
 
 A standard may have mandatory and optional requirements classes.  This allows the options
 in the testing procedure to be grouped into non-varying mandatory and optional conformance classes.
