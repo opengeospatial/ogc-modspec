@@ -211,25 +211,32 @@ In short, the model provides the vocabulary for expressing requirements.
 
 ==== Permission
 
-uses “may” and is used to prevent a requirement from being “over interpreted” and as such is considered to be more of a “statement of fact” rather than a “normative” condition. 
+expression, in the content of a <<Standard-definition,standard>>, that conveys consent or liberty (or opportunity) to do something
+
+[ISO Directives Part 2] 
+
+NOTE:: uses “may” and is used to prevent a requirement from being “over interpreted” and as such is considered to be more of a “statement of fact” rather than a “normative” condition. 
 
 [[Recommendation-definition]]
 
 ==== Recommendation
 
-expression in the content of a standard conveying that among several possibilities one is recommended as particularly suitable, without mentioning or excluding others, or that a certain course of action is preferred but not necessarily required, or that (in the negative form) a certain possibility or course of action is deprecated but not prohibited 
+expression, in the content of a <<Standard-definition,standard>>, that conveys a suggested possible choice or course of action deemed to be particularly suitable without necessarily mentioning or excluding others.
+
+NOTE:: In the negative form, a recommendation is the expression that a suggested possible choice or course of action is not preferred but it is not prohibited.
+
+[ISO Directives Part 2] 
 
 NOTE:  Although using normative language, a recommendation is not a requirement. The usual form replaces the `shall` (imperative or command) of a requirement with a `should` (suggestive or conditional). 
 
 NOTE:  Recommendations are not tested and therefore have no related conformance test.
 
-[ISO Directives Part 2] 
 
 [[Requirement-definition]]
 
 ==== Requirement
 
-expression in the content of a <<Standard-definition,standard>> conveying criteria to be fulfilled if compliance with the standard is to be claimed and from which no deviation is permitted
+expression, in the content of a <<Standard-definition,standard>>, that conveys objectively verifiable criteria to be fulfilled and from which no deviation is permitted if conformance with the document is to be claimed.
 [ISO Directives Part 2] 
 
 NOTE:  Each requirement is a normative criterion for a single type of <<StandardizationTarget-definition,standardization target>>. In the ModSpec, requirements are associated to <<ConformanceTest-definition,conformance tests>> that can be used to prove compliance to the underlying criteria by the standardization target. The implementation of a requirement is dependent on the type of standard being written. A data standard requires data structures, but a procedural standard requires software implementations. The view of a standard in terms of a set of testable requirements supports using set descriptions of both the standard and its implementations.
