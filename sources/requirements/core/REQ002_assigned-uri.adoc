@@ -4,7 +4,7 @@
 ====
 [%metadata]
 identifier:: /req/core/all-components-assigned-uri
-part:: Each component of a standard, including requirements, requirements modules, requirements classes, 
+part:: Each component of the standard, including requirements, requirements modules, requirements classes, 
 conformance tests, conformance modules, and conformance test classes _SHALL_ be assigned a unique identifier and/or label. 
 ====
 

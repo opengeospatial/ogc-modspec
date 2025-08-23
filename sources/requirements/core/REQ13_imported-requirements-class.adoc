@@ -8,3 +8,7 @@ identifier:: /req/core/imported-requirements-class
 part:: If a requirements class is imported from another standard for use within a standard conformant to the ModSpec, and if any imported requirement is “optional,” then that requirement SHALL be factored out as a separate requirements class in the profile of that imported standard used in the conformant standard.
 part:: Each such used requirements class SHALL be a conformance class of the source standard or a combination of conformance classes of the source standard or standards.
 ====
+include::..\..\requirements\core\REQ7_requirements-test-suite-structure.adoc[]
+include::..\..\requirements\core\REQ002_assigned-uri.adoc[]
+include::..\..\requirements\core\REQ4_single-standardization-target-type.adoc[]
+include::..\..\requirements\core\REQ5_test-class-single-standardization-target.adoc[]

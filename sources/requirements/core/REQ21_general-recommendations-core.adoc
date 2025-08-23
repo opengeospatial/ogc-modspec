@@ -5,5 +5,5 @@
 ====
 [%metadata]
 identifier:: /req/core/general-recommendations-core
-part:: All general recommendations for a standard _SHALL_ be in the core.
+part:: All general recommendations for the standard _SHALL_ be in the core.
 ====

@@ -4,7 +4,6 @@
 [%metadata]
 identifier:: /conf/core/test-class-single-standardization-target-type
 target:: /req/core/test-class-single-standardization-target-type
-test-purpose:: Validate that all conformance tests in a single conformance test class in a conformant 
-standard have the same standardization target type.
+test-purpose:: Validate that all conformance tests in a single conformance test class have the same standardization target type.
 test-method:: Inspect the document to verify the above.
 ====

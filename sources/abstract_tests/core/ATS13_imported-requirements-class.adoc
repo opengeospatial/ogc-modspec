@@ -4,7 +4,7 @@
 [%metadata]
 identifier:: /conf/core/imported-requirements-class
 target:: /req/core/imported-requirements-class
-test-purpose:: Validate that if a requirements class is imported from another standard for use within a standard conformant to the ModSpec, and if any imported requirement is “optional,” then that requirement SHALL be factored out as a separate requirements class in the profile of that imported standard used in the conformant standard. +
+test-purpose:: Validate that if a requirements class is imported from another standard and that requirements class is “optional,” then that requirement class _SHALL_ be factored out as a separate requirements class in the profile of that imported standard used in the conformant standard. +
 And that each such used requirements class is a conformance class of the source standard or a combination of conformance classes of the source standard or standards..
 test-method:: Inspect the document to verify the above.
 ====

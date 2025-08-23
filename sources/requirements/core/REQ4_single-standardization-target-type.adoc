@@ -6,5 +6,5 @@
 ====
 [%metadata]
 identifier:: /req/core/single-standardization-target-type
-part:: Each requirement class in a conformant standard _SHALL_ have a single standardization target type.
+part:: Each requirement class _SHALL_ have a single standardization target type.
 ====

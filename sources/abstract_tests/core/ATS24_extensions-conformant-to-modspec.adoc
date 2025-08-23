@@ -4,6 +4,6 @@
 [%metadata]
 identifier:: /conf/core/extensions-conformant-to-the-modspec
 target:: /req/core/extensions-conformant-to-the-modspec
-test-purpose:: Validate that a standard conformant to the ModSpec requires all conformant extensions to be conformant to the ModSpec.
+test-purpose:: Validate that the standard requires all conformant extensions to be conformant to the ModSpec.
 test-method:: Inspect the document to verify the above.
 ====

@@ -5,5 +5,5 @@
 ====
 [%metadata]
 identifier:: /req/core/restriction-of-extensions
-part:: A standard conformant to the ModSpec _SHALL_ never restrict in any manner future, logically valid extensions of its standardization target types.
+part:: The standard _SHALL_ never restrict in any manner future, logically valid extensions of its standardization target types.
 ====
