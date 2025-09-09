@@ -256,7 +256,7 @@ both are related (as described) to the same set of requirements.
 The following states that requirements classes contain all requirements tested by a conformance test case
 
 [[req-15]]
-include::../requirements/core/REQ15_req-in-only-one-req-class.adoc[]
+include::../requirements/core/REQ15_conf-class-test-req-class.adoc[]
 
 Unless a requirement is referenced in a conformance test and thus in a conformance
 class, it cannot be considered a requirement since no test has been defined for it.
@@ -435,3 +435,4 @@ pass the ModSpec core conformance test class.
 
 NOTE: All general recommendations are in the core requirements class. The core
 conformance test class contains tests that all other conformance classes must pass.
+
