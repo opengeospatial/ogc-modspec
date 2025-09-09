@@ -242,7 +242,8 @@ NOTE:  Recommendations are not tested and therefore have no related conformance 
 ==== requirement
 
 expression, in the content of a <<standard-definition,standard>>, that conveys objectively verifiable criteria to be fulfilled and from which no deviation is permitted if conformance with the document is to be claimed.
-[ISO Directives Part 2] 
+
+SOURCE: ISO Directives Part 2 
 
 NOTE:  Each requirement is a normative criterion for a single type of <<standardizationtarget-definition,standardization target>>. In the ModSpec, requirements are associated to <<conformancetest-definition,conformance tests>> that can be used to prove compliance to the underlying criteria by the standardization target. The implementation of a requirement is dependent on the type of standard being written. A data standard requires data structures, but a procedural standard requires software implementations. The view of a standard in terms of a set of testable requirements supports using set descriptions of both the standard and its implementations.
 The specification of a requirement is usually expressed in terms of a model of the standardization target type, such as a UML model, or an XML, JSON or SQL schema. Anything without a defined test is a-priori not testable and thus would be better expressed as a recommendation. Requirements use normative language and in particular are commands and use the imperative "shall" or similar imperative constructs. Statements in standards which are not requirements and need to be either conditional or future tense normally use "will" and should not be confused with requirements that use "shall" imperatively  
