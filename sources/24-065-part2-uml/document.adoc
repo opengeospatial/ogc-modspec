@@ -6,8 +6,8 @@
 :docnumber: 24-065
 :edition: 1.1.0
 :received-date: 2025-03-15
-:issued-date: xxxx-xx-xx
-:published-date: xxxx-xx-xx
+:issued-date: 2025-xx-xx
+:published-date: 2025-xx-xx
 :copyright-year: 2025
 :fullname: Carl Reed
 :role: editor
