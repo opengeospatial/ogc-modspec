@@ -1,5 +1,5 @@
 [[cls-6]]
-== Requirements Class: Part 1 UML
+== Requirements Class: Part 2 UML
 
 This clause defines the key concepts and requirements that represent Part 2 of the ModSpec.
 
