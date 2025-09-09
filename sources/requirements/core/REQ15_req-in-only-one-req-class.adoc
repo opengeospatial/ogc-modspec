@@ -1,10 +1,9 @@
-[[req_req-in-only-one-req-class]]
+[[req_conf-class-test-req-class]]
 [[req-15]]
 
 [requirement]
 ====
 [%metadata]
-identifier:: /req/core/req-in-only-one-req-class
-part:: Each requirement in the standard _SHALL_ be contained in one and only one requirements class.
-part:: Inclusion of any requirement in a requirements class by a conformance class _SHALL_ imply inclusion of all requirements in its class (as a dependency).
+identifier:: /req/core/conf-class-test-req-class
+part:: A conformance test class _SHALL_ test all of the requirements of the associated requirements class.
 ====
