@@ -230,7 +230,7 @@ that corresponds with conformance tests and a conformance test class as follows:
 [width="90%",cols="2,6"]
 |===
 |*REQ008* | */req/part3/xml/sch-pattern-constraints* +
-^| A |Each sch:pattern element _SHALL_ implement constraints described in no more than one
+^| A |Each sch:assert element _SHALL_ implement constraints described in no more than one
 requirement. 
 ^| B |Each requirement _SHALL_ be implemented by no more than one sch:pattern.
 |===
