@@ -19,8 +19,20 @@ There may be one or more requirements in a requirements class.
 
 The following requirement states that every requirement is testable.
 
+[width="90%",cols="2,6"]
+|===
+|*Requirement 1*
+|/req/core/reqs-are-in-class +
+Each requirement in a standard SHALL be associated with exactly one requirements class.
+|===
+
+////
+Temporary removal to fix Metanorma numbering issue
+
 [[req-1]]
 include::../requirements/core/REQ001_testable.adoc[]
+
+////
 
 Therefore, by definition, any requirements class that contains the requirement that failed to pass also fails to pass.
 
@@ -435,4 +447,5 @@ pass the ModSpec core conformance test class.
 
 NOTE: All general recommendations are in the core requirements class. The core
 conformance test class contains tests that all other conformance classes must pass.
+
 
