@@ -14,9 +14,9 @@ Many of these definitions depend upon the model given in <<annex-C,Annex C: ModS
 
 [[buildingblock-definition]]
 
-==== building block
+==== building block (foundation)
 
-<<requirementsclass-definition,requirements class>> or <<requirementsmodule-definition,requirements module>> with no direct dependencies on other requirements classes or modules and their associated <<conformanceclass-definition,conformance test class>> or <<conformancemodule-definition,conformance test module>> 
+<<requirementsclass-definition,requirements class>> or <<requirementsmodule-definition,requirements module>> with no direct dependencies on other requirements classes or packages and their associated <<conformanceclass-definition,conformance test class>> or <<conformancemodule-definition,conformance test module>> 
 
 [[dependency-definition]]
 
@@ -258,9 +258,11 @@ NOTE:  There is some confusion possible here, since the testing of <<indirectdep
 
 [[requirementsmodule-definition]]
 
-==== requirements module
+==== requirements package
 
-set of related requirement classes and their associated components. 
+set (grouping) of related requirement classes and their associated components. 
+
+NOTE: This definition is conceptually consistent with both UML `package` and ISO TC 211 `package` definitions.
 
 [[standardizationgoal-definition]]
 
