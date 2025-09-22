@@ -110,7 +110,7 @@ abstract description of the test suites to be implemented separately). In OGC Do
 . All requirements, recommendations, permissions, and models are introduced and defined first in
 the numbered Clauses.
 . All requirements are identifiable as requirements. 
-. All requirements in a document are uniquely numbered.
+. All requirements in a document are uniquely numbered and/or labeled.
 . All tests for conformance to those requirements are defined in the Conformance Test Suite.
 . Tests are grouped for convenience into conformance test classes and if desired the classes are grouped into conformance test modules.
 . The tests, if conducted, determine to some degree of certainty whether an
