@@ -135,7 +135,7 @@ and all classes and constraints in those packages.
 If a requirement uses or refers to elements of more than one package, then one of
 the packages will be called the source of the requirement, and the other targets.
 The requirement with the same source package will always be associated with the same
-requirements module and/or class.
+requirements package and/or class.
 
 [[req-07]]
 [requirement,model=ogc,type="general"]
