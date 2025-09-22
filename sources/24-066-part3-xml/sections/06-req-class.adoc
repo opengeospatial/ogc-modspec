@@ -203,8 +203,7 @@ uses Schematron to create patterns or constrains for an XML Schema.
 |Target | ModSpec Conformant XML Model
 |Dependency |OGC ModSpec Version 1.1 (need proper title and document number)
 |REQ007 | /req/part3/xml/schematron-xml-schema 
-|REQ008 | /req/part3/xml/sch-pattern-constraints 
-|REQ009 | /req/part3/xml/pattern-to-element 
+|REQ008 | /req/part3/xml/sch-pattern-constraints  
 |REQ010 | /req/part3/xml/fpi-attribute-is-uri
 |REQ011 | /req/part3/xml/see-attribute-is-identifier
 |REQ012 | /req/part3/xml/one-fpi-attribute-per-schema
@@ -235,13 +234,7 @@ requirement.
 ^| B |Each requirement _SHALL_ be implemented by no more than one sch:pattern.
 |===
 
-[[req-09]]
-[requirement,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*REQ009* | */req/part3/xml/pattern-to-element* +
-Each sch:pattern element _SHALL_ be contained within one sch:schema element.
-|===
+NOTE: Requirement 9 was removed in the ModSpec version 1.1 as this requirement is present in the latest Schematron RelaxNG schema.
 
 The Formal Public Identifier (fpi) attribute names the Schematron schema. In the ModSpec Part 2 extension, this identifier is a URI.
 
