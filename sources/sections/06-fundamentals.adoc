@@ -66,7 +66,8 @@ declared once and is uniquely identified as such, each requirement will be in a 
 
 Therefore, the ModSpec defines a "requirements class" as a set of requirements that must
 all be passed as per the tests defined in the related conformance class (see
-<<conformanceclass-definition>>). Each requirements class has a one-to-one correspondence with a conformance class. A standard written to conform with the ModSpec mayuse this "module" structure in any manner consistent with the rest of the ModSpec.
+<<conformanceclass-definition>>). Each requirements class has a one-to-one correspondence with a conformance class. 
+A standard written to conform with the ModSpec may use this "module" structure in any manner consistent with the rest of the ModSpec.
 
 A standard may have mandatory and optional requirements classes.  This allows the options
 in the testing procedure to be grouped into non-varying mandatory and optional conformance classes.
@@ -95,7 +96,8 @@ consistent with the conformance test classes, see <<req-6,Requirement 6>> and <<
 
 === Documenting the Standard
 
-Standards development should be a repeatable process producing a suite of standards with a common look and feel. In addition, that process should embody the ModSpec principles so that ModSpec conformance is almost automatic. A standardized template is an essential element of such a repeatable process.   
+Standards development should be a repeatable process producing a suite of standards with a common look and feel. In addition, 
+that process should embody the ModSpec principles so that ModSpec conformance is almost automatic. A standardized template is an essential element of such a repeatable process.   
 
 NOTE: OGC Standards are written using an OGC Member approved template that is conformant with the 
 requirements stated in the ModSpec
