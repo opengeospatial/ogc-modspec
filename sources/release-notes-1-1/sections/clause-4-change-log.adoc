@@ -84,4 +84,5 @@ See <<Clause_Critical>> for more information on critical changes and
 | GitHub| 88  | A | Part 1 ATS    | Test purpose phrasing corrected | Clarity and readability
 | GitHub| 90  | A |Parts 2 and 3 |Confusing names and ids of extensions | Clarity and Consistency
 | GitHub| 91  | A |Parts 2 and 3 | Mismatch identifiers of normative provisions | Accuracy
+| GitHub| 94  | A |Part 1 - Various | Fix typos | Accuracy
 |===
