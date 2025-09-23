@@ -11,7 +11,7 @@ logical form (template).
 In informative sections, the use of the word "will" implies that something is an implication of a requirement. 
 The "will" statements are not requirements but explain the consequence of requirements.
 
-The ModSpec defines a "requirement" of a standard as an atomic testable
+The ModSpec defines a "requirement" of a standard as an testable
 criterion. See the formal definition of requirement in the ModSpec Core document.
 
 [[cls-6-1]]
@@ -194,11 +194,11 @@ assertions about the presence or absence of patterns in XML trees. It is a struc
 language expressed in XML using a small number of elements and XPath languages.
 
 This requirements class covers any standard that
-uses Schematron to create patterns or constrains for an XML Schema. 
+uses Schematron to create patterns or constraints for an XML Schema. 
 
 [cols="1,4",width="90%"]
 |===
-2+|*Requirements Class - XML schmeatron extension to the core* 
+2+|*Requirements Class - XML schematron extension to the core* 
 2+|/req/core/data-representation 
 |Target | ModSpec Conformant XML Model
 |Dependency |OGC ModSpec Version 1.1 (need proper title and document number)
