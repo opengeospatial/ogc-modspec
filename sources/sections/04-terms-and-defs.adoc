@@ -68,7 +68,7 @@ Modules can be replaced without affecting the rest of the system.
 
 general-purpose mechanism for organizing elements into groups. 
 
-NOTE: This definition is conceptually consistent with both UML `package` and ISO TC 211 `package` definitions.
+NOTE: This definition is conceptually consistent with both UML `package` and ISO TC 211 `package` and `requirements suite` definitions.
 
 SOURCE: Rumbaugh J, Jacobson I, Booch G, The Unified Modeling Language Reference Manual 1999
 
