@@ -62,6 +62,15 @@ NOTE: The concept ‘module’ is key to the ModSpec structure and model. Module
 The power of the concept is that modules can be reused in different systems (specify once, use many). Modules can be imported from other programs. 
 Modules can be replaced without affecting the rest of the system. 
 
+[[package-definition]]
+
+==== package
+
+general-purpose mechanism for organizing elements into groups. Packages may be nested within other packages. A system may correspond to a single high-level package, 
+with everything else in the model contained in it recursively. Rumbaugh J, Jacobson I, Booch G, The Unified Modeling Language Reference Manual 1999
+
+NOTE: This definition is conceptually consistent with both UML `package` and ISO TC 211 `package` definitions.
+
 [[part-document-definition]]
 
 ==== part (standard)
@@ -261,8 +270,6 @@ NOTE:  There is some confusion possible here, since the testing of <<indirectdep
 ==== requirements package
 
 set (grouping) of related requirement classes and their associated components. 
-
-NOTE: This definition is conceptually consistent with both UML `package` and ISO TC 211 `package` definitions.
 
 [[standardizationgoal-definition]]
 
