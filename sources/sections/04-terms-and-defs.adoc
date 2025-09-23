@@ -16,7 +16,7 @@ Many of these definitions depend upon the model given in <<annex-C,Annex C: ModS
 
 ==== building block (foundation)
 
-<<requirementsclass-definition,requirements class>> or <<requirementsmodule-definition,requirements module>> with no direct dependencies on other requirements classes or packages and their associated <<conformanceclass-definition,conformance test class>> or <<conformancemodule-definition,conformance test module>> 
+<<requirementsclass-definition,requirements class>> or <<requirementspackage-definition,requirements package>> with no direct dependencies on other requirements classes or packages and their associated <<conformanceclass-definition,conformance test class>> or <<conformancepackage-definition,conformance test package>> 
 
 [[dependency-definition]]
 
@@ -164,17 +164,17 @@ conformance test class
 
 set of <<conformancetest-definition,conformance tests>> that must be passed to receive a single <<certificateofconformance-definition,certificate of conformance>>
 
-[[conformancemodule-definition]]
+[[conformancepackage-definition]]
 
-==== conformance module
+==== conformance package
 
-set of related conformance classes and their associated components. 
+set (grouping) of related conformance classes and their associated components. 
 
 [[conformancesuite-definition]]
 
 ==== conformance suite
 
-set of <<conformanceclass-definition,conformance classes>> and/or <<conformancemodule-definition,conformance modules>> that define <<conformancetest-definition,tests>> for all <<requirement-definition,requirements>> of a <<standard-definition,standard>>
+set of <<conformanceclass-definition,conformance classes>> and/or <<conformancemodule-definition,conformance packages>> that define <<conformancetest-definition,tests>> for all <<requirement-definition,requirements>> of a <<standard-definition,standard>>
 
 NOTE:  The *conformance suite* is the union of all *conformance classes* and their associated <<conformanceclass-definition,conformance classes>>. It is by definition the *conformance class* of the entire *standard* or *abstract specification*.  
 
@@ -256,7 +256,7 @@ aggregate of <<requirement-definition,requirements>> with a single <<standardiza
 
 NOTE:  There is some confusion possible here, since the testing of <<indirectdependency-definition,indirect dependencies>> seems to violate this definition. But the existence of an indirect dependency implies that the test is actually a test of the existence of the relationship from the original target to something that has a property (satisfies a condition or requirement from another requirements class).  
 
-[[requirementsmodule-definition]]
+[[requirementspackage-definition]]
 
 ==== requirements package
 
