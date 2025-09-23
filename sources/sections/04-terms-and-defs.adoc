@@ -66,10 +66,11 @@ Modules can be replaced without affecting the rest of the system.
 
 ==== package
 
-general-purpose mechanism for organizing elements into groups. Packages may be nested within other packages. A system may correspond to a single high-level package, 
-with everything else in the model contained in it recursively. Rumbaugh J, Jacobson I, Booch G, The Unified Modeling Language Reference Manual 1999
+general-purpose mechanism for organizing elements into groups. 
 
 NOTE: This definition is conceptually consistent with both UML `package` and ISO TC 211 `package` definitions.
+
+SOURCE: Rumbaugh J, Jacobson I, Booch G, The Unified Modeling Language Reference Manual 1999
 
 [[part-document-definition]]
 
