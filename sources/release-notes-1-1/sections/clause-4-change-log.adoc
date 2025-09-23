@@ -76,4 +76,11 @@ See <<Clause_Critical>> for more information on critical changes and
 | GitHub| 10  | A | Annex C - ogc-modspec.lutaml | Rewrote Specification/Standard description to be consistent with Critical Change 4 | Consistency
 | GitHub| 33  | A | Annex C - ogc-modspec.lutaml | Added examples of requirement, requirements class. | Clarity
 | Other | NA  | A | Bibliography | Update dates for documents | Consistency
+| GitHub|80   |A  | Part 1 T&Ds  | Style of the terms and definitions to follow ISO template | Consistency
+| GitHub| 83  | A | Part 1 T&Ds  | Remove `lead-package` as not used in main body or any requirements | Clarity
+| GitHub| 84  | A | Part 1 Req 15| Remove Part A from Req 15 as it is redundent with Req 1 | Clarity
+| GitHub| 85  | A | Part 1 Foundation | Correct standardization target type of the ModSpec | Accuracy
+| GitHub| 88  | A | Part 1 ATS    | Test purpose phrasing corrected | Clarity and readability
+| GitHub| 90  | A |Parts 2 and 3 |Confusing names and ids of extensions | Clarity and Consistency
+| GitHub| 91  | A |Parts 2 and 3 | Mismatch identifiers of normative provisions | Accuracy
 |===
