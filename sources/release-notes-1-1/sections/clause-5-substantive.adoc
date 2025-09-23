@@ -26,7 +26,10 @@ This is GitHub issue 36.
 
 === Substantive Change 3: ModSpec Permissions and Recommendations clearly identified
 
-In the ModSpec version 1.0, permissions and recommendations were embedded in the general text and were not specifically highlighted. In version 1.0 the concept permission was not defined. In the ModSpec version 1.1, the concept `permission` is defined. In version 1.1, all permissions and recommendation are extracted from the general text and placed in tables as per the Metanorma template. Finally, all permissions and recommendations are bookmarked for easier navigation.
+In the ModSpec version 1.0, permissions and recommendations were embedded in the general text and were not specifically highlighted. 
+In version 1.0 the concept permission was not defined. In the ModSpec version 1.1, the concept `permission` is defined. In version 1.1, 
+all permissions and recommendation are extracted from the general text and placed in tables as per the Metanorma template. Finally, 
+all permissions and recommendations are bookmarked for easier navigation.
 
 This is GitHub issue 34.
 
@@ -41,17 +44,29 @@ There were two main issues with this statement:
 - The statement is confusing and to an extent artificial;
 - This artifact is inconsistently implemented in the ModSpec Version 1.0. Sometimes specification is used when the term should be standard and visa-versa, causing confusion.
 
-The ModSpec Version 1.1 revision clearly states that the ModSpec is indeed a standard for writing/structuring standards. However, the wording “this document” or “the ModSpec” is used throughout the document to avoid confusion. As appropriate, all instances of “specification” are changed to “standard”. The change was applied consistently throughout Version 1.1.
+The ModSpec Version 1.1 revision clearly states that the ModSpec is indeed a standard for writing/structuring standards. However, 
+the wording “this document” or “the ModSpec” is used throughout the document to avoid confusion. As appropriate, all instances of 
+“specification” are changed to “standard”. The change was applied consistently throughout Version 1.1.
 
 This is GitHub issue 10.
 
-=== Substantive Change 5: What is a Requirements Module?
+=== Substantive Change 5: What is a Requirements Module? Now a Requirements Package
 
-In the ModSpec Version 1.0 there is a logical inconsistency related to the definitions, relationship, and modeling of requirements modules and requirements classes. In Version 1.0, a Requirements Class can be composed of one or more Requirements Modules and one or more Recommendations. However, multiple locations in the Version 1.0 document state that recommendations are not testable (Old Section 6.1 for example). This created a logical inconsistency as a Requirements Class is composed of requirements and recommendations. The wording of the conformance test class states that to be conformant, all elements of a requirements class must pass, but recommendations cannot be tested.
+In the ModSpec Version 1.0 there is a logical inconsistency related to the definitions, relationship, and modeling of 
+requirements modules and requirements classes. In Version 1.0, a Requirements Class can be composed of one or more 
+Requirements Modules and one or more Recommendations. However, multiple locations in the Version 1.0 document state 
+that recommendations are not testable (Old Section 6.1 for example). This created a logical inconsistency as a 
+Requirements Class is composed of requirements and recommendations. The wording of the conformance test class states 
+that to be conformant, all elements of a requirements class must pass, but recommendations cannot be tested.
 
-Given that most OGC Standards do not use Requirements Modules, a straightforward solution is to swap Requirements Modules and Requirements classes in the hierarchy. Therefore, a Requirements Module would consist of Requirements Classes, Recommendations, and Permissions. A Requirements Class then has no recommendations and is therefore testable.
+Given that most OGC Standards do not use Requirements Modules, a straightforward solution is to swap Requirements Modules
+and Requirements classes in the hierarchy. Therefore, a Requirements Module would consist of Requirements Classes, 
+Recommendations, and Permissions. A Requirements Class then has no recommendations and is therefore testable.
 
-NOTE: CDB 2.0 does define Requirements Modules based on the above proposed definition.
+However, this proposed chnage led to https://github.com/opengeospatial/ogc-modspec/issues/76[Issue 76] Term "module": Change of the semantics
+being submitted. After considerable discussion, the agreement was to use the concept `package` in place of `module` as appropriate.
+This use of pacakge is consistent with both UML and ISO TC 211 definitions of package. AS part of this change, conformance module 
+was changed to conformance package.
 
 === Substantive Change 6: Standardization Goal
 
