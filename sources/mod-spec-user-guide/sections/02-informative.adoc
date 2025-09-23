@@ -246,8 +246,8 @@ core model for the 2D Euclidean plane use case.
 [%metadata]
 identifier:: /conf/core/all-components-assigned-uri
 target:: /req/core/all-components-assigned-uri
-test-purpose:: Validate that each component of a standard, including requirements, requirements modules, requirements classes, 
-conformance test, conformance modules, and conformance test classes are assigned a unique identifer or label.
+test-purpose:: Validate that each component of a standard, including requirements, requirements packages, requirements classes, 
+conformance test, conformance packages, and conformance test classes are assigned a unique identifer or label.
 test-method:: Inspect the document to verify the above.
 ====
 ```
@@ -276,8 +276,8 @@ The above Metanorma AsciiDoc example would appear as follows when published.
 [%metadata]
 identifier:: /conf/core/all-components-assigned-uri
 target:: /req/core/all-components-assigned-uri
-test-purpose:: Validate that each component of a standard, including requirements, requirements modules, requirements classes, 
-conformance test, conformance modules, and conformance test classes are assigned a unique identifer or label.
+test-purpose:: Validate that each component of a standard, including requirements, requirements packages, requirements classes, 
+conformance test, conformance packages, and conformance test classes are assigned a unique identifer or label.
 test-method:: Inspect the document to verify the above.
 ====
 
