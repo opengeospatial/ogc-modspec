@@ -35,7 +35,7 @@ and to be consistent with the template, the term used in the OGC is Abstract Tes
 
 NOTE: The following is a restricted profile of ModSpec Requirement 2 regarding uniquely identifying every component of a standard.
 
-- Each component of the standard, including requirements, requirements modules, requirements classes, conformance test, conformance modules, 
+- Each component of the standard, including requirements, requirements packages, requirements classes, conformance test, conformance packages, 
 and conformance test classes _SHALL_ be assigned a unique URI. These URIs _SHALL_ be conformant with the policies of the OGC Naming Authority.
 
 
