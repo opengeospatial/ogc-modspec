@@ -1,7 +1,7 @@
 [[cls-2]]
 == Conformance
 
-Conformance to the ModSpec by a modular standard 
+Conformance to the ModSpec by a standard 
 can be tested by inspection. The test suite is provided in <<annex-A>>.
 
 Part 1: Core of the ModSpec (this document) defines one requirements class and one related conformance class:

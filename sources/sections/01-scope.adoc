@@ -12,7 +12,7 @@ that will encourage implementation by minimizing difficulty determining
 requirements, mimicking implementation structure, and maximizing usability and
 interoperability. The ultimate goal of this approach is to enable interoperable implementations of a standard that can be tested and deemed _conformant_ or not.
 
-The ModSpec standardization target type is `modular standards`.
+The ModSpec standardization target type is `standards`.
 
 [[things-to-know]]
 === Understanding the ModSpec

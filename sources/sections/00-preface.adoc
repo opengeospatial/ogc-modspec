@@ -21,7 +21,7 @@ OGC ModSpec GitHub repository (https://github.com/opengeospatial/ogc-modspec).
 == Document terms and definitions
 
 This document uses the terms defined in OGC Policy Directive 49, which is based on the ISO/IEC Directives, Part 2, Rules for the structure and drafting of International Standards. 
-In particular, the word “shall” (not “must”) is the verb form used to indicate a requirement to be strictly followed to conform to this ModSPec standard.
+In particular, the word “shall” (not “must”) is the verb form used to indicate a requirement to be strictly followed to conform to this ModSpec standard.
 
 [.preface]
 == Document editors
@@ -38,14 +38,14 @@ The following OGC Members participated in editing this document:
 [.preface]
 == Document Contributors
 
-The following OGC Members contributed and particpated in developing ModSpec Version 1.1 
+The following OGC Members contributed and particpated in developing the ModSpec Version 1.1 
 
 [%unnumbered]
 |===
 ^h| Person ^h| Organization Represented
-| Carl Reed | Carl Reed
-| Chuck Heazel | Charles Heazel
-| Jeff Yutzler | ImageMatters
+| Carl Reed | Carl Reed & Associates
+| Chuck Heazel | Heazeltech
+| Jeff Yutzler | ImageMatters/Tema
 |===
 
 [.preface]
@@ -54,13 +54,12 @@ The following OGC Members contributed and particpated in developing ModSpec Vers
 The following OGC Members support the ModSpec Version 1.1 submission
 
 [%unnumbered]
-|===
-^h| Organization
-| Carl Reed & Associates |
-| Heazeltech |
-| ImageMatters/Tema
-| UK Met Office |
-|===
+
+- Carl Reed & Associates
+- Heazeltech
+- ImageMatters/Tema
+- UK Met Office
+
 
 [.preface]
 == Revision history

@@ -5,7 +5,7 @@
 :committee: technical
 :docnumber: 08-131r5
 :edition: 1.1.0
-:received-date: 2025-04-01
+:received-date: 2025-08-22
 :issued-date: 2025-xx-xx
 :published-date: 2025-xx-xx
 :copyright-year: 2025
@@ -46,8 +46,6 @@ include::sections/07-mapping.adoc[]
 include::sections/aa-abstract-conformance.adoc[]
 
 include::sections/ab-changes-required.adoc[]
-
-include::sections/ac-definitions.adoc[]
 
 include::sections/ad-bibliography.adoc[]
 

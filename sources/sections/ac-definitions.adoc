@@ -35,7 +35,7 @@ all with the same <<StandardizationTargetType-definition,_standardization target
 <<ConformanceTest-definition,_conformance tests_>> that are associated to and only to the
 requirements in a corresponding <<RequirementsClass-definition,_requirements class_>>.
 
-. a <<ConformanceModule-definition,_conformance (test) module_>> is a reusable collection of related <<ConformanceClass-definition,_conformance test classes_>>.
+. a <<ConformancePackage-definition,_conformance (test) package_>> is a reusable collection of related <<ConformanceClass-definition,_conformance test classes_>>.
 
 . a *conformant implementation* is a <<StandardizationTarget-definition,_standardization target_>> that has
 successfully passed all tests in a specified <<ConformanceClass-definition,_conformance (test) class_>> and received a <<CertificateOfConformance-definition,_certificate of conformance_>>.

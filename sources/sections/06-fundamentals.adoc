@@ -20,7 +20,10 @@ These characteristics are slightly modified from the Open Group definitions to a
 
 === Standardization Context - Goals, Target Types, and Targets
 
-Every standards document should include a Standardization Goal. This is a concise statement of the problem that the standard helps address and the strategy envisioned for achieving a solution.  This strategy typically identifies real-world entities that need to be modified or constrained.  At the abstract level, those entities are the Standardization Target Types.  These are the classes of entities to be standardized. A Standard defines the requirements levied on one or more Standardization Target Types. 
+Every standards document should include a Standardization Goal. This is a concise statement of the problem that the 
+standard helps address and the strategy envisioned for achieving a solution.  This strategy typically identifies real-world 
+entities that need to be modified or constrained.  At the abstract level, those entities are the Standardization Target Types.  
+These are the classes of entities to be standardized. A Standard defines the requirements levied on one or more Standardization Target Types. 
 
 Instances of a Standardization Target Type are the Standardization Targets.  These are the real-world manifestations of the Standardization Target Type.  In summary:
 
@@ -66,7 +69,8 @@ declared once and is uniquely identified as such, each requirement will be in a 
 
 Therefore, the ModSpec defines a "requirements class" as a set of requirements that must
 all be passed as per the tests defined in the related conformance class (see
-<<ConformanceClass-definition>>). Each requirements class has a one-to-one correspondence with a conformance class. A standard written to conform with the ModSpec mayuse this "module" structure in any manner consistent with the rest of the ModSpec.
+<<conformanceclass-definition>>). Each requirements class has a one-to-one correspondence with a conformance class. 
+A standard written to conform with the ModSpec may use this "module" structure in any manner consistent with the rest of the ModSpec.
 
 A standard may have mandatory and optional requirements classes.  This allows the options
 in the testing procedure to be grouped into non-varying mandatory and optional conformance classes.
@@ -95,7 +99,8 @@ consistent with the conformance test classes, see <<req-6,Requirement 6>> and <<
 
 === Documenting the Standard
 
-Standards development should be a repeatable process producing a suite of standards with a common look and feel. In addition, that process should embody the ModSpec principles so that ModSpec conformance is almost automatic. A standardized template is an essential element of such a repeatable process.   
+Standards development should be a repeatable process producing a suite of standards with a common look and feel. In addition, 
+that process should embody the ModSpec principles so that ModSpec conformance is almost automatic. A standardized template is an essential element of such a repeatable process.   
 
 NOTE: OGC Standards are written using an OGC Member approved template that is conformant with the 
 requirements stated in the ModSpec
@@ -110,9 +115,9 @@ abstract description of the test suites to be implemented separately). In OGC Do
 . All requirements, recommendations, permissions, and models are introduced and defined first in
 the numbered Clauses.
 . All requirements are identifiable as requirements. 
-. All requirements in a document are uniquely numbered.
+. All requirements in a document are uniquely numbered and/or labeled.
 . All tests for conformance to those requirements are defined in the Conformance Test Suite.
-. Tests are grouped for convenience into conformance test classes and if desired the classes are grouped into conformance test modules.
+. Tests are grouped for convenience into conformance test classes and if desired the classes are grouped into conformance test packages.
 . The tests, if conducted, determine to some degree of certainty whether an
 implementation meets the requirements which the tests reference.
 . The tests are organized into some number of conformance "classes" where each conformance class has a one to one relationship with a requirements class. If a standard

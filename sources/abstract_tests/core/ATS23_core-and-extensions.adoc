@@ -4,6 +4,6 @@
 [%metadata]
 identifier:: /conf/core/core-and-extensions
 target:: /req/core/core-and-extensions
-test-purpose:: Validate that each standard conformant to the ModSpec consists of a core and some number of requirements classes defined as extensions to that core.
+test-purpose:: Validate that the standard defines and identifies a core set of requirements as a separate requirements class with a corresponding conformance class.
 test-method:: Inspect the document to verify the above.
 ====

@@ -1,0 +1,9 @@
+[[req_conf-class-test-req-class]]
+[[req-15]]
+
+[requirement]
+====
+[%metadata]
+identifier:: /req/core/conf-class-test-req-class
+part:: A conformance test class _SHALL_ test all of the requirements of the associated requirements class.
+====

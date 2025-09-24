@@ -11,7 +11,7 @@ logical form (template).
 In informative sections, the use of the word "will" implies that something is an implication of a requirement. 
 The "will" statements are not requirements but explain the consequence of requirements.
 
-The ModSpec defines a "requirement" of a standard as an atomic testable
+The ModSpec defines a "requirement" of a standard as an testable
 criterion. See the formal definition of requirement in the ModSpec Core document.
 
 [[cls-6-1]]
@@ -194,17 +194,16 @@ assertions about the presence or absence of patterns in XML trees. It is a struc
 language expressed in XML using a small number of elements and XPath languages.
 
 This requirements class covers any standard that
-uses Schematron to create patterns or constrains for an XML Schema. 
+uses Schematron to create patterns or constraints for an XML Schema. 
 
 [cols="1,4",width="90%"]
 |===
-2+|*Requirements Class - XML schmeatron extension to the core* 
+2+|*Requirements Class - XML schematron extension to the core* 
 2+|/req/core/data-representation 
 |Target | ModSpec Conformant XML Model
 |Dependency |OGC ModSpec Version 1.1 (need proper title and document number)
 |REQ007 | /req/part3/xml/schematron-xml-schema 
-|REQ008 | /req/part3/xml/sch-pattern-constraints 
-|REQ009 | /req/part3/xml/pattern-to-element 
+|REQ008 | /req/part3/xml/sch-pattern-constraints  
 |REQ010 | /req/part3/xml/fpi-attribute-is-uri
 |REQ011 | /req/part3/xml/see-attribute-is-identifier
 |REQ012 | /req/part3/xml/one-fpi-attribute-per-schema
@@ -230,18 +229,12 @@ that corresponds with conformance tests and a conformance test class as follows:
 [width="90%",cols="2,6"]
 |===
 |*REQ008* | */req/part3/xml/sch-pattern-constraints* +
-^| A |Each sch:pattern element _SHALL_ implement constraints described in no more than one
+^| A |Each sch:assert element _SHALL_ implement constraints described in no more than one
 requirement. 
 ^| B |Each requirement _SHALL_ be implemented by no more than one sch:pattern.
 |===
 
-[[req-09]]
-[requirement,model=ogc,type="general"]
-[width="90%",cols="2,6"]
-|===
-|*REQ009* | */req/part3/xml/pattern-to-element* +
-Each sch:pattern element _SHALL_ be contained within one sch:schema element.
-|===
+NOTE: Requirement 9 was removed in the ModSpec version 1.1 as this requirement is present in the latest Schematron RelaxNG schema.
 
 The Formal Public Identifier (fpi) attribute names the Schematron schema. In the ModSpec Part 2 extension, this identifier is a URI.
 
