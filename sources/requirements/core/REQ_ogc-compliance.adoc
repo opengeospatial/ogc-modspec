@@ -1,4 +1,3 @@
-[[req_ogc-compliance]]
 
 [requirement]
 ====

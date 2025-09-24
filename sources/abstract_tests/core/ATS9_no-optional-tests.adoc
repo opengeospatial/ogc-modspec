@@ -1,7 +1,9 @@
 [[ats_no-optional-tests]]
 [abstract_test]
+.No Optional Elements in Requirements classes
 ====
 [%metadata]
+name:: No Optional Elements in Requirements classes
 identifier:: /conf/core/no-optional-tests
 target:: /req/core/no-optional-tests
 test-purpose:: Validate that a conformance class does not contain any optional conformance tests.

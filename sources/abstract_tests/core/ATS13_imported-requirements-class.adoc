@@ -1,7 +1,9 @@
 [[ats_imported-requirements-class]]
 [abstract_test]
+.Imported Conformance class tests are consistent with the specification
 ====
 [%metadata]
+name:: Imported Conformance class tests are consistent with the specification
 identifier:: /conf/core/imported-requirements-class
 target:: /req/core/imported-requirements-class
 test-purpose:: Validate that if a requirements class is imported from another standard and that requirements class is “optional,” then that requirement class _SHALL_ be factored out as a separate requirements class in the profile of that imported standard used in the conformant standard. +

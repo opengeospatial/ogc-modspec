@@ -1,7 +1,9 @@
 [[ats_all-classes-explicitly-named]]
 [abstract_test]
+.Naming consistency
 ====
 [%metadata]
+name:: Naming consistency
 identifier:: /conf/core/all-classes-explicitly-named
 target:: /req/core/all-classes-explicitly-named
 test-purpose:: Validate that all requirements classes and all conformance test classes are explicitly named, with corresponding requirements classes and conformance test classes having similar names.

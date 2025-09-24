@@ -1,7 +1,9 @@
 [[ats_co-dependent-requirements]]
 [abstract_test]
+.Co-dependent Requirements are in the same requirements class
 ====
 [%metadata]
+name:: Co-dependent Requirements are in the same requirements class
 identifier:: /conf/core/co-dependent-requirements
 target:: /req/core/co-dependent-requirements
 test-purpose:: Validate that if any two requirements are co-dependent (each dependent on the other) then they are in the same requirements class. And if any two requirements classes are co-dependent, they have been merged into a single class.

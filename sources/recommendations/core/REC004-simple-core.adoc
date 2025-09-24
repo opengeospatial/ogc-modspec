@@ -1,8 +1,10 @@
 [[rec-4]]
 
 [recommendation]
+.Simplicity of the core
 ====
 [%metadata]
+name:: Simplicity of the core
 identifier:: /rec/core/simple-core
-part:: The core _SHOULD_ be as simple as possible.
+statement:: The core _SHOULD_ be as simple as possible.
 ====

@@ -1,9 +1,9 @@
-[[req_all-parameters-expressed]]
-[[req-10]]
 
 [requirement]
+.Parameters fully expressed
 ====
 [%metadata]
+name:: Parameters fully expressed
 identifier:: /req/core/all-parameters-expressed
-part:: A certificate of conformance _SHALL_ specify all parameter values used to pass the tests in its conformance test class.
+statement:: A certificate of conformance _SHALL_ specify all parameter values used to pass the tests in its conformance test class.
 ====

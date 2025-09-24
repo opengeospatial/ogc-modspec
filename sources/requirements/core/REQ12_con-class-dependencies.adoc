@@ -1,10 +1,10 @@
-[[req_con-class-dependencies]]
-[[req-12]]
 
 [requirement]
+.Conformance class dependencies are specified
 ====
 [%metadata]
+name:: Conformance class dependencies are specified
 identifier:: /req/core/con-class-dependencies
-part:: A Conformance class _SHALL_ specify any other conformance class upon which it is dependent and 
+part:: A Conformance class _SHALL_ specify any other conformance class upon which it is dependent and
 part:: That other conformance class _SHALL_ be used to test the specified dependency.
 ====

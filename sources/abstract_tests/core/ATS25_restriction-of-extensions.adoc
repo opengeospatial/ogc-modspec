@@ -1,7 +1,9 @@
 [[ats_restriction-of-extensions]]
 [abstract_test]
+.Future extensions cannot be restricted
 ====
 [%metadata]
+name:: Future extensions cannot be restricted
 identifier:: /conf/core/restriction-of-extensions
 target:: /req/core/restriction-of-extensions
 test-purpose:: Validate that the standard never restricts in any manner future, logically valid extensions of its standardization target types.

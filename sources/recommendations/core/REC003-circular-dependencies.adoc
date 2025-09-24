@@ -1,9 +1,11 @@
 [[rec-3]]
 
 [recommendation]
+.Circular dependencies of core elements
 ====
 [%metadata]
+name:: Circular dependencies of core elements
 identifier:: /rec/core/circular-dependencies
-part:: Circular dependencies of all types _SHOULD_ be avoided whenever possible.
+statement:: Circular dependencies of all types _SHOULD_ be avoided whenever possible.
 ====
 

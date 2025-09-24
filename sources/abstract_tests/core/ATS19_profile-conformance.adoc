@@ -1,7 +1,9 @@
 [[ats_profile-conformance]]
 [abstract_test]
+.Profiles are expressed as sets of conformance classes
 ====
 [%metadata]
+name:: Profiles are expressed as sets of conformance classes
 identifier:: /conf/core/profile-conformance
 target:: /req/core/profile-conformance
 test-purpose:: Validate that the conformance tests for a profile of a standard are defined as the union of a list of conformance classes that are to be satisfied by that profile’s standardization targets.

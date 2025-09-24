@@ -1,9 +1,9 @@
-[[req_restriction-of-extensions]]
-[[req-25]]
 
 [requirement]
+.No restriction of future extensions
 ====
 [%metadata]
+name:: No restriction of future extensions
 identifier:: /req/core/restriction-of-extensions
-part:: The standard _SHALL_ never restrict in any manner future, logically valid extensions of its standardization target types.
+statement:: The standard _SHALL_ never restrict in any manner future, logically valid extensions of its standardization target types.
 ====

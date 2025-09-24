@@ -1,7 +1,9 @@
 [[ats_single-standardization-target-type]]
 [abstract_test]
+.Requirements have a single target type
 ====
 [%metadata]
+name:: Requirements have a single target type
 identifier:: /conf/core/single-standardization-target-type
 target:: /req/core/single-standardization-target-type
 test-purpose:: Validate that each requirement class has a single standardization target type.

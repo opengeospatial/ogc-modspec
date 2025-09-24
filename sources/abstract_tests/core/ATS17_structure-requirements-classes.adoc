@@ -1,7 +1,9 @@
 [[ats_structure-requirements-classes]]
 [abstract_test]
+.Modularity in implementation is possible
 ====
 [%metadata]
+name:: Modularity in implementation is possible
 identifier:: /conf/core/structure-requirements-classes
 target:: /req/core/structure-requirements-classes
 test-purpose:: Validate that there is a natural structure to the requirements classes so that each may be implemented on top of any implementations of its dependencies and independent of its extensions.

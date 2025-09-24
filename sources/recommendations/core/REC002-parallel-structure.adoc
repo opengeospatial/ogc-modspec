@@ -1,9 +1,11 @@
 [[rec-2]]
 
 [recommendation]
+.Structural alignment of normative clauses and conformance classes
 ====
 [%metadata]
+name:: Structural alignment of normative clauses and conformance classes
 identifier:: /rec/core/parallel-structure
-part:: If possible, the structure of the normative clauses of the standard _SHOULD_
+statement:: If possible, the structure of the normative clauses of the standard _SHOULD_
 parallel the structure of the conformance classes in the conformance clause.
 ====

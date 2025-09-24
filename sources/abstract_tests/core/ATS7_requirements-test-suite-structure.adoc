@@ -1,7 +1,9 @@
 [[ats_requirements-test-suite-structure]]
 [abstract_test]
+.Conformance test classes are consistent with requirements classes
 ====
 [%metadata]
+name:: Conformance test classes are consistent with requirements classes
 identifier:: /conf/core/requirements-test-suite-structure
 target:: /req/core/requirements-test-suite-structure
 test-purpose:: Validate that the requirements structure of the standard are in a logical correspondence with the test suite structure.

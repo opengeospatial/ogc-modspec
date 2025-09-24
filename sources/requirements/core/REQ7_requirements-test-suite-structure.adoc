@@ -1,10 +1,10 @@
-[[req_requirements-test-suite-structure]]
 
-[[req-7]]
 
 [requirement]
+.Logical alignment of requirements and test suite structure
 ====
 [%metadata]
+name:: Logical alignment of requirements and test suite structure
 identifier:: /req/core/requirements-test-suite-structure
-part:: The requirements structure of the standard _SHALL_ be in logical correspondence with the test suite structure.
+statement:: The requirements structure of the standard _SHALL_ be in logical correspondence with the test suite structure.
 ====

@@ -1,9 +1,9 @@
-[[req_req-class-overlap-by-reference]]
-[[req-27]]
 
 [requirement]
+.Requirements class overlap only by reference
 ====
 [%metadata]
+name:: Requirements class overlap only by reference
 identifier:: /req/core/req-class-overlap-by-reference
-part:: The common portion of any two requirements classes _SHALL_ consist only of references to other requirements classes.
+statement:: The common portion of any two requirements classes _SHALL_ consist only of references to other requirements classes.
 ====

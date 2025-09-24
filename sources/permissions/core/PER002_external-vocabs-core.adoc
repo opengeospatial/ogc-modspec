@@ -1,8 +1,10 @@
 [[per-2]]
 
 [permission]
+.External vocabularies and schemas imported to core
 ====
 [%metadata]
+name:: External vocabularies and schemas imported to core
 identifier:: /per/core/external-vocabs-core
-part:: Importation of external vocabularies and schemas _MAY_ be in the core of a standard.
+statement:: Importation of external vocabularies and schemas _MAY_ be in the core of a standard.
 ====

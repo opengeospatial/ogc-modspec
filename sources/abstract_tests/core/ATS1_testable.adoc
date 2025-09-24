@@ -1,7 +1,9 @@
 [[ats_requirements-are-testable]]
 [abstract_test]
+.Requirements are testable
 ====
 [%metadata]
+name:: Requirements are testable
 identifier:: /conf/core/reqs-are-testable
 target:: /req/core/reqs-are-testable
 test-purpose:: Validate that all the parts of a requirement are testable and that Failure to pass any part of a requirement is also a failure to pass the associated conformance test.

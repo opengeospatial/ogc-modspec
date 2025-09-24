@@ -1,8 +1,10 @@
 [[per-6]]
 
 [permission]
+.Abstraction level of the core
 ====
 [%metadata]
+name:: Abstraction level of the core
 identifier:: /per/core/core-type
-part:: The core _MAY_ be partially or totally abstract.
+statement:: The core _MAY_ be partially or totally abstract.
 ====

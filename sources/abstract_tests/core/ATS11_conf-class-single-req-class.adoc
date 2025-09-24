@@ -1,7 +1,9 @@
 [[ats_conf-class-single-req-class]]
 [abstract_test]
+.Conformance class tests only one requirements class
 ====
 [%metadata]
+name:: Conformance class tests only one requirements class
 identifier:: /conf/core/conf-class-single-req-class
 target:: /req/core/conf-class-single-req-class
 test-purpose:: Validate that every conformance class explicitly tests only requirements from a single requirements class.

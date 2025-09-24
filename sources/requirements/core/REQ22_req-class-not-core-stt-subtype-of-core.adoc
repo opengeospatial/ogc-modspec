@@ -1,9 +1,9 @@
-[[req_req-class-not-core-stt-subtype-of-core]]
-[[req-22]]
 
 [requirement]
+.Non-core requirements class depends on core and has standardization target type
 ====
 [%metadata]
+name:: Non-core requirements class depends on core and has standardization target type
 identifier:: /req/core/req-class-not-core-stt-subtype-of-core
 part:: Every requirements class in the standard, with the exception of the core, _SHALL_ have a standardization target type which is a subtype of that of the core.
 part:: Every requirement class in the standard, with the exception of the core, _SHALL_ have the core as a direct dependency.

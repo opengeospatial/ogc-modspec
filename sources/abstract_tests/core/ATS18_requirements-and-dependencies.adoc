@@ -1,7 +1,9 @@
 [[ats_requirements-and-dependencies]]
 [abstract_test]
+.Requirements follow rules of inheritance
 ====
 [%metadata]
+name:: Requirements follow rules of inheritance
 identifier:: /conf/core/requirements-and-dependencies
 target:: /req/core/requirements-and-dependencies
 test-purpose:: Validate that no requirements class redefines the requirements of its dependencies, unless that redefinition is for an entity derived from but not contained in those dependencies.

@@ -1,9 +1,9 @@
-[[req_general-recommendations-core]]
-[[req-21]]
 
 [requirement]
+.General recommendations for the standard are in the core
 ====
 [%metadata]
+name:: General recommendations for the standard are in the core
 identifier:: /req/core/general-recommendations-core
-part:: All general recommendations for the standard _SHALL_ be in the core.
+statement:: All general recommendations for the standard _SHALL_ be in the core.
 ====

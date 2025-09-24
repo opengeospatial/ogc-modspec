@@ -1,10 +1,12 @@
 [[rec-1]]
 
 [recommendation]
+.Use of unique identifiers/labels in external documentation
 ====
 [%metadata]
+name:: Use of unique identifiers/labels in external documentation
 identifier:: /rec/core/uri-external-use
-part:: These unique identifiers/labels _SHOULD_ be used in any external documentation that references
+statement:: These unique identifiers/labels _SHOULD_ be used in any external documentation that references
 component elements of a standard in a normative manner, including but not limited to other
 standards, implementations of the conformance test suite, or certificates of
 conformance for implementations conformant to the standard in question.

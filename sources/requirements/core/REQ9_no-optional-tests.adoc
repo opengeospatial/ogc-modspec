@@ -1,10 +1,10 @@
-[[req_no-optional-tests]]
 
-[[req-9]]
 
 [requirement]
+.No optional conformance tests
 ====
 [%metadata]
+name:: No optional conformance tests
 identifier:: /req/core/no-optional-tests
-part:: A conformance class _SHALL_ not contain any optional conformance tests.
+statement:: A conformance class _SHALL_ not contain any optional conformance tests.
 ====
