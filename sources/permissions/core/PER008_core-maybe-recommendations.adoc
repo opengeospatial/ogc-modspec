@@ -1,9 +1,11 @@
 [[per-8]]
 
 [permission]
+.Requirements not mandatory in core
 ====
 [%metadata]
+name:: Requirements not mandatory in core
 identifier:: /per/core/core-maybe-recommendations
-part:: Since the basic concept of some standards is mechanism not implementation, the core _MAY_ contain only
+statement:: Since the basic concept of some standards is mechanism not implementation, the core _MAY_ contain only
 recommendations and state no requirements.
 ====

@@ -1,8 +1,10 @@
 [[per-7]]
 
 [permission]
+.Core requirements class from another standard
 ====
 [%metadata]
+name:: Core requirements class from another standard
 identifier:: /per/core/req-class-another-standard
-part:: The core requirements class in a standard _MAY_ be a conformance class defined in another standard.
+statement:: The core requirements class in a standard _MAY_ be a conformance class defined in another standard.
 ====

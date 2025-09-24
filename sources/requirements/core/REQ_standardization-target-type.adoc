@@ -1,4 +1,3 @@
-[[req_standardization-target-type]]
 
 [requirement]
 ====

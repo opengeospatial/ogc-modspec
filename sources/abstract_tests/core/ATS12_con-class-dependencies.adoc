@@ -1,7 +1,9 @@
 [[ats_con-class-dependencies]]
 [abstract_test]
+.Conformance class specifies all dependencies
 ====
 [%metadata]
+name:: Conformance class specifies all dependencies
 identifier:: /conf/core/con-class-dependencies
 target:: /req/core/con-class-dependencies
 test-purpose:: Validate that all conformance classes specify any other conformance class upon which they are dependent and that other conformance class shall be used to test the specified dependency.

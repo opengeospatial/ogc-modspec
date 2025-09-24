@@ -1,7 +1,9 @@
 [[ats_test-class-single-standardization-target]]
 [abstract_test]
+.Conformance test classes have a single target type
 ====
 [%metadata]
+name:: Conformance test classes have a single target type
 identifier:: /conf/core/test-class-single-standardization-target-type
 target:: /req/core/test-class-single-standardization-target-type
 test-purpose:: Validate that all conformance tests in a single conformance test class have the same standardization target type.

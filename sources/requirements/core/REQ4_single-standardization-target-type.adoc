@@ -1,10 +1,10 @@
-[[req_single-standardization-target-type]]
 
-[[req-4]]
 
 [requirement]
+.Single standardization target type
 ====
 [%metadata]
+name:: Single standardization target type
 identifier:: /req/core/single-standardization-target-type
-part:: Each requirement class _SHALL_ have a single standardization target type.
+statement:: Each requirement class _SHALL_ have a single standardization target type.
 ====

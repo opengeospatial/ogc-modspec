@@ -13,14 +13,14 @@ alternate mechanism.
 
 Standards are often structured and documented using some form of modeling language, or
 implementation paradigm. Additional Parts to the ModSpec
-define a mechanism to map parts of the model (language, schema, etc.) to the conformance classes 
+define a mechanism to map parts of the model (language, schema, etc.) to the conformance classes
 used in the ModSpec model as defined in the core ModSpec Requirements Class.
 
-As suggested in Clause <<req-22>>, the structure of the normative clauses in a
-standard should parallel the structure of the conformance test classes in
-that standard. The structure of the normative clauses in a well written
-standard will follow the structure of its model. This means that all three are
-parallel.
+As suggested in xref:/req/core/req-class-not-core-stt-subtype-of-core[], the
+structure of the normative clauses in a standard should parallel the structure
+of the conformance test classes in that standard. The structure of the normative
+clauses in a well written standard will follow the structure of its model. This
+means that all three are parallel.
 
 === A Note on Data Models
 

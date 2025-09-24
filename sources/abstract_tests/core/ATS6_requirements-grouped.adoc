@@ -1,7 +1,9 @@
 [[ats_requirements-grouped]]
 [abstract_test]
+.Requirements are organized by clauses
 ====
 [%metadata]
+name:: Requirements are organized by clauses
 identifier:: /conf/core/requirements-grouped
 target:: /req/core/requirements-grouped
 test-purpose:: Validate that requirements are grouped together in clauses (numbered sections) of the document in a strictly hierarchical manner, consistent with requirements classes.

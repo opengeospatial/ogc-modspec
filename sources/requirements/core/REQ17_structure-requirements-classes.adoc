@@ -1,9 +1,9 @@
-[[req_structure-requirements-classes]]
-[[req-17]]
 
 [requirement]
+.Natural structure to requirements classes
 ====
 [%metadata]
+name:: Natural structure to requirements classes
 identifier:: /req/core/structure-requirements-classes
-part:: There _SHALL_ be a natural structure to the requirements classes so that each may be implemented on top of any implementations of its dependencies and independent of its extensions.
+statement:: There _SHALL_ be a natural structure to the requirements classes so that each may be implemented on top of any implementations of its dependencies and independent of its extensions.
 ====

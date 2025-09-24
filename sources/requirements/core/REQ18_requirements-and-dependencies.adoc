@@ -1,9 +1,9 @@
-[[req_requirements-and-dependencies]]
-[[req-18]]
 
 [requirement]
+.Requirements do not redefine dependencies
 ====
 [%metadata]
+name:: Requirements do not redefine dependencies
 identifier:: /req/core/requirements-and-dependencies
-part:: No requirements class _SHALL_ redefine the requirements of its dependencies, unless that redefinition is for an entity derived from but not contained in those dependencies.
+statement:: No requirements class _SHALL_ redefine the requirements of its dependencies, unless that redefinition is for an entity derived from but not contained in those dependencies.
 ====

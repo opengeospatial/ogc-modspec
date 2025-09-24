@@ -1,7 +1,9 @@
 [[ats_all-parameters-expressed]]
 [abstract_test]
+.Certificate of conformance specifies all parameters used
 ====
 [%metadata]
+name:: Certificate of conformance specifies all parameters used
 identifier:: /conf/core/all-parameters-expressed
 target:: /req/core/all-parameters-expressed
 test-purpose:: Validate that a certificate of conformance specifies all parameter values used to pass the tests in its conformance test class.

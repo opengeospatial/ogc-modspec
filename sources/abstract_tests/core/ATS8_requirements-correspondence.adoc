@@ -1,7 +1,9 @@
 [[ats_requirements-class-correspondence-to-conformance-classes]]
 [abstract_test]
+.Requirement classes and the Conformance Test classes in correspondence
 ====
 [%metadata]
+name:: Requirement classes and the Conformance Test classes in correspondence
 identifier:: /conf/core/requirements-class-correspondence-to-conformance-classes
 target:: /req/core/requirements-class-correspondence-to-conformance-classes
 test-purpose:: Validate that the requirements classes are in a one-to-one correspondence to the conformance test classes, and thus to the various certificate of conformance types possible for a candidate implementation.

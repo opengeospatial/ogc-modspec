@@ -1,7 +1,9 @@
 [[ats_core-and-extensions]]
 [abstract_test]
+.A standard is a core plus some number of extensions
 ====
 [%metadata]
+name:: A standard is a core plus some number of extensions
 identifier:: /conf/core/core-and-extensions
 target:: /req/core/core-and-extensions
 test-purpose:: Validate that the standard defines and identifies a core set of requirements as a separate requirements class with a corresponding conformance class.

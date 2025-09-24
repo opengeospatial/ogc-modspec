@@ -1,9 +1,11 @@
 [[per-4]]
 
 [permission]
+.Abstract superclass of all affected standardization target types
 ====
 [%metadata]
+name:: Abstract superclass of all affected standardization target types
 identifier:: /per/core/abstract-superclass
-part:: The standard _MAY_ introduce an abstract superclass of all affected standardization target types and
+statement:: The standard _MAY_ introduce an abstract superclass of all affected standardization target types and
 use this for the requirements common to all of the affected target types.
 ====

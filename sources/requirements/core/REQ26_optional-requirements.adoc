@@ -1,9 +1,9 @@
-[[req_optional-requirements]]
-[[req-26]]
 
 [requirement]
+.Conditional requirements are expressed as conformance classes
 ====
 [%metadata]
+name:: Conditional requirements are expressed as conformance classes
 identifier:: /req/core/optional-requirements
-part:: The only conditional (optional) requirements acceptable in the standard _SHALL_ be expressible as a list of conformance classes to be passed.
+statement:: The only conditional (optional) requirements acceptable in the standard _SHALL_ be expressible as a list of conformance classes to be passed.
 ====

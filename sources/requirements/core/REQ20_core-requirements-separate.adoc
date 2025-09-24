@@ -1,9 +1,9 @@
-[[req_core-requirements-separate]]
-[[req-20]]
 
 [requirement]
+.Core requirements are a separate requirements class
 ====
 [%metadata]
+name:: Core requirements are a separate requirements class
 identifier:: /req/core/core-requirements-separate
-part:: The standard _SHALL_ define and identify a core set of requirements as a separate requirements class with a corresponding conformance class.
+statement:: The standard _SHALL_ define and identify a core set of requirements as a separate requirements class with a corresponding conformance class.
 ====

@@ -1,9 +1,9 @@
-[[req_core-and-extensions]]
-[[req-23]]
 
 [requirement]
+.Standard specifies core and extensions as separate requirements classes
 ====
 [%metadata]
+name:: Standard specifies core and extensions as separate requirements classes
 identifier:: /req/core/core-and-extensions
-part:: The standard _SHALL_ define and identify a core set of requirements as a separate requirements class with a corresponding conformance class.
+statement:: The standard _SHALL_ define and identify a core set of requirements as a separate requirements class with a corresponding conformance class.
 ====

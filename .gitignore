@@ -1,4 +1,4 @@
 .DS_Store
-relaton/cache
-iev/cache
+*/relaton
+*/iev
 *.err

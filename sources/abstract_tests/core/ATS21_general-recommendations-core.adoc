@@ -1,7 +1,9 @@
 [[ats_general-recommendations-core]]
 [abstract_test]
+.General conditions are in the core
 ====
 [%metadata]
+name:: General conditions are in the core
 identifier:: /conf/core/general-recommendations-core
 target:: /req/core/general-recommendations-core
 test-purpose:: Validate that all general recommendations for the standard are in the core.

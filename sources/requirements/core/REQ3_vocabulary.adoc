@@ -1,10 +1,9 @@
-[[req_vocabulary-and-parent-req-class]]
-
-[[req-3]]
 
 [requirement]
+.Interpretation of vocabulary described in requirements class
 ====
 [%metadata]
+name:: Interpretation of vocabulary described in requirements class
 identifier:: /req/core/vocabulary-and-parent-req-class
-part:: Requirements on the use and interpretation of vocabulary _SHALL_ be in the requirements class where that use or interpretation is used.
+statement:: Requirements on the use and interpretation of vocabulary _SHALL_ be in the requirements class where that use or interpretation is used.
 ====

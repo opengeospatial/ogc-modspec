@@ -1,9 +1,9 @@
-[[req_extensions-conformant-to-the-modspec]]
-[[req-24]]
 
 [requirement]
+.Extensions conformant to the ModSpec
 ====
 [%metadata]
+name:: Extensions conformant to the ModSpec
 identifier:: /req/core/extensions-conformant-to-the-modspec
-part:: A standard conformant to the ModSpec _SHALL_ require all conformant extensions to be conformant to the ModSpec.
+statement:: A standard conformant to the ModSpec _SHALL_ require all conformant extensions to be conformant to the ModSpec.
 ====

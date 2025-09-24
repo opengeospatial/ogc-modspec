@@ -1,4 +1,3 @@
-[[req_class_a_name_2]]
 
 [requirement]
 ====

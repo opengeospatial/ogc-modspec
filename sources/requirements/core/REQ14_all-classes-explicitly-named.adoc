@@ -1,9 +1,9 @@
-[[req_all-classes-explicitly-named]]
-[[req-14]]
 
 [requirement]
+.All requirements and conformance test classes explicitly named
 ====
 [%metadata]
+name:: All requirements and conformance test classes explicitly named
 identifier:: /req/core/all-classes-explicitly-named
-part:: For the sake of consistency and readability, all requirements classes and all conformance test classes _SHALL_ be explicitly named, with corresponding requirements classes and conformance test classes having similar names.
+statement:: For the sake of consistency and readability, all requirements classes and all conformance test classes _SHALL_ be explicitly named, with corresponding requirements classes and conformance test classes having similar names.
 ====

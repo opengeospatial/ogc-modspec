@@ -1,7 +1,9 @@
 [[ats_req-class-overlap-by-reference]]
 [abstract_test]
+.Requirements classes intersect overlap only by reference
 ====
 [%metadata]
+name:: Requirements classes intersect overlap only by reference
 identifier:: /conf/core/req-class-overlap-by-reference
 target:: /req/core/req-class-overlap-by-reference
 test-purpose:: Validate that the common portion of any two requirements classes consist only of references to other requirements classes.

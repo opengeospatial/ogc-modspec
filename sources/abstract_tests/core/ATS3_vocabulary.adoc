@@ -1,7 +1,9 @@
 [[ats_vocabulary-and-parent-req-class]]
 [abstract_test]
+.Requirements on vocabulary are appropriately placed
 ====
 [%metadata]
+name:: Requirements on vocabulary are appropriately placed
 identifier:: /conf/core/vocabulary-and-parent-req-class
 target:: /req/core/vocabulary-and-parent-req-class
 test-purpose:: Validate that requirements on the use and interpretation of vocabulary are in the requirements class where that use or interpretation is used.

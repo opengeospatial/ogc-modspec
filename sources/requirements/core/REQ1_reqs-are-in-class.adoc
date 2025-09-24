@@ -1,5 +1,3 @@
-[[req_requirements-are-in-class]]
-[[req-0]]
 
 [requirement]
 ====

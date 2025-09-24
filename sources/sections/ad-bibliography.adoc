@@ -1,10 +1,5 @@
-[[annex-D]]
 [bibliography]
 == Bibliography
-
-To preserve a unique numeric identifier for all documents listed as references in
-this standard, the numbering of references in this annex is continued from the list
-of normative reference in <<cls-3>>.
 
 * [[[iso9075,ISO/IEC 9075:2003]]], ISO/IEC JTC 1, ISO/IEC 9075:2003 -- Information Technology -- Database Languages - SQL.
 
@@ -14,6 +9,17 @@ of normative reference in <<cls-3>>.
 
 * [[[w3c-xml-part2,W3C xmlschema11-2]]], XML Schema 1.1 Part 2: Datatypes, April 2012, available from W3C at http://www.w3.org/TR/xmlschema11-2/
 
-* [[[iso10000,ISO/IEC TR 10000]]], ISO/IEC TR 10000: Information Technology -- Framework and taxonomy of International Standardized Profiles
+* [[[iso10000,ISO/IEC TR 10000-1]]], ISO/IEC TR 10000-2: Information Technology -- Framework and taxonomy of International Standardized Profiles
 
-*	Pyle, I. C., Dictionary of Computing, 4th Edition, Oxford: Oxford University Press. Current edition 8th 2008
+* [[[dict_computing,1(isbn:9780199234004)]]]
+
+// span:surname[Pyle] span:initials[I. C.]
+// span:title[Dictionary of Computing]
+// span:edition[4]
+// span:publisher[Oxford University Press].
+// span:place[Oxford, UK]
+// Current edition 8th 2008
+
+* [[[uml_manual,1(isbn:9780201309980)]]]
+
+// SOURCE: Rumbaugh J, Jacobson I, Booch G, The Unified Modeling Language Reference Manual 1999

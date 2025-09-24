@@ -1,8 +1,10 @@
 [[per-5]]
 
 [permission]
+.Parameterization of conformance class
 ====
 [%metadata]
+name:: Parameterization of conformance class
 identifier:: /per/core/conf-class-paramterized
-part:: A Conformance class _MAY_ be parameterized..
+statement:: A Conformance class _MAY_ be parameterized..
 ====

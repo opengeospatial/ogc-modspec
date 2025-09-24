@@ -1,4 +1,3 @@
-[[req_class-core]]
 [requirements_class]
 .Requirements Class 'Core'
 ====
@@ -34,5 +33,4 @@ requirement:: /req/core/optional-requirements
 requirement:: /req/core/req-class-overlap-by-reference
 requirement:: /req/core/reqs-are-in-class
 ====
-
 

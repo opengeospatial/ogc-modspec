@@ -1,7 +1,9 @@
 [[ats_req-in-only-one-req-class]]
 [abstract_test]
+.Requirements in one and only one requirements class
 ====
 [%metadata]
+name:: Requirements in one and only one requirements class
 identifier:: /conf/core/req-in-only-one-req-class
 target:: /req/core/req-in-only-one-req-class
 test-purpose:: Validate that each requirement in the standard is contained in one and only one requirements class. And that Inclusion of any requirement in a requirements class by a conformance class implies inclusion of all requirements in its class (as a dependency).

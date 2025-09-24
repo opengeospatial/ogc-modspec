@@ -1,10 +1,10 @@
-[[req_requirements-grouped]]
 
-[[req-6]]
 
 [requirement]
+.Requirements grouped in requirements classes
 ====
 [%metadata]
+name:: Requirements grouped in requirements classes
 identifier:: /req/core/requirements-grouped
-part:: Requirements _SHALL_ be grouped together in clauses (numbered sections) of the document in a strictly hierarchical manner, consistent with the requirements classes.
+statement:: Requirements _SHALL_ be grouped together in clauses (numbered sections) of the document in a strictly hierarchical manner, consistent with the requirements classes.
 ====

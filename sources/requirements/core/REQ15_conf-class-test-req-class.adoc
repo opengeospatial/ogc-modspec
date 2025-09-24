@@ -1,9 +1,9 @@
-[[req_conf-class-test-req-class]]
-[[req-15]]
 
 [requirement]
+.Conformance test class comprehensively tests all requirements of associated requirements class
 ====
 [%metadata]
+name:: Conformance test class comprehensively tests all requirements of associated requirements class
 identifier:: /req/core/conf-class-test-req-class
-part:: A conformance test class _SHALL_ test all of the requirements of the associated requirements class.
+statement:: A conformance test class _SHALL_ test all of the requirements of the associated requirements class.
 ====

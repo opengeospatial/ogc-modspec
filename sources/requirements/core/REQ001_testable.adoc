@@ -1,13 +1,14 @@
 [[reqs-are-testable]]
 
-[[req-1]]
 
 [requirement]
+.Testable requirements
 ====
 [%metadata]
+name:: Testable requirements
 identifier:: /req/core/reqs-are-testable
-part:: All the parts of a requirement _SHALL_ be testable. 
+part:: All the parts of a requirement _SHALL_ be testable.
 part:: Failure to pass any part of a requirement _SHALL_ be a failure to pass the associated conformance test.
+guidance:: This further means that failure to pass the test specified for a part of requirement is a failure to pass the requirement.
 ====
 
-NOTE: This further means that failure to pass the test specified for a part of requirement is a failure to pass the requirement.
