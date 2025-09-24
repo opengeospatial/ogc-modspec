@@ -52,15 +52,19 @@ may be software extensions in a manner analogous to the extension relation betwe
 
 requirements class with a different standardization target which is used by, produced by, or associated with the implementation of this requirements class
 
-NOTE: In this instance, as opposed to the direct dependency of a requirements class, the test against the consumable or product used or produced by the requirements class does not directly test the requirements class, but tests only its side effects. Hence, a particular type of feature service could be required to produce valid XML documents, but the test of validity for the XML document is not directly testing the service, but only indirectly testing the validity of its output. Direct dependencies test the same standardization target, but indirect dependencies test related but different standardization targets. +
+[NOTE]
+--
+In this instance, as opposed to the direct dependency of a requirements class, the test against the consumable or product used or produced by the requirements class does not directly test the requirements class, but tests only its side effects. Hence, a particular type of feature service could be required to produce valid XML documents, but the test of validity for the XML document is not directly testing the service, but only indirectly testing the validity of its output. Direct dependencies test the same standardization target, but indirect dependencies test related but different standardization targets.
+
 For example, if a DRM-enabled service is required to have an association to a licensing service, then the requirements of a licensing service are indirect requirements for the DRM-enabled service. Such a requirement may be stated as the associated licensing service has a certificate of conformance of a particular kind.
+--
 
 
 ===== module
 
 each of a set of standardized parts or independent units that can be used to construct a more complex structure
 
-NOTE: The concept ‘module’ is key to the ModSpec structure and model. Modules have a direct relationship to the concept of building blocks.
+NOTE: The concept "module" is key to the ModSpec structure and model. Modules have a direct relationship to the concept of building blocks.
 The power of the concept is that modules can be reused in different systems (specify once, use many). Modules can be imported from other programs.
 Modules can be replaced without affecting the rest of the system.
 
@@ -96,9 +100,12 @@ NOTE: The requirement parts are co-dependent.
 
 specification or standard consisting of a set of references to one or more base standards and/or other profiles, and the identification of any chosen conformance test classes, conforming subsets, options and parameters of those base standards, or profiles necessary to accomplish a particular function.
 
-NOTE: In the usage of the ModSpec, a profile is a set of requirements classes or conformance classes (either preexisting or locally defined) of the base standards.
+[NOTE]
+--
+In the usage of the ModSpec, a profile is a set of requirements classes or conformance classes (either preexisting or locally defined) of the base standards.
 
 This means that a standardization target being conformant to a profile implies that the same target is conformant to the standards referenced in the profile.
+--
 
 [.source]
 <<iso10000>>
@@ -260,7 +267,7 @@ The specification of a requirement is usually expressed in terms of a model of t
 or an XML, JSON or SQL schema. Anything without a defined test is a-priori not testable and thus would be better expressed as a recommendation.
 Requirements use normative language and in particular are commands and use the imperative "shall" or similar imperative constructs. Statements in
 standards which are not requirements and need to be either conditional or future tense normally use "will" and should not be confused
-with requirements that use "shall" imperatively
+with requirements that use "shall" imperatively.
 
 
 ===== requirements class
