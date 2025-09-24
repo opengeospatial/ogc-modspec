@@ -4,6 +4,6 @@
 [%metadata]
 identifier:: /conf/core/optional-requirements
 target:: /req/core/optional-requirements
-test-purpose:: Validate that the only conditional (optional) requirements acceptable in a standard conformant with the ModSpec are expressed as a list of conformance classes to be passed.
+test-purpose:: Validate that the only conditional (optional) requirements acceptable in the standard are expressed as a list of conformance classes to be passed.
 test-method:: Inspect the document to verify the above.
 ====

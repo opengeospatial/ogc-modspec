@@ -4,7 +4,7 @@
 ====
 [%metadata]
 identifier:: https://www.opengis.net/spec/modspec-1/1.1/req/req-class-core
-target-type:: Modular Standard
+target-type:: Standard
 requirement:: /req/core/reqs-are-testable
 requirement:: /req/core/all-components-assigned-uri
 requirement:: /req/core/vocabulary-and-parent-req-class
@@ -19,7 +19,7 @@ requirement:: /req/core/conf-class-single-req-class
 requirement:: /req/core/con-class-dependencies
 requirement:: /req/core/imported-requirements-class
 requirement:: /req/core/all-classes-explicitly-named
-requirement:: /req/core/req-in-only-one-req-class
+requirement:: /req/core/conf-class-test-req-class
 requirement:: /req/core/co-dependent-requirements
 requirement:: /req/core/structure-requirements-classes
 requirement:: /req/core/requirements-and-dependencies

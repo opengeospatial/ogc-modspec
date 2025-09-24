@@ -4,6 +4,6 @@
 [%metadata]
 identifier:: /conf/core/requirements-test-suite-structure
 target:: /req/core/requirements-test-suite-structure
-test-purpose:: Validate that the requirements structure of the document are in a logical correspondence with the test suite structure.
+test-purpose:: Validate that the requirements structure of the standard are in a logical correspondence with the test suite structure.
 test-method:: Inspect the document to verify the above.
 ====

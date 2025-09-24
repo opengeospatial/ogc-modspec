@@ -52,18 +52,19 @@ See <<Clause_Critical>> for more information on critical changes and
 | GitHub| 13  | A | Introduction | Rewrote Introduction | Clarity and shorten
 | GitHub| 8, 12, 13  | A | Conformance | Rewrote and modified. Shorten and be consistent with Git issues 8, 12, and 13 | Clarity
 | GitHub | 15  | A | References | Updated dates and provide references to most recent versions of each of the referenced standards. | Completeness and accuracy
-| Other| NA  | A | Terms & Defs | Reorganized T&Ds into logical groupings | Clarity
+| Other| NA  | A | Part 1 Terms & Defs | Reorganized T&Ds into logical groupings | Clarity
 | GitHub| 45, 59  | A | Terms & Defs | Added concept `building block` definition for OGC wide use. | Completeness
-| Other| NA  | A | Terms & Defs | Added `part` because concept not defined | Completeness and Clarity
-| GitHub| 34  | A | Terms & Defs | Added `permission` because was a note but should be a separate T&D entry | Clarity
-| Other| NA  | A | Terms & Defs | Added `module` because was never defined in ModSpec v 1.0!| Clarity and completeness 
-| Other| NA  | A | Terms & Defs | `will` defined in old ModSpec body but now a separate T&D entry | Completeness and clarity
-| Other| NA  | A | Terms & Defs | Removed notes as appropriate. | Clarity and readability
+| Other| NA  | A | Part 1 Terms & Defs | Added `part` because concept not defined | Completeness and Clarity
+| GitHub| 34  | A | Paty 1 Terms & Defs | Added `permission` because was a note but should be a separate T&D entry | Clarity
+| Other| NA  | A | Part 1 Terms & Defs | Added `module` because was never defined in ModSpec v 1.0!| Clarity and completeness 
+| Other| NA  | A | Part 1 Terms & Defs | `will` defined in old ModSpec body but now a separate T&D entry | Completeness and clarity
+| Other| NA  | A | Part 1 Terms & Defs | Removed notes as appropriate. | Clarity and readability
+| Other | NA  | A | Part 1 Terms and Defs | Added definition for conformance test method | Completeness
 | Other | NA  | A | Conventions | 6.2. Identifiers | Updated for 1.1
 | Other | NA  | A | Conventions | 6.3. Abbreviated terms. Removed abbreviations not used in core. | Clarity
 | GitHub| 16 | A | Conventions | Rewrote 6.4. Finding requirements and recommendations. Some content moved to new Fundamentals clause | Clarity and shorten document. 
 | GitHub| 14, 33, 45 | A | Fundamentals | Add new Clause 7 Fundamentals. Some content moved from original ModSpec, new content based on Git Issues for more info on some topics. | Clarity and readability
-| GitHub| 45  | A | Fundamentals | Add description of concept Building Block. Required for OGC wide usage and Common understanding | Clarity and consistency
+| GitHub| 45  | A | Fundamentals | Add description of concept Building Block. For OGC wide usage and Common understanding. Not normative. | Clarity and consistency
 | GitHub| 14, 33, 44  | A | Add 7.2. to Fundamentals Standardization Context — Goals and Targets | required for OGC wide usage and Common understanding. | Clarity and consistency
 | GitHub| 14, 33  | A | 7.0 Fundamentals Added concept of a `standardization goal`|  Need this requirement so every standard tells the reader what the goal or aim of the standard is. | Clarity and readability
 | Other | NA  | A | 7.3. Conformance, Requirements, and key information | Moved content from just after Requirement 2, ModSpec version 1 to new location  | Clarity
@@ -76,4 +77,12 @@ See <<Clause_Critical>> for more information on critical changes and
 | GitHub| 10  | A | Annex C - ogc-modspec.lutaml | Rewrote Specification/Standard description to be consistent with Critical Change 4 | Consistency
 | GitHub| 33  | A | Annex C - ogc-modspec.lutaml | Added examples of requirement, requirements class. | Clarity
 | Other | NA  | A | Bibliography | Update dates for documents | Consistency
+| GitHub|80   |A  | Part 1 T&Ds  | Style of the terms and definitions to follow ISO template | Consistency
+| GitHub| 83  | A | Part 1 T&Ds  | Remove `lead-package` as not used in main body or any requirements | Clarity
+| GitHub| 84  | A | Part 1 Req 15| Remove Part A from Req 15 as it is redundent with Req 1 | Clarity
+| GitHub| 85  | A | Part 1 Foundation | Correct standardization target type of the ModSpec | Accuracy
+| GitHub| 88  | A | Part 1 ATS    | Test purpose phrasing corrected | Clarity and readability
+| GitHub| 90  | A |Parts 2 and 3 |Confusing names and ids of extensions | Clarity and Consistency
+| GitHub| 91  | A |Parts 2 and 3 | Mismatch identifiers of normative provisions | Accuracy
+| GitHub| 94  | A |Part 1 - Various | Fix typos | Accuracy
 |===

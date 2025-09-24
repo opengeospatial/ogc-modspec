@@ -5,5 +5,5 @@
 ====
 [%metadata]
 identifier:: /req/core/core-requirements-separate
-part:: Every standard _SHALL_ define and identify a core set of requirements as a separate requirements class with a corresponding conformance class.
+part:: The standard _SHALL_ define and identify a core set of requirements as a separate requirements class with a corresponding conformance class.
 ====

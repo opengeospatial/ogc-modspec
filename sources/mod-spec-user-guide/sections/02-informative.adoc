@@ -65,8 +65,8 @@ The following are two examples of Target Types and Targets as used in the OGC AP
 
 === OGC Identifiers
 
-ModSpec Requirement 2 states, "Each component of a standard, including requirements, requirements modules, requirements classes, conformance tests 
-conformance modules, and conformance test classes SHALL be assigned a unique identifier and/or label." OGC Policy 
+ModSpec Requirement 2 states, "Each component of a standard, including requirements, requirements packages, requirements classes, conformance tests 
+conformance packages, and conformance test classes SHALL be assigned a unique identifier and/or label." OGC Policy 
 Directive https://portal.ogc.org/public_ogc/directives/directives.php#33[33] specifies that such identifiers are URIs and `SHALL` 
 be structured per the rules specified in the OGC Naming Authority policy doucment https://docs.ogc.org/pol/10-103r1.html[OGC Name Type Specification - specification elements]
 
@@ -246,8 +246,8 @@ core model for the 2D Euclidean plane use case.
 [%metadata]
 identifier:: /conf/core/all-components-assigned-uri
 target:: /req/core/all-components-assigned-uri
-test-purpose:: Validate that each component of a standard, including requirements, requirements modules, requirements classes, 
-conformance test, conformance modules, and conformance test classes are assigned a unique identifer or label.
+test-purpose:: Validate that each component of a standard, including requirements, requirements packages, requirements classes, 
+conformance test, conformance packages, and conformance test classes are assigned a unique identifer or label.
 test-method:: Inspect the document to verify the above.
 ====
 ```
@@ -276,8 +276,8 @@ The above Metanorma AsciiDoc example would appear as follows when published.
 [%metadata]
 identifier:: /conf/core/all-components-assigned-uri
 target:: /req/core/all-components-assigned-uri
-test-purpose:: Validate that each component of a standard, including requirements, requirements modules, requirements classes, 
-conformance test, conformance modules, and conformance test classes are assigned a unique identifer or label.
+test-purpose:: Validate that each component of a standard, including requirements, requirements packages, requirements classes, 
+conformance test, conformance packages, and conformance test classes are assigned a unique identifer or label.
 test-method:: Inspect the document to verify the above.
 ====
 

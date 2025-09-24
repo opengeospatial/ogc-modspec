@@ -4,6 +4,6 @@
 [%metadata]
 identifier:: /conf/core/reqs-are-in-class
 target:: /req/core/reqs-are-in-class
-test-purpose:: Validate that each requirement in a standard is associated with exactly one requirements class.
+test-purpose:: Validate that each requirement in the standard is associated with exactly one requirements class.
 test-method:: Inspect the document to verify the above.
 ====
