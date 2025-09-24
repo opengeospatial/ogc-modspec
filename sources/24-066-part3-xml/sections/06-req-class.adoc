@@ -198,7 +198,7 @@ uses Schematron to create patterns or constraints for an XML Schema.
 
 [cols="1,4",width="90%"]
 |===
-2+|*Requirements Class - XML schematron extension to the core* 
+2+|*Requirements Class - XML Schematron extension to the core* 
 2+|/req/core/data-representation 
 |Target | ModSpec Conformant XML Model
 |Dependency |OGC ModSpec Version 1.1 (need proper title and document number)

@@ -358,7 +358,7 @@ The following recommendation is guidance to the group developing a standard to k
 [[rec-4]]
 include::../recommendations/core/REC004-simple-core.adoc[]
 
-The following enables the development and documentation of anstract standards. Examples of such standards are the OGC Abstract Specification.
+The following enables the development and documentation of abstract standards. Examples of such standards are the OGC Abstract Specification.
 Typically, an abstract standard cannot be directly implemented.
 
 include::../permissions/core/PER006_core-type.adoc[]
