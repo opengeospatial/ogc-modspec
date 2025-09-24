@@ -1,13 +1,13 @@
 [[cls-1]]
 == Scope
-This OGC Standard for Designing and Writing Modular Standards, also known as the `ModSpec`:
+This OGC Standard for Designing and Writing Modular Standards, also known as the "`ModSpec`":
 
-- Specifies rules for the internal structure and organization of a standard. 
-- Defines requirements for specifying the structure of a standards document as organized sets of criteria, those that are to be tested ("requirements") and those that are not tested ("recommendations" and "permissions"). 
-- Is designed to enable the clear and concise specification of requirements (the _shalls_ or _musts_ in a standard) that fully supports the ability to define implementable conformance tests. 
-- Formalizes implementing the requirements specified in the ModSpec so that reusable, modular standards can be developed.
+* Specifies rules for the internal structure and organization of a standard.
+* Defines requirements for specifying the structure of a standards document as organized sets of criteria, those that are to be tested ("requirements") and those that are not tested ("recommendations" and "permissions").
+* Is designed to enable the clear and concise specification of requirements (the _shalls_ or _musts_ in a standard) that fully supports the ability to define implementable conformance tests.
+* Formalizes implementing the requirements specified in the ModSpec so that reusable, modular standards can be developed.
 
-The standardization goal of the ModSpec is to define characteristics and a structure for the specification of modular and testable standards 
+The standardization goal of the ModSpec is to define characteristics and a structure for the specification of modular and testable standards
 that will encourage implementation by minimizing difficulty determining
 requirements, mimicking implementation structure, and maximizing usability and
 interoperability. The ultimate goal of this approach is to enable interoperable implementations of a standard that can be tested and deemed _conformant_ or not.
@@ -19,7 +19,7 @@ The ModSpec standardization target type is `standards`.
 
 Reading the <<cls-4,Terms and Definitions>> clause will help in understanding the content and requirements stated in this document.
 
-The <<fundamentals,Standards Fundamentals>> clause provides a more detailed introduction to the fundamental concepts used in the creation of this document.  
+The <<fundamentals,Standards Fundamentals>> clause provides a more detailed introduction to the fundamental concepts used in the creation of this document.
 
 <<annex-C,Annex C>> of this Standard defines the UML model upon which the ModSpec is
 based. Annex C also contains informal and non-normative definitions ordered for ease
@@ -32,12 +32,12 @@ NOTE: Please note that the ModSpec has been approved by the OGC Membership as a 
 
 Version 1.1 of the ModSpec is split into a Core standard and multiple Parts. These are:
 
-- Part 1 - Core: contains all the core requirements and informational text that define the model and internal structure of a standard.
-- Part 2: UML Model requirements 
-- Part 3: XML and Schematron Model requirements 
+* Part 1 - Core: contains all the core requirements and informational text that define the model and internal structure of a standard.
+* Part 2: UML Model requirements
+* Part 3: XML and Schematron Model requirements
 
 Future Parts to the ModSpec Standard may include:
 
-- Part 4: RDF/OWL requirements
-- Part 5: JSON Schema
+* Part 4: RDF/OWL requirements
+* Part 5: JSON Schema
 

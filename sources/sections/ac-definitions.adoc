@@ -4,61 +4,63 @@
 
 === Semantically ordered definitions
 
-<<cls-4,Clause 4>> formally defines the terms used in the conformance tests in alphabetical
+<<cls-4>> formally defines the terms used in the conformance tests in alphabetical
 order. It may be easier to understand the more significant terms in the following
 less formal definitions arranged in a bottom-up order:
 
-. a <<StandardizationTargetType-definition,_standardization target type_>> is a type of entity about which a standard
-is written. An instance of a <<StandardizationTargetType-definition,_standardization target type_>> is a
-<<StandardizationTarget-definition,_standardization target_>>. A standard may address multiple targets in separate
-<<ConformanceClass-definition,_conformance classes_>>.
+. a {{standardization target type}} is a type of entity about which a standard
+is written. An instance of a {{standardization target type}} is a
+{{standardization target}}. A standard may address multiple targets in separate
+{{conformance class,conformance classes}}.
 
-. a <<Requirement-definition,_requirement_>> is a statement of a condition to be satisfied by a single
-<<StandardizationTargetType-definition,_standardization target type_>>, and it must be stated in "normative" language.
+. a {{requirement}} is a statement of a condition to be satisfied by a single
+{{standardization target type}}, and it must be stated in "normative" language.
 
-. a <<ConformanceTest-definition,_conformance test_>> checks if a 
-<<Requirement-definition,_requirement_>> including its parts are met (*pass*) or not met (*fail*) by a
-<<StandardizationTarget-definition,_standardization target_>>.
+. a {{conformance test}} checks if a
+{{requirement}} including its parts are met (*pass*) or not met (*fail*) by a
+{{standardization target}}.
 
-. all <<ConformanceTest-definition,_conformance tests_>> are graded as *pass* or *fail*
-against each instance of the <<StandardizationTargetType-definition,_standardization target type_>>.
+. all {{conformance test,conformance tests}} are graded as *pass* or *fail*
+against each instance of the {{standardization target type}}.
 
-. a <<Requirement-definition,_requirement_>> is associated to one <<ConformanceTest-definition,_conformance test_>>.
+. a {{requirement}} is associated to one {{conformance test}}.
 
-. a <<Recommendation-definition,_recommendation_>> is a suggestion and is not associated to any
-<<ConformanceTest-definition,_conformance test_>>.
+. a {{recommendation}} is a suggestion and is not associated to any
+{{conformance test}}.
 
-. a <<RequirementsClass-definition,_requirements class_>> is a set of one or more <<Requirement-definition,_requirements_>>
-all with the same <<StandardizationTargetType-definition,_standardization target type_>>.
+. a {{requirements class}} is a set of one or more {{requirement,requirements}}
+all with the same {{standardization target type}}.
 
-. a <<ConformanceClass-definition,_conformance (test) class_>> is a collection of
-<<ConformanceTest-definition,_conformance tests_>> that are associated to and only to the
-requirements in a corresponding <<RequirementsClass-definition,_requirements class_>>.
+. a {{conformance class}} (conformance test class) is a collection of
+{{conformance test,conformance tests}} that are associated to and only to the
+requirements in a corresponding {{requirements class}}.
 
-. a <<ConformancePackage-definition,_conformance (test) package_>> is a reusable collection of related <<ConformanceClass-definition,_conformance test classes_>>.
+. a {{conformance package}} (conformance test package) is a reusable collection
+of related {{conformance class,conformance classes}}.
 
-. a *conformant implementation* is a <<StandardizationTarget-definition,_standardization target_>> that has
-successfully passed all tests in a specified <<ConformanceClass-definition,_conformance (test) class_>> and received a <<CertificateOfConformance-definition,_certificate of conformance_>>.
+. a *conformant implementation* is a {{standardization target}} that has
+successfully passed all tests in a specified {{conformance class}} and received
+a {{certificate of conformance}}.
 
-. the <<CoreRequirementsClass-definition,_Core requirements class_>> of a standard is the minimal set of
-<<Requirement-definition,_requirements_>> which must be supported by all *conformant
-implementations*. If a standard addresses multiple <<StandardizationTargetType-definition,_standardization target types_>>, it may have a *core* for each *target
+. the {{core requirements class}} of a standard is the minimal set of
+{{requirement,requirements}} which must be supported by all *conformant
+implementations*. If a standard addresses multiple {{standardization target
+type,standardization target types}}, it may have a *core* for each *target
 type*.
 
-. an *extension* of a <<RequirementsClass-definition,_requirements class_>> is an additional <<RequirementsClass-definition,_requirements class_>>
-(the extension) that adds additional <<Requirement-definition,_requirements_>> to the first
-<<RequirementsClass-definition,_requirements class_>> (the *base requirements class* being extended). The
-extension is said to be dependent on the *base*. Any <<ConformanceClass-definition,_conformance (test) class_>>
+. an *extension* of a {{requirements class}} is an additional {{requirements class}}
+(the extension) that adds additional {{requirement,requirements}} to the first
+{{requirements class}} (the *base requirements class* being extended). The
+extension is said to be dependent on the *base*. Any {{conformance class}}
 must identify all its dependencies during the execution of conformance tests
-against a candidate <<StandardizationTarget-definition,_standardization target_>>.
+against a candidate {{standardization target}}.
 
 [[annex-C-2]]
 === UML Model
 
 [[fig-C-1]]
-
 image::img02.png[]
 
-<<fig-C-1,Figure 1>> represents a UML model consistent with the model described
-in <<cls-8-1,Clause 8>> of this document. 
+<<fig-C-1>> represents a UML model consistent with the model described
+in <<cls-8-1>> of this document.
 

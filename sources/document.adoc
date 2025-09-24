@@ -1,7 +1,7 @@
 = The ModSpec Model - Part 1: Core - A Standard for Designing and Writing Modular Standards
-:doctype: draft standard
-:docsubtype: logical-model
-:status: Draft
+:doctype: standard
+:docsubtype: conceptual-model
+:status: draft
 :committee: technical
 :docnumber: 08-131r5
 :edition: 1.1.0
@@ -16,10 +16,10 @@
 :fullname_3: John Herring, PhD
 :role_3: editor
 :language: en
-:submitting-organizations: Carl Reed, Charles Heazel, ImageMatters
+:submitting-organizations: Carl Reed & Associates; Heazeltech; ImageMatters/Tema; UK Met Office
 :imagesdir: images
 :mn-document-class: ogc
-:mn-output-extensions: xml,html,doc,pdf,rxl
+:mn-output-extensions: xml,html,pdf,rxl
 :local-cache-only:
 :data-uri-image:
 
@@ -46,6 +46,8 @@ include::sections/07-mapping.adoc[]
 include::sections/aa-abstract-conformance.adoc[]
 
 include::sections/ab-changes-required.adoc[]
+
+include::sections/ac-definitions.adoc[]
 
 include::sections/ad-bibliography.adoc[]
 

@@ -1,7 +1,7 @@
 [[cls-2]]
 == Conformance
 
-Conformance to the ModSpec by a standard 
+Conformance to the ModSpec by a standard
 can be tested by inspection. The test suite is provided in <<annex-A>>.
 
 Part 1: Core of the ModSpec (this document) defines one requirements class and one related conformance class:
@@ -12,8 +12,10 @@ The ModSpec contains normative language and thus places requirements on
 conformance, or mechanism for adoption, of candidate standards to which the ModSpec
 applies. In particular:
 
-* <<cls-8,ModSpec Requirements Class: Core>> specifies the core requirements which shall be met by all 
+* xref:https://www.opengis.net/spec/modspec-1/1.1/req/req-class-core[]
+specifies the core requirements which shall be met by all
 standards claiming conformance to the ModSpec.
+
 * <<cls-9,Mapping the ModSpec to types of models>> gives information on how the ModSpec is to be applied to extensions to the core model for requirements and
 conformance clauses.
 

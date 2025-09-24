@@ -4,6 +4,8 @@
 ====
 [%metadata]
 identifier:: /rec/core/optional-tests
-part:: If a requirements class is from another standard, the current standard _SHOULD_ identify any optional tests
-in that conformance class that are required by the current standard's core requirements class. See <<req-13>>.
+part:: If a requirements class is from another standard, the current standard
+_SHOULD_ identify any optional tests in that conformance class that are required
+by the current standard's core requirements class. See
+xref:/req/core/imported-requirements-class[].
 ====

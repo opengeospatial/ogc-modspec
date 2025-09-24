@@ -20,10 +20,10 @@ These characteristics are slightly modified from the Open Group definitions to a
 
 === Standardization Context - Goals, Target Types, and Targets
 
-Every standards document should include a Standardization Goal. This is a concise statement of the problem that the 
-standard helps address and the strategy envisioned for achieving a solution.  This strategy typically identifies real-world 
-entities that need to be modified or constrained.  At the abstract level, those entities are the Standardization Target Types.  
-These are the classes of entities to be standardized. A Standard defines the requirements levied on one or more Standardization Target Types. 
+Every standards document should include a Standardization Goal. This is a concise statement of the problem that the
+standard helps address and the strategy envisioned for achieving a solution.  This strategy typically identifies real-world
+entities that need to be modified or constrained.  At the abstract level, those entities are the Standardization Target Types.
+These are the classes of entities to be standardized. A Standard defines the requirements levied on one or more Standardization Target Types.
 
 Instances of a Standardization Target Type are the Standardization Targets.  These are the real-world manifestations of the Standardization Target Type.  In summary:
 
@@ -45,8 +45,8 @@ The following are two examples of Target Types and Targets as used in the OGC AP
 .. Standardization target type: JSON documents (or JSON objects)
 .. Standardization target: Any JSON document (or object) that implements the Core requirements class of JSON-FG. The document can be a created by an API as a response document representing a features collection or by a tool like GDAL, FME, QGIS, etc.
 
-The Standardization Target Types, Standardization Targets, and Standardization Goal provide a well-defined context for the standard.  
-This will help users of standards to quickly understand the scope of a standard and to select those standards appropriate for their needs. 
+The Standardization Target Types, Standardization Targets, and Standardization Goal provide a well-defined context for the standard.
+This will help users of standards to quickly understand the scope of a standard and to select those standards appropriate for their needs.
 It also will help keep standards developers focused on the intended use of their standards, avoiding standards which are overly broad and/or unfocused.
 
 === Conformance, Requirements, and key information
@@ -64,12 +64,15 @@ Conformance tests are aggregated into conformance classes that specify how certa
 the requirements. The issue that blocks this approach is that some requirements are
 optional while others are mandatory. To achieve a cleaner separation of requirements,
 the ModSpec separates them into sets (called "requirements classes"), each of which
-has no optional components. Since the normative statement of each requirement is only 
+has no optional components. Since the normative statement of each requirement is only
 declared once and is uniquely identified as such, each requirement will be in a clause associated to its requirements class.
 
-Therefore, the ModSpec defines a "requirements class" as a set of requirements that must
-all be passed as per the tests defined in the related conformance class (see
-<<ConformanceClass-definition>>). Each requirements class has a one-to-one correspondence with a conformance class. A standard written to conform with the ModSpec may use this "module" structure in any manner consistent with the rest of the ModSpec.
+Therefore, the ModSpec defines a "requirements class" as a set of requirements
+that must all be passed as per the tests defined in the related conformance
+class (see {{conformance class}}). Each requirements class has a one-to-one
+correspondence with a conformance class. A standard written to conform with the
+ModSpec may use this "module" structure in any manner consistent with the rest
+of the ModSpec.
 
 A standard may have mandatory and optional requirements classes.  This allows the options
 in the testing procedure to be grouped into non-varying mandatory and optional conformance classes.
@@ -90,18 +93,20 @@ single requirements class but included in others by reference to its "home"
 requirements class).
 
 In the ModSpec, each conformance requirement is separated in its own labeled
-paragraph, such as seen in <<req-1,Requirement 1>> below.
+paragraph, such as seen in xref:/req/core/reqs-are-testable[] below.
 
 The distribution of the information in a standard is not restricted. The only
 requirement is that requirements be grouped in a manner
-consistent with the conformance test classes, see <<req-6,Requirement 6>> and <<req-7,Requirement 7>>. 
+consistent with the conformance test classes, see
+xref:/req/core/requirements-grouped[] and
+xref:/req/core/requirements-test-suite-structure[].
 
 === Documenting the Standard
 
-Standards development should be a repeatable process producing a suite of standards with a common look and feel. In addition, 
-that process should embody the ModSpec principles so that ModSpec conformance is almost automatic. A standardized template is an essential element of such a repeatable process.   
+Standards development should be a repeatable process producing a suite of standards with a common look and feel. In addition,
+that process should embody the ModSpec principles so that ModSpec conformance is almost automatic. A standardized template is an essential element of such a repeatable process.
 
-NOTE: OGC Standards are written using an OGC Member approved template that is conformant with the 
+NOTE: OGC Standards are written using an OGC Member approved template that is conformant with the
 requirements stated in the ModSpec.
 
 This template should be specified by the following descriptions:
@@ -113,7 +118,7 @@ logical type of Clause), one of which is the Conformance Test Suite (which may b
 abstract description of the test suites to be implemented separately). In OGC Documents, this is Annex A – Abstract Test Suite.
 . All requirements, recommendations, permissions, and models are introduced and defined first in
 the numbered Clauses.
-. All requirements are identifiable as requirements. 
+. All requirements are identifiable as requirements.
 . All requirements in a document are uniquely numbered and/or labeled.
 . All tests for conformance to those requirements are defined in the Conformance Test Suite.
 . Tests are grouped for convenience into conformance test classes and if desired the classes are grouped into conformance test packages.
@@ -126,7 +131,5 @@ does not do this, it is has by default only one "conformance class".
 . Examples and notes are informative, and do not use "normative"
 language.
 
-A UML representation of important properties of this model is given in <<annex-C-2,Annex C, Section 2>>.
-
-
+A UML representation of important properties of this model is given in <<annex-C-2>>.
 
