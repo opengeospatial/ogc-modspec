@@ -3,10 +3,10 @@
 :docsubtype: notes
 :status: Draft
 :committee: technical
-:docnumber: 25-002
+:docnumber: 25-002r1
 :edition: 1.1.0
 :received-date: 2025-01-30
-:issued-date: 2025-xx-xx
+:issued-date: 2025-10-xx
 :published-date: 2025-xx-xx
 :copyright-year: 2025
 :fullname: Carl Reed
