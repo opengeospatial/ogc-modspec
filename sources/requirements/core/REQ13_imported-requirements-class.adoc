@@ -5,5 +5,5 @@
 ====
 [%metadata]
 identifier:: /req/core/imported-requirements-class
-part:: If a requirements class is imported from another standard for use within a standard conformant to the ModSpec, and if any imported requirement is “optional,” then that requirement SHALL be factored out as a separate requirements class in the profile of that imported standard used in the conformant standard.
-part:: Each such used requirements class SHALL be a conformance class of the source standard or a combination of conformance classes of the source standard or standards.
+part:: If a requirements class is imported from another standard for use within a standard conformant to the ModSpec, and if any imported requirement is “optional,” then that requirement _SHALL_ be factored out as a separate requirements class in the profile of that imported standard used in the conformant standard.
+part:: Each such used requirements class _SHALL_ be a conformance class of the source standard or a combination of conformance classes of the source standard or standards.
