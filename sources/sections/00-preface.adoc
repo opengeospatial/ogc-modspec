@@ -59,7 +59,7 @@ The following OGC Members support the ModSpec Version 1.1 submission
 - Heazeltech
 - ImageMatters/Tema
 - UK Met Office
-
+- The Danish Agency for Climate Data
 
 [.preface]
 == Revision history
