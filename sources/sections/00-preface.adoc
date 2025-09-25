@@ -8,8 +8,8 @@ A standard specifying requirements for crafting and documenting modular and test
 
 The goals of using the ModSpec are:
 
-- To define characteristics and a structure for the development of modular standards which will minimize the difficulty in writing testable standards while maximizing usability and interoperability.
-- To ensure that a standard specifies requirements in a common and consistent manner and that these requirements are testable.
+* To define characteristics and a structure for the development of modular standards which will minimize the difficulty in writing testable standards while maximizing usability and interoperability.
+* To ensure that a standard specifies requirements in a common and consistent manner and that these requirements are testable.
 
 NOTE: Historically, this document has been known and abbreviated as the "ModSpec". For continuity and ease of understanding this document is also be referred to as the "OGC ModSpec".
 
@@ -33,6 +33,7 @@ The following OGC Members participated in editing this document:
 ^h| Person ^h| Organization Represented
 | Carl Reed | Carl Reed & Associates
 | Chuck Heazel | Charles Heazel
+| Heidi Vanparys | The Danish Agency for Climate Data
 |===
 
 [.preface]
