@@ -258,9 +258,9 @@ include::../requirements/core/REQ14_all-classes-explicitly-named.adoc[]
 Logically, a requirements class (set of requirements) and a conformance class (set
 of tests) are not comparable. This can be remedied by noting that both have a
 consistent relation to a set of requirements. A requirements class is a set of
-requirements. A conformance class tests a set of requirements. Therefore a requirements class corresponds precisely to a conformance class if they
+requirements. A conformance class tests a set of requirements. 
+Therefore a requirements class corresponds precisely to a conformance class if they
 both are related (as described) to the same set of requirements.
-
 
 [[cls-6-5-2]]
 The following states that requirements classes contain all requirements tested by a conformance test case
@@ -445,6 +445,7 @@ pass the ModSpec core conformance test class.
 
 NOTE: All general recommendations are in the core requirements class. The core
 conformance test class contains tests that all other conformance classes must pass.
+
 
 
 
