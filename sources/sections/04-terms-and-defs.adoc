@@ -66,11 +66,9 @@ Modules can be replaced without affecting the rest of the system.
 
 ==== package
 
-general-purpose mechanism for organizing elements into groups. 
+element that is used to group elements. 
 
-NOTE: This definition is conceptually consistent with both UML `package` and ISO TC 211 `package` and `requirements suite` definitions.
-
-SOURCE: Rumbaugh J, Jacobson I, Booch G, The Unified Modeling Language Reference Manual 1999
+NOTE: In the ModSpec, `package` is used in the context of a <<requirementspackage-definition,requirements package>> or a <<conformancepackage-definition,conformance test package>>.
 
 [[part-document-definition]]
 
