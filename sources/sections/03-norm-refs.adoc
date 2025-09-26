@@ -1,6 +1,9 @@
 [[cls-3]]
 [bibliography]
+
 == Normative references
+[.boilerplate]
+--
 
 While the ModSpec references UML, SQL, JSON, and XML, and their technical specifications,
 no requirements are derived from these documents. While this document
@@ -8,7 +11,11 @@ may be applied to extensions of those standards, conformance to them is the purv
 of those standards, not the ModSpec.
 
 The following are normative references for this document in the sense that they
-supplied definitions used in this document.
+supplied definitions used in this document. For dated
+references, only the edition cited applies. For undated references, the latest
+edition of the referenced document (including any amendments) applies.
+
+--
 
 * [[[iso-dp2,ISO/IEC DIR 2]]], available at https://www.iso.org/sites/directives/current/part2/index.xhtml[ISO/IEC Directives, Part 2: Rules for the structure and drafting of International Standards]
 
