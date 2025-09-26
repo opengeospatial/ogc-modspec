@@ -8,12 +8,14 @@ of normative reference in <<cls-3>>.
 
 * [[[iso9075,ISO/IEC 9075:2003]]], ISO/IEC JTC 1, ISO/IEC 9075:2003 -- Information Technology -- Database Languages - SQL.
 
+* [[[iso10000,ISO/IEC TR 10000]]], ISO/IEC TR 10000: Information Technology -- Framework and taxonomy of International Standardized Profiles
+
 * [[[iso13249-3,ISO/IEC 13249-3:2006]]]
+
+* [[[iso-dp2,ISO/IEC DIR 2]]], available at https://www.iso.org/sites/directives/current/part2/index.xhtml[ISO/IEC Directives, Part 2: Rules for the structure and drafting of International Standards]
 
 * [[[w3c-xml-part1,W3C xmlschema11-1]]], XML Schema 1.1 Part 1: Structures, April 2012, available from W3C at http://www.w3.org/TR/xmlschema11-1/
 
 * [[[w3c-xml-part2,W3C xmlschema11-2]]], XML Schema 1.1 Part 2: Datatypes, April 2012, available from W3C at http://www.w3.org/TR/xmlschema11-2/
-
-* [[[iso10000,ISO/IEC TR 10000]]], ISO/IEC TR 10000: Information Technology -- Framework and taxonomy of International Standardized Profiles
 
 *	Pyle, I. C., Dictionary of Computing, 4th Edition, Oxford: Oxford University Press. Current edition 8th 2008
