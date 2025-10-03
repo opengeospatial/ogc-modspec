@@ -59,6 +59,6 @@ against a candidate <<StandardizationTarget-definition,_standardization target_>
 
 image::img02.png[]
 
-<<fig-C-1,Figure 1>> represents a UML model consistent with the model described
-in <<cls-8-1,Clause 8>> of this document. 
+<<fig-C-1>> is the UML model consistent with the model described
+in <<cls-8-1>> of this document. 
 
