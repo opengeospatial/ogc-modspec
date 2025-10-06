@@ -5,6 +5,7 @@ image:https://github.com/opengeospatial/ogc-modspec/workflows/generate/badge.svg
 *  https://opengeospatial.github.io/ogc-modspec/documents/document.html[OGC ModSpec Part 1: Core (HTML)]
 * https://docs.ogc.org/DRAFTS/24-065.html[OGC ModSpec Part2: UML (HTML)]
 * https://docs.ogc.org/DRAFTS/24-066.html[OGC ModSpec Part3: XML (HTML)]
+* https://docs.ogc.org/DRAFTS/25-002.html[OGC ModSpec Version 1.1 Release Notes]
 
 == General
 
