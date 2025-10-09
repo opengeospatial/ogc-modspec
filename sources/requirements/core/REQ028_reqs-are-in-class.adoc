@@ -2,10 +2,8 @@
 [[req-28]]
 
 [requirement]
-[.requirement,identifier="/req/core/reqs-are-in-class",model=ogc,number=28]
 ====
-
 [%metadata]
-
+identifier="/req/core/reqs-are-in-class",model=ogc,number=28
 part:: Each requirement in the standard _SHALL_ be associated with exactly one requirements class.
 ====
