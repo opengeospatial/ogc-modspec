@@ -3,7 +3,7 @@
 :docsubtype: notes
 :status: Draft
 :committee: technical
-:docnumber: 25-003r1
+:docnumber: 25-003r3
 :edition: 1.1.0
 :received-date: 2025-01-30
 :issued-date: 2025-10-xx
