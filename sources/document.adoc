@@ -3,7 +3,7 @@
 :docsubtype: logical-model
 :status: Draft
 :committee: technical
-:docnumber: 08-131r5
+:docnumber: 08-131r7
 :edition: 1.1.0
 :received-date: 2025-08-22
 :issued-date: 2025-10-xx
