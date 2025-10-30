@@ -63,10 +63,7 @@ Given that most OGC Standards do not use Requirements Modules, a straightforward
 and Requirements classes in the hierarchy. Therefore, a Requirements Module would consist of Requirements Classes, 
 Recommendations, and Permissions. A Requirements Class then has no recommendations and is therefore testable.
 
-However, this proposed chnage led to https://github.com/opengeospatial/ogc-modspec/issues/76[Issue 76] Term "module": Change of the semantics
-being submitted. After considerable discussion, the agreement was to use the concept `package` in place of `module` as appropriate.
-This use of pacakge is consistent with both UML and ISO TC 211 definitions of package. AS part of this change, conformance module 
-was changed to conformance package.
+However, this proposed change led to https://github.com/opengeospatial/ogc-modspec/issues/76[Issue 76] Term "module": Change of the semantics being submitted. After considerable discussion, the agreement was to use the concept `package` in place of `module` as appropriate. This use of pacakge is consistent with both UML and ISO TC 211 definitions of package. Also as part of this change, conformance module was changed to conformance package.
 
 === Substantive Change 6: Standardization Goal
 
