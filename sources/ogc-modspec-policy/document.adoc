@@ -5,16 +5,16 @@
 :committee: technical
 :docnumber: 25-001
 :edition: 1.1.0
-:received-date: 2025-03-17
-:issued-date: xxxx-xx-xx
-:published-date: xxxx-xx-xx
-:copyright-year: 2025
+:received-date: 2026-03-07
+:issued-date: 2026-xx-xx
+:published-date: 2026-xx-xx
+:copyright-year: 2026
 :fullname: Carl Reed
 :role: editor
 :submitting-organizations: Carl Reed
 :imagesdir: images
 :mn-document-class: ogc
-:mn-output-extensions: xml,html,doc,pdf,rxl
+:mn-output-extensions: xml,html,doc,pdf
 :local-cache-only:
 :data-uri-image:
 
