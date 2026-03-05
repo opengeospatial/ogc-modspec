@@ -1,14 +1,15 @@
 = The ModSpec Model - Part 1: Core - A Standard for Designing and Writing Modular Standards
-:doctype: draft standard
+:doctype: standard
 :docsubtype: logical-model
-:status: Draft
+:status: Approved
 :committee: technical
 :docnumber: 08-131r7
 :edition: 1.1.0
+:external-id: http://www.opengis.net/doc/Policy/modspec/1.1
 :received-date: 2025-08-22
 :issued-date: 2025-10-xx
-:published-date: 2025-xx-xx
-:copyright-year: 2025
+:published-date: 2026-xx-xx
+:copyright-year: 2026
 :fullname: Carl Reed, PhD
 :role: editor
 :fullname_2: Chuck Heazel
@@ -16,6 +17,8 @@
 :fullname_3: John Herring, PhD
 :role_3: editor
 :language: en
+:keywords: ogcdoc, OGC document, modspec, modular, requirements, testing
+:submitting-organizations: Carl Reed & Associates; Heazeltech; ImageMatters/Tema; UK Met Office
 :imagesdir: images
 :mn-document-class: ogc
 :mn-output-extensions: xml,html,doc,pdf
