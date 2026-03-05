@@ -15,7 +15,7 @@
 :role_2: editor
 :language: en
 :keywords: ogcdoc, OGC document, modspec, modular, requirements, testing, uml, part2
-:submitting-organizations: Carl Reed & Associates, Heazeltech, Tepa Enterprise Solutions (ImageMatters), UK Met Office
+:submitting-organizations: Carl Reed & Associates, Heazeltech, Tepa Enterprise Solutions (ImageMatters), The Danish Agency for Climate Data, UK Met Office
 :imagesdir: images
 :mn-document-class: ogc
 :mn-output-extensions: xml,html,doc,pdf
