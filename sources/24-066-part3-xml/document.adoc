@@ -6,14 +6,15 @@
 :docnumber: 24-066r1
 :edition: 1.1.0
 :received-date: 2025-05-25
-:issued-date: xxxx-xx-xx
-:published-date: xxxx-xx-xx
-:copyright-year: 2025
+:issued-date: 2025-07-25
+:published-date: 2026-xx-xx
+:copyright-year: 2026
 :fullname: Carl Reed
 :role: editor
 :fullname_2: John Herring
 :role_2: editor
 :language: en
+:keywords: ogcdoc, OGC document, modspec, modular, requirements, testing, part3, xml
 :submitting-organizations: Carl Reed & Associates, Heazeltech, Tepa Enterprise Solutions (ImageMatters)
 :imagesdir: images
 :mn-document-class: ogc
