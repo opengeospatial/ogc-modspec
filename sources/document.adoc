@@ -7,7 +7,7 @@
 :edition: 1.1.0
 :external-id: http://www.opengis.net/doc/Policy/modspec/1.1
 :received-date: 2025-08-22
-:issued-date: 2025-10-xx
+:issued-date: 2025-07-25
 :published-date: 2026-xx-xx
 :copyright-year: 2026
 :fullname: Carl Reed, PhD
@@ -17,8 +17,8 @@
 :fullname_3: John Herring, PhD
 :role_3: editor
 :language: en
-:keywords: ogcdoc, OGC document, modspec, modular, requirements, testing
-:submitting-organizations: Carl Reed & Associates; Heazeltech; ImageMatters/Tema; UK Met Office
+:keywords: ogcdoc, OGC document, modspec, modular, requirements, testing, core
+:submitting-organizations: Carl Reed & Associates; Heazeltech; Tepa Enterprise Solutions (ImageMatters); UK Met Office
 :imagesdir: images
 :mn-document-class: ogc
 :mn-output-extensions: xml,html,doc,pdf
