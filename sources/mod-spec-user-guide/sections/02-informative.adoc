@@ -36,7 +36,7 @@ In the above standarization goal example, the target type is a `conceptual model
 
 A standardization target type can be structured as a hierarchy. The root specifies the overarching target type for a standard. There can then be 
 target subtypes that derive from the root superclass. For example, the OGC API - Features Standard has a target type of `WebAPI`. There are then
-subtypes such as WebAPI/landing-page and WebAPI/crs or braches such as client abd server. 
+subtypes such as WebAPI/landing-page and WebAPI/crs or branches such as client and server. 
 
 Why the target type concept is important is shown below in the discussion on `requirement`. 
 
@@ -66,8 +66,8 @@ The following are two examples of Target Types and Targets as used in the OGC AP
 === OGC Identifiers
 
 ModSpec Requirement 2 states, "Each component of a standard, including requirements, requirements packages, requirements classes, conformance tests 
-conformance packages, and conformance test classes SHALL be assigned a unique identifier and/or label." OGC Policy 
-Directive https://portal.ogc.org/public_ogc/directives/directives.php#33[33] specifies that such identifiers are URIs and `SHALL` 
+conformance packages, and conformance test classes _SHALL_ be assigned a unique identifier and/or label." OGC Policy 
+Directive https://portal.ogc.org/public_ogc/directives/directives.php#33[33] specifies that such identifiers are URIs and _SHALL_ 
 be structured per the rules specified in the OGC Naming Authority policy doucment https://docs.ogc.org/pol/10-103r1.html[OGC Name Type Specification - specification elements]
 
 Every OGC Standard has a subclause titled `Identifiers`. This subclause is included in the `Conventions` Clause. The purpose of the subclause is
@@ -75,7 +75,7 @@ to specify the URI namespace for the standard and to define the rules for how pa
 from the OGC ModSpec version 1.1:
 
 ```
-The normative provisions in this standard are denoted by the URI namespace
+The normative provisions in this Standard are denoted by the URI namespace:
 
 https://www.opengis.net/spec/modspec-1/1.1/
 
@@ -97,15 +97,15 @@ A requirement must be stated in “normative” language. In the OGC, the use of
 Other standards organizations use the verb `MUST` to indicate a requirement is being stated. An example of a requirement is:
 
 ```
-An implementation `SHALL` specify a coordinate reference system (CRS)
+An implementation _SHALL_ specify a coordinate reference system (CRS)
 ```
 
-Now, the above example is fairly nebulous and open to interpretation as to how the CRS is identified and expressed. Therefore, the ModSpec states that
+The above example is fairly nebulous and open to interpretation as to how the CRS is identified and/or expressed. Therefore, the ModSpec states that
 a requirement `MAY` be stated as one or more `parts` where each part specified additional rules for that requirement. Expanding the above example:
 
 ```
-An implementation SHALL specify a coordinate reference system (CRS). An EPSG code SHALL be used to 
-indentify the CRS. The CRS SHALL be referenced by a uniform resource identifier (i.e., a URI)  
+An implementation _SHALL_ specify a coordinate reference system (CRS). An EPSG code _SHALL_ be used to 
+indentify the CRS. The CRS _SHALL_ be referenced by a uniform resource identifier (i.e., a URI)  
 such as http://www.opengis.net/def/crs/EPSG/0/4326
 ```
 
