@@ -118,7 +118,6 @@ In the OGC, requirements are  labeled and have a unique indentifier (URI). So th
 of the ModSpec
 
 ```
-
 Label: Requirement 1
 Identifier: http://www.opengis.net/spec/ogcapi-features-2/1.0/req/crs
 An implementation SHALL specify a coordinate reference system (CRS). An EPSG code SHALL be used to 
@@ -132,7 +131,7 @@ Finally, if a requirement is stated in multiple parts, all parts must have the s
 
 To ensure that all standards documents have the same look and feel, a standard (consistent) template should be used for stating requirements.
 The ModSpec does not specify any templates for how a requirement is specified - only the what the content is. In the OGC, requirements are specified 
-using an AsciiDoc template. This is because in the OGC, all standards documentation is done using GitHub capabilities. 
+using an AsciiDoc/Metanorma template. This is because in the OGC, all standards documentation is now done using GitHub capabilities. 
 The OGC has standardized on Metanorma for document publication. 
 
 The following AsciiDoc examples both work in the OGC publication process. The first is the `traditional` OGC AsciiDoc template and the second is formatted specifically for the Metanorma publication process.
