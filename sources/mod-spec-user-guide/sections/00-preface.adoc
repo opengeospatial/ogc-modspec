@@ -13,6 +13,8 @@ The goals of using the ModSpec are:
 
 - To define characteristics and a structure for the development of modular standards which will minimize the difficulty in writing testable standards while maximizing usability and interoperability.
 - To ensure that a standard specifies requirements in a common and consistent manner and that these requirements are testable.
+- Consistently stated and modular requirements can be used as components (building blocks).
+- Well crafted requirements that are consistently documented, such as using the OGC Metanorma document template, can much more easily be harvested and used in other applications, such as AI based coding tools.
 
 Suggested additions, changes, and comments on this document are welcome and
 encouraged. Such suggestions may be submitted by creating an issue in the 
