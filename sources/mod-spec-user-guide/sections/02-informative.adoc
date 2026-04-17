@@ -358,7 +358,9 @@ The above example is rendered using the "traditional" OGC AsciiDoc coding.
 
 == Requirements Package
 
-A `requirements package` ia a set (grouping) of related requirement classes and their associated components. Quite often, a standard may have related requirements classes, recommendations, and permissions of the same target type. An example is the https://github.com/opengeospatial/cdbswg/blob/master/cdb-2.0/23-034/sections/cdb-core-crs-requirements-package.adoc[CDB 2.0 Coordinate Reference System Requirements Package]. The CDB 2.0 CRS Requirements Package consists of two requirements classes, recommendations and permissions. 
+A `requirements package` is a set (grouping) of related requirement classes and their associated components. Quite often, 
+a standard may have related requirements classes, recommendations, and permissions of the same target type. An example is 
+the https://github.com/opengeospatial/cdbswg/blob/master/cdb-2.0/23-034/sections/cdb-core-crs-requirements-package.adoc[CDB 2.0 Coordinate Reference System Requirements Package]. The CDB 2.0 CRS Requirements Package consists of two requirements classes, recommendations and permissions. 
 
 == Conformance Class
 
@@ -376,7 +378,8 @@ pass the ModSpec core conformance test class.
 
 === Metanorma/AsciiDoc coding example for conformance class.
 
-The following is an example of an AsciiDoc coding following the Metanorma publication rules. This example is a snippet  of the ModSpec 1.1 core conformance class. The example is consistent with the Requirements Class example shown above.
+The following is an example of an AsciiDoc coding following the Metanorma publication rules. This example is a 
+snippet  of the ModSpec 1.1 core conformance class. The example is consistent with the Requirements Class example shown above.
 
 ```
 [[ats_class-core]]
@@ -408,6 +411,18 @@ abstract-test:: /conf/core/single-standardization-target-type
 ====
 
 == Dependencies
+
+The concept `dependency` is important in the design and crafting of modular standards. Quite often, a requirement or 
+requirements class may have a dependency on a requirement or requirements stated in some other standard. For example, 
+most OGC standards that state requirements for how to specifiy and/or use coordinate reference systems specify a dependency
+on https://docs.ogc.org/as/18-005r4/18-005r4.html[OGC Abstract Specification Topic 2: Referencing by coordinates]. Such a dependency
+is shown using the `dependency` element in the AsciiDoc coding. Dependencies can be general as in the above example or they can be more specific.
+
+A specific dependency is termed a `direct dependency`. A direct dependency is another requirements class (the dependency) whose requirements 
+are defined to also be requirements of this requirements class.
+
+In UML modelling,  this is a Dependency which is is a directed relationship which is used to show that some UML element or a set of elements 
+requires, needs or depends on other model elements for specification or implementation. 
 
 
 
