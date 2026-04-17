@@ -1,6 +1,6 @@
 [[introduction]]
 
-= Introduction to key ModSpec concepts with examples
+= Key ModSpec concepts with AsciiDoc/Metanorma examples
 
 This ModSpec User Guide describes the key concepts defined in the OGC ModSpec <need reference>. Further, this document provides AsciiDoc/Metanorma examples of how to code
 the various key concepts in an OGC normative document. 
