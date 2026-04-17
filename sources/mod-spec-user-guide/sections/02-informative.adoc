@@ -2,8 +2,12 @@
 
 = Introduction to key ModSpec concepts with examples
 
-This document describes the key concepts defined in the OGC ModSpec <need reference>. Further, this document provides AsciiDoc examples of how to encode
+This ModSpec User Guide describes the key concepts defined in the OGC ModSpec <need reference>. Further, this document provides AsciiDoc/Metanorma examples of how to code
 the various key concepts in an OGC normative document. 
+
+NOTE: For information on the current OGC publication template for a standard, visit https://github.com/opengeospatial/templates/tree/master/standard[here].
+
+NOTE: For detailed guidance on using the OGC Metanorma publication rules, specifically for the ModSpec elements discussed in this User Guide, visit https://www.metanorma.org/author/topics/blocks/requirements-modspec/[here]
 
 == An example 
 
@@ -138,6 +142,8 @@ The following AsciiDoc examples both work in the OGC publication process. The fi
 
 ==== OGC Traditional AsciiDoc encoding example
 
+The following is an example of the AsciiDoc coding as used in most OGC Standards prior to the transition to the use of Metanorma for publication.
+
 ```
 [[req-1]]
 [width="90%",cols="2,6"]
@@ -151,21 +157,24 @@ The following AsciiDoc examples both work in the OGC publication process. The fi
 
 ==== Metanorma encoding example 
 
+The following is an example of an AsciiDoc coding conformant to the OGC requirements for publication using Metanorma. Notice that the short form for the URI identifier is used. See above for an explanation of the use of unique identifiers for requirements in OGC Standards.
+
 ```
 [[req-1]]
 [requirement]
 ====
 [%metadata]
 identifier:: /req/core/crs
+statement:: Rules for CRS in implementations of this OGC xyz Standard
 part:: An implementation SHALL specify a coordinate reference system (CRS).
 part:: An EPSG code SHALL be used to indentify the CRS.
 part:: The CRS SHALL be referenced by a uniform resource identifier (i.e., a URI) such as http://www.opengis.net/def/crs/EPSG/0/4326
 ====
 ```
 
-The above requirement example, formatted for Metanorma, does not have the requirement label such as Requirement 1. 
-The label is generated during the Metanorma publication process. Also note that `req-1` is a bookmark. Bookmarks can be used for
-quick navigation within and OGC standards document.
+The above requirement example, formatted for Metanorma, does not have a requirement label such as Requirement 1 as shown in the traditional AsciiDoc example. 
+Labels for requirements are generated during the Metanorma publication process. The `req-1` is a bookmark. Bookmarks can be used for
+quick navigation within an OGC standards document. Also note the use of the `statement` element. This is a mandatory Metanorma element  
 
 Below is how these two examples would look after document publication:
 
@@ -185,6 +194,7 @@ Below is how these two examples would look after document publication:
 ====
 [%metadata]
 identifier:: /req/core/crs
+statement:: Rules for CRS in implementations of this OGC xyz Standard
 part:: An implementation SHALL specify a coordinate reference system (CRS).
 part:: An EPSG code SHALL be used to indentify the CRS.
 part:: The CRS SHALL be referenced by a uniform resource identifier (i.e., a URI) such as http://www.opengis.net/def/crs/EPSG/0/4326
@@ -192,7 +202,7 @@ part:: The CRS SHALL be referenced by a uniform resource identifier (i.e., a URI
 
 == Conformance Test
 
-In most cases, every requirement in a standard will have a corresponding `conformance test`. A conformance test checks if an 
+In most cases, every requirement in an OGC standard will have a corresponding `conformance test`. A conformance test checks if an 
 implementation of a requirement is valid: Passes or fails. The general rule is that every requirement has a corresponding 
 (one to one) conformance test. The exception is if the requirement is so abstract that it cannot be tested. In this case, 
 the exception should be noted in the standard. Please note that if a standard has a core and multiple parts (profiles/extensions), then each 
@@ -221,10 +231,10 @@ and the second is formatted specifically for the Metanorma publication process.
 ==== Traditional OGC AsciiDoc encoding
 
 In the following AsciiDoc encoding, the `Test ID` is the ujique URI identifier for the test. The `Requirement` element is the
-requirement being tested. The test purpose specified the reason and intention to determine whether an implementation passes
-the test or not. The `Test Method` is how the test is performed. In the following example, the method is visial inspection. Any standard
+requirement being tested. The test purpose specifies the reason and intention to determine whether an implementation passes
+the test or not. The `Test Method` is how the test is performed. In the following example, the method is visual inspection. Any standard
 implementing the ModSpec model and structure is tested via visual inspection: Reading the document and ensuring all requirements 
-are implemented as specified in the ModSpec
+are implemented as specified in the ModSpec.
 
 ```
 [cols=">20h,<80d",width="100%"]
@@ -311,19 +321,20 @@ structure to the standards document.
 
 Further, all elements of a requirements class are documented in a table. The structure and layout of this table is dictated by the OGC template.
 
-Below is an AsciiDoc example of an OGC requirements class table formatted for Metanorma publication.
+Below is an AsciiDoc example of an OGC requirements class table formatted for Metanorma publication. The example is a snippet from the OGC ModSpec core requirements class.
 
 ```
-[[req_class_a]]
-
+[[req_class-core]]
 [requirements_class]
-.Requirements Class 'A'
+.Requirements Class 'Core'
 ====
 [%metadata]
-identifier:: http://www.opengis.net/spec/ABCD/m.n/req/req-class-a
-target-type:: Web API
-requirement:: /req/req-class-a/req-name-1
-requirement:: /req/req-class-a/req-name-2
+identifier:: https://www.opengis.net/spec/modspec-1/1.1/req/req-class-core
+target-type:: Standard
+requirement:: /req/core/reqs-are-testable
+requirement:: /req/core/all-components-assigned-uri
+requirement:: /req/core/vocabulary-and-parent-req-class
+requirement:: /req/core/single-standardization-target-type
 ====
 ```
 
