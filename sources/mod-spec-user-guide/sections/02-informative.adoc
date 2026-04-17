@@ -230,7 +230,7 @@ and the second is formatted specifically for the Metanorma publication process.
 
 ==== Traditional OGC AsciiDoc encoding
 
-In the following AsciiDoc encoding, the `Test ID` is the ujique URI identifier for the test. The `Requirement` element is the
+In the following AsciiDoc encoding, the `Test ID` is the unique URI identifier for the test. The `Requirement` element is the
 requirement being tested. The test purpose specifies the reason and intention to determine whether an implementation passes
 the test or not. The `Test Method` is how the test is performed. In the following example, the method is visual inspection. Any standard
 implementing the ModSpec model and structure is tested via visual inspection: Reading the document and ensuring all requirements 
@@ -319,9 +319,11 @@ of one or more requirements with the same target type/subtype. Typically in an O
 class and associated requirements are in the same clause/subclause(s) in the standards document. This provides a logical modular 
 structure to the standards document.
 
+NOTE: A Requirements Class does not contain `Recommendations`. 
+
 Further, all elements of a requirements class are documented in a table. The structure and layout of this table is dictated by the OGC template.
 
-Below is an AsciiDoc example of an OGC requirements class table formatted for Metanorma publication. The example is a snippet from the OGC ModSpec core requirements class.
+Below is an AsciiDoc example of an OGC requirements class table formatted for Metanorma publication. The following example is a snippet from the OGC ModSpec core requirements class.
 
 ```
 [[req_class-core]]
@@ -352,7 +354,11 @@ appear as:
 |Requirement CRS02  |/req/core/crs/crsStorage 
 |===
 
-The above example is rendered using "traditional" OGC AsciiDoc encoding.
+The above example is rendered using the "traditional" OGC AsciiDoc coding.
+
+== Requirements Package
+
+A `requirements package` ia a set (grouping) of related requirement classes and their associated components. Quite often, a standard may have related requirements classes, recommendations, and permissions of the same target type. An example is the https://github.com/opengeospatial/cdbswg/blob/master/cdb-2.0/23-034/sections/cdb-core-crs-requirements-package.adoc[CDB 2.0 Coordinate Reference System Requirements Package]. The CDB 2.0 CRS Requirements Package consists of two requirements classes, recommendations and permissions. 
 
 == Conformance Class
 
@@ -361,14 +367,48 @@ that for each requirements class there is a corresponding conformance class. Thi
 that for each requirement in a requirements class there is a corresponding (one to one) conformance test in the conformance class. Finally, all
 conformance tests in a conformance class have the same standardization target. 
 
-This implies that each requirement is directly in exactly one requirements class and
+This implies that each requirement is in exactly one requirements class and
 all references to that requirement from another requirements class must include its
 complete "home" requirements class. This means that requirements for dependencies will often result in 
 conformance test cases which require the execution of the dependency conformance class. For example,
 using the ModSpec as an example: An implementation passing the UML conformance test class _SHALL_ first 
 pass the ModSpec core conformance test class.
 
+=== Metanorma/AsciiDoc coding example for conformance class.
+
+The following is an example of an AsciiDoc coding following the Metanorma publication rules. This example is a snippet  of the ModSpec 1.1 core conformance class. The example is consistent with the Requirements Class example shown above.
+
+```
+[[ats_class-core]]
+[conformance_class]
+.Conformance Class 'Core'
+====
+[%metadata]
+identifier:: https://www.opengis.net/spec/modspec-1/1.1/conf/conf-class-core
+target:: https://www.opengis.net/spec/modspec-1/1.1/req/req-class-core
+abstract-test:: /conf/core/reqs-are-testable
+abstract-test:: /conf/core/all-components-assigned-uri
+abstract-test:: /conf/core/vocabulary-and-parent-req-class
+abstract-test:: /conf/core/single-standardization-target-type
+====
+```
+
+The above AsciiDoc code would render as follows when published.
+
+[conformance_class]
+.Conformance Class 'Core'
+====
+[%metadata]
+identifier:: https://www.opengis.net/spec/modspec-1/1.1/conf/conf-class-core
+target:: https://www.opengis.net/spec/modspec-1/1.1/req/req-class-core
+abstract-test:: /conf/core/reqs-are-testable
+abstract-test:: /conf/core/all-components-assigned-uri
+abstract-test:: /conf/core/vocabulary-and-parent-req-class
+abstract-test:: /conf/core/single-standardization-target-type
+====
+
 == Dependencies
+
 
 
 
