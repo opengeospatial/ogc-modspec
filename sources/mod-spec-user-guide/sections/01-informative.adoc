@@ -424,7 +424,14 @@ are defined to also be requirements of this requirements class.
 In UML modelling,  this is a Dependency which is is a directed relationship which is used to show that some UML element or a set of elements 
 requires, needs or depends on other model elements for specification or implementation. 
 
+== Conclusion
 
+Key Aspects of OGC ModSpec include:
+
+- Structure: Defines strict rules for organizing standards into modules, including requirements, recommendation classes, and conformance test cases.
+- Purpose: Ensures that standards are easy to implement, modular, and testable for high interoperability.
+- Model-Driven: Standards are developed using formal models, which are often translated into machine-readable formats.
+- Requirements Classes: Standards are divided into small, manageable units that allow for targeted implementation (e.g., core vs. extensions).
 
 
 
