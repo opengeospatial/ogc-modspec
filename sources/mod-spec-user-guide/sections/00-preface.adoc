@@ -1,10 +1,14 @@
-[[preface]]
-[.preface]
+[[modspec-guide-abstract]]
 
-== Preface
-This document is an informative user guide for understanding and implementing the requirements defined in the OGC ModSpec - A Standard for Designing and Writing Modular Standards
+== Abstract
 
-The ModSpec is an OGC member developed and approved document that defines a model and related requirements 
+This document is an informative user guide for understanding and implementing the requirements defined in the OGC ModSpec - A Standard for Designing and Writing Modular Standards.
+
+The OGC Modular Specification (ModSpec) is a framework for designing and structuring geospatial standards to enhance consistency, testability, and usability. 
+It mandates a model-driven approach where standards are "broken" into reusable requirements classes — often called building blocks — to enable incremental 
+implementation, ranging from core functionality to advanced extensions. 
+
+More specifically, the ModSpec is an OGC member developed and approved document that defines a model and related requirements 
 and recommendations for writing and structuring modular standards documents. Further, this model is designed to enable 
 consistent and verifiable testing of implementations of a standard that claim conformance. The ModSpec is a meta-standard: 
 A standard specifying requirements for crafting and documenting modular and testable standards. 
@@ -16,11 +20,12 @@ The goals of using the ModSpec are:
 - Consistently stated and modular requirements can be used as components (building blocks).
 - Well crafted requirements that are consistently documented, such as using the OGC Metanorma document template, can much more easily be harvested and used in other applications, such as AI based coding tools.
 
+== Preface
+
 Suggested additions, changes, and comments on this document are welcome and
 encouraged. Such suggestions may be submitted by creating an issue in the 
 OGC ModSpec GitHub repository (https://github.com/opengeospatial/ogc-modspec).
 
-[.preface]
 == Document terms and definitions
 
 This document uses the terms defined in OGC Policy Directive 49, which is based on the ISO/IEC Directives, Part 2, Rules for the structure and drafting of International Standards. 
@@ -28,7 +33,6 @@ In particular, the word “shall” (not “must”) is the verb form used to in
 
 This document also uses the terms as defined in Clause 4: Terms and Definitions as specified in the OGC ModSpec Model - Part 1: Core - A Standard for Designing and Writing Modular Standards 
 
-[.preface]
 == Document editors
 
 The following OGC Members participated in editing this document:
@@ -39,7 +43,6 @@ The following OGC Members participated in editing this document:
 | Carl Reed | Carl Reed & Associates
 |===
 
-[.preface]
 == Revision history
 
 This is the first version of ModSpec User Guide.
