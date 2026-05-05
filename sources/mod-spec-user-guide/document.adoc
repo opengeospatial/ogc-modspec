@@ -12,7 +12,7 @@
 :fullname: Carl Reed, PhD
 :role: editor
 :language: en
-:submitting-organizations: Carl Reed
+:submitting-organizations: Carl Reed & Associates
 :imagesdir: images
 :mn-document-class: ogc
 :mn-output-extensions: xml,html,doc,pdf
