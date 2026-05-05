@@ -200,6 +200,57 @@ part:: An EPSG code SHALL be used to identify the CRS.
 part:: The CRS SHALL be referenced by a uniform resource identifier (i.e., a URI) such as http://www.opengis.net/def/crs/EPSG/0/4326
 ====
 
+== Recommendation
+
+The ModSpec defineds a `recommendation` as an expression, in the content of a standard, that conveys a suggested possible choice or course of action deemed to be particularly suitable without necessarily mentioning or excluding others. A recommendation is indentified by the use of the verb `SHOULD`. An example of a recommendation is:
+
+```
+Recommendations 1
+/req/core/root-links
+A 200-response SHOULD include the following links in the links property of the response:
+    a link to this response document (relation: self),
+    a link to the response document in every other media type supported by the server (relation: alternate).
+```
+
+A recommendation could be general and applicable to statements in the entire standards, such as `HTML SHOULD be used to implement this standard`. A recommendation could also be applicable to just one requirement or requirements class.
+
+Note that in the negative form, a recommendation is the expression that a suggested possible choice or course of action is not preferred but it is not prohibited. Also note - and this is important - recommendations are not tested and therefore have no related conformance test. Therefore, a recommendation CANNOT be stated as part of a requirements class. This is because a requirements class is testable. Recommednation(s) can be included in a `requirements package` (see below).
+
+=== Metanorma coding example for Recommendation
+
+The following is an example of how a recommendation is expressed using the OGC Metanorma template. The recommendation shown below is a global ModSpec recommendation for all elements specified in a standards document.
+
+```
+[[rec-1]]
+
+[recommendation]
+====
+[%metadata]
+identifier:: /rec/core/uri-external-use
+part:: These unique identifiers/labels _SHOULD_ be used in any external documentation that references
+component elements of a standard in a normative manner, including but not limited to other
+standards, implementations of the conformance test suite, or certificates of
+conformance for implementations conformant to the standard in question.
+====
+```
+
+=== Publication of a recommendation using Metanorma template
+
+The above code ing example would be published as follows:
+
+[[rec-1]]
+
+[recommendation]
+====
+[%metadata]
+identifier:: /rec/core/uri-external-use
+part:: These unique identifiers/labels _SHOULD_ be used in any external documentation that references
+component elements of a standard in a normative manner, including but not limited to other
+standards, implementations of the conformance test suite, or certificates of
+conformance for implementations conformant to the standard in question.
+====
+
+
 == Conformance Test
 
 In most cases, every requirement in an OGC standard will have a corresponding `conformance test`. A conformance test checks if an 
