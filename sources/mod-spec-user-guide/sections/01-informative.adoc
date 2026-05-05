@@ -140,7 +140,7 @@ The OGC has standardized on Metanorma for document publication.
 
 The following AsciiDoc examples both work in the OGC publication process. The first is the `traditional` OGC AsciiDoc template and the second is formatted specifically for the Metanorma publication process.
 
-==== OGC Traditional AsciiDoc encoding example
+==== OGC Traditional AsciiDoc coding example
 
 The following is an example of the AsciiDoc coding as used in most OGC Standards prior to the transition to the use of Metanorma for publication.
 
@@ -155,7 +155,7 @@ The following is an example of the AsciiDoc coding as used in most OGC Standards
 |===
 ```
 
-==== Metanorma encoding example 
+==== Metanorma coding example 
 
 The following is an example of an AsciiDoc coding conformant to the OGC requirements for publication using Metanorma. Notice that the short form for the URI identifier is used. See above for an explanation of the use of unique identifiers for requirements in OGC Standards.
 
@@ -202,7 +202,7 @@ part:: The CRS SHALL be referenced by a uniform resource identifier (i.e., a URI
 
 == Recommendation
 
-The ModSpec defineds a `recommendation` as an expression, in the content of a standard, that conveys a suggested possible choice or course of action deemed to be particularly suitable without necessarily mentioning or excluding others. A recommendation is indentified by the use of the verb `SHOULD`. An example of a recommendation is:
+The ModSpec defines a `recommendation` as an expression, in the content of a standard, that conveys a suggested possible choice or course of action deemed to be particularly suitable without necessarily mentioning or excluding others. A recommendation is indentified by the use of the verb `SHOULD`. An example of a recommendation is:
 
 ```
 Recommendations 1
@@ -236,7 +236,7 @@ conformance for implementations conformant to the standard in question.
 
 === Publication of a recommendation using Metanorma template
 
-The above code ing example would be published as follows:
+The above codeing example would be published as follows:
 
 [[rec-1]]
 
@@ -298,7 +298,7 @@ core model for the 2D Euclidean plane use case.
 |===
 ```
 
-==== Metanorma AsciiDoc encoding
+==== Metanorma AsciiDoc coding
 
 ```
 [abstract_test]
