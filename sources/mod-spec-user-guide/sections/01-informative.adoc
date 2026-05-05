@@ -2,7 +2,7 @@
 
 = Key ModSpec concepts with AsciiDoc/Metanorma examples
 
-This ModSpec User Guide describes the key concepts defined in the OGC ModSpec <need reference>. Further, this document provides AsciiDoc/Metanorma examples of how to code
+This ModSpec User Guide describes the key concepts defined in the OGC ModSpec Standard (Version 1.1). Further, this document provides AsciiDoc/Metanorma examples of how to code
 the various key concepts in an OGC normative document. 
 
 NOTE: For information on the current OGC publication template for a standard, visit https://github.com/opengeospatial/templates/tree/master/standard[here].
@@ -22,7 +22,7 @@ is physically expressed in a standard.
 
 === Standardization goal
 
-Every new OGC Standards or revision to an OGC Standard must state a `standardization goal`. This is a concise statement of the 
+Every new OGC Standard or revision to an OGC Standard must state a `standardization goal`. This is a concise statement of the 
 problem that the standard addresses and the strategy envisioned for achieving a solution. Also termed a `problem statement`, the goal clarifies the issue to be addressed, 
 ensuring that everyone involved understands the problem, its significance, and why its important to solve. For example:
 
@@ -36,13 +36,13 @@ enhance interoperability by ensuring common semantics across logical models and 
 === Standardization Target Type
 
 `Standardization Target Type` is an abstract representation of one of the actors or entities identified in the Standardization Goal. 
-In the above standardization goal example, the target type is a `conceptual model`. 
+In the above standardization goal example, the target type is either a `conceptual model` or a `logical model`. 
 
 A standardization target type can be structured as a hierarchy. The root specifies the overarching target type for a standard. There can then be 
 target subtypes that derive from the root superclass. For example, the OGC API - Features Standard has a target type of `WebAPI`. There can then
 subtypes such as WebAPI/landing-page and WebAPI/crs or branches such as client and server. 
 
-Why the target type concept is important is shown below in the discussion on `requirement`. 
+Why the target type concept is important is shown below in the discussion (below) on `requirement`. 
 
 === Standardization Target
 
