@@ -5,14 +5,14 @@
 
 In software development technology, there is a concept called _building block_. In software development, building blocks are used to support the software build process where source code files/libraries can be accessed from multiple sources, converted into executable code, and linked together in the proper order until a complete set of executable files is generated. The same concept can be applied to OGC Standards development: Requirements classes can be linked together from one or more standards to create a new standard not originally envisioned when the requirements were originally defined.
 
-The https://pubs.opengroup.org/architecture/togaf8-doc/arch/chap32.html[Open Group] suggests that building blocks have the following characteristics:
+The https://pubs.opengroup.org/architecture/togaf8-doc/arch/chap32.html[Open Group] suggests that building blocks have the following characteristics.
 
 . A building block is a package of functionality defined to meet business or domain needs.
 . A building block may interoperate with other, inter-dependent, building blocks.
 . A good building block has the following characteristics:
-.. Considers implementation and usage, and evolves to exploit technology and standards.
-.. May be assembled from other building blocks.
-.. May be a subassembly of other building blocks.
+.. Considers implementation and usage, and evolves to exploit technology and standards;
+.. May be assembled from other building blocks;
+.. May be a subassembly of other building blocks; and
 .. Ideally a building block is re-usable and replaceable, and well specified.
 . A building block may have multiple implementations but with different inter-dependent building blocks.
 
@@ -27,22 +27,22 @@ These are the classes of entities to be standardized. A Standard defines the req
 
 Instances of a Standardization Target Type are the Standardization Targets.  These are the real-world manifestations of the Standardization Target Type.  In summary:
 
-* Standardization Goal – identifies the problem and identifies the actors and entities involved in solving that problem
-* Standardization Target Type – An abstract representation of one of the actors or entities identified in the Standardization Goal
+* Standardization Goal – identifies the problem and identifies the actors and entities involved in solving that problem;
+* Standardization Target Type – An abstract representation of one of the actors or entities identified in the Standardization Goal; and
 * Standardization Target – an implementation of a Standardization Target Type. These are the real-world entities which can be tested for conformance with the requirements documented in the standard.
 
 Standardization Target Types can be hierarchical. The Conceptual, Logical, Physical model hierarchy is one example where the Standardization Target Types are information models. Another example would be implementations of OGC API - Features Part 2 that support XML data exchange.
 
 The following are two examples of Target Types and Targets as used in the OGC API suite of standards:
 
-. OGC API Standards
+. OGC API Standards:
 
-.. Standardization target type: Web API
+.. Standardization target type: Web API; and
 .. Standardization target: Any API that is consistent with the web architecture (HTTP, web linking, etc) and implements a requirements class of an OGC API standard.
 
-. OGC JSON - Feature Geometry
+. OGC JSON - Feature Geometry:
 
-.. Standardization target type: JSON documents (or JSON objects)
+.. Standardization target type: JSON documents (or JSON objects); and
 .. Standardization target: Any JSON document (or object) that implements the Core requirements class of JSON-FG. The document can be a created by an API as a response document representing a features collection or by a tool like GDAL, FME, QGIS, etc.
 
 The Standardization Target Types, Standardization Targets, and Standardization Goal provide a well-defined context for the standard.  
@@ -104,7 +104,7 @@ that process should embody the ModSpec principles so that ModSpec conformance is
 NOTE: OGC Standards are written using an OGC Member approved template that is conformant with the 
 requirements stated in the ModSpec.
 
-This template should be specified by the following descriptions:
+This template should be specified by the following descriptions.
 
 . A standards document contains Clauses (corresponding to numbered sections as they might
 appear in a table of contents) which describe its standardization target type and its requirements.

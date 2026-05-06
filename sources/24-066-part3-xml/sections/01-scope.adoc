@@ -28,6 +28,6 @@ parallel.
 
 Version 1.1 of the ModSpec is split into a Core standard and multiple Parts. These are:
 
-- Part 1: Core - contains all the core requirements and informational text that define the model and internal structure of a standard.
-- Part 2 - UML Model requirements 
-- Part 3 - XML Model and Schematron requirements 
+- Part 1: Core - contains all the core requirements and informational text that define the model and internal structure of a standard;
+- Part 2 - UML Model requirements; and
+- Part 3 - XML Model and Schematron requirements.

@@ -2,7 +2,7 @@
 [appendix,obligation=normative]
 == OGC Only: Changes required in the OGC Standards
 
-NOTE: The following is for OGC Standards and Abstract Specifications only: No changes are required to existing OGC Standards
+NOTE: The following is for OGC Standards and Abstract Specifications only: no changes are required to existing OGC Standards.
 
 === New OGC standards and revisions to existing OGC standards
 
@@ -16,7 +16,7 @@ new or new version of such candidate standards.
 
 The adoption of such documents not compliant with the ModSpec _SHALL_ be
 considered as an authorized exception to the requirements of the ModSpec by the
-approporiate authority, such as the OGC or ISO. An exception
+appropriate authority, such as the OGC or ISO. An exception
 to the rules of the authority such as the OGC will require a two-thirds (2/3) majority ("Robert's
 Rules") or as specified in the authorities Policy and Procedures for an exception to
 procedure. In the OGC, a similar vote is required within the Planning Committee or as specified

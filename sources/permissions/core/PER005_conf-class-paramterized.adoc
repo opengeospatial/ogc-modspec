@@ -3,6 +3,6 @@
 [permission]
 ====
 [%metadata]
-identifier:: /per/core/conf-class-paramterized
+identifier:: /per/core/conf-class-parameterized
 part:: A Conformance class _MAY_ be parameterized..
 ====

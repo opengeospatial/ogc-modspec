@@ -58,7 +58,7 @@ be applied to receive a single {{certificate of conformance}}
 
 [NOTE]
 ====
-When there is no ambiguity, the word "test" may be omitted. i.e. {{conformance test module}}
+When there is no ambiguity, the word "test" may be omitted. i.e., {{conformance test module}}
 is the same as *conformance module*. Conformance modules may be nested in a hierarchical way.
 
 ====

@@ -77,7 +77,6 @@ object model, either as the core mechanism of the standard or as a normative adj
 to formally explain the standard in a model
 |===
 
-
 [[req-03]]
 [requirement,model=ogc,type="general"]
 [width="90%",cols="2,6"]

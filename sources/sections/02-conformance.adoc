@@ -13,7 +13,7 @@ conformance, or mechanism for adoption, of candidate standards to which the ModS
 applies. In particular:
 
 * <<cls-8,ModSpec Requirements Class: Core>> specifies the core requirements which shall be met by all 
-standards claiming conformance to the ModSpec.
+standards claiming conformance to the ModSpec; and
 * <<cls-9,Mapping the ModSpec to types of models>> gives information on how the ModSpec is to be applied to extensions to the core model for requirements and
 conformance clauses.
 

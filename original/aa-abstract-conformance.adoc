@@ -437,7 +437,7 @@ W3C Recommendation for XML schema.
 ==== A requirements class corresponds to a single XML namespace
 
 If a specification conformant to the XML schema conformance class defines a set of
-data schemas, all components (e.g. elements, attributes, types ...) associated with
+data schemas, all components (e.g., elements, attributes, types ...) associated with
 a single conformance test class shall be scoped to a single XML namespace.
 
 . Test Purpose: Verify that this requirement is satisfied.

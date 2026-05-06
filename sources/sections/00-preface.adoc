@@ -1,17 +1,17 @@
 [.preface]
 == Preface
 
-This OGC member developed and approved document, referred to as the `ModSpec`, defines a model and related requirements 
+This Open Geospatial Consortium (OGC) member developed and approved document, referred to as the `ModSpec`, defines a model and related requirements 
 and recommendations for writing and structuring modular standards documents. Further, this model is designed to enable 
 consistent and verifiable testing of implementations of a standard that claim conformance. The ModSpec is a meta-standard: 
 A standard specifying requirements for crafting and documenting modular and testable standards. 
 
 The goals of using the ModSpec are:
 
-* To define characteristics and a structure for the development of modular standards which will minimize the difficulty in writing testable standards while maximizing usability and interoperability.
+* To define characteristics and a structure for the development of modular standards which will minimize the difficulty in writing testable standards while maximizing usability and interoperability; and
 * To ensure that a standard specifies requirements in a common and consistent manner and that these requirements are testable.
 
-NOTE: Historically, this document has been known and abbreviated as the "ModSpec". For continuity and ease of understanding this document is also be referred to as the "OGC ModSpec".
+NOTE: Historically, this document has been known and abbreviated as the "ModSpec." For continuity and ease of understanding this document is also be referred to as the "OGC ModSpec."
 
 Suggested additions, changes, and comments on this document are welcome and
 encouraged. Such suggestions may be submitted by creating an issue in the 
@@ -26,7 +26,7 @@ In particular, the word “shall” (not “must”) is the verb form used to in
 [.preface]
 == Document editors
 
-The following OGC Members participated in editing this document:
+The following OGC Members participated in editing this document.
 
 [%unnumbered]
 |===
@@ -39,7 +39,7 @@ The following OGC Members participated in editing this document:
 [.preface]
 == Document Contributors
 
-The following OGC Members contributed and particpated in developing the ModSpec Version 1.1 
+The following OGC Members contributed and participated in developing the ModSpec Version 1.1.
 
 [%unnumbered]
 |===
@@ -52,7 +52,7 @@ The following OGC Members contributed and particpated in developing the ModSpec 
 [.preface]
 == Submitting organizations
 
-The following OGC Members support the ModSpec Version 1.1 submission
+The following OGC Members support the ModSpec Version 1.1 submission.
 
 [%unnumbered]
 
@@ -73,7 +73,7 @@ This is the second normative version of this document.
 This version of the ModSpec restructures the document into a multi-part standard. This document is Part 1 - Core. 
 It provides a technology agnostic model for modular standards. Future "parts" will be specific for different technologies. Planned extensions include:
 
-* ModSpec Part providing requirements and recommendations for specifying requirements and conformance tests using RDFS, SHACL, and OWL.
+* ModSpec Part providing requirements and recommendations for specifying requirements and conformance tests using RDFS, SHACL, and OWL; and
 * ModSpec Part providing requirements and recommendations for specifying requirements and conformance tests using JSON.
 
 In addition, improvements to this document will be made based on implementation and changing technical requirements. 

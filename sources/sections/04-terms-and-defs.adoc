@@ -13,19 +13,16 @@ Many of these definitions depend upon the model given in <<annex-C,Annex C: ModS
 === Building Blocks Terms and Definitions
 
 [[buildingblock-definition]]
-
 ==== building block (foundation)
 
 <<requirementsclass-definition,requirements class>> or <<requirementspackage-definition,requirements package>> with no direct dependencies on other requirements classes or packages and their associated <<conformanceclass-definition,conformance test class>> or <<conformancepackage-definition,conformance test package>> 
 
 [[dependency-definition]]
-
 ==== dependency 
 
 module (the target) which is used by, produced by, or associated with an implementation of the source module 
 
 [[directdependency-definition]]
-
 ==== direct dependency
 
 another requirements class (the dependency) whose requirements are defined to also be requirements of this requirements class
@@ -35,7 +32,6 @@ NOTE: A direct dependency (of a requirements class) of the current requirements 
 NOTE: When testing a direct dependency of a requirements class, the standardization target is directly subject to the test in the specified conformance test class of the direct dependency of a requirements class.  
 
 [[extension-definition]]
-
 ==== extension
 
 requirements class which has a direct dependency on another requirements class 
@@ -44,7 +40,6 @@ NOTE: Here an extension of a requirements class is defined in the model on requi
 may be software extensions in a manner analogous to the extension relation between the requirements classes.  
 
 [[indirectdependency-definition]]
-
 ==== indirect dependency
 
 requirements class with a different standardization target which is used by, produced by, or associated with the implementation of this requirements class 
@@ -53,7 +48,6 @@ NOTE: In this instance, as opposed to the direct dependency of a requirements cl
 For example, if a DRM-enabled service is required to have an association to a licensing service, then the requirements of a licensing service are indirect requirements for the DRM-enabled service. Such a requirement may be stated as the associated licensing service has a certificate of conformance of a particular kind.  
 
 [[module-definition]]
-
 ==== module
 
 each of a set of standardized parts or independent units that can be used to construct a more complex structure
@@ -63,7 +57,6 @@ The power of the concept is that modules can be reused in different systems (spe
 Modules can be replaced without affecting the rest of the system. 
 
 [[package-definition]]
-
 ==== package
 
 element that is used to group elements. 
@@ -71,7 +64,6 @@ element that is used to group elements.
 NOTE: In the ModSpec, `package` is used in the context of a <<requirementspackage-definition,requirements package>> or a <<conformancepackage-definition,conformance test package>>.
 
 [[part-document-definition]]
-
 ==== part (standard)
 
 document which is one of the many documents which make up a multi-part standard.
@@ -79,7 +71,6 @@ document which is one of the many documents which make up a multi-part standard.
 NOTE: A multi-part standard is physically structured into a `core` and additional parts where each part is a separate document. These parts may be extensions to the core or have a different standardization target type/subtype.
 
 [[part-requirement-definition]]
-
 ==== part (requirement)
 
 normative statement which together with other normative statements constitute a requirement. 
@@ -87,7 +78,6 @@ normative statement which together with other normative statements constitute a 
 NOTE: The requirement parts are co-dependent. 
 
 [[profile-definition]]
-
 ==== profile
 
 specification or standard consisting of a set of references to one or more base standards and/or other profiles, and the identification of any chosen conformance test classes, conforming subsets, options and parameters of those base standards, or profiles necessary to accomplish a particular function. 
@@ -101,7 +91,6 @@ SOURCE: ISO/IEC TR 10000-1
 === Document Terms and Definitions
 
 [[bestpractice-definition]]
-
 ==== best practice
 
 <<specification-definition,specification>> that has been approved by a legitimate Standards Body as a recommendation for implementation.  
@@ -109,14 +98,12 @@ SOURCE: ISO/IEC TR 10000-1
 [[certificateofconformance-definition]]
 
 ==== certificate of conformance
-
 evidence of conformance to all or part of a standard, awarded for passing one or more of the conformance test classes specified in that standard 
 
 NOTE:  Certificates do not have to be instantiated documents. Having proof of passing the conformance test class is sufficient. For example, the OGC currently keeps an online list of conformant applications at http://www.opengeospatial.org/resource/products. 
 Each certificate of conformance is awarded to a standardization target.
 
 [[informativestatement-definition]]
-
 ==== informative statement
 
 expression in a document conveying non-normative information
@@ -124,7 +111,6 @@ expression in a document conveying non-normative information
 NOTE: Includes all statements in a document not part of the normative requirements, recommendations, permissions, or conformance tests. Included for completeness. 
 
 [[normativestatement-definition]]
-
 ==== normative statement
 
 expression in a document conveying information required to define conformance
@@ -132,7 +118,6 @@ expression in a document conveying information required to define conformance
 NOTE:  Includes all normative statements in a document including requirements, recommendations, permissions, and conformance tests. Included for completeness. 
 
 [[specification-definition]]
-
 ==== specification
 
 document containing recommendations, requirements, permissions, and conformance tests
@@ -142,7 +127,6 @@ NOTE:  This definition is included for completeness.
 NOTE:  In the OGC, there are Abstract Specifications and Implementation Standards. Abstract Specifications may or may not be testable. Further, Abstract Specifications may not be directly implementable. Implementation Standards are always testable and contain a conformance test suite. 
 
 [[standard-definition]]
-
 ==== standard
 
 <<specification-definition,specification>> that has been approved by a legitimate Standards Body 
@@ -152,13 +136,11 @@ NOTE:  This definition is included for completeness. Standard and specification 
 NOTE:  A standard should consist primarily of Normative Statements. The goal should be for the standard to be concise. Supporting information can be provided through a user's guide. 
 
 [[statement-definition]]
-
 ==== statement
 
 expression in a document conveying information 
 
 [[usersguide-definition]]
-
 ==== users guide
 
 non-normative information that assists in understanding a standard but is not required to implement the standard.   
@@ -166,20 +148,16 @@ non-normative information that assists in understanding a standard but is not re
 === Core Terms and Definitions
 
 [[conformanceclass-definition]]
-
-==== conformance class +
-conformance test class
+==== conformance class / conformance test class
 
 set of <<conformancetest-definition,conformance tests>> that must be passed to receive a single <<certificateofconformance-definition,certificate of conformance>>
 
 [[conformancepackage-definition]]
-
 ==== conformance package
 
 set (grouping) of related conformance classes and their associated components. 
 
 [[conformancesuite-definition]]
-
 ==== conformance suite
 
 set of <<conformanceclass-definition,conformance classes>> and/or <<conformancemodule-definition,conformance packages>> that define <<conformancetest-definition,tests>> for all <<requirement-definition,requirements>> of a <<standard-definition,standard>>
@@ -187,13 +165,11 @@ set of <<conformanceclass-definition,conformance classes>> and/or <<conformancem
 NOTE:  The *conformance suite* is the union of all *conformance classes* and their associated <<conformanceclass-definition,conformance classes>>. It is by definition the *conformance class* of the entire *standard* or *abstract specification*.  
 
 [[conformancetest-definition]]
-
 ==== conformance test
 
 test, abstract or real, of one or more <<requirement-definition,requirements>> contained within a standard, or set of standards  
 
 [[conformancetestmethod-definition]]
-
 ==== conformance test method
 
 process used to test an implementation of the standard for conformance. 
@@ -203,7 +179,6 @@ NOTE: Testing may be automated, manual, or a hybrid.
 NOTE: Testing by an independent second party is recommended.
 
 [[corerequirementsclass-definition]]
-
 ==== core requirements class
 
 unique requirements class that must be satisfied by any conformant standardization targets associated with the standard
@@ -213,7 +188,6 @@ NOTE:  The core requirements class is unique because if it were possible to have
 NOTE: The core can refer to this requirements class, its associated conformance test class, or the software module that implements that requirements class.  
 
 [[model-definition]]
-
 ==== model
 
 representation of those aspects of the standardization target type which are to be governed by a standard. The model captures both the conceptual and logical properties of the standardization target type. The requirements promulgated by a standard should be expressed in terms of those conceptual and logical properties.
@@ -221,7 +195,6 @@ representation of those aspects of the standardization target type which are to 
 In short, the model provides the vocabulary for expressing requirements. 
 
 [[permission-definition]]
-
 ==== permission
 
 expression, in the content of a <<standard-definition,standard>>, that conveys consent or liberty (or opportunity) to do something
@@ -231,7 +204,6 @@ SOURCE: ISO Directives Part 2
 NOTE:: uses “may” and is used to prevent a requirement from being “over interpreted” and as such is considered to be more of a “statement of fact” rather than a “normative” condition. 
 
 [[recommendation-definition]]
-
 ==== recommendation
 
 expression, in the content of a <<standard-definition,standard>>, that conveys a suggested possible choice or course of action deemed to be particularly suitable without necessarily mentioning or excluding others.
@@ -246,7 +218,6 @@ NOTE:  Recommendations are not tested and therefore have no related conformance 
 
 
 [[requirement-definition]]
-
 ==== requirement
 
 expression, in the content of a <<standard-definition,standard>>, that conveys objectively verifiable criteria to be fulfilled and 
@@ -266,7 +237,6 @@ standards which are not requirements and need to be either conditional or future
 with requirements that use "shall" imperatively  
 
 [[requirementsclass-definition]]
-
 ==== requirements class
 
 aggregate of <<requirement-definition,requirements>> with a single <<standardizationtargettype-definition,standardization target type>> that must all be satisfied to pass a <<conformanceclass-definition,conformance test Class>>.
@@ -276,13 +246,11 @@ to violate this definition. But the existence of an indirect dependency implies 
 of the relationship from the original target to something that has a property (satisfies a condition or requirement from another requirements class).  
 
 [[requirementspackage-definition]]
-
 ==== requirements package
 
 set (grouping) of related requirement classes and their associated components. 
 
 [[standardizationgoal-definition]]
-
 ==== standardization goal
 
 concise statement of the problem that the standard helps address and the strategy envisioned for achieving a solution. 
@@ -290,7 +258,6 @@ concise statement of the problem that the standard helps address and the strateg
 NOTE: This strategy typically identifies real-world entities that need to be modified or constrained. At the abstract level, those entities are the <<standardizationtargettype-definition,Standardization Target Types>>.  
 
 [[standardizationtarget-definition]]
-
 ==== standardization target
 
 entity to which some <<requirement-definition,requirements>> of a <<standard-definition,standard>> apply
@@ -298,7 +265,6 @@ entity to which some <<requirement-definition,requirements>> of a <<standard-def
 NOTE:   The standardization target is the entity which may receive a certificate of conformance for a requirements class.  
 
 [[standardizationtargettype-definition]]
-
 ==== standardization target type
 
 type of entity or set of entities to which the <<requirement-definition,requirement>> of a <<standard-definition,standard>> apply
@@ -306,7 +272,6 @@ type of entity or set of entities to which the <<requirement-definition,requirem
 NOTE:  For example, the standardization target type for The OGC API – Features Standard are Web APIs. The standardization target type for the CDB Standard is “datastore”. It is important to understand that a standard’s root standardization target type can have sub-types, and that there can be a hierarchy of target types. For example, a Web API can have sub types of client, server, security, and so forth. As such, each requirements class can have a standardization target type that is a sub-type of the root. 
 
 [[will-definition]]
-
 ==== will
 
 In informative sections, the word "will" implies that something is an implication of a requirement. The "will" statements are

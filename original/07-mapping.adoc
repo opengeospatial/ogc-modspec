@@ -306,7 +306,7 @@ associated schema; which is designated by a URI.
 [requirement,model=ogc,type="general"]
 ====
 #If a specification conformant to the XML schema conformance class defines a set of
-data schemas, all components (e.g. elements, attributes, types ...) associated with
+data schemas, all components (e.g., elements, attributes, types ...) associated with
 a single conformance test class shall be scoped to a single XML namespace.#
 ====
 
@@ -376,7 +376,7 @@ association role from a superclass so that its type or class is a specialization
 the original.
 
 In summary, effective modularization is enabled by following the pattern of one
-conformance class per XML namespace; i.e. the set of components in an XML namespace
+conformance class per XML namespace; i.e., the set of components in an XML namespace
 should be referred to as a whole. Subsetting of components in a single XML namespace
 for conformance purposes is not permitted.
 

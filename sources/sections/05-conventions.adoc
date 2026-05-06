@@ -5,7 +5,7 @@
 
 All symbols used in this document are either:
 
-. Common mathematical symbols
+. Common mathematical symbols; or
 . UML 2 (Unified Modeling Language) as defined by OMG and accepted as a publicly
 available standard (PAS) by ISO in its earlier 1.3 version.
 

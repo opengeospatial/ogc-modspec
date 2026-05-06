@@ -36,7 +36,6 @@ schema, all of its components, and its intended uses.
 |REQ006 | /req/part3/xml/no-element-modification
 |===
 
-
 First, by the requirements above, the extension relationship of this conformance
 test class to the core must be made explicit.
 
@@ -48,7 +47,6 @@ test class to the core must be made explicit.
 An implementation passing the XML conformance test class _SHALL_ first pass the ModSpec Core
 conformance test class
 |===
-
 
 [[req-02]]
 [requirement,model=ogc,type="general"]
@@ -90,7 +88,7 @@ associated schema, which is designated by a URI.
 |===
 |*REQ003* | */req/part3/xml/single-xml-space* +
 If a standard conformant to the XML schema conformance class defines a set of
-data schemas, all components (e.g. elements, attributes, types ...) associated with
+data schemas, all components (e.g., elements, attributes, types ...) associated with
 a single conformance test class _SHALL_ be scoped to a single XML namespace.
 |===
 
@@ -168,7 +166,7 @@ associated conformance test class in the schema/annotation/appinfo element.
 Requirements may add constraints.
 |===
 
-This allows extensions to restrict:
+This allows extensions to restrict the following.
 
 . Usage of existing elements, but only if their use was originally optional. This is
 similar to the rules for inheritance (such as in UML or other object models), where
@@ -180,7 +178,7 @@ association role from a superclass so that its type or class is a specialization
 the original.
 
 In summary, effective modularization is enabled by following the pattern of one
-conformance class per XML namespace; i.e. the set of components in an XML namespace
+conformance class per XML namespace; i.e., the set of components in an XML namespace
 should be referred to as a whole. Subsetting of components in a single XML namespace
 for conformance purposes is not permitted.
 
