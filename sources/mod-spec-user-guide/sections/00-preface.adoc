@@ -13,7 +13,7 @@ and recommendations for writing and structuring modular standards documents. Fur
 consistent and verifiable testing of implementations of a standard that claim conformance. The ModSpec is a meta-standard: 
 A standard specifying requirements for crafting and documenting modular and testable standards. 
 
-The goals of using the ModSpec are:
+The goals of using the ModSpec are as follow.
 
 - To define characteristics and a structure for the development of modular standards which will minimize the difficulty in writing testable standards while maximizing usability and interoperability.
 - To ensure that a standard specifies requirements in a common and consistent manner and that these requirements are testable.
