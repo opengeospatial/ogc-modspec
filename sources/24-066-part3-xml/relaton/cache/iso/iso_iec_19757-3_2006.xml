@@ -1,0 +1,92 @@
+<bibdata type="standard" schema-version="v1.5.6">
+  <fetched>2026-05-21</fetched>
+  <title language="en" script="Latn" type="title-intro" format="text/plain">Information technology</title>
+  <title language="en" script="Latn" type="title-main" format="text/plain">Document Schema Definition Languages (DSDL)</title>
+  <title language="en" script="Latn" type="title-part" format="text/plain">Part 3: Rule-based validation — Schematron</title>
+  <title language="en" script="Latn" type="main" format="text/plain">Information technology - Document Schema Definition Languages (DSDL) - Part 3: Rule-based validation — Schematron</title>
+  <title language="fr" script="Latn" type="title-intro" format="text/plain">Technologies de l'information</title>
+  <title language="fr" script="Latn" type="title-main" format="text/plain">Langages de définition de schéma de documents (DSDL)</title>
+  <title language="fr" script="Latn" type="title-part" format="text/plain">Partie 3: Validation de règles orientées — Schematron</title>
+  <title language="fr" script="Latn" type="main" format="text/plain">Technologies de l'information - Langages de définition de schéma de documents (DSDL) - Partie 3: Validation de règles orientées — Schematron</title>
+  <uri type="src">https://www.iso.org/standard/40833.html</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/04/08/40833.detail.rss</uri>
+  <docidentifier type="ISO" primary="true">ISO/IEC 19757-3:2006</docidentifier>
+  <docidentifier type="iso-reference">ISO/IEC 19757-3:2006(E)</docidentifier>
+  <docidentifier type="URN">urn:iso:std:iso-iec:19757:-3:stage-95.99</docidentifier>
+  <docnumber>19757</docnumber>
+  <date type="published">
+    <on>2006-06</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Electrotechnical Commission</name>
+      <abbreviation>IEC</abbreviation>
+      <uri>www.iec.ch</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="author">
+      <description>committee</description>
+    </role>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <subdivision type="technical-committee" subtype="IEC">
+        <name>Document description and processing languages</name>
+        <identifier>ISO/IEC JTC 1/SC 34</identifier>
+      </subdivision>
+      <abbreviation>ISO</abbreviation>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract language="en" script="Latn">ISO/IEC 19757 defines a set of Document Schema Definition Languages (DSDL) that can be used to specify one or more validation processes performed against Extensible Markup Language (XML) or Standard Generalized Markup Language (SGML) documents. (XML is an application profile SGML, ISO 8879:1986.)
+ISO/IEC 19757-3:2006 specifies Schematron, a rules-based schema language for XML. It establishes requirements for Schematron schemas and specifies when an XML document matches the patterns specified by a Schematron schema.</abstract>
+  <abstract language="fr" script="Latn">ISO/IEC 19757 defines a set of Document Schema Definition Languages (DSDL) that can be used to specify one or more validation processes performed against Extensible Markup Language (XML) or Standard Generalized Markup Language (SGML) documents. (XML is an application profile SGML, ISO 8879:1986.)
+ISO/IEC 19757-3:2006 specifies Schematron, a rules-based schema language for XML. It establishes requirements for Schematron schemas and specifies when an XML document matches the patterns specified by a Schematron schema.</abstract>
+  <status>
+    <stage>95</stage>
+    <substage>99</substage>
+  </status>
+  <copyright>
+    <from>2006</from>
+    <owner>
+      <organization>
+        <name>ISO/IEC</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="updates">
+    <bibitem type="standard">
+      <formattedref>ISO/IEC 19757-3:2016</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC 19757-3:2016</docidentifier>
+      <date type="circulated">
+        <on>2016-01-14</on>
+      </date>
+    </bibitem>
+  </relation>
+  <place>
+    <formattedPlace>Geneva</formattedPlace>
+  </place>
+  <ext schema-version="v1.1.2">
+    <doctype>international-standard</doctype>
+    <flavor>iso</flavor>
+    <ics>
+      <code>35.240.30</code>
+      <text>IT applications in information, documentation and publishing</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>40833</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

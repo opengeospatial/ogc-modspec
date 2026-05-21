@@ -1,0 +1,1083 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metanorma xmlns="https://www.metanorma.org/ns/standoc" type="semantic" version="2.9.5" schema-version="v2.1.5" flavor="ogc">
+<bibdata type="standard">
+<title language="en" type="main">The ModSpec Model - Part 3: XML</title>
+<uri type="pdf">./24-066r1.pdf</uri><docidentifier type="ogc-internal" primary="true">24-066r1</docidentifier><docidentifier type="ogc-external">http://www.opengis.net/doc/POL/ModSpec-part3/1.1</docidentifier><docnumber>24-066r1</docnumber><date type="published"><on>2026-05-21</on></date><date type="issued"><on>2026-03-05</on></date><date type="received"><on>2025-10-20</on></date><contributor><role type="author"/><organization>
+<name>Carl Reed &amp; Associates</name>
+</organization></contributor><contributor><role type="author"/><organization>
+<name>Heazeltech</name>
+</organization></contributor><contributor><role type="author"/><organization>
+<name>Tepa Enterprise Solutions (ImageMatters)</name>
+</organization></contributor><contributor><role type="author"/><organization>
+<name>The Danish Agency for Climate Data</name>
+</organization></contributor><contributor><role type="author"/><organization>
+<name>UK Met Office</name>
+</organization></contributor><contributor><role type="editor"/><person>
+<name><completename>Carl Reed</completename></name>
+</person></contributor><contributor><role type="editor"/><person>
+<name><completename>John Herring</completename></name>
+</person></contributor><contributor><role type="author"><description>committee</description></role><organization>
+<name>Open Geospatial Consortium</name>
+<subdivision type="Committee">
+<name>technical</name>
+</subdivision><abbreviation>OGC</abbreviation></organization></contributor><contributor><role type="publisher"/><organization>
+<name>Open Geospatial Consortium</name>
+<abbreviation>OGC</abbreviation></organization></contributor><edition>1.1</edition><version><revision-date>##</revision-date><draft>3.0</draft></version><language>en</language><script>Latn</script><status><stage>approved</stage></status><copyright><from>2026</from><owner><organization>
+<name>Open Geospatial Consortium</name>
+<abbreviation>OGC</abbreviation></organization></owner></copyright><keyword>ogcdoc</keyword><keyword>OGC document</keyword><keyword>modspec</keyword><keyword>modular</keyword><keyword>requirements</keyword><keyword>testing</keyword><keyword>part3</keyword><keyword>xml</keyword><ext><doctype>standard</doctype><subdoctype>implementation</subdoctype><flavor>ogc</flavor></ext></bibdata><metanorma-extension><semantic-metadata><stage-published>true</stage-published></semantic-metadata>
+<presentation-metadata><document-scheme>2026</document-scheme><color-admonition-caution>rgb(79, 129, 189)</color-admonition-caution><color-admonition-editor>rgb(79, 129, 189)</color-admonition-editor><color-admonition-important>rgb(79, 129, 189)</color-admonition-important><color-admonition-note>rgb(79, 129, 189)</color-admonition-note><color-admonition-safety-precaution>rgb(79, 129, 189)</color-admonition-safety-precaution><color-admonition-tip>rgb(79, 129, 189)</color-admonition-tip><color-admonition-todo>rgb(79, 129, 189)</color-admonition-todo><color-admonition-warning>rgb(79, 129, 189)</color-admonition-warning><color-background-definition-description>rgb(242, 251, 255)</color-background-definition-description><color-background-definition-term>rgb(215, 243, 255)</color-background-definition-term><color-background-page>rgb(33, 55, 92)</color-background-page><color-background-table-header>rgb(33, 55, 92)</color-background-table-header><color-background-table-row-even>rgb(252, 246, 222)</color-background-table-row-even><color-background-table-row-odd>rgb(254, 252, 245)</color-background-table-row-odd><color-background-term-admitted-label>rgb(223, 236, 249)</color-background-term-admitted-label><color-background-term-deprecated-label>rgb(237, 237, 238)</color-background-term-deprecated-label><color-background-term-preferred-label>rgb(249, 235, 187)</color-background-term-preferred-label><color-background-text-label-legacy>rgb(33, 60, 107)</color-background-text-label-legacy><color-secondary-shade-1>rgb(0, 177, 255)</color-secondary-shade-1><color-secondary-shade-2>rgb(0, 177, 255)</color-secondary-shade-2><color-text>rgb(88, 89, 91)</color-text><color-text-title>rgb(33, 55, 92)</color-text-title><toc-heading-levels>2</toc-heading-levels><html-toc-heading-levels>2</html-toc-heading-levels><doc-toc-heading-levels>2</doc-toc-heading-levels><pdf-toc-heading-levels>2</pdf-toc-heading-levels></presentation-metadata></metanorma-extension>
+<boilerplate><copyright-statement>
+
+<clause id="_2cd773fc-8495-2dfa-91a1-d57da3fc5833" obligation="normative">
+<title id="_19604a82-a482-3c87-1356-705ef7b11f09">Copyright notice</title>
+<p id="_f3c4258f-6b29-424c-cd01-337c0e916a04" align="center">Copyright © 2026 Open Geospatial Consortium<br/> To obtain additional rights of use, visit <link target="https://www.ogc.org/legal"/></p>
+</clause>
+
+<clause id="_6908548e-204b-56e7-9062-6924cccf2315" obligation="normative">
+<title id="_db83e2f6-5841-eaeb-0d35-1277ee9d3f6a">Note</title>
+<p id="_e1d5d5c4-54c3-2761-be2c-22547f01c057" align="left">Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. The Open Geospatial Consortium shall not be held responsible for identifying any or all such patent rights.</p>
+
+<p id="_02892e94-7b43-630a-129c-d2e0f75ff92b" align="left">Recipients of this document are requested to submit, with their comments, notification of any relevant patent claims or other intellectual property rights of which they may be aware that might be infringed by any implementation of the standard set forth in this document, and to provide supporting documentation.</p>
+</clause>
+</copyright-statement>
+
+<license-statement>
+
+<clause id="_45f6bdf5-80f3-f775-9740-2adafc90b1f7" obligation="normative">
+<title id="_3788828e-41fb-3895-6acc-52071643abed">License Agreement</title>
+<p id="_772872dd-928c-666f-92c5-676f7f5d3071">Use of this document is subject to the license agreement at <link target="https://www.ogc.org/license"/></p>
+</clause>
+</license-statement>
+
+<legal-statement>
+
+<clause id="_3cc6ff6c-e690-5288-92ca-f91e83434633" obligation="normative">
+<title id="_37bc7c72-0d8f-ba1e-c43f-647a0e7edf21">Notice</title>
+<p id="_3dee3cc3-7a55-e571-5aa0-115dce238c68">This document is an OGC Member approved international standard. This document is available on a royalty free, non-discriminatory basis. Recipients of this document are invited to submit, with their comments, notification of any relevant patent rights of which they are aware and to provide supporting documentation.</p>
+</clause>
+</legal-statement>
+
+<feedback-statement>
+
+<clause id="_4b48acd6-973f-402f-97b5-d1794d313105" anchor="boilerplate-standard-feedback" obligation="normative"><p id="_cb0581b2-acf2-995c-21c5-080c40d2dfd0">Suggested additions, changes and comments on this document are welcome and encouraged. Such suggestions may be submitted using the online change request form on OGC web site: <link target="http://ogc.standardstracker.org/"/></p>
+</clause>
+</feedback-statement>
+</boilerplate><preface><foreword id="_af3af9d3-8814-8619-a533-577fc44e16fe" obligation="informative">
+<title id="_67001cd2-f272-ceff-f849-7a43bc65e67d">Preface</title>
+<p id="_0ca2cad6-a25a-1fcf-97f6-61cbdcc74bcd">This Open Geospatial Consortium (OGC) member developed and approved document, referred to as the <tt>ModSpec: Part 3</tt>, defines an optional requirements class for the XML model extension the ModSpec core.</p>
+
+<p id="_cd3c6031-bf42-6dac-08c2-86301cd4dfdc">The ModSpec: Core Standard defines a model and related requirements and recommendations for writing and structuring modular standards documents. Further, this model is designed to enable consistent and verifiable testing of implementations of a standard that claim conformance. The ModSpec is a meta-standard: A standard specifying requirements for crafting and documenting modular and testable standards.</p>
+
+<p id="_5dbf6975-c0c6-f2aa-e2ae-05cbe6c15452">The goals of using the ModSpec are:</p>
+
+<ul id="_987dd176-5c68-2925-2748-928a6b691bc9"><li><p id="_4bd965f8-e359-b081-c56f-38fc720538f1">To define characteristics and a structure for the development of modular standards which will minimize the difficulty in writing testable standards while maximizing usability and interoperability; and</p>
+</li>
+<li><p id="_51b16886-5101-dc63-8a9d-e86f4c19da49">To ensure that a standard specifies requirements in a common and consistent manner and that these requirements are testable.</p>
+</li>
+</ul>
+
+<p id="_54dc6324-47c9-814e-3427-f484e871261c">Suggested additions, changes, and comments on this document are welcome and encouraged. Such suggestions may be submitted by creating an issue in the GitHub repository for this document (<link target="https://github.com/opengeospatial/ogc-modspec"/>).</p>
+</foreword><clause id="_8d8eacc5-ed21-b35c-e4af-5ce5f08a4217" obligation="informative">
+<title id="_e6e4727d-267b-7fbc-4e59-cfe268818cdf">Document terms and definitions</title>
+<p id="_9a61a52b-7c61-31f3-a1b5-a4b07f876009">This document uses the standard terms defined in Subclause 5.3 of [OGC 05-008], which is based on the ISO/IEC Directives, Part 2. Rules for the structure and drafting of International Standards. In particular, the word “shall” (not “must”) is the imperative verb form used to indicate a requirement to be strictly followed to conform to this standard.</p>
+</clause><clause id="_f670350d-17c7-8a48-7101-21846b7fbe8f" obligation="informative">
+<title id="_a25ebf9e-8516-949e-4f96-4a1dee9a5c17">Document editors</title>
+<p id="_ae059110-b5fc-6f1a-8586-c837d4b4cd28">The following OGC Members participated in editing this document:</p>
+
+<table id="_912d20bd-db33-9b18-3b0d-ff920da8e136" unnumbered="true"><tbody><tr id="_1d426179-ef0e-9979-e958-64163d8df4f2"><th id="_1efb0b71-2024-8e58-fb4d-8027a5fcd36d" valign="middle" align="center">Person</th>
+<th id="_0072b531-77ce-6b9b-866d-8ce0541cf8a7" valign="middle" align="center">Organization Represented</th>
+</tr><tr id="_e6174615-b453-6351-f19b-9d5608baa654"><td id="_64f3bea6-6f13-a2fc-5756-dbe861438915" valign="middle" align="left">Carl Reed</td>
+<td id="_f506639d-72ab-7d40-a0c1-0c3635df9749" valign="middle" align="left">Carl Reed &amp; Associates</td>
+</tr><tr id="_2a6726ed-6ba6-2808-37b1-c44ed4c88f56"><td id="_a97f930c-51a7-3a2f-4618-b3c8670d0dd3" valign="middle" align="left">John Herring, PhD</td>
+<td id="_3278098a-39df-ea7e-c49a-217be89d2ec9" valign="middle" align="left">Oracle</td>
+</tr></tbody>
+</table>
+</clause><clause id="_b9a82660-c794-5d99-9a3b-462b70bb35b3" obligation="informative">
+<title id="_f4addda7-5f9c-f737-f51f-a62d5684c693">Document Contributors</title>
+<p id="_08c8e35b-2ca1-4cf0-4006-626dee349778">The following OGC Members contributed and participated in developing Version 1.1 of the ModSpec.</p>
+
+<table id="_0ae679bf-c1d4-1971-cebb-871601119b27" unnumbered="true"><tbody><tr id="_5959e050-e51b-d14f-dd3e-903d08535769"><th id="_6382ab32-1deb-c5d3-bca4-9b67b576014d" valign="middle" align="center">Person</th>
+<th id="_08301cdc-be80-8449-f157-5479c030b078" valign="middle" align="center">Organization Represented</th>
+</tr><tr id="_720c8313-29a3-16da-1783-c74941aabc4a"><td id="_9a2f09e4-2232-6f34-0755-9ef25a52faa2" valign="middle" align="left">Carl Reed, PhD</td>
+<td id="_d0695e43-68fa-d9aa-5107-0b34a5481b5c" valign="middle" align="left">Carl Reed</td>
+</tr><tr id="_1c5c4a2d-e56c-fb0f-a2d4-49c66071c1eb"><td id="_1f1ad60b-27db-69bd-91ab-07c7bc34d327" valign="middle" align="left">Chuck Heazel</td>
+<td id="_09b3cbf9-6c50-cac6-772f-f77709080d03" valign="middle" align="left">Heazeltech</td>
+</tr><tr id="_54f641cf-01d9-94ed-30e0-cbe86957040c"><td id="_3044260e-49d9-01fe-30a6-5a14e2a3acc1" valign="middle" align="left">Jeff Yutzler</td>
+<td id="_40e7e197-d210-e27c-c57f-63b51e2b0b84" valign="middle" align="left">ImageMatters</td>
+</tr></tbody>
+</table>
+</clause><clause id="_ae357111-1eea-f9fa-e2be-8f8d296b0563" obligation="informative">
+<title id="_be1803ed-6cda-17b6-8329-da4d7a9aec08">Submitting organizations</title>
+<p id="_b67b118f-4d12-c6a0-1ca9-f56f98c925a8">The following OGC Members support the ModSpec Version 1.1 submission</p>
+
+<table id="_4a1250f0-e4cb-9f10-c21e-f6cf9496a090" unnumbered="true"><tbody><tr id="_14b7e399-b0f6-5b7d-5f28-9c136a7cd21f"><th id="_cd06155c-4176-1dd3-352c-32e02962514b" valign="middle" align="center">Organization</th>
+</tr><tr id="_caf67ddb-5e28-4889-98d3-250bfce0d8d3"><td id="_4d63a023-2ee5-23f0-b0ef-f90b8bf2eef0" valign="middle" align="left">Carl Reed &amp; Associates</td>
+</tr><tr id="_2e47de2c-91ed-daec-76f4-138720dc5545"><td id="_addfe7ba-8b3e-2fc9-34f5-3d7b87675954" valign="middle" align="left"/></tr><tr id="_ed08c47e-fa0c-8a58-5aa0-d1676573f975"><td id="_2624bdba-483b-ad37-c140-713ed60b5bd5" valign="middle" align="left">Heazeltech</td>
+</tr><tr id="_1e8875a8-c479-f61c-ebd4-f5af1f6d88a0"><td id="_04bd50aa-a63b-9e8e-6c18-3a5dc001cc19" valign="middle" align="left"/></tr><tr id="_d1e01a3a-c2a1-5f3a-46a8-a7651c14f4d4"><td id="_a8b10fe9-220d-af37-b0b1-3c28248a6d03" valign="middle" align="left">ImageMatters/Tema</td>
+</tr><tr id="_50b968bf-e5a2-5006-39c1-2522528078e9"><td id="_7fc56b3d-57f8-a7d2-1ec0-a348392a094f" valign="middle" align="left">UK Met Office</td>
+</tr><tr id="_a41a22e0-09bc-49c6-4a15-237b316eeaa0"><td id="_3c4923a6-3c4d-b634-8082-c4c8d0ea15bb" valign="middle" align="left"/></tr></tbody>
+</table>
+</clause><clause id="_663586bf-de6a-e492-bae0-42c0737f4213" obligation="informative">
+<title id="_bf1a948c-df8f-10b8-e8d8-2af308b81828">Revision history</title>
+<p id="_43555043-8f95-981e-6c15-9519b09895c8">This is the second normative version of this document.</p>
+</clause><clause id="_5a6ec8c5-b16c-08f7-be9e-4af013d4e9f9" obligation="informative">
+<title id="_731469de-adfe-1765-d29f-a66f9baaeecc">Foreword</title>
+<p id="_a9b71cc6-2356-97f5-be79-eab8dc48d74e">The ModSpec specifies a formal structure for standards documents but does not supply specific content. This Part 3 specifies the optional XML Requirements Class.</p>
+
+<p id="_1f4c33cf-ec76-adc3-aae6-a4cf108daabe"><em>Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. The Open Geospatial Consortium Inc. shall not be held responsible for identifying any or all such patent rights.</em></p>
+
+<p id="_47e502f5-3aba-18cf-bff3-b7adc3807f2e"><em>Recipients of this document are requested to submit, with their comments, notification of any relevant patent claims or other intellectual property rights of which they may be aware that might be infringed by any implementation of the standard set forth in this document, and to provide supporting documentation.</em></p>
+</clause><clause type="security" id="_38aa2e08-cfda-4f3e-dd4a-c3aa0ba22154" obligation="informative">
+  <title id="_1c7c4337-eee8-cca1-d0de-0996a0c0331a">Security considerations</title>
+  <p id="_c05c3b95-6ea8-ab43-08b2-62986ef4e4f6">No security considerations have been made for this document.</p></clause>
+</preface><sections>
+
+
+
+
+
+
+
+
+
+
+
+
+<clause id="_706e3527-3697-6c7c-4980-fe5f48712ee9" type="scope" obligation="normative">
+<title id="_f70b6ff6-6131-0e24-81e1-850dbe94b63d">Scope</title>
+<p id="_19c7f0b2-421b-8a47-9f6f-363235b12044">The OGC ModSpec Standard defines characteristics and structure for the specification of Standards that will encourage implementation by minimizing difficulty determining requirements, mimicking implementation structure and maximizing usability and interoperability. Part 3 of the ModSpec defines the requirements for using XML. The XML related requirements classes cover any standard which has as one of its purposes the introduction of a new XML schema. Such a standard would normally define the schema, all of its components, and its intended uses.</p>
+
+<clause id="_a3e8e384-172e-dce0-4ae0-7442288e62d9" anchor="introduction" obligation="normative">
+<title id="_747247d4-bedf-be74-375f-2d5834c10e89">Introduction</title>
+<clause id="_9f1c6f53-8768-fc71-9539-f8fd020d0c4b" obligation="normative">
+<title id="_322d12f9-4e24-2c4c-b466-98d103ce2407">Semantics</title>
+<p id="_6ac36438-ef24-bf3b-e30a-7bee1224d220">The ModSpec Core Standard defines requirements for conformance to the ModSpec, but testing for that conformance may depend on how the various forms and parts of a conformant standard are viewed. The ModSpec Part 3 Standard specifies how those views are to be defined as XML.</p>
+
+<p id="_d8240261-8815-7356-477b-0481a0bd661e">As suggested in Clause Requirement 8 of the ModSpec Core, the structure of the normative clauses in a standard should parallel the structure of the conformance test classes in that standard. The structure of the normative clauses in a well written standard will follow the structure of its model. This means that all three are parallel.</p>
+</clause>
+
+<clause id="_2c9f1ae2-1983-b1ce-edd3-caf4ab6e0b7d" obligation="normative">
+<title id="_5db30a0b-70e4-d684-67e1-32bd59e46d39">ModSpec document structure</title>
+<p id="_00d35a29-7678-54f3-fcaf-0b6c912b2ec5">Version 1.1 of the ModSpec is split into a Core standard and multiple Parts. These are:</p>
+
+<ul id="_1fef1c9f-d0cd-7322-1d2c-f17687f7c833"><li><p id="_8af69302-d5aa-c9f7-e295-9327a85fc003">Part 1: Core — contains all the core requirements and informational text that define the model and internal structure of a standard;</p>
+</li>
+<li><p id="_bb441b63-6f56-b5c4-1069-49c4cec7e851">Part 2 — UML Model requirements; and</p>
+</li>
+<li><p id="_1d0d8372-fdbf-5fa0-cdb8-b59aaf3e5b77">Part 3 — XML Model and Schematron requirements.</p>
+</li>
+</ul>
+</clause>
+</clause>
+</clause>
+
+<clause id="_db169bfe-45b1-7755-c00d-7bcf09a10fe6" type="conformance" obligation="normative">
+<title id="_e246d3c1-cf3f-232c-cb69-d9b3793ef60f">Conformance</title>
+<p id="_3ec1409a-a83a-ea3a-db58-f6d1e985a60d">Conformance to the ModSpec Part 3: XML by technical implementation standards can be tested by inspection. The test suite is in  <xref target="annex-A"/>.</p>
+
+<p id="_5578f171-f92c-407a-4ed5-7a253acaca16">There are two conformance classes in this document for:</p>
+
+<ol id="_d524183c-4e7d-1988-06f8-2dccd2ab2f5c" type="arabic"><li><p id="_ddd3eedd-536d-b52f-b39a-8111a5558563">Standards using XML to state requirements, extending the core; and</p>
+</li>
+<li><p id="_63099c0e-3a88-571d-2409-6f41f255165a">Standards using Schematron. This class covers any standard that uses Schematron to create patterns or constraints for an XML Schema.</p>
+</li>
+</ol>
+
+<p id="_1130f687-4bcc-37d1-88e8-0c16b6c8c6ac">This document contains normative language and thus places requirements on conformance, or mechanism for adoption, of candidate standards to which the ModSpec applies. In particular:</p>
+
+<ul id="_d188fefa-9616-66d7-9bbe-5857c1c08270"><li><p id="_459457dc-bd80-4bbc-5798-9732f4c0c40d">The OGC ModSpec: Core specifies the core requirements which <em>SHALL</em> be met by all conformant standards; and</p>
+</li>
+<li><p id="_51ea4277-a634-8a33-b02d-3e2fadae1a28">The various subclauses of <xref target="cls-6"/> list requirements partially derived from the core, but more specific to the conditions where the data model is expressed in XML. The XML requirements class is an extension of the Core Requirements Class presented in the ModSpec Core Standard.</p>
+</li>
+</ul>
+</clause>
+
+
+
+<terms id="_4119fb60-5c88-f516-8e9e-d0cddbe7c098" anchor="cls-4" obligation="normative">
+<title id="_dfb2eab2-f980-6365-3c47-81d0eb272962">Terms and definitions</title><p id="_9608c37a-eaae-1098-3a4b-f705fd512d85">No terms and definitions are listed in this document.</p>
+<p id="_58b827d1-053c-7f82-223a-e1ba74bd8f10">All terms and definitions in Clause 4 of the OGC ModSpec: Core are relevant and used in this Part.</p>
+
+<p id="_f8e9eadf-aca3-9cb3-0073-925871c6904f">Terms not defined here take their meaning from computer science or from their Standard English (common US and UK) meanings.</p>
+</terms>
+
+<clause id="_61369b94-ec5c-dd2f-904a-56af1411f257" obligation="normative">
+<title id="_6948b4ae-f705-e7f5-8bc1-a5f5e5f04db2">Conventions</title>
+<clause id="_f556ec27-4c69-b2e7-d0a1-6762a980f08d" obligation="normative">
+<title id="_18850afe-e270-008e-fccc-f02490d158de">Symbols (and abbreviated terms)</title>
+<p id="_f70b18fb-a8ba-fc12-f959-186ee1128b6f">All symbols used in this document are either:</p>
+
+<ol id="_40058eb9-e420-1388-5ff7-63734c95e20e" type="arabic"><li><p id="_1629f226-e8db-6681-d358-0ccdc6dd5891">Common mathematical symbols; or</p>
+</li>
+<li><p id="_90bb97c6-4b2f-4ebf-9771-10ed72f4f11f">UML 2 (Unified Modeling Language) as defined by OMG and accepted as a publicly available standard (PAS) by ISO in its earlier 1.3 version.</p>
+</li>
+</ol>
+</clause>
+
+<clause id="_4f0f7c97-caea-14f2-3af6-74fb95472bce" obligation="normative">
+<title id="_3dda9f7c-6962-443c-5f35-9c5f3144b603">Identifiers</title>
+<p id="_a7cdf41c-8e04-a1c9-62d2-a9cf479f6c05">The normative provisions in this standard are denoted by the URI namespace</p>
+
+<p id="_15274dfe-d435-a4b4-6a1c-a8e11e405df2"><link target="https://www.opengis.net/spec/modspec-3/1.1/"/></p>
+
+<p id="_caddb9c5-e9b7-142c-a469-30c0f23b80e3">All requirements that appear in this document are denoted by partial URIs which are relative to the namespace shown above.</p>
+
+<p id="_c6a1c5a7-675d-c263-d8e9-ed9071c9b5f0">For the sake of brevity, the use of “req” in a requirement URI denotes <link target="https://www.opengis.net/spec/modspec-3/1.1/"/></p>
+
+<p id="_b392ca81-b495-8155-bf24-f963039aa4d7">An example might be:</p>
+
+<p id="_8bda6a24-8a05-31b6-df37-f62601bc6d66">/req/part3/xml</p>
+
+<p id="_0b9e1eea-5150-cb15-e51e-b6fc97bedd44">All conformance tests that appear in this document are denoted by partial URIs which are relative to the namespace shown above.</p>
+
+<p id="_1dfd6dde-ced2-3d1c-e792-431b5748a8e4">For the sake of brevity, the use of “conf” in a requirement URI denotes:</p>
+
+<p id="_2f6c2c76-b1d2-f0ac-d63f-0c3e70f9f54a"><link target="https://www.opengis.net/spec/modspec-3/1.1/"/></p>
+
+<p id="_ac0601a0-82b9-a540-3939-6097ba761949">The same convention is used for permissions (per) and recommendations (rec).</p>
+</clause>
+
+<definitions id="_1c1752f2-5abf-a5bd-6a0a-7e419e1df8be" type="abbreviated_terms" obligation="normative">
+<title id="_32e29d4b-6207-26d1-09e5-7ab17e052031">Abbreviated terms</title>
+<p id="_00b9ca96-55f8-d553-7cdc-c19db9b5de08">This document uses the same abbreviations and acronyms as defined in the ModSpec Core Standard</p>
+</definitions>
+<clause id="_8b809eb6-97bf-0d42-9855-5aa6f6362c20" anchor="cls-5-3" obligation="normative">
+<title id="_940e41b4-ce9f-83ac-aa7f-4f5a27899c90">Finding requirements and recommendations</title>
+<p id="_1226554b-f3e0-d3e6-b237-37bc28a0fb94">Each normative statement in the ModSpec Part 3 Standard is stated in one and only one place, in a standard format, and with a unique label, such as REQ001, REC001, or PER001. A requirement, recommendation, or permission may be repeated for clarification. The statement with the unique label is considered the official statement of the normative requirement or recommendation.</p>
+
+<p id="_5e091613-3726-29d8-5a02-34a770a1d518">In this document, all requirements are associated with tests specified in the test suite in  <xref target="annex-A"/>. The reference to the requirement in the test case is done by a requirements label Recommendations are not tested although they still are documented using a standard template and have unique identifiers.</p>
+
+<p id="_ae7a240b-8921-2f4e-0089-78bdb8a79424">Requirements classes are separated into their own clauses and named, and specified according to inheritance (direct dependencies). The Conformance test classes in the test suite are similarly named to establish an explicit and link between requirements classes and conformance test classes.</p>
+</clause>
+</clause>
+
+<clause id="_59edd058-d8ba-3146-a069-f8e285dd8170" anchor="cls-6" obligation="normative">
+<title id="_accc076b-e08a-0974-aba9-3efc80634745">Requirements Class: Part 2: XML</title>
+<p id="_8969a305-5395-70a2-ddfa-2b5b9540a1ae">This clause defines the key concepts and requirements that represent Part 3 XML schema extension to the ModSpec Core.</p>
+
+<clause id="_ef0683ef-8108-acdc-8450-23a7e88131c5" obligation="normative">
+<title id="_b2dde992-21ce-bef4-28ba-d5d22abbce9e">The ModSpec and the “Form” of a standard</title>
+<note id="_9826108b-93c1-3b57-2ff1-afb96df6f0c1"><p id="_698b511a-4a63-87f2-d1f1-f3124a78392b">For OGC Standards, the assumption is that documents are in a commonly used logical form (template).</p>
+</note>
+
+<p id="_226afb04-e44a-a947-6066-0d8eba3ccdb3">In informative sections, the use of the word “will” implies that something is an implication of a requirement. The “will” statements are not requirements but explain the consequence of requirements.</p>
+
+<p id="_2042f1df-027c-8cce-2e4e-b8f0034f8f1a">The ModSpec defines a “requirement” of a standard as an testable criterion. See the formal definition of requirement in the ModSpec Core document.</p>
+
+<clause id="_ee67cb37-eb69-5ef9-0b3f-1a7416a9b388" anchor="cls-6-1" obligation="normative">
+<title id="_60dd9a7d-1e40-1b0e-de08-542a9e273bd1">Requirements class: The XML schema extension to the core</title>
+<p id="_d448da10-2960-35df-0570-b8ee57dc2715">The XML schema extension requirements class covers any standard which has as one of its purposes the introduction of a new XML schema. Such a standard would normally define the schema, all of its components, and its intended uses.</p>
+
+<table id="_9379f6a3-814e-5511-1620-f6da67fcb7b1" anchor="xml-model-conformance-class" width="90%"><colgroup><col width="20%"/><col width="80%"/></colgroup><tbody><tr id="_d7fcd285-1558-9e74-23f2-fa6e48692264"><td id="_bdc97abf-fc42-867f-79c8-ff30722edc0a" colspan="2" valign="middle" align="left"><strong>Requirements Class — XML extension to the core</strong></td>
+</tr><tr id="_f07222df-ce5d-56a8-554c-2b8f536e51e6"><td id="_8ab963a8-cab0-4315-9d35-71a9a0aa2bf3" colspan="2" valign="middle" align="left">/req/core/data-representation</td>
+</tr><tr id="_d1df7b5d-9d88-22e6-c5a8-2e53a5e4034f"><td id="_7fa69f75-c6db-5ec8-faa3-a1ba652a43d0" valign="middle" align="left">Target</td>
+<td id="_45bad458-35eb-36ea-061f-9de49d3f6c3d" valign="middle" align="left">ModSpec Conformant XML Model</td>
+</tr><tr id="_03231dde-80b9-0342-7ca9-7edf6dd0e028"><td id="_68d6c7b9-7b88-6ceb-e855-b91f530dd741" valign="middle" align="left">Dependency</td>
+<td id="_eb385384-8970-2290-b5e0-dcdb3b5bee5a" valign="middle" align="left">OGC ModSpec Version 1.1 [25-003r1]</td>
+</tr><tr id="_967db4e3-f9e0-fe1d-c6c0-a8bb846762c4"><td id="_4c25369b-b9a7-ba68-ef17-21a5918aa132" valign="middle" align="left">REQ001</td>
+<td id="_4dc972bf-4e1a-85a9-839b-22493d9a56bc" valign="middle" align="left">/req/part3/xml/conformance-with-core</td>
+</tr><tr id="_527952fe-85e6-a006-5a81-0cb9027bfbef"><td id="_bff2ca29-f40c-75f3-7339-1f1a709acf46" valign="middle" align="left">REQ002</td>
+<td id="_38302b7f-4096-289c-5bb6-4faed6a79ca0" valign="middle" align="left">/req/part3/xml/w3c-xml</td>
+</tr><tr id="_ca3b73aa-ac83-7ade-202c-1d51f80a8637"><td id="_eb6e71cf-81c3-2eea-e56e-02a7ddbdc721" valign="middle" align="left">REQ003</td>
+<td id="_9261a85a-cea4-00e5-92a3-1d04e35f9692" valign="middle" align="left">/req/part3/xml/single-xml-space</td>
+</tr><tr id="_28750c89-2a44-be23-12ee-08252a6c7315"><td id="_1233f04a-68ea-adef-61c3-8a56a64e680d" valign="middle" align="left">REQ004</td>
+<td id="_52f9f22b-81e5-3d58-49f2-199e70227945" valign="middle" align="left">/req/part3/xml/all-components-uri</td>
+</tr><tr id="_ff492177-2f30-8cf3-6581-2666d3a1183f"><td id="_f705d5b5-2180-a4fb-1dbb-b658f60462d8" valign="middle" align="left">REQ005</td>
+<td id="_2b77bcf6-629a-8264-a5fd-add0b813cf9e" valign="middle" align="left">/req/part3/xml/direct-dependency</td>
+</tr><tr id="_577f9e61-cb2e-3bed-7475-0a798424313d"><td id="_0a2dd2c9-5fc2-56fd-f0d9-30b111760b09" valign="middle" align="left">REQ006</td>
+<td id="_72506f10-099e-9435-945f-60bb044f51c9" valign="middle" align="left">/req/part3/xml/no-element-modification</td>
+</tr></tbody>
+</table>
+
+<p id="_de4a86c7-2844-d47a-b3c1-f5d6f67b6efe">First, by the requirements above, the extension relationship of this conformance test class to the core must be made explicit.</p>
+
+<table id="_e8330763-4ad9-cd21-c3c7-b6582374cdaa" anchor="req-01" width="90%"><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr id="_2cd833f7-095e-1b50-912c-3bf0523c0b95"><td id="_5921704f-5c07-4a5a-84bc-f95d94960178" valign="middle" align="left"><strong>REQ001</strong></td>
+<td id="_14a123a7-e0a5-3274-5226-e6a362678480" valign="middle" align="left"><strong>/req/part3/xml/conformance-with-core</strong><br/> An implementation passing the XML conformance test class  <em>SHALL</em> first pass the ModSpec Core conformance test class</td>
+</tr></tbody>
+</table>
+
+<table id="_58e3b81d-ac7b-b9f6-c8c1-a008e51b0bcf" anchor="req-02" width="90%"><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr id="_f512f9cb-2be3-0f8b-6b7b-4a9af9e0b5ca"><td id="_e7ec2ffa-932e-50d7-b1c7-f481d704d405" valign="middle" align="left"><strong>REQ002</strong></td>
+<td id="_a2033545-9480-7e7c-7743-47e190d1ec45" valign="middle" align="left"><strong>/req/part3/xml/w3c-xml</strong><br/> An implementation passing the XML schema conformance test class  <em>SHALL</em> first pass the W3C Recommendation for XML schema.</td>
+</tr></tbody>
+</table>
+
+<p id="_1f1c2475-cff8-cb49-6b8d-b3e7a33e2428">Each XML schema file (usually *.xsd) carries a target namespace specification, recorded in the <tt>targetNamespace</tt> attribute of the <tt>&lt;schema&gt;</tt> element in the XML representation. In its implementation, this namespace is represented by a globally unique identifier, a URI. All schema components defined with that URI as its namespace designation are part of the same module in XML schema.</p>
+
+<p id="_044d35ea-a9fa-f4fe-9a66-42674d043bcd">The XML Schema specification lists those resolution strategies for namespace and schema that a schema-aware process may use. They work in a predictable fashion independent of the choice of strategy if and only if the schemas are in a one to one correspondence to their namespace. A schema may be dependent on another schema and may contain “import” directives that load all such schemas whenever it is loaded.</p>
+
+<p id="_289775ed-ee51-4a88-0c05-0d7d943eb5ff">When a process loads a schema as defined by its namespace URI identity, it must always get a linkage to all components in that namespace. If not, then at sometime in the future, the process will fail when it finds a reference to such a component that it missed. To prevent this sort of failure, when a schema-aware process first encounters a namespace URI it must always be associated to a schema location (a file) that contains or includes all schema components having the URI as their namespace. This is referred to as the “all-components schema document”.</p>
+
+<p id="_5d5f4cff-3534-88ab-96d5-3144fcdbe145">In defining a XML schema (either completely, or partially in a standard) the fundamental component or module of XML schema is always the namespace and its associated schema, which is designated by a URI.</p>
+
+<table id="_70524b92-3ff6-0835-29ef-26885ad62dc6" anchor="req-03" width="90%"><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr id="_b03cd4c6-4c2b-730c-7cdd-52090fc4a5f0"><td id="_2dc83b1c-6cd4-0849-4341-34ac184645cc" valign="middle" align="left"><strong>REQ003</strong></td>
+<td id="_68982543-bc43-18f2-ccf4-60bb3529a7f7" valign="middle" align="left"><strong>/req/part3/xml/single-xml-space</strong><br/> If a standard conformant to the XML schema conformance class defines a set of data schemas, all components (e.g., elements, attributes, types …​) associated with a single conformance test class  <em>SHALL</em> be scoped to a single XML namespace.</td>
+</tr></tbody>
+</table>
+
+<table id="_9092dfa8-1bec-4a97-6379-933e0cd9bbbe" anchor="req-04" width="90%"><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr id="_eaaff35e-654d-8495-c2a8-dfbd3cabb2b5"><td id="_23be202f-0f99-d683-8b50-45097f90fd03" valign="middle" align="left"><strong>REQ004</strong></td>
+<td id="_dbe89135-a2d4-18d5-132f-69250ffcf98e" valign="middle" align="left"><strong>/req/part3/xml/all-components-uri</strong><br/> The all-components schema document for an XML Schema  <em>SHALL</em> indicate the URI of the associated conformance test class in the schema/annotation/appinfo element.</td>
+</tr></tbody>
+</table>
+
+<p id="_3d1cbb5b-5d1f-9312-8fec-07d7f5376c50">The mechanism for dependencies may either be by importation or by inclusion of schema components.</p>
+
+<example id="_7e2fb311-9a05-c11e-11be-998a36e7e83a"><p id="_306610b4-11ae-523e-5a6e-5056420be830">In GML 3, the spatial schema (ISO 19107) and the general feature model (ISO 19109) are both satisfied by elements within the single GML namespace. A viable alternative would to have put the schema components for spatial schema and feature schema in separate namespaces.</p>
+</example>
+
+<p id="_44751d9b-aba1-1f87-2fd1-033c259c9c80">This is a choice of design, and at the level of the ModSpec, the trade-off factors cannot be prejudged because the details of such cost-benefit trade-offs are not constant. Either of the above approaches may be used.</p>
+
+<table id="_85bc6a65-95bc-0f33-f18a-f0b7c9158a9a" anchor="req-05" width="90%"><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr id="_5ecce7fa-8a72-d1a8-6b9a-13b96520f5e5"><td id="_108f8528-476e-1f4a-c4cd-4fdab1c8c9ad" valign="middle" align="left"><strong>REQ005</strong></td>
+<td id="_d296c67d-df22-c325-5195-2988965ec383" valign="middle" align="left"><strong>/req/part3/xml/direct dependency</strong><br/> If a standard conformant to the XML schema conformance class defines a direct dependency from one requirement class to another, then a standardization target of the corresponding conformance test class  <em>SHALL</em> import a schema that has passed the associated conformance test class (dependency) or shall itself pass the associated conformance test class.</td>
+</tr></tbody>
+<note id="_2a19f091-8df4-9037-3caf-931420480310"><p id="_1884d307-04e7-0caa-8043-6fb1ff150227">This implies that the value of the schemaLocation on the <tt>&lt;import&gt;</tt> element will refer to the all-components schema document.</p>
+</note></table>
+
+
+
+<table id="_1745898b-d977-0e39-4b0b-664ef6af3f23" anchor="per-01" width="90%"><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr id="_25ca54f0-d51d-5124-3133-23f90d22753e"><td id="_16e30c26-859c-7794-5e2d-844bc04e1289" valign="middle" align="left"><strong>PER001</strong></td>
+<td id="_925dbf8a-fa6f-3148-65b5-2e4a22fffbb1" valign="middle" align="left"><strong>/per/part3/xml/schema-assembly</strong><br/> An all-components schema document  <em>MAY</em> be assembled by inclusion of documents that describe subsets of the components associated with the conformance test class.</td>
+</tr></tbody>
+</table>
+
+<p id="_20971512-af4b-d2c8-3739-7ed133b75d1b">This allows schema designers to do some modularization within a namespace for
+convenience, notwithstanding the requirement for an all-components schema document.<note id="_6249c186-b51e-92ef-d161-9d86e2f737f2"><p id="_2306185d-47d1-77ce-ae7c-577ea9251a7f">A namespace variable is used if the requirements class is not defining a schema, but defining requirements for a schema to be the target of its conformance class. For example, GML defines requirements for application schemas, but does not a priori know the namespace of any application schema. The namespace for the application schema becomes a variable in the conformance test cases.</p>
+</note></p>
+
+
+
+<table id="_d3bda318-62c5-d95e-29e5-09df0aee2ec4" anchor="req-06" width="90%"><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr id="_ba617446-21e8-3dac-6456-7e8bcab6fbf7"><td id="_b2259d21-f991-9ae2-ae73-7d88bbe5eb5e" valign="middle" align="left"><strong>REQ006</strong></td>
+<td id="_e67d8c38-ddcd-949e-648d-0d806457c8ff" valign="middle" align="left"><strong>/req/part3/xml/no-element-modification</strong><br/> The all-components schema document for an XML Schema  <em>SHALL</em> indicate the URI of the associated conformance test class in the schema/annotation/appinfo element.</td>
+</tr></tbody>
+</table>
+
+<table id="_12ecbfb5-7fcf-a23b-5802-832515e2009b" anchor="per-02" width="90%"><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr id="_ef02e218-2be3-50bb-3488-ed242a9d57de"><td id="_6ac9b4df-f072-6295-39c3-0252df593112" valign="middle" align="left"><strong>PER002</strong></td>
+<td id="_0b8a8db5-96ca-876f-0c7f-1325372c0c4a" valign="middle" align="left"><strong>/per/part3/xml/add-constraints</strong><br/> Requirements may add constraints.</td>
+</tr></tbody>
+</table>
+
+<p id="_a59ef9cf-56dd-4ffa-9168-455bc971a59b">This allows extensions to restrict the following.</p>
+
+<ol id="_875684eb-fe84-1cf8-10b5-5257c7c7e94c" type="arabic"><li><p id="_a0aaed21-8edd-7bb8-d071-fd5e76a7f2bd">Usage of existing elements, but only if their use was originally optional. This is similar to the rules for inheritance (such as in UML or other object models), where a class can eliminate an attribute from a superclass only if the superclass attribute includes a “0” in its multiplicity range.</p>
+</li>
+<li><p id="_849b9aa1-4721-6568-d4b7-ce94b55570fb">The type of existing elements, to sub-types of the original elements. This is similar to the rules for inheritance, where a class can re-define an attribute or association role from a superclass so that its type or class is a specialization of the original.</p>
+</li>
+</ol>
+
+<p id="_ccc71cb8-f5c5-d451-1f10-651e3d41a5cc">In summary, effective modularization is enabled by following the pattern of one conformance class per XML namespace; i.e., the set of components in an XML namespace should be referred to as a whole. Subsetting of components in a single XML namespace for conformance purposes is not permitted.</p>
+</clause>
+
+<clause id="_7a3b2835-5247-e636-aa5d-47859c3c47ac" anchor="cls-6-2" obligation="normative">
+<title id="_f5ed657d-db72-c82e-4de1-fdf5ce7b9854">Optional Requirements class: Schematron extension</title>
+<p id="_c6709d00-617c-a851-9221-ab7d5701b8cc">Schematron (<eref type="inline" bibitemid="iso19757-3" citeas="ISO/IEC 19757-3:2006"/>) provides a notation with which many constraints on XML documents can be expressed. As such, Schematron is a rule-based validation language for making assertions about the presence or absence of patterns in XML trees. It is a structural schema language expressed in XML using a small number of elements and XPath languages.</p>
+
+<p id="_c689a7e5-219b-c430-6657-f7053cff632b">This requirements class covers any standard that uses Schematron to create patterns or constraints for an XML Schema.</p>
+
+<table id="_316c5168-43a4-2138-dd6c-51437a34f0f3" width="90%"><colgroup><col width="20%"/><col width="80%"/></colgroup><tbody><tr id="_fb54b8f7-d2fc-3f57-d83c-3306d1c1a6e2"><td id="_d492a979-9c3f-3b5c-c17c-02263bd4c9cd" colspan="2" valign="middle" align="left"><strong>Requirements Class — XML Schematron extension to the core</strong></td>
+</tr><tr id="_1d91630f-8d37-2801-f03f-5e9efaea2c38"><td id="_6f341399-b7dd-fdee-33d3-014f90d20c83" colspan="2" valign="middle" align="left">/req/core/data-representation</td>
+</tr><tr id="_ce130cd0-f7f4-7da5-f658-9e19e8ab2365"><td id="_8a5aff41-9dff-c7c0-f303-de477ccb34f1" valign="middle" align="left">Target</td>
+<td id="_35238c27-88d6-18b4-b383-abab54f109f4" valign="middle" align="left">ModSpec Conformant XML Model</td>
+</tr><tr id="_09c4d231-f855-ff64-c95d-72df0bbd8a4c"><td id="_1d5f0d70-ceb4-7f3b-9980-668138e1e68e" valign="middle" align="left">Dependency</td>
+<td id="_2678dea6-0f4f-aa55-1cc7-37324b7f8303" valign="middle" align="left">OGC ModSpec Version 1.1 (need proper title and document number)</td>
+</tr><tr id="_f6c396c1-e766-03d8-9fa7-0ba6739ca7e9"><td id="_3cd45d12-9a7f-e8a6-5408-f7b2b02e881b" valign="middle" align="left">REQ007</td>
+<td id="_dd80b176-c53f-1ec7-8cf9-49108ee5f769" valign="middle" align="left">/req/part3/xml/schematron-xml-schema</td>
+</tr><tr id="_5cd1cded-94b0-e053-4e95-76c81bbd6a81"><td id="_2c214cc2-c9a5-043c-25f1-e24048548c45" valign="middle" align="left">REQ008</td>
+<td id="_c242303a-f484-a0e8-5d29-b67d4c1ae585" valign="middle" align="left">/req/part3/xml/sch-pattern-constraints</td>
+</tr><tr id="_8ed5d340-98ca-0c97-ca5a-7495aa6e7ffc"><td id="_e3fe1249-2fe9-65a0-56b7-b0f1af60e13f" valign="middle" align="left">REQ010</td>
+<td id="_b3c717d6-2272-fff3-65cd-40851d7cd57c" valign="middle" align="left">/req/part3/xml/fpi-attribute-is-uri</td>
+</tr><tr id="_dea98049-395a-518f-06f9-4cf8899d82e4"><td id="_d1b059d8-c860-5d2e-61e9-23c7ac32fd4a" valign="middle" align="left">REQ011</td>
+<td id="_30689d55-5d1d-6413-6e0e-8db57803f4a9" valign="middle" align="left">/req/part3/xml/see-attribute-is-identifier</td>
+</tr><tr id="_3cd788c2-d1e9-d613-10a7-9738105cc8c2"><td id="_7316241d-b85e-0fa4-532d-7563fa7a55eb" valign="middle" align="left">REQ012</td>
+<td id="_ee8428e0-4119-0c74-16b3-91da29f8d5d7" valign="middle" align="left">/req/part3/xml/one-fpi-attribute-per-schema</td>
+</tr></tbody>
+</table>
+
+<p id="_bb6d7144-6efa-7c4d-e706-79890b4e85c9">First the schema must be defined within the bounds of the XML schema requirements class.</p>
+
+<table id="_17121da3-d600-82be-f041-b31b1e4c811c" anchor="req-07" width="90%"><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr id="_08efd17b-5bf4-6890-e1eb-d423cc0d39ba"><td id="_9f33013a-efe9-b62b-99bd-9489ffd3b228" valign="middle" align="left"><strong>REQ007</strong></td>
+<td id="_3e502001-726a-7ece-413e-a131ff9be47b" valign="middle" align="left"><strong>/req/part3/xml/schematron-xml-schema</strong><br/> A standard passing the Schematron conformance test class  <em>SHALL</em> also define or reference an XML schema that shall pass the XML schema conformance class from this standard.</td>
+</tr></tbody>
+</table>
+
+<p id="_e752eb95-d8ac-1280-319e-2c01969f4ed8">Within a Schematron schema, the “pattern” and “schema” elements may be used in a way that corresponds with conformance tests and a conformance test class as follows:</p>
+
+<table id="_b42cafb8-db4c-b911-053e-7cf6b624201f" anchor="req-08" width="90%"><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr id="_d0af8afb-a0b6-97df-4e68-6df016cd4554"><td id="_49ea5121-1cc5-7417-e73d-c0b041c6ac9a" valign="middle" align="left"><strong>REQ008</strong></td>
+<td id="_5185b422-d32e-c724-b0fe-ed47b742d667" valign="middle" align="left"><strong>/req/part3/xml/sch-pattern-constraints</strong><br/></td>
+</tr><tr id="_8d7f9d69-b6da-5692-81c3-0feeaafdd90e"><td id="_5710cb1b-fb3e-b42b-6dc1-d05291b9af58" valign="middle" align="center">A</td>
+<td id="_8c86e701-a142-2a4a-5f02-70a0ab5e267f" valign="middle" align="left">Each sch:assert element <em>SHALL</em> implement constraints described in no more than one requirement.</td>
+</tr><tr id="_7d8ec6e0-6924-6f06-9064-67f16b6a5b6c"><td id="_c0ae43fb-7b59-ba04-8681-076631de095b" valign="middle" align="center">B</td>
+<td id="_62b97bfd-d47e-cce1-8a43-0c08289e30ec" valign="middle" align="left">Each requirement <em>SHALL</em> be implemented by no more than one sch:pattern.</td>
+</tr></tbody>
+<note id="_53778822-33cf-f5c0-c8b0-2cf064e13a07"><p id="_8a7cd768-4dab-5371-8000-7379e4ec9e5c">Requirement 9 was removed in the ModSpec version 1.1 as this requirement is present in the latest Schematron RelaxNG schema.</p>
+</note></table>
+
+
+
+<p id="_7ffec222-2651-1c26-7c4a-a9ee8fb820f1">The Formal Public Identifier (fpi) attribute names the Schematron schema. In the ModSpec Part 2 extension, this identifier is a URI.</p>
+
+<table id="_5e5216bd-6d64-685c-4bca-de4df07b5c8f" anchor="req-10" width="90%"><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr id="_1069db2f-b717-5590-473d-82309c91bae6"><td id="_0ee0c197-0f65-b788-f5ba-1f54e1db5349" valign="middle" align="left"><strong>REQ010</strong></td>
+<td id="_dbc54765-523c-8f26-1dba-bbad54c4860a" valign="middle" align="left"><strong>/req/part3/xml/fpi-attribute-is-uri</strong><br/> The value of the sch:schema/@fpi attribute  <em>SHALL</em> be a URI that identifies this implementation.</td>
+</tr></tbody>
+</table>
+
+<p id="_fa3555ac-7907-8b2c-c34f-def0f55b6234">The @see attribute in Schematron provides a hypertext link to documentation or related material for each pattern, rule, or assertion. This allows the Schematron schema to be integrated into a wider information system. In the ModSpec Part 2 extension, this attribute is the identifier for a requirements class.</p>
+
+<table id="_6f10c639-8afb-c84e-26ec-24e7ee39a2ca" anchor="req-11" width="90%"><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr id="_ca2fd86e-3ce5-f9cb-9ea4-145a4da70a4f"><td id="_7ec8830a-86e8-b5a2-2ec8-f86a91317d2b" valign="middle" align="left"><strong>REQ011</strong></td>
+<td id="_cfd9cccb-7e9c-9817-68d9-3142efcf0882" valign="middle" align="left"><strong>/req/part3/xml/see-attribute-is-identifier</strong><br/> The value of the sch:schema/@see attribute  <em>SHALL</em> be the identifier for the requirements class that contains the requirement(s) implemented by the schema</td>
+</tr></tbody>
+</table>
+
+<table id="_f6426b90-c1c8-1f3a-2632-db5a5c04b0ad" anchor="req-12" width="90%"><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr id="_92d68b67-c7fd-3f45-ce29-4fb5fff9dc66"><td id="_d2559007-5462-1b79-5bda-694831cfbc12" valign="middle" align="left"><strong>REQ012</strong></td>
+<td id="_7d57870e-f985-2ac0-36e0-10e4b45f428f" valign="middle" align="left"><strong>/req/part3/xml/one-fpi-attribute-per-schema</strong><br/> The value of the sch:schema/@fpi attribute  <em>SHALL</em> be used on only one Schematron schema.</td>
+</tr></tbody>
+</table>
+</clause>
+
+<clause id="_9b08cd66-d6e7-a635-4cf0-2f4b9d677090" anchor="cls-6-3" obligation="normative">
+<title id="_67264c29-f28a-a7d6-b78a-7066c98f076f">Optional Requirements class: XML meta-schema extension to the ModSpec Core.</title>
+<p id="_454421dc-e0c4-1b7b-73b1-90a435617970">This requirements class covers any standard which has as one of its purposes the introduction of a new type of XML schema. Such a standard would normally define the characteristics of such schema, how its components are created and its intended uses.</p>
+
+<p id="_4ff6321f-554c-f1ff-d24e-b567ccd1179d">First, by the requirements above, the extension relationship of this conformance test class to the core must be made explicit.</p>
+
+<table id="_6674dcf8-b959-3c25-a89a-2e6da990b9c6" anchor="req-13" width="90%"><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr id="_a45b5401-6841-0e3c-2adc-39a227639843"><td id="_1df2bc4d-5eb1-57ee-a092-df4ff62595d5" valign="middle" align="left"><strong>REQ013</strong></td>
+<td id="_c9886f0b-42df-47e2-17a5-b1957331eb2d" valign="middle" align="left"><strong>/req/part3/xml/first-pass-core-conformance</strong><br/> A standard passing the XML meta-schema conformance test class  <em>SHALL</em> first pass the ModSpec Core conformance test class.</td>
+</tr></tbody>
+</table>
+
+<p id="_d68b31ff-0ca5-c3d1-3ab2-91d29a3548dc">Since the target is defining requirements for XML schemas, it will require that the ModSpec be used.</p>
+
+<table id="_48d58ff7-b909-a007-6ece-08644668daf0" anchor="req-14" width="90%"><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr id="_c5cb7af5-204f-3572-ada5-8900ad729f09"><td id="_ed5863d1-5a1d-ec22-b8df-1f724c1277b5" valign="middle" align="left"><strong>REQ014</strong></td>
+<td id="_cdc31885-b683-72ea-5cf2-418a55806de3" valign="middle" align="left"><strong>/req/part3/xml/pass-XML-schema-conformance-class</strong> A standard passing the XML meta-schema conformance test class  <em>SHALL</em> require that its targets (XML schema) pass the  <xref target="xml-model-conformance-class"><display-text>XML schema conformance class</display-text></xref>.</td>
+</tr></tbody>
+</table>
+</clause>
+</clause>
+</clause>
+
+<clause id="_062594c0-4291-619e-579a-7095c5f12f3f" anchor="annex-A-1" obligation="normative">
+<title id="_25a0e4ef-dcb6-fd63-ec21-070f55758258">Conformance test class: XML schema</title>
+<clause id="_5082dc58-233b-825d-8a8f-51622accc612" obligation="normative">
+<title id="_58ef0167-1245-9e10-35f1-024f87c41bbd">Dependency on Core</title>
+<p id="_66abdce2-6529-b806-6d79-c4fcaa608a28">An implementation passing the XML schema conformance test class shall first pass the ModSpec Core Standard conformance test class.</p>
+
+<ol id="_75153972-3c5e-2543-a8a5-53dbdd56f30e" type="arabic"><li><p id="_d1ed9715-feff-32dd-8290-b41993e9cbdb">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li><p id="_534ecf44-d44a-48bc-68b5-b1b584c5cd6c">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li><p id="_af1172ba-1116-3ea5-b7d7-2fe414f807d9">Reference: <xref target="req-01"/></p>
+</li>
+<li><p id="_c3bbd909-2e60-76b5-f83f-7d38bda9b442">Test Type: Conformance.</p>
+</li>
+</ol>
+</clause>
+
+<clause id="_60fbd688-26f0-0148-1f07-5527c685a22b" obligation="normative">
+<title id="_9d830c97-a875-ede1-1401-a9d164362026">Dependency on W3C XML schema</title>
+<p id="_991a7e23-926c-44f3-d4e1-32e3b7441a67">An implementation passing the XML schema conformance test class shall first pass the W3C Recommendation for XML schema.</p>
+
+<ol id="_4bb4ef31-53c9-f91d-e0c4-6b20ed5f8198" type="arabic"><li><p id="_28f9c599-e3b0-cb19-4436-0e4b23d26df3">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li><p id="_e34eb93d-7e6e-2604-c290-67aa4b1d524a">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li><p id="_d460ffe5-463e-4692-4238-22d6ae606058">Reference: <xref target="req-02"/></p>
+</li>
+<li><p id="_7cd1cd4b-7e33-312c-5e80-32f121b3291e">Test Type: Conformance.</p>
+</li>
+</ol>
+</clause>
+
+<clause id="_7ea717c6-686f-daff-5aeb-f764facf4098" obligation="normative">
+<title id="_9073216a-d874-4827-e794-a8091b5eaec4">A requirements class corresponds to a single XML namespace</title>
+<p id="_5511d818-660d-9688-43d9-7af6cbb5cf96">If a standard conformant to the XML schema conformance class defines a set of data schemas, all components (e.g., elements, attributes, types …​) associated with a single conformance test class shall be scoped to a single XML namespace.</p>
+
+<ol id="_a7e12b04-0c84-f7c6-266f-fdc58e341dd6" type="arabic"><li><p id="_ea7c1d22-de3c-c62c-1b8a-8af78b1ebcf5">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li><p id="_36072809-54ec-72a2-7afe-5e3a05236da3">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li><p id="_ddfbdb07-8941-d899-c56c-7cd4ddbe560c">Reference: <xref target="req-03"/></p>
+</li>
+<li><p id="_57c17a13-49f0-79b7-2222-acd5ee36b126">Test Type: Conformance.</p>
+</li>
+</ol>
+</clause>
+
+<clause id="_0e3316c8-ce71-5d4d-70b8-01ba0b3ae538" obligation="normative">
+<title id="_cef48889-ad78-04a5-7b95-140413c0903a">A reference to the URI of the test suite in AppInfo</title>
+<p id="_897ae283-aba9-cd2e-bc95-4c5e4fd16812">The all-components schema document for an XML Schema shall indicate the URI of the associated conformance test class in the schema/annotation/appinfo element.</p>
+
+<ol id="_d1964798-688b-e7e5-4248-5ffc8bc79577" type="arabic"><li><p id="_ebb5d6ae-8f40-dbaa-a4e6-341a63d3f931">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li><p id="_4e9d622f-9dd8-7d7d-919d-19cf906c4e53">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li><p id="_a4a51bef-0b35-6c50-9d6d-1d3c0227ccf1">Reference: <xref target="req-04"/></p>
+</li>
+<li><p id="_fad61b2e-a92f-976e-5224-3a414299fc7b">Test Type: Conformance.</p>
+</li>
+</ol>
+</clause>
+
+<clause id="_71fd98a0-e80b-9b14-1c13-bea7b3a738de" obligation="normative">
+<title id="_655997ab-4b50-2dbc-c6ee-4368ad1409d8">Direct dependencies become schema imports</title>
+<p id="_1ce72e55-8098-0e02-8368-fa73059695da">If a standard conformant to the XML schema conformance class defines a direct dependency from one requirement class to another, then a standardization target of the corresponding conformance test class shall import a schema that has passed the associated conformance test class (dependency) or shall itself pass the associated conformance test class.</p>
+
+<ol id="_ce6003bc-3bb0-e81b-1023-a84a47a60c30" type="arabic"><li><p id="_46c3531c-0e5d-7890-b469-702b027bc234">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li><p id="_c69a3a86-1eb1-c19f-7e63-69b77696d550">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li><p id="_85668261-d855-4108-440b-8bd2f287ed38">Reference: <xref target="req-05"/></p>
+</li>
+<li><p id="_5cb7a2f7-6cf1-4ce2-c71e-eef214b5c097">Test Type: Conformance.</p>
+</li>
+</ol>
+</clause>
+
+<clause id="_5bd2c7ee-5d0c-8dd2-42c1-77abf85ec5aa" obligation="normative">
+<title id="_0d2d4be4-6bfb-5388-2461-c5849bffc5f9">No requirements class modifies or redefines elements in another namespace</title>
+<p id="_b197170b-851b-6f71-ab85-dbd87816c31d">No requirements class in a standard conformant to the XML schema conformance class shall modify elements, types or any other requirement from a namespace to which it is not associated.</p>
+
+<ol id="_e8e80a8c-52a4-ea36-f9a6-f379dda31429" type="arabic"><li><p id="_241f23c8-e525-b6e9-6881-b991c62ad2c7">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li><p id="_d1bf7123-5f14-3f74-1175-ce29750a6f95">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li><p id="_242153fd-e9a6-e82a-99e7-d8436cf21e2f">Reference: <xref target="req-06"/></p>
+</li>
+<li><p id="_95511c54-c3ed-2047-80f2-818ddb71f9b9">Test Type: Conformance.</p>
+</li>
+</ol>
+</clause>
+</clause>
+
+<clause id="_0d0415cc-5686-334a-5f42-51b070124604" anchor="annex-A-2" obligation="normative">
+<title id="_9fc64085-6a67-281e-cd5e-1a08ad43c825">Conformance test class: Schematron</title>
+<clause id="_ba7eaac0-b10e-b507-0dfd-3e091f400343" obligation="normative">
+<title id="_d8278c66-b1fe-6f78-fce3-f808db111f81">Dependency on XML Schema conformance test class</title>
+<p id="_6e0514a4-2e19-7f13-257a-0d21c951b03d">A standard passing the Schematron conformance test class shall also define or reference an XML schema that shall pass the XML schema conformance class from this standard.</p>
+
+<ol id="_d233b46e-589c-d18b-7d41-89431fc2df69" type="arabic"><li><p id="_218f23a9-e2bc-9649-8ebe-b6f2a71dc66f">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li><p id="_598b3e28-280f-d1dc-8beb-1abd1572a98e">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li><p id="_93d34bbb-90da-dddc-34a2-0e852b015bbe">Reference: <xref target="req-07"/></p>
+</li>
+<li><p id="_61d6454a-2637-7e08-6ba9-bc8e4a650244">Test Type: Conformance.</p>
+</li>
+</ol>
+</clause>
+
+<clause id="_89ad6c2d-ddbb-cabf-dc0d-f3c39e842e40" obligation="normative">
+<title id="_1bd4d050-df7a-d6a7-a7eb-0acd6b6ee1d4">Each schematron pattern element implements one requirement</title>
+<p id="_dbeefb30-76cc-1fd7-f2ef-430ae83dd55d">Each sch:pattern element shall implement constraints described in no more than one requirement. Each requirement shall be implemented by no more than one sch:pattern.</p>
+
+<ol id="_2501045d-589b-a3cf-c408-f90651917158" type="arabic"><li><p id="_d29b5312-f40d-4890-c0fe-694771fcad8c">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li><p id="_7da1d3de-353c-036e-07ab-22e4128ba5ba">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li><p id="_2affbf13-f68c-9749-37ac-299d0d6fccbb">Reference: <xref target="req-08"/></p>
+</li>
+<li><p id="_35461a2f-2009-c6a7-fbdb-16e76956792a">Test Type: Conformance.</p>
+</li>
+</ol>
+</clause>
+
+<clause id="_78a74369-e16d-e9de-040f-9bdec233efd6" obligation="normative">
+<title id="_4db1e366-d19f-b90f-4505-87715997617a">Each schematron pattern is in one schematron element</title>
+<p id="_1ff83db1-58fa-e23c-8f2b-18fcb4f3061b">Each sch:pattern element shall be contained within one sch:schema element.</p>
+
+<ol id="_191ae199-96b5-951b-6dfe-24e46fd96ea6" type="arabic"><li><p id="_33e4d14f-cc92-c968-b9bb-0df2c46cec3b">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li><p id="_e89615ad-ab2d-2118-cdb8-416d9e266d9d">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li><p id="_8552be9a-0541-7d7a-be5e-7be0a597bfb8">Reference: <xref target="req-09"/></p>
+</li>
+<li><p id="_dbac2e1b-d133-562c-6b2c-0a04425df454">Test Type: Conformance.</p>
+</li>
+</ol>
+</clause>
+
+<clause id="_fe177040-75e3-6839-2b0a-5372880f7d81" obligation="normative">
+<title id="_3e1adb26-b998-0536-b714-2b7e200b13b9">Each schematron @fpi attribute is used only once</title>
+<p id="_d6d9e03a-8b55-3ee1-dc9a-254f21e29cf2">The value of the sch:schema/@fpi attribute shall be used on only one Schematron schema.</p>
+
+<ol id="_ae2898e9-87f0-975f-0bac-790ed50ae9a5" type="arabic"><li><p id="_afb19731-3a8b-72a8-641a-94a0ac276cf8">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li><p id="_47b2ad82-3784-47ed-dc1e-b55e2a5144ca">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li><p id="_637f8aae-82a3-373b-6ab9-5f68fd1c07bb">Reference: <xref target="req-10"/></p>
+</li>
+<li><p id="_f0ff69d7-f3a8-ecd3-1692-85507b4fa336">Test Type: Conformance.</p>
+</li>
+</ol>
+</clause>
+
+<clause id="_de01e817-4ce2-cbba-8767-a52626b89fe7" obligation="normative">
+<title id="_df2eeed1-9376-8399-4d20-ac63b2c48f95">Each schematron @see attribute is used only once</title>
+<p id="_95027c2d-135a-8133-923b-3954cdf0d6a0">The value of the sch:schema/@see attribute shall be the identifier for the requirements class that contains the requirement(s) implemented by the schema</p>
+
+<ol id="_fd857d18-d446-63f6-46ca-a72f2275e71b" type="arabic"><li><p id="_eeeadf46-6a87-e35a-4a17-8d30bf07f157">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li><p id="_6fbf9bc4-e070-9245-94ed-2cbede8c0a2c">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li><p id="_32b91cd0-7b0d-bb73-c5a0-b4c8fcc62a5b">Reference: <xref target="req-11"/></p>
+</li>
+<li><p id="_2dfb23d9-bd08-5099-ea36-cf146441cb78">Test Type: Conformance.</p>
+</li>
+</ol>
+</clause>
+
+<clause id="_cfd31813-2e75-002d-ef56-244beb27b607" obligation="normative">
+<title id="_1053202d-b633-4f39-d6b9-30037348a6df">Each schematron fpi attribute is used only once</title>
+<p id="_b2cc07a7-abe5-8dcf-8379-dec3cf4d6264">The value of the sch:schema/@fpi attribute shall be used on only one Schematron schema.</p>
+
+<ol id="_66badfef-9b4d-3adf-9c3c-3ecf8c1e17e4" type="arabic"><li><p id="_c5db79e7-7a27-d105-afec-9a7f01f01dc1">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li><p id="_2529c20b-df16-8b47-a236-1b149fb51660">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li><p id="_33958e2c-1bad-8570-c840-6617668ebaf3">Reference: <xref target="req-12"/></p>
+</li>
+<li><p id="_a3ee21f8-4ad4-e767-32b1-c630db5d0ac8">Test Type: Conformance.</p>
+</li>
+</ol>
+</clause>
+</clause>
+
+<clause id="_c1ec921d-e072-cc80-ac09-c1464cd18b52" anchor="annex-A-3" obligation="normative">
+<title id="_35353131-dfde-4329-80d4-8553325ba02a">Conformance Class: XML meta-schema</title>
+<clause id="_7934c3a8-d9a3-ca4a-91fd-9f68e7ea6b45" obligation="normative">
+<title id="_c9f3971c-9d45-45ac-f61b-269c4b77d0f7">Supports the Specification class</title>
+<p id="_7e10fdc7-3cf0-915c-0ef5-b53f340c2383">A standard passing the XML meta-schema conformance test class shall first pass the ModSpec Core conformance test class.</p>
+
+<ol id="_446ba039-e5d0-0b72-ad09-02d335dd0a52" type="arabic"><li><p id="_502e4d8c-03aa-5849-c6c1-69dd3589abde">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li><p id="_0ebe93c0-6720-4333-db97-ff3341335ee5">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li><p id="_986dd5aa-2d3c-fc8f-002c-d7d763ad6045">Reference: <xref target="req-13"/></p>
+</li>
+<li><p id="_1c3b0130-acc3-9561-3e07-85fa18675617">Test Type: Conformance.</p>
+</li>
+</ol>
+</clause>
+
+<clause id="_60805fe7-0669-18db-67ea-f3175a2f6a10" obligation="normative">
+<title id="_4d44025e-7f45-477d-a713-836a17a66491">Each XML schema is conformant with the XML Schema class</title>
+<p id="_c9e785b6-a9a8-a5bc-410d-d4abd727e02c">A standard passing the XML meta-schema conformance test class shall require that its standardization targets (XML schema) pass the XML schema conformance class from this standard.</p>
+
+<ol id="_596b94f3-a2f4-fbc2-05cf-a5a3a81ecebd" type="arabic"><li><p id="_ffc2b7e2-ec3d-bb31-f940-9cce092012c6">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li><p id="_6544961a-e564-dd61-e50a-337d484ef3ef">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li><p id="_1b1e6139-9a3a-174b-698a-2749358c983b">Reference: <xref target="req-14"/></p>
+</li>
+<li><p id="_6724c303-db95-27ab-a076-9c2356192cdf">Test Type: Conformance.</p>
+</li>
+</ol>
+</clause>
+</clause>
+</sections><bibliography><references id="_ce550b5f-bacb-97a1-c006-551f4799fbcf" anchor="cls-3" normative="true" obligation="informative">
+<title id="_461cd77a-5cfe-f57e-70ab-04e5c4142c2b">Normative references</title><p id="_02b1c060-f2f9-4bc4-035d-e49887f749e3">The following documents are referred to in the text in such a way that some or all of their content constitutes requirements of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.</p>
+
+
+
+
+<bibitem id="_5ecc623b-99c8-93f5-9d18-4e62b90e96c0" type="standard" schema-version="v1.5.6" anchor="w3c-sp1">
+  <fetched>2026-05-21</fetched>
+  
+<title language="en" script="Latn">XML Schema Part 1: Structures Second Edition</title>
+
+  <uri type="src">https://www.w3.org/TR/xmlschema-1/</uri>
+  <docidentifier type="W3C" primary="true">W3C xmlschema-1</docidentifier>
+  <docnumber>xmlschema-1</docnumber>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>World Wide Web Consortium</name>
+
+      <abbreviation>W3C</abbreviation>
+      <uri>https://www.w3.org</uri>
+    </organization>
+  </contributor>
+  <language>en</language>
+  <script>Latn</script>
+  <relation type="hasEdition">
+    <bibitem>
+      
+<title language="en" script="Latn">XML Schema Part 1: Structures Second Edition</title>
+
+      <uri type="src">https://www.w3.org/TR/2004/REC-xmlschema-1-20041028/</uri>
+      <docidentifier type="W3C" primary="true">W3C REC-xmlschema-1-20041028</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      
+<title language="en" script="Latn">XML Schema Part 1: Structures Second Edition</title>
+
+      <uri type="src">https://www.w3.org/TR/2004/PER-xmlschema-1-20040318/</uri>
+      <docidentifier type="W3C" primary="true">W3C PER-xmlschema-1-20040318</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      
+<title language="en" script="Latn">XML Schema Part 1: Structures</title>
+
+      <uri type="src">https://www.w3.org/TR/2001/REC-xmlschema-1-20010502/</uri>
+      <docidentifier type="W3C" primary="true">W3C REC-xmlschema-1-20010502</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      
+<title language="en" script="Latn">XML Schema Part 1: Structures</title>
+
+      <uri type="src">https://www.w3.org/TR/2001/PR-xmlschema-1-20010330/</uri>
+      <docidentifier type="W3C" primary="true">W3C PR-xmlschema-1-20010330</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      
+<title language="en" script="Latn">XML Schema Part 1: Structures</title>
+
+      <uri type="src">https://www.w3.org/TR/2001/PR-xmlschema-1-20010316/</uri>
+      <docidentifier type="W3C" primary="true">W3C PR-xmlschema-1-20010316</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      
+<title language="en" script="Latn">XML Schema Part 1: Structures</title>
+
+      <uri type="src">https://www.w3.org/TR/2000/CR-xmlschema-1-20001024/</uri>
+      <docidentifier type="W3C" primary="true">W3C CR-xmlschema-1-20001024</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      
+<title language="en" script="Latn">XML Schema Part 1: Structures</title>
+
+      <uri type="src">https://www.w3.org/TR/2000/WD-xmlschema-1-20000922/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-xmlschema-1-20000922</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      
+<title language="en" script="Latn">XML Schema Part 1: Structures</title>
+
+      <uri type="src">https://www.w3.org/TR/2000/WD-xmlschema-1-20000407/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-xmlschema-1-20000407</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      
+<title language="en" script="Latn">XML Schema Part 1: Structures</title>
+
+      <uri type="src">https://www.w3.org/TR/2000/WD-xmlschema-1-20000225/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-xmlschema-1-20000225</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      
+<title language="en" script="Latn">XML Schema Part 1: Structures</title>
+
+      <uri type="src">https://www.w3.org/TR/1999/WD-xmlschema-1-19991217/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-xmlschema-1-19991217</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      
+<title language="en" script="Latn">XML Schema Part 1: Structures</title>
+
+      <uri type="src">https://www.w3.org/TR/1999/WD-xmlschema-1-19991105/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-xmlschema-1-19991105</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      
+<title language="en" script="Latn">XML Schema Part 1: Structures</title>
+
+      <uri type="src">https://www.w3.org/1999/05/06-xmlschema-1/</uri>
+      <docidentifier type="W3C" primary="true">W3C 06-xmlschema-1</docidentifier>
+    </bibitem>
+
+  </relation>
+  <series>
+    
+<title language="en" script="Latn">W3C technicalReport</title>
+
+    <number>xmlschema-1</number>
+  </series>
+</bibitem>
+<bibitem id="_11832ce0-8237-6b32-1fd0-ffca5af31a4b" type="standard" schema-version="v1.5.6" anchor="w3c-sp2">
+  <fetched>2026-05-21</fetched>
+  
+<title language="en" script="Latn">XML Schema Part 2: Datatypes Second Edition</title>
+
+  <uri type="src">https://www.w3.org/TR/xmlschema-2/</uri>
+  <docidentifier type="W3C" primary="true">W3C xmlschema-2</docidentifier>
+  <docnumber>xmlschema-2</docnumber>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>World Wide Web Consortium</name>
+
+      <abbreviation>W3C</abbreviation>
+      <uri>https://www.w3.org</uri>
+    </organization>
+  </contributor>
+  <language>en</language>
+  <script>Latn</script>
+  <relation type="hasEdition">
+    <bibitem>
+      
+<title language="en" script="Latn">XML Schema Part 2: Datatypes Second Edition</title>
+
+      <uri type="src">https://www.w3.org/TR/2004/REC-xmlschema-2-20041028/</uri>
+      <docidentifier type="W3C" primary="true">W3C REC-xmlschema-2-20041028</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      
+<title language="en" script="Latn">XML Schema Part 2: Datatypes Second Edition</title>
+
+      <uri type="src">https://www.w3.org/TR/2004/PER-xmlschema-2-20040318/</uri>
+      <docidentifier type="W3C" primary="true">W3C PER-xmlschema-2-20040318</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      
+<title language="en" script="Latn">XML Schema Part 2: Datatypes</title>
+
+      <uri type="src">https://www.w3.org/TR/2001/REC-xmlschema-2-20010502/</uri>
+      <docidentifier type="W3C" primary="true">W3C REC-xmlschema-2-20010502</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      
+<title language="en" script="Latn">XML Schema Part 2: Datatypes</title>
+
+      <uri type="src">https://www.w3.org/TR/2001/PR-xmlschema-2-20010330/</uri>
+      <docidentifier type="W3C" primary="true">W3C PR-xmlschema-2-20010330</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      
+<title language="en" script="Latn">XML Schema Part 2: Datatypes</title>
+
+      <uri type="src">https://www.w3.org/TR/2001/PR-xmlschema-2-20010316/</uri>
+      <docidentifier type="W3C" primary="true">W3C PR-xmlschema-2-20010316</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      
+<title language="en" script="Latn">XML Schema Part 2: Datatypes</title>
+
+      <uri type="src">https://www.w3.org/TR/2000/CR-xmlschema-2-20001024/</uri>
+      <docidentifier type="W3C" primary="true">W3C CR-xmlschema-2-20001024</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      
+<title language="en" script="Latn">XML Schema Part 2: Datatypes</title>
+
+      <uri type="src">https://www.w3.org/TR/2000/WD-xmlschema-2-20000922/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-xmlschema-2-20000922</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      
+<title language="en" script="Latn">XML Schema Part 2: Datatypes</title>
+
+      <uri type="src">https://www.w3.org/TR/2000/WD-xmlschema-2-20000407/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-xmlschema-2-20000407</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      
+<title language="en" script="Latn">XML Schema Part 2: Datatypes</title>
+
+      <uri type="src">https://www.w3.org/TR/2000/WD-xmlschema-2-20000225/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-xmlschema-2-20000225</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      
+<title language="en" script="Latn">XML Schema Part 2: Datatypes</title>
+
+      <uri type="src">https://www.w3.org/TR/1999/WD-xmlschema-2-19991217/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-xmlschema-2-19991217</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      
+<title language="en" script="Latn">XML Schema Part 2: Datatypes</title>
+
+      <uri type="src">https://www.w3.org/TR/1999/WD-xmlschema-2-19991105/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-xmlschema-2-19991105</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      
+<title language="en" script="Latn">XML Schema Part 2: Datatypes</title>
+
+      <uri type="src">https://www.w3.org/1999/05/06-xmlschema-2/</uri>
+      <docidentifier type="W3C" primary="true">W3C 06-xmlschema-2</docidentifier>
+    </bibitem>
+
+  </relation>
+  <series>
+    
+<title language="en" script="Latn">W3C technicalReport</title>
+
+    <number>xmlschema-2</number>
+  </series>
+</bibitem>
+<bibitem id="_382d9850-2836-0602-0d68-3663c1688cc4" type="standard" schema-version="v1.5.6" anchor="iso19757-3">
+  <fetched>2026-05-21</fetched>
+  
+<title language="en" script="Latn" type="title-intro" format="text/plain">Information technology</title>
+
+  
+<title language="en" script="Latn" type="title-main" format="text/plain">Document Schema Definition Languages (DSDL)</title>
+
+  
+<title language="en" script="Latn" type="title-part" format="text/plain">Part 3: Rule-based validation — Schematron</title>
+
+  
+<title language="en" script="Latn" type="main" format="text/plain">Information technology — Document Schema Definition Languages (DSDL) — Part 3: Rule-based validation — Schematron</title>
+
+  
+<title language="fr" script="Latn" type="title-intro" format="text/plain">Technologies de l’information</title>
+
+  
+<title language="fr" script="Latn" type="title-main" format="text/plain">Langages de définition de schéma de documents (DSDL)</title>
+
+  
+<title language="fr" script="Latn" type="title-part" format="text/plain">Partie 3: Validation de règles orientées — Schematron</title>
+
+  
+<title language="fr" script="Latn" type="main" format="text/plain">Technologies de l’information — Langages de définition de schéma de documents (DSDL) — Partie 3: Validation de règles orientées — Schematron</title>
+
+  <uri type="src">https://www.iso.org/standard/40833.html</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/04/08/40833.detail.rss</uri>
+  <docidentifier type="ISO" primary="true">ISO/IEC 19757-3:2006</docidentifier>
+  <docidentifier type="iso-reference">ISO/IEC 19757-3:2006(E)</docidentifier>
+  <docidentifier type="URN">urn:iso:std:iso-iec:19757:-3:stage-95.99</docidentifier>
+  <docnumber>19757</docnumber>
+  <date type="published">
+    <on>2006-06</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Organization for Standardization</name>
+
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Electrotechnical Commission</name>
+
+      <abbreviation>IEC</abbreviation>
+      <uri>www.iec.ch</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="author">
+      <description>committee</description>
+    </role>
+    <organization>
+      
+<name>International Organization for Standardization</name>
+
+      <subdivision type="technical-committee" subtype="IEC">
+        
+<name>Document description and processing languages</name>
+
+        <identifier>ISO/IEC JTC 1/SC 34</identifier>
+      </subdivision>
+      <abbreviation>ISO</abbreviation>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract language="en" script="Latn">ISO/IEC 19757 defines a set of Document Schema Definition Languages (DSDL) that can be used to specify one or more validation processes performed against Extensible Markup Language (XML) or Standard Generalized Markup Language (SGML) documents. (XML is an application profile SGML, ISO 8879:1986.)
+ISO/IEC 19757-3:2006 specifies Schematron, a rules-based schema language for XML. It establishes requirements for Schematron schemas and specifies when an XML document matches the patterns specified by a Schematron schema.</abstract>
+  <abstract language="fr" script="Latn">ISO/IEC 19757 defines a set of Document Schema Definition Languages (DSDL) that can be used to specify one or more validation processes performed against Extensible Markup Language (XML) or Standard Generalized Markup Language (SGML) documents. (XML is an application profile SGML, ISO 8879:1986.)
+ISO/IEC 19757-3:2006 specifies Schematron, a rules-based schema language for XML. It establishes requirements for Schematron schemas and specifies when an XML document matches the patterns specified by a Schematron schema.</abstract>
+  <status>
+    <stage>95</stage>
+    <substage>99</substage>
+  </status>
+  <copyright>
+    <from>2006</from>
+    <owner>
+      <organization>
+        
+<name>ISO/IEC</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="updates">
+    <bibitem type="standard">
+      <formattedref>ISO/IEC 19757-3:2016</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC 19757-3:2016</docidentifier>
+      <date type="circulated">
+        <on>2016-01-14</on>
+      </date>
+    </bibitem>
+
+  </relation>
+  <place>
+    <formattedPlace>Geneva</formattedPlace>
+  </place>
+</bibitem>
+</references></bibliography>
+</metanorma>

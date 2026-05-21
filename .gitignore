@@ -1,4 +1,9 @@
 .DS_Store
 relaton/cache
+sources/relaton/**
 iev/cache
 *.err
+*.log.txt
+*.presentation.xml
+*.err.html
+*.abort

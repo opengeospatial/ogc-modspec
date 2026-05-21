@@ -1,11 +1,11 @@
-<bibdata type="standard" schema-version="v1.2.8">
-  <fetched>2025-01-27</fetched>
-  <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
-  <title type="title-main" format="text/plain" language="en" script="Latn">Conformance and testing</title>
-  <title type="main" format="text/plain" language="en" script="Latn">Geographic information - Conformance and testing</title>
-  <title type="title-intro" format="text/plain" language="fr" script="Latn">Information géographique</title>
-  <title type="title-main" format="text/plain" language="fr" script="Latn">Conformité et essais</title>
-  <title type="main" format="text/plain" language="fr" script="Latn">Information géographique - Conformité et essais</title>
+<bibdata type="standard" schema-version="v1.5.6">
+  <fetched>2026-05-20</fetched>
+  <title language="en" script="Latn" type="title-intro" format="text/plain">Geographic information</title>
+  <title language="en" script="Latn" type="title-main" format="text/plain">Conformance and testing</title>
+  <title language="en" script="Latn" type="main" format="text/plain">Geographic information - Conformance and testing</title>
+  <title language="fr" script="Latn" type="title-intro" format="text/plain">Information géographique</title>
+  <title language="fr" script="Latn" type="title-main" format="text/plain">Conformité et essais</title>
+  <title language="fr" script="Latn" type="main" format="text/plain">Information géographique - Conformité et essais</title>
   <uri type="src">https://www.iso.org/standard/76457.html</uri>
   <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:76457:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/07/64/76457.detail.rss</uri>
@@ -24,13 +24,26 @@
       <uri>www.iso.org</uri>
     </organization>
   </contributor>
+  <contributor>
+    <role type="author">
+      <description>committee</description>
+    </role>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <subdivision type="technical-committee" subtype="TC">
+        <name>Geographic information/Geomatics</name>
+        <identifier>ISO/TC 211</identifier>
+      </subdivision>
+      <abbreviation>ISO</abbreviation>
+    </organization>
+  </contributor>
   <edition>2</edition>
   <language>en</language>
   <language>fr</language>
   <script>Latn</script>
-  <abstract format="text/plain" language="en" script="Latn">This document specifies the framework, concepts and methodology for conformance testing and criteria to be achieved to claim conformance to the family of applicable standardization documents regarding geographic information and relevant application domains. This document provides a framework for specifying abstract test suites composed of abstract test cases grouped in conformance classes and for defining the procedures to be followed during conformance testing.
+  <abstract language="en" script="Latn">This document specifies the framework, concepts and methodology for conformance testing and criteria to be achieved to claim conformance to the family of applicable standardization documents regarding geographic information and relevant application domains. This document provides a framework for specifying abstract test suites composed of abstract test cases grouped in conformance classes and for defining the procedures to be followed during conformance testing.
 Conformance can be claimed for data or software products or services or by specifications including any profile or functional standard. The structure of, and relationships between, conformance classes as defined in this document underly a systematic approach to configuration management involving managing dependencies within and between modules.</abstract>
-  <abstract format="text/plain" language="fr" script="Latn">Le présent document spécifie le cadre, les concepts et la méthodologie applicables aux tests et critères de conformité à respecter pour revendiquer la conformité avec la famille de document de normalisation sur l'information géographique et les domaines d'application concernés. Le présent document propose un cadre pour la spécification des suites de tests abstraits composées de cas de test abstraits regroupés en classes de conformité, et pour la définition des procédures à suivre lors des tests de conformité.
+  <abstract language="fr" script="Latn">Le présent document spécifie le cadre, les concepts et la méthodologie applicables aux tests et critères de conformité à respecter pour revendiquer la conformité avec la famille de document de normalisation sur l'information géographique et les domaines d'application concernés. Le présent document propose un cadre pour la spécification des suites de tests abstraits composées de cas de test abstraits regroupés en classes de conformité, et pour la définition des procédures à suivre lors des tests de conformité.
 Il est possible de revendiquer la conformité pour les données ou les produits et services logiciels, ou par les spécifications, y compris de n'importe quel profil ou norme opératoire. La structure des classes de conformité définies dans le présent document, et les relations entre celles-ci, sous-tendent une approche systématique de la gestion de configuration qui implique la gestion des dépendances au sein des modules et entre ceux-ci.</abstract>
   <status>
     <stage>60</stage>
@@ -46,9 +59,22 @@ Il est possible de revendiquer la conformité pour les données ou les produits 
   </copyright>
   <relation type="obsoletes">
     <bibitem type="standard">
-      <formattedref format="text/plain">ISO 19105:2000</formattedref>
+      <formattedref>ISO 19105:2000</formattedref>
       <docidentifier type="ISO" primary="true">ISO 19105:2000</docidentifier>
     </bibitem>
   </relation>
-  <place>Geneva</place>
+  <place>
+    <formattedPlace>Geneva</formattedPlace>
+  </place>
+  <ext schema-version="v1.1.2">
+    <doctype>international-standard</doctype>
+    <flavor>iso</flavor>
+    <ics>
+      <code>35.240.70</code>
+      <text>IT applications in science</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>76457</project-number>
+    </structuredidentifier>
+  </ext>
 </bibdata>

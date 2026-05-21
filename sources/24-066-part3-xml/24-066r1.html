@@ -1,0 +1,2596 @@
+
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xml:lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style>@charset "UTF-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  border: 0;
+  font-size: 100%;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  vertical-align: baseline;
+}
+
+html, body, div, span, applet, object, iframe,
+p, blockquote,
+a, abbr, acronym, address, big, cite,
+del, dfn, em, img, ins, q, s,
+small, strike, strong, sub, sup, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  font-family: "Overpass",sans-serif;
+}
+
+code, pre, tt, kbd, samp {
+  font-family: "Space Mono",monospace;
+  font-variant-ligatures: none;
+}
+
+code *, pre *, tt *, kbd *, samp * {
+  font-family: "Space Mono",monospace !important;
+  font-variant-ligatures: none;
+}
+
+p code, dt code, li code, label code, legend code, caption code, th code, td code,
+p tt, dt tt, li tt, label tt, legend tt, caption tt, th tt, td tt,
+p kbd, dt kbd, li kbd, label kbd, legend kbd, caption kbd, th kbd, td kbd,
+p samp, dt samp, li samp, label samp, legend samp, caption samp, th samp, td samp {
+  font-size: 0.8em;
+}
+
+sub, sup {
+  font-size: 0.75em;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Overpass",sans-serif;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Overpass",sans-serif;
+}
+
+blockquote, q {
+  quotes: none;
+}
+blockquote::before, blockquote::after, q::before, q::after {
+  content: "";
+  content: none;
+}
+
+.h2Annex {
+  font-family: "Overpass",sans-serif;
+}
+
+dl {
+  display: grid;
+  grid-template-columns: max-content auto;
+}
+dl dt p, dl dd p {
+  margin-top: 0;
+}
+dl dt {
+  grid-column-start: 1;
+}
+dl dd {
+  grid-column-start: 2;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+div.document-stage-band, div.document-type-band {
+  background-color: #333333;
+}
+
+a.TableFootnoteRef, span.TableFootnoteRef,
+a.FootnoteRef, span.FootnoteRef {
+  vertical-align: super;
+}
+
+.addition {
+  color: blue;
+}
+
+.deletion {
+  color: red;
+  text-decoration: line-through;
+}
+
+ruby {
+  ruby-position: over;
+  -webkit-ruby-position: before;
+}
+
+ruby ruby {
+  ruby-position: under;
+  -webkit-ruby-position: after;
+}
+
+/* code highlighting with line numbers */
+table.rouge-line-table td.rouge-gutter {
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  padding-right: 1em;
+}
+
+table.rouge-line-table td.rouge-code {
+  -moz-user-select: all;
+  -ms-user-select: all;
+  -webkit-user-select: all;
+  user-select: all;
+}
+
+table.rouge-line-table,
+table.rouge-line-table th,
+table.rouge-line-table td {
+  width: auto;
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+table.rouge-line-table pre {
+  margin: 0;
+  padding: 0;
+  overflow-x: visible;
+  font-size: 100%;
+}
+
+/* header § links */
+a.header {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.header:hover {
+  color: #a53221 !important;
+  background: inherit;
+  box-shadow: none;
+}
+
+a.header:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.anchor {
+  position: absolute;
+  z-index: 1001;
+  width: 1.5ex;
+  margin-left: -1.5ex;
+  display: block;
+  text-decoration: none !important;
+  visibility: hidden;
+  text-align: center;
+  font-weight: 400;
+}
+
+a.anchor::before {
+  content: "§";
+  font-size: 0.85em;
+  display: block;
+  padding-top: 0.1em;
+}
+
+a.anchor:hover {
+  color: #a53221;
+  background: inherit;
+  box-shadow: none;
+}
+
+h1 > a.anchor:hover,
+h2 > a.anchor:hover,
+h3 > a.anchor:hover,
+h4 > a.anchor:hover,
+h5 > a.anchor:hover,
+h6 > a.anchor:hover,
+.inline-header > a.anchor:hover,
+h1:hover > a.anchor,
+h2:hover > a.anchor,
+h3:hover > a.anchor,
+h4:hover > a.anchor,
+h5:hover > a.anchor,
+h6:hover > a.anchor,
+.inline-header:hover > a.anchor {
+  visibility: visible;
+}
+
+/* collapsible snippets: collapsible before hidable */
+.hidable {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 3px 0;
+  margin: 0;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  content: "▼";
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.active:after {
+  content: "▲";
+}
+
+/* collapsible: */
+.collapsible + .hidable {
+  margin-top: 0;
+}
+
+.collapsible:not(.active) + .hidable {
+  overflow: hidden;
+  padding: 0;
+}
+
+.svg-container {
+  width: 100%; /* or any desired width */
+  display: block; /* ← removes unwanted inline spacing */
+}
+
+svg {
+  width: 100%;
+  height: auto; /* ← key to maintaining aspect ratio */
+  display: block; /* ← removes unwanted inline spacing */
+}
+
+/* style dfn by override in flavor */
+dfn {
+  font-style: inherit;
+}
+
+#standard-band {
+  background-color: #0AC442;
+}
+
+#standard {
+  border-bottom: solid 3px #0AC442;
+}
+
+#directive-band {
+  background-color: #540D6E;
+}
+
+#directive {
+  border-bottom: solid 3px #540D6E;
+}
+
+#guide-band {
+  background-color: #D183C9;
+}
+
+#guide {
+  border-bottom: solid 3px #D183C9;
+}
+
+#specification-band {
+  background-color: #65AFFF;
+}
+
+#specification {
+  border-bottom: solid 3px #65AFFF;
+}
+
+#report-band {
+  background-color: #3A405A;
+}
+
+#report {
+  border-bottom: solid 3px #3A405A;
+}
+
+#amendment-band {
+  background-color: #F26430;
+}
+
+#amendment {
+  border-bottom: solid 3px #F26430;
+}
+
+#corrigendum-band {
+  background-color: #C84630;
+}
+
+#corrigendum {
+  border-bottom: solid 3px #C84630;
+}
+
+#administrative-band {
+  background-color: #BFAE48;
+}
+
+#administrative {
+  border-bottom: solid 3px #BFAE48;
+}
+
+#advisory-band {
+  background-color: #BD9391;
+}
+
+#advisory {
+  border-bottom: solid 3px #BD9391;
+}
+
+#proposal-band {
+  background-color: #39A0ED;
+}
+
+#proposal {
+  border-bottom: solid 3px #39A0ED;
+}
+
+#working-draft-band {
+  background-color: #2D7393;
+}
+
+#working-draft {
+  border-bottom: solid 3px #2D7393;
+}
+
+#committee-draft-band {
+  background-color: #2A6B7C;
+}
+
+#committee-draft {
+  border-bottom: solid 3px #2A6B7C;
+}
+
+#draft-standard-band {
+  background-color: #1C7F7A;
+}
+
+#draft-standard {
+  border-bottom: solid 3px #1C7F7A;
+}
+
+#final-draft-band {
+  background-color: #53C170;
+}
+
+#final-draft {
+  border-bottom: solid 3px #53C170;
+}
+
+#published-band {
+  background-color: #069E2D;
+}
+
+#published {
+  border-bottom: solid 3px #069E2D;
+}
+
+#withdrawn-band {
+  background-color: #004E64;
+}
+
+#withdrawn {
+  border-bottom: solid 3px #004E64;
+}
+
+#cancelled-band {
+  background-color: #2E382E;
+}
+
+#cancelled {
+  border-bottom: solid 3px #2E382E;
+}
+
+.coverpage-maturity, .coverpage-stage {
+  font-family: "Overpass",sans-serif;
+  font-weight: 400;
+  font-size: 1.3em;
+  margin: 0 0 2em 0;
+  text-transform: uppercase;
+}
+
+.icon-svg {
+  width: 100%;
+  color: #5ecf86;
+}
+
+.wrapper-top {
+  background: rgb(0, 51, 91);
+  background: linear-gradient(130deg, rgb(0, 51, 91) 45%, rgb(241, 248, 255) 100%);
+  color: #ffffff;
+  padding: 5em 0;
+  width: 100%;
+}
+
+.wrapper-top-bottom {
+  width: 0;
+  height: 0;
+  border-top: 100px solid #00335b;
+  border-right: 100px solid transparent;
+  position: absolute;
+}
+
+.document-type-band {
+  top: 260px;
+}
+
+.document-stage-band > :first-child {
+  height: 240px;
+}
+
+.coverpage-metadata {
+  margin-top: 35px;
+  padding-top: 15px;
+  margin-right: 25px;
+  border-top: solid 1px white;
+}
+
+.coverpage-metadata,
+.coverpage-alt-formats {
+  font-size: 12px;
+  font-family: "Overpass",sans-serif;
+  margin-left: 1em;
+  text-align: left;
+}
+.coverpage-metadata span,
+.coverpage-alt-formats span {
+  display: block;
+  text-align: left;
+}
+.coverpage-metadata span a,
+.coverpage-alt-formats span a {
+  color: white;
+}
+.coverpage-metadata span a:hover,
+.coverpage-alt-formats span a:hover {
+  text-decoration: underline;
+  background: none;
+  box-shadow: none !important;
+  font-weight: 400;
+}
+.coverpage-metadata .value,
+.coverpage-alt-formats .value {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.coverpage-metadata .label,
+.coverpage-alt-formats .label {
+  font-size: 12px;
+  padding: 0;
+}
+
+.coverpage-alt-formats span {
+  display: inline;
+  text-align: left;
+}
+.coverpage-alt-formats span a {
+  padding-right: 5px;
+}
+
+.coverpage-title {
+  padding-bottom: 0.5em;
+  font-family: "Overpass",sans-serif;
+  font-weight: 100;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.coverpage-title span {
+  font-family: "Overpass",sans-serif;
+  font-size: 1.8em;
+  line-height: 1;
+}
+
+.docstage-box table {
+  width: auto;
+}
+.docstage-box th {
+  background-color: #93c0d6;
+}
+.docstage-box td {
+  vertical-align: top;
+  background-color: #daeef3;
+  padding: 0.5em;
+  border: 0;
+}
+.docstage-box th:first-child {
+  border-radius: 1em 0 0 0;
+}
+.docstage-box th:last-child {
+  border-radius: 0 1em 0 0;
+}
+.docstage-box tr:first-child {
+  border-radius: 0 0 0 1em;
+}
+.docstage-box tr:last-child {
+  border-radius: 0 1em 0 0;
+}
+.docstage-box tr:last-child > td:first-child {
+  border-radius: 0 0 0 1em;
+}
+.docstage-box tr:last-child > td:last-child {
+  border-radius: 0 0 1em 0;
+}
+
+.WordSection11 {
+  padding: 0 2em 0 3em;
+}
+
+.info-section {
+  padding: 0 2em 0 5em;
+}
+
+.prefatory-section {
+  padding: 0 3em 0 6em;
+}
+
+.zzSTDTitle1, .MsoCommentText {
+  display: none;
+}
+
+.coverpage {
+  text-align: center;
+  padding-left: 1.5em;
+}
+
+.coverpage-logo span, .coverpage-tc-name span {
+  font-family: "Overpass",sans-serif;
+  text-transform: none;
+  font-weight: 300;
+  margin-left: 1em;
+}
+
+.coverpage-logo img, .coverpage-logo svg {
+  width: 500px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.coverpage-tc-name {
+  font-size: 1.2em;
+  line-height: 1.2em;
+  margin: 0.25em 0;
+}
+
+.copyright {
+  padding: 1em;
+  font-size: 0.9em;
+  text-align: left;
+}
+
+/* Document Identity */
+.coverpage-doc-identity {
+  font-size: 2em;
+  line-height: 2em;
+}
+
+.coverpage-title .title-second {
+  display: none;
+}
+
+.coverpage-stage-block {
+  font-family: "Overpass",sans-serif;
+  font-weight: 600;
+  font-size: 1.25em;
+  margin: 2em 0em 2em 0em;
+  text-transform: uppercase;
+}
+
+.authors {
+  margin-top: 2em;
+}
+.authors span {
+  display: block;
+  line-height: 2;
+}
+.authors span.roletag {
+  display: inline-block;
+  font-size: 12px;
+  color: #00335b;
+  background-color: white;
+  padding: 2px 5px;
+  margin-left: 7px;
+  border-radius: 5px;
+}
+
+/* Draft Warning */
+.coverpage-warning {
+  border: #f36f36 solid 2px;
+  color: #f36f36 !important;
+  margin: 1em 2em;
+  color: #2e81c2;
+  padding: 2em 1em 1em 1em;
+  border-radius: 25px;
+}
+.coverpage-warning h1 {
+  font-family: "Overpass",sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+
+@media print {
+  .document-info, .copyright {
+    page-break-before: always;
+  }
+  .coverpage {
+    height: 23cm;
+  }
+  .info-section {
+    display: none;
+  }
+  .wrapper-top {
+    top: 0;
+    padding-top: 4cm;
+    padding-bottom: 4cm;
+  }
+  .wrapper-top-bottom {
+    margin-top: -5px;
+    display: none;
+  }
+}
+/* For Requirement Test anchors */
+p.RecommendationTitle:hover > a.anchor,
+p.RecommendationTitle > a.anchor:hover,
+p.RecommendationTestTitle:hover > a.anchor,
+p.RecommendationTestTitle > a.anchor:hover {
+  visibility: visible;
+}
+
+table a.anchor {
+  margin-left: -2em;
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #00335b;
+  background-color: #f6f8fa;
+}
+body main {
+  margin: 0 3em 0 6em;
+}
+@media screen and (min-width: 768px) {
+  body {
+    padding-left: 360px;
+  }
+}
+@media print {
+  body {
+    padding-left: 0;
+  }
+}
+
+dl {
+  grid-template-columns: minmax(0, 1fr) 93%;
+}
+dl pre {
+  overflow-x: scroll;
+}
+
+#toc ul, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#toc ul li a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul li a {
+  padding: 5px 10px;
+}
+#toc ul a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul a {
+  color: #00335b;
+  text-decoration: none;
+  display: block;
+}
+#toc ul a:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul a:hover {
+  box-shadow: none;
+  color: white;
+}
+#toc .h2, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h2 {
+  padding-left: 30px;
+}
+#toc .h3, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h3 {
+  padding-left: 50px;
+}
+#toc .h4, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h4 {
+  padding-left: 70px;
+}
+#toc .h5, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h5 {
+  padding-left: 90px;
+}
+#toc .h6, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h6 {
+  padding-left: 110px;
+}
+#toc .toc-active, #toc li:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover {
+  background: #00335b;
+  box-shadow: inset -5px 0px 10px -5px #00335b !important;
+}
+#toc .toc-active a, #toc li:hover a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover a {
+  color: white;
+}
+@media print {
+  #toc .toc-active, #toc li:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover {
+    background: white;
+    box-shadow: none !important;
+  }
+  #toc .toc-active a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active a {
+    color: #00335b;
+  }
+  #toc li:hover a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover a {
+    color: black;
+  }
+}
+#toc li a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li a {
+  font-size: 14px;
+}
+#toc li::before, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li::before {
+  content: " ";
+  display: none;
+}
+#toc .toc-active, #toc li:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover {
+  font-weight: 600;
+}
+#toc li:hover a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover a {
+  background: none;
+  box-shadow: none;
+}
+
+#toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 323px;
+    font-size: 0.9em;
+    overflow: auto;
+    padding: 0 0 0 30px;
+    background-color: #f1f8ff;
+  }
+}
+@media print {
+  nav {
+    position: relative;
+    width: auto;
+    font-size: 0.9em;
+    overflow: auto;
+    padding: 0;
+    margin-right: 0;
+    background-color: white;
+  }
+}
+@media screen and (min-width: 768px) {
+  nav {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #toggle {
+    position: fixed;
+    height: 100%;
+    width: 30px;
+    background-color: #00335b;
+    color: white !important;
+    cursor: pointer;
+    z-index: 100;
+  }
+  #toggle span {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+}
+@media screen and (max-width: 768px) {
+  #toggle {
+    display: none;
+  }
+}
+@media print {
+  #toggle {
+    display: none;
+  }
+}
+
+.rule {
+  width: 100%;
+  height: 1px;
+  background-color: #00335b;
+  margin: 2em 0;
+}
+@media screen and (min-width: 768px) {
+  .rule.toc {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  h1.toc-contents {
+    margin-top: 1em;
+  }
+  ul#toc-list, ul#toc-list > :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+    padding: 0;
+    margin: 0;
+  }
+}
+#toc-list ul {
+  margin-bottom: 0.25em;
+}
+#toc-list li {
+  list-style-type: none;
+}
+
+figure figcaption {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+figure > img, figure > svg {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+figure {
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow: auto;
+}
+
+table figure {
+  padding: 0;
+  margin: 0;
+}
+
+.document-stage-band {
+  left: 0;
+  top: 0;
+  height: 100%;
+  position: fixed;
+  display: block;
+  z-index: 101;
+  box-shadow: -5px 0px 10px #1d1d1d;
+}
+.document-stage-band > :first-child {
+  position: relative;
+  width: 25px;
+  font-weight: 300;
+  height: 160px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin: 0;
+  margin-left: 6px;
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  white-space: nowrap;
+  display: block;
+  bottom: 0;
+}
+@media print {
+  .document-stage-band {
+    display: none;
+  }
+}
+
+.document-type-band {
+  left: 0;
+  top: 180px;
+  height: 100%;
+  position: fixed;
+  display: block;
+  z-index: 102;
+}
+.document-type-band > :first-child {
+  position: relative;
+  width: 25px;
+  font-weight: 400;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin: 0;
+  margin-left: 6px;
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  white-space: nowrap;
+  display: block;
+  bottom: 0;
+}
+@media print {
+  .document-type-band {
+    display: none;
+  }
+}
+.document-type-band .document-type {
+  top: 20px;
+}
+
+#governance-band p.document-type {
+  font-weight: 400;
+  height: 230px !important;
+}
+
+#standard-band p {
+  height: 135px;
+}
+
+#proposal-band p {
+  height: 150px;
+}
+
+#standard-band,
+#published-band {
+  color: rgb(123, 168, 18);
+}
+
+#standard,
+#published {
+  color: #9ABD48;
+}
+
+p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  color: #00335b;
+  font-weight: 400;
+  margin-top: 1.6em;
+  margin-bottom: 0.3em;
+}
+
+h1, .h1 {
+  font-size: 1.8em;
+  text-transform: uppercase;
+  margin-top: 2em;
+}
+h1 #content, .h1 #content {
+  margin-top: 2em;
+}
+
+h2, .h2 {
+  margin-top: 1.3em;
+  font-size: 1.7em;
+  font-weight: 300;
+}
+h2 p, .h2 p {
+  display: inline;
+}
+
+h3, .h3 {
+  margin-top: 1.3em;
+  font-size: 1.5em;
+  font-weight: 100;
+}
+
+h4, .h4 {
+  font-size: 1.4em;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+  background: none;
+  box-shadow: 0 0 0 0;
+}
+.contact-info a, .contact-info a:hover {
+  color: #00335b;
+}
+.contact-info {
+  padding: 2em;
+  margin-top: 5em;
+  width: 280px;
+  text-align: left;
+  border: #00335b solid 2px;
+  color: #00335b !important;
+  border-radius: 25px;
+}
+.contact-info p, .contact-info a {
+  font-family: "Space Mono",monospace;
+  font-variant-ligatures: none;
+  font-weight: 400;
+}
+.contact-info #boilerplate-name {
+  font-weight: 700;
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
+.contact-info #boilerplate-address {
+  font-size: 1em;
+  line-height: 1.3em;
+  margin-top: 0;
+}
+
+ul, ol {
+  margin-left: 1.2em;
+}
+
+ul > li {
+  list-style: none;
+}
+ul > li::before {
+  content: "—";
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+ul > li p:first-child {
+  display: inline;
+}
+ul > li:first-child {
+  margin-top: 1em;
+}
+
+ul ul > li:first-child {
+  margin-top: 0;
+}
+
+ol ul > li:first-child {
+  margin-top: 0;
+}
+
+span.keyword {
+  font-weight: 600;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  font-weight: 300;
+  margin: 1em 0 2em 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 2em;
+}
+table, table th, table td {
+  border: 1px solid black;
+  font-size: 0.95em;
+}
+table th, table td {
+  padding: 1em;
+}
+table td.header {
+  font-weight: 400;
+}
+table table.plain, table table.plain th, table table.plain td {
+  border: none !important;
+  font-size: 0.95em;
+}
+table {
+  /*color: #010d16;*/
+}
+table thead tr th {
+  background-color: #5d99d6;
+}
+table td, table th {
+  padding: 1em;
+}
+table td.header {
+  font-weight: 400;
+}
+
+.docstage-box table,
+.docstage-box table th,
+.docstage-box table td {
+  border: none;
+}
+
+table.modspec {
+  width: 100%;
+  font-weight: 300;
+  margin: 1em 0 2em 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 2em;
+}
+table.modspec, table.modspec th, table.modspec td {
+  border: none !important;
+  font-size: 0.95em;
+}
+table.modspec th, table.modspec td {
+  padding: 1em;
+}
+table.modspec td.header {
+  font-weight: 400;
+}
+table.modspec table.plain, table.modspec table.plain th, table.modspec table.plain td {
+  border: none !important;
+  font-size: 0.95em;
+}
+table.modspec {
+  color: #010d16;
+}
+table.modspec tr:nth-child(even) {
+  background: #ffffff;
+}
+table.modspec tr:nth-child(odd) {
+  background: #ffffff;
+}
+table.modspec thead tr th {
+  background-color: #5d99d6;
+}
+table.modspec td, table.modspec th {
+  padding: 1em;
+}
+table.modspec td.header {
+  font-weight: 400;
+}
+
+td > p:first-child, th > p:first-child {
+  margin-top: 0em;
+}
+
+td > p:last-child, th > p:last-child {
+  margin-bottom: 0em;
+}
+
+table > caption {
+  text-align: center;
+  margin-top: 2.5em;
+  font-weight: 400;
+}
+
+/* Terms */
+.TermNum {
+  font-weight: 300;
+}
+
+.TermNum, .Terms, .AltTerms {
+  color: #00335b;
+  font-family: "Overpass",sans-serif;
+}
+
+h2.TermNum {
+  margin-bottom: 0;
+}
+
+p.AltTerms {
+  font-size: 24px;
+  margin-top: 1em;
+}
+
+span.AdmittedLabel, span.DeprecatedLabel {
+  color: #00335b;
+  background-color: #CFE2F3;
+  font-size: 70%;
+  vertical-align: top;
+}
+
+/* Links, selection */
+a, a:visited {
+  text-decoration: none;
+  color: #2e81c2;
+}
+
+a:hover {
+  color: #00335b;
+  background: #39CCCC;
+  box-shadow: 3px 0 0 #39CCCC, -3px 0 0 #39CCCC;
+}
+
+*::selection {
+  background: #39CCCC;
+  color: #00335b;
+}
+
+*::-moz-selection {
+  background: #39CCCC;
+  color: #00335b;
+}
+
+/* Bibliograhy */
+p.Biblio, p.NormRef, div.Biblio, div.NormRef {
+  margin-top: 1em;
+  margin-left: 2em;
+}
+
+.Biblio.note, .Biblio.Note, .NormRef.note, .NormRef.Note {
+  margin-left: 3em;
+}
+
+/* Blocks */
+.SourceTitle, figcaption, summary {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+
+.ListTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+  text-align: left;
+}
+
+pre, .sourcecode {
+  font-family: "Space Mono",monospace;
+  font-variant-ligatures: none;
+  background-color: #f7f7f7;
+  font-size: 0.8em;
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow-y: auto;
+  overflow-x: scroll;
+  font-family: "Space Mono",monospace;
+  font-variant-ligatures: none;
+}
+
+.Admonition .AdmonitionTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+.Admonition {
+  padding: 1em 1.2em 1.2em 1.2em;
+  margin: 1em 0 1em 0;
+  background-color: #fcad88;
+  border-top: 10px solid #eb5a06;
+  color: #290404;
+}
+.Admonition.AdmonitionImportant {
+  background-color: #f58cff;
+  color: #5d1364;
+  border-top: 10px solid #9503a8;
+}
+.Admonition.AdmonitionWarning {
+  background-color: #ff989d;
+  color: #270204;
+  border-top: 10px solid #e4010c;
+}
+.Admonition p, .Admonition.AdmonitionImportant p, .Admonition.AdmonitionWarning p {
+  margin: 0;
+}
+
+figure, pre, .pseudocode, .sourcecode {
+  background-color: #e1eef1;
+  color: #424242;
+  font-size: 0.8em;
+}
+
+.Note {
+  background-color: #fff8bb;
+  color: #7d760b;
+  padding: 1.2em;
+  margin: 1em 0 1em 0;
+}
+.Note p {
+  margin: 0;
+}
+
+.example {
+  background-color: #e1eef1;
+  color: #424242;
+  padding: 1.2em;
+  margin: 2em 0 1em 0;
+  padding-left: 2em;
+}
+.example .example-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-left: -1.5em;
+}
+.example pre, .example .pseudocode {
+  background: none;
+}
+
+.Quote {
+  background-color: #e1eef1;
+  font-style: italic;
+  width: 80%;
+  padding: 1.5em;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.formula {
+  background-color: #f6f6f6;
+  padding: 1.5em;
+  margin-top: 2em;
+  text-align: center;
+}
+
+.recommend .RecommendationTitle, .recommendtest .RecommendationTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+
+.require .RecommendationTitle, .requiretest .RecommendationTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+
+.permission .RecommendationTitle, .permissiontest .RecommendationTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+
+.RecommendationTestTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+
+/*
+.recommend {
+  &, .example_label {
+    background-color: #f8ffbd;
+  }
+  .example_label {
+    font-weight: bold;
+  }
+}
+
+.permission {
+  &, .example_label {
+    background-color: #cdfdbe;
+  }
+  .example_label {
+    font-weight: bold;
+  }
+}
+
+.require {
+  &, .example_label {
+    background-color: #d3e6ff;
+  }
+  .example_label {
+    font-weight: bold;
+  }
+}
+*/
+.recommend .RecommendationTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+
+.require .RecommendationTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+
+.permission .RecommendationTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+
+tbody td.recommend p.RecommendationTitle, tbody td.recommend p.RecommendationTitle, tbody td.recommend p.RecommendationTitle {
+  font-weight: normal;
+  text-align: left;
+}
+
+#myBtn {
+  font-family: "Space Mono",monospace;
+  font-variant-ligatures: none;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 12px;
+  border: none;
+  outline: none;
+  background-color: #00335b;
+  opacity: 0.15;
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px 10px 15px;
+  border-radius: 4px;
+}
+#myBtn:hover {
+  opacity: 1;
+}
+@media print {
+  #myBtn {
+    display: none;
+  }
+}
+
+a.anchorjs-link:hover {
+  background: none;
+  color: #2e81c2;
+  box-shadow: none;
+}
+
+@page {
+  margin: 2cm 1cm;
+}
+@media print {
+  h1, h2, h3, h4, .h1, .h2, .h3, .h4 {
+    page-break-after: avoid;
+    margin-top: 1.2em;
+  }
+  h1, .h1 {
+    font-size: 1.5em;
+    line-height: 1.5;
+  }
+  h1.content, .h1.content {
+    margin-top: 2em;
+    line-height: 2.5em;
+  }
+  h2, .h2 {
+    font-size: 1.2em;
+  }
+  h3, .h3 {
+    font-size: 1em;
+  }
+  .prefatory-section {
+    page-break-before: always;
+  }
+  .note, .pseudocode {
+    page-break-inside: avoid;
+  }
+  .Note {
+    background-color: #fff495;
+    color: #47430c;
+    padding: 5px;
+    margin: 2em 0 1em 0;
+  }
+  .Note p {
+    padding: 0 5px 0 5px;
+  }
+  nav {
+    line-height: 1;
+  }
+}
+/* Footnotes */
+a.footnote-number {
+  vertical-align: super;
+  font-size: 0.8em;
+}
+
+.footnote {
+  font-size: 0.9em;
+}
+
+span.fmt-hi {
+  background-color: yellow;
+}
+</style><style>pre.sourcecode table td { padding: 5px; }
+pre.sourcecode table pre { margin: 0; }
+pre.sourcecode, pre.sourcecode .w {
+  color: #444444;
+}
+pre.sourcecode .cp {
+  color: #CC00A3;
+}
+pre.sourcecode .cs {
+  color: #CC00A3;
+}
+pre.sourcecode .c, pre.sourcecode .ch, pre.sourcecode .cd, pre.sourcecode .cm, pre.sourcecode .cpf, pre.sourcecode .c1 {
+  color: #1E90FF;
+}
+pre.sourcecode .kc {
+  color: #C34E00;
+}
+pre.sourcecode .kd {
+  color: #0000FF;
+}
+pre.sourcecode .kr {
+  color: #007575;
+}
+pre.sourcecode .k, pre.sourcecode .kn, pre.sourcecode .kp, pre.sourcecode .kt, pre.sourcecode .kv {
+  color: #0000FF;
+}
+pre.sourcecode .s, pre.sourcecode .sb, pre.sourcecode .sc, pre.sourcecode .ld, pre.sourcecode .sd, pre.sourcecode .s2, pre.sourcecode .se, pre.sourcecode .sh, pre.sourcecode .si, pre.sourcecode .sx, pre.sourcecode .sr, pre.sourcecode .s1, pre.sourcecode .ss {
+  color: #009C00;
+}
+pre.sourcecode .sa {
+  color: #0000FF;
+}
+pre.sourcecode .nb, pre.sourcecode .bp {
+  color: #C34E00;
+}
+pre.sourcecode .nt {
+  color: #0000FF;
+}
+</style><title>The ModSpec Model - Part 3: XML</title>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!--TOC script import-->
+<script type="text/javascript" src="https://cdn.rawgit.com/jgallen23/toc/0.3.2/dist/toc.min.js"></script>
+<script type="text/javascript">function toclevel() { return "h1:not(:empty):not(.TermNum):not(.noTOC),h2:not(:empty):not(.TermNum):not(.noTOC)";}
+</script>
+
+<!--Google fonts-->
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i|Space+Mono:400,700" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Overpass:300,300i,600,900" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Teko:300,400,500" rel="stylesheet" />
+
+<!--Font awesome import for the link icon-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous" />
+<style class="anchorjs"></style>
+<meta name="keywords" content="ogcdoc, OGC document, modspec, modular, requirements, testing, part3, xml" /><meta name="DC.subject" lang="en" content="ogcdoc, OGC document, modspec, modular, requirements, testing, part3, xml" xml:lang="en" /><meta name="DC.date" content="##" /><meta name="DC.title" lang="en" content="The ModSpec Model - Part 3: XML" xml:lang="en" /><link rel="profile" href="http://dublincore.org/documents/2008/08/04/dc-html/" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.language" content="en" />
+<meta name="DC.rights" lang="en" content="CC-BY-4.0" xml:lang="en" />
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<link rel="DCTERMS.license" href="https://www.ogc.org/license" />
+</head><body lang="EN-US" link="blue" vlink="#954F72" xml:lang="EN-US" class="container"><div class="title-section"><div class="document-stage-band" id="approved-band">
+    <p class="document-stage">Approved</p>
+</div>
+
+<div class="document-type-band" id="standard-band">
+    <p class="document-type">OGC Standard</p>
+</div>
+
+
+
+  <div id="toggle"> <span>•</span> </div>
+
+  <header>
+
+<!--<div class="WordSection1">-->
+  <div class="coverpage">
+    <div class="wrapper-top">
+
+  <div class="coverpage-doc-identity">
+
+    <div class="coverpage-title">
+      <span class="title-first">The ModSpec Model - Part 3: XML</span>
+      <!--<span class="title-second"></span>-->
+    </div>
+  </div>
+
+  <div class="coverpage-logo">
+    <span><svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 1024.8 354.8" preserveaspectratio="xMidYMin slice">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g>
+    <path class="cls-1" d="M270.5,73.63l-.36-.21-26.46-15.45-.27-.17-26.56-15.5-.18-.1-26.64-15.55-.09-.05-11.7-6.83c-9.29-5.42-20.77-5.42-30.06,0l-11.71,6.83-.09.05-26.64,15.55-.18.1-26.56,15.5-.26.16-26.47,15.46-.36.21-14.61,8.53c-5.26,3.07-5.26,10.66,0,13.73l14.61,8.53.35.21,26.48,15.46.26.14,26.56,15.51.18.1,26.64,15.55.09.05,11.7,6.83c9.29,5.42,20.78,5.42,30.06,0l11.7-6.83.09-.05,26.64-15.55.18-.1,26.56-15.51.27-.16,26.47-15.45.35-.21,14.61-8.53c5.26-3.07,5.26-10.66,0-13.73l-14.61-8.53ZM216.85,104.53l-.18.1-26.64,15.55-.09.05-19.21,11.22c-4.64,2.71-10.39,2.71-15.03,0l-19.22-11.22-.09-.05-26.64-15.55-.18-.1-20.68-12.07c-2.63-1.53-2.63-5.33,0-6.87l20.68-12.08.18-.09,26.64-15.56.09-.05,19.22-11.22c4.64-2.71,10.39-2.71,15.03,0l19.21,11.22.09.05,26.64,15.56.18.09,20.68,12.08c2.63,1.53,2.63,5.33,0,6.87l-20.68,12.07Z"></path>
+    <path class="cls-1" d="M292.88,121.08c7.95-4.64,17.94,1.1,17.94,10.3v37.1c0,2.83-1.5,5.44-3.94,6.87l-16.91,9.87c-2.65,1.55-5.98-.36-5.98-3.43v-20.83c0-1.53-1.66-2.49-2.99-1.72l-23.83,13.91-.35.21-26.47,15.45-.27.17-22.62,13.2c-2.44,1.43-3.94,4.04-3.94,6.87v85.62c0,1.53,1.66,2.49,2.99,1.72l23.57-13.77.27.17v-.32l26.47-15.45.35.21v-.41l24.85-14.51c1.22-.71,1.97-2.02,1.97-3.43v-24.37c0-2.83,1.5-5.44,3.94-6.87l16.91-9.87c2.65-1.55,5.98.37,5.98,3.43v24.29l-.53.31.53.31v23.75c0,4.24-2.25,8.16-5.92,10.3l-20.92,12.21-.43.26-26.38,15.4-.36.22-26.46,15.44-.27.17-26.56,15.5-.18.1-14.68,8.57c-5.3,3.09-11.96-.73-11.96-6.87v-137.67c0-2.83,1.5-5.44,3.94-6.87l22.7-13.25.18-.1,26.56-15.5.27-.17,26.46-15.44.36-.22,26.37-15.4.45-.26,8.89-5.19Z"></path>
+    <path class="cls-1" d="M123.05,235.69l.18.09,22.7,13.26c2.44,1.43,3.94,4.04,3.94,6.87v75.23c0,6.14-6.66,9.96-11.96,6.87-29.06-16.97-116.24-67.86-116.24-67.86-3.66-2.14-5.91-6.06-5.91-10.3v-128.46c0-9.21,9.99-14.94,17.94-10.3l8.88,5.18.45.26,26.37,15.4.36.22,26.47,15.45.26.16,26.56,15.5.18.1,22.7,13.25c2.44,1.43,3.94,4.04,3.94,6.87v19.73c0,3.07-3.33,4.98-5.98,3.43l-20.66-12.06-.18-.1-26.56-15.5-.26-.16-26.48-15.46-.35-.21-23.83-13.91c-1.33-.77-2.99.18-2.99,1.72v86.77c0,2.12,1.13,4.08,2.96,5.15l23.86,13.93.35.21,26.48,15.46.26.15,23.57,13.77c1.33.77,2.99-.18,2.99-1.72v-25.47c0-1.41-.75-2.72-1.97-3.43l-20.91-12.2c-2.44-1.43-3.94-4.04-3.94-6.87v-19.72c0-3.07,3.33-4.98,5.98-3.43l20.84,12.17Z"></path>
+  </g>
+  <path class="cls-1" d="M460.19,117.51c-21.6,0-37.47-15.77-37.47-36.96s15.87-36.96,37.47-36.96,37.37,15.77,37.37,36.96-15.77,36.96-37.37,36.96ZM485.78,80.55c0-14.64-10.85-25.7-25.59-25.7s-25.59,11.16-25.59,25.7,10.95,25.7,25.59,25.7c14.74-.1,25.59-10.95,25.59-25.7Z"></path>
+  <path class="cls-1" d="M539.12,59.97c16.38,0,28.36,12.29,28.36,28.77s-11.98,28.77-28.36,28.77c-7.06,0-13.31-2.46-18.22-6.65v24.98h-11.26V61.2h7.68l2.05,6.76c4.91-5.02,11.88-7.99,19.76-7.99ZM556.01,88.74c0-10.34-7.47-18.02-17.81-18.02s-18.02,7.78-18.02,18.02,7.58,18.02,18.02,18.02,17.81-7.68,17.81-18.02Z"></path>
+  <path class="cls-1" d="M631.47,88.85c0,1.33-.1,2.46-.31,3.79h-44.43c1.43,8.91,7.78,14.33,16.79,14.33,6.55,0,11.88-2.97,14.74-7.99h11.88c-4.4,11.57-14.33,18.63-26.62,18.63-16.07,0-28.15-12.49-28.15-28.77s12.18-28.77,28.15-28.77c16.18-.1,27.95,12.8,27.95,28.77ZM587.14,83.42h33.07c-2.05-8.29-8.29-13.21-16.69-13.21s-14.44,5.02-16.38,13.21Z"></path>
+  <path class="cls-1" d="M672.42,60.08c12.8,0,20.78,9.62,20.78,23.04v33.07h-11.26v-30.71c0-9.93-4.3-15.25-12.59-15.25s-14.74,6.86-14.74,16.59v29.38h-11.26v-54.98h7.88l2.25,7.68c4.2-5.43,10.95-8.8,18.94-8.8Z"></path>
+  <path class="cls-1" d="M495,178.12c-.2,21.81-14.95,37.47-35.83,37.47s-36.34-15.56-36.34-36.96,15.25-36.75,36.04-36.75c17.3,0,31.84,10.85,35.01,26.41h-12.08c-3.07-9.21-11.98-15.15-22.73-15.15-14.33,0-24.47,10.54-24.47,25.49s9.83,25.49,24.47,25.49c11.36,0,20.58-6.45,23.14-16.07h-25.39v-9.93h38.19Z"></path>
+  <path class="cls-1" d="M559.29,186.92c0,1.33-.1,2.46-.2,3.79h-44.53c1.43,8.91,7.78,14.33,16.79,14.33,6.55,0,11.88-2.97,14.74-7.99h11.88c-4.4,11.57-14.33,18.63-26.62,18.63-16.07,0-28.15-12.49-28.15-28.77s12.18-28.77,28.15-28.77c16.07-.1,27.95,12.69,27.95,28.77ZM514.96,181.5h33.07c-2.05-8.29-8.29-13.21-16.69-13.21-8.29-.2-14.64,5.02-16.38,13.21Z"></path>
+  <path class="cls-1" d="M596.56,215.49c-16.69,0-29.18-12.29-29.18-28.77s12.49-28.77,29.18-28.77,29.28,12.29,29.28,28.77-12.59,28.77-29.28,28.77ZM614.37,186.82c0-10.54-7.47-18.02-17.81-18.02s-17.81,7.47-17.81,18.02,7.47,18.02,17.81,18.02c10.34-.1,17.81-7.58,17.81-18.02Z"></path>
+  <path class="cls-1" d="M633.62,196.75h10.95c.2,5.84,5.12,8.8,11.77,8.8,6.04,0,10.75-2.56,10.75-7.17,0-5.22-5.84-6.35-12.59-7.47-9.21-1.54-19.96-3.58-19.96-16.28,0-9.83,8.5-16.59,21.19-16.59s20.99,6.96,21.19,17.61h-10.75c-.31-5.22-4.1-7.99-10.75-7.99-6.25,0-10.14,2.56-10.14,6.65,0,4.81,5.53,5.84,12.18,6.86,9.32,1.54,20.48,3.38,20.48,16.79,0,10.65-8.91,17.61-22.22,17.61-13-.1-21.81-7.47-22.11-18.84Z"></path>
+  <path class="cls-1" d="M719.82,158.05c16.48,0,28.36,12.29,28.36,28.77s-12.08,28.77-28.36,28.77c-7.06,0-13.31-2.46-18.22-6.65v24.88h-11.26v-74.53h7.68l2.05,6.76c5.02-5.02,11.88-7.99,19.76-7.99ZM736.71,186.82c0-10.34-7.47-18.02-17.81-18.02s-18.02,7.78-18.02,18.02,7.68,18.02,18.02,18.02,17.81-7.68,17.81-18.02Z"></path>
+  <path class="cls-1" d="M814.72,159.28v54.77h-9.01l-1.13-6.76c-4.91,5.02-11.88,7.99-19.86,7.99-16.28,0-28.46-12.29-28.46-28.77s12.18-28.77,28.46-28.77c7.99,0,14.95,3.07,20.07,8.19l1.33-6.86,8.6.2ZM803.46,186.82c0-10.34-7.47-18.02-17.81-18.02s-18.02,7.78-18.02,18.02,7.68,18.02,18.02,18.02c10.24-.2,17.81-7.78,17.81-18.02Z"></path>
+  <path class="cls-1" d="M861.41,203.92v10.24h-8.4c-11.98,0-19.45-7.37-19.45-19.55v-25.7h-9.83v-2.25l19.04-20.37h1.95v12.8h16.28v9.73h-16.18v24.78c0,6.65,3.58,10.24,10.24,10.24h6.35v.1Z"></path>
+  <path class="cls-1" d="M872.16,139.21h11.67v11.67h-11.67v-11.67ZM872.46,159.28h11.26v54.77h-11.26v-54.77Z"></path>
+  <path class="cls-1" d="M954.16,159.28v54.77h-9.01l-1.13-6.76c-4.91,5.02-11.88,7.99-19.96,7.99-16.28,0-28.46-12.29-28.46-28.77s12.18-28.77,28.46-28.77c7.99,0,15.05,3.07,20.07,8.19l1.33-6.86,8.7.2ZM942.9,186.82c0-10.34-7.47-18.02-17.81-18.02s-18.02,7.78-18.02,18.02,7.68,18.02,18.02,18.02c10.34-.2,17.81-7.78,17.81-18.02Z"></path>
+  <path class="cls-1" d="M970.23,139.62h11.26v74.53h-11.26v-74.53Z"></path>
+  <path class="cls-1" d="M422.82,276.71c0-21.29,15.56-36.75,36.45-36.75,16.79,0,30.3,10.44,33.99,26.52h-11.77c-3.38-9.42-11.67-15.15-22.22-15.15-14.23,0-24.67,10.75-24.67,25.49s10.44,25.49,24.67,25.49c10.85,0,19.25-6.04,22.42-16.18h11.77c-3.79,16.69-17.2,27.44-34.3,27.44-20.78-.1-36.34-15.77-36.34-36.86Z"></path>
+  <path class="cls-1" d="M530.11,313.46c-16.69,0-29.28-12.29-29.28-28.77s12.59-28.77,29.28-28.77,29.18,12.29,29.18,28.77c.1,16.59-12.39,28.77-29.18,28.77ZM547.93,284.69c0-10.54-7.47-18.02-17.81-18.02s-17.81,7.47-17.81,18.02,7.47,18.02,17.81,18.02,17.81-7.47,17.81-18.02Z"></path>
+  <path class="cls-1" d="M600.45,256.13c12.8,0,20.78,9.62,20.78,23.04v33.07h-11.26v-30.71c0-9.93-4.3-15.25-12.59-15.25s-14.74,6.86-14.74,16.59v29.38h-11.26v-54.87h7.88l2.25,7.68c3.99-5.63,10.75-8.91,18.94-8.91Z"></path>
+  <path class="cls-1" d="M632.39,294.83h10.95c.2,5.84,5.12,8.8,11.77,8.8,6.04,0,10.75-2.56,10.75-7.17,0-5.22-5.84-6.35-12.59-7.47-9.21-1.54-19.96-3.58-19.96-16.28,0-9.83,8.5-16.59,21.19-16.59s20.99,6.96,21.19,17.61h-10.75c-.31-5.22-4.1-7.99-10.75-7.99-6.25,0-10.14,2.56-10.14,6.65,0,4.81,5.53,5.84,12.18,6.86,9.32,1.54,20.48,3.38,20.48,16.79,0,10.65-8.91,17.61-22.22,17.61-13.21-.2-21.91-7.47-22.11-18.84Z"></path>
+  <path class="cls-1" d="M714.29,313.46c-16.69,0-29.28-12.29-29.28-28.77s12.59-28.77,29.28-28.77,29.18,12.29,29.18,28.77c.1,16.59-12.39,28.77-29.18,28.77ZM732.1,284.69c0-10.54-7.47-18.02-17.81-18.02s-17.81,7.47-17.81,18.02,7.47,18.02,17.81,18.02,17.81-7.47,17.81-18.02Z"></path>
+  <path class="cls-1" d="M786.67,256.95v10.65h-5.94c-9.32,0-13.92,5.32-13.92,15.25v29.28h-11.26v-54.77h7.58l1.95,7.47c3.89-5.22,9.32-7.78,16.79-7.78l4.81-.1Z"></path>
+  <path class="cls-1" d="M826.29,301.89v10.24h-8.4c-11.98,0-19.35-7.37-19.35-19.55v-25.7h-9.83v-2.25l19.04-20.37h1.95v12.8h16.28v9.73h-16.18v24.78c0,6.65,3.58,10.24,10.24,10.24h6.25v.1Z"></path>
+  <path class="cls-1" d="M836.94,237.19h11.67v11.67h-11.67v-11.67ZM837.25,257.26h11.26v54.77h-11.26v-54.77Z"></path>
+  <path class="cls-1" d="M863.66,288.99v-31.74h11.26v30.1c0,9.62,5.22,15.25,13.72,15.25s13.62-5.84,13.62-15.25v-30.1h11.26v31.74c0,14.74-9.73,24.47-24.88,24.47s-24.98-9.73-24.98-24.47Z"></path>
+  <path class="cls-1" d="M989.69,256.13c11.47,0,19.35,8.8,19.35,21.29v34.81h-11.26v-32.15c0-8.8-3.89-13.82-10.65-13.82-7.27,0-12.8,6.65-12.8,15.97v30.1h-10.85v-32.15c0-8.8-3.79-13.82-10.65-13.82-7.27,0-12.9,6.65-12.9,15.97v30.1h-11.26v-55.08h7.99l1.95,7.17c4.1-5.22,10.34-8.29,17.1-8.29,7.37,0,13.31,3.58,16.38,9.62,3.79-6.14,10.54-9.73,17.61-9.73Z"></path>
+</svg></span>
+  </div>
+
+  <!--
+  <div class="coverpage-tc-name">
+    <span>Technical</span>
+  </div>
+  -->
+
+  <div class="authors">
+    
+    
+    
+
+    
+    
+    <span>Carl Reed <span class="roletag">Editor</span></span>
+    
+    <span>John Herring <span class="roletag">Editor</span></span>
+    
+    
+  </div>
+
+    <div class="coverpage-metadata">
+      <span class="label">Submission Date: </span> <span class="value">2025-10-20</span>
+      <span class="label">Approval Date: </span> <span class="value">2026-03-05</span>
+      <span class="label">Publication Date: </span> <span class="value">2026-05-21</span>
+      <span class="label">External identifier of this OGC® document: <span class="docnumber value">http://www.opengis.net/doc/POL/ModSpec-part3/1.1</span></span>
+      <span class="label">Internal identifier of this OGC® document: <span class="docnumber value">24-066r1</span></span>
+      
+      
+    </div>
+
+    <div class="coverpage-alt-formats">
+      
+      <span class="label">Version: </span> <span class="value">1.1</span><br />
+      
+    
+      <span class="label">Additional Formats: </span>
+      
+      
+      <span class="value"><a href="./24-066r1.pdf"><i class="far fa-file-pdf"></i>PDF</a></span>
+      
+      
+      </div>
+    
+    </div>
+
+  </div>
+
+    <div class="wrapper-top-bottom"></div>
+
+  <div class="WordSection11">
+  <div class="coverpage-stage-block">
+    <span class="coverpage-stage" id="standard">OGC Standard</span>
+  </div>
+
+  <div class="coverpage-stage-block">
+    <p><span class="coverpage-maturity" id="approved">Approved</span></p>
+  </div>
+</div>
+
+  <div class="coverpage-warning">
+    <div class="boilerplate-legal">
+
+<div id="_3cc6ff6c-e690-5288-92ca-f91e83434633"><h1 class="IntroTitle"><a class="anchor" href="#_3cc6ff6c-e690-5288-92ca-f91e83434633"></a><a class="header" href="#_3cc6ff6c-e690-5288-92ca-f91e83434633">Notice</a></h1>
+
+<p id="_3dee3cc3-7a55-e571-5aa0-115dce238c68">This document is an OGC Member approved international standard. This document is available on a royalty free, non-discriminatory basis. Recipients of this document are invited to submit, with their comments, notification of any relevant patent rights of which they are aware and to provide supporting documentation.</p>
+</div>
+</div>
+ </div>
+         
+
+
+<div class="docstage-box">
+  <table>
+    <tr><td>Document number:</td><td>24-066r1</td></tr>
+    <tr><td>Document type:</td><td>OGC Standard</td></tr>
+    <tr><td align="right">Document subtype:</td><td align="right">Implementation</td></tr>
+    <tr><td align="right">Document stage:</td><td align="right">Approved</td></tr>
+    <tr><td align="right">Document language:</td><td align="right">English</td></tr>
+  </table>
+</div>
+
+<div class="info-section">
+<div class="copyright">
+  <div class="boilerplate-copyright">
+
+<div id="_2cd773fc-8495-2dfa-91a1-d57da3fc5833"><h1 class="IntroTitle"><a class="anchor" href="#_2cd773fc-8495-2dfa-91a1-d57da3fc5833"></a><a class="header" href="#_2cd773fc-8495-2dfa-91a1-d57da3fc5833">Copyright notice</a></h1>
+
+<p id="_f3c4258f-6b29-424c-cd01-337c0e916a04" style="text-align:center;">Copyright © 2026 Open Geospatial Consortium<br /> To obtain additional rights of use, visit <a href="https://www.ogc.org/legal">https://www.ogc.org/legal</a></p>
+</div>
+
+<div id="_6908548e-204b-56e7-9062-6924cccf2315"><h1 class="IntroTitle"><a class="anchor" href="#_6908548e-204b-56e7-9062-6924cccf2315"></a><a class="header" href="#_6908548e-204b-56e7-9062-6924cccf2315">Note</a></h1>
+
+<p id="_e1d5d5c4-54c3-2761-be2c-22547f01c057" style="text-align:left;">Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. The Open Geospatial Consortium shall not be held responsible for identifying any or all such patent rights.</p>
+
+<p id="_02892e94-7b43-630a-129c-d2e0f75ff92b" style="text-align:left;">Recipients of this document are requested to submit, with their comments, notification of any relevant patent claims or other intellectual property rights of which they may be aware that might be infringed by any implementation of the standard set forth in this document, and to provide supporting documentation.</p>
+</div>
+</div>
+</div>
+
+<div class="rule"></div>
+</div>
+  </header>
+</div><br /><div class="prefatory-section"><div class="license">
+  <div class="boilerplate-license">
+
+<div id="_45f6bdf5-80f3-f775-9740-2adafc90b1f7"><h1 class="IntroTitle"><a class="anchor" href="#_45f6bdf5-80f3-f775-9740-2adafc90b1f7"></a><a class="header" href="#_45f6bdf5-80f3-f775-9740-2adafc90b1f7">License Agreement</a></h1>
+
+<p id="_772872dd-928c-666f-92c5-676f7f5d3071">Use of this document is subject to the license agreement at <a href="https://www.ogc.org/license">https://www.ogc.org/license</a></p>
+</div>
+</div>
+
+
+<div class="boilerplate-feedback">
+
+<div id="boilerplate-standard-feedback"><p id="_cb0581b2-acf2-995c-21c5-080c40d2dfd0">Suggested additions, changes and comments on this document are welcome and encouraged. Such suggestions may be submitted using the online change request form on OGC web site: <a href="http://ogc.standardstracker.org/">http://ogc.standardstracker.org/</a></p>
+</div>
+</div>
+
+
+</div>
+
+<nav>
+  <div id="toc"><h1 class="IntroTitle"><a class="anchor" href="#_13d7055e-30fc-845a-c60e-8972faf092d9"></a><a class="header" href="#_13d7055e-30fc-845a-c60e-8972faf092d9">Contents</a></h1><ul><li class="h1"><a href="#_fc7f2268-4d6a-be59-b21b-230dd9457423">      
+  
+  I.  Keywords
+</a></li>
+<li class="h1"><a href="#_af3af9d3-8814-8619-a533-577fc44e16fe">      
+  
+  II.  Preface
+</a></li>
+<li class="h1"><a href="#_38aa2e08-cfda-4f3e-dd4a-c3aa0ba22154">      
+  
+  III.  Security considerations
+</a></li>
+<li class="h1"><a href="#_829aa1a6-3260-4c3f-6054-ec09a220be4e">      
+  
+  IV.  Submitting Organizations
+</a></li>
+<li class="h1"><a href="#_8d8eacc5-ed21-b35c-e4af-5ce5f08a4217">      
+  
+  V.  Document terms and definitions
+</a></li>
+<li class="h1"><a href="#_f670350d-17c7-8a48-7101-21846b7fbe8f">      
+  
+  VI.  Document editors
+</a></li>
+<li class="h1"><a href="#_b9a82660-c794-5d99-9a3b-462b70bb35b3">      
+  
+  VII.  Document Contributors
+</a></li>
+<li class="h1"><a href="#_ae357111-1eea-f9fa-e2be-8f8d296b0563">      
+  
+  VIII.  Submitting organizations
+</a></li>
+<li class="h1"><a href="#_663586bf-de6a-e492-bae0-42c0737f4213">      
+  
+  IX.  Revision history
+</a></li>
+<li class="h1"><a href="#_5a6ec8c5-b16c-08f7-be9e-4af013d4e9f9">      
+  
+  X.  Foreword
+</a></li>
+<li class="h1"><a href="#_706e3527-3697-6c7c-4980-fe5f48712ee9">      
+  
+  1.  Scope
+</a></li>
+<li class="h2"><a href="#introduction">      
+  
+  1.1.  Introduction
+</a></li>
+<li class="h1"><a href="#_db169bfe-45b1-7755-c00d-7bcf09a10fe6">      
+  
+  2.  Conformance
+</a></li>
+<li class="h1"><a href="#_af5778e2-1a38-4a21-ab25-3b438cd262c8">      3.  Normative references</a></li>
+<li class="h1"><a href="#cls-4">      
+  
+  4.  Terms and definitions
+</a></li>
+<li class="h1"><a href="#_61369b94-ec5c-dd2f-904a-56af1411f257">      
+  
+  6.  Conventions
+</a></li>
+<li class="h2"><a href="#_f556ec27-4c69-b2e7-d0a1-6762a980f08d">      
+  
+  6.1.  Symbols (and abbreviated terms)
+</a></li>
+<li class="h2"><a href="#_4f0f7c97-caea-14f2-3af6-74fb95472bce">      
+  
+  6.2.  Identifiers
+</a></li>
+<li class="h2"><a href="#_1c1752f2-5abf-a5bd-6a0a-7e419e1df8be">      
+  
+  6.3.  Abbreviated terms
+</a></li>
+<li class="h2"><a href="#cls-5-3">      
+  
+  6.4.  Finding requirements and recommendations
+</a></li>
+<li class="h1"><a href="#cls-6">      
+  
+  7.  Requirements Class: Part 2: XML
+</a></li>
+<li class="h2"><a href="#_ef0683ef-8108-acdc-8450-23a7e88131c5">      
+  
+  7.1.  The ModSpec and the “Form” of a standard
+</a></li>
+<li class="h1"><a href="#annex-A-1">      
+  
+  8.  Conformance test class: XML schema
+</a></li>
+<li class="h2"><a href="#_5082dc58-233b-825d-8a8f-51622accc612">      
+  
+  8.1.  Dependency on Core
+</a></li>
+<li class="h2"><a href="#_60fbd688-26f0-0148-1f07-5527c685a22b">      
+  
+  8.2.  Dependency on W3C XML schema
+</a></li>
+<li class="h2"><a href="#_7ea717c6-686f-daff-5aeb-f764facf4098">      
+  
+  8.3.  A requirements class corresponds to a single XML namespace
+</a></li>
+<li class="h2"><a href="#_0e3316c8-ce71-5d4d-70b8-01ba0b3ae538">      
+  
+  8.4.  A reference to the URI of the test suite in AppInfo
+</a></li>
+<li class="h2"><a href="#_71fd98a0-e80b-9b14-1c13-bea7b3a738de">      
+  
+  8.5.  Direct dependencies become schema imports
+</a></li>
+<li class="h2"><a href="#_5bd2c7ee-5d0c-8dd2-42c1-77abf85ec5aa">      
+  
+  8.6.  No requirements class modifies or redefines elements in another namespace
+</a></li>
+<li class="h1"><a href="#annex-A-2">      
+  
+  9.  Conformance test class: Schematron
+</a></li>
+<li class="h2"><a href="#_ba7eaac0-b10e-b507-0dfd-3e091f400343">      
+  
+  9.1.  Dependency on XML Schema conformance test class
+</a></li>
+<li class="h2"><a href="#_89ad6c2d-ddbb-cabf-dc0d-f3c39e842e40">      
+  
+  9.2.  Each schematron pattern element implements one requirement
+</a></li>
+<li class="h2"><a href="#_78a74369-e16d-e9de-040f-9bdec233efd6">      
+  
+  9.3.  Each schematron pattern is in one schematron element
+</a></li>
+<li class="h2"><a href="#_fe177040-75e3-6839-2b0a-5372880f7d81">      
+  
+  9.4.  Each schematron @fpi attribute is used only once
+</a></li>
+<li class="h2"><a href="#_de01e817-4ce2-cbba-8767-a52626b89fe7">      
+  
+  9.5.  Each schematron @see attribute is used only once
+</a></li>
+<li class="h2"><a href="#_cfd31813-2e75-002d-ef56-244beb27b607">      
+  
+  9.6.  Each schematron fpi attribute is used only once
+</a></li>
+<li class="h1"><a href="#annex-A-3">      
+  
+  10.  Conformance Class: XML meta-schema
+</a></li>
+<li class="h2"><a href="#_7934c3a8-d9a3-ca4a-91fd-9f68e7ea6b45">      
+  
+  10.1.  Supports the Specification class
+</a></li>
+<li class="h2"><a href="#_60805fe7-0669-18db-67ea-f3175a2f6a10">      
+  
+  10.2.  Each XML schema is conformant with the XML Schema class
+</a></li></ul></div>
+
+</nav>
+
+
+<div class="rule toc"></div>
+</div><br /><main class="main-section"><button onclick="topFunction()" id="myBtn" title="Go to top">Top</button><div class="authority">
+
+
+
+
+
+
+</div><br /><div class="Section3" id="_fc7f2268-4d6a-be59-b21b-230dd9457423"><h1 class="IntroTitle" id="_a1494e79-de62-4eaa-935f-7574509275eb"><a class="anchor" href="#_fc7f2268-4d6a-be59-b21b-230dd9457423"></a><a class="header" href="#_fc7f2268-4d6a-be59-b21b-230dd9457423">I.  Keywords</a></h1><p>The following are keywords to be used by search engines and document catalogues.</p><p>ogcdoc, OGC document, modspec, modular, requirements, testing, part3, xml</p></div><br /><div id="_af3af9d3-8814-8619-a533-577fc44e16fe"><h1 class="ForewordTitle" id="_16a6096b-40e3-4ae5-8ed1-20fbcc063028"><a class="anchor" href="#_af3af9d3-8814-8619-a533-577fc44e16fe"></a><a class="header" href="#_af3af9d3-8814-8619-a533-577fc44e16fe">II.  Preface</a></h1><p id="_0ca2cad6-a25a-1fcf-97f6-61cbdcc74bcd">This Open Geospatial Consortium (OGC) member developed and approved document, referred to as the <tt>ModSpec: Part 3</tt>, defines an optional requirements class for the XML model extension the ModSpec core.</p><p id="_cd3c6031-bf42-6dac-08c2-86301cd4dfdc">The ModSpec: Core Standard defines a model and related requirements and recommendations for writing and structuring modular standards documents. Further, this model is designed to enable consistent and verifiable testing of implementations of a standard that claim conformance. The ModSpec is a meta-standard: A standard specifying requirements for crafting and documenting modular and testable standards.</p><p id="_5dbf6975-c0c6-f2aa-e2ae-05cbe6c15452">The goals of using the ModSpec are:</p><div class="ul_wrap"><ul id="_987dd176-5c68-2925-2748-928a6b691bc9"><li id="_0a57b6f2-9d51-68bd-eb00-2f9e51e53256"><p id="_4bd965f8-e359-b081-c56f-38fc720538f1">To define characteristics and a structure for the development of modular standards which will minimize the difficulty in writing testable standards while maximizing usability and interoperability; and</p>
+</li>
+<li id="_7bdafc0c-5d85-384c-229e-7ae46b3ce0b7"><p id="_51b16886-5101-dc63-8a9d-e86f4c19da49">To ensure that a standard specifies requirements in a common and consistent manner and that these requirements are testable.</p>
+</li>
+</ul></div><p id="_54dc6324-47c9-814e-3427-f484e871261c">Suggested additions, changes, and comments on this document are welcome and encouraged. Such suggestions may be submitted by creating an issue in the GitHub repository for this document (<a href="https://github.com/opengeospatial/ogc-modspec">https://github.com/opengeospatial/ogc-modspec</a>).</p></div><div class="Section3" id="_38aa2e08-cfda-4f3e-dd4a-c3aa0ba22154"><h1 class="IntroTitle" id="_4504bb53-644d-4548-813e-dcbfbdd5193a"><a class="anchor" href="#_38aa2e08-cfda-4f3e-dd4a-c3aa0ba22154"></a><a class="header" href="#_38aa2e08-cfda-4f3e-dd4a-c3aa0ba22154">III.  Security considerations</a></h1><p id="_c05c3b95-6ea8-ab43-08b2-62986ef4e4f6">No security considerations have been made for this document.</p></div><div class="Section3" id="_829aa1a6-3260-4c3f-6054-ec09a220be4e"><h1 class="IntroTitle" id="_ee304039-2463-4cab-a12a-00ebfb47b752"><a class="anchor" href="#_829aa1a6-3260-4c3f-6054-ec09a220be4e"></a><a class="header" href="#_829aa1a6-3260-4c3f-6054-ec09a220be4e">IV.  Submitting Organizations</a></h1><p>The following organizations submitted this Document to the Open Geospatial Consortium (OGC):</p><div class="ul_wrap"><ul id="_b4d257fa-0b3e-782a-3868-ace1270e7290"><li id="_78dbd503-f098-a646-9bb9-5211465c052f">Carl Reed  Associates</li>
+<li id="_ec41c0b1-7f91-a607-c5e3-b2790e1a052f">Heazeltech</li>
+<li id="_271010b3-58af-00c8-6929-9a71c9eb1a79">Tepa Enterprise Solutions (ImageMatters)</li>
+<li id="_148cf6f1-b05a-a455-e6bc-6c941a15c6af">The Danish Agency for Climate Data</li>
+<li id="_3a1faf55-110b-5d75-fd8d-faa553b5c26f">UK Met Office</li></ul></div></div><div class="Section3" id="_8d8eacc5-ed21-b35c-e4af-5ce5f08a4217"><h1 class="IntroTitle" id="_ab2d13bd-599c-4116-aa23-73e0b0dc2584"><a class="anchor" href="#_8d8eacc5-ed21-b35c-e4af-5ce5f08a4217"></a><a class="header" href="#_8d8eacc5-ed21-b35c-e4af-5ce5f08a4217">V.  Document terms and definitions</a></h1><p id="_9a61a52b-7c61-31f3-a1b5-a4b07f876009">This document uses the standard terms defined in Subclause 5.3 of [OGC 05-008], which is based on the ISO/IEC Directives, Part 2. Rules for the structure and drafting of International Standards. In particular, the word “shall” (not “must”) is the imperative verb form used to indicate a requirement to be strictly followed to conform to this standard.</p></div><div class="Section3" id="_f670350d-17c7-8a48-7101-21846b7fbe8f"><h1 class="IntroTitle" id="_5d71d924-51d1-4050-a03b-043e4d1421b9"><a class="anchor" href="#_f670350d-17c7-8a48-7101-21846b7fbe8f"></a><a class="header" href="#_f670350d-17c7-8a48-7101-21846b7fbe8f">VI.  Document editors</a></h1><p id="_ae059110-b5fc-6f1a-8586-c837d4b4cd28">The following OGC Members participated in editing this document:</p><table id="_912d20bd-db33-9b18-3b0d-ff920da8e136" class="MsoISOTable" style="border-width:1px;border-spacing:0;"><tbody><tr><th style="font-weight:bold;text-align:center;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;" scope="row">Person</th><th style="font-weight:bold;text-align:center;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;" scope="row">Organization Represented</th></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">Carl Reed</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">Carl Reed &#x26; Associates</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.5pt;">John Herring, PhD</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.5pt;">Oracle</td></tr></tbody></table></div><div class="Section3" id="_b9a82660-c794-5d99-9a3b-462b70bb35b3"><h1 class="IntroTitle" id="_7d1fd579-d8e7-41c2-98f1-b1deb4a67048"><a class="anchor" href="#_b9a82660-c794-5d99-9a3b-462b70bb35b3"></a><a class="header" href="#_b9a82660-c794-5d99-9a3b-462b70bb35b3">VII.  Document Contributors</a></h1><p id="_08c8e35b-2ca1-4cf0-4006-626dee349778">The following OGC Members contributed and participated in developing Version 1.1 of the ModSpec.</p><table id="_0ae679bf-c1d4-1971-cebb-871601119b27" class="MsoISOTable" style="border-width:1px;border-spacing:0;"><tbody><tr><th style="font-weight:bold;text-align:center;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;" scope="row">Person</th><th style="font-weight:bold;text-align:center;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;" scope="row">Organization Represented</th></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">Carl Reed, PhD</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">Carl Reed</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">Chuck Heazel</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">Heazeltech</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.5pt;">Jeff Yutzler</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.5pt;">ImageMatters</td></tr></tbody></table></div><div class="Section3" id="_ae357111-1eea-f9fa-e2be-8f8d296b0563"><h1 class="IntroTitle" id="_f065837e-cbf4-4d24-ba7b-92d78a496b73"><a class="anchor" href="#_ae357111-1eea-f9fa-e2be-8f8d296b0563"></a><a class="header" href="#_ae357111-1eea-f9fa-e2be-8f8d296b0563">VIII.  Submitting organizations</a></h1><p id="_b67b118f-4d12-c6a0-1ca9-f56f98c925a8">The following OGC Members support the ModSpec Version 1.1 submission</p><table id="_4a1250f0-e4cb-9f10-c21e-f6cf9496a090" class="MsoISOTable" style="border-width:1px;border-spacing:0;"><tbody><tr><th style="font-weight:bold;text-align:center;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;" scope="row">Organization</th></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">Carl Reed &#x26; Associates</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;"></td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">Heazeltech</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;"></td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">ImageMatters/Tema</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">UK Met Office</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.5pt;"></td></tr></tbody></table></div><div class="Section3" id="_663586bf-de6a-e492-bae0-42c0737f4213"><h1 class="IntroTitle" id="_6b9f788d-258c-4f65-8a20-bce86144f554"><a class="anchor" href="#_663586bf-de6a-e492-bae0-42c0737f4213"></a><a class="header" href="#_663586bf-de6a-e492-bae0-42c0737f4213">IX.  Revision history</a></h1><p id="_43555043-8f95-981e-6c15-9519b09895c8">This is the second normative version of this document.</p></div><div class="Section3" id="_5a6ec8c5-b16c-08f7-be9e-4af013d4e9f9"><h1 class="IntroTitle" id="_40a38d47-62a6-454f-a2a4-5cd604cd1377"><a class="anchor" href="#_5a6ec8c5-b16c-08f7-be9e-4af013d4e9f9"></a><a class="header" href="#_5a6ec8c5-b16c-08f7-be9e-4af013d4e9f9">X.  Foreword</a></h1><p id="_a9b71cc6-2356-97f5-be79-eab8dc48d74e">The ModSpec specifies a formal structure for standards documents but does not supply specific content. This Part 3 specifies the optional XML Requirements Class.</p><p id="_1f4c33cf-ec76-adc3-aae6-a4cf108daabe"><i>Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. The Open Geospatial Consortium Inc. shall not be held responsible for identifying any or all such patent rights.</i></p><p id="_47e502f5-3aba-18cf-bff3-b7adc3807f2e"><i>Recipients of this document are requested to submit, with their comments, notification of any relevant patent claims or other intellectual property rights of which they may be aware that might be infringed by any implementation of the standard set forth in this document, and to provide supporting documentation.</i></p></div><div id="_706e3527-3697-6c7c-4980-fe5f48712ee9"><h1 id="_5d5e20d5-c965-4e67-9d31-23312ab23701"><a class="anchor" href="#_706e3527-3697-6c7c-4980-fe5f48712ee9"></a><a class="header" href="#_706e3527-3697-6c7c-4980-fe5f48712ee9">1.  Scope</a></h1><p id="_19c7f0b2-421b-8a47-9f6f-363235b12044">The OGC ModSpec Standard defines characteristics and structure for the specification of Standards that will encourage implementation by minimizing difficulty determining requirements, mimicking implementation structure and maximizing usability and interoperability. Part 3 of the ModSpec defines the requirements for using XML. The XML related requirements classes cover any standard which has as one of its purposes the introduction of a new XML schema. Such a standard would normally define the schema, all of its components, and its intended uses.</p><div id="introduction"><h2 id="_3efe86d2-68bd-4f31-ab13-23a44582f3f0"><a class="anchor" href="#introduction"></a><a class="header" href="#introduction">1.1.  Introduction</a></h2>
+
+<div id="_9f1c6f53-8768-fc71-9539-f8fd020d0c4b"><h3><a class="anchor" href="#_9f1c6f53-8768-fc71-9539-f8fd020d0c4b"></a><a class="header" href="#_9f1c6f53-8768-fc71-9539-f8fd020d0c4b">1.1.1.  Semantics</a></h3>
+
+<p id="_6ac36438-ef24-bf3b-e30a-7bee1224d220">The ModSpec Core Standard defines requirements for conformance to the ModSpec, but testing for that conformance may depend on how the various forms and parts of a conformant standard are viewed. The ModSpec Part 3 Standard specifies how those views are to be defined as XML.</p>
+
+<p id="_d8240261-8815-7356-477b-0481a0bd661e">As suggested in Clause Requirement 8 of the ModSpec Core, the structure of the normative clauses in a standard should parallel the structure of the conformance test classes in that standard. The structure of the normative clauses in a well written standard will follow the structure of its model. This means that all three are parallel.</p>
+</div>
+
+<div id="_2c9f1ae2-1983-b1ce-edd3-caf4ab6e0b7d"><h3><a class="anchor" href="#_2c9f1ae2-1983-b1ce-edd3-caf4ab6e0b7d"></a><a class="header" href="#_2c9f1ae2-1983-b1ce-edd3-caf4ab6e0b7d">1.1.2.  ModSpec document structure</a></h3>
+
+<p id="_00d35a29-7678-54f3-fcaf-0b6c912b2ec5">Version 1.1 of the ModSpec is split into a Core standard and multiple Parts. These are:</p>
+
+<div class="ul_wrap"><ul id="_1fef1c9f-d0cd-7322-1d2c-f17687f7c833"><li id="_e22b63f3-110d-cc53-c988-2ef286af0e71"><p id="_8af69302-d5aa-c9f7-e295-9327a85fc003">Part 1: Core — contains all the core requirements and informational text that define the model and internal structure of a standard;</p>
+</li>
+<li id="_0f4ba66d-faea-2273-04ae-e0ebc73283ae"><p id="_bb441b63-6f56-b5c4-1069-49c4cec7e851">Part 2 — UML Model requirements; and</p>
+</li>
+<li id="_2a3ea79d-e4e3-5c31-beb0-4118caa938d9"><p id="_1d0d8372-fdbf-5fa0-cdb8-b59aaf3e5b77">Part 3 — XML Model and Schematron requirements.</p>
+</li>
+</ul></div>
+</div>
+</div></div><div id="_db169bfe-45b1-7755-c00d-7bcf09a10fe6"><h1 id="_36ef6bd3-73ee-4387-af48-bbd90315d086"><a class="anchor" href="#_db169bfe-45b1-7755-c00d-7bcf09a10fe6"></a><a class="header" href="#_db169bfe-45b1-7755-c00d-7bcf09a10fe6">2.  Conformance</a></h1><p id="_3ec1409a-a83a-ea3a-db58-f6d1e985a60d">Conformance to the ModSpec Part 3: XML by technical implementation standards can be tested by inspection. The test suite is in  <a href="#annex-A">[annex-A]</a>.</p><p id="_5578f171-f92c-407a-4ed5-7a253acaca16">There are two conformance classes in this document for:</p><div class="ol_wrap"><ol type="1" id="_d524183c-4e7d-1988-06f8-2dccd2ab2f5c"><li id="_fc28cab1-1ed5-be85-1aa2-368e0bc4ebec"><p id="_ddd3eedd-536d-b52f-b39a-8111a5558563">Standards using XML to state requirements, extending the core; and</p>
+</li>
+<li id="_68f71d40-dc92-9d43-c1d6-a68477b67bb9"><p id="_63099c0e-3a88-571d-2409-6f41f255165a">Standards using Schematron. This class covers any standard that uses Schematron to create patterns or constraints for an XML Schema.</p>
+</li>
+</ol></div><p id="_1130f687-4bcc-37d1-88e8-0c16b6c8c6ac">This document contains normative language and thus places requirements on conformance, or mechanism for adoption, of candidate standards to which the ModSpec applies. In particular:</p><div class="ul_wrap"><ul id="_d188fefa-9616-66d7-9bbe-5857c1c08270"><li id="_a0240834-0371-7e79-e5dd-81561a2fa2e2"><p id="_459457dc-bd80-4bbc-5798-9732f4c0c40d">The OGC ModSpec: Core specifies the core requirements which <i>SHALL</i> be met by all conformant standards; and</p>
+</li>
+<li id="_22bba9e1-8590-ad78-9509-ef5b0c3ce318"><p id="_51ea4277-a634-8a33-b02d-3e2fadae1a28">The various subclauses of <a href="#cls-6">Clause 7</a> list requirements partially derived from the core, but more specific to the conditions where the data model is expressed in XML. The XML requirements class is an extension of the Core Requirements Class presented in the ModSpec Core Standard.</p>
+</li>
+</ul></div></div><div><h1 id="_af5778e2-1a38-4a21-ab25-3b438cd262c8">3.  Normative references</h1>
+<p id="_02b1c060-f2f9-4bc4-035d-e49887f749e3">The following documents are referred to in the text in such a way that some or all of their content constitutes requirements of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.</p>
+
+
+
+
+<p id="w3c-sp1" class="NormRef">W3C: W3C xmlschema-1, <i>XML Schema Part 1: Structures Second Edition</i>. World Wide Web Consortium <a href="https://www.w3.org/TR/xmlschema-1/">https://www.w3.org/TR/xmlschema-1/</a>.</p>
+<p id="w3c-sp2" class="NormRef">W3C: W3C xmlschema-2, <i>XML Schema Part 2: Datatypes Second Edition</i>. World Wide Web Consortium <a href="https://www.w3.org/TR/xmlschema-2/">https://www.w3.org/TR/xmlschema-2/</a>.</p>
+<p id="iso19757-3" class="NormRef">International Organization for Standardization (committee): ISO/IEC 19757-3:2006, <i>Information technology — Document Schema Definition Languages (DSDL) — Part 3: Rule-based validation — Schematron</i>. International Organization for Standardization, International Electrotechnical Commission, Geneva (2006). <a href="https://www.iso.org/standard/40833.html">https://www.iso.org/standard/40833.html</a>.</p>
+</div><div id="cls-4"><h1 id="_5d4e2e52-7afb-46bd-bd91-051126e48bb2"><a class="anchor" href="#cls-4"></a><a class="header" href="#cls-4">4.  Terms and definitions</a></h1>
+<p id="_9608c37a-eaae-1098-3a4b-f705fd512d85">No terms and definitions are listed in this document.</p>
+<p id="_58b827d1-053c-7f82-223a-e1ba74bd8f10">All terms and definitions in Clause 4 of the OGC ModSpec: Core are relevant and used in this Part.</p>
+
+<p id="_f8e9eadf-aca3-9cb3-0073-925871c6904f">Terms not defined here take their meaning from computer science or from their Standard English (common US and UK) meanings.</p>
+</div><div id="_61369b94-ec5c-dd2f-904a-56af1411f257"><h1 id="_bfc28abb-6bf0-4c52-8e4e-112ceedbb613"><a class="anchor" href="#_61369b94-ec5c-dd2f-904a-56af1411f257"></a><a class="header" href="#_61369b94-ec5c-dd2f-904a-56af1411f257">6.  Conventions</a></h1><div id="_f556ec27-4c69-b2e7-d0a1-6762a980f08d"><h2 id="_59eb47f5-cd50-4397-b429-18af51ca2cee"><a class="anchor" href="#_f556ec27-4c69-b2e7-d0a1-6762a980f08d"></a><a class="header" href="#_f556ec27-4c69-b2e7-d0a1-6762a980f08d">6.1.  Symbols (and abbreviated terms)</a></h2>
+
+<p id="_f70b18fb-a8ba-fc12-f959-186ee1128b6f">All symbols used in this document are either:</p>
+
+<div class="ol_wrap"><ol type="1" id="_40058eb9-e420-1388-5ff7-63734c95e20e"><li id="_473614d1-86ce-1710-93c3-3a10c8146d8d"><p id="_1629f226-e8db-6681-d358-0ccdc6dd5891">Common mathematical symbols; or</p>
+</li>
+<li id="_e37590c3-4a84-6d46-dfce-f8ad9b96eec8"><p id="_90bb97c6-4b2f-4ebf-9771-10ed72f4f11f">UML 2 (Unified Modeling Language) as defined by OMG and accepted as a publicly available standard (PAS) by ISO in its earlier 1.3 version.</p>
+</li>
+</ol></div>
+</div><div id="_4f0f7c97-caea-14f2-3af6-74fb95472bce"><h2 id="_24d273dd-dd86-4d0f-b7d6-60bfc2d46e72"><a class="anchor" href="#_4f0f7c97-caea-14f2-3af6-74fb95472bce"></a><a class="header" href="#_4f0f7c97-caea-14f2-3af6-74fb95472bce">6.2.  Identifiers</a></h2>
+
+<p id="_a7cdf41c-8e04-a1c9-62d2-a9cf479f6c05">The normative provisions in this standard are denoted by the URI namespace</p>
+
+<p id="_15274dfe-d435-a4b4-6a1c-a8e11e405df2"><a href="https://www.opengis.net/spec/modspec-3/1.1/">https://www.opengis.net/spec/modspec-3/1.1/</a></p>
+
+<p id="_caddb9c5-e9b7-142c-a469-30c0f23b80e3">All requirements that appear in this document are denoted by partial URIs which are relative to the namespace shown above.</p>
+
+<p id="_c6a1c5a7-675d-c263-d8e9-ed9071c9b5f0">For the sake of brevity, the use of “req” in a requirement URI denotes <a href="https://www.opengis.net/spec/modspec-3/1.1/">https://www.opengis.net/spec/modspec-3/1.1/</a></p>
+
+<p id="_b392ca81-b495-8155-bf24-f963039aa4d7">An example might be:</p>
+
+<p id="_8bda6a24-8a05-31b6-df37-f62601bc6d66">/req/part3/xml</p>
+
+<p id="_0b9e1eea-5150-cb15-e51e-b6fc97bedd44">All conformance tests that appear in this document are denoted by partial URIs which are relative to the namespace shown above.</p>
+
+<p id="_1dfd6dde-ced2-3d1c-e792-431b5748a8e4">For the sake of brevity, the use of “conf” in a requirement URI denotes:</p>
+
+<p id="_2f6c2c76-b1d2-f0ac-d63f-0c3e70f9f54a"><a href="https://www.opengis.net/spec/modspec-3/1.1/">https://www.opengis.net/spec/modspec-3/1.1/</a></p>
+
+<p id="_ac0601a0-82b9-a540-3939-6097ba761949">The same convention is used for permissions (per) and recommendations (rec).</p>
+</div><div id="_1c1752f2-5abf-a5bd-6a0a-7e419e1df8be"><h2 id="_ab6dc731-1246-4665-bc2d-fe4ab32da6d7"><a class="anchor" href="#_1c1752f2-5abf-a5bd-6a0a-7e419e1df8be"></a><a class="header" href="#_1c1752f2-5abf-a5bd-6a0a-7e419e1df8be">6.3.  Abbreviated terms</a></h2>
+
+<p id="_00b9ca96-55f8-d553-7cdc-c19db9b5de08">This document uses the same abbreviations and acronyms as defined in the ModSpec Core Standard</p>
+</div><div id="cls-5-3"><h2 id="_bff0ea7d-67c4-49c8-bbe6-789c601feb98"><a class="anchor" href="#cls-5-3"></a><a class="header" href="#cls-5-3">6.4.  Finding requirements and recommendations</a></h2>
+
+<p id="_1226554b-f3e0-d3e6-b237-37bc28a0fb94">Each normative statement in the ModSpec Part 3 Standard is stated in one and only one place, in a standard format, and with a unique label, such as REQ001, REC001, or PER001. A requirement, recommendation, or permission may be repeated for clarification. The statement with the unique label is considered the official statement of the normative requirement or recommendation.</p>
+
+<p id="_5e091613-3726-29d8-5a02-34a770a1d518">In this document, all requirements are associated with tests specified in the test suite in  <a href="#annex-A">[annex-A]</a>. The reference to the requirement in the test case is done by a requirements label Recommendations are not tested although they still are documented using a standard template and have unique identifiers.</p>
+
+<p id="_ae7a240b-8921-2f4e-0089-78bdb8a79424">Requirements classes are separated into their own clauses and named, and specified according to inheritance (direct dependencies). The Conformance test classes in the test suite are similarly named to establish an explicit and link between requirements classes and conformance test classes.</p>
+</div></div><div id="cls-6"><h1 id="_9f2b802b-b39f-4c99-a19b-8dd6540ef8f3"><a class="anchor" href="#cls-6"></a><a class="header" href="#cls-6">7.  Requirements Class: Part 2: XML</a></h1><p id="_8969a305-5395-70a2-ddfa-2b5b9540a1ae">This clause defines the key concepts and requirements that represent Part 3 XML schema extension to the ModSpec Core.</p><div id="_ef0683ef-8108-acdc-8450-23a7e88131c5"><h2 id="_a030c038-2aaf-4821-86e1-4f1d74dff9a1"><a class="anchor" href="#_ef0683ef-8108-acdc-8450-23a7e88131c5"></a><a class="header" href="#_ef0683ef-8108-acdc-8450-23a7e88131c5">7.1.  The ModSpec and the “Form” of a standard</a></h2>
+
+<div id="_9826108b-93c1-3b57-2ff1-afb96df6f0c1" class="Note"><p><span class="note_label">NOTE:  </span>For OGC Standards, the assumption is that documents are in a commonly used logical form (template).</p></div>
+
+<p id="_226afb04-e44a-a947-6066-0d8eba3ccdb3">In informative sections, the use of the word “will” implies that something is an implication of a requirement. The “will” statements are not requirements but explain the consequence of requirements.</p>
+
+<p id="_2042f1df-027c-8cce-2e4e-b8f0034f8f1a">The ModSpec defines a “requirement” of a standard as an testable criterion. See the formal definition of requirement in the ModSpec Core document.</p>
+
+<div id="cls-6-1"><h3><a class="anchor" href="#cls-6-1"></a><a class="header" href="#cls-6-1">7.1.1.  Requirements class: The XML schema extension to the core</a></h3>
+
+<p id="_d448da10-2960-35df-0570-b8ee57dc2715">The XML schema extension requirements class covers any standard which has as one of its purposes the introduction of a new XML schema. Such a standard would normally define the schema, all of its components, and its intended uses.</p>
+
+<table id="xml-model-conformance-class" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:90%;table-layout:fixed;"><caption>Table 1</caption><colgroup><col style="width: 20%;" /><col style="width: 80%;" /></colgroup><tbody><tr><td colspan="2" style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;"><b>Requirements Class — XML extension to the core</b></td></tr><tr><td colspan="2" style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">/req/core/data-representation</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">Target</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">ModSpec Conformant XML Model</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">Dependency</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">OGC ModSpec Version 1.1 [25-003r1]</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">REQ001</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">/req/part3/xml/conformance-with-core</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">REQ002</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">/req/part3/xml/w3c-xml</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">REQ003</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">/req/part3/xml/single-xml-space</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">REQ004</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">/req/part3/xml/all-components-uri</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">REQ005</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">/req/part3/xml/direct-dependency</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.5pt;">REQ006</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.5pt;">/req/part3/xml/no-element-modification</td></tr></tbody></table>
+
+<p id="_de4a86c7-2844-d47a-b3c1-f5d6f67b6efe">First, by the requirements above, the extension relationship of this conformance test class to the core must be made explicit.</p>
+
+<table id="req-01" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:90%;table-layout:fixed;"><caption>Table 2</caption><colgroup><col style="width: 25%;" /><col style="width: 75%;" /></colgroup><tbody><tr><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>REQ001</b></td><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>/req/part3/xml/conformance-with-core</b><br /> An implementation passing the XML conformance test class  <i>SHALL</i> first pass the ModSpec Core conformance test class</td></tr></tbody></table>
+
+<table id="req-02" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:90%;table-layout:fixed;"><caption>Table 3</caption><colgroup><col style="width: 25%;" /><col style="width: 75%;" /></colgroup><tbody><tr><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>REQ002</b></td><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>/req/part3/xml/w3c-xml</b><br /> An implementation passing the XML schema conformance test class  <i>SHALL</i> first pass the W3C Recommendation for XML schema.</td></tr></tbody></table>
+
+<p id="_1f1c2475-cff8-cb49-6b8d-b3e7a33e2428">Each XML schema file (usually *.xsd) carries a target namespace specification, recorded in the <tt>targetNamespace</tt> attribute of the <tt>&#x3c;schema&#x3e;</tt> element in the XML representation. In its implementation, this namespace is represented by a globally unique identifier, a URI. All schema components defined with that URI as its namespace designation are part of the same module in XML schema.</p>
+
+<p id="_044d35ea-a9fa-f4fe-9a66-42674d043bcd">The XML Schema specification lists those resolution strategies for namespace and schema that a schema-aware process may use. They work in a predictable fashion independent of the choice of strategy if and only if the schemas are in a one to one correspondence to their namespace. A schema may be dependent on another schema and may contain “import” directives that load all such schemas whenever it is loaded.</p>
+
+<p id="_289775ed-ee51-4a88-0c05-0d7d943eb5ff">When a process loads a schema as defined by its namespace URI identity, it must always get a linkage to all components in that namespace. If not, then at sometime in the future, the process will fail when it finds a reference to such a component that it missed. To prevent this sort of failure, when a schema-aware process first encounters a namespace URI it must always be associated to a schema location (a file) that contains or includes all schema components having the URI as their namespace. This is referred to as the “all-components schema document”.</p>
+
+<p id="_5d5f4cff-3534-88ab-96d5-3144fcdbe145">In defining a XML schema (either completely, or partially in a standard) the fundamental component or module of XML schema is always the namespace and its associated schema, which is designated by a URI.</p>
+
+<table id="req-03" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:90%;table-layout:fixed;"><caption>Table 4</caption><colgroup><col style="width: 25%;" /><col style="width: 75%;" /></colgroup><tbody><tr><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>REQ003</b></td><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>/req/part3/xml/single-xml-space</b><br /> If a standard conformant to the XML schema conformance class defines a set of data schemas, all components (e.g., elements, attributes, types …​) associated with a single conformance test class  <i>SHALL</i> be scoped to a single XML namespace.</td></tr></tbody></table>
+
+<table id="req-04" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:90%;table-layout:fixed;"><caption>Table 5</caption><colgroup><col style="width: 25%;" /><col style="width: 75%;" /></colgroup><tbody><tr><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>REQ004</b></td><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>/req/part3/xml/all-components-uri</b><br /> The all-components schema document for an XML Schema  <i>SHALL</i> indicate the URI of the associated conformance test class in the schema/annotation/appinfo element.</td></tr></tbody></table>
+
+<p id="_3d1cbb5b-5d1f-9312-8fec-07d7f5376c50">The mechanism for dependencies may either be by importation or by inclusion of schema components.</p>
+
+<p class="SourceTitle" style="text-align:center;">Example</p><div id="_7e2fb311-9a05-c11e-11be-998a36e7e83a" class="example"><p id="_306610b4-11ae-523e-5a6e-5056420be830">In GML 3, the spatial schema (ISO 19107) and the general feature model (ISO 19109) are both satisfied by elements within the single GML namespace. A viable alternative would to have put the schema components for spatial schema and feature schema in separate namespaces.</p>
+</div>
+
+<p id="_44751d9b-aba1-1f87-2fd1-033c259c9c80">This is a choice of design, and at the level of the ModSpec, the trade-off factors cannot be prejudged because the details of such cost-benefit trade-offs are not constant. Either of the above approaches may be used.</p>
+
+<table id="req-05" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:90%;table-layout:fixed;"><caption>Table 6</caption><colgroup><col style="width: 25%;" /><col style="width: 75%;" /></colgroup><tbody><tr><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>REQ005</b></td><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>/req/part3/xml/direct dependency</b><br /> If a standard conformant to the XML schema conformance class defines a direct dependency from one requirement class to another, then a standardization target of the corresponding conformance test class  <i>SHALL</i> import a schema that has passed the associated conformance test class (dependency) or shall itself pass the associated conformance test class.</td></tr></tbody><tfoot><tr><td colspan="2" style="border-top:0pt;border-bottom:solid windowtext 1.5pt;"><div id="_2a19f091-8df4-9037-3caf-931420480310" class="Note"><p><span class="note_label">NOTE:  </span>This implies that the value of the schemaLocation on the <tt>&#x3c;import&#x3e;</tt> element will refer to the all-components schema document.</p></div></td></tr></tfoot></table>
+
+
+
+<table id="per-01" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:90%;table-layout:fixed;"><caption>Table 7</caption><colgroup><col style="width: 25%;" /><col style="width: 75%;" /></colgroup><tbody><tr><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>PER001</b></td><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>/per/part3/xml/schema-assembly</b><br /> An all-components schema document  <i>MAY</i> be assembled by inclusion of documents that describe subsets of the components associated with the conformance test class.</td></tr></tbody></table>
+
+<p id="_20971512-af4b-d2c8-3739-7ed133b75d1b">This allows schema designers to do some modularization within a namespace for
+convenience, notwithstanding the requirement for an all-components schema document.</p><div id="_6249c186-b51e-92ef-d161-9d86e2f737f2" class="Note"><p><span class="note_label">NOTE:  </span>A namespace variable is used if the requirements class is not defining a schema, but defining requirements for a schema to be the target of its conformance class. For example, GML defines requirements for application schemas, but does not a priori know the namespace of any application schema. The namespace for the application schema becomes a variable in the conformance test cases.</p></div>
+
+
+
+<table id="req-06" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:90%;table-layout:fixed;"><caption>Table 8</caption><colgroup><col style="width: 25%;" /><col style="width: 75%;" /></colgroup><tbody><tr><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>REQ006</b></td><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>/req/part3/xml/no-element-modification</b><br /> The all-components schema document for an XML Schema  <i>SHALL</i> indicate the URI of the associated conformance test class in the schema/annotation/appinfo element.</td></tr></tbody></table>
+
+<table id="per-02" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:90%;table-layout:fixed;"><caption>Table 9</caption><colgroup><col style="width: 25%;" /><col style="width: 75%;" /></colgroup><tbody><tr><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>PER002</b></td><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>/per/part3/xml/add-constraints</b><br /> Requirements may add constraints.</td></tr></tbody></table>
+
+<p id="_a59ef9cf-56dd-4ffa-9168-455bc971a59b">This allows extensions to restrict the following.</p>
+
+<div class="ol_wrap"><ol type="1" id="_875684eb-fe84-1cf8-10b5-5257c7c7e94c"><li id="_ed26ad7d-b9d6-52ac-f39b-1c37def7b056"><p id="_a0aaed21-8edd-7bb8-d071-fd5e76a7f2bd">Usage of existing elements, but only if their use was originally optional. This is similar to the rules for inheritance (such as in UML or other object models), where a class can eliminate an attribute from a superclass only if the superclass attribute includes a “0” in its multiplicity range.</p>
+</li>
+<li id="_ba0f72ec-742d-5770-4f7e-8c50948a989b"><p id="_849b9aa1-4721-6568-d4b7-ce94b55570fb">The type of existing elements, to sub-types of the original elements. This is similar to the rules for inheritance, where a class can re-define an attribute or association role from a superclass so that its type or class is a specialization of the original.</p>
+</li>
+</ol></div>
+
+<p id="_ccc71cb8-f5c5-d451-1f10-651e3d41a5cc">In summary, effective modularization is enabled by following the pattern of one conformance class per XML namespace; i.e., the set of components in an XML namespace should be referred to as a whole. Subsetting of components in a single XML namespace for conformance purposes is not permitted.</p>
+</div>
+
+<div id="cls-6-2"><h3><a class="anchor" href="#cls-6-2"></a><a class="header" href="#cls-6-2">7.1.2.  Optional Requirements class: Schematron extension</a></h3>
+
+<p id="_c6709d00-617c-a851-9221-ab7d5701b8cc">Schematron (<a href="#iso19757-3">ISO/IEC 19757-3:2006</a>) provides a notation with which many constraints on XML documents can be expressed. As such, Schematron is a rule-based validation language for making assertions about the presence or absence of patterns in XML trees. It is a structural schema language expressed in XML using a small number of elements and XPath languages.</p>
+
+<p id="_c689a7e5-219b-c430-6657-f7053cff632b">This requirements class covers any standard that uses Schematron to create patterns or constraints for an XML Schema.</p>
+
+<table id="_316c5168-43a4-2138-dd6c-51437a34f0f3" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:90%;table-layout:fixed;"><caption>Table 10</caption><colgroup><col style="width: 20%;" /><col style="width: 80%;" /></colgroup><tbody><tr><td colspan="2" style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;"><b>Requirements Class — XML Schematron extension to the core</b></td></tr><tr><td colspan="2" style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">/req/core/data-representation</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">Target</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">ModSpec Conformant XML Model</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">Dependency</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">OGC ModSpec Version 1.1 (need proper title and document number)</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">REQ007</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">/req/part3/xml/schematron-xml-schema</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">REQ008</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">/req/part3/xml/sch-pattern-constraints</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">REQ010</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">/req/part3/xml/fpi-attribute-is-uri</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">REQ011</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">/req/part3/xml/see-attribute-is-identifier</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.5pt;">REQ012</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.5pt;">/req/part3/xml/one-fpi-attribute-per-schema</td></tr></tbody></table>
+
+<p id="_bb6d7144-6efa-7c4d-e706-79890b4e85c9">First the schema must be defined within the bounds of the XML schema requirements class.</p>
+
+<table id="req-07" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:90%;table-layout:fixed;"><caption>Table 11</caption><colgroup><col style="width: 25%;" /><col style="width: 75%;" /></colgroup><tbody><tr><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>REQ007</b></td><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>/req/part3/xml/schematron-xml-schema</b><br /> A standard passing the Schematron conformance test class  <i>SHALL</i> also define or reference an XML schema that shall pass the XML schema conformance class from this standard.</td></tr></tbody></table>
+
+<p id="_e752eb95-d8ac-1280-319e-2c01969f4ed8">Within a Schematron schema, the “pattern” and “schema” elements may be used in a way that corresponds with conformance tests and a conformance test class as follows:</p>
+
+<table id="req-08" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:90%;table-layout:fixed;"><caption>Table 12</caption><colgroup><col style="width: 25%;" /><col style="width: 75%;" /></colgroup><tbody><tr><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;"><b>REQ008</b></td><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;"><b>/req/part3/xml/sch-pattern-constraints</b><br /></td></tr><tr><td style="text-align:center;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">A</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">Each sch:assert element <i>SHALL</i> implement constraints described in no more than one requirement.</td></tr><tr><td style="text-align:center;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.5pt;">B</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.5pt;">Each requirement <i>SHALL</i> be implemented by no more than one sch:pattern.</td></tr></tbody><tfoot><tr><td colspan="2" style="border-top:0pt;border-bottom:solid windowtext 1.5pt;"><div id="_53778822-33cf-f5c0-c8b0-2cf064e13a07" class="Note"><p><span class="note_label">NOTE:  </span>Requirement 9 was removed in the ModSpec version 1.1 as this requirement is present in the latest Schematron RelaxNG schema.</p></div></td></tr></tfoot></table>
+
+
+
+<p id="_7ffec222-2651-1c26-7c4a-a9ee8fb820f1">The Formal Public Identifier (fpi) attribute names the Schematron schema. In the ModSpec Part 2 extension, this identifier is a URI.</p>
+
+<table id="req-10" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:90%;table-layout:fixed;"><caption>Table 13</caption><colgroup><col style="width: 25%;" /><col style="width: 75%;" /></colgroup><tbody><tr><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>REQ010</b></td><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>/req/part3/xml/fpi-attribute-is-uri</b><br /> The value of the sch:schema/@fpi attribute  <i>SHALL</i> be a URI that identifies this implementation.</td></tr></tbody></table>
+
+<p id="_fa3555ac-7907-8b2c-c34f-def0f55b6234">The @see attribute in Schematron provides a hypertext link to documentation or related material for each pattern, rule, or assertion. This allows the Schematron schema to be integrated into a wider information system. In the ModSpec Part 2 extension, this attribute is the identifier for a requirements class.</p>
+
+<table id="req-11" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:90%;table-layout:fixed;"><caption>Table 14</caption><colgroup><col style="width: 25%;" /><col style="width: 75%;" /></colgroup><tbody><tr><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>REQ011</b></td><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>/req/part3/xml/see-attribute-is-identifier</b><br /> The value of the sch:schema/@see attribute  <i>SHALL</i> be the identifier for the requirements class that contains the requirement(s) implemented by the schema</td></tr></tbody></table>
+
+<table id="req-12" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:90%;table-layout:fixed;"><caption>Table 15</caption><colgroup><col style="width: 25%;" /><col style="width: 75%;" /></colgroup><tbody><tr><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>REQ012</b></td><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>/req/part3/xml/one-fpi-attribute-per-schema</b><br /> The value of the sch:schema/@fpi attribute  <i>SHALL</i> be used on only one Schematron schema.</td></tr></tbody></table>
+</div>
+
+<div id="cls-6-3"><h3><a class="anchor" href="#cls-6-3"></a><a class="header" href="#cls-6-3">7.1.3.  Optional Requirements class: XML meta-schema extension to the ModSpec Core.</a></h3>
+
+<p id="_454421dc-e0c4-1b7b-73b1-90a435617970">This requirements class covers any standard which has as one of its purposes the introduction of a new type of XML schema. Such a standard would normally define the characteristics of such schema, how its components are created and its intended uses.</p>
+
+<p id="_4ff6321f-554c-f1ff-d24e-b567ccd1179d">First, by the requirements above, the extension relationship of this conformance test class to the core must be made explicit.</p>
+
+<table id="req-13" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:90%;table-layout:fixed;"><caption>Table 16</caption><colgroup><col style="width: 25%;" /><col style="width: 75%;" /></colgroup><tbody><tr><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>REQ013</b></td><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>/req/part3/xml/first-pass-core-conformance</b><br /> A standard passing the XML meta-schema conformance test class  <i>SHALL</i> first pass the ModSpec Core conformance test class.</td></tr></tbody></table>
+
+<p id="_d68b31ff-0ca5-c3d1-3ab2-91d29a3548dc">Since the target is defining requirements for XML schemas, it will require that the ModSpec be used.</p>
+
+<table id="req-14" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:90%;table-layout:fixed;"><caption>Table 17</caption><colgroup><col style="width: 25%;" /><col style="width: 75%;" /></colgroup><tbody><tr><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>REQ014</b></td><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>/req/part3/xml/pass-XML-schema-conformance-class</b> A standard passing the XML meta-schema conformance test class  <i>SHALL</i> require that its targets (XML schema) pass the  <a href="#xml-model-conformance-class">XML schema conformance class</a>.</td></tr></tbody></table>
+</div>
+</div></div><div id="annex-A-1"><h1 id="_40935a73-291b-4ce2-854d-0d6861ddef80"><a class="anchor" href="#annex-A-1"></a><a class="header" href="#annex-A-1">8.  Conformance test class: XML schema</a></h1><div id="_5082dc58-233b-825d-8a8f-51622accc612"><h2 id="_18eb5a3b-031f-4cd2-b3ba-ed32ec43000c"><a class="anchor" href="#_5082dc58-233b-825d-8a8f-51622accc612"></a><a class="header" href="#_5082dc58-233b-825d-8a8f-51622accc612">8.1.  Dependency on Core</a></h2>
+
+<p id="_66abdce2-6529-b806-6d79-c4fcaa608a28">An implementation passing the XML schema conformance test class shall first pass the ModSpec Core Standard conformance test class.</p>
+
+<div class="ol_wrap"><ol type="1" id="_75153972-3c5e-2543-a8a5-53dbdd56f30e"><li id="_5e9e7f35-b92b-a15d-1d2f-cb3668d127ff"><p id="_d1ed9715-feff-32dd-8290-b41993e9cbdb">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li id="_2b0ef862-195d-b206-a6d1-12ba9879b529"><p id="_534ecf44-d44a-48bc-68b5-b1b584c5cd6c">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li id="_eebb6e0b-27cc-c402-e7e0-282e10a1b4bc"><p id="_af1172ba-1116-3ea5-b7d7-2fe414f807d9">Reference: <a href="#req-01">Table 2</a></p>
+</li>
+<li id="_38c455a7-0653-f9fc-a983-bd93d8afad44"><p id="_c3bbd909-2e60-76b5-f83f-7d38bda9b442">Test Type: Conformance.</p>
+</li>
+</ol></div>
+</div><div id="_60fbd688-26f0-0148-1f07-5527c685a22b"><h2 id="_888169f1-24a6-4b72-bddc-08378c35a66d"><a class="anchor" href="#_60fbd688-26f0-0148-1f07-5527c685a22b"></a><a class="header" href="#_60fbd688-26f0-0148-1f07-5527c685a22b">8.2.  Dependency on W3C XML schema</a></h2>
+
+<p id="_991a7e23-926c-44f3-d4e1-32e3b7441a67">An implementation passing the XML schema conformance test class shall first pass the W3C Recommendation for XML schema.</p>
+
+<div class="ol_wrap"><ol type="1" id="_4bb4ef31-53c9-f91d-e0c4-6b20ed5f8198"><li id="_51cfb385-79f0-8a17-c2c2-fa3632967431"><p id="_28f9c599-e3b0-cb19-4436-0e4b23d26df3">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li id="_c5ba1005-42ac-a850-1bf5-fe9f4b329c0f"><p id="_e34eb93d-7e6e-2604-c290-67aa4b1d524a">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li id="_1da6007f-fd0e-a29e-7cb3-aa042cb11b4a"><p id="_d460ffe5-463e-4692-4238-22d6ae606058">Reference: <a href="#req-02">Table 3</a></p>
+</li>
+<li id="_b37d8577-db14-b16f-11a0-7704c1dc0b54"><p id="_7cd1cd4b-7e33-312c-5e80-32f121b3291e">Test Type: Conformance.</p>
+</li>
+</ol></div>
+</div><div id="_7ea717c6-686f-daff-5aeb-f764facf4098"><h2 id="_fdab18c9-fc9b-4e6c-9e78-e7648914318f"><a class="anchor" href="#_7ea717c6-686f-daff-5aeb-f764facf4098"></a><a class="header" href="#_7ea717c6-686f-daff-5aeb-f764facf4098">8.3.  A requirements class corresponds to a single XML namespace</a></h2>
+
+<p id="_5511d818-660d-9688-43d9-7af6cbb5cf96">If a standard conformant to the XML schema conformance class defines a set of data schemas, all components (e.g., elements, attributes, types …​) associated with a single conformance test class shall be scoped to a single XML namespace.</p>
+
+<div class="ol_wrap"><ol type="1" id="_a7e12b04-0c84-f7c6-266f-fdc58e341dd6"><li id="_5288bf01-9329-07e1-16a0-9de120febb81"><p id="_ea7c1d22-de3c-c62c-1b8a-8af78b1ebcf5">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li id="_62629490-3179-6768-c6ad-b93235ab23cd"><p id="_36072809-54ec-72a2-7afe-5e3a05236da3">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li id="_9aee42ef-d19a-e5be-edd9-a5914e4097d4"><p id="_ddfbdb07-8941-d899-c56c-7cd4ddbe560c">Reference: <a href="#req-03">Table 4</a></p>
+</li>
+<li id="_b450e170-4f08-f9e8-aaeb-307489fa314c"><p id="_57c17a13-49f0-79b7-2222-acd5ee36b126">Test Type: Conformance.</p>
+</li>
+</ol></div>
+</div><div id="_0e3316c8-ce71-5d4d-70b8-01ba0b3ae538"><h2 id="_17a32e86-91df-4092-95c0-b30d8e03235c"><a class="anchor" href="#_0e3316c8-ce71-5d4d-70b8-01ba0b3ae538"></a><a class="header" href="#_0e3316c8-ce71-5d4d-70b8-01ba0b3ae538">8.4.  A reference to the URI of the test suite in AppInfo</a></h2>
+
+<p id="_897ae283-aba9-cd2e-bc95-4c5e4fd16812">The all-components schema document for an XML Schema shall indicate the URI of the associated conformance test class in the schema/annotation/appinfo element.</p>
+
+<div class="ol_wrap"><ol type="1" id="_d1964798-688b-e7e5-4248-5ffc8bc79577"><li id="_f7d6705c-0203-5cf2-8d2a-e31f23988bd8"><p id="_ebb5d6ae-8f40-dbaa-a4e6-341a63d3f931">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li id="_195cf562-581c-1285-e756-a606f15f5aaf"><p id="_4e9d622f-9dd8-7d7d-919d-19cf906c4e53">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li id="_70889228-f8e1-8a0a-cf5e-1c426d6aaa5a"><p id="_a4a51bef-0b35-6c50-9d6d-1d3c0227ccf1">Reference: <a href="#req-04">Table 5</a></p>
+</li>
+<li id="_7cb78f39-f812-1c37-a702-0ba48e44e3fa"><p id="_fad61b2e-a92f-976e-5224-3a414299fc7b">Test Type: Conformance.</p>
+</li>
+</ol></div>
+</div><div id="_71fd98a0-e80b-9b14-1c13-bea7b3a738de"><h2 id="_4156defb-afe9-47fc-be6d-53c9f5ee4aa1"><a class="anchor" href="#_71fd98a0-e80b-9b14-1c13-bea7b3a738de"></a><a class="header" href="#_71fd98a0-e80b-9b14-1c13-bea7b3a738de">8.5.  Direct dependencies become schema imports</a></h2>
+
+<p id="_1ce72e55-8098-0e02-8368-fa73059695da">If a standard conformant to the XML schema conformance class defines a direct dependency from one requirement class to another, then a standardization target of the corresponding conformance test class shall import a schema that has passed the associated conformance test class (dependency) or shall itself pass the associated conformance test class.</p>
+
+<div class="ol_wrap"><ol type="1" id="_ce6003bc-3bb0-e81b-1023-a84a47a60c30"><li id="_639b2217-3604-fccf-4c00-0fa8791df925"><p id="_46c3531c-0e5d-7890-b469-702b027bc234">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li id="_40ac1063-f6ec-db12-9cd6-95b3b150e486"><p id="_c69a3a86-1eb1-c19f-7e63-69b77696d550">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li id="_7a00fc30-f3a5-f356-fe0a-a7f2452c2106"><p id="_85668261-d855-4108-440b-8bd2f287ed38">Reference: <a href="#req-05">Table 6</a></p>
+</li>
+<li id="_379f8b69-777e-e911-b11f-6d7d2bc52704"><p id="_5cb7a2f7-6cf1-4ce2-c71e-eef214b5c097">Test Type: Conformance.</p>
+</li>
+</ol></div>
+</div><div id="_5bd2c7ee-5d0c-8dd2-42c1-77abf85ec5aa"><h2 id="_f936e2c6-94c5-4da5-8008-acbab8876384"><a class="anchor" href="#_5bd2c7ee-5d0c-8dd2-42c1-77abf85ec5aa"></a><a class="header" href="#_5bd2c7ee-5d0c-8dd2-42c1-77abf85ec5aa">8.6.  No requirements class modifies or redefines elements in another namespace</a></h2>
+
+<p id="_b197170b-851b-6f71-ab85-dbd87816c31d">No requirements class in a standard conformant to the XML schema conformance class shall modify elements, types or any other requirement from a namespace to which it is not associated.</p>
+
+<div class="ol_wrap"><ol type="1" id="_e8e80a8c-52a4-ea36-f9a6-f379dda31429"><li id="_a5df7f68-b481-b8eb-8f9a-c7c19941dfd9"><p id="_241f23c8-e525-b6e9-6881-b991c62ad2c7">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li id="_178d1cf4-5a24-b25e-d0ff-5b1b7824abe3"><p id="_d1bf7123-5f14-3f74-1175-ce29750a6f95">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li id="_957a88d0-ca43-1799-d054-96d6f7a29933"><p id="_242153fd-e9a6-e82a-99e7-d8436cf21e2f">Reference: <a href="#req-06">Table 8</a></p>
+</li>
+<li id="_abe5280e-293f-1cfe-4de0-876edb904c1d"><p id="_95511c54-c3ed-2047-80f2-818ddb71f9b9">Test Type: Conformance.</p>
+</li>
+</ol></div>
+</div></div><div id="annex-A-2"><h1 id="_6128bdb7-3df6-4ded-bb62-c002e49ea647"><a class="anchor" href="#annex-A-2"></a><a class="header" href="#annex-A-2">9.  Conformance test class: Schematron</a></h1><div id="_ba7eaac0-b10e-b507-0dfd-3e091f400343"><h2 id="_11a9e6e6-71f1-42a6-a2af-889b6a099cb7"><a class="anchor" href="#_ba7eaac0-b10e-b507-0dfd-3e091f400343"></a><a class="header" href="#_ba7eaac0-b10e-b507-0dfd-3e091f400343">9.1.  Dependency on XML Schema conformance test class</a></h2>
+
+<p id="_6e0514a4-2e19-7f13-257a-0d21c951b03d">A standard passing the Schematron conformance test class shall also define or reference an XML schema that shall pass the XML schema conformance class from this standard.</p>
+
+<div class="ol_wrap"><ol type="1" id="_d233b46e-589c-d18b-7d41-89431fc2df69"><li id="_d6016bd5-73c9-ec21-6be0-5de4fe79d11b"><p id="_218f23a9-e2bc-9649-8ebe-b6f2a71dc66f">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li id="_5d06f14e-5a62-1aa2-1a6d-31a862cd9d6e"><p id="_598b3e28-280f-d1dc-8beb-1abd1572a98e">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li id="_a5d79127-7bd2-98a4-c75b-a39c8ace8bbe"><p id="_93d34bbb-90da-dddc-34a2-0e852b015bbe">Reference: <a href="#req-07">Table 11</a></p>
+</li>
+<li id="_15864b81-af0d-0028-ea65-f4b91af13352"><p id="_61d6454a-2637-7e08-6ba9-bc8e4a650244">Test Type: Conformance.</p>
+</li>
+</ol></div>
+</div><div id="_89ad6c2d-ddbb-cabf-dc0d-f3c39e842e40"><h2 id="_d14fc1a4-9028-4305-91fa-40b89d1f38f9"><a class="anchor" href="#_89ad6c2d-ddbb-cabf-dc0d-f3c39e842e40"></a><a class="header" href="#_89ad6c2d-ddbb-cabf-dc0d-f3c39e842e40">9.2.  Each schematron pattern element implements one requirement</a></h2>
+
+<p id="_dbeefb30-76cc-1fd7-f2ef-430ae83dd55d">Each sch:pattern element shall implement constraints described in no more than one requirement. Each requirement shall be implemented by no more than one sch:pattern.</p>
+
+<div class="ol_wrap"><ol type="1" id="_2501045d-589b-a3cf-c408-f90651917158"><li id="_5eb32c53-c515-a9d8-133f-9aa8ee5c524d"><p id="_d29b5312-f40d-4890-c0fe-694771fcad8c">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li id="_4c31232e-57e9-cfe7-3efb-0d8dfda0b83c"><p id="_7da1d3de-353c-036e-07ab-22e4128ba5ba">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li id="_998bc21f-a6dd-7b17-e8f9-2ebf608fad04"><p id="_2affbf13-f68c-9749-37ac-299d0d6fccbb">Reference: <a href="#req-08">Table 12</a></p>
+</li>
+<li id="_05f3003b-b263-2869-d40f-2fadca278ac9"><p id="_35461a2f-2009-c6a7-fbdb-16e76956792a">Test Type: Conformance.</p>
+</li>
+</ol></div>
+</div><div id="_78a74369-e16d-e9de-040f-9bdec233efd6"><h2 id="_69b31abd-010a-4abb-bfdf-051d66cd741f"><a class="anchor" href="#_78a74369-e16d-e9de-040f-9bdec233efd6"></a><a class="header" href="#_78a74369-e16d-e9de-040f-9bdec233efd6">9.3.  Each schematron pattern is in one schematron element</a></h2>
+
+<p id="_1ff83db1-58fa-e23c-8f2b-18fcb4f3061b">Each sch:pattern element shall be contained within one sch:schema element.</p>
+
+<div class="ol_wrap"><ol type="1" id="_191ae199-96b5-951b-6dfe-24e46fd96ea6"><li id="_4d49c82d-41d4-5fb5-d1b9-7dc156902311"><p id="_33e4d14f-cc92-c968-b9bb-0df2c46cec3b">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li id="_07c68c74-fa49-fb0a-1484-88ae634600d2"><p id="_e89615ad-ab2d-2118-cdb8-416d9e266d9d">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li id="_45872520-328f-4191-bd3b-664a9110b935"><p id="_8552be9a-0541-7d7a-be5e-7be0a597bfb8">Reference: <a href="#req-09">[req-09]</a></p>
+</li>
+<li id="_d188ed16-686e-edcf-1fe8-88691be63fe2"><p id="_dbac2e1b-d133-562c-6b2c-0a04425df454">Test Type: Conformance.</p>
+</li>
+</ol></div>
+</div><div id="_fe177040-75e3-6839-2b0a-5372880f7d81"><h2 id="_b95981d8-bc85-4022-96ea-8dd11952325f"><a class="anchor" href="#_fe177040-75e3-6839-2b0a-5372880f7d81"></a><a class="header" href="#_fe177040-75e3-6839-2b0a-5372880f7d81">9.4.  Each schematron @fpi attribute is used only once</a></h2>
+
+<p id="_d6d9e03a-8b55-3ee1-dc9a-254f21e29cf2">The value of the sch:schema/@fpi attribute shall be used on only one Schematron schema.</p>
+
+<div class="ol_wrap"><ol type="1" id="_ae2898e9-87f0-975f-0bac-790ed50ae9a5"><li id="_a58f2cf4-003e-725b-ca7b-5ae6344edc6d"><p id="_afb19731-3a8b-72a8-641a-94a0ac276cf8">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li id="_cf2e63b1-e5a3-b5a5-bf7e-f419600fe101"><p id="_47b2ad82-3784-47ed-dc1e-b55e2a5144ca">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li id="_3e6a5a88-88d5-592b-7d17-61f1e4e66f1c"><p id="_637f8aae-82a3-373b-6ab9-5f68fd1c07bb">Reference: <a href="#req-10">Table 13</a></p>
+</li>
+<li id="_6299e7b3-99ce-6269-6748-faaed2f92689"><p id="_f0ff69d7-f3a8-ecd3-1692-85507b4fa336">Test Type: Conformance.</p>
+</li>
+</ol></div>
+</div><div id="_de01e817-4ce2-cbba-8767-a52626b89fe7"><h2 id="_55cf6a3f-79c7-470a-81f8-d26db3ae39bf"><a class="anchor" href="#_de01e817-4ce2-cbba-8767-a52626b89fe7"></a><a class="header" href="#_de01e817-4ce2-cbba-8767-a52626b89fe7">9.5.  Each schematron @see attribute is used only once</a></h2>
+
+<p id="_95027c2d-135a-8133-923b-3954cdf0d6a0">The value of the sch:schema/@see attribute shall be the identifier for the requirements class that contains the requirement(s) implemented by the schema</p>
+
+<div class="ol_wrap"><ol type="1" id="_fd857d18-d446-63f6-46ca-a72f2275e71b"><li id="_62f8abf6-8d88-6919-b299-7ff9e8565aec"><p id="_eeeadf46-6a87-e35a-4a17-8d30bf07f157">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li id="_4cc51154-f337-6e2f-9a99-fbc8ab1188ae"><p id="_6fbf9bc4-e070-9245-94ed-2cbede8c0a2c">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li id="_20728684-6765-543f-f99f-1f441b6a71b5"><p id="_32b91cd0-7b0d-bb73-c5a0-b4c8fcc62a5b">Reference: <a href="#req-11">Table 14</a></p>
+</li>
+<li id="_183831bf-2c6c-2e61-b9e8-6a3eb89761c9"><p id="_2dfb23d9-bd08-5099-ea36-cf146441cb78">Test Type: Conformance.</p>
+</li>
+</ol></div>
+</div><div id="_cfd31813-2e75-002d-ef56-244beb27b607"><h2 id="_e7154c04-b411-4585-a4e9-f998993ebaa6"><a class="anchor" href="#_cfd31813-2e75-002d-ef56-244beb27b607"></a><a class="header" href="#_cfd31813-2e75-002d-ef56-244beb27b607">9.6.  Each schematron fpi attribute is used only once</a></h2>
+
+<p id="_b2cc07a7-abe5-8dcf-8379-dec3cf4d6264">The value of the sch:schema/@fpi attribute shall be used on only one Schematron schema.</p>
+
+<div class="ol_wrap"><ol type="1" id="_66badfef-9b4d-3adf-9c3c-3ecf8c1e17e4"><li id="_aa8a5770-a97d-c236-09c7-30697dbe878d"><p id="_c5db79e7-7a27-d105-afec-9a7f01f01dc1">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li id="_d1a411af-f449-3674-092b-7c84e3780d36"><p id="_2529c20b-df16-8b47-a236-1b149fb51660">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li id="_2c7617ad-eca1-47b0-538c-c4bde22628b2"><p id="_33958e2c-1bad-8570-c840-6617668ebaf3">Reference: <a href="#req-12">Table 15</a></p>
+</li>
+<li id="_79a711be-774b-04d8-4d87-e2f90e35d771"><p id="_a3ee21f8-4ad4-e767-32b1-c630db5d0ac8">Test Type: Conformance.</p>
+</li>
+</ol></div>
+</div></div><div id="annex-A-3"><h1 id="_73621057-fe3d-4328-b243-b5df1c79fbac"><a class="anchor" href="#annex-A-3"></a><a class="header" href="#annex-A-3">10.  Conformance Class: XML meta-schema</a></h1><div id="_7934c3a8-d9a3-ca4a-91fd-9f68e7ea6b45"><h2 id="_78d26cbe-5d5a-4809-ade5-288319cb1a8d"><a class="anchor" href="#_7934c3a8-d9a3-ca4a-91fd-9f68e7ea6b45"></a><a class="header" href="#_7934c3a8-d9a3-ca4a-91fd-9f68e7ea6b45">10.1.  Supports the Specification class</a></h2>
+
+<p id="_7e10fdc7-3cf0-915c-0ef5-b53f340c2383">A standard passing the XML meta-schema conformance test class shall first pass the ModSpec Core conformance test class.</p>
+
+<div class="ol_wrap"><ol type="1" id="_446ba039-e5d0-0b72-ad09-02d335dd0a52"><li id="_ec391336-32bc-0fce-6aa2-b2d2cf6412e2"><p id="_502e4d8c-03aa-5849-c6c1-69dd3589abde">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li id="_9f108c22-fcf5-d0e8-e1f0-0ce566dac52f"><p id="_0ebe93c0-6720-4333-db97-ff3341335ee5">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li id="_56f32b20-5012-e99b-5a88-6dac75104762"><p id="_986dd5aa-2d3c-fc8f-002c-d7d763ad6045">Reference: <a href="#req-13">Table 16</a></p>
+</li>
+<li id="_3a17ae52-c5ba-48e3-a640-071cd52db331"><p id="_1c3b0130-acc3-9561-3e07-85fa18675617">Test Type: Conformance.</p>
+</li>
+</ol></div>
+</div><div id="_60805fe7-0669-18db-67ea-f3175a2f6a10"><h2 id="_e5427521-773d-4fe5-a91e-90f61e28586a"><a class="anchor" href="#_60805fe7-0669-18db-67ea-f3175a2f6a10"></a><a class="header" href="#_60805fe7-0669-18db-67ea-f3175a2f6a10">10.2.  Each XML schema is conformant with the XML Schema class</a></h2>
+
+<p id="_c9e785b6-a9a8-a5bc-410d-d4abd727e02c">A standard passing the XML meta-schema conformance test class shall require that its standardization targets (XML schema) pass the XML schema conformance class from this standard.</p>
+
+<div class="ol_wrap"><ol type="1" id="_596b94f3-a2f4-fbc2-05cf-a5a3a81ecebd"><li id="_2c5e7011-0acb-f2ba-8667-48e84e2c26a5"><p id="_ffc2b7e2-ec3d-bb31-f940-9cce092012c6">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li id="_e05d9b96-b212-ee00-9c10-064674654c42"><p id="_6544961a-e564-dd61-e50a-337d484ef3ef">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li id="_0f6681bf-7d12-0115-9d4a-a88f94a99b9e"><p id="_1b1e6139-9a3a-174b-698a-2749358c983b">Reference: <a href="#req-14">Table 17</a></p>
+</li>
+<li id="_5c6ee144-8abb-b3f4-d2a6-87bd0edb9ecf"><p id="_6724c303-db95-27ab-a076-9c2356192cdf">Test Type: Conformance.</p>
+</li>
+</ol></div>
+</div></div></main><script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    "HTML-CSS": {
+      preferredFont: "STIX",
+      linebreaks: {
+        automatic: true,
+        width: "container"  // or specify something like "90%"/"30em"
+      }
+    },
+    MathML: {
+      linebreaks: {
+        automatic: true
+      }
+    },
+    asciimath2jax: { delimiters: [['(#(', ')#)']] }
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=MML_HTMLorMML-full" async="async"></script>
+  <script>
+    $("#toc").on('click', 'li', function(e) {
+    $(this).parent().find('li.toc-active').removeClass('toc-active');
+    $(this).addClass('toc-active');
+});
+  </script>
+
+  <script>
+    //TOC toggle animation
+    (function() {
+      const jqNav = $('nav');
+      const jqBody = $('body');
+      const jqToggle = $('#toggle');
+      const animationSpeed = 'slow';
+
+      jqToggle.on('click', function() {
+        const isNavVisible = jqNav.is(':visible');
+        const fullNavWidth = jqNav.outerWidth();
+        const navLeft = isNavVisible ? '-' + fullNavWidth + 'px' : '0px';
+        const bodyMarginLeft = isNavVisible ? '0px' : fullNavWidth + 'px';
+
+        // Stop current animations
+        jqNav.stop(true, true);
+        jqBody.stop(true, true);
+
+        if(!isNavVisible) {
+            jqNav.show();
+        }
+        jqNav.animate({'left': navLeft}, animationSpeed, function() {
+          if(isNavVisible) {jqNav.hide()}
+        });
+        jqBody.animate({'marginLeft': bodyMarginLeft}, animationSpeed);
+
+      });
+    })();
+  </script>
+
+<script>
+    // Scroll to top button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+<script>
+/*
+  $(document).ready(function() {
+	  $('[id^=toc]').each(function ()
+	  {
+	     var currentToc = $(this);
+       var url = window.location.href;
+            currentToc.wrap("<a href='" + url + "#" + currentToc.attr("id") + "'></a>");
+	  });
+});
+*/
+</script>
+
+  <script>
+    document.querySelectorAll('*|svg a').forEach(function(item) {
+      var loc = item.getAttribute('href');
+      if (loc !== null && loc.startsWith('#')) {
+  item.setAttribute('href', location.pathname + loc);
+      }
+});
+  </script>
+
+
+<script>
+
+// jQuery Inline Footnotes v1.0.3
+// Copyright (c) 2011 Vesa Vänskä, released under the MIT License.
+
+// Generated by CoffeeScript 1.6.1
+(function() {
+
+  (function($) {
+    $.inlineFootnote = function(el, options) {
+      var _this = this;
+      this.el = $(el);
+      this.el.data("inlineFootnote", this);
+      this.initialize = function() {
+        this.options = $.extend({}, $.inlineFootnote.defaultOptions, options);
+        this.footnoteId = this.el.attr("href").match(/#(.*)/)[1];
+        if (this.footnoteId) {
+          this.el.mouseenter(this.openBox);
+          return $("body").mousemove(this.closeBox);
+        }
+      };
+      this.openBox = function(event) {
+        var footnoteContent, linkOffset;
+        if (!_this.box) {
+          footnoteContent = $("[id='" + _this.footnoteId + "']").children().filter(":not('" + _this.options.hideFromContent + "')");
+          linkOffset = _this.el.offset();
+          _this.box = $("<div ></div>", {
+            id: _this.options.boxId,
+            html: footnoteContent.clone().find(_this.options.hideFromContent).remove().end(),
+            css: {
+              position: "absolute",
+              top: linkOffset.top,
+              left: linkOffset.left + _this.el.outerWidth()
+            }
+          }).appendTo("body");
+          return _this.positionBox();
+        }
+      };
+      this.closeBox = function(event) {
+        if (_this.box) {
+          if (_this.isHoveringFootnote(event)) {
+            clearTimeout(_this.closeTimeout);
+            return _this.closeTimeout = null;
+          } else {
+            if (!_this.closeTimeout) {
+              return _this.closeTimeout = setTimeout((function() {
+                _this.box.remove();
+                return _this.box = null;
+              }), _this.options.hideDelay);
+            }
+          }
+        }
+      };
+      this.isHoveringFootnote = function(event) {
+        return this.box.is(event.target) || $(event.target).closest(this.box).length > 0 || event.target === this.el[0];
+      };
+      this.positionBox = function() {
+        var boxHorizontalPadding, boxLeft, boxWidth, linkLeftOffset, windowWidth;
+        boxHorizontalPadding = parseInt(this.box.css("padding-left")) + parseInt(this.box.css("padding-right"));
+        linkLeftOffset = this.el.offset().left;
+        windowWidth = $(window).width();
+        if ((windowWidth / 2) > linkLeftOffset) {
+          boxLeft = linkLeftOffset + 20;
+          boxWidth = windowWidth - boxLeft - boxHorizontalPadding - this.options.boxMargin * 2;
+          if (boxWidth > this.options.maximumBoxWidth) {
+            boxWidth = this.options.maximumBoxWidth;
+          }
+        } else {
+          boxWidth = linkLeftOffset - boxHorizontalPadding - this.options.boxMargin * 2;
+          if (boxWidth > this.options.maximumBoxWidth) {
+            boxWidth = this.options.maximumBoxWidth;
+          }
+          boxLeft = linkLeftOffset - boxWidth - this.options.boxMargin * 2;
+        }
+        return this.box.css({
+          width: boxWidth,
+          left: boxLeft
+        });
+      };
+      return this.initialize();
+    };
+    $.inlineFootnote.defaultOptions = {
+      boxMargin: 20,
+      hideDelay: 200,
+      hideFromContent: "[rel=footnote]",
+      maximumBoxWidth: 500,
+      boxId: "footnote_box"
+    };
+    return $.fn.inlineFootnote = function(options) {
+      return this.each(function() {
+        return new $.inlineFootnote(this, options);
+      });
+    };
+  })(jQuery);
+
+}).call(this);
+</script>
+
+<script>
+      $(function() {
+        $("[rel=footnote]").inlineFootnote();
+        });
+</script>
+  <script>
+// @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat
+//
+// AnchorJS - v4.2.2 - 2020-04-20
+// https://www.bryanbraun.com/anchorjs/
+// Copyright (c) 2020 Bryan Braun; Licensed MIT
+//
+// @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat
+!function(A,e){"use strict";"function"==typeof define&&define.amd?define([],e):"object"==typeof module&&module.exports?module.exports=e():(A.AnchorJS=e(),A.anchors=new A.AnchorJS)}(this,function(){"use strict";return function(A){function f(A){A.icon=A.hasOwnProperty("icon")?A.icon:"",A.visible=A.hasOwnProperty("visible")?A.visible:"hover",A.placement=A.hasOwnProperty("placement")?A.placement:"right",A.ariaLabel=A.hasOwnProperty("ariaLabel")?A.ariaLabel:"Anchor",A.class=A.hasOwnProperty("class")?A.class:"",A.base=A.hasOwnProperty("base")?A.base:"",A.truncate=A.hasOwnProperty("truncate")?Math.floor(A.truncate):64,A.titleText=A.hasOwnProperty("titleText")?A.titleText:""}function p(A){var e;if("string"==typeof A||A instanceof String)e=[].slice.call(document.querySelectorAll(A));else{if(!(Array.isArray(A)||A instanceof NodeList))throw new Error("The selector provided to AnchorJS was invalid.");e=[].slice.call(A)}return e}this.options=A||{},this.elements=[],f(this.options),this.isTouchDevice=function(){return!!("ontouchstart"in window||window.DocumentTouch&&document instanceof DocumentTouch)},this.add=function(A){var e,t,i,n,o,s,a,r,c,h,l,u,d=[];if(f(this.options),"touch"===(l=this.options.visible)&&(l=this.isTouchDevice()?"always":"hover"),0===(e=p(A=A||"h2, h3, h4, h5, h6")).length)return this;for(!function(){if(null!==document.head.querySelector("style.anchorjs"))return;var A,e=document.createElement("style");e.className="anchorjs",e.appendChild(document.createTextNode("")),void 0===(A=document.head.querySelector('[rel="stylesheet"],style'))?document.head.appendChild(e):document.head.insertBefore(e,A);e.sheet.insertRule(".anchorjs-link{opacity:0;text-decoration:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}",e.sheet.cssRules.length),e.sheet.insertRule(":hover>.anchorjs-link,.anchorjs-link:focus{opacity:1}",e.sheet.cssRules.length),e.sheet.insertRule("[data-anchorjs-icon]::after{content:attr(data-anchorjs-icon)}",e.sheet.cssRules.length),e.sheet.insertRule('@font-face{font-family:anchorjs-icons;src:url(data:n/a;base64,AAEAAAALAIAAAwAwT1MvMg8yG2cAAAE4AAAAYGNtYXDp3gC3AAABpAAAAExnYXNwAAAAEAAAA9wAAAAIZ2x5ZlQCcfwAAAH4AAABCGhlYWQHFvHyAAAAvAAAADZoaGVhBnACFwAAAPQAAAAkaG10eASAADEAAAGYAAAADGxvY2EACACEAAAB8AAAAAhtYXhwAAYAVwAAARgAAAAgbmFtZQGOH9cAAAMAAAAAunBvc3QAAwAAAAADvAAAACAAAQAAAAEAAHzE2p9fDzz1AAkEAAAAAADRecUWAAAAANQA6R8AAAAAAoACwAAAAAgAAgAAAAAAAAABAAADwP/AAAACgAAA/9MCrQABAAAAAAAAAAAAAAAAAAAAAwABAAAAAwBVAAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAMCQAGQAAUAAAKZAswAAACPApkCzAAAAesAMwEJAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAQAAg//0DwP/AAEADwABAAAAAAQAAAAAAAAAAAAAAIAAAAAAAAAIAAAACgAAxAAAAAwAAAAMAAAAcAAEAAwAAABwAAwABAAAAHAAEADAAAAAIAAgAAgAAACDpy//9//8AAAAg6cv//f///+EWNwADAAEAAAAAAAAAAAAAAAAACACEAAEAAAAAAAAAAAAAAAAxAAACAAQARAKAAsAAKwBUAAABIiYnJjQ3NzY2MzIWFxYUBwcGIicmNDc3NjQnJiYjIgYHBwYUFxYUBwYGIwciJicmNDc3NjIXFhQHBwYUFxYWMzI2Nzc2NCcmNDc2MhcWFAcHBgYjARQGDAUtLXoWOR8fORYtLTgKGwoKCjgaGg0gEhIgDXoaGgkJBQwHdR85Fi0tOAobCgoKOBoaDSASEiANehoaCQkKGwotLXoWOR8BMwUFLYEuehYXFxYugC44CQkKGwo4GkoaDQ0NDXoaShoKGwoFBe8XFi6ALjgJCQobCjgaShoNDQ0NehpKGgobCgoKLYEuehYXAAAADACWAAEAAAAAAAEACAAAAAEAAAAAAAIAAwAIAAEAAAAAAAMACAAAAAEAAAAAAAQACAAAAAEAAAAAAAUAAQALAAEAAAAAAAYACAAAAAMAAQQJAAEAEAAMAAMAAQQJAAIABgAcAAMAAQQJAAMAEAAMAAMAAQQJAAQAEAAMAAMAAQQJAAUAAgAiAAMAAQQJAAYAEAAMYW5jaG9yanM0MDBAAGEAbgBjAGgAbwByAGoAcwA0ADAAMABAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAH//wAP) format("truetype")}',e.sheet.cssRules.length)}(),t=document.querySelectorAll("[id]"),i=[].map.call(t,function(A){return A.id}),o=0;o<e.length;o++)if(this.hasAnchorJSLink(e[o]))d.push(o);else{if(e[o].hasAttribute("id"))n=e[o].getAttribute("id");else if(e[o].hasAttribute("data-anchor-id"))n=e[o].getAttribute("data-anchor-id");else{for(c=r=this.urlify(e[o].textContent),a=0;void 0!==s&&(c=r+"-"+a),a+=1,-1!==(s=i.indexOf(c)););s=void 0,i.push(c),e[o].setAttribute("id",c),n=c}(h=document.createElement("a")).className="anchorjs-link "+this.options.class,h.setAttribute("aria-label",this.options.ariaLabel),h.setAttribute("data-anchorjs-icon",this.options.icon),this.options.titleText&&(h.title=this.options.titleText),u=document.querySelector("base")?window.location.pathname+window.location.search:"",u=this.options.base||u,h.href=u+"#"+n,"always"===l&&(h.style.opacity="1"),""===this.options.icon&&(h.style.font="1em/1 anchorjs-icons","left"===this.options.placement&&(h.style.lineHeight="inherit")),"left"===this.options.placement?(h.style.position="absolute",h.style.marginLeft="-1em",h.style.paddingRight="0.5em",e[o].insertBefore(h,e[o].firstChild)):(h.style.paddingLeft="0.375em",e[o].appendChild(h))}for(o=0;o<d.length;o++)e.splice(d[o]-o,1);return this.elements=this.elements.concat(e),this},this.remove=function(A){for(var e,t,i=p(A),n=0;n<i.length;n++)(t=i[n].querySelector(".anchorjs-link"))&&(-1!==(e=this.elements.indexOf(i[n]))&&this.elements.splice(e,1),i[n].removeChild(t));return this},this.removeAll=function(){this.remove(this.elements)},this.urlify=function(A){return this.options.truncate||f(this.options),A.trim().replace(/\'/gi,"").replace(/[& +$,:;=?@"#{}|^~[`%!'<>\]\.\/\(\)\*\\\n\t\b\v]/g,"-").replace(/-{2,}/g,"-").substring(0,this.options.truncate).replace(/^-+|-+$/gm,"").toLowerCase()},this.hasAnchorJSLink=function(A){var e=A.firstChild&&-1<(" "+A.firstChild.className+" ").indexOf(" anchorjs-link "),t=A.lastChild&&-1<(" "+A.lastChild.className+" ").indexOf(" anchorjs-link ");return e||t||!1}}});
+// @license-end
+  </script>
+    <script>
+  anchors.options = {
+  placement: 'left'
+};
+anchors.add('h1, h2, h3, h4');
+</script>
+
+<script>
+// use .collapsible element to toggle visibility of element following it
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+<script>
+const activeBtns = document.querySelectorAll('.collapsible.active')
+
+// check if there are any active buttons, and open the content for each of them as default
+if (activeBtns.length) {
+    activeBtns.forEach(btn => {
+        const content = btn.nextElementSibling
+        content.style.maxHeight = content.scrollHeight + 'px'
+    })
+}
+</script>
+
+</html>

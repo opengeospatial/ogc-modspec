@@ -49,6 +49,7 @@ The following OGC Members contributed and participated in developing the ModSpec
 | Jeff Yutzler | ImageMatters/Tema
 |===
 
+////
 [.preface]
 == Submitting organizations
 
@@ -61,6 +62,7 @@ The following OGC Members support the ModSpec Version 1.1 submission.
 - ImageMatters/Tema
 - UK Met Office
 - The Danish Agency for Climate Data
+////
 
 [.preface]
 == Revision history

@@ -1,0 +1,2563 @@
+
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xml:lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style>@charset "UTF-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  border: 0;
+  font-size: 100%;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  vertical-align: baseline;
+}
+
+html, body, div, span, applet, object, iframe,
+p, blockquote,
+a, abbr, acronym, address, big, cite,
+del, dfn, em, img, ins, q, s,
+small, strike, strong, sub, sup, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  font-family: "Overpass",sans-serif;
+}
+
+code, pre, tt, kbd, samp {
+  font-family: "Space Mono",monospace;
+  font-variant-ligatures: none;
+}
+
+code *, pre *, tt *, kbd *, samp * {
+  font-family: "Space Mono",monospace !important;
+  font-variant-ligatures: none;
+}
+
+p code, dt code, li code, label code, legend code, caption code, th code, td code,
+p tt, dt tt, li tt, label tt, legend tt, caption tt, th tt, td tt,
+p kbd, dt kbd, li kbd, label kbd, legend kbd, caption kbd, th kbd, td kbd,
+p samp, dt samp, li samp, label samp, legend samp, caption samp, th samp, td samp {
+  font-size: 0.8em;
+}
+
+sub, sup {
+  font-size: 0.75em;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Overpass",sans-serif;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Overpass",sans-serif;
+}
+
+blockquote, q {
+  quotes: none;
+}
+blockquote::before, blockquote::after, q::before, q::after {
+  content: "";
+  content: none;
+}
+
+.h2Annex {
+  font-family: "Overpass",sans-serif;
+}
+
+dl {
+  display: grid;
+  grid-template-columns: max-content auto;
+}
+dl dt p, dl dd p {
+  margin-top: 0;
+}
+dl dt {
+  grid-column-start: 1;
+}
+dl dd {
+  grid-column-start: 2;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+div.document-stage-band, div.document-type-band {
+  background-color: #333333;
+}
+
+a.TableFootnoteRef, span.TableFootnoteRef,
+a.FootnoteRef, span.FootnoteRef {
+  vertical-align: super;
+}
+
+.addition {
+  color: blue;
+}
+
+.deletion {
+  color: red;
+  text-decoration: line-through;
+}
+
+ruby {
+  ruby-position: over;
+  -webkit-ruby-position: before;
+}
+
+ruby ruby {
+  ruby-position: under;
+  -webkit-ruby-position: after;
+}
+
+/* code highlighting with line numbers */
+table.rouge-line-table td.rouge-gutter {
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  padding-right: 1em;
+}
+
+table.rouge-line-table td.rouge-code {
+  -moz-user-select: all;
+  -ms-user-select: all;
+  -webkit-user-select: all;
+  user-select: all;
+}
+
+table.rouge-line-table,
+table.rouge-line-table th,
+table.rouge-line-table td {
+  width: auto;
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+table.rouge-line-table pre {
+  margin: 0;
+  padding: 0;
+  overflow-x: visible;
+  font-size: 100%;
+}
+
+/* header § links */
+a.header {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.header:hover {
+  color: #a53221 !important;
+  background: inherit;
+  box-shadow: none;
+}
+
+a.header:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.anchor {
+  position: absolute;
+  z-index: 1001;
+  width: 1.5ex;
+  margin-left: -1.5ex;
+  display: block;
+  text-decoration: none !important;
+  visibility: hidden;
+  text-align: center;
+  font-weight: 400;
+}
+
+a.anchor::before {
+  content: "§";
+  font-size: 0.85em;
+  display: block;
+  padding-top: 0.1em;
+}
+
+a.anchor:hover {
+  color: #a53221;
+  background: inherit;
+  box-shadow: none;
+}
+
+h1 > a.anchor:hover,
+h2 > a.anchor:hover,
+h3 > a.anchor:hover,
+h4 > a.anchor:hover,
+h5 > a.anchor:hover,
+h6 > a.anchor:hover,
+.inline-header > a.anchor:hover,
+h1:hover > a.anchor,
+h2:hover > a.anchor,
+h3:hover > a.anchor,
+h4:hover > a.anchor,
+h5:hover > a.anchor,
+h6:hover > a.anchor,
+.inline-header:hover > a.anchor {
+  visibility: visible;
+}
+
+/* collapsible snippets: collapsible before hidable */
+.hidable {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 3px 0;
+  margin: 0;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  content: "▼";
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.active:after {
+  content: "▲";
+}
+
+/* collapsible: */
+.collapsible + .hidable {
+  margin-top: 0;
+}
+
+.collapsible:not(.active) + .hidable {
+  overflow: hidden;
+  padding: 0;
+}
+
+.svg-container {
+  width: 100%; /* or any desired width */
+  display: block; /* ← removes unwanted inline spacing */
+}
+
+svg {
+  width: 100%;
+  height: auto; /* ← key to maintaining aspect ratio */
+  display: block; /* ← removes unwanted inline spacing */
+}
+
+/* style dfn by override in flavor */
+dfn {
+  font-style: inherit;
+}
+
+#standard-band {
+  background-color: #0AC442;
+}
+
+#standard {
+  border-bottom: solid 3px #0AC442;
+}
+
+#directive-band {
+  background-color: #540D6E;
+}
+
+#directive {
+  border-bottom: solid 3px #540D6E;
+}
+
+#guide-band {
+  background-color: #D183C9;
+}
+
+#guide {
+  border-bottom: solid 3px #D183C9;
+}
+
+#specification-band {
+  background-color: #65AFFF;
+}
+
+#specification {
+  border-bottom: solid 3px #65AFFF;
+}
+
+#report-band {
+  background-color: #3A405A;
+}
+
+#report {
+  border-bottom: solid 3px #3A405A;
+}
+
+#amendment-band {
+  background-color: #F26430;
+}
+
+#amendment {
+  border-bottom: solid 3px #F26430;
+}
+
+#corrigendum-band {
+  background-color: #C84630;
+}
+
+#corrigendum {
+  border-bottom: solid 3px #C84630;
+}
+
+#administrative-band {
+  background-color: #BFAE48;
+}
+
+#administrative {
+  border-bottom: solid 3px #BFAE48;
+}
+
+#advisory-band {
+  background-color: #BD9391;
+}
+
+#advisory {
+  border-bottom: solid 3px #BD9391;
+}
+
+#proposal-band {
+  background-color: #39A0ED;
+}
+
+#proposal {
+  border-bottom: solid 3px #39A0ED;
+}
+
+#working-draft-band {
+  background-color: #2D7393;
+}
+
+#working-draft {
+  border-bottom: solid 3px #2D7393;
+}
+
+#committee-draft-band {
+  background-color: #2A6B7C;
+}
+
+#committee-draft {
+  border-bottom: solid 3px #2A6B7C;
+}
+
+#draft-standard-band {
+  background-color: #1C7F7A;
+}
+
+#draft-standard {
+  border-bottom: solid 3px #1C7F7A;
+}
+
+#final-draft-band {
+  background-color: #53C170;
+}
+
+#final-draft {
+  border-bottom: solid 3px #53C170;
+}
+
+#published-band {
+  background-color: #069E2D;
+}
+
+#published {
+  border-bottom: solid 3px #069E2D;
+}
+
+#withdrawn-band {
+  background-color: #004E64;
+}
+
+#withdrawn {
+  border-bottom: solid 3px #004E64;
+}
+
+#cancelled-band {
+  background-color: #2E382E;
+}
+
+#cancelled {
+  border-bottom: solid 3px #2E382E;
+}
+
+.coverpage-maturity, .coverpage-stage {
+  font-family: "Overpass",sans-serif;
+  font-weight: 400;
+  font-size: 1.3em;
+  margin: 0 0 2em 0;
+  text-transform: uppercase;
+}
+
+.icon-svg {
+  width: 100%;
+  color: #5ecf86;
+}
+
+.wrapper-top {
+  background: rgb(0, 51, 91);
+  background: linear-gradient(130deg, rgb(0, 51, 91) 45%, rgb(241, 248, 255) 100%);
+  color: #ffffff;
+  padding: 5em 0;
+  width: 100%;
+}
+
+.wrapper-top-bottom {
+  width: 0;
+  height: 0;
+  border-top: 100px solid #00335b;
+  border-right: 100px solid transparent;
+  position: absolute;
+}
+
+.document-type-band {
+  top: 260px;
+}
+
+.document-stage-band > :first-child {
+  height: 240px;
+}
+
+.coverpage-metadata {
+  margin-top: 35px;
+  padding-top: 15px;
+  margin-right: 25px;
+  border-top: solid 1px white;
+}
+
+.coverpage-metadata,
+.coverpage-alt-formats {
+  font-size: 12px;
+  font-family: "Overpass",sans-serif;
+  margin-left: 1em;
+  text-align: left;
+}
+.coverpage-metadata span,
+.coverpage-alt-formats span {
+  display: block;
+  text-align: left;
+}
+.coverpage-metadata span a,
+.coverpage-alt-formats span a {
+  color: white;
+}
+.coverpage-metadata span a:hover,
+.coverpage-alt-formats span a:hover {
+  text-decoration: underline;
+  background: none;
+  box-shadow: none !important;
+  font-weight: 400;
+}
+.coverpage-metadata .value,
+.coverpage-alt-formats .value {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.coverpage-metadata .label,
+.coverpage-alt-formats .label {
+  font-size: 12px;
+  padding: 0;
+}
+
+.coverpage-alt-formats span {
+  display: inline;
+  text-align: left;
+}
+.coverpage-alt-formats span a {
+  padding-right: 5px;
+}
+
+.coverpage-title {
+  padding-bottom: 0.5em;
+  font-family: "Overpass",sans-serif;
+  font-weight: 100;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.coverpage-title span {
+  font-family: "Overpass",sans-serif;
+  font-size: 1.8em;
+  line-height: 1;
+}
+
+.docstage-box table {
+  width: auto;
+}
+.docstage-box th {
+  background-color: #93c0d6;
+}
+.docstage-box td {
+  vertical-align: top;
+  background-color: #daeef3;
+  padding: 0.5em;
+  border: 0;
+}
+.docstage-box th:first-child {
+  border-radius: 1em 0 0 0;
+}
+.docstage-box th:last-child {
+  border-radius: 0 1em 0 0;
+}
+.docstage-box tr:first-child {
+  border-radius: 0 0 0 1em;
+}
+.docstage-box tr:last-child {
+  border-radius: 0 1em 0 0;
+}
+.docstage-box tr:last-child > td:first-child {
+  border-radius: 0 0 0 1em;
+}
+.docstage-box tr:last-child > td:last-child {
+  border-radius: 0 0 1em 0;
+}
+
+.WordSection11 {
+  padding: 0 2em 0 3em;
+}
+
+.info-section {
+  padding: 0 2em 0 5em;
+}
+
+.prefatory-section {
+  padding: 0 3em 0 6em;
+}
+
+.zzSTDTitle1, .MsoCommentText {
+  display: none;
+}
+
+.coverpage {
+  text-align: center;
+  padding-left: 1.5em;
+}
+
+.coverpage-logo span, .coverpage-tc-name span {
+  font-family: "Overpass",sans-serif;
+  text-transform: none;
+  font-weight: 300;
+  margin-left: 1em;
+}
+
+.coverpage-logo img, .coverpage-logo svg {
+  width: 500px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.coverpage-tc-name {
+  font-size: 1.2em;
+  line-height: 1.2em;
+  margin: 0.25em 0;
+}
+
+.copyright {
+  padding: 1em;
+  font-size: 0.9em;
+  text-align: left;
+}
+
+/* Document Identity */
+.coverpage-doc-identity {
+  font-size: 2em;
+  line-height: 2em;
+}
+
+.coverpage-title .title-second {
+  display: none;
+}
+
+.coverpage-stage-block {
+  font-family: "Overpass",sans-serif;
+  font-weight: 600;
+  font-size: 1.25em;
+  margin: 2em 0em 2em 0em;
+  text-transform: uppercase;
+}
+
+.authors {
+  margin-top: 2em;
+}
+.authors span {
+  display: block;
+  line-height: 2;
+}
+.authors span.roletag {
+  display: inline-block;
+  font-size: 12px;
+  color: #00335b;
+  background-color: white;
+  padding: 2px 5px;
+  margin-left: 7px;
+  border-radius: 5px;
+}
+
+/* Draft Warning */
+.coverpage-warning {
+  border: #f36f36 solid 2px;
+  color: #f36f36 !important;
+  margin: 1em 2em;
+  color: #2e81c2;
+  padding: 2em 1em 1em 1em;
+  border-radius: 25px;
+}
+.coverpage-warning h1 {
+  font-family: "Overpass",sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+
+@media print {
+  .document-info, .copyright {
+    page-break-before: always;
+  }
+  .coverpage {
+    height: 23cm;
+  }
+  .info-section {
+    display: none;
+  }
+  .wrapper-top {
+    top: 0;
+    padding-top: 4cm;
+    padding-bottom: 4cm;
+  }
+  .wrapper-top-bottom {
+    margin-top: -5px;
+    display: none;
+  }
+}
+/* For Requirement Test anchors */
+p.RecommendationTitle:hover > a.anchor,
+p.RecommendationTitle > a.anchor:hover,
+p.RecommendationTestTitle:hover > a.anchor,
+p.RecommendationTestTitle > a.anchor:hover {
+  visibility: visible;
+}
+
+table a.anchor {
+  margin-left: -2em;
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #00335b;
+  background-color: #f6f8fa;
+}
+body main {
+  margin: 0 3em 0 6em;
+}
+@media screen and (min-width: 768px) {
+  body {
+    padding-left: 360px;
+  }
+}
+@media print {
+  body {
+    padding-left: 0;
+  }
+}
+
+dl {
+  grid-template-columns: minmax(0, 1fr) 93%;
+}
+dl pre {
+  overflow-x: scroll;
+}
+
+#toc ul, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#toc ul li a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul li a {
+  padding: 5px 10px;
+}
+#toc ul a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul a {
+  color: #00335b;
+  text-decoration: none;
+  display: block;
+}
+#toc ul a:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul a:hover {
+  box-shadow: none;
+  color: white;
+}
+#toc .h2, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h2 {
+  padding-left: 30px;
+}
+#toc .h3, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h3 {
+  padding-left: 50px;
+}
+#toc .h4, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h4 {
+  padding-left: 70px;
+}
+#toc .h5, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h5 {
+  padding-left: 90px;
+}
+#toc .h6, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h6 {
+  padding-left: 110px;
+}
+#toc .toc-active, #toc li:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover {
+  background: #00335b;
+  box-shadow: inset -5px 0px 10px -5px #00335b !important;
+}
+#toc .toc-active a, #toc li:hover a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover a {
+  color: white;
+}
+@media print {
+  #toc .toc-active, #toc li:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover {
+    background: white;
+    box-shadow: none !important;
+  }
+  #toc .toc-active a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active a {
+    color: #00335b;
+  }
+  #toc li:hover a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover a {
+    color: black;
+  }
+}
+#toc li a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li a {
+  font-size: 14px;
+}
+#toc li::before, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li::before {
+  content: " ";
+  display: none;
+}
+#toc .toc-active, #toc li:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover {
+  font-weight: 600;
+}
+#toc li:hover a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover a {
+  background: none;
+  box-shadow: none;
+}
+
+#toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 323px;
+    font-size: 0.9em;
+    overflow: auto;
+    padding: 0 0 0 30px;
+    background-color: #f1f8ff;
+  }
+}
+@media print {
+  nav {
+    position: relative;
+    width: auto;
+    font-size: 0.9em;
+    overflow: auto;
+    padding: 0;
+    margin-right: 0;
+    background-color: white;
+  }
+}
+@media screen and (min-width: 768px) {
+  nav {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #toggle {
+    position: fixed;
+    height: 100%;
+    width: 30px;
+    background-color: #00335b;
+    color: white !important;
+    cursor: pointer;
+    z-index: 100;
+  }
+  #toggle span {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+}
+@media screen and (max-width: 768px) {
+  #toggle {
+    display: none;
+  }
+}
+@media print {
+  #toggle {
+    display: none;
+  }
+}
+
+.rule {
+  width: 100%;
+  height: 1px;
+  background-color: #00335b;
+  margin: 2em 0;
+}
+@media screen and (min-width: 768px) {
+  .rule.toc {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  h1.toc-contents {
+    margin-top: 1em;
+  }
+  ul#toc-list, ul#toc-list > :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+    padding: 0;
+    margin: 0;
+  }
+}
+#toc-list ul {
+  margin-bottom: 0.25em;
+}
+#toc-list li {
+  list-style-type: none;
+}
+
+figure figcaption {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+figure > img, figure > svg {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+figure {
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow: auto;
+}
+
+table figure {
+  padding: 0;
+  margin: 0;
+}
+
+.document-stage-band {
+  left: 0;
+  top: 0;
+  height: 100%;
+  position: fixed;
+  display: block;
+  z-index: 101;
+  box-shadow: -5px 0px 10px #1d1d1d;
+}
+.document-stage-band > :first-child {
+  position: relative;
+  width: 25px;
+  font-weight: 300;
+  height: 160px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin: 0;
+  margin-left: 6px;
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  white-space: nowrap;
+  display: block;
+  bottom: 0;
+}
+@media print {
+  .document-stage-band {
+    display: none;
+  }
+}
+
+.document-type-band {
+  left: 0;
+  top: 180px;
+  height: 100%;
+  position: fixed;
+  display: block;
+  z-index: 102;
+}
+.document-type-band > :first-child {
+  position: relative;
+  width: 25px;
+  font-weight: 400;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin: 0;
+  margin-left: 6px;
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  white-space: nowrap;
+  display: block;
+  bottom: 0;
+}
+@media print {
+  .document-type-band {
+    display: none;
+  }
+}
+.document-type-band .document-type {
+  top: 20px;
+}
+
+#governance-band p.document-type {
+  font-weight: 400;
+  height: 230px !important;
+}
+
+#standard-band p {
+  height: 135px;
+}
+
+#proposal-band p {
+  height: 150px;
+}
+
+#standard-band,
+#published-band {
+  color: rgb(123, 168, 18);
+}
+
+#standard,
+#published {
+  color: #9ABD48;
+}
+
+p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  color: #00335b;
+  font-weight: 400;
+  margin-top: 1.6em;
+  margin-bottom: 0.3em;
+}
+
+h1, .h1 {
+  font-size: 1.8em;
+  text-transform: uppercase;
+  margin-top: 2em;
+}
+h1 #content, .h1 #content {
+  margin-top: 2em;
+}
+
+h2, .h2 {
+  margin-top: 1.3em;
+  font-size: 1.7em;
+  font-weight: 300;
+}
+h2 p, .h2 p {
+  display: inline;
+}
+
+h3, .h3 {
+  margin-top: 1.3em;
+  font-size: 1.5em;
+  font-weight: 100;
+}
+
+h4, .h4 {
+  font-size: 1.4em;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+  background: none;
+  box-shadow: 0 0 0 0;
+}
+.contact-info a, .contact-info a:hover {
+  color: #00335b;
+}
+.contact-info {
+  padding: 2em;
+  margin-top: 5em;
+  width: 280px;
+  text-align: left;
+  border: #00335b solid 2px;
+  color: #00335b !important;
+  border-radius: 25px;
+}
+.contact-info p, .contact-info a {
+  font-family: "Space Mono",monospace;
+  font-variant-ligatures: none;
+  font-weight: 400;
+}
+.contact-info #boilerplate-name {
+  font-weight: 700;
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
+.contact-info #boilerplate-address {
+  font-size: 1em;
+  line-height: 1.3em;
+  margin-top: 0;
+}
+
+ul, ol {
+  margin-left: 1.2em;
+}
+
+ul > li {
+  list-style: none;
+}
+ul > li::before {
+  content: "—";
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+ul > li p:first-child {
+  display: inline;
+}
+ul > li:first-child {
+  margin-top: 1em;
+}
+
+ul ul > li:first-child {
+  margin-top: 0;
+}
+
+ol ul > li:first-child {
+  margin-top: 0;
+}
+
+span.keyword {
+  font-weight: 600;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  font-weight: 300;
+  margin: 1em 0 2em 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 2em;
+}
+table, table th, table td {
+  border: 1px solid black;
+  font-size: 0.95em;
+}
+table th, table td {
+  padding: 1em;
+}
+table td.header {
+  font-weight: 400;
+}
+table table.plain, table table.plain th, table table.plain td {
+  border: none !important;
+  font-size: 0.95em;
+}
+table {
+  /*color: #010d16;*/
+}
+table thead tr th {
+  background-color: #5d99d6;
+}
+table td, table th {
+  padding: 1em;
+}
+table td.header {
+  font-weight: 400;
+}
+
+.docstage-box table,
+.docstage-box table th,
+.docstage-box table td {
+  border: none;
+}
+
+table.modspec {
+  width: 100%;
+  font-weight: 300;
+  margin: 1em 0 2em 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 2em;
+}
+table.modspec, table.modspec th, table.modspec td {
+  border: none !important;
+  font-size: 0.95em;
+}
+table.modspec th, table.modspec td {
+  padding: 1em;
+}
+table.modspec td.header {
+  font-weight: 400;
+}
+table.modspec table.plain, table.modspec table.plain th, table.modspec table.plain td {
+  border: none !important;
+  font-size: 0.95em;
+}
+table.modspec {
+  color: #010d16;
+}
+table.modspec tr:nth-child(even) {
+  background: #ffffff;
+}
+table.modspec tr:nth-child(odd) {
+  background: #ffffff;
+}
+table.modspec thead tr th {
+  background-color: #5d99d6;
+}
+table.modspec td, table.modspec th {
+  padding: 1em;
+}
+table.modspec td.header {
+  font-weight: 400;
+}
+
+td > p:first-child, th > p:first-child {
+  margin-top: 0em;
+}
+
+td > p:last-child, th > p:last-child {
+  margin-bottom: 0em;
+}
+
+table > caption {
+  text-align: center;
+  margin-top: 2.5em;
+  font-weight: 400;
+}
+
+/* Terms */
+.TermNum {
+  font-weight: 300;
+}
+
+.TermNum, .Terms, .AltTerms {
+  color: #00335b;
+  font-family: "Overpass",sans-serif;
+}
+
+h2.TermNum {
+  margin-bottom: 0;
+}
+
+p.AltTerms {
+  font-size: 24px;
+  margin-top: 1em;
+}
+
+span.AdmittedLabel, span.DeprecatedLabel {
+  color: #00335b;
+  background-color: #CFE2F3;
+  font-size: 70%;
+  vertical-align: top;
+}
+
+/* Links, selection */
+a, a:visited {
+  text-decoration: none;
+  color: #2e81c2;
+}
+
+a:hover {
+  color: #00335b;
+  background: #39CCCC;
+  box-shadow: 3px 0 0 #39CCCC, -3px 0 0 #39CCCC;
+}
+
+*::selection {
+  background: #39CCCC;
+  color: #00335b;
+}
+
+*::-moz-selection {
+  background: #39CCCC;
+  color: #00335b;
+}
+
+/* Bibliograhy */
+p.Biblio, p.NormRef, div.Biblio, div.NormRef {
+  margin-top: 1em;
+  margin-left: 2em;
+}
+
+.Biblio.note, .Biblio.Note, .NormRef.note, .NormRef.Note {
+  margin-left: 3em;
+}
+
+/* Blocks */
+.SourceTitle, figcaption, summary {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+
+.ListTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+  text-align: left;
+}
+
+pre, .sourcecode {
+  font-family: "Space Mono",monospace;
+  font-variant-ligatures: none;
+  background-color: #f7f7f7;
+  font-size: 0.8em;
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow-y: auto;
+  overflow-x: scroll;
+  font-family: "Space Mono",monospace;
+  font-variant-ligatures: none;
+}
+
+.Admonition .AdmonitionTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+.Admonition {
+  padding: 1em 1.2em 1.2em 1.2em;
+  margin: 1em 0 1em 0;
+  background-color: #fcad88;
+  border-top: 10px solid #eb5a06;
+  color: #290404;
+}
+.Admonition.AdmonitionImportant {
+  background-color: #f58cff;
+  color: #5d1364;
+  border-top: 10px solid #9503a8;
+}
+.Admonition.AdmonitionWarning {
+  background-color: #ff989d;
+  color: #270204;
+  border-top: 10px solid #e4010c;
+}
+.Admonition p, .Admonition.AdmonitionImportant p, .Admonition.AdmonitionWarning p {
+  margin: 0;
+}
+
+figure, pre, .pseudocode, .sourcecode {
+  background-color: #e1eef1;
+  color: #424242;
+  font-size: 0.8em;
+}
+
+.Note {
+  background-color: #fff8bb;
+  color: #7d760b;
+  padding: 1.2em;
+  margin: 1em 0 1em 0;
+}
+.Note p {
+  margin: 0;
+}
+
+.example {
+  background-color: #e1eef1;
+  color: #424242;
+  padding: 1.2em;
+  margin: 2em 0 1em 0;
+  padding-left: 2em;
+}
+.example .example-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-left: -1.5em;
+}
+.example pre, .example .pseudocode {
+  background: none;
+}
+
+.Quote {
+  background-color: #e1eef1;
+  font-style: italic;
+  width: 80%;
+  padding: 1.5em;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.formula {
+  background-color: #f6f6f6;
+  padding: 1.5em;
+  margin-top: 2em;
+  text-align: center;
+}
+
+.recommend .RecommendationTitle, .recommendtest .RecommendationTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+
+.require .RecommendationTitle, .requiretest .RecommendationTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+
+.permission .RecommendationTitle, .permissiontest .RecommendationTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+
+.RecommendationTestTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+
+/*
+.recommend {
+  &, .example_label {
+    background-color: #f8ffbd;
+  }
+  .example_label {
+    font-weight: bold;
+  }
+}
+
+.permission {
+  &, .example_label {
+    background-color: #cdfdbe;
+  }
+  .example_label {
+    font-weight: bold;
+  }
+}
+
+.require {
+  &, .example_label {
+    background-color: #d3e6ff;
+  }
+  .example_label {
+    font-weight: bold;
+  }
+}
+*/
+.recommend .RecommendationTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+
+.require .RecommendationTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+
+.permission .RecommendationTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+
+tbody td.recommend p.RecommendationTitle, tbody td.recommend p.RecommendationTitle, tbody td.recommend p.RecommendationTitle {
+  font-weight: normal;
+  text-align: left;
+}
+
+#myBtn {
+  font-family: "Space Mono",monospace;
+  font-variant-ligatures: none;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 12px;
+  border: none;
+  outline: none;
+  background-color: #00335b;
+  opacity: 0.15;
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px 10px 15px;
+  border-radius: 4px;
+}
+#myBtn:hover {
+  opacity: 1;
+}
+@media print {
+  #myBtn {
+    display: none;
+  }
+}
+
+a.anchorjs-link:hover {
+  background: none;
+  color: #2e81c2;
+  box-shadow: none;
+}
+
+@page {
+  margin: 2cm 1cm;
+}
+@media print {
+  h1, h2, h3, h4, .h1, .h2, .h3, .h4 {
+    page-break-after: avoid;
+    margin-top: 1.2em;
+  }
+  h1, .h1 {
+    font-size: 1.5em;
+    line-height: 1.5;
+  }
+  h1.content, .h1.content {
+    margin-top: 2em;
+    line-height: 2.5em;
+  }
+  h2, .h2 {
+    font-size: 1.2em;
+  }
+  h3, .h3 {
+    font-size: 1em;
+  }
+  .prefatory-section {
+    page-break-before: always;
+  }
+  .note, .pseudocode {
+    page-break-inside: avoid;
+  }
+  .Note {
+    background-color: #fff495;
+    color: #47430c;
+    padding: 5px;
+    margin: 2em 0 1em 0;
+  }
+  .Note p {
+    padding: 0 5px 0 5px;
+  }
+  nav {
+    line-height: 1;
+  }
+}
+/* Footnotes */
+a.footnote-number {
+  vertical-align: super;
+  font-size: 0.8em;
+}
+
+.footnote {
+  font-size: 0.9em;
+}
+
+span.fmt-hi {
+  background-color: yellow;
+}
+</style><style>pre.sourcecode table td { padding: 5px; }
+pre.sourcecode table pre { margin: 0; }
+pre.sourcecode, pre.sourcecode .w {
+  color: #444444;
+}
+pre.sourcecode .cp {
+  color: #CC00A3;
+}
+pre.sourcecode .cs {
+  color: #CC00A3;
+}
+pre.sourcecode .c, pre.sourcecode .ch, pre.sourcecode .cd, pre.sourcecode .cm, pre.sourcecode .cpf, pre.sourcecode .c1 {
+  color: #1E90FF;
+}
+pre.sourcecode .kc {
+  color: #C34E00;
+}
+pre.sourcecode .kd {
+  color: #0000FF;
+}
+pre.sourcecode .kr {
+  color: #007575;
+}
+pre.sourcecode .k, pre.sourcecode .kn, pre.sourcecode .kp, pre.sourcecode .kt, pre.sourcecode .kv {
+  color: #0000FF;
+}
+pre.sourcecode .s, pre.sourcecode .sb, pre.sourcecode .sc, pre.sourcecode .ld, pre.sourcecode .sd, pre.sourcecode .s2, pre.sourcecode .se, pre.sourcecode .sh, pre.sourcecode .si, pre.sourcecode .sx, pre.sourcecode .sr, pre.sourcecode .s1, pre.sourcecode .ss {
+  color: #009C00;
+}
+pre.sourcecode .sa {
+  color: #0000FF;
+}
+pre.sourcecode .nb, pre.sourcecode .bp {
+  color: #C34E00;
+}
+pre.sourcecode .nt {
+  color: #0000FF;
+}
+</style><title>The ModSpec Model - Part 2: UML</title>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!--TOC script import-->
+<script type="text/javascript" src="https://cdn.rawgit.com/jgallen23/toc/0.3.2/dist/toc.min.js"></script>
+<script type="text/javascript">function toclevel() { return "h1:not(:empty):not(.TermNum):not(.noTOC),h2:not(:empty):not(.TermNum):not(.noTOC)";}
+</script>
+
+<!--Google fonts-->
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i|Space+Mono:400,700" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Overpass:300,300i,600,900" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Teko:300,400,500" rel="stylesheet" />
+
+<!--Font awesome import for the link icon-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous" />
+<style class="anchorjs"></style>
+<meta name="keywords" content="ogcdoc, OGC document, modspec, modular, requirements, testing, uml, part2" /><meta name="DC.subject" lang="en" content="ogcdoc, OGC document, modspec, modular, requirements, testing, uml, part2" xml:lang="en" /><meta name="DC.date" content="##" /><meta name="DC.title" lang="en" content="The ModSpec Model - Part 2: UML" xml:lang="en" /><link rel="profile" href="http://dublincore.org/documents/2008/08/04/dc-html/" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.language" content="en" />
+<meta name="DC.rights" lang="en" content="CC-BY-4.0" xml:lang="en" />
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<link rel="DCTERMS.license" href="https://www.ogc.org/license" />
+</head><body lang="EN-US" link="blue" vlink="#954F72" xml:lang="EN-US" class="container"><div class="title-section"><div class="document-stage-band" id="approved-band">
+    <p class="document-stage">Approved</p>
+</div>
+
+<div class="document-type-band" id="standard-band">
+    <p class="document-type">OGC Standard</p>
+</div>
+
+
+
+  <div id="toggle"> <span>•</span> </div>
+
+  <header>
+
+<!--<div class="WordSection1">-->
+  <div class="coverpage">
+    <div class="wrapper-top">
+
+  <div class="coverpage-doc-identity">
+
+    <div class="coverpage-title">
+      <span class="title-first">The ModSpec Model - Part 2: UML</span>
+      <!--<span class="title-second"></span>-->
+    </div>
+  </div>
+
+  <div class="coverpage-logo">
+    <span><svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 1024.8 354.8" preserveaspectratio="xMidYMin slice">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g>
+    <path class="cls-1" d="M270.5,73.63l-.36-.21-26.46-15.45-.27-.17-26.56-15.5-.18-.1-26.64-15.55-.09-.05-11.7-6.83c-9.29-5.42-20.77-5.42-30.06,0l-11.71,6.83-.09.05-26.64,15.55-.18.1-26.56,15.5-.26.16-26.47,15.46-.36.21-14.61,8.53c-5.26,3.07-5.26,10.66,0,13.73l14.61,8.53.35.21,26.48,15.46.26.14,26.56,15.51.18.1,26.64,15.55.09.05,11.7,6.83c9.29,5.42,20.78,5.42,30.06,0l11.7-6.83.09-.05,26.64-15.55.18-.1,26.56-15.51.27-.16,26.47-15.45.35-.21,14.61-8.53c5.26-3.07,5.26-10.66,0-13.73l-14.61-8.53ZM216.85,104.53l-.18.1-26.64,15.55-.09.05-19.21,11.22c-4.64,2.71-10.39,2.71-15.03,0l-19.22-11.22-.09-.05-26.64-15.55-.18-.1-20.68-12.07c-2.63-1.53-2.63-5.33,0-6.87l20.68-12.08.18-.09,26.64-15.56.09-.05,19.22-11.22c4.64-2.71,10.39-2.71,15.03,0l19.21,11.22.09.05,26.64,15.56.18.09,20.68,12.08c2.63,1.53,2.63,5.33,0,6.87l-20.68,12.07Z"></path>
+    <path class="cls-1" d="M292.88,121.08c7.95-4.64,17.94,1.1,17.94,10.3v37.1c0,2.83-1.5,5.44-3.94,6.87l-16.91,9.87c-2.65,1.55-5.98-.36-5.98-3.43v-20.83c0-1.53-1.66-2.49-2.99-1.72l-23.83,13.91-.35.21-26.47,15.45-.27.17-22.62,13.2c-2.44,1.43-3.94,4.04-3.94,6.87v85.62c0,1.53,1.66,2.49,2.99,1.72l23.57-13.77.27.17v-.32l26.47-15.45.35.21v-.41l24.85-14.51c1.22-.71,1.97-2.02,1.97-3.43v-24.37c0-2.83,1.5-5.44,3.94-6.87l16.91-9.87c2.65-1.55,5.98.37,5.98,3.43v24.29l-.53.31.53.31v23.75c0,4.24-2.25,8.16-5.92,10.3l-20.92,12.21-.43.26-26.38,15.4-.36.22-26.46,15.44-.27.17-26.56,15.5-.18.1-14.68,8.57c-5.3,3.09-11.96-.73-11.96-6.87v-137.67c0-2.83,1.5-5.44,3.94-6.87l22.7-13.25.18-.1,26.56-15.5.27-.17,26.46-15.44.36-.22,26.37-15.4.45-.26,8.89-5.19Z"></path>
+    <path class="cls-1" d="M123.05,235.69l.18.09,22.7,13.26c2.44,1.43,3.94,4.04,3.94,6.87v75.23c0,6.14-6.66,9.96-11.96,6.87-29.06-16.97-116.24-67.86-116.24-67.86-3.66-2.14-5.91-6.06-5.91-10.3v-128.46c0-9.21,9.99-14.94,17.94-10.3l8.88,5.18.45.26,26.37,15.4.36.22,26.47,15.45.26.16,26.56,15.5.18.1,22.7,13.25c2.44,1.43,3.94,4.04,3.94,6.87v19.73c0,3.07-3.33,4.98-5.98,3.43l-20.66-12.06-.18-.1-26.56-15.5-.26-.16-26.48-15.46-.35-.21-23.83-13.91c-1.33-.77-2.99.18-2.99,1.72v86.77c0,2.12,1.13,4.08,2.96,5.15l23.86,13.93.35.21,26.48,15.46.26.15,23.57,13.77c1.33.77,2.99-.18,2.99-1.72v-25.47c0-1.41-.75-2.72-1.97-3.43l-20.91-12.2c-2.44-1.43-3.94-4.04-3.94-6.87v-19.72c0-3.07,3.33-4.98,5.98-3.43l20.84,12.17Z"></path>
+  </g>
+  <path class="cls-1" d="M460.19,117.51c-21.6,0-37.47-15.77-37.47-36.96s15.87-36.96,37.47-36.96,37.37,15.77,37.37,36.96-15.77,36.96-37.37,36.96ZM485.78,80.55c0-14.64-10.85-25.7-25.59-25.7s-25.59,11.16-25.59,25.7,10.95,25.7,25.59,25.7c14.74-.1,25.59-10.95,25.59-25.7Z"></path>
+  <path class="cls-1" d="M539.12,59.97c16.38,0,28.36,12.29,28.36,28.77s-11.98,28.77-28.36,28.77c-7.06,0-13.31-2.46-18.22-6.65v24.98h-11.26V61.2h7.68l2.05,6.76c4.91-5.02,11.88-7.99,19.76-7.99ZM556.01,88.74c0-10.34-7.47-18.02-17.81-18.02s-18.02,7.78-18.02,18.02,7.58,18.02,18.02,18.02,17.81-7.68,17.81-18.02Z"></path>
+  <path class="cls-1" d="M631.47,88.85c0,1.33-.1,2.46-.31,3.79h-44.43c1.43,8.91,7.78,14.33,16.79,14.33,6.55,0,11.88-2.97,14.74-7.99h11.88c-4.4,11.57-14.33,18.63-26.62,18.63-16.07,0-28.15-12.49-28.15-28.77s12.18-28.77,28.15-28.77c16.18-.1,27.95,12.8,27.95,28.77ZM587.14,83.42h33.07c-2.05-8.29-8.29-13.21-16.69-13.21s-14.44,5.02-16.38,13.21Z"></path>
+  <path class="cls-1" d="M672.42,60.08c12.8,0,20.78,9.62,20.78,23.04v33.07h-11.26v-30.71c0-9.93-4.3-15.25-12.59-15.25s-14.74,6.86-14.74,16.59v29.38h-11.26v-54.98h7.88l2.25,7.68c4.2-5.43,10.95-8.8,18.94-8.8Z"></path>
+  <path class="cls-1" d="M495,178.12c-.2,21.81-14.95,37.47-35.83,37.47s-36.34-15.56-36.34-36.96,15.25-36.75,36.04-36.75c17.3,0,31.84,10.85,35.01,26.41h-12.08c-3.07-9.21-11.98-15.15-22.73-15.15-14.33,0-24.47,10.54-24.47,25.49s9.83,25.49,24.47,25.49c11.36,0,20.58-6.45,23.14-16.07h-25.39v-9.93h38.19Z"></path>
+  <path class="cls-1" d="M559.29,186.92c0,1.33-.1,2.46-.2,3.79h-44.53c1.43,8.91,7.78,14.33,16.79,14.33,6.55,0,11.88-2.97,14.74-7.99h11.88c-4.4,11.57-14.33,18.63-26.62,18.63-16.07,0-28.15-12.49-28.15-28.77s12.18-28.77,28.15-28.77c16.07-.1,27.95,12.69,27.95,28.77ZM514.96,181.5h33.07c-2.05-8.29-8.29-13.21-16.69-13.21-8.29-.2-14.64,5.02-16.38,13.21Z"></path>
+  <path class="cls-1" d="M596.56,215.49c-16.69,0-29.18-12.29-29.18-28.77s12.49-28.77,29.18-28.77,29.28,12.29,29.28,28.77-12.59,28.77-29.28,28.77ZM614.37,186.82c0-10.54-7.47-18.02-17.81-18.02s-17.81,7.47-17.81,18.02,7.47,18.02,17.81,18.02c10.34-.1,17.81-7.58,17.81-18.02Z"></path>
+  <path class="cls-1" d="M633.62,196.75h10.95c.2,5.84,5.12,8.8,11.77,8.8,6.04,0,10.75-2.56,10.75-7.17,0-5.22-5.84-6.35-12.59-7.47-9.21-1.54-19.96-3.58-19.96-16.28,0-9.83,8.5-16.59,21.19-16.59s20.99,6.96,21.19,17.61h-10.75c-.31-5.22-4.1-7.99-10.75-7.99-6.25,0-10.14,2.56-10.14,6.65,0,4.81,5.53,5.84,12.18,6.86,9.32,1.54,20.48,3.38,20.48,16.79,0,10.65-8.91,17.61-22.22,17.61-13-.1-21.81-7.47-22.11-18.84Z"></path>
+  <path class="cls-1" d="M719.82,158.05c16.48,0,28.36,12.29,28.36,28.77s-12.08,28.77-28.36,28.77c-7.06,0-13.31-2.46-18.22-6.65v24.88h-11.26v-74.53h7.68l2.05,6.76c5.02-5.02,11.88-7.99,19.76-7.99ZM736.71,186.82c0-10.34-7.47-18.02-17.81-18.02s-18.02,7.78-18.02,18.02,7.68,18.02,18.02,18.02,17.81-7.68,17.81-18.02Z"></path>
+  <path class="cls-1" d="M814.72,159.28v54.77h-9.01l-1.13-6.76c-4.91,5.02-11.88,7.99-19.86,7.99-16.28,0-28.46-12.29-28.46-28.77s12.18-28.77,28.46-28.77c7.99,0,14.95,3.07,20.07,8.19l1.33-6.86,8.6.2ZM803.46,186.82c0-10.34-7.47-18.02-17.81-18.02s-18.02,7.78-18.02,18.02,7.68,18.02,18.02,18.02c10.24-.2,17.81-7.78,17.81-18.02Z"></path>
+  <path class="cls-1" d="M861.41,203.92v10.24h-8.4c-11.98,0-19.45-7.37-19.45-19.55v-25.7h-9.83v-2.25l19.04-20.37h1.95v12.8h16.28v9.73h-16.18v24.78c0,6.65,3.58,10.24,10.24,10.24h6.35v.1Z"></path>
+  <path class="cls-1" d="M872.16,139.21h11.67v11.67h-11.67v-11.67ZM872.46,159.28h11.26v54.77h-11.26v-54.77Z"></path>
+  <path class="cls-1" d="M954.16,159.28v54.77h-9.01l-1.13-6.76c-4.91,5.02-11.88,7.99-19.96,7.99-16.28,0-28.46-12.29-28.46-28.77s12.18-28.77,28.46-28.77c7.99,0,15.05,3.07,20.07,8.19l1.33-6.86,8.7.2ZM942.9,186.82c0-10.34-7.47-18.02-17.81-18.02s-18.02,7.78-18.02,18.02,7.68,18.02,18.02,18.02c10.34-.2,17.81-7.78,17.81-18.02Z"></path>
+  <path class="cls-1" d="M970.23,139.62h11.26v74.53h-11.26v-74.53Z"></path>
+  <path class="cls-1" d="M422.82,276.71c0-21.29,15.56-36.75,36.45-36.75,16.79,0,30.3,10.44,33.99,26.52h-11.77c-3.38-9.42-11.67-15.15-22.22-15.15-14.23,0-24.67,10.75-24.67,25.49s10.44,25.49,24.67,25.49c10.85,0,19.25-6.04,22.42-16.18h11.77c-3.79,16.69-17.2,27.44-34.3,27.44-20.78-.1-36.34-15.77-36.34-36.86Z"></path>
+  <path class="cls-1" d="M530.11,313.46c-16.69,0-29.28-12.29-29.28-28.77s12.59-28.77,29.28-28.77,29.18,12.29,29.18,28.77c.1,16.59-12.39,28.77-29.18,28.77ZM547.93,284.69c0-10.54-7.47-18.02-17.81-18.02s-17.81,7.47-17.81,18.02,7.47,18.02,17.81,18.02,17.81-7.47,17.81-18.02Z"></path>
+  <path class="cls-1" d="M600.45,256.13c12.8,0,20.78,9.62,20.78,23.04v33.07h-11.26v-30.71c0-9.93-4.3-15.25-12.59-15.25s-14.74,6.86-14.74,16.59v29.38h-11.26v-54.87h7.88l2.25,7.68c3.99-5.63,10.75-8.91,18.94-8.91Z"></path>
+  <path class="cls-1" d="M632.39,294.83h10.95c.2,5.84,5.12,8.8,11.77,8.8,6.04,0,10.75-2.56,10.75-7.17,0-5.22-5.84-6.35-12.59-7.47-9.21-1.54-19.96-3.58-19.96-16.28,0-9.83,8.5-16.59,21.19-16.59s20.99,6.96,21.19,17.61h-10.75c-.31-5.22-4.1-7.99-10.75-7.99-6.25,0-10.14,2.56-10.14,6.65,0,4.81,5.53,5.84,12.18,6.86,9.32,1.54,20.48,3.38,20.48,16.79,0,10.65-8.91,17.61-22.22,17.61-13.21-.2-21.91-7.47-22.11-18.84Z"></path>
+  <path class="cls-1" d="M714.29,313.46c-16.69,0-29.28-12.29-29.28-28.77s12.59-28.77,29.28-28.77,29.18,12.29,29.18,28.77c.1,16.59-12.39,28.77-29.18,28.77ZM732.1,284.69c0-10.54-7.47-18.02-17.81-18.02s-17.81,7.47-17.81,18.02,7.47,18.02,17.81,18.02,17.81-7.47,17.81-18.02Z"></path>
+  <path class="cls-1" d="M786.67,256.95v10.65h-5.94c-9.32,0-13.92,5.32-13.92,15.25v29.28h-11.26v-54.77h7.58l1.95,7.47c3.89-5.22,9.32-7.78,16.79-7.78l4.81-.1Z"></path>
+  <path class="cls-1" d="M826.29,301.89v10.24h-8.4c-11.98,0-19.35-7.37-19.35-19.55v-25.7h-9.83v-2.25l19.04-20.37h1.95v12.8h16.28v9.73h-16.18v24.78c0,6.65,3.58,10.24,10.24,10.24h6.25v.1Z"></path>
+  <path class="cls-1" d="M836.94,237.19h11.67v11.67h-11.67v-11.67ZM837.25,257.26h11.26v54.77h-11.26v-54.77Z"></path>
+  <path class="cls-1" d="M863.66,288.99v-31.74h11.26v30.1c0,9.62,5.22,15.25,13.72,15.25s13.62-5.84,13.62-15.25v-30.1h11.26v31.74c0,14.74-9.73,24.47-24.88,24.47s-24.98-9.73-24.98-24.47Z"></path>
+  <path class="cls-1" d="M989.69,256.13c11.47,0,19.35,8.8,19.35,21.29v34.81h-11.26v-32.15c0-8.8-3.89-13.82-10.65-13.82-7.27,0-12.8,6.65-12.8,15.97v30.1h-10.85v-32.15c0-8.8-3.79-13.82-10.65-13.82-7.27,0-12.9,6.65-12.9,15.97v30.1h-11.26v-55.08h7.99l1.95,7.17c4.1-5.22,10.34-8.29,17.1-8.29,7.37,0,13.31,3.58,16.38,9.62,3.79-6.14,10.54-9.73,17.61-9.73Z"></path>
+</svg></span>
+  </div>
+
+  <!--
+  <div class="coverpage-tc-name">
+    <span>Technical</span>
+  </div>
+  -->
+
+  <div class="authors">
+    
+    
+    
+
+    
+    
+    <span>Carl Reed <span class="roletag">Editor</span></span>
+    
+    <span>John Herring <span class="roletag">Editor</span></span>
+    
+    
+  </div>
+
+    <div class="coverpage-metadata">
+      <span class="label">Submission Date: </span> <span class="value">2025-10-20</span>
+      <span class="label">Approval Date: </span> <span class="value">2026-03-05</span>
+      <span class="label">Publication Date: </span> <span class="value">2026-05-21</span>
+      <span class="label">External identifier of this OGC® document: <span class="docnumber value">http://www.opengis.net/doc/POL/ModSpec-part2/1.1</span></span>
+      <span class="label">Internal identifier of this OGC® document: <span class="docnumber value">24-065r1</span></span>
+      
+      
+    </div>
+
+    <div class="coverpage-alt-formats">
+      
+      <span class="label">Version: </span> <span class="value">1.1</span><br />
+      
+    
+      <span class="label">Additional Formats: </span>
+      
+      
+      <span class="value"><a href="./24-065r1.pdf"><i class="far fa-file-pdf"></i>PDF</a></span>
+      
+      
+      </div>
+    
+    </div>
+
+  </div>
+
+    <div class="wrapper-top-bottom"></div>
+
+  <div class="WordSection11">
+  <div class="coverpage-stage-block">
+    <span class="coverpage-stage" id="standard">OGC Standard</span>
+  </div>
+
+  <div class="coverpage-stage-block">
+    <p><span class="coverpage-maturity" id="approved">Approved</span></p>
+  </div>
+</div>
+
+  <div class="coverpage-warning">
+    <div class="boilerplate-legal">
+
+<div id="_3cc6ff6c-e690-5288-92ca-f91e83434633"><h1 class="IntroTitle"><a class="anchor" href="#_3cc6ff6c-e690-5288-92ca-f91e83434633"></a><a class="header" href="#_3cc6ff6c-e690-5288-92ca-f91e83434633">Notice</a></h1>
+
+<p id="_3dee3cc3-7a55-e571-5aa0-115dce238c68">This document is an OGC Member approved international standard. This document is available on a royalty free, non-discriminatory basis. Recipients of this document are invited to submit, with their comments, notification of any relevant patent rights of which they are aware and to provide supporting documentation.</p>
+</div>
+</div>
+ </div>
+         
+
+
+<div class="docstage-box">
+  <table>
+    <tr><td>Document number:</td><td>24-065r1</td></tr>
+    <tr><td>Document type:</td><td>OGC Standard</td></tr>
+    <tr><td align="right">Document subtype:</td><td align="right">Implementation</td></tr>
+    <tr><td align="right">Document stage:</td><td align="right">Approved</td></tr>
+    <tr><td align="right">Document language:</td><td align="right">English</td></tr>
+  </table>
+</div>
+
+<div class="info-section">
+<div class="copyright">
+  <div class="boilerplate-copyright">
+
+<div id="_2cd773fc-8495-2dfa-91a1-d57da3fc5833"><h1 class="IntroTitle"><a class="anchor" href="#_2cd773fc-8495-2dfa-91a1-d57da3fc5833"></a><a class="header" href="#_2cd773fc-8495-2dfa-91a1-d57da3fc5833">Copyright notice</a></h1>
+
+<p id="_f3c4258f-6b29-424c-cd01-337c0e916a04" style="text-align:center;">Copyright © 2026 Open Geospatial Consortium<br /> To obtain additional rights of use, visit <a href="https://www.ogc.org/legal">https://www.ogc.org/legal</a></p>
+</div>
+
+<div id="_6908548e-204b-56e7-9062-6924cccf2315"><h1 class="IntroTitle"><a class="anchor" href="#_6908548e-204b-56e7-9062-6924cccf2315"></a><a class="header" href="#_6908548e-204b-56e7-9062-6924cccf2315">Note</a></h1>
+
+<p id="_e1d5d5c4-54c3-2761-be2c-22547f01c057" style="text-align:left;">Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. The Open Geospatial Consortium shall not be held responsible for identifying any or all such patent rights.</p>
+
+<p id="_02892e94-7b43-630a-129c-d2e0f75ff92b" style="text-align:left;">Recipients of this document are requested to submit, with their comments, notification of any relevant patent claims or other intellectual property rights of which they may be aware that might be infringed by any implementation of the standard set forth in this document, and to provide supporting documentation.</p>
+</div>
+</div>
+</div>
+
+<div class="rule"></div>
+</div>
+  </header>
+</div><br /><div class="prefatory-section"><div class="license">
+  <div class="boilerplate-license">
+
+<div id="_45f6bdf5-80f3-f775-9740-2adafc90b1f7"><h1 class="IntroTitle"><a class="anchor" href="#_45f6bdf5-80f3-f775-9740-2adafc90b1f7"></a><a class="header" href="#_45f6bdf5-80f3-f775-9740-2adafc90b1f7">License Agreement</a></h1>
+
+<p id="_772872dd-928c-666f-92c5-676f7f5d3071">Use of this document is subject to the license agreement at <a href="https://www.ogc.org/license">https://www.ogc.org/license</a></p>
+</div>
+</div>
+
+
+<div class="boilerplate-feedback">
+
+<div id="boilerplate-standard-feedback"><p id="_cb0581b2-acf2-995c-21c5-080c40d2dfd0">Suggested additions, changes and comments on this document are welcome and encouraged. Such suggestions may be submitted using the online change request form on OGC web site: <a href="http://ogc.standardstracker.org/">http://ogc.standardstracker.org/</a></p>
+</div>
+</div>
+
+
+</div>
+
+<nav>
+  <div id="toc"><h1 class="IntroTitle"><a class="anchor" href="#_13d7055e-30fc-845a-c60e-8972faf092d9"></a><a class="header" href="#_13d7055e-30fc-845a-c60e-8972faf092d9">Contents</a></h1><ul><li class="h1"><a href="#_059fba92-a0bf-5abe-7d2d-345901eac41f">      
+  
+  I.  Keywords
+</a></li>
+<li class="h1"><a href="#_a41488e7-7bac-d9f2-77f2-4aa2bd8d1110">      
+  
+  II.  Preface
+</a></li>
+<li class="h1"><a href="#_38aa2e08-cfda-4f3e-dd4a-c3aa0ba22154">      
+  
+  III.  Security considerations
+</a></li>
+<li class="h1"><a href="#_829aa1a6-3260-4c3f-6054-ec09a220be4e">      
+  
+  IV.  Submitting Organizations
+</a></li>
+<li class="h1"><a href="#_8d8eacc5-ed21-b35c-e4af-5ce5f08a4217">      
+  
+  V.  Document terms and definitions
+</a></li>
+<li class="h1"><a href="#_f670350d-17c7-8a48-7101-21846b7fbe8f">      
+  
+  VI.  Document editors
+</a></li>
+<li class="h1"><a href="#_b9a82660-c794-5d99-9a3b-462b70bb35b3">      
+  
+  VII.  Document Contributors
+</a></li>
+<li class="h1"><a href="#_0e372091-51b9-f70d-cdcd-1ab64686c755">      
+  
+  VIII.  Revision history
+</a></li>
+<li class="h1"><a href="#_43de1c25-9218-930f-f80a-862e88b05e60">      
+  
+  IX.  Future work
+</a></li>
+<li class="h1"><a href="#_da041e27-ae41-28b9-f8ad-5d4f362ff286">      
+  
+  X.  Foreword
+</a></li>
+<li class="h1"><a href="#_4423f4cb-505f-cdef-c13b-b28c9f23032d">      
+  
+  XI.  Acknowledgements
+</a></li>
+<li class="h1"><a href="#_ac2269e4-cbc9-090e-9fc7-08ae26a6e450">      
+  
+  1.  Scope
+</a></li>
+<li class="h2"><a href="#introduction">      
+  
+  1.1.  Introduction
+</a></li>
+<li class="h1"><a href="#_9ab596a8-8f9e-d30d-b649-871951e68fff">      
+  
+  2.  Conformance
+</a></li>
+<li class="h1"><a href="#_61b41e94-15e6-417f-8475-b253b6aaa5e5">      3.  Normative references</a></li>
+<li class="h1"><a href="#cls-4">      
+  
+  4.  Terms and definitions
+</a></li>
+<li class="h1"><a href="#_f6e45bdf-8397-a59f-7462-250a26ef0c3b">      
+  
+  6.  Conventions
+</a></li>
+<li class="h2"><a href="#_f556ec27-4c69-b2e7-d0a1-6762a980f08d">      
+  
+  6.1.  Symbols (and abbreviated terms)
+</a></li>
+<li class="h2"><a href="#_08875b3f-6492-e787-e9a7-b3545c4d7dfe">      
+  
+  6.2.  Identifiers
+</a></li>
+<li class="h2"><a href="#_47395f4e-d317-efab-97ea-1b1db089ac55">      
+  
+  6.3.  Abbreviated terms
+</a></li>
+<li class="h2"><a href="#cls-5-3">      
+  
+  6.4.  Finding requirements and recommendations
+</a></li>
+<li class="h1"><a href="#cls-6">      
+  
+  7.  Requirements Class: Part 2 UML
+</a></li>
+<li class="h2"><a href="#_a3b07b73-c700-c530-25bb-51e9f37fbbc0">      
+  
+  7.1.  The ModSpec and the “Form” of a standard
+</a></li>
+<li class="h2"><a href="#cls-6-1">      
+  
+  7.2.  Optional Requirements class: UML model extension to the core
+</a></li>
+<li class="h1"><a href="#annex-A-1">      
+  
+  8.  Conformance test class: UML model extends The Standard
+</a></li>
+<li class="h2"><a href="#_96dcab98-3c1b-34a1-69e3-927ea6760325">      
+  
+  8.1.  Dependency on Core
+</a></li>
+<li class="h2"><a href="#_834a7477-4421-b03a-cee7-d974c2d5fd61">      
+  
+  8.2.  The UML model is normative
+</a></li>
+<li class="h2"><a href="#_1fe2955b-c0cc-40c0-4fa7-770522242c1a">      
+  
+  8.3.  Dependency graph must be explicit
+</a></li>
+<li class="h2"><a href="#_3ac2f07a-b2b3-bbe9-d791-754b8cc351ab">      
+  
+  8.4.  Leaf packages in only one requirements class
+</a></li>
+<li class="h2"><a href="#_061031a0-2163-dfb2-68b0-a50342e1016a">      
+  
+  8.5.  Requirements class associated to a unique package
+</a></li>
+<li class="h2"><a href="#_d0032441-0b4b-432d-fab9-7b12631dd407">      
+  
+  8.6.  A requirements class contains complete leaf packages
+</a></li>
+<li class="h2"><a href="#_b27d8da7-3128-7ef0-7fc2-400160ad06cc">      
+  
+  8.7.  Classes common to all requirement classes are in the core
+</a></li>
+<li class="h2"><a href="#_54010b22-3827-a677-e7ca-04c39b372c9e">      
+  
+  8.8.  Package dependencies become requirements class extensions
+</a></li>
+<li class="h2"><a href="#_27a15f26-300d-2d50-a946-efe6b0fc749f">      
+  
+  8.9.  Dependencies in packages are reflected in dependencies in requirements classes
+</a></li>
+<li class="h2"><a href="#_a3ba6525-1d9f-bf68-adf3-77a49f5a3943">      
+  
+  8.10.  Co-dependent packages are in the same requirements class
+</a></li>
+<li class="h2"><a href="#_70bc5ee1-e6a3-6cf1-a5df-01fabca4d236">      
+  
+  8.11.  All classes are in leaf packages
+</a></li></ul></div>
+
+</nav>
+
+
+<div class="rule toc"></div>
+</div><br /><main class="main-section"><button onclick="topFunction()" id="myBtn" title="Go to top">Top</button><div class="authority">
+
+
+
+
+
+
+</div><br /><div class="Section3" id="_059fba92-a0bf-5abe-7d2d-345901eac41f"><h1 class="IntroTitle" id="_9c7e2d6c-8422-42af-bb12-237d74092172"><a class="anchor" href="#_059fba92-a0bf-5abe-7d2d-345901eac41f"></a><a class="header" href="#_059fba92-a0bf-5abe-7d2d-345901eac41f">I.  Keywords</a></h1><p>The following are keywords to be used by search engines and document catalogues.</p><p>ogcdoc, OGC document, modspec, modular, requirements, testing, uml, part2</p></div><br /><div id="_a41488e7-7bac-d9f2-77f2-4aa2bd8d1110"><h1 class="ForewordTitle" id="_ba940641-e165-471e-a26e-0923c399aa04"><a class="anchor" href="#_a41488e7-7bac-d9f2-77f2-4aa2bd8d1110"></a><a class="header" href="#_a41488e7-7bac-d9f2-77f2-4aa2bd8d1110">II.  Preface</a></h1><p id="_91a099e0-f387-1f41-5644-94baff14c91a">This Open Geospatial Consortium (OGC) member developed and approved document, referred to as the <tt>ModSpec: Part 2 - UML</tt>, defines an optional ModSpec requirements class for UML.</p><p id="_cd3c6031-bf42-6dac-08c2-86301cd4dfdc">The ModSpec: Core Standard defines a model and related requirements and recommendations for writing and structuring modular standards documents. Further, this model is designed to enable consistent and verifiable testing of implementations of a standard that claim conformance. The ModSpec is a meta-standard: A standard specifying requirements for crafting and documenting modular and testable standards.</p><p id="_5dbf6975-c0c6-f2aa-e2ae-05cbe6c15452">The goals of using the ModSpec are:</p><div class="ul_wrap"><ul id="_8937e409-4a57-1f0e-071b-278686d8c933"><li id="_0a57b6f2-9d51-68bd-eb00-2f9e51e53256"><p id="_4bd965f8-e359-b081-c56f-38fc720538f1">To define characteristics and a structure for the development of modular standards which will minimize the difficulty in writing testable standards while maximizing usability and interoperability; and</p>
+</li>
+<li id="_7bdafc0c-5d85-384c-229e-7ae46b3ce0b7"><p id="_51b16886-5101-dc63-8a9d-e86f4c19da49">To ensure that a standard specifies requirements in a common and consistent manner and that these requirements are testable.</p>
+<div id="_ee015e24-a0a6-de32-4d2e-329e07559408" class="Note"><p><span class="note_label">NOTE:  </span>Historically, this document has been known and abbreviated as the “ModSpec.” For continuity and ease of understanding this document may also be referred to as the “OGC ModSpec.”</p></div></li>
+</ul></div><p id="_54dc6324-47c9-814e-3427-f484e871261c">Suggested additions, changes, and comments on this document are welcome and encouraged. Such suggestions may be submitted by creating an issue in the GitHub repository for this document (<a href="https://github.com/opengeospatial/ogc-modspec">https://github.com/opengeospatial/ogc-modspec</a>).</p></div><div class="Section3" id="_38aa2e08-cfda-4f3e-dd4a-c3aa0ba22154"><h1 class="IntroTitle" id="_5faaa4c0-449a-496f-b36d-378138087829"><a class="anchor" href="#_38aa2e08-cfda-4f3e-dd4a-c3aa0ba22154"></a><a class="header" href="#_38aa2e08-cfda-4f3e-dd4a-c3aa0ba22154">III.  Security considerations</a></h1><p id="_c05c3b95-6ea8-ab43-08b2-62986ef4e4f6">No security considerations have been made for this document.</p></div><div class="Section3" id="_829aa1a6-3260-4c3f-6054-ec09a220be4e"><h1 class="IntroTitle" id="_b3d4ed07-0f38-48c2-9f0c-f95959f7bd11"><a class="anchor" href="#_829aa1a6-3260-4c3f-6054-ec09a220be4e"></a><a class="header" href="#_829aa1a6-3260-4c3f-6054-ec09a220be4e">IV.  Submitting Organizations</a></h1><p>The following organizations submitted this Document to the Open Geospatial Consortium (OGC):</p><div class="ul_wrap"><ul id="_b4d257fa-0b3e-782a-3868-ace1270e7290"><li id="_78dbd503-f098-a646-9bb9-5211465c052f">Carl Reed  Associates</li>
+<li id="_ec41c0b1-7f91-a607-c5e3-b2790e1a052f">Heazeltech</li>
+<li id="_271010b3-58af-00c8-6929-9a71c9eb1a79">Tepa Enterprise Solutions (ImageMatters)</li>
+<li id="_148cf6f1-b05a-a455-e6bc-6c941a15c6af">The Danish Agency for Climate Data</li>
+<li id="_3a1faf55-110b-5d75-fd8d-faa553b5c26f">UK Met Office</li></ul></div></div><div class="Section3" id="_8d8eacc5-ed21-b35c-e4af-5ce5f08a4217"><h1 class="IntroTitle" id="_e19a7a66-3bb1-44f7-9661-1dc774bd7155"><a class="anchor" href="#_8d8eacc5-ed21-b35c-e4af-5ce5f08a4217"></a><a class="header" href="#_8d8eacc5-ed21-b35c-e4af-5ce5f08a4217">V.  Document terms and definitions</a></h1><p id="_9a61a52b-7c61-31f3-a1b5-a4b07f876009">This document uses the standard terms defined in Subclause 5.3 of [OGC 05-008], which is based on the ISO/IEC Directives, Part 2. Rules for the structure and drafting of International Standards. In particular, the word “shall” (not “must”) is the imperative verb form used to indicate a requirement to be strictly followed to conform to this standard.</p></div><div class="Section3" id="_f670350d-17c7-8a48-7101-21846b7fbe8f"><h1 class="IntroTitle" id="_f898fa55-38c7-47c6-85e1-93b128686e6f"><a class="anchor" href="#_f670350d-17c7-8a48-7101-21846b7fbe8f"></a><a class="header" href="#_f670350d-17c7-8a48-7101-21846b7fbe8f">VI.  Document editors</a></h1><p id="_ae059110-b5fc-6f1a-8586-c837d4b4cd28">The following OGC Members participated in editing this document:</p><table id="_912d20bd-db33-9b18-3b0d-ff920da8e136" class="MsoISOTable" style="border-width:1px;border-spacing:0;"><tbody><tr><th style="font-weight:bold;text-align:center;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;" scope="row">Person</th><th style="font-weight:bold;text-align:center;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;" scope="row">Organization Represented</th></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">Carl Reed</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">Carl Reed &#x26; Associates</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.5pt;">John Herring, PhD</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.5pt;">Oracle</td></tr></tbody></table></div><div class="Section3" id="_b9a82660-c794-5d99-9a3b-462b70bb35b3"><h1 class="IntroTitle" id="_87e16532-8766-4c28-88aa-aa9ae1385fdb"><a class="anchor" href="#_b9a82660-c794-5d99-9a3b-462b70bb35b3"></a><a class="header" href="#_b9a82660-c794-5d99-9a3b-462b70bb35b3">VII.  Document Contributors</a></h1><p id="_08c8e35b-2ca1-4cf0-4006-626dee349778">The following OGC Members contributed and participated in developing Version 1.1 of the ModSpec.</p><table id="_0ae679bf-c1d4-1971-cebb-871601119b27" class="MsoISOTable" style="border-width:1px;border-spacing:0;"><tbody><tr><th style="font-weight:bold;text-align:center;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;" scope="row">Person</th><th style="font-weight:bold;text-align:center;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;" scope="row">Organization Represented</th></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">Carl Reed, PhD</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">Carl Reed</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">Chuck Heazel</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">Heazeltech</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.5pt;">Jeff Yutzler</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.5pt;">ImageMatters</td></tr></tbody></table></div><div class="Section3" id="_0e372091-51b9-f70d-cdcd-1ab64686c755"><h1 class="IntroTitle" id="_ad15acf8-321c-4048-ae34-24e194168637"><a class="anchor" href="#_0e372091-51b9-f70d-cdcd-1ab64686c755"></a><a class="header" href="#_0e372091-51b9-f70d-cdcd-1ab64686c755">VIII.  Revision history</a></h1><p id="_466f7219-ba94-e0fb-2fed-d12b89f4a0c8">This is the second normative version of this document.</p></div><div class="Section3" id="_43de1c25-9218-930f-f80a-862e88b05e60"><h1 class="IntroTitle" id="_374ee986-5574-4d9b-b38e-a60efe1474a7"><a class="anchor" href="#_43de1c25-9218-930f-f80a-862e88b05e60"></a><a class="header" href="#_43de1c25-9218-930f-f80a-862e88b05e60">IX.  Future work</a></h1><p id="_e08a7f51-3343-2dc1-7fdb-a156ce876435">Improvements to this document will be made based on implementation and changing technical requirements.</p></div><div class="Section3" id="_da041e27-ae41-28b9-f8ad-5d4f362ff286"><h1 class="IntroTitle" id="_2fe291d8-8f5f-4199-94fa-6b1d701fa6db"><a class="anchor" href="#_da041e27-ae41-28b9-f8ad-5d4f362ff286"></a><a class="header" href="#_da041e27-ae41-28b9-f8ad-5d4f362ff286">X.  Foreword</a></h1><p id="_b8060b3e-68ad-6c1a-7ba8-4f499c2108f6">The ModSpec specifies a formal structure for standards documents but does not supply specific content. This Part 2 specifies the optional UML Requirements Class.</p><p id="_1f4c33cf-ec76-adc3-aae6-a4cf108daabe"><i>Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. The Open Geospatial Consortium Inc. shall not be held responsible for identifying any or all such patent rights.</i></p><p id="_47e502f5-3aba-18cf-bff3-b7adc3807f2e"><i>Recipients of this document are requested to submit, with their comments, notification of any relevant patent claims or other intellectual property rights of which they may be aware that might be infringed by any implementation of the standard set forth in this document, and to provide supporting documentation.</i></p></div><div class="Section3" id="_4423f4cb-505f-cdef-c13b-b28c9f23032d"><h1 class="IntroTitle" id="_5b19e8d8-d491-4813-aca0-0e5011109578"><a class="anchor" href="#_4423f4cb-505f-cdef-c13b-b28c9f23032d"></a><a class="header" href="#_4423f4cb-505f-cdef-c13b-b28c9f23032d">XI.  Acknowledgements</a></h1><p id="_53642ed6-cec4-d4ba-9a6d-9cf898ad2901">The following OGC Members were key contributors to Version 1.0 of the ModSpec</p><table id="_acfd9328-fe57-968d-0803-17d1a2d75a3d" class="MsoISOTable" style="border-width:1px;border-spacing:0;"><tbody><tr><th style="font-weight:bold;text-align:center;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;" scope="row">Person</th><th style="font-weight:bold;text-align:center;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;" scope="row">Organization Represented</th></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">Simon Cox</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">CSIRO</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">David Danko</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">ESRI</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">James Greenwood</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">SeiCorp, Inc.</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">John R. Herring</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">Oracle USA</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">Andreas Matheus</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">University of the Bundeswehr — ITS</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">Richard Pearsall</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">US National Geospatial-Intelligence Agency (NGA)</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">Clemens Portele</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">interactive instruments GmbH</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">Barry Reff</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">US Department of Homeland Security (DHS)</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">Paul Scarponcini</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">Bentley Systems, Inc.</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.5pt;">Arliss Whiteside</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.5pt;">BAE Systems — C3I Systems</td></tr></tbody></table></div><div id="_ac2269e4-cbc9-090e-9fc7-08ae26a6e450"><h1 id="_8bc9e71a-3949-4f60-926b-72b2db167288"><a class="anchor" href="#_ac2269e4-cbc9-090e-9fc7-08ae26a6e450"></a><a class="header" href="#_ac2269e4-cbc9-090e-9fc7-08ae26a6e450">1.  Scope</a></h1><p id="_23b09f96-4a21-cc4b-96d0-036f94919f94">The ModSpec defines characteristics and structure for the specification of Standards that will encourage implementation by minimizing difficulty determining requirements, mimicking implementation structure and maximizing usability and interoperability. This Part 2 of the ModSpec defines the requirement class for using UML. The use case is if the organizing mechanism for the data model used in a standard is an object model, then the mapping from parts of the model to the requirements classes should follow the logical mechanism described in Part 2 of the ModSpec.</p><div id="introduction"><h2 id="_0cc1d654-4426-4cde-ba4f-1956033884de"><a class="anchor" href="#introduction"></a><a class="header" href="#introduction">1.1.  Introduction</a></h2>
+
+<div id="_f1558910-d754-d70c-874e-cd8dadfadace"><h3><a class="anchor" href="#_f1558910-d754-d70c-874e-cd8dadfadace"></a><a class="header" href="#_f1558910-d754-d70c-874e-cd8dadfadace">1.1.1.  Semantics</a></h3>
+
+<p id="_fcdcdeff-4cfc-5bdc-0833-c3fa80e3b0d6">The ModSpec Core Standard defines requirements for conformance to the ModSpec, but testing for that conformance may depend on how the various forms and parts of a conformant standard are viewed. The ModSpec Part 2 Standard specifies how those views are to be defined as UML.</p>
+
+<p id="_d8240261-8815-7356-477b-0481a0bd661e">As suggested in Clause Requirement 8 of the ModSpec Core, the structure of the normative clauses in a standard should parallel the structure of the conformance test classes in that standard. The structure of the normative clauses in a well written standard will follow the structure of its model. This means that all three are parallel.</p>
+</div>
+
+<div id="_b8b0b998-1ff9-6d77-1201-0b4c66783f8c"><h3><a class="anchor" href="#_b8b0b998-1ff9-6d77-1201-0b4c66783f8c"></a><a class="header" href="#_b8b0b998-1ff9-6d77-1201-0b4c66783f8c">1.1.2.  ModSpec document structure</a></h3>
+
+<p id="_00d35a29-7678-54f3-fcaf-0b6c912b2ec5">Version 1.1 of the ModSpec is split into a Core standard and multiple Parts. These are:</p>
+
+<div class="ul_wrap"><ul id="_478f0dba-fac8-8dd7-601d-3ea12d2fbe25"><li id="_e59b0c36-a7c4-e49f-737c-e07a1f7309e7"><p id="_9be89d8a-578c-e54b-325a-5a8faac2a1be">Part 1: Core: Contains all the core requirements and informational text that define the model and internal structure of a standard;</p>
+</li>
+<li id="_05cfd19c-8f27-b629-2da6-9f265f7b8da9"><p id="_91b50aba-93f7-1434-9260-238b33c8a4da">Part 2: UML Model requirements; and</p>
+</li>
+<li id="_8619dab3-efdf-7a9b-3884-9dea6b86f229"><p id="_1c6abc6c-0c90-c03c-a0e8-92c0e6acf17a">Part 3: XML Model and Schematron requirements.</p>
+</li>
+</ul></div>
+</div>
+</div></div><div id="_9ab596a8-8f9e-d30d-b649-871951e68fff"><h1 id="_21911fb7-d0e0-4e3e-901c-a03d196c136e"><a class="anchor" href="#_9ab596a8-8f9e-d30d-b649-871951e68fff"></a><a class="header" href="#_9ab596a8-8f9e-d30d-b649-871951e68fff">2.  Conformance</a></h1><p id="_6970ad49-ef6b-1853-8692-7bb73bc25448">Conformance to the ModSpec: Part 2 — UML Standard by technical implementation standards can be tested by inspection. The test suite is in  <a href="#annex-A">[annex-A]</a>.</p><p id="_963528ee-2de2-a268-a557-dda0e2376f7b">There is one conformance class for this document for:</p><div class="ol_wrap"><ol type="1" id="_fc6cc9d6-fcd8-5116-05bc-b98fa0fe747d"><li id="_d3542ba9-e324-c559-e27d-b582065b6c54"><p id="_f86cdb39-82e4-94e3-e6b7-a68d8c0972c4">Standards using UML to state requirements, extending the core.</p>
+</li>
+</ol></div><p id="_1130f687-4bcc-37d1-88e8-0c16b6c8c6ac">This document contains normative language and thus places requirements on conformance, or mechanism for adoption, of candidate standards to which the ModSpec applies. In particular:</p><div class="ul_wrap"><ul id="_db197ff4-c91c-dec6-e12e-863b43f40bcb"><li id="_4bbb45d4-ae90-a201-58dc-000a8135722f"><p id="_77bd3fbd-4604-3279-f7a4-17a4ed2b17c1">The core requirements which shall be met by all conformant standards; and</p>
+</li>
+<li id="_b8b8cd94-a957-4b78-b24b-47e82895275c"><p id="_942f8512-8cf9-37f4-a3cd-b5b88a9af3cf">The various subclauses of <a href="#cls-6">Clause 7</a> list requirements partially derived from the core, but more specific to the conditions where the data model is expressed in UML. This requirements class is an extension of the Core presented in the ModSpec Core Standard  <a href="#cls-6">Clause 7</a>.</p>
+</li>
+</ul></div></div><div><h1 id="_61b41e94-15e6-417f-8475-b253b6aaa5e5">3.  Normative references</h1>
+<p id="_02b1c060-f2f9-4bc4-035d-e49887f749e3">The following documents are referred to in the text in such a way that some or all of their content constitutes requirements of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.</p>
+
+
+
+
+<p id="omg-infrastructure" class="NormRef">OMG Unified Modeling Language (OMG UML), Infrastructure, V2.5, OMG Document Number: formal/2015-03-01, Standard document URL: <a href="https://www.omg.org/spec/UML/2.5">https://www.omg.org/spec/UML/2.5</a></p>
+<p id="omg-superstructure" class="NormRef">OMG Unified Modeling Language (OMG UML), Superstructure, V2.4.1, OMG Document Number: formal/2012-05-07; Standard document URL: <a href="https://www.omg.org/spec/UML/ISO/19505-2/PDF">https://www.omg.org/spec/UML/ISO/19505-2/PDF</a></p>
+</div><div id="cls-4"><h1 id="_058713f4-729e-4813-8b1d-a8651a559801"><a class="anchor" href="#cls-4"></a><a class="header" href="#cls-4">4.  Terms and definitions</a></h1>
+<p id="_9608c37a-eaae-1098-3a4b-f705fd512d85">No terms and definitions are listed in this document.</p>
+<p id="_58b827d1-053c-7f82-223a-e1ba74bd8f10">All terms and definitions in Clause 4 of the OGC ModSpec: Core are relevant and used in this Part.</p>
+
+<p id="_f8e9eadf-aca3-9cb3-0073-925871c6904f">Terms not defined here take their meaning from computer science or from their Standard English (common US and UK) meanings.</p>
+</div><div id="_f6e45bdf-8397-a59f-7462-250a26ef0c3b"><h1 id="_4b0806b3-e740-440c-8b07-32baa1cfc0ed"><a class="anchor" href="#_f6e45bdf-8397-a59f-7462-250a26ef0c3b"></a><a class="header" href="#_f6e45bdf-8397-a59f-7462-250a26ef0c3b">6.  Conventions</a></h1><div id="_f556ec27-4c69-b2e7-d0a1-6762a980f08d"><h2 id="_17f98d52-84d7-4e3d-9401-b10d767c896c"><a class="anchor" href="#_f556ec27-4c69-b2e7-d0a1-6762a980f08d"></a><a class="header" href="#_f556ec27-4c69-b2e7-d0a1-6762a980f08d">6.1.  Symbols (and abbreviated terms)</a></h2>
+
+<p id="_f70b18fb-a8ba-fc12-f959-186ee1128b6f">All symbols used in this document are either:</p>
+
+<div class="ol_wrap"><ol type="1" id="_40058eb9-e420-1388-5ff7-63734c95e20e"><li id="_473614d1-86ce-1710-93c3-3a10c8146d8d"><p id="_1629f226-e8db-6681-d358-0ccdc6dd5891">Common mathematical symbols; or</p>
+</li>
+<li id="_e37590c3-4a84-6d46-dfce-f8ad9b96eec8"><p id="_90bb97c6-4b2f-4ebf-9771-10ed72f4f11f">UML 2 (Unified Modeling Language) as defined by OMG and accepted as a publicly available standard (PAS) by ISO in its earlier 1.3 version.</p>
+</li>
+</ol></div>
+</div><div id="_08875b3f-6492-e787-e9a7-b3545c4d7dfe"><h2 id="_26f81346-7020-44ca-8175-dd9a20adbae0"><a class="anchor" href="#_08875b3f-6492-e787-e9a7-b3545c4d7dfe"></a><a class="header" href="#_08875b3f-6492-e787-e9a7-b3545c4d7dfe">6.2.  Identifiers</a></h2>
+
+<p id="_a7cdf41c-8e04-a1c9-62d2-a9cf479f6c05">The normative provisions in this standard are denoted by the URI namespace</p>
+
+<p id="_15274dfe-d435-a4b4-6a1c-a8e11e405df2"><a href="https://www.opengis.net/spec/modspec-2/1.1/">https://www.opengis.net/spec/modspec-2/1.1/</a></p>
+
+<p id="_caddb9c5-e9b7-142c-a469-30c0f23b80e3">All requirements that appear in this document are denoted by partial URIs which are relative to the namespace shown above.</p>
+
+<p id="_a5914e6b-4a8f-adcc-4917-ac29755dc151">For the sake of brevity, the use of “req” in a requirement URI denotes:</p>
+
+<p id="_1585fdb9-bdbd-55d3-838e-89158bdcc61f"><a href="https://www.opengis.net/spec/modspec-2/1.1/">https://www.opengis.net/spec/modspec-2/1.1/</a></p>
+
+<p id="_d5fad145-d01a-46a4-f17f-c8d755cad23e">An example might be:</p>
+
+<p id="_aa54864a-9b67-a844-6dc4-1f31350c60d3">/req/core/crs</p>
+
+<p id="_f1142c46-bee3-f4d4-2067-08d8f92d1ea4">All conformance tests that appear in this document are denoted by partial URIs which are relative to the namespace shown above.</p>
+
+<p id="_5d954a7a-bba6-5fa3-9831-53b4f0499346">For the sake of brevity, the use of “conf” in a requirement URI denotes:</p>
+
+<p id="_bc463f0f-972c-1550-dbaf-dd3acd8e325d"><a href="https://www.opengis.net/spec/modspec-2/1.1/">https://www.opengis.net/spec/modspec-2/1.1/</a></p>
+
+<p id="_302cbe25-1617-dbbb-01df-124659739fa2">The same convention is used for permissions (per) and recommendations (rec).</p>
+</div><div id="_47395f4e-d317-efab-97ea-1b1db089ac55"><h2 id="_474ba61d-0f68-48d6-bd61-b4565db75f7b"><a class="anchor" href="#_47395f4e-d317-efab-97ea-1b1db089ac55"></a><a class="header" href="#_47395f4e-d317-efab-97ea-1b1db089ac55">6.3.  Abbreviated terms</a></h2>
+
+<p id="_ac577df1-8f63-ad95-4aa4-0aa194291c69">In this document the following abbreviations and acronyms are used or introduced:</p>
+
+<div class="figdl"><dl id="_6a1ec83a-f90f-b1fa-3b55-db22c1a10bf9"><dt id="symbol-ERA"><p>ERA</p></dt><dd id="_ba227459-086a-255e-1c18-54971c8a241e"><p id="_20c30323-0e57-6c7e-8aee-c2148ea9804c">Entity, Relation, Attribute (pre-object modeling technique)</p>
+</dd><dt id="symbol-ISO"><p>ISO</p></dt><dd id="_a23923fb-d732-277e-f8dd-54a6cccf2118"><p id="_1e8fd85d-3dd5-3a6a-436f-3f2f9cec0adb">International Organization for Standardization (from Greek for “same”)</p>
+</dd><dt id="symbol-OCL"><p>OCL</p></dt><dd id="_16aeb844-5c9f-491d-f321-52ecf518306c"><p id="_8f4ee962-ff2d-34cf-f99b-32fdc7a574b7">Object Constraint Language (part of UML)</p>
+</dd><dt id="symbol-OGC"><p>OGC</p></dt><dd id="_7ffb8951-bf91-be2e-b6a5-47f6f7431fbc"><p id="_d8d65901-b6cc-0a3b-e173-943c7647f5d7">Open Geospatial Consortium (<a href="http://www.opengeospatial.org/">http://www.opengeospatial.org/</a>)</p>
+</dd><dt id="symbol-OMG"><p>OMG</p></dt><dd id="_96a7774e-a551-1299-b9f6-9d917fd14cd6"><p id="_a5b2d731-2d3b-3866-2e5a-081a987d0a3e">Object Management Group (<a href="http://www.omg.org/">http://www.omg.org/</a>)</p>
+</dd><dt id="symbol-OOP"><p>OOP</p></dt><dd id="_d5dc2727-4e76-d1c0-f610-dcbbb02bb211"><p id="_d4a658c1-1b54-6882-b099-62fbe7c7904e">Object Oriented Programming</p>
+</dd><dt id="symbol-OOPL"><p>OOPL</p></dt><dd id="_faca3c65-7687-c340-a947-7201bea06b93"><p id="_cb80272f-d916-b69d-7349-f6da9ab05571">OOP Language (such as C++ or Java)</p>
+</dd><dt id="symbol-TC"><p>TC</p></dt><dd id="_d3272631-4b43-d03c-d1cd-2931c1aa054d"><p id="_58c8e8c6-7c6f-fb98-b959-706dfcfade5d">Technical Committee (usually either in ISO or OGC)</p>
+</dd><dt id="symbol-UML"><p>UML</p></dt><dd id="_080ac55e-e55b-be25-1128-0871cd504a5d"><p id="_996a7c93-c6d5-3c18-5117-4a4393b92ad5">Unified Modeling Language (an object modeling language)</p>
+</dd><dt id="symbol-XML"><p>XML</p></dt><dd id="_8df8a199-8f77-745b-689b-3dd771fd7ea5"><p id="_8094996a-25a7-7aac-c5f5-186ecdf6338a">eXtensible Markup Language</p>
+</dd></dl></div>
+</div><div id="cls-5-3"><h2 id="_e5ea846a-7a59-4a3b-8bae-786de0135b58"><a class="anchor" href="#cls-5-3"></a><a class="header" href="#cls-5-3">6.4.  Finding requirements and recommendations</a></h2>
+
+<p id="_e38930d9-4f6f-43ef-2eb2-2ad0314b1e61">Each normative statement in the ModSpec Part 2 — UML Standard is stated in one and only one place, in a standard format, and with an unique label, such as REQ001, REC001, or PER001. A requirement, recommendation, or permission may be repeated for clarification. The statement with the unique label is considered the official statement of the normative requirement or recommendation.</p>
+
+<p id="_5e091613-3726-29d8-5a02-34a770a1d518">In this document, all requirements are associated with tests specified in the test suite in  <a href="#annex-A">[annex-A]</a>. The reference to the requirement in the test case is done by a requirements label Recommendations are not tested although they still are documented using a standard template and have unique identifiers.</p>
+
+<p id="_ae7a240b-8921-2f4e-0089-78bdb8a79424">Requirements classes are separated into their own clauses and named, and specified according to inheritance (direct dependencies). The Conformance test classes in the test suite are similarly named to establish an explicit and link between requirements classes and conformance test classes.</p>
+</div></div><div id="cls-6"><h1 id="_ff97d6f9-36f7-4596-8f3c-ac5205d150d2"><a class="anchor" href="#cls-6"></a><a class="header" href="#cls-6">7.  Requirements Class: Part 2 UML</a></h1><p id="_0bf7aa45-9d80-bb9e-009d-c6bb356b610b">This clause defines the key concepts and requirements that represent Part 2 of the ModSpec.</p><div id="_a3b07b73-c700-c530-25bb-51e9f37fbbc0"><h2 id="_9a232486-f736-4863-9a82-efa484825f13"><a class="anchor" href="#_a3b07b73-c700-c530-25bb-51e9f37fbbc0"></a><a class="header" href="#_a3b07b73-c700-c530-25bb-51e9f37fbbc0">7.1.  The ModSpec and the “Form” of a standard</a></h2>
+
+<div id="_7e3be275-1076-0515-8711-05960aeb0466" class="Note"><p><span class="note_label">NOTE:  </span>For OGC Standards, the assumption is that documents are in a commonly used logical form (template).</p></div>
+
+<p id="_018b9623-2fea-3097-c114-baead1712f14">In informative sections, the use of the word “will” implies that something is an implication of a requirement. The “will” statements are not requirements but explain the consequence of requirements.</p>
+
+<p id="_b9911023-268a-dfe3-3e24-60bdc87aca48">The ModSpec defines a “requirement” of a standard as an atomic testable criterion. See the formal definition of requirement in  <a href="#term-requirement">[term-requirement]</a></p>
+</div><div id="cls-6-1"><h2 id="_ce6b5221-f575-4023-a985-8f39be604d44"><a class="anchor" href="#cls-6-1"></a><a class="header" href="#cls-6-1">7.2.  Optional Requirements class: UML model extension to the core</a></h2>
+
+<p id="_d76591f2-1e42-5d9b-6da7-32a246895c24">If the organizing mechanism for the data model used in the standard is an object model, then the mapping from parts of the model to the requirements classes should follow the logical mechanism described here.</p>
+
+<p id="_ffee8430-1c51-52f0-89f3-bc349d8d34dd">The terminology used here is common to all versions of the UML standard, and may be applied to any such version.</p>
+
+<p id="_f2b622a9-a117-8982-ec78-7430373f90d4">First, by the requirements above, the extension relationship of this conformance test class to the core will be made explicit.</p>
+
+<table id="_c4c595c0-0bd4-eae9-5c54-e0e11e01bd25" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:90%;table-layout:fixed;"><caption>Table 1</caption><colgroup><col style="width: 20%;" /><col style="width: 80%;" /></colgroup><tbody><tr><td colspan="2" style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;"><b>Requirements Class — UML extension to the core</b></td></tr><tr><td colspan="2" style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">/req/core/data-representation</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">Target</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">ModSpec Conformant UML Model</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">Dependency</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">OGC ModSpec Version 1.1 [OGC 25-003r1]</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">REQ001</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">/req/part2/uml/conformance-with-core</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">REQ002</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">/req/part2/uml/object-model</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">REQ003</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">/req/part2/uml/dependency-graph</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">REQ004</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">/req/part2/uml/leaf-package</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">REQ005</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">/req/part2/uml/class-package</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">REQ006</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">/req/part2/uml/to-leaf</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">REQ007</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">/req/part2/uml/common-req-classes</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">REQ008</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">/req/part2/uml/source-target</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">REQ009</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">/req/part2/uml/leaf-package-dependency</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">REQ010</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">/req/part2/uml/two-way-dependency</td></tr><tr><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.5pt;">REQ011</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.5pt;">/req/part2/uml/segregate-into-leaf-packages</td></tr></tbody></table>
+
+<p id="_8d7e9e74-e8e8-acfa-e9f7-37652e401cae">Any conformant UML extension will comply with the ModSpec Core requirements class.</p>
+
+<table id="req-01" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:90%;table-layout:fixed;"><caption>Table 2</caption><colgroup><col style="width: 25%;" /><col style="width: 75%;" /></colgroup><tbody><tr><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>REQ001</b></td><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>/req/part2/uml/conformance-with-core</b><br /> An implementation passing the UML conformance test class  <i>SHALL</i> first pass the ModSpec core conformance test class</td></tr></tbody></table>
+
+<p id="_6ff64591-3728-27c4-c72f-54ad1cc80fe3">Assuming all legitimate direct package dependencies are included in the UML model,
+the conformance/requirements class associated to a package <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>A</mi>
+  </mstyle>
+</math></span> will directly
+reference the conformance/requirements class associated to another package <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>B</mi>
+  </mstyle>
+</math></span>,
+if and only if <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>A</mi>
+  </mstyle>
+</math></span> is dependent on <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>B</mi>
+  </mstyle>
+</math></span>. Indirect dependencies will be dealt with as the conformance classes cascade.</p>
+
+<p id="_818b586e-9e94-71fb-aac3-bad5ed91736e">This clause uses UML terminology, but other object modeling languages and, if needed, the object code itself can be mapped to a UML model.</p>
+
+<table id="req-02" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:90%;table-layout:fixed;"><caption>Table 3</caption><colgroup><col style="width: 25%;" /><col style="width: 75%;" /></colgroup><tbody><tr><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>REQ002</b></td><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>/req/part2/uml/object-model</b><br /> To be conformant to this UML requirements class, UML  <i>SHALL</i> be used to express the object model, either as the core mechanism of the standard or as a normative adjunct to formally explain the standard in a model</td></tr></tbody></table>
+
+<table id="req-03" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:90%;table-layout:fixed;"><caption>Table 4</caption><colgroup><col style="width: 25%;" /><col style="width: 75%;" /></colgroup><tbody><tr><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>REQ003</b></td><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>/req/part2/uml/dependency-graph</b><br /> A UML model  <i>SHALL</i> have an explicit dependency graph for the leaf packages and external packages used by the standard consistent with the way their classifiers use those of other packages</td></tr></tbody><tfoot><tr><td colspan="2" style="border-top:0pt;border-bottom:solid windowtext 1.5pt;"><div id="_f8bdf265-e41a-d667-d467-41050851a0ca" class="Note"><p><span class="note_label">NOTE:  </span>External packages having predated the current version of the standard will not normally have dependencies to packages within the standard.</p></div></td></tr></tfoot></table>
+
+
+
+<p id="_4425ec73-90f5-d1e1-7905-0105d23b0efe">Other dependencies (indirect) will arise from the transitive closure of the above
+direct dependencies. That means if <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>A</mi>
+  </mstyle>
+</math></span> depends on <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>B</mi>
+  </mstyle>
+</math></span>, and <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>B</mi>
+  </mstyle>
+</math></span>
+depends on <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>C</mi>
+  </mstyle>
+</math></span> then <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>A</mi>
+  </mstyle>
+</math></span> depends on <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>C</mi>
+  </mstyle>
+</math></span>. Since these indirect dependencies will show up in the cascade of included conformance tests based solely on the direct dependencies, we can ignore them for effects on structure.</p>
+
+<p id="_a261a14a-1947-51d2-d2e5-dd4722f83e8b">Since a package can consist solely of other packages, there is always the capability to define in UML a single package that will correspond to a particular requirements class and its associated conformance class.</p>
+
+<table id="req-04" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:90%;table-layout:fixed;"><caption>Table 5</caption><colgroup><col style="width: 25%;" /><col style="width: 75%;" /></colgroup><tbody><tr><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>REQ004</b></td><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>/req/part2/uml/leaf-model</b><br /> A UML leaf package  <i>SHALL</i> be associated directly to only one requirements class.</td></tr></tbody></table>
+
+<table id="req-05" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:90%;table-layout:fixed;"><caption>Table 6</caption><colgroup><col style="width: 25%;" /><col style="width: 75%;" /></colgroup><tbody><tr><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>REQ005</b></td><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>/req/part2/uml/class-package</b><br /> Each requirements class shall be associated to a unique package in the model and include either directly or by a dependency any requirement associated to any of its subpackages.</td></tr></tbody></table>
+
+<p id="_6a702c40-74ea-9ff6-a6e1-0c53c75eeef2">The class definitions are the “requirements” of a UML expressed standard. Therefore, the logical consequence of the above is to organize requirements classes based on leaf packages.</p>
+
+<table id="req-06" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:90%;table-layout:fixed;"><caption>Table 7</caption><colgroup><col style="width: 25%;" /><col style="width: 75%;" /></colgroup><tbody><tr><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>REQ006</b></td><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>/req/part2/uml/to-leaf</b><br /> A requirements class  <i>SHALL</i> be associated to some number of complete leaf packages and all classes and constraints in those packages.</td></tr></tbody></table>
+
+<p id="_0a8e7a55-3639-b742-8d9d-6a6d91a3463f">If a requirement uses or refers to elements of more than one package, then one of the packages will be called the source of the requirement, and the other targets. The requirement with the same source package will always be associated with the same requirements package and/or class.</p>
+
+<table id="req-07" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:90%;table-layout:fixed;"><caption>Table 8</caption><colgroup><col style="width: 25%;" /><col style="width: 75%;" /></colgroup><tbody><tr><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>REQ007</b></td><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>/req/part2/uml/common-req-classe</b><br /> Classes that are common to all requirements classes  <i>SHALL</i> be in a package associated to the core requirements class.</td></tr></tbody></table>
+
+<p id="_8a92d5e5-400b-7f82-0d7a-be45cb263c00">This is actually a derived requirement and is repeated here for emphasis.</p>
+
+<p id="_f33099c1-c2e4-511d-9fd3-c084ab908171">This dependency of requirements classes will be consistent with the usual mechanism for describing the source and target of dependencies between packages. By Clause <a href="#req-22">[req-22]</a> in the Core, only classes in the source requirements class will be affected by the requirement.</p>
+
+<p id="_8eb92e8a-18ee-bbd6-c119-e49b5207e50a">In UML, source and target dependency relations are defined in such a way that the source of the relation is dependent on the target of the relation.</p>
+
+<table id="req-08" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:90%;table-layout:fixed;"><caption>Table 9</caption><colgroup><col style="width: 25%;" /><col style="width: 75%;" /></colgroup><tbody><tr><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;"><b>REQ008</b></td><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;"><b>/req/part2/uml/source-target</b><br /></td></tr><tr><td style="text-align:center;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">A</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;">In the UML model, if a “source” package is dependent on a “target” package then their requirements class  <i>SHALL</i> be equal or</td></tr><tr><td style="text-align:center;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.5pt;">B</td><td style="text-align:left;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.5pt;">The source package’s class <i>SHALL</i> be an extension of the target package’s class.</td></tr></tbody></table>
+
+<p id="_f8b43907-f139-9e3d-55a9-8e8ff5ec7aa8">This means that the dependency graph of the UML packages parallels in some sense the extension diagram of the requirements/conformance classes. If all leaf packages of the model are moved into “requirements class packages” containing their corresponding modeling packages the model then satisfies the following recommendation:</p>
+
+<p id="_7934d040-f15c-62a8-b1b0-5f5e566022c2"><b><span class="fmt-hi">Each requirements class in a conformant standard should be associated to one and only one UML package (which may contain sub-packages for a finer level of structure). If the core requirements class contains only recommendations, it may be an exception to this.</span></b></p>
+
+<table id="req-09" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:90%;table-layout:fixed;"><caption>Table 10</caption><colgroup><col style="width: 25%;" /><col style="width: 75%;" /></colgroup><tbody><tr><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>REQ009</b></td><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>/req/part2/uml/leaf-package-dependency</b><br /> If one leaf package is dependent on another leaf package, then the requirements class of the first  <i>SHALL</i> be the same or an extension of the requirements class of the second.</td></tr></tbody></table>
+
+<table id="req-10" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:90%;table-layout:fixed;"><caption>Table 11</caption><colgroup><col style="width: 25%;" /><col style="width: 75%;" /></colgroup><tbody><tr><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>REQ010</b></td><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>/req/part2/uml/two-way-dependency</b><br /> If two packages have a two-way dependency (a “co-dependency”), they  <i>SHALL</i> be associated to the same requirements class.</td></tr></tbody></table>
+
+<p id="_c722ede1-c127-c911-f946-feffc469bd8e">For example, if two classes have a two-way navigable association, then these two classes must be (transitively) in the same conformance requirements class package.</p>
+
+<p id="_3cd1f0ca-d4e8-59d8-ebc6-2200854715aa">The hierarchical structure of a UML model is based on UML classes, residing in UML packages. UML packages can then reside in larger UML packages. Although there is nothing to demand it, it is a common practice to move all classes down the hierarchy to leaf packages. Leaf packages are those that contain only classes (that is, contain no smaller subpackages). Classes can act as packages in the sense that a UML class can contain a locally defined class whose scope is the class itself. For our purposes, we will consider a class and its contained local classes to all be in the package of the original class.</p>
+
+<table id="req-11" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:90%;table-layout:fixed;"><caption>Table 12</caption><colgroup><col style="width: 25%;" /><col style="width: 75%;" /></colgroup><tbody><tr><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>REQ011</b></td><td style="text-align:left;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;"><b>/req/part2/uml/segregate-into-leaf-packages</b><br /> The UML model  <i>SHALL</i> segregate all classes into leaf packages.</td></tr></tbody></table>
+</div></div><div id="annex-A-1"><h1 id="_6d522e36-9ba3-4292-86a1-c272f71d9445"><a class="anchor" href="#annex-A-1"></a><a class="header" href="#annex-A-1">8.  Conformance test class: UML model extends The Standard</a></h1><div id="_96dcab98-3c1b-34a1-69e3-927ea6760325"><h2 id="_8697c7e4-9eda-4f8c-b7f8-af90a692af98"><a class="anchor" href="#_96dcab98-3c1b-34a1-69e3-927ea6760325"></a><a class="header" href="#_96dcab98-3c1b-34a1-69e3-927ea6760325">8.1.  Dependency on Core</a></h2>
+
+<p id="_444cbf13-3b99-70ed-eb0e-8b7a532cbb6b">An implementation passing the UML conformance test class shall first pass the core conformance test class.</p>
+
+<div class="ol_wrap"><ol type="1" id="_75153972-3c5e-2543-a8a5-53dbdd56f30e"><li id="_5e9e7f35-b92b-a15d-1d2f-cb3668d127ff"><p id="_d1ed9715-feff-32dd-8290-b41993e9cbdb">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li id="_2b0ef862-195d-b206-a6d1-12ba9879b529"><p id="_534ecf44-d44a-48bc-68b5-b1b584c5cd6c">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li id="_eebb6e0b-27cc-c402-e7e0-282e10a1b4bc"><p id="_af1172ba-1116-3ea5-b7d7-2fe414f807d9">Reference: <a href="#req-01">Table 2</a></p>
+</li>
+<li id="_38c455a7-0653-f9fc-a983-bd93d8afad44"><p id="_c3bbd909-2e60-76b5-f83f-7d38bda9b442">Test Type: Conformance.</p>
+</li>
+</ol></div>
+</div><div id="_834a7477-4421-b03a-cee7-d974c2d5fd61"><h2 id="_8d97e58d-a656-4ede-ac21-426c2115c2c4"><a class="anchor" href="#_834a7477-4421-b03a-cee7-d974c2d5fd61"></a><a class="header" href="#_834a7477-4421-b03a-cee7-d974c2d5fd61">8.2.  The UML model is normative</a></h2>
+
+<p id="_4b941de7-e176-fec5-9496-13c8d2375fda">To be conformant to this UML conformance class, UML shall be used to express the object model, either as the core mechanism of the standard or as a normative adjunct to formally explain the standard in a model.</p>
+
+<div class="ol_wrap"><ol type="1" id="_4bb4ef31-53c9-f91d-e0c4-6b20ed5f8198"><li id="_51cfb385-79f0-8a17-c2c2-fa3632967431"><p id="_28f9c599-e3b0-cb19-4436-0e4b23d26df3">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li id="_c5ba1005-42ac-a850-1bf5-fe9f4b329c0f"><p id="_e34eb93d-7e6e-2604-c290-67aa4b1d524a">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li id="_1da6007f-fd0e-a29e-7cb3-aa042cb11b4a"><p id="_d460ffe5-463e-4692-4238-22d6ae606058">Reference: <a href="#req-02">Table 3</a></p>
+</li>
+<li id="_b37d8577-db14-b16f-11a0-7704c1dc0b54"><p id="_7cd1cd4b-7e33-312c-5e80-32f121b3291e">Test Type: Conformance.</p>
+</li>
+</ol></div>
+</div><div id="_1fe2955b-c0cc-40c0-4fa7-770522242c1a"><h2 id="_f0baa21f-f569-447a-a11e-5e2108ad4006"><a class="anchor" href="#_1fe2955b-c0cc-40c0-4fa7-770522242c1a"></a><a class="header" href="#_1fe2955b-c0cc-40c0-4fa7-770522242c1a">8.3.  Dependency graph must be explicit</a></h2>
+
+<p id="_c30334ef-a27b-0f66-2426-e05727be9f52">A UML model shall have an explicit dependency graph for the leaf packages and external packages used by the standard consistent with the way their classifiers use those of other packages.</p>
+
+<div class="ol_wrap"><ol type="1" id="_a7e12b04-0c84-f7c6-266f-fdc58e341dd6"><li id="_5288bf01-9329-07e1-16a0-9de120febb81"><p id="_ea7c1d22-de3c-c62c-1b8a-8af78b1ebcf5">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li id="_62629490-3179-6768-c6ad-b93235ab23cd"><p id="_36072809-54ec-72a2-7afe-5e3a05236da3">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li id="_9aee42ef-d19a-e5be-edd9-a5914e4097d4"><p id="_ddfbdb07-8941-d899-c56c-7cd4ddbe560c">Reference: <a href="#req-03">Table 4</a></p>
+</li>
+<li id="_b450e170-4f08-f9e8-aaeb-307489fa314c"><p id="_57c17a13-49f0-79b7-2222-acd5ee36b126">Test Type: Conformance.</p>
+</li>
+</ol></div>
+</div><div id="_3ac2f07a-b2b3-bbe9-d791-754b8cc351ab"><h2 id="_6856646a-dd35-4c32-b01a-74194a035249"><a class="anchor" href="#_3ac2f07a-b2b3-bbe9-d791-754b8cc351ab"></a><a class="header" href="#_3ac2f07a-b2b3-bbe9-d791-754b8cc351ab">8.4.  Leaf packages in only one requirements class</a></h2>
+
+<p id="_2574a242-1003-0051-f3bd-331f4bfd3c66">A UML leaf package shall be associated directly to only one requirements class.</p>
+
+<div class="ol_wrap"><ol type="1" id="_d1964798-688b-e7e5-4248-5ffc8bc79577"><li id="_f7d6705c-0203-5cf2-8d2a-e31f23988bd8"><p id="_ebb5d6ae-8f40-dbaa-a4e6-341a63d3f931">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li id="_195cf562-581c-1285-e756-a606f15f5aaf"><p id="_4e9d622f-9dd8-7d7d-919d-19cf906c4e53">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li id="_70889228-f8e1-8a0a-cf5e-1c426d6aaa5a"><p id="_a4a51bef-0b35-6c50-9d6d-1d3c0227ccf1">Reference: <a href="#req-04">Table 5</a></p>
+</li>
+<li id="_7cb78f39-f812-1c37-a702-0ba48e44e3fa"><p id="_fad61b2e-a92f-976e-5224-3a414299fc7b">Test Type: Conformance.</p>
+</li>
+</ol></div>
+</div><div id="_061031a0-2163-dfb2-68b0-a50342e1016a"><h2 id="_cf2f85f8-ebde-47e9-9913-8d9dfbf5aff5"><a class="anchor" href="#_061031a0-2163-dfb2-68b0-a50342e1016a"></a><a class="header" href="#_061031a0-2163-dfb2-68b0-a50342e1016a">8.5.  Requirements class associated to a unique package</a></h2>
+
+<p id="_8f697146-c42d-c98b-0599-2976b4d59a4a">Each requirements class shall be associated to a unique package in the model and include either directly or by a dependency any requirement associated to any of its subpackages.</p>
+
+<div class="ol_wrap"><ol type="1" id="_ce6003bc-3bb0-e81b-1023-a84a47a60c30"><li id="_639b2217-3604-fccf-4c00-0fa8791df925"><p id="_46c3531c-0e5d-7890-b469-702b027bc234">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li id="_40ac1063-f6ec-db12-9cd6-95b3b150e486"><p id="_c69a3a86-1eb1-c19f-7e63-69b77696d550">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li id="_7a00fc30-f3a5-f356-fe0a-a7f2452c2106"><p id="_85668261-d855-4108-440b-8bd2f287ed38">Reference: <a href="#req-05">Table 6</a></p>
+</li>
+<li id="_379f8b69-777e-e911-b11f-6d7d2bc52704"><p id="_5cb7a2f7-6cf1-4ce2-c71e-eef214b5c097">Test Type: Conformance.</p>
+</li>
+</ol></div>
+</div><div id="_d0032441-0b4b-432d-fab9-7b12631dd407"><h2 id="_dbecc13e-dab3-4a25-978f-f377a767d0f5"><a class="anchor" href="#_d0032441-0b4b-432d-fab9-7b12631dd407"></a><a class="header" href="#_d0032441-0b4b-432d-fab9-7b12631dd407">8.6.  A requirements class contains complete leaf packages</a></h2>
+
+<p id="_00c87991-db33-47d9-c9f7-e5c2d5f50237">A requirements class shall be associated to some number of complete leaf packages and all classes and constraints in those packages.</p>
+
+<div class="ol_wrap"><ol type="1" id="_e8e80a8c-52a4-ea36-f9a6-f379dda31429"><li id="_a5df7f68-b481-b8eb-8f9a-c7c19941dfd9"><p id="_241f23c8-e525-b6e9-6881-b991c62ad2c7">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li id="_178d1cf4-5a24-b25e-d0ff-5b1b7824abe3"><p id="_d1bf7123-5f14-3f74-1175-ce29750a6f95">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li id="_8984c791-e405-ee6a-fa48-e88f177eb15a"><p id="_242153fd-e9a6-e82a-99e7-d8436cf21e2f">Reference: <a href="#req-06">Table 7</a></p>
+</li>
+<li id="_abe5280e-293f-1cfe-4de0-876edb904c1d"><p id="_95511c54-c3ed-2047-80f2-818ddb71f9b9">Test Type: Conformance.</p>
+</li>
+</ol></div>
+</div><div id="_b27d8da7-3128-7ef0-7fc2-400160ad06cc"><h2 id="_8beab264-a534-4385-b315-3e3b3b63e397"><a class="anchor" href="#_b27d8da7-3128-7ef0-7fc2-400160ad06cc"></a><a class="header" href="#_b27d8da7-3128-7ef0-7fc2-400160ad06cc">8.7.  Classes common to all requirement classes are in the core</a></h2>
+
+<p id="_0c20812b-e1f3-3e22-1b58-9e1fe504ca85">Classes that are common to all requirements classes shall be in a package associated to the core conformance/requirements class.</p>
+
+<div class="ol_wrap"><ol type="1" id="_18acaa9d-5b08-6a91-719d-0f3ebd88b7e0"><li id="_c127c187-b073-1bbf-e9a6-44dcf9095849"><p id="_13522c93-58bf-f411-e62a-29327181c4d6">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li id="_d7c9c946-de74-6961-7a26-7d89c8982b4e"><p id="_8c05b1ea-6fa5-c272-ff13-c0e4a78e490a">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li id="_2967dc5c-b3f9-37d7-9762-8aad66cf5325"><p id="_f28d6855-c406-c620-38cf-556f46fccb21">Reference: <a href="#req-07">Table 8</a>.</p>
+</li>
+<li id="_9e59d56b-269b-3c98-d654-9728b0fa4a6a"><p id="_6445d13a-3ac9-516d-c554-90eb1427d743">Test Type: Conformance.</p>
+</li>
+</ol></div>
+</div><div id="_54010b22-3827-a677-e7ca-04c39b372c9e"><h2 id="_1017b958-5255-46f8-b161-c56552078362"><a class="anchor" href="#_54010b22-3827-a677-e7ca-04c39b372c9e"></a><a class="header" href="#_54010b22-3827-a677-e7ca-04c39b372c9e">8.8.  Package dependencies become requirements class extensions</a></h2>
+
+<p id="_13cb6d17-a3a2-9d07-fba9-06a41cf2ce8b">In the UML model, if a “source” package is dependent on a “target” package then their requirements class shall be equal or the source package’s class shall be an extension of the target package’s class.</p>
+
+<div class="ol_wrap"><ol type="1" id="_02e8c26f-a2ff-534b-3275-8e0a8492f95d"><li id="_7176e79a-dd61-4b25-28f3-8f5f9423bc7b"><p id="_b1159eac-db73-0012-6cd2-5e1659761663">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li id="_989b0f1d-6f98-584d-8399-10d7fc3495d0"><p id="_676b8701-a2b0-32d6-06e2-7099046b726d">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li id="_a9b507b0-dcb8-b564-11e3-7ff04cffc737"><p id="_51e62165-1315-eb4b-0271-83327750c302">Reference: <a href="#req-08">Table 9</a>.</p>
+</li>
+<li id="_9d167cdd-f7db-08fe-95ef-d6d72ff85479"><p id="_c2c91123-5257-1151-9bf2-53e1d7dd2ddb">Test Type: Conformance.</p>
+</li>
+</ol></div>
+</div><div id="_27a15f26-300d-2d50-a946-efe6b0fc749f"><h2 id="_d0722ed4-f493-44f3-87e4-4bf839d659ad"><a class="anchor" href="#_27a15f26-300d-2d50-a946-efe6b0fc749f"></a><a class="header" href="#_27a15f26-300d-2d50-a946-efe6b0fc749f">8.9.  Dependencies in packages are reflected in dependencies in requirements classes</a></h2>
+
+<p id="_e4040ddb-0e77-e7d4-2e5c-bce59e853d3c">If one leaf package is dependent on another leaf package, then the requirements class of the first shall be the same or an extension of the requirements class of the second.</p>
+
+<div class="ol_wrap"><ol type="1" id="_6c20d74d-c077-9898-1a70-4e3b5d5f0fb0"><li id="_f80909f6-f918-da06-1525-1356ca8f9de6"><p id="_9fcc3b88-3c53-c4f2-5b05-f4f402c2a354">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li id="_5d116ee2-90fd-b36a-b9bf-828358ac34bb"><p id="_b3fa4bc4-14d3-ca0d-32fd-eb3408405de2">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li id="_d3eb7527-514d-7f5e-6465-ea733fc33e97"><p id="_5e8fd339-6acc-3653-e41f-b75963f6a49b">Reference: <a href="#req-09">Table 10</a>.</p>
+</li>
+<li id="_0fa2d7a8-1fad-fff0-9eb6-b87e2b9dda44"><p id="_2d35334e-c301-2c34-fe00-6ef1f9d571b6">Test Type: Conformance.</p>
+</li>
+</ol></div>
+</div><div id="_a3ba6525-1d9f-bf68-adf3-77a49f5a3943"><h2 id="_38a6b14a-f1f7-442e-b3d6-57f912b05d1f"><a class="anchor" href="#_a3ba6525-1d9f-bf68-adf3-77a49f5a3943"></a><a class="header" href="#_a3ba6525-1d9f-bf68-adf3-77a49f5a3943">8.10.  Co-dependent packages are in the same requirements class</a></h2>
+
+<p id="_530c6860-643e-777e-bf6e-4997d90274c0">If two packages have a two-way dependency (a “co-dependency”), they shall be associated to the same requirements class.</p>
+
+<div class="ol_wrap"><ol type="1" id="_6727d94d-1524-0e31-bd18-f6b630a4fd0c"><li id="_48bba403-964d-710b-669b-329ff0674015"><p id="_71956da7-97bd-b3a3-0e20-72102f6b1fe5">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li id="_e06c4b5e-1efc-e1c5-76bb-39e10233670d"><p id="_cee95df6-affd-11da-3c2e-cb55a047b262">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li id="_3c929cd1-b05f-b24e-a18c-ef5c48bfd08d"><p id="_32826154-9b0a-b437-9a58-1fef3ba27fbf">Reference: <a href="#req-10">Table 11</a></p>
+</li>
+<li id="_15de1103-6d89-638e-83dc-1f779a0a1f8a"><p id="_046d518f-ded7-59ca-592e-177d56e29c62">Test Type: Conformance.</p>
+</li>
+</ol></div>
+</div><div id="_70bc5ee1-e6a3-6cf1-a5df-01fabca4d236"><h2 id="_b99230c5-bbc2-42d5-b0ff-96d0fa769602"><a class="anchor" href="#_70bc5ee1-e6a3-6cf1-a5df-01fabca4d236"></a><a class="header" href="#_70bc5ee1-e6a3-6cf1-a5df-01fabca4d236">8.11.  All classes are in leaf packages</a></h2>
+
+<p id="_47a4ed83-589c-7336-178b-d6d6954d9705">The UML model shall segregate all classes into leaf packages.</p>
+
+<div class="ol_wrap"><ol type="1" id="_c957027b-b863-118b-0c05-e9debdf7cf19"><li id="_41925bb0-6b88-aeb7-0f57-70d56158a4e5"><p id="_71c0f507-3d5d-ce2b-b3c5-93dd380b085b">Test Purpose: Verify that this requirement is satisfied.</p>
+</li>
+<li id="_7b506a64-7073-4ff1-ab8f-bbfa4d9b470e"><p id="_075f479a-54cb-709f-f2be-10b3123ee35a">Test Method: Inspect the document to verify the above.</p>
+</li>
+<li id="_b87a531c-ce87-36ad-9553-c3487266851c"><p id="_1599a206-99e1-f238-6807-0791a9bfaf85">Reference: <a href="#req-11">Table 12</a></p>
+</li>
+<li id="_408036f5-1857-15ba-9b26-29742f01520f"><p id="_89ac61f5-36ff-8827-73f8-9e6b6ff16d78">Test Type: Conformance.</p>
+</li>
+</ol></div>
+</div></div></main><script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    "HTML-CSS": {
+      preferredFont: "STIX",
+      linebreaks: {
+        automatic: true,
+        width: "container"  // or specify something like "90%"/"30em"
+      }
+    },
+    MathML: {
+      linebreaks: {
+        automatic: true
+      }
+    },
+    asciimath2jax: { delimiters: [['(#(', ')#)']] }
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=MML_HTMLorMML-full" async="async"></script>
+  <script>
+    $("#toc").on('click', 'li', function(e) {
+    $(this).parent().find('li.toc-active').removeClass('toc-active');
+    $(this).addClass('toc-active');
+});
+  </script>
+
+  <script>
+    //TOC toggle animation
+    (function() {
+      const jqNav = $('nav');
+      const jqBody = $('body');
+      const jqToggle = $('#toggle');
+      const animationSpeed = 'slow';
+
+      jqToggle.on('click', function() {
+        const isNavVisible = jqNav.is(':visible');
+        const fullNavWidth = jqNav.outerWidth();
+        const navLeft = isNavVisible ? '-' + fullNavWidth + 'px' : '0px';
+        const bodyMarginLeft = isNavVisible ? '0px' : fullNavWidth + 'px';
+
+        // Stop current animations
+        jqNav.stop(true, true);
+        jqBody.stop(true, true);
+
+        if(!isNavVisible) {
+            jqNav.show();
+        }
+        jqNav.animate({'left': navLeft}, animationSpeed, function() {
+          if(isNavVisible) {jqNav.hide()}
+        });
+        jqBody.animate({'marginLeft': bodyMarginLeft}, animationSpeed);
+
+      });
+    })();
+  </script>
+
+<script>
+    // Scroll to top button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+<script>
+/*
+  $(document).ready(function() {
+	  $('[id^=toc]').each(function ()
+	  {
+	     var currentToc = $(this);
+       var url = window.location.href;
+            currentToc.wrap("<a href='" + url + "#" + currentToc.attr("id") + "'></a>");
+	  });
+});
+*/
+</script>
+
+  <script>
+    document.querySelectorAll('*|svg a').forEach(function(item) {
+      var loc = item.getAttribute('href');
+      if (loc !== null && loc.startsWith('#')) {
+  item.setAttribute('href', location.pathname + loc);
+      }
+});
+  </script>
+
+
+<script>
+
+// jQuery Inline Footnotes v1.0.3
+// Copyright (c) 2011 Vesa Vänskä, released under the MIT License.
+
+// Generated by CoffeeScript 1.6.1
+(function() {
+
+  (function($) {
+    $.inlineFootnote = function(el, options) {
+      var _this = this;
+      this.el = $(el);
+      this.el.data("inlineFootnote", this);
+      this.initialize = function() {
+        this.options = $.extend({}, $.inlineFootnote.defaultOptions, options);
+        this.footnoteId = this.el.attr("href").match(/#(.*)/)[1];
+        if (this.footnoteId) {
+          this.el.mouseenter(this.openBox);
+          return $("body").mousemove(this.closeBox);
+        }
+      };
+      this.openBox = function(event) {
+        var footnoteContent, linkOffset;
+        if (!_this.box) {
+          footnoteContent = $("[id='" + _this.footnoteId + "']").children().filter(":not('" + _this.options.hideFromContent + "')");
+          linkOffset = _this.el.offset();
+          _this.box = $("<div ></div>", {
+            id: _this.options.boxId,
+            html: footnoteContent.clone().find(_this.options.hideFromContent).remove().end(),
+            css: {
+              position: "absolute",
+              top: linkOffset.top,
+              left: linkOffset.left + _this.el.outerWidth()
+            }
+          }).appendTo("body");
+          return _this.positionBox();
+        }
+      };
+      this.closeBox = function(event) {
+        if (_this.box) {
+          if (_this.isHoveringFootnote(event)) {
+            clearTimeout(_this.closeTimeout);
+            return _this.closeTimeout = null;
+          } else {
+            if (!_this.closeTimeout) {
+              return _this.closeTimeout = setTimeout((function() {
+                _this.box.remove();
+                return _this.box = null;
+              }), _this.options.hideDelay);
+            }
+          }
+        }
+      };
+      this.isHoveringFootnote = function(event) {
+        return this.box.is(event.target) || $(event.target).closest(this.box).length > 0 || event.target === this.el[0];
+      };
+      this.positionBox = function() {
+        var boxHorizontalPadding, boxLeft, boxWidth, linkLeftOffset, windowWidth;
+        boxHorizontalPadding = parseInt(this.box.css("padding-left")) + parseInt(this.box.css("padding-right"));
+        linkLeftOffset = this.el.offset().left;
+        windowWidth = $(window).width();
+        if ((windowWidth / 2) > linkLeftOffset) {
+          boxLeft = linkLeftOffset + 20;
+          boxWidth = windowWidth - boxLeft - boxHorizontalPadding - this.options.boxMargin * 2;
+          if (boxWidth > this.options.maximumBoxWidth) {
+            boxWidth = this.options.maximumBoxWidth;
+          }
+        } else {
+          boxWidth = linkLeftOffset - boxHorizontalPadding - this.options.boxMargin * 2;
+          if (boxWidth > this.options.maximumBoxWidth) {
+            boxWidth = this.options.maximumBoxWidth;
+          }
+          boxLeft = linkLeftOffset - boxWidth - this.options.boxMargin * 2;
+        }
+        return this.box.css({
+          width: boxWidth,
+          left: boxLeft
+        });
+      };
+      return this.initialize();
+    };
+    $.inlineFootnote.defaultOptions = {
+      boxMargin: 20,
+      hideDelay: 200,
+      hideFromContent: "[rel=footnote]",
+      maximumBoxWidth: 500,
+      boxId: "footnote_box"
+    };
+    return $.fn.inlineFootnote = function(options) {
+      return this.each(function() {
+        return new $.inlineFootnote(this, options);
+      });
+    };
+  })(jQuery);
+
+}).call(this);
+</script>
+
+<script>
+      $(function() {
+        $("[rel=footnote]").inlineFootnote();
+        });
+</script>
+  <script>
+// @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat
+//
+// AnchorJS - v4.2.2 - 2020-04-20
+// https://www.bryanbraun.com/anchorjs/
+// Copyright (c) 2020 Bryan Braun; Licensed MIT
+//
+// @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat
+!function(A,e){"use strict";"function"==typeof define&&define.amd?define([],e):"object"==typeof module&&module.exports?module.exports=e():(A.AnchorJS=e(),A.anchors=new A.AnchorJS)}(this,function(){"use strict";return function(A){function f(A){A.icon=A.hasOwnProperty("icon")?A.icon:"",A.visible=A.hasOwnProperty("visible")?A.visible:"hover",A.placement=A.hasOwnProperty("placement")?A.placement:"right",A.ariaLabel=A.hasOwnProperty("ariaLabel")?A.ariaLabel:"Anchor",A.class=A.hasOwnProperty("class")?A.class:"",A.base=A.hasOwnProperty("base")?A.base:"",A.truncate=A.hasOwnProperty("truncate")?Math.floor(A.truncate):64,A.titleText=A.hasOwnProperty("titleText")?A.titleText:""}function p(A){var e;if("string"==typeof A||A instanceof String)e=[].slice.call(document.querySelectorAll(A));else{if(!(Array.isArray(A)||A instanceof NodeList))throw new Error("The selector provided to AnchorJS was invalid.");e=[].slice.call(A)}return e}this.options=A||{},this.elements=[],f(this.options),this.isTouchDevice=function(){return!!("ontouchstart"in window||window.DocumentTouch&&document instanceof DocumentTouch)},this.add=function(A){var e,t,i,n,o,s,a,r,c,h,l,u,d=[];if(f(this.options),"touch"===(l=this.options.visible)&&(l=this.isTouchDevice()?"always":"hover"),0===(e=p(A=A||"h2, h3, h4, h5, h6")).length)return this;for(!function(){if(null!==document.head.querySelector("style.anchorjs"))return;var A,e=document.createElement("style");e.className="anchorjs",e.appendChild(document.createTextNode("")),void 0===(A=document.head.querySelector('[rel="stylesheet"],style'))?document.head.appendChild(e):document.head.insertBefore(e,A);e.sheet.insertRule(".anchorjs-link{opacity:0;text-decoration:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}",e.sheet.cssRules.length),e.sheet.insertRule(":hover>.anchorjs-link,.anchorjs-link:focus{opacity:1}",e.sheet.cssRules.length),e.sheet.insertRule("[data-anchorjs-icon]::after{content:attr(data-anchorjs-icon)}",e.sheet.cssRules.length),e.sheet.insertRule('@font-face{font-family:anchorjs-icons;src:url(data:n/a;base64,AAEAAAALAIAAAwAwT1MvMg8yG2cAAAE4AAAAYGNtYXDp3gC3AAABpAAAAExnYXNwAAAAEAAAA9wAAAAIZ2x5ZlQCcfwAAAH4AAABCGhlYWQHFvHyAAAAvAAAADZoaGVhBnACFwAAAPQAAAAkaG10eASAADEAAAGYAAAADGxvY2EACACEAAAB8AAAAAhtYXhwAAYAVwAAARgAAAAgbmFtZQGOH9cAAAMAAAAAunBvc3QAAwAAAAADvAAAACAAAQAAAAEAAHzE2p9fDzz1AAkEAAAAAADRecUWAAAAANQA6R8AAAAAAoACwAAAAAgAAgAAAAAAAAABAAADwP/AAAACgAAA/9MCrQABAAAAAAAAAAAAAAAAAAAAAwABAAAAAwBVAAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAMCQAGQAAUAAAKZAswAAACPApkCzAAAAesAMwEJAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAQAAg//0DwP/AAEADwABAAAAAAQAAAAAAAAAAAAAAIAAAAAAAAAIAAAACgAAxAAAAAwAAAAMAAAAcAAEAAwAAABwAAwABAAAAHAAEADAAAAAIAAgAAgAAACDpy//9//8AAAAg6cv//f///+EWNwADAAEAAAAAAAAAAAAAAAAACACEAAEAAAAAAAAAAAAAAAAxAAACAAQARAKAAsAAKwBUAAABIiYnJjQ3NzY2MzIWFxYUBwcGIicmNDc3NjQnJiYjIgYHBwYUFxYUBwYGIwciJicmNDc3NjIXFhQHBwYUFxYWMzI2Nzc2NCcmNDc2MhcWFAcHBgYjARQGDAUtLXoWOR8fORYtLTgKGwoKCjgaGg0gEhIgDXoaGgkJBQwHdR85Fi0tOAobCgoKOBoaDSASEiANehoaCQkKGwotLXoWOR8BMwUFLYEuehYXFxYugC44CQkKGwo4GkoaDQ0NDXoaShoKGwoFBe8XFi6ALjgJCQobCjgaShoNDQ0NehpKGgobCgoKLYEuehYXAAAADACWAAEAAAAAAAEACAAAAAEAAAAAAAIAAwAIAAEAAAAAAAMACAAAAAEAAAAAAAQACAAAAAEAAAAAAAUAAQALAAEAAAAAAAYACAAAAAMAAQQJAAEAEAAMAAMAAQQJAAIABgAcAAMAAQQJAAMAEAAMAAMAAQQJAAQAEAAMAAMAAQQJAAUAAgAiAAMAAQQJAAYAEAAMYW5jaG9yanM0MDBAAGEAbgBjAGgAbwByAGoAcwA0ADAAMABAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAH//wAP) format("truetype")}',e.sheet.cssRules.length)}(),t=document.querySelectorAll("[id]"),i=[].map.call(t,function(A){return A.id}),o=0;o<e.length;o++)if(this.hasAnchorJSLink(e[o]))d.push(o);else{if(e[o].hasAttribute("id"))n=e[o].getAttribute("id");else if(e[o].hasAttribute("data-anchor-id"))n=e[o].getAttribute("data-anchor-id");else{for(c=r=this.urlify(e[o].textContent),a=0;void 0!==s&&(c=r+"-"+a),a+=1,-1!==(s=i.indexOf(c)););s=void 0,i.push(c),e[o].setAttribute("id",c),n=c}(h=document.createElement("a")).className="anchorjs-link "+this.options.class,h.setAttribute("aria-label",this.options.ariaLabel),h.setAttribute("data-anchorjs-icon",this.options.icon),this.options.titleText&&(h.title=this.options.titleText),u=document.querySelector("base")?window.location.pathname+window.location.search:"",u=this.options.base||u,h.href=u+"#"+n,"always"===l&&(h.style.opacity="1"),""===this.options.icon&&(h.style.font="1em/1 anchorjs-icons","left"===this.options.placement&&(h.style.lineHeight="inherit")),"left"===this.options.placement?(h.style.position="absolute",h.style.marginLeft="-1em",h.style.paddingRight="0.5em",e[o].insertBefore(h,e[o].firstChild)):(h.style.paddingLeft="0.375em",e[o].appendChild(h))}for(o=0;o<d.length;o++)e.splice(d[o]-o,1);return this.elements=this.elements.concat(e),this},this.remove=function(A){for(var e,t,i=p(A),n=0;n<i.length;n++)(t=i[n].querySelector(".anchorjs-link"))&&(-1!==(e=this.elements.indexOf(i[n]))&&this.elements.splice(e,1),i[n].removeChild(t));return this},this.removeAll=function(){this.remove(this.elements)},this.urlify=function(A){return this.options.truncate||f(this.options),A.trim().replace(/\'/gi,"").replace(/[& +$,:;=?@"#{}|^~[`%!'<>\]\.\/\(\)\*\\\n\t\b\v]/g,"-").replace(/-{2,}/g,"-").substring(0,this.options.truncate).replace(/^-+|-+$/gm,"").toLowerCase()},this.hasAnchorJSLink=function(A){var e=A.firstChild&&-1<(" "+A.firstChild.className+" ").indexOf(" anchorjs-link "),t=A.lastChild&&-1<(" "+A.lastChild.className+" ").indexOf(" anchorjs-link ");return e||t||!1}}});
+// @license-end
+  </script>
+    <script>
+  anchors.options = {
+  placement: 'left'
+};
+anchors.add('h1, h2, h3, h4');
+</script>
+
+<script>
+// use .collapsible element to toggle visibility of element following it
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+<script>
+const activeBtns = document.querySelectorAll('.collapsible.active')
+
+// check if there are any active buttons, and open the content for each of them as default
+if (activeBtns.length) {
+    activeBtns.forEach(btn => {
+        const content = btn.nextElementSibling
+        content.style.maxHeight = content.scrollHeight + 'px'
+    })
+}
+</script>
+
+</html>
